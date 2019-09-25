@@ -10,11 +10,11 @@
 
 
 
-![&#x652F;&#x6301;&#x8C03;&#x6574;&#x56FE;&#x7247;&#x5C3A;&#x5BF8;](../../.gitbook/assets/image%20%28249%29.png)
+![&#x652F;&#x6301;&#x8C03;&#x6574;&#x56FE;&#x7247;&#x5C3A;&#x5BF8;](../../.gitbook/assets/image%20%28252%29.png)
 
 
 
 ## 答题端显示图片
 
-![&#x7B54;&#x9898;&#x7AEF;&#x63D2;&#x5165;&#x56FE;&#x7247;&#x6548;&#x679C;](../../.gitbook/assets/image%20%28111%29.png)
+![&#x7B54;&#x9898;&#x7AEF;&#x63D2;&#x5165;&#x56FE;&#x7247;&#x6548;&#x679C;](../../.gitbook/assets/image%20%28113%29.png)
 
