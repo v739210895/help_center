@@ -1,8 +1,6 @@
 # 非MSDK登录态传递接口
 
-### API接口
-
-### 常见问题
+### [常见问题](fei-msdk-deng-lu-tai-chuan-di-jie-kou.md#chang-jian-wen-ti-1)
 
 ### 接口说明
 
