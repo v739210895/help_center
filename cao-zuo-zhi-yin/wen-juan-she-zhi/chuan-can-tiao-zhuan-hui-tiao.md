@@ -22,6 +22,8 @@
 问卷投放链接? callback\_params=XX
 {% endhint %}
 
+[点击了解详细接口文档](../../api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)。
+
 ## 提交问卷跳转到指定页面
 
 功能开启后，在设置弹窗中填写跳转的链接（链接需为包含http://或http://前缀的地址），设置完成后当答题者提交问卷后浏览器将跳转到您设置的链接上。
@@ -47,4 +49,6 @@
 
 问卷投放链接? callback\_params=XX
 {% endhint %}
+
+[点击了解详细接口文档](../../api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)。
 
