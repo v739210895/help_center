@@ -10,16 +10,10 @@
 
 ![&#x914D;&#x7F6E;&#x5BC6;&#x94A5;](../../.gitbook/assets/image%20%289%29.png)
 
-{% hint style="info" %}
+{% hint style="warning" %}
 ### 请求格式
 
-登录态传递接口链接？ uid=XX& uidSource=XX& info=XX& sign=XX& redirect=问卷投放链接&callback\_params=XXX
-
-其中callback\_params为投放链接透传参数，开发者通过在投放链接后若添加此参数，问卷系统会在发起回调时透传给开发者 
-
-请求格式： 
-
-问卷投放链接? callback\_params=XX
+API接口地址?sid=XX&uid=XX&timestamp=XX&source=XX&info=XX&redirect=问卷投放链接&sign=XX
 {% endhint %}
 
 [点击了解详细接口文档](../../api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)。
