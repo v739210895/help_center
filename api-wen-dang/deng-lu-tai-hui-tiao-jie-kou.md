@@ -75,7 +75,7 @@ echo json_encode([
 | uid\_source | 否 | string | 2-10 | 仅在问卷需要登录时传递，登录用户来源，当前只在msdk下有值wx与qq，非MSDK登录态传递则需要开发者自己定义 |
 | timestamp | 是 | int | 10位 | 时间戳 |
 | sign | 是 | string | 32 | 签名，参考签名算法 |
-| callback\_params | 否 | string | 255 | 开发者自定义回调参数，业务需要额外的参数则可以使用 |
+| callback\_params | 否 | string | 255 | 开发者自定义回调参数，业务需要额外的参数则可以使用。注意：该参数是由开发者通过问卷链接**透传**到开发者服务端的，例如：https://in.survey.imur.tencent.com/index.html?sid=xxxx&callback\_params=xxxxx。 |
 
 **回调成功约定返回格式**
 
