@@ -61,6 +61,10 @@ echo json_encode([
 ]);
 ```
 
+_回调URL示例_
+
+开发者回调接口url?sid=5da414769e8aa80019305e32&timestamp=1573556685&uid=test\_user&user\_type=third\_party&uid\_source=qq&info=afdadsfasdfasdf&callback\_params=callbackparams&sign=38408d6222e1a4c6fa598e4820443ca8
+
 **回调参数说明**
 
 **参数说明**
@@ -76,6 +80,7 @@ echo json_encode([
 | timestamp | 是 | int | 10位 | 时间戳 |
 | sign | 是 | string | 32 | 签名，参考签名算法 |
 | callback\_params | 否 | string | 255 | 开发者自定义回调参数，业务需要额外的参数则可以使用。注意：该参数是由开发者通过问卷链接**透传**到开发者服务端的，例如：https://in.survey.imur.tencent.com/index.html?sid=xxxx&callback\_params=xxxxx。 |
+| info | 否 | string | 255 | 登录用户额外的信息，该字段可以配合[非MSDK登录态传递接口使用](fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)。 |
 
 **回调成功约定返回格式**
 
