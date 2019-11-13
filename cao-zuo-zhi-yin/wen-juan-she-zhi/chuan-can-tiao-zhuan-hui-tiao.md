@@ -11,12 +11,12 @@
 ![&#x914D;&#x7F6E;&#x5BC6;&#x94A5;](../../.gitbook/assets/image%20%289%29.png)
 
 {% hint style="warning" %}
-### 请求格式
+### 请求url示例
 
 API接口地址?sid=XX&uid=XX&timestamp=XX&source=XX&info=XX&redirect=问卷投放链接&sign=XX
 {% endhint %}
 
-[点击了解详细接口文档](../../api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)。
+[点击了解详细API文档](../../api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)。
 
 ## 提交问卷跳转到指定页面
 
@@ -33,16 +33,10 @@ API接口地址?sid=XX&uid=XX&timestamp=XX&source=XX&info=XX&redirect=问卷投�
 
 
 {% hint style="info" %}
-### 回调格式
+### 回调url示例
 
-登录态传递接口链接？ uid=XX& uidSource=XX& info=XX& sign=XX& redirect=问卷投放链接&callback\_params=XXX
-
-其中callback\_params为投放链接透传参数，开发者通过在投放链接后若添加此参数，问卷系统会在发起回调时透传给开发者 
-
-请求格式：
-
-问卷投放链接? callback\_params=XX
+开发者回调接口url?sid=5da414769e8aa80019305e32×tamp=1573556685&uid=test\_user&user\_type=third\_party&uid\_source=qq&info=afdadsfasdfasdf&callback\_params=callbackparams&sign=38408d6222e1a4c6fa598e4820443ca8
 {% endhint %}
 
-[点击了解详细接口文档](../../api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)。
+[点击了解详细API文档](../../api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)。
 

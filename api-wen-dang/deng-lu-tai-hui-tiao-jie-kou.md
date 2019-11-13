@@ -63,7 +63,9 @@ echo json_encode([
 
 _回调URL示例_
 
-开发者回调接口url?sid=5da414769e8aa80019305e32&timestamp=1573556685&uid=test\_user&user\_type=third\_party&uid\_source=qq&info=afdadsfasdfasdf&callback\_params=callbackparams&sign=38408d6222e1a4c6fa598e4820443ca8
+```aspnet
+开发者回调接口url?sid=5da414769e8aa80019305e32&timestamp=1573556685&uid=test_user&user_type=third_party&uid_source=qq&info=afdadsfasdfasdf&callback_params=callbackparams&sign=38408d6222e1a4c6fa598e4820443ca8
+```
 
 **回调参数说明**
 
