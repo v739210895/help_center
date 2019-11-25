@@ -6,7 +6,7 @@
 
 可提前在EXCEL中编辑问卷，包括：问卷基本信息（项目名称、产品名称、问卷标题、欢迎语、结束语）、题目与选项内容（含字体样式）、题目设置、分页设置等。
 
-![EXCEL&#x7F16;&#x8F91;&#x95EE;&#x5377;&#x5185;&#x5BB9;](../../.gitbook/assets/image%20%28217%29.png)
+![EXCEL&#x7F16;&#x8F91;&#x95EE;&#x5377;&#x5185;&#x5BB9;](../../.gitbook/assets/image%20%28219%29.png)
 
 {% hint style="info" %}
 ### 格式规范 
@@ -44,21 +44,21 @@
 
 在问卷创建页中，点击“导入”按钮后进入导入页面，上传已编辑好的EXCEL文件。
 
-![&#x5BFC;&#x5165;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%28238%29.png)
+![&#x5BFC;&#x5165;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%28240%29.png)
 
-![&#x4E0A;&#x4F20;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%28209%29.png)
+![&#x4E0A;&#x4F20;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%28211%29.png)
 
 ## 【STEP 3】确认基本信息
 
 上传EXCEL文件后，系统会自动识别问卷内容并生成问卷列表，已上传的问卷支持重新上传或删除（删除后不会生成问卷），可调整项目名称、产品名称、问卷标题。
 
-![&#x95EE;&#x5377;&#x5217;&#x8868;](../../.gitbook/assets/image%20%2889%29.png)
+![&#x95EE;&#x5377;&#x5217;&#x8868;](../../.gitbook/assets/image%20%2890%29.png)
 
 ## 【STEP 4】生成在线问卷
 
 确认问卷信息后，点击“创建问卷”即可生成在线问卷，显示在“我的问卷”列表。
 
-![&#x786E;&#x8BA4;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%2843%29.png)
+![&#x786E;&#x8BA4;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%2844%29.png)
 
-![&#x751F;&#x6210;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%28245%29.png)
+![&#x751F;&#x6210;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%28247%29.png)
 
