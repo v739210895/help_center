@@ -6,19 +6,19 @@
 
 此功能默认开启，关闭后，答题端将不显示题号。
 
-![&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;](../../.gitbook/assets/image%20%28201%29.png)
+![&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;](../../.gitbook/assets/image%20%28205%29.png)
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5F00;&#x542F;](../../.gitbook/assets/image%20%28218%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5F00;&#x542F;](../../.gitbook/assets/image%20%28223%29.png)
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5173;&#x95ED;](../../.gitbook/assets/image%20%28182%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5173;&#x95ED;](../../.gitbook/assets/image%20%28186%29.png)
 
 ## 答题回退
 
 答题过程可以回退指的是，在答题端显示上一页的回退按钮。此功能默认关闭，在答题端不显示上一页的的回退按钮；开启后，在页面下方增加上一页的回退按钮。
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x4E0D;&#x652F;&#x6301;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28212%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x4E0D;&#x652F;&#x6301;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28217%29.png)
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x7B54;&#x9898;&#x8FC7;&#x7A0B;&#x53EF;&#x4EE5;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28108%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x7B54;&#x9898;&#x8FC7;&#x7A0B;&#x53EF;&#x4EE5;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28111%29.png)
 
 
 
