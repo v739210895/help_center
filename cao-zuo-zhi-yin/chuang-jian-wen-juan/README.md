@@ -2,7 +2,7 @@
 
 创建问卷提供两种方式：创建空白问卷、问卷自动导入
 
-![&#x521B;&#x5EFA;&#x95EE;&#x5377;&#x9875;](../../.gitbook/assets/image%20%2840%29.png)
+![&#x521B;&#x5EFA;&#x95EE;&#x5377;&#x9875;](../../.gitbook/assets/image%20%2841%29.png)
 
 
 
