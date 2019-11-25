@@ -18,5 +18,5 @@
 
 **更多—删除**：删除该问卷并清空该问卷已回收的答题数据
 
-![&#x95EE;&#x5377;&#x64CD;&#x4F5C;](../../.gitbook/assets/image%20%28176%29.png)
+![&#x95EE;&#x5377;&#x64CD;&#x4F5C;](../../.gitbook/assets/image%20%28177%29.png)
 
