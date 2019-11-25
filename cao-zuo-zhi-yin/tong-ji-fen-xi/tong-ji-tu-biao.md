@@ -10,7 +10,7 @@
 
 导出格式为CSV格式，可在excel中直接打开，排版如下：显示小计和占比百分比。
 
-![&#x5BFC;&#x51FA;&#x7EDF;&#x8BA1;&#x7ED3;&#x679C;](../../.gitbook/assets/image%20%28158%29.png)
+![&#x5BFC;&#x51FA;&#x7EDF;&#x8BA1;&#x7ED3;&#x679C;](../../.gitbook/assets/image%20%28113%29.png)
 
 
 
