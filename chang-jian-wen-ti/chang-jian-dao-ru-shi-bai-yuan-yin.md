@@ -2,27 +2,27 @@
 
 1.隐藏行
 
-![&#x9690;&#x85CF;&#x884C;](../.gitbook/assets/image%20%28167%29.png)
+![&#x9690;&#x85CF;&#x884C;](../.gitbook/assets/image%20%28171%29.png)
 
 2.题目类型错误，如：“单选”，应描述为“单选题”
 
-![&#x9898;&#x76EE;&#x7C7B;&#x578B;&#x9519;&#x8BEF;](../.gitbook/assets/image%20%2849%29.png)
+![&#x9898;&#x76EE;&#x7C7B;&#x578B;&#x9519;&#x8BEF;](../.gitbook/assets/image%20%2850%29.png)
 
 3.导入不支持的题目类型
 
-![&#x5BFC;&#x5165;&#x4E0D;&#x652F;&#x6301;&#x9898;&#x578B;&#x4F1A;&#x62A5;&#x9519;](../.gitbook/assets/image%20%28203%29.png)
+![&#x5BFC;&#x5165;&#x4E0D;&#x652F;&#x6301;&#x9898;&#x578B;&#x4F1A;&#x62A5;&#x9519;](../.gitbook/assets/image%20%28207%29.png)
 
 4.缺少题号（导入时信息栏也需要标注题号）
 
-![&#x7F3A;&#x5C11;&#x9898;&#x53F7;](../.gitbook/assets/image%20%28163%29.png)
+![&#x7F3A;&#x5C11;&#x9898;&#x53F7;](../.gitbook/assets/image%20%28167%29.png)
 
 5.题目之间间隔大于一行
 
-![&#x9898;&#x76EE;&#x4E4B;&#x95F4;&#x95F4;&#x9694;&#x5927;&#x4E8E;&#x4E00;&#x884C;](../.gitbook/assets/image%20%28235%29.png)
+![&#x9898;&#x76EE;&#x4E4B;&#x95F4;&#x95F4;&#x9694;&#x5927;&#x4E8E;&#x4E00;&#x884C;](../.gitbook/assets/image%20%28240%29.png)
 
 6.题目信息列位置错误
 
-![&#x9898;&#x76EE;&#x8BBE;&#x5217;&#x5E94;&#x5728;&#x95EE;&#x5377;&#x5185;&#x5BB9;&#x5217;&#x524D;](../.gitbook/assets/image%20%28275%29.png)
+![&#x9898;&#x76EE;&#x8BBE;&#x5217;&#x5E94;&#x5728;&#x95EE;&#x5377;&#x5185;&#x5BB9;&#x5217;&#x524D;](../.gitbook/assets/image%20%28280%29.png)
 
 
 
