@@ -19,7 +19,7 @@
 
 ### 界面主打轻量简洁，功能入口清晰
 
-![&#x521B;&#x5EFA;&#x95EE;&#x5377;](.gitbook/assets/image%20%28182%29.png)
+![&#x521B;&#x5EFA;&#x95EE;&#x5377;](.gitbook/assets/image%20%28183%29.png)
 
 ### 沿用拖拽点选添加，简化编辑操作
 
@@ -31,17 +31,17 @@
 
 ### 支持游戏内嵌投放，自由配置跳转回调
 
-![&#x95EE;&#x5377;&#x8BBE;&#x7F6E;](.gitbook/assets/image%20%28238%29.png)
+![&#x95EE;&#x5377;&#x8BBE;&#x7F6E;](.gitbook/assets/image%20%28239%29.png)
 
 ### 答题数据实时统计，直观图表展示
 
-![&#x7EDF;&#x8BA1;&#x56FE;&#x8868;](.gitbook/assets/image%20%28168%29.png)
+![&#x7EDF;&#x8BA1;&#x56FE;&#x8868;](.gitbook/assets/image%20%28169%29.png)
 
 ### 各种终端自动兼容，链接可多渠道投放
 
-![PC&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28250%29.png)
+![PC&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28251%29.png)
 
-![&#x79FB;&#x52A8;&#x7AEF;&#x7B54;&#x9898;](.gitbook/assets/image%20%28194%29.png)
+![&#x79FB;&#x52A8;&#x7AEF;&#x7B54;&#x9898;](.gitbook/assets/image%20%28195%29.png)
 
 
 
