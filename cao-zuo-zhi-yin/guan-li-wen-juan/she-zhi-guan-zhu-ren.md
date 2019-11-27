@@ -12,5 +12,5 @@
 3.若多名用户同时编辑/设置同一份问卷，以最后保存的一份问卷内容为准。
 {% endhint %}
 
-![&#x8BBE;&#x7F6E;&#x5173;&#x6CE8;&#x4EBA;](../../.gitbook/assets/image%20%28247%29.png)
+![&#x8BBE;&#x7F6E;&#x5173;&#x6CE8;&#x4EBA;](../../.gitbook/assets/image%20%28250%29.png)
 
