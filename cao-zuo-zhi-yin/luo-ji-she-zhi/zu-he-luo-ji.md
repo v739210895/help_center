@@ -12,7 +12,7 @@
 
 在新建的组合逻辑规则中需先设置显示的结果题目，每个题目仅允许被设置为显示结果一次。
 
-![&#x8BBE;&#x7F6E;&#x663E;&#x793A;&#x7ED3;&#x679C;](../../.gitbook/assets/image%20%28181%29.png)
+![&#x8BBE;&#x7F6E;&#x663E;&#x793A;&#x7ED3;&#x679C;](../../.gitbook/assets/image%20%28182%29.png)
 
 ## 【STEP 3】设置显示条件
 
@@ -32,7 +32,7 @@
 
 ![&#x5F00;&#x542F;&#x81EA;&#x5B9A;&#x4E49;&#x6761;&#x4EF6;](../../.gitbook/assets/image%20%28135%29.png)
 
-![&#x8F93;&#x5165;&#x8868;&#x8FBE;&#x5F0F;](../../.gitbook/assets/image%20%28189%29.png)
+![&#x8F93;&#x5165;&#x8868;&#x8FBE;&#x5F0F;](../../.gitbook/assets/image%20%28190%29.png)
 
 {% hint style="danger" %}
 ### 【条件逻辑说明】
