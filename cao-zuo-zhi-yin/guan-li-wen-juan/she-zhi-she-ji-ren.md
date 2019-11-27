@@ -10,9 +10,9 @@
 2.每份问卷仅支持设置一名设计人。
 {% endhint %}
 
-![&#x6DFB;&#x52A0;&#x8BBE;&#x8BA1;&#x4EBA;&#x5165;&#x53E3;](../../.gitbook/assets/image%20%2837%29.png)
+![&#x6DFB;&#x52A0;&#x8BBE;&#x8BA1;&#x4EBA;&#x5165;&#x53E3;](../../.gitbook/assets/image%20%2838%29.png)
 
-![&#x6DFB;&#x52A0;&#x8BBE;&#x8BA1;&#x4EBA;&#x5F39;&#x7A97;](../../.gitbook/assets/image%20%28177%29.png)
+![&#x6DFB;&#x52A0;&#x8BBE;&#x8BA1;&#x4EBA;&#x5F39;&#x7A97;](../../.gitbook/assets/image%20%28180%29.png)
 
 
 
