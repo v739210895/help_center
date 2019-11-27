@@ -45,6 +45,7 @@
     * [添加/查看关注人](cao-zuo-zhi-yin/guan-li-wen-juan/she-zhi-guan-zhu-ren.md)
 * [题型说明](ti-xing-shuo-ming/README.md)
   * [单选题](ti-xing-shuo-ming/dan-xuan-ti.md)
+  * [下拉题](ti-xing-shuo-ming/xia-la-ti.md)
   * [多选题](ti-xing-shuo-ming/duo-xuan-ti.md)
   * [主观题](ti-xing-shuo-ming/zhu-guan-ti.md)
   * [矩阵单选题](ti-xing-shuo-ming/ju-zhen-dan-xuan-ti.md)
