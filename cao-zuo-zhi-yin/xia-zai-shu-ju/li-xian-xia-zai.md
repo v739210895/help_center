@@ -6,7 +6,7 @@
 导出后的文件存储在云端，支持用户自行删除。
 {% endhint %}
 
-![&#x79BB;&#x7EBF;&#x4E0B;&#x8F7D;&#x5165;&#x53E3;](../../.gitbook/assets/image%20%2855%29.png)
+![&#x79BB;&#x7EBF;&#x4E0B;&#x8F7D;&#x5165;&#x53E3;](../../.gitbook/assets/image%20%2856%29.png)
 
-![&#x79BB;&#x7EBF;&#x4E0B;&#x8F7D;&#x5F39;&#x7A97;](../../.gitbook/assets/image%20%28243%29.png)
+![&#x79BB;&#x7EBF;&#x4E0B;&#x8F7D;&#x5F39;&#x7A97;](../../.gitbook/assets/image%20%28244%29.png)
 
