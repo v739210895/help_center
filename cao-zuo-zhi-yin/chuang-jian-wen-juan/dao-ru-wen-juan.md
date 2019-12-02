@@ -6,7 +6,7 @@
 
 可提前在EXCEL中编辑问卷，包括：问卷基本信息（项目名称、产品名称、问卷标题、欢迎语、结束语）、题目与选项内容（含字体样式）、题目设置、分页设置等。
 
-![EXCEL&#x7F16;&#x8F91;&#x95EE;&#x5377;&#x5185;&#x5BB9;](../../.gitbook/assets/image%20%28246%29.png)
+![EXCEL&#x7F16;&#x8F91;&#x95EE;&#x5377;&#x5185;&#x5BB9;](../../.gitbook/assets/image%20%28250%29.png)
 
 {% hint style="info" %}
 ### 格式规范 
@@ -44,9 +44,9 @@
 
 在问卷创建页中，点击“导入”按钮后进入导入页面，上传已编辑好的EXCEL文件。
 
-![&#x5BFC;&#x5165;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%28270%29.png)
+![&#x5BFC;&#x5165;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%28275%29.png)
 
-![&#x4E0A;&#x4F20;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%28236%29.png)
+![&#x4E0A;&#x4F20;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%28239%29.png)
 
 ## 【STEP 3】确认基本信息
 
@@ -60,5 +60,5 @@
 
 ![&#x786E;&#x8BA4;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%2852%29.png)
 
-![&#x751F;&#x6210;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%28277%29.png)
+![&#x751F;&#x6210;&#x95EE;&#x5377;](../../.gitbook/assets/image%20%28283%29.png)
 

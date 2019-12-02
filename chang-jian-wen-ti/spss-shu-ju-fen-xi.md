@@ -4,7 +4,7 @@
 
 在“我的问卷”列表中导出“答题编码数据”，在“离线下载”中下载对应的.zip文件，文件中包括：答题数据（.csv）、SPSS编码文件（.txt）。
 
-![&#x5BFC;&#x51FA;&#x6570;&#x636E;&#x5E76;&#x4E0B;&#x8F7D;](../.gitbook/assets/image%20%28191%29.png)
+![&#x5BFC;&#x51FA;&#x6570;&#x636E;&#x5E76;&#x4E0B;&#x8F7D;](../.gitbook/assets/image%20%28193%29.png)
 
 ![&#x5BFC;&#x51FA;&#x7684;&#x6587;&#x4EF6;](../.gitbook/assets/image%20%28152%29.png)
 
@@ -12,11 +12,11 @@
 
 解压压缩包文件后，在SPPS中打开答题数据（.csv）文件，开始导入。
 
-![SPSS&#x4E2D;&#x6587;&#x672C;&#x5BFC;&#x5165;&#x7684;&#x7B2C;&#x4E00;&#x6B65;](../.gitbook/assets/image%20%28303%29.png)
+![SPSS&#x4E2D;&#x6587;&#x672C;&#x5BFC;&#x5165;&#x7684;&#x7B2C;&#x4E00;&#x6B65;](../.gitbook/assets/image%20%28311%29.png)
 
 变量排列中选择“分隔”，变量名称是否包括在文件顶部中选择“是”，点击“下一步”。
 
-![SPSS&#x4E2D;&#x6587;&#x672C;&#x5BFC;&#x5165;&#x7684;&#x7B2C;&#x4E8C;&#x6B65;](../.gitbook/assets/image%20%28293%29.png)
+![SPSS&#x4E2D;&#x6587;&#x672C;&#x5BFC;&#x5165;&#x7684;&#x7B2C;&#x4E8C;&#x6B65;](../.gitbook/assets/image%20%28299%29.png)
 
 选择“每一行表示一个个案”，导入“全部个案”，点击“下一步”。
 
@@ -32,7 +32,7 @@
 
 完成导入。
 
-![SPSS&#x4E2D;&#x6587;&#x672C;&#x5BFC;&#x5165;&#x7684;&#x7B2C;&#x516D;&#x6B65;](../.gitbook/assets/image%20%28266%29.png)
+![SPSS&#x4E2D;&#x6587;&#x672C;&#x5BFC;&#x5165;&#x7684;&#x7B2C;&#x516D;&#x6B65;](../.gitbook/assets/image%20%28271%29.png)
 
 ![&#x7B54;&#x9898;&#x6570;&#x636E;&#x5BFC;&#x5165;&#x5B8C;&#x6210;](../.gitbook/assets/image%20%2876%29.png)
 
@@ -44,7 +44,7 @@
 
 在STEP2已导入答题数据的基础上，点击“文件”-“打开”-“语法”，选择压缩包中解压出来的SPSS编码文件（.txt），打开。
 
-![&#x6253;&#x5F00;SPSS&#x7F16;&#x7801;&#x6587;&#x4EF6;&#xFF08;.txt&#xFF09;](../.gitbook/assets/image%20%28208%29.png)
+![&#x6253;&#x5F00;SPSS&#x7F16;&#x7801;&#x6587;&#x4EF6;&#xFF08;.txt&#xFF09;](../.gitbook/assets/image%20%28210%29.png)
 
 全选后，运行编码。
 
@@ -52,5 +52,5 @@
 
 运行成功后，“变量视图”中的标签的值都导入了内容。
 
-![&#x5BFC;&#x5165;&#x7F16;&#x7801;&#x5B8C;&#x6210;](../.gitbook/assets/image%20%28239%29.png)
+![&#x5BFC;&#x5165;&#x7F16;&#x7801;&#x5B8C;&#x6210;](../.gitbook/assets/image%20%28243%29.png)
 
