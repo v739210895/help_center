@@ -64,7 +64,6 @@
   * [问卷正在回收中还能编辑吗？](chang-jian-wen-ti/wen-juan-zheng-zai-hui-shou-zhong-hai-neng-bian-ji-ma.md)
   * [正在回收中的问卷编辑后原答题数据还在吗？](chang-jian-wen-ti/zheng-zai-hui-shou-zhong-de-wen-juan-bian-ji-hou-yuan-da-ti-shu-ju-hai-zai-ma.md)
   * [数据清空后原答题数据还能找回来吗？](chang-jian-wen-ti/shu-ju-qing-kong-hou-yuan-da-ti-shu-ju-hai-neng-zhao-hui-lai-ma.md)
-  * [如何分享统计结果？](chang-jian-wen-ti/ru-he-fen-xiang-tong-ji-jie-guo.md)
   * [SPSS数据分析](chang-jian-wen-ti/spss-shu-ju-fen-xi.md)
   * [导出的数据打开出现乱码怎么办？](chang-jian-wen-ti/dao-chu-de-da-ti-shu-ju-da-kai-chu-xian-luan-ma-zen-me-ban.md)
 * [API文档](api-wen-dang/README.md)
