@@ -14,7 +14,7 @@
       <td style="text-align:left">2019.12.05</td>
       <td style="text-align:left">
         <ol>
-          <li>&#x65B0;&#x589E;&#x7B54;&#x9898;&#x7AEF;&#x63D0;&#x793A;&#x8BED;&#x8BBE;&#x7F6E;&#x529F;&#x80FD;</li>
+          <li>&#x65B0;&#x589E;<a href="cao-zuo-zhi-yin/wen-juan-she-zhi/xian-shi-she-zhi.md#da-juan-yu-yan">&#x7B54;&#x9898;&#x7AEF;&#x63D0;&#x793A;&#x8BED;&#x8BBE;&#x7F6E;</a>&#x529F;&#x80FD;</li>
           <li>&#x4FEE;&#x590D;&#x95EE;&#x5377;&#x5217;&#x8868;&#x65E0;&#x6CD5;&#x6253;&#x5F00;&#x5728;&#x7EBF;&#x7EDF;&#x8BA1;&#x9875;bug</li>
         </ol>
       </td>
@@ -24,7 +24,7 @@
       <td style="text-align:left">2019.11.29</td>
       <td style="text-align:left">
         <ol>
-          <li>&#x65B0;&#x589E;&#x95EE;&#x5377;&#x5BA1;&#x6838;&#x529F;&#x80FD;</li>
+          <li>&#x65B0;&#x589E;<a href="cao-zuo-zhi-yin/hui-shou-da-juan.md#ti-jiao-shen-he">&#x95EE;&#x5377;&#x5BA1;&#x6838;</a>&#x529F;&#x80FD;</li>
           <li>&#x6B63;&#x5728;&#x56DE;&#x6536;&#x3001;&#x6B63;&#x5728;&#x5BA1;&#x6838;&#x95EE;&#x5377;&#x9650;&#x5236;&#x7F16;&#x8F91;&#x3001;&#x6570;&#x636E;&#x6E05;&#x7A7A;&#x4E0E;&#x5220;&#x9664;</li>
         </ol>
       </td>
