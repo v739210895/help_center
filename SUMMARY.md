@@ -31,7 +31,7 @@
     * [答题限制设置](cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi.md)
     * [传参/跳转/回调](cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md)
   * [预览问卷](cao-zuo-zhi-yin/yu-lan-wen-juan.md)
-  * [回收答卷](cao-zuo-zhi-yin/hui-shou-da-juan.md)
+  * [投放问卷](cao-zuo-zhi-yin/hui-shou-da-juan.md)
   * [统计分析](cao-zuo-zhi-yin/tong-ji-fen-xi/README.md)
     * [回收概况](cao-zuo-zhi-yin/tong-ji-fen-xi/hui-shou-gai-kuang.md)
     * [统计图表](cao-zuo-zhi-yin/tong-ji-fen-xi/tong-ji-tu-biao.md)
