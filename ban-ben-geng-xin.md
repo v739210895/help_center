@@ -10,6 +10,16 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">v6.5</td>
+      <td style="text-align:left">2019.12.05</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x65B0;&#x589E;&#x7B54;&#x9898;&#x7AEF;&#x63D0;&#x793A;&#x8BED;&#x8BBE;&#x7F6E;&#x529F;&#x80FD;</li>
+          <li>&#x4FEE;&#x590D;&#x95EE;&#x5377;&#x5217;&#x8868;&#x65E0;&#x6CD5;&#x6253;&#x5F00;&#x5728;&#x7EBF;&#x7EDF;&#x8BA1;&#x9875;bug</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">v6.4</td>
       <td style="text-align:left">2019.11.29</td>
       <td style="text-align:left">
