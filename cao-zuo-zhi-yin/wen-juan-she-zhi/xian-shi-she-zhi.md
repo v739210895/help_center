@@ -6,21 +6,50 @@
 
 此功能默认开启，关闭后，答题端将不显示题号。
 
-![&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;](../../.gitbook/assets/image%20%28261%29.png)
+![&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;](../../.gitbook/assets/image%20%28120%29.png)
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5F00;&#x542F;](../../.gitbook/assets/image%20%28284%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5F00;&#x542F;](../../.gitbook/assets/image%20%28201%29.png)
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5173;&#x95ED;](../../.gitbook/assets/image%20%28238%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5173;&#x95ED;](../../.gitbook/assets/image%20%28284%29.png)
 
 ## 答题回退
 
 答题过程可以回退指的是，在答题端显示上一页的回退按钮。此功能默认关闭，在答题端不显示上一页的的回退按钮；开启后，在页面下方增加上一页的回退按钮。
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x4E0D;&#x652F;&#x6301;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28278%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x4E0D;&#x652F;&#x6301;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28346%29.png)
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x7B54;&#x9898;&#x8FC7;&#x7A0B;&#x53EF;&#x4EE5;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28142%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x7B54;&#x9898;&#x8FC7;&#x7A0B;&#x53EF;&#x4EE5;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28181%29.png)
 
+## 答卷语言
 
+答卷语言指的是，在答题端中显示的提示语语种，默认为中文简体，可根据实际需要设置其他语种。
 
+![&#x7B54;&#x5377;&#x8BED;&#x8A00;&#x8BBE;&#x7F6E;](../../.gitbook/assets/image%20%2847%29.png)
 
+{% hint style="info" %}
+提示语支持语种：
+
+* 中文简体-中文简体 
+* 中文繁体-中文繁體 
+* 英语-English 
+* 阿拉伯语-العربية 
+* 德语-Deutsch 
+* 俄语-Pусский 
+* 法语-Français 
+* 菲律宾语-Filipino 
+* 韩语-한국어 
+* 高棉语-ខ្មែរ។ 
+* 马来语-Bahasa Melayu 
+* 葡萄牙语-Português 
+* 日语-日本語 
+* 泰语-ภาษาไทย 
+* 土耳其语-Türkçe 
+* 西班牙语-Español 
+* 意大利语-Italiano 
+* 印地语-हिन्दी 
+* 印尼语-Bahasa Indonesia 
+* 越南语-Tiếng Việt
+{% endhint %}
+
+![&#x7B54;&#x9898;&#x7AEF;&#x63D0;&#x793A;&#x8BED;/&#x6309;&#x94AE;&#x5C55;&#x793A;](../../.gitbook/assets/image%20%2875%29.png)
 
