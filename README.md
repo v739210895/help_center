@@ -31,7 +31,7 @@
 
 ### 支持游戏内嵌投放，自由配置跳转回调
 
-![&#x95EE;&#x5377;&#x8BBE;&#x7F6E;](.gitbook/assets/image%20%28302%29.png)
+![&#x95EE;&#x5377;&#x8BBE;&#x7F6E;](.gitbook/assets/image%20%28303%29.png)
 
 ### 答题数据实时统计，直观图表展示
 
@@ -39,7 +39,7 @@
 
 ### 各种终端自动兼容，链接可多渠道投放
 
-![PC&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28314%29.png)
+![PC&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28315%29.png)
 
 ![&#x79FB;&#x52A8;&#x7AEF;&#x7B54;&#x9898;](.gitbook/assets/image%20%28243%29.png)
 

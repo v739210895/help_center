@@ -28,7 +28,7 @@
 所有题目默认开启“此题必答”功能。
 {% endhint %}
 
-![&#x5FC5;&#x7B54;&#x8BBE;&#x7F6E;](../.gitbook/assets/image%20%28309%29.png)
+![&#x5FC5;&#x7B54;&#x8BBE;&#x7F6E;](../.gitbook/assets/image%20%28310%29.png)
 
 ### 答题框大小
 
@@ -60,7 +60,7 @@
 
 编辑完成后，在编辑页内可查看主观题的具体内容及答题框设置。
 
-![&#x7F16;&#x8F91;&#x9875;&#x5185;&#x7684;&#x4E3B;&#x89C2;&#x9898;&#x663E;&#x793A;](../.gitbook/assets/image%20%28283%29.png)
+![&#x7F16;&#x8F91;&#x9875;&#x5185;&#x7684;&#x4E3B;&#x89C2;&#x9898;&#x663E;&#x793A;](../.gitbook/assets/image%20%28284%29.png)
 
 ![&#x7B54;&#x9898;&#x7AEF;&#x7684;&#x4E3B;&#x89C2;&#x9898;&#x663E;&#x793A;](../.gitbook/assets/image%20%284%29.png)
 

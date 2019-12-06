@@ -8,7 +8,7 @@
 项目名称用于管理端标识问卷，答题端不可见。
 {% endhint %}
 
-![&#x4FEE;&#x6539;&#x9879;&#x76EE;&#x540D;&#x79F0;](../../.gitbook/assets/image%20%28316%29.png)
+![&#x4FEE;&#x6539;&#x9879;&#x76EE;&#x540D;&#x79F0;](../../.gitbook/assets/image%20%28317%29.png)
 
 ## 产品设置
 

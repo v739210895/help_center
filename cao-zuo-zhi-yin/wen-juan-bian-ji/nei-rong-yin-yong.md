@@ -34,7 +34,7 @@
 
 ![&#x6307;&#x5B9A;&#x5F15;&#x7528;&#x9879;](../../.gitbook/assets/image%20%2851%29.png)
 
-![&#x81EA;&#x52A8;&#x751F;&#x6210;&#x5F15;&#x7528;&#x6807;&#x8BC6;](../../.gitbook/assets/image%20%28291%29.png)
+![&#x81EA;&#x52A8;&#x751F;&#x6210;&#x5F15;&#x7528;&#x6807;&#x8BC6;](../../.gitbook/assets/image%20%28292%29.png)
 
 {% hint style="info" %}
 ### 引用标识语法说明

@@ -74,5 +74,5 @@
 
 ## **答题端显示**
 
-![&#x7B54;&#x9898;&#x7AEF;&#x663E;&#x793A;&#x8D85;&#x94FE;&#x63A5;](../../.gitbook/assets/image%20%28335%29.png)
+![&#x7B54;&#x9898;&#x7AEF;&#x663E;&#x793A;&#x8D85;&#x94FE;&#x63A5;](../../.gitbook/assets/image%20%28336%29.png)
 
