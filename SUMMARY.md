@@ -43,6 +43,7 @@
     * [问卷操作](cao-zuo-zhi-yin/guan-li-wen-juan/wen-juan-cao-zuo.md)
     * [添加设计人](cao-zuo-zhi-yin/guan-li-wen-juan/she-zhi-she-ji-ren.md)
     * [添加/查看关注人](cao-zuo-zhi-yin/guan-li-wen-juan/she-zhi-guan-zhu-ren.md)
+  * [问卷分发](cao-zuo-zhi-yin/wen-juan-fen-fa.md)
 * [题型说明](ti-xing-shuo-ming/README.md)
   * [单选题](ti-xing-shuo-ming/dan-xuan-ti.md)
   * [下拉题](ti-xing-shuo-ming/xia-la-ti.md)
