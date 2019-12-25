@@ -14,7 +14,7 @@
 
 题目、备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
-![&#x91CF;&#x8868;&#x9898;&#x5185;&#x5BB9;&#x7F16;&#x8F91;](../.gitbook/assets/image%20%28198%29.png)
+![&#x91CF;&#x8868;&#x9898;&#x5185;&#x5BB9;&#x7F16;&#x8F91;](../.gitbook/assets/image%20%28199%29.png)
 
 ## 【STEP 3】题目及选项设置
 
@@ -26,7 +26,7 @@
 所有题目默认开启“此题必答”功能。
 {% endhint %}
 
-![&#x201C;&#x6B64;&#x9898;&#x5FC5;&#x7B54;&#x201D;&#x529F;&#x80FD;](../.gitbook/assets/image%20%28259%29.png)
+![&#x201C;&#x6B64;&#x9898;&#x5FC5;&#x7B54;&#x201D;&#x529F;&#x80FD;](../.gitbook/assets/image%20%28260%29.png)
 
 ### 分数范围
 
@@ -38,7 +38,7 @@
 
 提示方式即设置量表提示语，左边提示语对应最低分，右边提示语对应最高分；当量表逆序显示时，提示语会相应逆序展示。
 
-![&#x8BBE;&#x7F6E;&#x63D0;&#x793A;&#x8BED;](../.gitbook/assets/image%20%28254%29.png)
+![&#x8BBE;&#x7F6E;&#x63D0;&#x793A;&#x8BED;](../.gitbook/assets/image%20%28255%29.png)
 
 ### 选项随机
 
@@ -54,13 +54,13 @@
 
 分数反转是指答题时量表以逆序展示，即最高分-&gt;最低分，提示语相应逆序展示。
 
-![&#x5206;&#x6570;&#x53CD;&#x8F6C;](../.gitbook/assets/image%20%28197%29.png)
+![&#x5206;&#x6570;&#x53CD;&#x8F6C;](../.gitbook/assets/image%20%28198%29.png)
 
 ## 编辑页及答题端显示
 
 编辑完成后，在编辑页内可查看量表题的具体内容及量表展示方式。
 
-![&#x7F16;&#x8F91;&#x9875;&#x5185;&#x7684;&#x91CF;&#x8868;&#x9898;&#x663E;&#x793A;](../.gitbook/assets/image%20%28247%29.png)
+![&#x7F16;&#x8F91;&#x9875;&#x5185;&#x7684;&#x91CF;&#x8868;&#x9898;&#x663E;&#x793A;](../.gitbook/assets/image%20%28248%29.png)
 
 ![&#x7B54;&#x9898;&#x7AEF;&#x7684;&#x5355;&#x9009;&#x9898;&#x663E;&#x793A;](../.gitbook/assets/image%20%2870%29.png)
 

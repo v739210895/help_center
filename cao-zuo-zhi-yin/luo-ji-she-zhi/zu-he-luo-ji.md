@@ -6,13 +6,13 @@
 
 在问卷编辑页中切换至“组合逻辑”功能，点击“新增逻辑”按钮即可新建一条组合逻辑规则。
 
-![&#x65B0;&#x589E;&#x903B;&#x8F91;](../../.gitbook/assets/image%20%28218%29.png)
+![&#x65B0;&#x589E;&#x903B;&#x8F91;](../../.gitbook/assets/image%20%28219%29.png)
 
 ## 【STEP 2】设置显示结果
 
 在新建的组合逻辑规则中需先设置显示的结果题目，每个题目仅允许被设置为显示结果一次。
 
-![&#x8BBE;&#x7F6E;&#x663E;&#x793A;&#x7ED3;&#x679C;](../../.gitbook/assets/image%20%28228%29.png)
+![&#x8BBE;&#x7F6E;&#x663E;&#x793A;&#x7ED3;&#x679C;](../../.gitbook/assets/image%20%28229%29.png)
 
 ## 【STEP 3】设置显示条件
 
@@ -32,7 +32,7 @@
 
 ![&#x5F00;&#x542F;&#x81EA;&#x5B9A;&#x4E49;&#x6761;&#x4EF6;](../../.gitbook/assets/image%20%28165%29.png)
 
-![&#x8F93;&#x5165;&#x8868;&#x8FBE;&#x5F0F;](../../.gitbook/assets/image%20%28237%29.png)
+![&#x8F93;&#x5165;&#x8868;&#x8FBE;&#x5F0F;](../../.gitbook/assets/image%20%28238%29.png)
 
 {% hint style="danger" %}
 ### 【条件逻辑说明】

@@ -7,7 +7,7 @@
 2. 复制后可能导致后序题目的题号更改，其他题目的引用设置中题号需要生动修改。
 {% endhint %}
 
-![&#x63D2;&#x5165;&#x9898;&#x76EE;](../.gitbook/assets/image%20%28241%29.png)
+![&#x63D2;&#x5165;&#x9898;&#x76EE;](../.gitbook/assets/image%20%28242%29.png)
 
 ![&#x590D;&#x5236;&#x9898;&#x76EE;](../.gitbook/assets/image%20%28163%29.png)
 
