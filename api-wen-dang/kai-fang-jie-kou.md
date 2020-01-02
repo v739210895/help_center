@@ -4,19 +4,29 @@
 
 问卷系统作为调研工具，为了支持不同的业务场景，将问卷相关的接口进行开放。
 
-### [接口调用方式](kai-fang-jie-kou.md#jie-kou-tiao-yong-fang-shi)
+### [接口调用方式](kai-fang-jie-kou.md#jie-kou-tiao-yong-fang-shi-1)
 
-### [签名算法](kai-fang-jie-kou.md#qian-ming-suan-fa)
+### [签名算法](kai-fang-jie-kou.md#qian-ming-suan-fa-1)
 
-### [接口](kai-fang-jie-kou.md#jie-kou)
+### [接口](kai-fang-jie-kou.md#jie-kou-1)
 
 ### [常见问题](kai-fang-jie-kou.md#chang-jian-wen-ti-1)
 
 ### 接口调用方式
 
-接口调用使用`cl5`方式调用。 mod\_id: `65080257` cmd\_id: `65536`
+接口调用使用`cl5`方式调用。
+
+#### 国内环境
+
+mod\_id: `65080257` cmd\_id: `65536`
 
 调用时Header中必需带上Host，Host值为`survey.imur.oa.com`。
+
+#### 海外环境
+
+mod\_id: `65080257` cmd\_id: `131072`
+
+调用时Header中必需带上Host，Host值为`outsurvey.imur.oa.com`。
 
 ### 签名算法
 
@@ -39,7 +49,7 @@
 
 #### 代码示例
 
-_PHP代码_
+_PHP代码_ [Demo](open.demo.php)
 
 ```php
 <?php
@@ -75,7 +85,7 @@ $url = "http://9.84.189.40/open/v1/surveys/$sid?sign=$sign&timestamp=$timestamp"
 
 API接口采用RESTful方式实现，在接口地址中出现的sid为问卷的ID，具体的接口不再说明。
 
-#### **问卷编辑**
+#### 问卷编辑
 
 **1、获取问卷详情**
 
@@ -577,7 +587,7 @@ GET http://{host}/statistics/{sid}/answers_date_histogram
 
 获取问卷各个题型的数据统计。当前接口返回的数据相对比较精简，没有问卷的内容，在使用时要配合获取问卷详情来使用。下面的接口返回示例会说明每个ID对应的题目类型。
 
-**注意**当前联动题仅支持导出，导出功能暂未开放。主观题使用主观题或选项填空题列表接口获得。
+**注意**当前联动题仅支持统计数。主观题使用主观题或选项填空题列表接口获得。
 
 **接口地址**
 
@@ -633,7 +643,24 @@ GET http://{host}/statistics/{sid}/answers
         // 平均分数
         "OKWx_short_avg": 2.5,
         // 有效填答量
-        "OKWx_short_valid_count": 4
+        "OKWx_short_valid_count": 4,
+
+        // 级联题
+        // 第一级下的各个选项的填答量
+        "FQZt": {
+            "FCLv": 5
+        },
+        // 第一级下有效填答量
+        "FQZt_valid_count": 5,
+        // 第二级下各个选项的填答量，各个级的格式为{level1_id}_{level2_id}_...
+        "FQZt_XKGu": {
+            "AIFw": 5
+        },
+        // 第二级下有效填答量
+        "FQZt_XKGu_valid_count": 5,
+
+        // 主观题，格式为{question_id}_text，后面的_text是固定的
+        "AIIa_text_count": 10
     }
 }
 ```
