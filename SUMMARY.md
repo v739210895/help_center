@@ -68,6 +68,7 @@
   * [SPSS数据分析](chang-jian-wen-ti/spss-shu-ju-fen-xi.md)
   * [导出的数据打开出现乱码怎么办？](chang-jian-wen-ti/dao-chu-de-da-ti-shu-ju-da-kai-chu-xian-luan-ma-zen-me-ban.md)
 * [API文档](api-wen-dang/README.md)
+  * [开放接口](api-wen-dang/kai-fang-jie-kou.md)
   * [非MSDK登录态传递接口](api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)
   * [登录态回调接口](api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)
 * [版本记录](ban-ben-geng-xin.md)
