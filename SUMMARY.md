@@ -35,6 +35,7 @@
   * [统计分析](cao-zuo-zhi-yin/tong-ji-fen-xi/README.md)
     * [回收概况](cao-zuo-zhi-yin/tong-ji-fen-xi/hui-shou-gai-kuang.md)
     * [统计图表](cao-zuo-zhi-yin/tong-ji-fen-xi/tong-ji-tu-biao.md)
+    * [报告分享](cao-zuo-zhi-yin/tong-ji-fen-xi/bao-gao-fen-xiang.md)
   * [数据导出](cao-zuo-zhi-yin/xia-zai-shu-ju/README.md)
     * [导出答题编码](cao-zuo-zhi-yin/xia-zai-shu-ju/dao-chu-da-ti-bian-ma.md)
     * [离线下载](cao-zuo-zhi-yin/xia-zai-shu-ju/li-xian-xia-zai.md)
