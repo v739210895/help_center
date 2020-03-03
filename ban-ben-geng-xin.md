@@ -70,7 +70,7 @@
       <td style="text-align:left">
         <p></p>
         <ol>
-          <li>&#x65B0;&#x589E;&#x6D77;&#x5916;&#x6295;&#x653E;&#x6D41;&#x7A0B;&#x529F;&#x80FD;</li>
+          <li>&#x65B0;&#x589E;<a href="cao-zuo-zhi-yin/wen-juan-she-zhi/hai-wai-tou-fang-liu-cheng.md">&#x6D77;&#x5916;&#x6295;&#x653E;&#x6D41;&#x7A0B;</a>&#x529F;&#x80FD;</li>
           <li>&#x56DE;&#x6536;&#x7B54;&#x5377;&#x65B0;&#x589E;&#x56FA;&#x5B9A;&#x7528;&#x6237;&#x4FE1;&#x606F;&#x5B57;&#x6BB5;&#xFF1A;&#x5927;&#x6D32;&#x3001;&#x56FD;&#x5BB6;&#x3001;&#x5E74;&#x9F84;</li>
         </ol>
       </td>
