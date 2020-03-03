@@ -10,18 +10,29 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">v8.3</td>
+      <td style="text-align:center">2020.03.02</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x66F4;&#x65B0;&#x903B;&#x8F91;&#x7F16;&#x8F91;&#xFF08;<a href="cao-zuo-zhi-yin/luo-ji-she-zhi/zu-he-luo-ji.md">&#x7EC4;&#x5408;&#x903B;&#x8F91;</a>&#xFF09;&#x5668;</li>
+          <li>&#x7B54;&#x9898;&#x7AEF;&#x517C;&#x5BB9;&#x963F;&#x62C9;&#x4F2F;&#x8BED;&#x663E;&#x793A;</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">v8.2</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:center">2020.02.21</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x65B0;&#x589E;&#x9898;&#x578B;&#x5207;&#x6362;&#x529F;&#x80FD;</li>
+          <li>&#x65B0;&#x589E;&#x95EE;&#x5377;&#x81EA;&#x52A8;&#x4FDD;&#x5B58;&#x63D0;&#x793A;&#x53CA;&#x4E0A;&#x6B21;&#x4FDD;&#x5B58;&#x65F6;&#x95F4;</li>
+        </ol>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">v8.1</td>
       <td style="text-align:center">2020.02.14</td>
-      <td style="text-align:left">
-        <ol>
-          <li>&#x4E0A;&#x4F20;&#x56FE;&#x7247;&#x589E;&#x52A0;&#x56FE;&#x7247;&#x5927;&#x5C0F;&#x9650;&#x5236;</li>
-        </ol>
-      </td>
+      <td style="text-align:left">&#x4E0A;&#x4F20;&#x56FE;&#x7247;&#x589E;&#x52A0;&#x56FE;&#x7247;&#x5927;&#x5C0F;&#x9650;&#x5236;</td>
     </tr>
     <tr>
       <td style="text-align:left">v7.3</td>
