@@ -2,7 +2,9 @@
 
 本问卷系统提供专业的在线调研及统计工具，主要服务于国内&海外的调研项目，专注游戏内嵌投放。不仅提供单选、多选、主观题、矩阵单选题等题型，还提供选项关联设置（漏斗型）、复杂组合逻辑设置、实时统计等功能。
 
+{% hint style="info" %}
 培训PPT参考 [https://docs.qq.com/slide/DS1ZtanJhWE5zaWtl](https://docs.qq.com/slide/DS1ZtanJhWE5zaWtl) 
+{% endhint %}
 
 ![](.gitbook/assets/image%20%281%29.png)
 
