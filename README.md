@@ -6,7 +6,7 @@
 培训PPT参考 [https://docs.qq.com/slide/DS1ZtanJhWE5zaWtl](https://docs.qq.com/slide/DS1ZtanJhWE5zaWtl) 
 {% endhint %}
 
-![](.gitbook/assets/image%20%282%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
 ## 主要特色功能
 
@@ -30,7 +30,7 @@
 
 ### 沿用拖拽点选添加，简化编辑操作
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](.gitbook/assets/image%20%2813%29.png)
 
 ### 实时自动保存更新，避免内容丢失错乱
 
@@ -38,7 +38,7 @@
 
 ### 支持游戏内嵌投放，自由配置跳转回调
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2812%29.png)
 
 ### 答题数据实时统计，直观图表展示
 
