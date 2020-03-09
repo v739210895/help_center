@@ -1,14 +1,27 @@
 # 版本记录
 
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">&#x7248;&#x672C;&#x53F7;</th>
+      <th style="text-align:left">&#x7248;&#x672C;</th>
       <th style="text-align:center">&#x4E0A;&#x7EBF;&#x65E5;&#x671F;</th>
       <th style="text-align:left">&#x66F4;&#x65B0;&#x5185;&#x5BB9;</th>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td style="text-align:left">v9.1</td>
+      <td style="text-align:center">2020.03.06</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x6295;&#x653E;&#x94FE;&#x63A5;&#x4F18;&#x5316;&#xFF1A;&#x89E3;&#x51B3;&#x5B89;&#x5353;&#x7CFB;&#x7EDF;&#x4E2D;&#x6295;&#x653E;&#x94FE;&#x63A5;&#x65E0;&#x6CD5;&#x76F4;&#x63A5;&#x70B9;&#x51FB;&#x6253;&#x5F00;&#x95EE;&#x9898;</li>
+          <li>&#x9996;&#x9875;&#x589E;&#x52A0;&#x9690;&#x79C1;&#x653F;&#x7B56;&#x7B49;&#x9875;&#x9762;&#x5165;&#x53E3;</li>
+          <li>PC&#x7B54;&#x9898;&#x7AEF;&#x589E;&#x52A0;&#x70B9;&#x51FB;&#x67E5;&#x770B;&#x5927;&#x56FE;&#x529F;&#x80FD;</li>
+        </ol>
+      </td>
+    </tr>
     <tr>
       <td style="text-align:left">v8.3</td>
       <td style="text-align:center">2020.03.02</td>
@@ -50,7 +63,7 @@
       <td style="text-align:left">
         <ol>
           <li>&#x6B22;&#x8FCE;&#x8BED;/&#x7ED3;&#x675F;&#x9875;&#x7F16;&#x8F91;&#x65B0;&#x589E;&#x81EA;&#x7531;&#x6392;&#x7248;&#x5DE5;&#x5177;</li>
-          <li>&#x65B0;&#x589E;<a href="cao-zuo-zhi-yin/tong-ji-fen-xi/bao-gao-fen-xiang.md">&#x62A5;&#x544A;&#x5206;&#x4EAB;</a>&#x529F;&#x80FD;</li>
+          <li>&#x65B0;&#x589E;<a href="cao-zuo-zhi-yin/tong-ji-fen-xi/share.md">&#x62A5;&#x544A;&#x5206;&#x4EAB;</a>&#x529F;&#x80FD;</li>
         </ol>
       </td>
     </tr>
