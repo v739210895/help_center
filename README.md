@@ -26,7 +26,7 @@
 
 ### 界面主打轻量简洁，功能入口清晰
 
-![&#x521B;&#x5EFA;&#x95EE;&#x5377;](.gitbook/assets/image%20%28270%29.png)
+![&#x521B;&#x5EFA;&#x95EE;&#x5377;](.gitbook/assets/image%20%28271%29.png)
 
 ### 沿用拖拽点选添加，简化编辑操作
 
@@ -42,13 +42,13 @@
 
 ### 答题数据实时统计，直观图表展示
 
-![&#x7EDF;&#x8BA1;&#x56FE;&#x8868;](.gitbook/assets/image%20%28248%29.png)
+![&#x7EDF;&#x8BA1;&#x56FE;&#x8868;](.gitbook/assets/image%20%28249%29.png)
 
 ### 各种终端自动兼容，链接可多渠道投放
 
-![PC&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28370%29.png)
+![PC&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28371%29.png)
 
-![&#x79FB;&#x52A8;&#x7AEF;&#x7B54;&#x9898;](.gitbook/assets/image%20%28282%29.png)
+![&#x79FB;&#x52A8;&#x7AEF;&#x7B54;&#x9898;](.gitbook/assets/image%20%28283%29.png)
 
 
 
