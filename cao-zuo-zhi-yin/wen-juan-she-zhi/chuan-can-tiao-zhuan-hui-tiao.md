@@ -2,7 +2,7 @@
 
 问卷系统支持内嵌投放及参数传递、答题后跳转、参数回调等功能，用户可根据实际需要按以下各项设置。
 
-![](../../.gitbook/assets/image%20%28223%29.png)
+![](../../.gitbook/assets/image%20%28225%29.png)
 
 ## 非MSDK登录态传递接口
 
@@ -22,13 +22,13 @@ API接口地址?sid=XX&uid=XX&timestamp=XX&source=XX&info=XX&redirect=问卷投�
 
 功能开启后，在设置弹窗中填写跳转的链接（链接需为包含http://或http://前缀的地址），设置完成后当答题者提交问卷后浏览器将跳转到您设置的链接上。
 
-![&#x8BBE;&#x7F6E;&#x8DF3;&#x8F6C;&#x5730;&#x5740;](../../.gitbook/assets/image%20%28341%29.png)
+![&#x8BBE;&#x7F6E;&#x8DF3;&#x8F6C;&#x5730;&#x5740;](../../.gitbook/assets/image%20%28347%29.png)
 
 ## 登录态回调接口
 
 提供登录态回调的功能，开发者可自行配置回调地址和密钥，问卷系统将登录态等参数回调给开发者，开发者获取参数后可用于奖励发放。
 
-![&#x914D;&#x7F6E;&#x767B;&#x5F55;&#x6001;&#x56DE;&#x8C03;](../../.gitbook/assets/image%20%28298%29.png)
+![&#x914D;&#x7F6E;&#x767B;&#x5F55;&#x6001;&#x56DE;&#x8C03;](../../.gitbook/assets/image%20%28300%29.png)
 
 
 

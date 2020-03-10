@@ -18,7 +18,8 @@
         <ol>
           <li>&#x6295;&#x653E;&#x94FE;&#x63A5;&#x4F18;&#x5316;&#xFF1A;&#x89E3;&#x51B3;&#x5B89;&#x5353;&#x7CFB;&#x7EDF;&#x4E2D;&#x6295;&#x653E;&#x94FE;&#x63A5;&#x65E0;&#x6CD5;&#x76F4;&#x63A5;&#x70B9;&#x51FB;&#x6253;&#x5F00;&#x95EE;&#x9898;</li>
           <li>&#x9996;&#x9875;&#x589E;&#x52A0;&#x9690;&#x79C1;&#x653F;&#x7B56;&#x7B49;&#x9875;&#x9762;&#x5165;&#x53E3;</li>
-          <li>PC&#x7B54;&#x9898;&#x7AEF;&#x589E;&#x52A0;&#x70B9;&#x51FB;&#x67E5;&#x770B;&#x5927;&#x56FE;&#x529F;&#x80FD;</li>
+          <li>PC&#x7B54;&#x9898;&#x7AEF;&#x589E;&#x52A0;<a href="cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md#da-ti-duan-xian-shi-tu-pian">&#x70B9;&#x51FB;&#x67E5;&#x770B;&#x5927;&#x56FE;&#x529F;&#x80FD;</a>
+          </li>
         </ol>
       </td>
     </tr>
