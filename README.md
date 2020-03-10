@@ -48,7 +48,7 @@
 
 ![PC&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28371%29.png)
 
-![&#x79FB;&#x52A8;&#x7AEF;&#x7B54;&#x9898;](.gitbook/assets/image%20%28283%29.png)
+![&#x79FB;&#x52A8;&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28283%29.png)
 
 
 
