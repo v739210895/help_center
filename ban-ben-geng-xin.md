@@ -10,6 +10,16 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">v9.2</td>
+      <td style="text-align:center">2020.03.12</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x95EE;&#x5377;&#x6807;&#x9898;&#x5B57;&#x6570;&#x9650;&#x5236;&#x6269;&#x5C55;&#x4E3A;50&#x5B57;</li>
+          <li>&#x7B54;&#x9898;&#x7AEF;&#x77E9;&#x9635;&#x5355;&#x9009;&#x9898;&#x6837;&#x5F0F;&#x4F18;&#x5316;</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">v9.1</td>
       <td style="text-align:center">2020.03.06</td>
       <td style="text-align:left">
