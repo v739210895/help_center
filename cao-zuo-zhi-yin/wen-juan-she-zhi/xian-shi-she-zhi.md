@@ -6,25 +6,25 @@
 
 此功能默认开启，关闭后，答题端将不显示题号。
 
-![&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;](../../.gitbook/assets/image%20%28143%29.png)
+![&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;](../../.gitbook/assets/image%20%28147%29.png)
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5F00;&#x542F;](../../.gitbook/assets/image%20%28237%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5F00;&#x542F;](../../.gitbook/assets/image%20%28249%29.png)
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5173;&#x95ED;](../../.gitbook/assets/image%20%28337%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5173;&#x95ED;](../../.gitbook/assets/image%20%28352%29.png)
 
 ## 答题回退
 
 答题过程可以回退指的是，在答题端显示上一页的回退按钮。此功能默认关闭，在答题端不显示上一页的的回退按钮；开启后，在页面下方增加上一页的回退按钮。
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x4E0D;&#x652F;&#x6301;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28415%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x4E0D;&#x652F;&#x6301;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28431%29.png)
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x7B54;&#x9898;&#x8FC7;&#x7A0B;&#x53EF;&#x4EE5;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28211%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x7B54;&#x9898;&#x8FC7;&#x7A0B;&#x53EF;&#x4EE5;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28220%29.png)
 
 ## 答卷语言
 
 答卷语言指的是，在答题端中显示的提示语语种，默认为中文简体，可根据实际需要设置其他语种。
 
-![&#x7B54;&#x5377;&#x8BED;&#x8A00;&#x8BBE;&#x7F6E;](../../.gitbook/assets/image%20%2855%29.png)
+![&#x7B54;&#x5377;&#x8BED;&#x8A00;&#x8BBE;&#x7F6E;](../../.gitbook/assets/image%20%2858%29.png)
 
 {% hint style="info" %}
 提示语支持语种：
@@ -51,7 +51,7 @@
 * 越南语-Tiếng Việt
 {% endhint %}
 
-![&#x7B54;&#x9898;&#x7AEF;&#x63D0;&#x793A;&#x8BED;/&#x6309;&#x94AE;&#x5C55;&#x793A;](../../.gitbook/assets/image%20%2887%29.png)
+![&#x7B54;&#x9898;&#x7AEF;&#x63D0;&#x793A;&#x8BED;/&#x6309;&#x94AE;&#x5C55;&#x793A;](../../.gitbook/assets/image%20%2891%29.png)
 
 ## 常见问题
 
@@ -59,7 +59,7 @@
 
 答题默认不可回退（不显示上一页按钮），若允许答题者回退，请在“问卷设置”-“显示设置”中开启“答题过程可以回退”功能。
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2822%29.png)
 
 
 

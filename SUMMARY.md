@@ -59,8 +59,8 @@
   * [联动题](ti-xing-shuo-ming/lian-dong-ti.md)
   * [信息栏](ti-xing-shuo-ming/xin-xi-lan.md)
 * [API文档](api-wen-dang/README.md)
-  * [开放接口](api-wen-dang/kai-fang-jie-kou.md)
   * [非MSDK登录态传递接口](api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)
   * [登录态回调接口](api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)
+  * [开放接口](api-wen-dang/kai-fang-jie-kou.md)
 * [版本记录](ban-ben-geng-xin.md)
 

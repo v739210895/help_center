@@ -6,11 +6,11 @@
 左侧导航大纲支持点击定位到指定题目。
 {% endhint %}
 
-![&#x7EDF;&#x8BA1;&#x56FE;&#x8868;](../../.gitbook/assets/image%20%2843%29.png)
+![&#x7EDF;&#x8BA1;&#x56FE;&#x8868;](../../.gitbook/assets/image%20%2846%29.png)
 
 导出格式为CSV格式，可在excel中直接打开，排版如下：显示小计和占比百分比。
 
-![&#x5BFC;&#x51FA;&#x7EDF;&#x8BA1;&#x7ED3;&#x679C;](../../.gitbook/assets/image%20%28166%29.png)
+![&#x5BFC;&#x51FA;&#x7EDF;&#x8BA1;&#x7ED3;&#x679C;](../../.gitbook/assets/image%20%28170%29.png)
 
 
 
