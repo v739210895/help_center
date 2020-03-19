@@ -29,7 +29,7 @@
     * [简单逻辑](cao-zuo-zhi-yin/luo-ji-she-zhi/jian-dan-luo-ji.md)
   * [问卷设置](cao-zuo-zhi-yin/wen-juan-she-zhi/README.md)
     * [显示设置](cao-zuo-zhi-yin/wen-juan-she-zhi/xian-shi-she-zhi.md)
-    * [海外投放流程](cao-zuo-zhi-yin/wen-juan-she-zhi/hai-wai-tou-fang-liu-cheng.md)
+    * [海外投放验证流程](cao-zuo-zhi-yin/wen-juan-she-zhi/hai-wai-tou-fang-liu-cheng.md)
     * [答题限制设置](cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi.md)
     * [传参/跳转/回调](cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md)
   * [预览问卷](cao-zuo-zhi-yin/yu-lan-wen-juan.md)
