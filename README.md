@@ -26,7 +26,7 @@
 
 ### 界面主打轻量简洁，功能入口清晰
 
-![&#x521B;&#x5EFA;&#x95EE;&#x5377;](.gitbook/assets/image%20%28287%29.png)
+![&#x521B;&#x5EFA;&#x95EE;&#x5377;](.gitbook/assets/image%20%28288%29.png)
 
 ### 沿用拖拽点选添加，简化编辑操作
 
@@ -46,9 +46,9 @@
 
 ### 各种终端自动兼容，链接可多渠道投放
 
-![PC&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28390%29.png)
+![PC&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28392%29.png)
 
-![&#x79FB;&#x52A8;&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28299%29.png)
+![&#x79FB;&#x52A8;&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28300%29.png)
 
 
 

@@ -8,7 +8,7 @@
 
 1. 在选项编辑框修改选项的文本内容
 
-![&#x9009;&#x9879;&#x8F93;&#x5165;&#x6846;&#x4E2D;&#x76F4;&#x63A5;&#x4FEE;&#x6539;](../../.gitbook/assets/image%20%28341%29.png)
+![&#x9009;&#x9879;&#x8F93;&#x5165;&#x6846;&#x4E2D;&#x76F4;&#x63A5;&#x4FEE;&#x6539;](../../.gitbook/assets/image%20%28343%29.png)
 
    2.在批量修改选项弹窗中修改
 
@@ -42,7 +42,7 @@
 
 ![&#x52FE;&#x9009;&#x201C;&#x586B;&#x7A7A;&#x201D;&#x52FE;&#x9009;&#x6846;](../../.gitbook/assets/image%20%2834%29.png)
 
-![&#x67E5;&#x770B;&#x72B6;&#x6001;&#x4E0B;&#x663E;&#x793A;&#x586B;&#x7A7A;&#x6846;](../../.gitbook/assets/image%20%28283%29.png)
+![&#x67E5;&#x770B;&#x72B6;&#x6001;&#x4E0B;&#x663E;&#x793A;&#x586B;&#x7A7A;&#x6846;](../../.gitbook/assets/image%20%28284%29.png)
 
 ### 设置必填项
 
@@ -50,11 +50,11 @@
 
 ![&#x663E;&#x793A;&#x201C;&#x5FC5;&#x586B;&#x201D;&#x52FE;&#x9009;&#x6846;](../../.gitbook/assets/image%20%28133%29.png)
 
-![&#x663E;&#x793A;&#x72B6;&#x6001;&#x4E0B;&#x663E;&#x793A;&#x5FC5;&#x586B;&#x586B;&#x7A7A;&#x9879;](../../.gitbook/assets/image%20%28292%29.png)
+![&#x663E;&#x793A;&#x72B6;&#x6001;&#x4E0B;&#x663E;&#x793A;&#x5FC5;&#x586B;&#x586B;&#x7A7A;&#x9879;](../../.gitbook/assets/image%20%28293%29.png)
 
 ### 答题端显示
 
-![&#x7B54;&#x9898;&#x7AEF;&#x663E;&#x793A;&#x5FC5;&#x586B;&#x586B;&#x7A7A;&#x9879;](../../.gitbook/assets/image%20%28295%29.png)
+![&#x7B54;&#x9898;&#x7AEF;&#x663E;&#x793A;&#x5FC5;&#x586B;&#x586B;&#x7A7A;&#x9879;](../../.gitbook/assets/image%20%28296%29.png)
 
 ![&#x7B54;&#x9898;&#x7AEF;&#x663E;&#x793A;&#x975E;&#x5FC5;&#x586B;&#x586B;&#x7A7A;&#x9879;](../../.gitbook/assets/image%20%2857%29.png)
 
