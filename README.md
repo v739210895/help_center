@@ -6,7 +6,7 @@
 培训PPT参考 [https://docs.qq.com/slide/DS1ZtanJhWE5zaWtl](https://docs.qq.com/slide/DS1ZtanJhWE5zaWtl) 
 {% endhint %}
 
-![](.gitbook/assets/image%20%2879%29.png)
+![](.gitbook/assets/image%20%2880%29.png)
 
 ## 主要特色功能
 
@@ -26,29 +26,29 @@
 
 ### 界面主打轻量简洁，功能入口清晰
 
-![&#x521B;&#x5EFA;&#x95EE;&#x5377;](.gitbook/assets/image%20%28283%29.png)
+![&#x521B;&#x5EFA;&#x95EE;&#x5377;](.gitbook/assets/image%20%28287%29.png)
 
 ### 沿用拖拽点选添加，简化编辑操作
 
-![&#x95EE;&#x5377;&#x7F16;&#x8F91;](.gitbook/assets/image%20%2842%29.png)
+![&#x95EE;&#x5377;&#x7F16;&#x8F91;](.gitbook/assets/image%20%2843%29.png)
 
 ### 实时自动保存更新，避免内容丢失错乱
 
-![&#x81EA;&#x52A8;&#x4FDD;&#x5B58;](.gitbook/assets/image%20%2882%29.png)
+![&#x81EA;&#x52A8;&#x4FDD;&#x5B58;](.gitbook/assets/image%20%2883%29.png)
 
 ### 支持游戏内嵌投放，自由配置跳转回调
 
-![](.gitbook/assets/image%20%2841%29.png)
+![](.gitbook/assets/image%20%2842%29.png)
 
 ### 答题数据实时统计，直观图表展示
 
-![&#x7EDF;&#x8BA1;&#x56FE;&#x8868;](.gitbook/assets/image%20%28261%29.png)
+![&#x7EDF;&#x8BA1;&#x56FE;&#x8868;](.gitbook/assets/image%20%28265%29.png)
 
 ### 各种终端自动兼容，链接可多渠道投放
 
-![PC&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28386%29.png)
+![PC&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28390%29.png)
 
-![&#x79FB;&#x52A8;&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28295%29.png)
+![&#x79FB;&#x52A8;&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28299%29.png)
 
 
 

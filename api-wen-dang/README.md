@@ -51,3 +51,33 @@
   </tbody>
 </table>
 
+{% hint style="info" %}
+登录态采集
+{% endhint %}
+
+![](../.gitbook/assets/image%20%28425%29.png)
+
+
+
+{% hint style="info" %}
+提交问卷跳转到指定页面说明
+{% endhint %}
+
+![](../.gitbook/assets/image%20%28226%29.png)
+
+
+
+{% hint style="info" %}
+登录态回调
+{% endhint %}
+
+![](../.gitbook/assets/image%20%2824%29.png)
+
+
+
+{% hint style="info" %}
+问卷题目及统计结果开放接口
+{% endhint %}
+
+![](../.gitbook/assets/image%20%28231%29.png)
+
