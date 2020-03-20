@@ -55,9 +55,7 @@
 登录态采集
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28425%29.png)
-
-
+![](../.gitbook/assets/image%20%2813%29.png)
 
 {% hint style="info" %}
 提交问卷跳转到指定页面说明
