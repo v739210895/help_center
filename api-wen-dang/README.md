@@ -55,13 +55,13 @@
 登录态采集
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 {% hint style="info" %}
 提交问卷跳转到指定页面说明
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28226%29.png)
+![](../.gitbook/assets/image%20%28230%29.png)
 
 
 
@@ -69,7 +69,7 @@
 登录态回调
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 
 
@@ -77,5 +77,5 @@
 问卷题目及统计结果开放接口
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28231%29.png)
+![](../.gitbook/assets/image%20%28235%29.png)
 

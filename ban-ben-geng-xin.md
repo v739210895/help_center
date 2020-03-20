@@ -11,10 +11,11 @@
   <tbody>
     <tr>
       <td style="text-align:left">v9.3</td>
-      <td style="text-align:center">2020.03.17</td>
+      <td style="text-align:center">2020.03.19</td>
       <td style="text-align:left">
         <ol>
           <li>&#x5173;&#x95ED;&#x201C;&#x6BCF;&#x4E2A;&#x6D4F;&#x89C8;&#x5668;&#x9650;&#x5236;&#x56DE;&#x7B54;&#x4E00;&#x6B21;&#x201D;&#x201C;&#x6BCF;&#x4E2A;IP&#x9650;&#x5236;&#x56DE;&#x7B54;&#x4E00;&#x6B21;&#x201D;&#x529F;&#x80FD;</li>
+          <li>&#x65B0;&#x589E;&#x7EDF;&#x8BA1;&#x56FE;&#x8868;&#x7684;<a href="cao-zuo-zhi-yin/tong-ji-fen-xi/tong-ji-tu-biao.md#shu-ju-shai-xuan">&#x6570;&#x636E;&#x7B5B;&#x9009;</a>&#x529F;&#x80FD;</li>
         </ol>
       </td>
     </tr>
