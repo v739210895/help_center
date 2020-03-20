@@ -89,6 +89,7 @@ https://test.inapi.survey.imur.tencent.com/autologin?
 
 正式环境：
 https://inapi.survey.imur.tencent.com/autologin?
+https://inapi.weisurvey.com/autologin?
 ```
 
 **参数说明**
