@@ -73,18 +73,80 @@ _回调URL示例_
 
 回调调用开发者的接口是使用GET请求。
 
-| 参数 | 是否必传 | 数据类型 | 限制长度 | 说明 |
-| :--- | :--- | :--- | :--- | :--- |
-| sid | 是 | string | 32 | 问卷id |
-| uid | 否 | string | 255 | 仅在问卷需要登录时传递，登录用户的唯一ID |
-| user\_type | 否 | string | 2-10 | 仅在问卷需要登录时传递，登录用户类型，包含：wechat\(微信\)、qq\(QQ登录\)、msdk\(游戏内\)、third\_party\(非MSDK登录态传递\) |
-| uid\_source | 否 | string | 2-10 | 仅在问卷需要登录时传递，登录用户来源，当前只在msdk下有值wx与qq，非MSDK登录态传递则需要开发者自己定义 |
-| timestamp | 是 | int | 10位 | 时间戳 |
-| sign | 是 | string | 32 | 签名，参考签名算法 |
-| callback\_params | 否 | string | 255 | 开发者自定义回调参数，业务需要额外的参数则可以使用。注意：该参数是由开发者通过问卷链接**透传**到开发者服务端的，例如：https://in.survey.imur.tencent.com/index.html?sid=xxxx&callback\_params=xxxxx。 |
-| info | 否 | string | 255 | 登录用户额外的信息，该字段可以配合[非MSDK登录态传递接口使用](fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)。 |
-
-**回调成功约定返回格式**
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x53C2;&#x6570;</th>
+      <th style="text-align:left">&#x662F;&#x5426;&#x5FC5;&#x4F20;</th>
+      <th style="text-align:left">&#x6570;&#x636E;&#x7C7B;&#x578B;</th>
+      <th style="text-align:left">&#x9650;&#x5236;&#x957F;&#x5EA6;</th>
+      <th style="text-align:left">&#x8BF4;&#x660E;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">sid</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">32</td>
+      <td style="text-align:left">&#x95EE;&#x5377;id</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">uid</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">255</td>
+      <td style="text-align:left">&#x4EC5;&#x5728;&#x95EE;&#x5377;&#x9700;&#x8981;&#x767B;&#x5F55;&#x65F6;&#x4F20;&#x9012;&#xFF0C;&#x767B;&#x5F55;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;ID</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">user_type</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">2-10</td>
+      <td style="text-align:left">&#x4EC5;&#x5728;&#x95EE;&#x5377;&#x9700;&#x8981;&#x767B;&#x5F55;&#x65F6;&#x4F20;&#x9012;&#xFF0C;&#x767B;&#x5F55;&#x7528;&#x6237;&#x7C7B;&#x578B;&#xFF0C;&#x5305;&#x542B;&#xFF1A;wechat(&#x5FAE;&#x4FE1;)&#x3001;qq(QQ&#x767B;&#x5F55;)&#x3001;msdk(&#x6E38;&#x620F;&#x5185;)&#x3001;third_party(&#x975E;MSDK&#x767B;&#x5F55;&#x6001;&#x4F20;&#x9012;)</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">uid_source</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">2-10</td>
+      <td style="text-align:left">&#x4EC5;&#x5728;&#x95EE;&#x5377;&#x9700;&#x8981;&#x767B;&#x5F55;&#x65F6;&#x4F20;&#x9012;&#xFF0C;&#x767B;&#x5F55;&#x7528;&#x6237;&#x6765;&#x6E90;&#xFF0C;&#x5F53;&#x524D;&#x53EA;&#x5728;msdk&#x4E0B;&#x6709;&#x503C;wx&#x4E0E;qq&#xFF0C;&#x975E;MSDK&#x767B;&#x5F55;&#x6001;&#x4F20;&#x9012;&#x5219;&#x9700;&#x8981;&#x5F00;&#x53D1;&#x8005;&#x81EA;&#x5DF1;&#x5B9A;&#x4E49;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">timestamp</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">int</td>
+      <td style="text-align:left">10&#x4F4D;</td>
+      <td style="text-align:left">&#x65F6;&#x95F4;&#x6233;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">sign</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">32</td>
+      <td style="text-align:left">&#x7B7E;&#x540D;&#xFF0C;&#x53C2;&#x8003;&#x7B7E;&#x540D;&#x7B97;&#x6CD5;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">callback_params</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">255</td>
+      <td style="text-align:left">
+        <p>&#x5F00;&#x53D1;&#x8005;&#x81EA;&#x5B9A;&#x4E49;&#x56DE;&#x8C03;&#x53C2;&#x6570;&#xFF0C;&#x4E1A;&#x52A1;&#x9700;&#x8981;&#x989D;&#x5916;&#x7684;&#x53C2;&#x6570;&#x5219;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x3002;&#x6CE8;&#x610F;&#xFF1A;&#x8BE5;&#x53C2;&#x6570;&#x662F;&#x7531;&#x5F00;&#x53D1;&#x8005;&#x901A;&#x8FC7;&#x95EE;&#x5377;&#x94FE;&#x63A5;<b>&#x900F;&#x4F20;</b>&#x5230;&#x5F00;&#x53D1;&#x8005;&#x670D;&#x52A1;&#x7AEF;&#x7684;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;https://in.survey.imur.tencent.com/?sid=xxx&amp;</p>
+        <p>lang=zh-CHS&amp;callback_params=xxxxx</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">info</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">255</td>
+      <td style="text-align:left">&#x767B;&#x5F55;&#x7528;&#x6237;&#x989D;&#x5916;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x8BE5;&#x5B57;&#x6BB5;&#x53EF;&#x4EE5;&#x914D;&#x5408;
+        <a
+        href="fei-msdk-deng-lu-tai-chuan-di-jie-kou.md">&#x975E;MSDK&#x767B;&#x5F55;&#x6001;&#x4F20;&#x9012;&#x63A5;&#x53E3;&#x4F7F;&#x7528;</a>&#x3002;</td>
+    </tr>
+  </tbody>
+</table>**回调成功约定返回格式**
 
 开发者接收到回调并正常处理业务流程后，必需返回以下指定的json格式到问卷服务端：
 
