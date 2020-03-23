@@ -10,7 +10,7 @@
 
 #### 使用场景
 
-以下几种情况可以**不需要**接入非MSDK登录态传递接口：
+以下几种情况可以**不需要**接入非MSDK-V3登录态传递接口：
 
 * 问卷内嵌到游戏中，问卷系统默认支持MSDK登录态处理，可在问卷编辑页选择【设置】-&gt; 【MSDK登录验证】打开该功能，当前仅支持v3版本MSDK登录；
 * 仅需要做每个用户答题限制，不关注采集的用户uid，可以选择使用微信或者手Q登录，可在问卷编辑页选择【设置】-&gt; 【微信、QQ登录验证】打开该功能；
@@ -103,6 +103,7 @@ https://inapi.weisurvey.com/autologin?
 | redirect | 是 | string | url地址 | 登录成功之后跳转的页面url，一般使用的是问卷的链接 |
 | source | 是 | string | 2-10位英文 | 用户自定义渠道标识 |
 | sign | 是 | string | 32 | 签名，参考签名算法 |
+| callback\_params | 否 | string | 255 | 开发者自定义回调参数，业务需要额外的参数则可以使用。注意：该参数是由开发者通过问卷链接**透传**到开发者服务端的，配合登录态回调接口使用。例如：https://in.survey.imur.tencent.com/index.html?sid=xxxx&callback\_params=xxxxx。 |
 | info | 否 | string | 255 | 额外的登录用户信息，可自定义 |
 
 #### 常见问题

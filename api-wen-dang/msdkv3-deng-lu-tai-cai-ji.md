@@ -4,3 +4,9 @@
 
 ![](../.gitbook/assets/image%20%28271%29.png)
 
+{% hint style="info" %}
+解密MSDK-V3登录态说明
+{% endhint %}
+
+API文档参考：[https://wiki.ssl.msdk.qq.com/Unity/webview.html\#Unity\_DecodeLoginInfo ](https://wiki.ssl.msdk.qq.com/Unity/webview.html#Unity_DecodeLoginInfo%20)
+
