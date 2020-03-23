@@ -96,71 +96,14 @@ https://inapi.weisurvey.com/autologin?
 
 使用GET请求方式传参。
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">&#x53C2;&#x6570;</th>
-      <th style="text-align:left">&#x662F;&#x5426;&#x5FC5;&#x987B;</th>
-      <th style="text-align:left">&#x6570;&#x636E;&#x7C7B;&#x578B;</th>
-      <th style="text-align:left">&#x9650;&#x5236;&#x957F;&#x5EA6;</th>
-      <th style="text-align:left">&#x8BF4;&#x660E;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">uid</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">255</td>
-      <td style="text-align:left">&#x767B;&#x5F55;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;ID</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">timestamp</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">int</td>
-      <td style="text-align:left">10&#x4F4D;</td>
-      <td style="text-align:left">&#x65F6;&#x95F4;&#x6233;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">redirect</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">url&#x5730;&#x5740;</td>
-      <td style="text-align:left">&#x767B;&#x5F55;&#x6210;&#x529F;&#x4E4B;&#x540E;&#x8DF3;&#x8F6C;&#x7684;&#x9875;&#x9762;url&#xFF0C;&#x4E00;&#x822C;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x95EE;&#x5377;&#x7684;&#x94FE;&#x63A5;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">source</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">2-10&#x4F4D;&#x82F1;&#x6587;</td>
-      <td style="text-align:left">&#x7528;&#x6237;&#x81EA;&#x5B9A;&#x4E49;&#x6E20;&#x9053;&#x6807;&#x8BC6;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">sign</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">32</td>
-      <td style="text-align:left">&#x7B7E;&#x540D;&#xFF0C;&#x53C2;&#x8003;&#x7B7E;&#x540D;&#x7B97;&#x6CD5;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">callback_params</td>
-      <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">255</td>
-      <td style="text-align:left">
-        <p>&#x5F00;&#x53D1;&#x8005;&#x81EA;&#x5B9A;&#x4E49;&#x56DE;&#x8C03;&#x53C2;&#x6570;&#xFF0C;&#x4E1A;&#x52A1;&#x9700;&#x8981;&#x989D;&#x5916;&#x7684;&#x53C2;&#x6570;&#x5219;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x3002;&#x6CE8;&#x610F;&#xFF1A;&#x8BE5;&#x53C2;&#x6570;&#x662F;&#x7531;&#x5F00;&#x53D1;&#x8005;&#x901A;&#x8FC7;&#x95EE;&#x5377;&#x94FE;&#x63A5;<b>&#x900F;&#x4F20;</b>&#x5230;&#x5F00;&#x53D1;&#x8005;&#x670D;&#x52A1;&#x7AEF;&#x7684;&#xFF0C;&#x914D;&#x5408;
-          <a
-          href="https://imur.gitbook.io/help_center/api-wen-dang/deng-lu-tai-hui-tiao-jie-kou">&#x767B;&#x5F55;&#x6001;&#x56DE;&#x8C03;&#x63A5;&#x53E3;&#x4F7F;&#x7528;</a>&#x3002;&#x4F8B;&#x5982;&#xFF1A;https://in.survey.imur.tencent.com/?sid=xxx&amp;</p>
-        <p>lang=zh-CHS&amp;callback_params=xxxxx</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">info</td>
-      <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">255</td>
-      <td style="text-align:left">&#x989D;&#x5916;&#x7684;&#x767B;&#x5F55;&#x7528;&#x6237;&#x4FE1;&#x606F;&#xFF0C;&#x53EF;&#x81EA;&#x5B9A;&#x4E49;</td>
-    </tr>
-  </tbody>
-</table>#### 常见问题
+| 参数 | 是否必须 | 数据类型 | 限制长度 | 说明 |
+| :--- | :--- | :--- | :--- | :--- |
+| uid | 是 | string | 255 | 登录用户的唯一ID |
+| timestamp | 是 | int | 10位 | 时间戳 |
+| redirect | 是 | string | url地址 | 登录成功之后跳转的页面url，一般使用的是问卷的链接 |
+| source | 是 | string | 2-10位英文 | 用户自定义渠道标识 |
+| sign | 是 | string | 32 | 签名，参考签名算法 |
+| info | 否 | string | 255 | 额外的登录用户信息，可自定义 |
+
+#### 常见问题
 
