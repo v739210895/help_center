@@ -50,6 +50,9 @@ $query = [
     'timestamp' => time(),
     'source' => 'dwk',
     'info' => 'extra_info',
+    // 登录完成后系统会跳转到redirect的地址，一般使用的是问卷投放链接
+    // 如果有登录态回调参数，请参考【API文档】-> 【登录态回调接口】添加需要的参数
+    // 注意：这里的域名要根据投放的域名做修改，详情看文档下方【API接口】
     'redirect' => 'https://in.survey.imur.tencent.com/index.html?sid='.$sid,
 ];
 
@@ -62,11 +65,15 @@ ksort($params);
 
 $str = '';
 foreach ($params as $key => $value) {
-    $str .= $key.$value;
+    // 值为空的参数不参与加密
+    if ($value !== '') {
+        $str .= $key.$value;
+    }
 }
 
 $query['sign'] = strtolower(md5($str));
 
+// 注意：这里的域名要根据投放的域名做修改，详情看文档下方【API接口】
 $redirectUrl = 'https://inapi.survey.imur.tencent.com/autologin?'.http_build_query($query);
 
 // 重定向
@@ -81,15 +88,37 @@ _请求url示例_
 
 **API接口**
 
-**接口地址**
+**登录接口地址**
+
+请根据业务投放域名与国内、海外选择接入接口。
+
+**国内投放**
 
 ```text
-测试环境：
-https://test.inapi.survey.imur.tencent.com/autologin?
+国内投放拥有两套域名，分为tencent域与非tencent域，开发时需要注意
 
-正式环境：
+tencent域：
+问卷投放域名为https://in.survey.imur.tencent.com/?sid=xxx则为tencent域，对应登录接口为：
 https://inapi.survey.imur.tencent.com/autologin?
+
+非tencent域：
+问卷投放域名为https://in.weisurvey.com/?sid=xxx则为非tencent域，对应登录接口为：
 https://inapi.weisurvey.com/autologin?
+```
+
+**海外投放**
+
+```text
+海外投放拥有两套域名，分为tencent域与非tencent域，开发时需要注意
+
+tencent域：
+问卷投放域名为https://out.survey.imur.tencent.com/?sid=xxx则为tencent域，对应登录接口为：
+https://outapi.survey.imur.tencent.com/autologin?
+
+非tencent域：
+问卷投放域名为https://out.weisurvey.com/?sid=xxx则为非tencent域，对应登录接口为：
+https://outapi.weisurvey.com/autologin?
+
 ```
 
 **参数说明**
