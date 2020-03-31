@@ -4,7 +4,7 @@
 
 ![](../../.gitbook/assets/image%20%2814%29.png)
 
-![&#x7B54;&#x9898;&#x9650;&#x5236;&#x8BBE;&#x7F6E;](../../.gitbook/assets/image%20%28196%29.png)
+![&#x7B54;&#x9898;&#x9650;&#x5236;&#x8BBE;&#x7F6E;](../../.gitbook/assets/image%20%28197%29.png)
 
 
 
@@ -22,7 +22,7 @@
 
 此功能需要配合微信、QQ登录验证或MSDK登录验证使用，功能启用后，若该用户已回答过问卷，会禁止用户二次回答。
 
-![&#x91CD;&#x590D;&#x7B54;&#x9898;&#x63D0;&#x793A;](../../.gitbook/assets/image%20%28377%29.png)
+![&#x91CD;&#x590D;&#x7B54;&#x9898;&#x63D0;&#x793A;](../../.gitbook/assets/image%20%28378%29.png)
 
 ## 每个IP只能答一次
 

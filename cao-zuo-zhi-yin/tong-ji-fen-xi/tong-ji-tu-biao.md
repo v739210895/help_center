@@ -6,11 +6,11 @@
 左侧导航大纲支持点击定位到指定题目。
 {% endhint %}
 
-![&#x7EDF;&#x8BA1;&#x56FE;&#x8868;](../../.gitbook/assets/image%20%2850%29.png)
+![&#x7EDF;&#x8BA1;&#x56FE;&#x8868;](../../.gitbook/assets/image%20%2851%29.png)
 
 导出格式为CSV格式，可在excel中直接打开，排版如下：显示小计和占比百分比。
 
-![&#x5BFC;&#x51FA;&#x7EDF;&#x8BA1;&#x7ED3;&#x679C;](../../.gitbook/assets/image%20%28177%29.png)
+![&#x5BFC;&#x51FA;&#x7EDF;&#x8BA1;&#x7ED3;&#x679C;](../../.gitbook/assets/image%20%28178%29.png)
 
 ## 数据筛选
 
@@ -23,13 +23,13 @@
 
 【STEP 1】开启数据筛选
 
-![&#x5728;&#x7EDF;&#x8BA1;&#x56FE;&#x8868;&#x9875;&#x542F;&#x7528;&#x6570;&#x636E;&#x7B5B;&#x9009;](../../.gitbook/assets/image%20%28161%29.png)
+![&#x5728;&#x7EDF;&#x8BA1;&#x56FE;&#x8868;&#x9875;&#x542F;&#x7528;&#x6570;&#x636E;&#x7B5B;&#x9009;](../../.gitbook/assets/image%20%28162%29.png)
 
 【STEP 2】设置筛选条件
 
 点击“设置规则”在所显示的设置规则弹窗中勾选需要设定的筛选条件，支持一次勾选多个题目及选项设定，筛选条件包括用户信息（提交时间、答题时长、所在大洲、所在国家或地区、年龄）和答题信息，点击确定关闭弹窗后即根据勾选项生成多个条件。
 
-![&#x70B9;&#x51FB;&#x201C;&#x8BBE;&#x7F6E;&#x89C4;&#x5219;&#x201D;&#x663E;&#x793A;&#x5F39;&#x7A97;](../../.gitbook/assets/image%20%2855%29.png)
+![&#x70B9;&#x51FB;&#x201C;&#x8BBE;&#x7F6E;&#x89C4;&#x5219;&#x201D;&#x663E;&#x793A;&#x5F39;&#x7A97;](../../.gitbook/assets/image%20%2856%29.png)
 
 ![&#x8BBE;&#x7F6E;&#x89C4;&#x5219;&#x5F39;&#x7A97;](../../.gitbook/assets/image%20%289%29.png)
 
