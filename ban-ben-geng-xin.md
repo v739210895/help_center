@@ -14,7 +14,7 @@
       <td style="text-align:center">2020.03.31</td>
       <td style="text-align:left">
         <ol>
-          <li>&#x65B0;&#x589E;&#x8986;&#x76D6;&#x5BFC;&#x5165;&#x529F;&#x80FD;</li>
+          <li>&#x65B0;&#x589E;<a href="cao-zuo-zhi-yin/wen-juan-bian-ji/fu-gai-dao-ru.md">&#x8986;&#x76D6;&#x5BFC;&#x5165;</a>&#x529F;&#x80FD;</li>
           <li>&#x65B0;&#x589E;MSDK-v5&#x767B;&#x5F55;&#x9A8C;&#x8BC1;</li>
         </ol>
       </td>
