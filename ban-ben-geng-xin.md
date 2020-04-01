@@ -15,7 +15,8 @@
       <td style="text-align:left">
         <ol>
           <li>&#x65B0;&#x589E;<a href="cao-zuo-zhi-yin/wen-juan-bian-ji/fu-gai-dao-ru.md">&#x8986;&#x76D6;&#x5BFC;&#x5165;</a>&#x529F;&#x80FD;</li>
-          <li>&#x65B0;&#x589E;MSDK-v5&#x767B;&#x5F55;&#x9A8C;&#x8BC1;</li>
+          <li>&#x65B0;&#x589E;<a href="api-wen-dang/msdkv5-deng-lu-tai-cai-ji.md">MSDK-v5&#x767B;&#x5F55;&#x9A8C;&#x8BC1;</a>
+          </li>
         </ol>
       </td>
     </tr>
