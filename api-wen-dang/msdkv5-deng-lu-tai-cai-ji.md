@@ -5,6 +5,6 @@
 ![&#x914D;&#x7F6E;MSDK v5&#x767B;&#x5F55;&#x6001;&#x83B7;&#x53D6;&#x63A5;&#x5165;&#x6240;&#x9700;&#x8981;&#x7684;&#x53C2;&#x6570;](../.gitbook/assets/image%20%28353%29.png)
 
 {% hint style="info" %}
-“密钥”处请填写飞鹰系统参数中的MSDK\_SERVER\_KEY
+“密钥”请填写飞鹰系统参数中的MSDK\_SERVER\_KEY
 {% endhint %}
 
