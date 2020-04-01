@@ -24,13 +24,13 @@ API接口地址?sid=XX&uid=XX&timestamp=XX&source=XX&info=XX&redirect=问卷投�
 
 ![](../../.gitbook/assets/image%20%28329%29.png)
 
-![&#x8BBE;&#x7F6E;&#x8DF3;&#x8F6C;&#x5730;&#x5740;](../../.gitbook/assets/image%20%28385%29.png)
+![&#x8BBE;&#x7F6E;&#x8DF3;&#x8F6C;&#x5730;&#x5740;](../../.gitbook/assets/image%20%28386%29.png)
 
 ## 登录态回调接口
 
 提供登录态回调的功能，开发者可自行配置回调地址和密钥，问卷系统将登录态等参数回调给开发者，开发者获取参数后可用于奖励发放。
 
-![](../../.gitbook/assets/image%20%28441%29.png)
+![](../../.gitbook/assets/image%20%28442%29.png)
 
 ![&#x914D;&#x7F6E;&#x767B;&#x5F55;&#x6001;&#x56DE;&#x8C03;](../../.gitbook/assets/image%20%28335%29.png)
 

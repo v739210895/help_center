@@ -38,5 +38,5 @@
 
 ## 答题端显示视频
 
-![&#x7B54;&#x9898;&#x7AEF;&#x5C55;&#x793A;](../../.gitbook/assets/image%20%28399%29.png)
+![&#x7B54;&#x9898;&#x7AEF;&#x5C55;&#x793A;](../../.gitbook/assets/image%20%28400%29.png)
 

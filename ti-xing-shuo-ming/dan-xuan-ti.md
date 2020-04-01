@@ -2,13 +2,13 @@
 
 单选题指从一组选项当中，选出其中一个作为正确的答案。
 
-![&#x5355;&#x9009;&#x9898;](../.gitbook/assets/image%20%28384%29.png)
+![&#x5355;&#x9009;&#x9898;](../.gitbook/assets/image%20%28385%29.png)
 
 ## 【STEP 1】 新建单选题
 
 在问卷编辑页中，选择左侧题型控件中的“单选题”或在指定题目点击右侧快捷工具栏中的+按钮选择“单选题”即可新建单选题。
 
-![&#x901A;&#x8FC7;&#x201C;&#x9898;&#x578B;&#x201D;&#x63A7;&#x4EF6;&#x65B0;&#x5EFA;&#x5355;&#x9009;&#x9898;](../.gitbook/assets/image%20%28445%29.png)
+![&#x901A;&#x8FC7;&#x201C;&#x9898;&#x578B;&#x201D;&#x63A7;&#x4EF6;&#x65B0;&#x5EFA;&#x5355;&#x9009;&#x9898;](../.gitbook/assets/image%20%28446%29.png)
 
 ![&#x5728;&#x6307;&#x5B9A;&#x9898;&#x76EE;&#x4E0B;&#x65B9;&#x65B0;&#x5EFA;&#x5355;&#x9009;&#x9898;](../.gitbook/assets/image%20%28120%29.png)
 
@@ -16,7 +16,7 @@
 
 题目、选项及备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
-![&#x5355;&#x9009;&#x9898;&#x5185;&#x5BB9;&#x7F16;&#x8F91;](../.gitbook/assets/image%20%28357%29.png)
+![&#x5355;&#x9009;&#x9898;&#x5185;&#x5BB9;&#x7F16;&#x8F91;](../.gitbook/assets/image%20%28358%29.png)
 
 ## 【STEP 3】题目及选项设置
 
@@ -58,7 +58,7 @@
 
 选项随机正逆序是指答题时题目中的选项随机以正序/逆序出现。开启“选项随机正逆序”功能后，“选项随机正逆序”功能下方会出现“固定最后一个选项”功能开关，若希望最后一个选项固定在当前位置，可开启“固定最后一个选项”功能，则在答题端显示时最后一个选项不参与随机正逆序。
 
-![&#x9009;&#x9879;&#x968F;&#x673A;&#x6B63;&#x9006;&#x5E8F;](../.gitbook/assets/image%20%28446%29.png)
+![&#x9009;&#x9879;&#x968F;&#x673A;&#x6B63;&#x9006;&#x5E8F;](../.gitbook/assets/image%20%28447%29.png)
 
 #### 选项分组显示
 
@@ -80,7 +80,7 @@
 
 在统计分析页中，以条形图+表格小计的形式展示单选题的填答结果
 
-![&#x5355;&#x9009;&#x9898;&#x7EDF;&#x8BA1;&#x7ED3;&#x679C;](../.gitbook/assets/image%20%28407%29.png)
+![&#x5355;&#x9009;&#x9898;&#x7EDF;&#x8BA1;&#x7ED3;&#x679C;](../.gitbook/assets/image%20%28408%29.png)
 
 
 
