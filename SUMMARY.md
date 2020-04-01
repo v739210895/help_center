@@ -62,7 +62,7 @@
 * [API文档](api-wen-dang/README.md)
   * [MSDK-V3登录态采集](api-wen-dang/msdkv3-deng-lu-tai-cai-ji.md)
   * [MSDK-V5登录态采集](api-wen-dang/msdkv5-deng-lu-tai-cai-ji.md)
-  * [非MSDK-V3登录态传递接口](api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)
+  * [非MSDK登录态传递接口](api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)
   * [登录态回调接口](api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)
   * [开放接口](api-wen-dang/kai-fang-jie-kou.md)
 * [版本记录](ban-ben-geng-xin.md)
