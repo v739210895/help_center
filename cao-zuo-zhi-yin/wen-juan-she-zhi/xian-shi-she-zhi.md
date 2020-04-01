@@ -6,25 +6,25 @@
 
 此功能默认开启，关闭后，答题端将不显示题号。
 
-![&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;](../../.gitbook/assets/image%20%28154%29.png)
+![&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;](../../.gitbook/assets/image%20%28157%29.png)
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5F00;&#x542F;](../../.gitbook/assets/image%20%28262%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5F00;&#x542F;](../../.gitbook/assets/image%20%28265%29.png)
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5173;&#x95ED;](../../.gitbook/assets/image%20%28369%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x9ED8;&#x8BA4;&#x663E;&#x793A;&#x9898;&#x53F7;&#x529F;&#x80FD;&#x5173;&#x95ED;](../../.gitbook/assets/image%20%28374%29.png)
 
 ## 答题回退
 
 答题过程可以回退指的是，在答题端显示上一页的回退按钮。此功能默认关闭，在答题端不显示上一页的的回退按钮；开启后，在页面下方增加上一页的回退按钮。
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x4E0D;&#x652F;&#x6301;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28449%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x4E0D;&#x652F;&#x6301;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28454%29.png)
 
-![&#x7B54;&#x9898;&#x7AEF;-&#x7B54;&#x9898;&#x8FC7;&#x7A0B;&#x53EF;&#x4EE5;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28231%29.png)
+![&#x7B54;&#x9898;&#x7AEF;-&#x7B54;&#x9898;&#x8FC7;&#x7A0B;&#x53EF;&#x4EE5;&#x56DE;&#x9000;](../../.gitbook/assets/image%20%28234%29.png)
 
 ## 答卷语言
 
 答卷语言指的是，在答题端中显示的提示语语种，默认为中文简体，可根据实际需要设置其他语种。
 
-![&#x7B54;&#x5377;&#x8BED;&#x8A00;&#x8BBE;&#x7F6E;](../../.gitbook/assets/image%20%2864%29.png)
+![&#x7B54;&#x5377;&#x8BED;&#x8A00;&#x8BBE;&#x7F6E;](../../.gitbook/assets/image%20%2865%29.png)
 
 {% hint style="info" %}
 提示语支持语种：
@@ -51,7 +51,7 @@
 * 越南语-Tiếng Việt
 {% endhint %}
 
-![&#x7B54;&#x9898;&#x7AEF;&#x63D0;&#x793A;&#x8BED;/&#x6309;&#x94AE;&#x5C55;&#x793A;](../../.gitbook/assets/image%20%2897%29.png)
+![&#x7B54;&#x9898;&#x7AEF;&#x63D0;&#x793A;&#x8BED;/&#x6309;&#x94AE;&#x5C55;&#x793A;](../../.gitbook/assets/image%20%2899%29.png)
 
 ## 常见问题
 

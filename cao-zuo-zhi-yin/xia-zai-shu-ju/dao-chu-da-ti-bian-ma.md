@@ -2,19 +2,19 @@
 
 在“我的问卷”列表选择一份问卷，点击操作栏中的“导出”-导出答题编码，即可导出该问卷的全部原始答题数据。
 
-![&#x6211;&#x7684;&#x95EE;&#x5377;-&#x5BFC;&#x51FA;&#x7B54;&#x9898;&#x7F16;&#x7801;&#x6570;&#x636E;](../../.gitbook/assets/image%20%28128%29.png)
+![&#x6211;&#x7684;&#x95EE;&#x5377;-&#x5BFC;&#x51FA;&#x7B54;&#x9898;&#x7F16;&#x7801;&#x6570;&#x636E;](../../.gitbook/assets/image%20%28131%29.png)
 
 
 
  文件采用异步下载方式，任务导出状态显示在“离线下载”弹窗中，导出完成后下载。
 
-![&#x5BFC;&#x51FA;&#x540E;&#x7684;&#x7B54;&#x9898;&#x6570;&#x636E;&#x5728;&#x79BB;&#x7EBF;&#x4E0B;&#x8F7D;&#x4E2D;&#x4E0B;&#x8F7D;](../../.gitbook/assets/image%20%2891%29.png)
+![&#x5BFC;&#x51FA;&#x540E;&#x7684;&#x7B54;&#x9898;&#x6570;&#x636E;&#x5728;&#x79BB;&#x7EBF;&#x4E0B;&#x8F7D;&#x4E2D;&#x4E0B;&#x8F7D;](../../.gitbook/assets/image%20%2893%29.png)
 
 
 
 导出的答题编码数据为.zip格式的压缩包，内含答题编码数据（.csv）与SPSS编码（.txt）。
 
-![&#x5BFC;&#x51FA;&#x7684;&#x7B54;&#x9898;&#x7F16;&#x7801;&#x6570;&#x636E;&#x6587;&#x4EF6;](../../.gitbook/assets/image%20%28414%29.png)
+![&#x5BFC;&#x51FA;&#x7684;&#x7B54;&#x9898;&#x7F16;&#x7801;&#x6570;&#x636E;&#x6587;&#x4EF6;](../../.gitbook/assets/image%20%28419%29.png)
 
 ## 在EXCEL中打开答题编码数据
 
@@ -35,25 +35,25 @@
 
 鼠标选择第一个单元格（第一行A列的单元格），选择EXCEL文档中的“数据”-“自文本”，在弹窗中选择需要查看的csv文件（csv文件需提前解压到文件夹），开始导入。
 
-![csv&#x6587;&#x4EF6;&#x5BFC;&#x5165;](../../.gitbook/assets/image%20%28337%29.png)
+![csv&#x6587;&#x4EF6;&#x5BFC;&#x5165;](../../.gitbook/assets/image%20%28341%29.png)
 
 ### 【STEP 3】导入设置
 
 在文本导入向导中，在最时候的文件类型中选择“分隔分隔符号”，勾选“数据包含标题”，点击“下一步”。
 
-![&#x6587;&#x4EF6;&#x5BFC;&#x5165;&#x5411;&#x5BFC;-&#x7B2C;1&#x6B65;](../../.gitbook/assets/image%20%28180%29.png)
+![&#x6587;&#x4EF6;&#x5BFC;&#x5165;&#x5411;&#x5BFC;-&#x7B2C;1&#x6B65;](../../.gitbook/assets/image%20%28183%29.png)
 
 分隔符勾选“逗号”，点击“下一步”。
 
-![&#x6587;&#x4EF6;&#x5BFC;&#x5165;&#x5411;&#x5BFC;-&#x7B2C;2&#x6B65;](../../.gitbook/assets/image%20%28272%29.png)
+![&#x6587;&#x4EF6;&#x5BFC;&#x5165;&#x5411;&#x5BFC;-&#x7B2C;2&#x6B65;](../../.gitbook/assets/image%20%28275%29.png)
 
 在下方“数据预览”中鼠标点选第一列id后，按住键盘的shift不放，鼠标横拽至最后一列，点选最后一列，放开shift键，此时已全选所有列；全选后，在列数据格式中选择“文本”，点击完成。
 
-![&#x6587;&#x4EF6;&#x5BFC;&#x5165;&#x5411;&#x5BFC;-&#x7B2C;3&#x6B65;](../../.gitbook/assets/image%20%28212%29.png)
+![&#x6587;&#x4EF6;&#x5BFC;&#x5165;&#x5411;&#x5BFC;-&#x7B2C;3&#x6B65;](../../.gitbook/assets/image%20%28215%29.png)
 
 ### 【STEP 4】导入完成
 
-![](../../.gitbook/assets/image%20%28149%29.png)
+![](../../.gitbook/assets/image%20%28152%29.png)
 
 ## 常见问题
 
@@ -61,7 +61,7 @@
 
 导出的答题数据或答题编码出现乱码是由于编码配置不兼容导致的问题，可通过“记事本”打开文件，“另存为”选择编码为“UTF-8”即可。
 
-![](../../.gitbook/assets/image%20%28100%29.png)
+![](../../.gitbook/assets/image%20%28102%29.png)
 
 ### 
 
@@ -69,7 +69,7 @@
 
 直接使用excel打开csv文件可能会导致所收集的手机号码、uid等长数字显示错乱。请避免直接用EXCEL打开答题编码数据（.csv）文件，请按“[在EXCEL中打开答题编码数据](dao-chu-da-ti-bian-ma.md#zai-excel-zhong-da-kai-da-ti-bian-ma-shu-ju)”的步骤导入。
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 
 
