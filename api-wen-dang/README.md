@@ -61,7 +61,7 @@
 提交问卷跳转到指定页面说明
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28238%29.png)
+![](../.gitbook/assets/image%20%28239%29.png)
 
 
 
@@ -77,5 +77,5 @@
 问卷题目及统计结果开放接口
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28243%29.png)
+![](../.gitbook/assets/image%20%28244%29.png)
 

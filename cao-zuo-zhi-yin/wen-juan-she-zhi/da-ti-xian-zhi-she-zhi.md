@@ -4,7 +4,7 @@
 
 ![](../../.gitbook/assets/image%20%2814%29.png)
 
-![&#x7B54;&#x9898;&#x9650;&#x5236;&#x8BBE;&#x7F6E;](../../.gitbook/assets/image%20%28200%29.png)
+![&#x7B54;&#x9898;&#x9650;&#x5236;&#x8BBE;&#x7F6E;](../../.gitbook/assets/image%20%28201%29.png)
 
 ## 微信、QQ登录验证
 
@@ -12,7 +12,7 @@
 
 ## MSDK登录验证
 
-功能启用后，对于接入了msdk v3或v5的APP，问卷内嵌投放时，问卷系统会采集用户的openid，将openid解析并存储在uid列，在答题数据中显示。
+功能启用后，对于接入了msdk [v3](https://imur.gitbook.io/help_center/api-wen-dang/msdkv3-deng-lu-tai-cai-ji)或[v5](https://imur.gitbook.io/help_center/api-wen-dang/msdkv5-deng-lu-tai-cai-ji)的APP，问卷内嵌投放时，问卷系统会采集用户的openid，将openid解析并存储在uid列，在答题数据中显示。
 
 {% hint style="info" %}
 配置msdk v5登录态获取的参数中，“密钥”请填写飞鹰系统参数中的MSDK\_SERVER\_KEY
@@ -22,7 +22,7 @@
 
 此功能需要配合微信、QQ登录验证或MSDK登录验证使用，功能启用后，若该用户已回答过问卷，会禁止用户二次回答。
 
-![&#x91CD;&#x590D;&#x7B54;&#x9898;&#x63D0;&#x793A;](../../.gitbook/assets/image%20%28384%29.png)
+![&#x91CD;&#x590D;&#x7B54;&#x9898;&#x63D0;&#x793A;](../../.gitbook/assets/image%20%28386%29.png)
 
 ## 每个IP只能答一次
 
