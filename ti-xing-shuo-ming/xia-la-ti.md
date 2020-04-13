@@ -10,7 +10,7 @@
 
 ![&#x901A;&#x8FC7;&#x201C;&#x9898;&#x578B;&#x201D;&#x63A7;&#x4EF6;&#x65B0;&#x5EFA;&#x4E0B;&#x62C9;&#x9898;](../.gitbook/assets/image%20%28197%29.png)
 
-![&#x5728;&#x6307;&#x5B9A;&#x9898;&#x76EE;&#x4E0B;&#x65B9;&#x65B0;&#x5EFA;&#x4E0B;&#x62C9;&#x9898;](../.gitbook/assets/image%20%28292%29.png)
+![&#x5728;&#x6307;&#x5B9A;&#x9898;&#x76EE;&#x4E0B;&#x65B9;&#x65B0;&#x5EFA;&#x4E0B;&#x62C9;&#x9898;](../.gitbook/assets/image%20%28293%29.png)
 
 ## 【STEP 2】编辑题目、备注、选项内容
 
@@ -28,7 +28,7 @@
 所有题目默认开启“此题必答”功能。
 {% endhint %}
 
-![&#x201C;&#x6B64;&#x9898;&#x5FC5;&#x7B54;&#x201D;&#x529F;&#x80FD;](../.gitbook/assets/image%20%28322%29.png)
+![&#x201C;&#x6B64;&#x9898;&#x5FC5;&#x7B54;&#x201D;&#x529F;&#x80FD;](../.gitbook/assets/image%20%28323%29.png)
 
 ### 题型切换
 
@@ -40,7 +40,7 @@
 
 选项关联即让答题者选中（或未选中）的选项显示在下一题的可选项中，一般用于题目相关性极高的两题中或追问的情况。
 
-![&#x9009;&#x9879;&#x5173;&#x8054;](../.gitbook/assets/image%20%28364%29.png)
+![&#x9009;&#x9879;&#x5173;&#x8054;](../.gitbook/assets/image%20%28365%29.png)
 
 {% page-ref page="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
 
@@ -52,7 +52,7 @@
 
 选项随机排序是指答题时题目中的选项以随机顺序出现。开启“选项随机排序”功能后，题目的选项右侧会出现不随机的勾选框，若希望某个选项固定在当前位置，可在其后勾选“不随机”，则该选项不参与随机排序。
 
-![&#x9009;&#x9879;&#x968F;&#x673A;&#x6392;&#x5E8F;](../.gitbook/assets/image%20%28328%29.png)
+![&#x9009;&#x9879;&#x968F;&#x673A;&#x6392;&#x5E8F;](../.gitbook/assets/image%20%28329%29.png)
 
 #### 选项随机正逆序
 
@@ -80,5 +80,5 @@
 
 在统计分析页中，以条形图+表格小计的形式展示下拉题的填答结果
 
-![&#x4E0B;&#x62C9;&#x9898;&#x7EDF;&#x8BA1;&#x7ED3;&#x679C;](../.gitbook/assets/image%20%28414%29.png)
+![&#x4E0B;&#x62C9;&#x9898;&#x7EDF;&#x8BA1;&#x7ED3;&#x679C;](../.gitbook/assets/image%20%28415%29.png)
 

@@ -21,3 +21,15 @@ http://www.qq.com?algorithm=v2&version=2.0.6a&timestamp=1423538227203&appid=1007
 A3E93E44F3270F19664D5499CA2990BE5BA9E232036197B184F1411B76CF95537AC07E3D6A27F054AD3F26648B18554F9C1
 ```
 
+若系统无法获取正确的登录态时，会显示以下警告弹窗。
+
+（1）游戏调用问卷时，msdkEncodeParam参数缺失或检验失败，会提示该弹窗。
+
+（2）非标准MSDK V3环境中打开时，如游戏外，会提示该弹窗。
+
+![](../.gitbook/assets/image%20%28292%29.png)
+
+
+
+
+
