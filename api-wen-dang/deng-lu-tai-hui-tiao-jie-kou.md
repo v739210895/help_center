@@ -67,6 +67,8 @@ _回调URL示例_
 开发者回调接口url?sid=5da414769e8aa80019305e32&timestamp=1573556685&uid=test_user&user_type=third_party&uid_source=qq&info=afdadsfasdfasdf&callback_params=callbackparams&sign=38408d6222e1a4c6fa598e4820443ca8
 ```
 
+\*\*\*\*
+
 **回调参数说明**
 
 **参数说明**
@@ -155,6 +157,16 @@ _回调URL示例_
     "status": "ok"
 }
 ```
+
+#### 
+
+#### 回调接口调试工具
+
+可使用回调接口调试工具（建议使用chrome打开）确认调通回调与签名验证。
+
+\*\*\*\*[**https://test.a.imur.tencent.com/static/tools/index.html\#/callback**](https://test.a.imur.tencent.com/static/tools/index.html#/callback)\*\*\*\*
+
+![&#x56DE;&#x8C03;&#x63A5;&#x53E3;&#x8C03;&#x8BD5;&#x5DE5;&#x5177;](../.gitbook/assets/image%20%28380%29.png)
 
 #### 常见问题
 

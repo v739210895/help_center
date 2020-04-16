@@ -10,7 +10,7 @@
 
 导出格式为CSV格式，可在excel中直接打开，排版如下：显示小计和占比百分比。
 
-![&#x5BFC;&#x51FA;&#x7EDF;&#x8BA1;&#x7ED3;&#x679C;](../../.gitbook/assets/image%20%28182%29.png)
+![&#x5BFC;&#x51FA;&#x7EDF;&#x8BA1;&#x7ED3;&#x679C;](../../.gitbook/assets/image%20%28183%29.png)
 
 ## 数据筛选
 
@@ -23,7 +23,7 @@
 
 【STEP 1】开启数据筛选
 
-![&#x5728;&#x7EDF;&#x8BA1;&#x56FE;&#x8868;&#x9875;&#x542F;&#x7528;&#x6570;&#x636E;&#x7B5B;&#x9009;](../../.gitbook/assets/image%20%28166%29.png)
+![&#x5728;&#x7EDF;&#x8BA1;&#x56FE;&#x8868;&#x9875;&#x542F;&#x7528;&#x6570;&#x636E;&#x7B5B;&#x9009;](../../.gitbook/assets/image%20%28167%29.png)
 
 【STEP 2】设置筛选条件
 

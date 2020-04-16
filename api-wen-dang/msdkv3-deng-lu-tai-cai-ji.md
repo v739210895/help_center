@@ -2,7 +2,7 @@
 
 对接了MSDK V3版本的APP，可在问卷设置中启用【MSDK登录验证】功能，选择版本为v3；用户提交问卷时，问卷系统会自动获取MSDK的登录态并存储在答题数据中。
 
-![](../.gitbook/assets/image%20%28282%29.png)
+![](../.gitbook/assets/image%20%28283%29.png)
 
 {% hint style="info" %}
 解密MSDK-V3登录态说明
@@ -27,7 +27,7 @@ A3E93E44F3270F19664D5499CA2990BE5BA9E232036197B184F1411B76CF95537AC07E3D6A27F054
 
 （2）非标准MSDK V3环境中打开时，如游戏外，会提示该弹窗。
 
-![](../.gitbook/assets/image%20%28292%29.png)
+![](../.gitbook/assets/image%20%28293%29.png)
 
 
 
