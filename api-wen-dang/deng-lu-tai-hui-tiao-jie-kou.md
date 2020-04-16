@@ -1,6 +1,8 @@
 # 登录态回调接口
 
-### [回调参数说明](deng-lu-tai-hui-tiao-jie-kou.md#sign-qian-ming-suan-fa)
+### [回调参数说明](deng-lu-tai-hui-tiao-jie-kou.md#hui-tiao-can-shu-shuo-ming-1)
+
+### [回调调试工具](deng-lu-tai-hui-tiao-jie-kou.md#hui-tiao-jie-kou-tiao-shi-gong-ju)
 
 ### [常见问题](deng-lu-tai-hui-tiao-jie-kou.md#chang-jian-wen-ti-1)
 
