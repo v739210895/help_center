@@ -86,6 +86,20 @@ _请求url示例_
  https://inapi.survey.imur.tencent.com/autologin?sid=5dc5727a76051f14b96d5172&uid=user_id&timestamp=1573455797&source=dwk&info=extra_info&redirect=https%3A%2F%2Fin.survey.imur.tencent.com%2Findex.html%3Fsid%3D5dc5727a76051f14b96d5172&sign=2ac5ab8ce6a9b306e07dc2664fe7d175
 ```
 
+{% hint style="info" %}
+**普通投放链接与内嵌投放链接对比示例**
+
+【普通投放链接】
+
+ [https://in.weisurvey.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS](https://in.weisurvey.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS)
+
+【内嵌投放链接】
+
+ [https://inapi.survey.imur.tencent.com/autologin?sid=5e8d767b76051f46707cf692&uid=user\_id&timestamp=1573455797&source=dwk&info=extra\_info&redirect=https%3A%2F%2Fin.survey.imur.tencent.com%2Findex.html%3Fsid%5e8d767b76051f46707cf692&sign=2ac5ab8ce6a9b306e07dc2664fe7d175](https://inapi.survey.imur.tencent.com/autologin?sid=5e8d767b76051f46707cf692&uid=user_id&timestamp=1573455797&source=dwk&info=extra_info&redirect=https%3A%2F%2Fin.survey.imur.tencent.com%2Findex.html%3Fsid%5e8d767b76051f46707cf692&sign=2ac5ab8ce6a9b306e07dc2664fe7d175)
+{% endhint %}
+
+
+
 **API接口**
 
 **登录接口地址**
