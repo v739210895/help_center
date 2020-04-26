@@ -12,11 +12,11 @@
 
 解压压缩包文件后，在SPPS中打开答题数据（.csv）文件，开始导入。
 
-![SPSS&#x4E2D;&#x6587;&#x672C;&#x5BFC;&#x5165;&#x7684;&#x7B2C;&#x4E00;&#x6B65;](../../.gitbook/assets/image%20%28459%29.png)
+![SPSS&#x4E2D;&#x6587;&#x672C;&#x5BFC;&#x5165;&#x7684;&#x7B2C;&#x4E00;&#x6B65;](../../.gitbook/assets/image%20%28460%29.png)
 
 变量排列中选择“分隔”，变量名称是否包括在文件顶部中选择“是”，点击“下一步”。
 
-![SPSS&#x4E2D;&#x6587;&#x672C;&#x5BFC;&#x5165;&#x7684;&#x7B2C;&#x4E8C;&#x6B65;](../../.gitbook/assets/image%20%28443%29.png)
+![SPSS&#x4E2D;&#x6587;&#x672C;&#x5BFC;&#x5165;&#x7684;&#x7B2C;&#x4E8C;&#x6B65;](../../.gitbook/assets/image%20%28444%29.png)
 
 选择“每一行表示一个个案”，导入“全部个案”，点击“下一步”。
 
@@ -32,7 +32,7 @@
 
 完成导入。
 
-![SPSS&#x4E2D;&#x6587;&#x672C;&#x5BFC;&#x5165;&#x7684;&#x7B2C;&#x516D;&#x6B65;](../../.gitbook/assets/image%20%28406%29.png)
+![SPSS&#x4E2D;&#x6587;&#x672C;&#x5BFC;&#x5165;&#x7684;&#x7B2C;&#x516D;&#x6B65;](../../.gitbook/assets/image%20%28407%29.png)
 
 ![&#x7B54;&#x9898;&#x6570;&#x636E;&#x5BFC;&#x5165;&#x5B8C;&#x6210;](../../.gitbook/assets/image%20%28118%29.png)
 
@@ -52,5 +52,5 @@
 
 运行成功后，“变量视图”中的标签的值都导入了内容。
 
-![&#x5BFC;&#x5165;&#x7F16;&#x7801;&#x5B8C;&#x6210;](../../.gitbook/assets/image%20%28365%29.png)
+![&#x5BFC;&#x5165;&#x7F16;&#x7801;&#x5B8C;&#x6210;](../../.gitbook/assets/image%20%28366%29.png)
 

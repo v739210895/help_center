@@ -6,15 +6,15 @@
 
 在问卷编辑页中，选择左侧题型控件中的“联动题”或在指定题目点击右侧快捷工具栏中的+按钮选择“联动题”即可新建联动题。
 
-![&#x901A;&#x8FC7;&#x201C;&#x9898;&#x578B;&#x201D;&#x63A7;&#x4EF6;&#x65B0;&#x5EFA;&#x8054;&#x52A8;&#x9898;](../.gitbook/assets/image%20%28382%29.png)
+![&#x901A;&#x8FC7;&#x201C;&#x9898;&#x578B;&#x201D;&#x63A7;&#x4EF6;&#x65B0;&#x5EFA;&#x8054;&#x52A8;&#x9898;](../.gitbook/assets/image%20%28383%29.png)
 
-![&#x5728;&#x6307;&#x5B9A;&#x9898;&#x76EE;&#x4E0B;&#x65B9;&#x65B0;&#x5EFA;&#x8054;&#x52A8;&#x9898;](../.gitbook/assets/image%20%28458%29.png)
+![&#x5728;&#x6307;&#x5B9A;&#x9898;&#x76EE;&#x4E0B;&#x65B9;&#x65B0;&#x5EFA;&#x8054;&#x52A8;&#x9898;](../.gitbook/assets/image%20%28459%29.png)
 
 ## 【STEP 2】编辑题目、备注内容
 
 题目及备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
-![&#x8054;&#x52A8;&#x9898;&#x5185;&#x5BB9;&#x7F16;&#x8F91;](../.gitbook/assets/image%20%28444%29.png)
+![&#x8054;&#x52A8;&#x9898;&#x5185;&#x5BB9;&#x7F16;&#x8F91;](../.gitbook/assets/image%20%28445%29.png)
 
 ## 【STEP 3】题目设置
 
@@ -32,15 +32,15 @@
 
 系统提供地址题预设选项，省市区选项列表导入即可使用，导入后支持手动二次编辑。
 
-![&#x5BFC;&#x5165;&#x5730;&#x5740;&#x9898;&#x9009;&#x9879;](../.gitbook/assets/image%20%28351%29.png)
+![&#x5BFC;&#x5165;&#x5730;&#x5740;&#x9898;&#x9009;&#x9879;](../.gitbook/assets/image%20%28352%29.png)
 
 ## 编辑页及答题端显示
 
 编辑完成后，在编辑页内可查看联动题的具体内容及答题框设置。
 
-![&#x7F16;&#x8F91;&#x9875;&#x5185;&#x7684;&#x8054;&#x52A8;&#x9898;&#x663E;&#x793A;](../.gitbook/assets/image%20%28419%29.png)
+![&#x7F16;&#x8F91;&#x9875;&#x5185;&#x7684;&#x8054;&#x52A8;&#x9898;&#x663E;&#x793A;](../.gitbook/assets/image%20%28420%29.png)
 
-![&#x7B54;&#x9898;&#x7AEF;&#x7684;&#x8054;&#x52A8;&#x9898;&#x663E;&#x793A;](../.gitbook/assets/image%20%28361%29.png)
+![&#x7B54;&#x9898;&#x7AEF;&#x7684;&#x8054;&#x52A8;&#x9898;&#x663E;&#x793A;](../.gitbook/assets/image%20%28362%29.png)
 
 ## 统计结果展示
 

@@ -172,7 +172,7 @@ _回调URL示例_
 
 \*\*\*\*[**https://test.a.imur.tencent.com/static/tools/index.html\#/callback**](https://test.a.imur.tencent.com/static/tools/index.html#/callback)\*\*\*\*
 
-![&#x56DE;&#x8C03;&#x63A5;&#x53E3;&#x8C03;&#x8BD5;&#x5DE5;&#x5177;](../.gitbook/assets/image%20%28380%29.png)
+![&#x56DE;&#x8C03;&#x63A5;&#x53E3;&#x8C03;&#x8BD5;&#x5DE5;&#x5177;](../.gitbook/assets/image%20%28381%29.png)
 
 #### 常见问题
 

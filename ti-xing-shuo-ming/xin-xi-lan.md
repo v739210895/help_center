@@ -8,15 +8,15 @@
 
 在问卷编辑页中，选择左侧题型控件中的“信息栏”或在指定题目点击右侧快捷工具栏中的+按钮选择“信息栏”即可新建信息栏。
 
-![&#x901A;&#x8FC7;&#x201C;&#x9898;&#x578B;&#x201D;&#x63A7;&#x4EF6;&#x65B0;&#x5EFA;&#x4FE1;&#x606F;&#x680F;](../.gitbook/assets/image%20%28354%29.png)
+![&#x901A;&#x8FC7;&#x201C;&#x9898;&#x578B;&#x201D;&#x63A7;&#x4EF6;&#x65B0;&#x5EFA;&#x4FE1;&#x606F;&#x680F;](../.gitbook/assets/image%20%28355%29.png)
 
-![&#x5728;&#x6307;&#x5B9A;&#x9898;&#x76EE;&#x4E0B;&#x65B9;&#x65B0;&#x5EFA;&#x4FE1;&#x606F;&#x680F;](../.gitbook/assets/image%20%28393%29.png)
+![&#x5728;&#x6307;&#x5B9A;&#x9898;&#x76EE;&#x4E0B;&#x65B9;&#x65B0;&#x5EFA;&#x4FE1;&#x606F;&#x680F;](../.gitbook/assets/image%20%28394%29.png)
 
 ## 【STEP 2】编辑信息栏内容
 
 信息栏内容支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
-![&#x4FE1;&#x606F;&#x680F;&#x5185;&#x5BB9;&#x7F16;&#x8F91;](../.gitbook/assets/image%20%28431%29.png)
+![&#x4FE1;&#x606F;&#x680F;&#x5185;&#x5BB9;&#x7F16;&#x8F91;](../.gitbook/assets/image%20%28432%29.png)
 
 ## 编辑页及答题端显示
 

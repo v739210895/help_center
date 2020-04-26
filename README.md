@@ -46,7 +46,7 @@
 
 ### 各种终端自动兼容，链接可多渠道投放
 
-![PC&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28414%29.png)
+![PC&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28415%29.png)
 
 ![&#x79FB;&#x52A8;&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28318%29.png)
 

@@ -40,7 +40,7 @@
 
 选项关联即让答题者选中（或未选中）的选项显示在下一题的可选项中，一般用于题目相关性极高的两题中或追问的情况。
 
-![&#x9009;&#x9879;&#x5173;&#x8054;](../.gitbook/assets/image%20%28366%29.png)
+![&#x9009;&#x9879;&#x5173;&#x8054;](../.gitbook/assets/image%20%28367%29.png)
 
 {% page-ref page="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
 
@@ -80,5 +80,5 @@
 
 在统计分析页中，以条形图+表格小计的形式展示下拉题的填答结果
 
-![&#x4E0B;&#x62C9;&#x9898;&#x7EDF;&#x8BA1;&#x7ED3;&#x679C;](../.gitbook/assets/image%20%28417%29.png)
+![&#x4E0B;&#x62C9;&#x9898;&#x7EDF;&#x8BA1;&#x7ED3;&#x679C;](../.gitbook/assets/image%20%28418%29.png)
 
