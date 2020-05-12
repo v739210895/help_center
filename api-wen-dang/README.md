@@ -12,22 +12,22 @@
   <tbody>
     <tr>
       <td style="text-align:left">
-        <p>&#x91C7;&#x96C6;&#x7528;&#x6237;uid</p>
+        <p>&#x91C7;&#x96C6;&#x7528;&#x6237;openid</p>
         <p>(&#x7528;&#x4E8E;&#x91C7;&#x96C6;&#x95EE;&#x5377;&#x7CFB;&#x7EDF;&#x7528;&#x6237;&#x767B;&#x5F55;&#x6001;&#x7684;&#x573A;&#x666F;&#xFF09;</p>
       </td>
       <td style="text-align:left">&#x5FAE;&#x4FE1;&#x3001;QQ&#x767B;&#x5F55;&#x9A8C;&#x8BC1;</td>
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>&#x91C7;&#x96C6;&#x7528;&#x6237;uid</p>
-        <p>(&#x7528;&#x4E8E;MSDK v3&#x7684;&#x573A;&#x666F;&#xFF09;</p>
+        <p>&#x91C7;&#x96C6;&#x7528;&#x6237;openid</p>
+        <p>(&#x7528;&#x4E8E;MSDK v3/V5&#x7684;&#x573A;&#x666F;&#xFF09;</p>
       </td>
       <td style="text-align:left">MSDK&#x767B;&#x5F55;&#x9A8C;&#x8BC1;</td>
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>&#x91C7;&#x96C6;&#x7528;&#x6237;uid</p>
-        <p>(&#x7528;&#x4E8E;&#x975E;MSDK v3&#x7684;&#x573A;&#x666F;)</p>
+        <p>&#x91C7;&#x96C6;&#x7528;&#x6237;openid</p>
+        <p>(&#x7528;&#x4E8E;&#x975E;MSDK&#x7684;&#x573A;&#x666F;)</p>
       </td>
       <td style="text-align:left">&#x975E;MSDK&#x767B;&#x5F55;&#x6001;&#x4F20;&#x9012;&#x63A5;&#x53E3;</td>
     </tr>
