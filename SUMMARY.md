@@ -57,6 +57,7 @@
   * [量表题](ti-xing-shuo-ming/liang-biao-ti.md)
   * [主观题](ti-xing-shuo-ming/zhu-guan-ti.md)
   * [矩阵单选题](ti-xing-shuo-ming/ju-zhen-dan-xuan-ti.md)
+  * [矩阵多选题](ti-xing-shuo-ming/ju-zhen-duo-xuan-ti.md)
   * [联动题](ti-xing-shuo-ming/lian-dong-ti.md)
   * [信息栏](ti-xing-shuo-ming/xin-xi-lan.md)
 * [API文档](api-wen-dang/README.md)
