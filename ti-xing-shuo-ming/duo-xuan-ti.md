@@ -50,6 +50,18 @@
 
 {% page-ref page="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
 
+### 选项分列
+
+在题目编辑状态下，可设置选项分列，设置成功后，在PC答题端会根据设置的每行展示选项个数对选项进行分列展示，可设置每行展示1~3个。移动端不生效，适用于选项数量多且选项文本不长的情况。
+
+![](../.gitbook/assets/image%20%28484%29.png)
+
+![&#x9009;&#x9879;&#x5206;&#x5217;&#x8BBE;&#x7F6E;](../.gitbook/assets/image%20%28485%29.png)
+
+![&#x7535;&#x8111;&#x7B54;&#x9898;&#x7AEF;&#x663E;&#x793A;](../.gitbook/assets/image%20%28487%29.png)
+
+
+
 ### 选项互斥
 
 多选题中的选项互斥指的是指定某个选项为互斥项，答题时若用户选择了任一被设置为互斥项的选项，则不可选择其他选项。
