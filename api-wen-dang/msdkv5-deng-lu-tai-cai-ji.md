@@ -19,5 +19,35 @@
 
 
 
-API文档参考：[http://docs.msdk.qq.com/v5/zh-CN/Server/verify.html](http://docs.msdk.qq.com/v5/zh-CN/Server/)
+{% hint style="info" %}
+解密MSDK-V5登录态说明
+{% endhint %}
+
+API文档1参考：[http://docs.msdk.qq.com/v5/zh-CN/Server/verify.html](http://docs.msdk.qq.com/v5/zh-CN/Server/)
+
+API文档2参考：[http://docs.msdk.qq.com/v5/zh-CN/Server/verify.html](http://docs.msdk.qq.com/v5/zh-CN/Server/verify.html)
+
+（1）系统使用itopencodeparam参数进行登录态解密，此时要求必须带上os、gameid、channelid、ts、sig、source这6个参数参与，示例如下：
+
+```text
+https://hktest.itop.qq.com/v2/auth/decrypt?channelid=1&gameid=11&os=1&source=0&ts=1529907080&sig=8279b3214fc4900e7551ee21593b4d80&itopencodeparam=d9b48147c3b809a2bebbd8b2e96c26f1
+```
+
+
+
+{% hint style="info" %}
+登录失败提示
+{% endhint %}
+
+当系统无法获取正确的登录态时，会显示警告弹窗，主要导致失败的原因如下：
+
+（1）itopencodeparam解密登录态时，由于缺失os、gameid、channelid、ts、sig、source等参数导致解密失败。
+
+![](../.gitbook/assets/image%20%28293%29.png)
+
+
+
+{% hint style="warning" %}
+如MSDK-V3登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。
+{% endhint %}
 

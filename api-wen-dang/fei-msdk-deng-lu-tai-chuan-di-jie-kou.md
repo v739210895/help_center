@@ -25,7 +25,7 @@
 
 **算法流程**
 
-1. 提供必要参数（详情看API接口），使用kv数据结构；
+1. 提供必要参数（详情看API接口，空值不需要参与签名），使用kv数据结构；
 2. 添加appSecret作为签名密钥字段到kv数据结构；
 3. 对key进行按ascii升序排序；
 4. 遍历排序后的kv数据结构，把所有元素，按照“key1value1key2value2”的模式拼接成字符串；
@@ -50,7 +50,7 @@ $query = [
     'timestamp' => time(),
     'source' => 'dwk',
     'info' => 'extra_info',
-    // 登录完成后系统会跳转到redirect的地址，一般使用的是问卷投放链接
+    // 登录完成后系统会跳转到redirect的地址，一般使用的是问卷投放链接，会包括sid、lang内容
     // 如果有登录态回调参数，请参考【API文档】-> 【登录态回调接口】添加需要的参数
     // 注意：这里的域名要根据投放的域名做修改，详情看文档下方【API接口】
     'redirect' => 'https://in.survey.imur.tencent.com/index.html?sid='.$sid,
