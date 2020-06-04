@@ -6,5 +6,18 @@
 
 {% hint style="info" %}
 “密钥”请填写飞鹰系统参数中的MSDK\_SERVER\_KEY
+
+“msdk域名”区分正式环境和测试环境，填写参考：
+
+| 环境（域名） | HTTP内网 | HTTPS外网 |
+| :--- | :--- | :--- |
+| 测试环境 | hktest.itop.tencent-cloud.net | hktest.itop.qq.com |
+| 国内正式环境 | itop.tencent-cloud.net | itop.qq.com / ipv6-sh.itop.qq.com |
+| 新加坡正式环境 | 无 | sg.itopsdk.com |
+| 硅谷正式环境 | 无 | us.itopsdk.com |
 {% endhint %}
+
+
+
+API文档参考：[http://docs.msdk.qq.com/v5/zh-CN/Server/verify.html](http://docs.msdk.qq.com/v5/zh-CN/Server/)
 

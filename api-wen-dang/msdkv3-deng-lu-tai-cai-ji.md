@@ -1,6 +1,8 @@
 # MSDK-V3登录态采集
 
-对接了MSDK V3版本的APP，可在问卷设置中启用【MSDK登录验证】功能，选择版本为v3；用户提交问卷时，问卷系统会自动获取MSDK的登录态并存储在答题数据中。
+对接了MSDK V3版本的APP，可在问卷设置中启用【MSDK登录验证】功能，选择版本为v3；
+
+用户提交问卷时，问卷系统会自动获取MSDK的登录态并存储在答题数据中。
 
 ![](../.gitbook/assets/image%20%28283%29.png)
 
@@ -10,9 +12,7 @@
 
 API文档参考：[https://wiki.ssl.msdk.qq.com/Unity/webview.html\#Unity\_DecodeLoginInfo ](https://wiki.ssl.msdk.qq.com/Unity/webview.html#Unity_DecodeLoginInfo%20)
 
-MSDK-V3版本的参数示例如下：
-
-其中msdkEncodeParam参数是V3版本最重要的标识，存储了用户信息与access\_token。
+（1）系统优先使用msdkEncodeParam参数进行登录态解密，此时要求必须带上timestamp、appid、algorithm、version、sig、encode这6个参数参与，示例如下：
 
 ```text
 http://www.qq.com?algorithm=v2&version=2.0.6a&timestamp=1423538227203&appid=100703379&sig=427291da31b56b597
@@ -21,11 +21,19 @@ http://www.qq.com?algorithm=v2&version=2.0.6a&timestamp=1423538227203&appid=1007
 A3E93E44F3270F19664D5499CA2990BE5BA9E232036197B184F1411B76CF95537AC07E3D6A27F054AD3F26648B18554F9C1
 ```
 
-若系统无法获取正确的登录态时，会显示以下警告弹窗。
+![](../.gitbook/assets/image%20%28488%29.png)
 
-（1）游戏调用问卷时，msdkEncodeParam参数缺失或检验失败，会提示该弹窗。
+（2）当msdkEncodeParam参数无法正常解密登录态时，系统会直接获取openid参数值作为登录态。
 
-（2）非标准MSDK V3环境中打开时，如游戏外，会提示该弹窗。
+{% hint style="info" %}
+登录失败提示
+{% endhint %}
+
+当系统无法获取正确的登录态时，会显示警告弹窗，主要导致失败的原因如下：
+
+（1）msdkEncodeParam解密登录态时，由于缺失timestamp、appid、algorithm、version、sig、encode等参数导致解密失败。
+
+（2）链接中无openid参数，导致无法获取登录态。
 
 ![](../.gitbook/assets/image%20%28293%29.png)
 

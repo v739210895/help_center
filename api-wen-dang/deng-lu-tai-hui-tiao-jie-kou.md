@@ -154,7 +154,9 @@ _回调URL示例_
         href="fei-msdk-deng-lu-tai-chuan-di-jie-kou.md">&#x975E;MSDK&#x767B;&#x5F55;&#x6001;&#x4F20;&#x9012;&#x63A5;&#x53E3;&#x4F7F;&#x7528;</a>&#x3002;</td>
     </tr>
   </tbody>
-</table>**回调成功约定返回格式**
+</table>
+
+**回调成功约定返回格式**
 
 开发者接收到回调并正常处理业务流程后，必需返回以下指定的json格式到问卷服务端：
 
