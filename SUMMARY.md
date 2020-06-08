@@ -67,5 +67,7 @@
   * [参数传递接口（不校验模式）](api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md)
   * [登录态回调接口](api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)
   * [开放接口](api-wen-dang/kai-fang-jie-kou.md)
+* [常见问题](chang-jian-wen-ti/README.md)
+  * [uid无法显示完整问题](chang-jian-wen-ti/uid-wu-fa-xian-shi-wan-zheng-wen-ti.md)
 * [版本记录](ban-ben-geng-xin.md)
 

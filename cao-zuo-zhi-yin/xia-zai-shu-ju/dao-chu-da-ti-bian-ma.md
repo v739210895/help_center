@@ -60,7 +60,7 @@
 4. 如果导入后，仍发现uid列尾数存在显示为0000的情况，可重新导入，此时弹窗中数据类型校验选择“不检查数据类型”
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28492%29.png)
+![](../../.gitbook/assets/image%20%28493%29.png)
 
 {% hint style="success" %}
 #### EXCEL 2019
