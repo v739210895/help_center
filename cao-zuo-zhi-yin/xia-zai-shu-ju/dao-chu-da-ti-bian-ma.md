@@ -21,7 +21,7 @@
 答题编码数据（.csv）一般需要使用SPSS软件进行数据分析，详情请查看[SPSS数据分析](spss-shu-ju-fen-xi.md)，也可导入到EXCEL中直接查看。
 
 {% hint style="danger" %}
-1. 直接使用EXCEL打开答题编码数据（.csv）文件可能会导致所收集的手机号码、uid等长数字显示错乱。请避免直接用EXCEL打开答题编码数据（.csv）文件，请按以下步骤导入。（excel2019的导入设置请[点击此处](https://imur.gitbook.io/help_center/cao-zuo-zhi-yin/xia-zai-shu-ju/dao-chu-da-ti-bian-ma#excel-2019)查看）
+1. 直接使用EXCEL打开答题编码数据（.csv）文件可能会导致所收集的手机号码、uid等长数字显示错乱。请避免直接用EXCEL打开答题编码数据（.csv）文件，请按以下步骤导入。  （excel2016的导入设置请[点击此处](https://imur.gitbook.io/help_center/cao-zuo-zhi-yin/xia-zai-shu-ju/dao-chu-da-ti-bian-ma#excel-2019)查看，excel2019的导入设置请[点击此处](https://imur.gitbook.io/help_center/cao-zuo-zhi-yin/xia-zai-shu-ju/dao-chu-da-ti-bian-ma#excel-2019)查看）
 2. 当答卷数量过多时，在EXCEL中查看答题编码数据（.csv）文件可能会出现卡顿，请改用SPSS软件查看。
 {% endhint %}
 
@@ -50,6 +50,17 @@
 在下方“数据预览”中鼠标点选第一列id后，按住键盘的shift不放，鼠标横拽至最后一列，点选最后一列，放开shift键，此时已全选所有列；全选后，在列数据格式中选择“文本”，点击完成。
 
 ![&#x6587;&#x4EF6;&#x5BFC;&#x5165;&#x5411;&#x5BFC;-&#x7B2C;3&#x6B65;](../../.gitbook/assets/image%20%28217%29.png)
+
+{% hint style="success" %}
+#### EXCEL 2016
+
+1. 新建excel文件后，点击“数据”-“从文本/CSV”
+2. 选中需要导入的文件后，系统弹窗中显示数据类型校验为“基于前200行”；
+3. 可以使用默认情况直接进行导入
+4. 如果导入后，仍发现uid列尾数存在显示为0000的情况，可重新导入，此时弹窗中数据类型校验选择“不检查数据类型”
+{% endhint %}
+
+![](../../.gitbook/assets/image%20%28492%29.png)
 
 {% hint style="success" %}
 #### EXCEL 2019
