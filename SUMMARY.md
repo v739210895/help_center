@@ -68,6 +68,7 @@
   * [登录态回调接口](api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)
   * [开放接口](api-wen-dang/kai-fang-jie-kou.md)
 * [常见问题](chang-jian-wen-ti/README.md)
-  * [uid无法显示完整问题](chang-jian-wen-ti/uid-wu-fa-xian-shi-wan-zheng-wen-ti.md)
+  * [uid\(openid\)无法显示完整](chang-jian-wen-ti/uid-wu-fa-xian-shi-wan-zheng-wen-ti.md)
+  * [uid\(openid\)转换QQ号](chang-jian-wen-ti/uidopenid-zhuan-huan-qq-hao.md)
 * [版本记录](ban-ben-geng-xin.md)
 
