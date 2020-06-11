@@ -24,5 +24,7 @@ openid是用户身份的唯一标识，用于区分单个用户。目前，基�
 #### 其他系统的Appid查询：[http://ptzh.sap.cm.com/ajax/ajax.html](http://ptzh.sap.cm.com/ajax/ajax.html)
 {% endhint %}
 
+![&#x7528;&#x6237;&#x7684;openid&#x5B58;&#x50A8;&#x5728;uid&#x4E00;&#x5217;&#xFF0C;uid&#x8868;&#x793A;&#x4E3A;userId](../.gitbook/assets/image%20%28497%29.png)
+
 ![&#x7EDF;&#x4E00;&#x767B;&#x5F55;&#x5E73;&#x53F0;&#x64CD;&#x4F5C;&#x6307;&#x5F15;](../.gitbook/assets/image%20%28494%29.png)
 
