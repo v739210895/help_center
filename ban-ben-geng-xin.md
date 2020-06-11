@@ -26,7 +26,7 @@
       <td style="text-align:left">
         <ol>
           <li>&#x5173;&#x95ED;&#x201C;&#x6BCF;&#x4E2A;&#x6D4F;&#x89C8;&#x5668;&#x9650;&#x5236;&#x56DE;&#x7B54;&#x4E00;&#x6B21;&#x201D;&#x201C;&#x6BCF;&#x4E2A;IP&#x9650;&#x5236;&#x56DE;&#x7B54;&#x4E00;&#x6B21;&#x201D;&#x529F;&#x80FD;</li>
-          <li>&#x65B0;&#x589E;&#x7EDF;&#x8BA1;&#x56FE;&#x8868;&#x7684;<a href="cao-zuo-zhi-yin/tong-ji-fen-xi/tong-ji-tu-biao.md#shu-ju-shai-xuan">&#x6570;&#x636E;&#x7B5B;&#x9009;</a>&#x529F;&#x80FD;</li>
+          <li>&#x65B0;&#x589E;&#x7EDF;&#x8BA1;&#x56FE;&#x8868;&#x7684;<a href="cao-zuo-zhi-yin/tong-ji-tu-biao.md#shu-ju-shai-xuan">&#x6570;&#x636E;&#x7B5B;&#x9009;</a>&#x529F;&#x80FD;</li>
         </ol>
       </td>
     </tr>
@@ -93,7 +93,7 @@
       <td style="text-align:left">
         <ol>
           <li>&#x6B22;&#x8FCE;&#x8BED;/&#x7ED3;&#x675F;&#x9875;&#x7F16;&#x8F91;&#x65B0;&#x589E;&#x81EA;&#x7531;&#x6392;&#x7248;&#x5DE5;&#x5177;</li>
-          <li>&#x65B0;&#x589E;<a href="cao-zuo-zhi-yin/tong-ji-fen-xi/share.md">&#x62A5;&#x544A;&#x5206;&#x4EAB;</a>&#x529F;&#x80FD;</li>
+          <li>&#x65B0;&#x589E;<a href="cao-zuo-zhi-yin/share.md">&#x62A5;&#x544A;&#x5206;&#x4EAB;</a>&#x529F;&#x80FD;</li>
         </ol>
       </td>
     </tr>
