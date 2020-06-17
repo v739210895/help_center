@@ -409,7 +409,7 @@ GET http://{host}/open/v1/surveys/{sid}
 **接口地址**
 
 ```text
-GET http://{host}/statistics/{sid}/overview
+GET http://{host}/open/v1/statistics/{sid}/overview
 ```
 
 **参数说明**
@@ -438,7 +438,7 @@ GET http://{host}/statistics/{sid}/overview
 **接口地址**
 
 ```text
-GET http://{host}/statistics/{sid}/consumed_median
+GET http://{host}/open/v1/statistics/{sid}/consumed_median
 ```
 
 **参数说明**
@@ -461,7 +461,7 @@ GET http://{host}/statistics/{sid}/consumed_median
 **接口地址**
 
 ```text
-GET http://{host}/statistics/{sid}/consumed_ranges
+GET http://{host}/open/v1/statistics/{sid}/consumed_ranges
 ```
 
 **参数说明**
@@ -550,7 +550,7 @@ GET http://{host}/statistics/{sid}/consumed_ranges
 **接口地址**
 
 ```text
-GET http://{host}/statistics/{sid}/answers_date_histogram
+GET http://{host}/open/v1/statistics/{sid}/answers_date_histogram
 ```
 
 **参数说明**
@@ -592,7 +592,7 @@ GET http://{host}/statistics/{sid}/answers_date_histogram
 **接口地址**
 
 ```text
-GET http://{host}/statistics/{sid}/answers
+GET http://{host}/open/v1/statistics/{sid}/answers
 ```
 
 **参数说明**
@@ -672,7 +672,7 @@ GET http://{host}/statistics/{sid}/answers
 **接口地址**
 
 ```text
-GET http://{host}/statistics/{sid}/blanks
+GET http://{host}/open/v1/statistics/{sid}/blanks
 ```
 
 **参数说明**
@@ -682,8 +682,8 @@ GET http://{host}/statistics/{sid}/blanks
 | 参数 | 是否必须 | 数据类型 | 限制长度 | 说明 |
 | :--- | :--- | :--- | :--- | :--- |
 | blank\_id | 是 | string | 4 | 如果是主观题则为question_id；如果是选项中的填空题，由question\_id与option\_id组成，格式：{qid}_{oid} |
-| page | 是 | int |  | 页码，起码为1，默认为1 |
-| page\_size | 是 | int |  | 页数，默认为10 |
+| page | 否 | int |  | 页码，起码为1，默认为1 |
+| page\_size | 否 | int |  | 页数，默认为10 |
 
 **返回数据**
 
