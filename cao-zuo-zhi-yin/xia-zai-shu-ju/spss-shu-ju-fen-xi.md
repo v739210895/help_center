@@ -4,7 +4,7 @@
 
 在“我的问卷”列表中导出“答题编码数据”，在“离线下载”中下载对应的.zip文件，文件中包括：答题数据（.csv）、SPSS编码文件（.txt）。
 
-![&#x5BFC;&#x51FA;&#x6570;&#x636E;&#x5E76;&#x4E0B;&#x8F7D;](../../.gitbook/assets/image%20%28295%29.png)
+![&#x5BFC;&#x51FA;&#x6570;&#x636E;&#x5E76;&#x4E0B;&#x8F7D;](../../.gitbook/assets/image%20%28517%29.png)
 
 ![&#x5BFC;&#x51FA;&#x7684;&#x6587;&#x4EF6;](../../.gitbook/assets/image%20%28226%29.png)
 

@@ -12,9 +12,9 @@
 3.若多名用户同时编辑/设置同一份问卷，以最后保存的一份问卷内容为准。
 {% endhint %}
 
-![&#x6DFB;&#x52A0;&#x5173;&#x6CE8;&#x4EBA;&#x5165;&#x53E3;](../../.gitbook/assets/image%20%28517%29.png)
+![&#x6DFB;&#x52A0;&#x5173;&#x6CE8;&#x4EBA;&#x5165;&#x53E3;](../../.gitbook/assets/image%20%28521%29.png)
 
 ![&#x6DFB;&#x52A0;&#x5173;&#x6CE8;&#x4EBA;](../../.gitbook/assets/image%20%28400%29.png)
 
-![&#x672A;&#x52FE;&#x9009;&#x201C;&#x5141;&#x8BB8;&#x8BBE;&#x7F6E;&#x5173;&#x6CE8;&#x4EBA;&#x201D;&#x6743;&#x9650;&#x7684;&#x7528;&#x6237;&#x4EC5;&#x53EF;&#x67E5;&#x770B;&#x5173;&#x6CE8;&#x4EBA;](../../.gitbook/assets/image%20%28511%29.png)
+![&#x672A;&#x52FE;&#x9009;&#x201C;&#x5141;&#x8BB8;&#x8BBE;&#x7F6E;&#x5173;&#x6CE8;&#x4EBA;&#x201D;&#x6743;&#x9650;&#x7684;&#x7528;&#x6237;&#x4EC5;&#x53EF;&#x67E5;&#x770B;&#x5173;&#x6CE8;&#x4EBA;](../../.gitbook/assets/image%20%28514%29.png)
 
