@@ -10,6 +10,105 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">v13.2</td>
+      <td style="text-align:center">2020.07.15</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x65B0;&#x589E;&#x9898;&#x578B;&#xFF1A;<a href="ti-xing-shuo-ming/ju-zhen-liang-biao-ti.md">&#x77E9;&#x9635;&#x91CF;&#x8868;&#x9898;</a>
+          </li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">v13.1</td>
+      <td style="text-align:center">2020.07.07</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x65B0;&#x589E;&#x529F;&#x80FD;&#xFF1A;&#x91CF;&#x8868;&#x9898;&#x65B0;&#x589E;
+            <a
+            href="ti-xing-shuo-ming/liang-biao-ti.md#fen-shu-fan-wei">&#x5F02;&#x5E38;&#x9879;&#x529F;&#x80FD;</a>
+          </li>
+          <li>&#x903B;&#x8F91;&#x8BBE;&#x7F6E;&#xFF1A;&#x65B0;&#x589E;&#x903B;&#x8F91;&#x6392;&#x5E8F;&#x529F;&#x80FD;</li>
+          <li>&#x4EA4;&#x4E92;&#x53CA;&#x6837;&#x5F0F;&#x4F18;&#x5316;</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">v12.2</td>
+      <td style="text-align:center">2020.06.23</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x7B54;&#x9898;&#x7AEF;&#x5173;&#x8054;&#x9009;&#x9879;&#x589E;&#x52A0;&#x663E;&#x793A;&#x586B;&#x7A7A;&#x5185;&#x5BB9;</li>
+          <li>&#x6D77;&#x5916;&#x9A8C;&#x8BC1;&#x6D41;&#x7A0B;-&#x589E;&#x52A0;&#x7528;&#x6237;&#x534F;&#x8BAE;&#x6D41;&#x7A0B;&#x9875;&#x9762;</li>
+          <li>&#x95EE;&#x5377;&#x7F16;&#x8F91;-&#x67E5;&#x770B;/&#x805A;&#x7126;&#x72B6;&#x6001;&#x4E0B;&#x8C03;&#x6574;&#x5173;&#x8054;&#x8BBE;&#x7F6E;&#x6807;&#x8BB0;</li>
+          <li>&#x95EE;&#x5377;&#x9884;&#x89C8;-&#x95EE;&#x5377;&#x9884;&#x89C8;&#x89C6;&#x9891;&#x64AD;&#x653E;&#x5668;&#x589E;&#x52A0;&#x5168;&#x5C4F;&#x529F;&#x80FD;
+            <br
+            />
+          </li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:center">2020.06.16</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x7B54;&#x9898;&#x7AEF;&#x3001;&#x7BA1;&#x7406;&#x7AEF;&#x4EA4;&#x4E92;&#x4F18;&#x5316;</li>
+          <li>&#x62A5;&#x544A;&#x5206;&#x4EAB;-&#x65B0;&#x589E;&#x6570;&#x636E;&#x7B5B;&#x9009;&#x5668;</li>
+          <li>&#x9996;&#x9875;&#xFF1A;&#x65B0;&#x589E;&#x6D77;&#x5916;&#x7528;&#x6237;&#x534F;&#x8BAE;</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">v11.4</td>
+      <td style="text-align:center">2020.06.09</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x7EDF;&#x8BA1;&#x5206;&#x6790;&#xFF1A;&#x6D4F;&#x89C8;&#x91CF;&#x6307;&#x6807;&#x4F18;&#x5316;</li>
+          <li>&#x7EDF;&#x8BA1;&#x5206;&#x6790;&#xFF1A;&#x65B0;&#x589E;&#x7EDF;&#x8BA1;&#x6D77;&#x5916;&#x9A8C;&#x8BC1;&#x5730;&#x533A;&#x9898;&#x3001;&#x5E74;&#x9F84;&#x9898;</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">v11.3</td>
+      <td style="text-align:center">2020.06.02</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x7F16;&#x8F91;&#x9875;&#x5927;&#x7EB2;&#x5B9A;&#x4F4D;&#x4F18;&#x5316;</li>
+          <li>&#x7F16;&#x8F91;&#x72B6;&#x6001;&#x5B9A;&#x4F4D;&#x4F18;&#x5316;</li>
+          <li>&#x66F4;&#x65B0;&#x9ED8;&#x8BA4;&#x6B22;&#x8FCE;&#x8BED;/&#x7ED3;&#x675F;&#x8BED;</li>
+          <li>API-&#x65B0;&#x589E;&#x53C2;&#x6570;&#x4F20;&#x9012;&#x63A5;&#x53E3;&#xFF08;&#x4E0D;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;&#xFF09;</li>
+          <li>MSDK&#x517C;&#x5BB9;UA&#x4FE1;&#x606F;</li>
+          <li>&#x91CF;&#x8868;&#x9898;&#x5206;&#x6570;&#x8303;&#x56F4;&#x9650;&#x5236;&#x8C03;&#x6574;&#x4E3A;11</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">v11.2</td>
+      <td style="text-align:center">2020.05.26</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x5BFC;&#x51FA;&#x539F;&#x59CB;&#x6570;&#x636E;&#x8868;&#x5934;&#x589E;&#x52A0;&#x9898;&#x5E72;&#x5185;&#x5BB9;</li>
+          <li>&#x9650;&#x5236;&#x540C;&#x4E00;&#x6D4F;&#x89C8;&#x5668;&#x56DE;&#x7B54;&#x529F;&#x80FD;&#x4F18;&#x5316;</li>
+          <li>&#x591A;&#x9009;&#x9898;&#x53EF;&#x9009;&#x8303;&#x56F4;&#x589E;&#x52A0;&#x5173;&#x8054;&#x9009;&#x9879;</li>
+          <li>&#x7BA1;&#x7406;&#x7AEF;&#xFF0C;&#x95EE;&#x9898;/&#x9009;&#x9879;&#x652F;&#x6301;&#x591A;&#x91CD;&#x5173;&#x8054;</li>
+          <li>&#x7BA1;&#x7406;&#x7AEF;&#xFF0C;&#x903B;&#x8F91;&#x7F16;&#x8F91;&#x5668;&#x4E2D;&#x95EE;&#x9898;/&#x9009;&#x9879;&#x652F;&#x6301;&#x8BBE;&#x7F6E;&#x591A;&#x91CD;&#x5173;&#x8054;&#x9009;&#x9879;</li>
+          <li>&#x66F4;&#x65B0;&#x9ED8;&#x8BA4;&#x6B22;&#x8FCE;&#x8BED;/&#x7ED3;&#x675F;&#x8BED;</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">v11.1</td>
+      <td style="text-align:center">2020.05.19</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x65B0;&#x589E;&#x9898;&#x578B;&#xFF1A;<a href="ti-xing-shuo-ming/ju-zhen-duo-xuan-ti.md">&#x77E9;&#x9635;&#x591A;&#x9009;&#x9898;</a>
+          </li>
+          <li>&#x65B0;&#x589E;&#x529F;&#x80FD;&#xFF1A;&#x9009;&#x9879;&#x5206;&#x5217;</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">v10.3</td>
       <td style="text-align:center">2020.04.23</td>
       <td style="text-align:left">
