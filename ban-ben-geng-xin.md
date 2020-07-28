@@ -10,6 +10,19 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">v14.1</td>
+      <td style="text-align:center">2020.07.28</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x65B0;&#x589E;&#x529F;&#x80FD;&#xFF1A;<a href="cao-zuo-zhi-yin/luo-ji-she-zhi/jian-dan-luo-ji.md">&#x7B80;&#x5355;&#x903B;&#x8F91;</a>&#x53CA;
+            <a
+            href="cao-zuo-zhi-yin/chuang-jian-wen-juan/dao-ru-wen-juan/">&#x5BFC;&#x5165;</a>
+          </li>
+          <li>&#x63D2;&#x5165;&#x89C6;&#x9891;&#x529F;&#x80FD;&#x4F18;&#x5316;</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">v13.2</td>
       <td style="text-align:center">2020.07.15</td>
       <td style="text-align:left">
