@@ -9,12 +9,43 @@
 
 “msdk域名”区分正式环境和测试环境，填写参考：
 
-| 环境（域名） | HTTP内网 | HTTPS外网 |
-| :--- | :--- | :--- |
-| 测试环境 | hktest.itop.tencent-cloud.net | hktest.itop.qq.com |
-| 国内正式环境 | itop.tencent-cloud.net | itop.qq.com / ipv6-sh.itop.qq.com |
-| 新加坡正式环境 | 无 | sg.itopsdk.com |
-| 硅谷正式环境 | 无 | us.itopsdk.com |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x73AF;&#x5883;&#xFF08;&#x57DF;&#x540D;&#xFF09;</th>
+      <th style="text-align:left">HTTP&#x5185;&#x7F51;</th>
+      <th style="text-align:left">HTTPS&#x5916;&#x7F51;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">&#x6D4B;&#x8BD5;&#x73AF;&#x5883;</td>
+      <td style="text-align:left">http://hktest.itop.tencent-cloud.net</td>
+      <td style="text-align:left">
+        <p>https://hktest.itop.qq.com</p>
+        <p>https://ipv6-hktest.itop.qq.com</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x56FD;&#x5185;&#x6B63;&#x5F0F;&#x73AF;&#x5883;</td>
+      <td style="text-align:left">http://itop.tencent-cloud.net</td>
+      <td style="text-align:left">
+        <p>https://itop.qq.com</p>
+        <p>https://ipv6-sh.itop.qq.com</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x65B0;&#x52A0;&#x5761;&#x6B63;&#x5F0F;&#x73AF;&#x5883;</td>
+      <td style="text-align:left">&#x65E0;</td>
+      <td style="text-align:left">https://sg.itopsdk.com</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x7845;&#x8C37;&#x6B63;&#x5F0F;&#x73AF;&#x5883;</td>
+      <td style="text-align:left">&#x65E0;</td>
+      <td style="text-align:left">https://us.itopsdk.com</td>
+    </tr>
+  </tbody>
+</table>
 {% endhint %}
 
 
