@@ -41,6 +41,7 @@
   * [报告分享](cao-zuo-zhi-yin/share.md)
   * [数据导出](cao-zuo-zhi-yin/xia-zai-shu-ju/README.md)
     * [导出答题编码](cao-zuo-zhi-yin/xia-zai-shu-ju/dao-chu-da-ti-bian-ma.md)
+    * [导出原始数据](cao-zuo-zhi-yin/xia-zai-shu-ju/dao-chu-yuan-shi-shu-ju.md)
     * [SPSS数据分析](cao-zuo-zhi-yin/xia-zai-shu-ju/spss-shu-ju-fen-xi.md)
     * [离线下载](cao-zuo-zhi-yin/xia-zai-shu-ju/li-xian-xia-zai.md)
   * [管理问卷](cao-zuo-zhi-yin/guan-li-wen-juan/README.md)
