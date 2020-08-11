@@ -9,7 +9,7 @@
 ![EXCEL&#x7F16;&#x8F91;&#x95EE;&#x5377;&#x5185;&#x5BB9;](../../../.gitbook/assets/wen-juan-dao-ru-excel.jpg)
 
 {% hint style="info" %}
-### 格式规范 
+## 格式规范 
 
 1、 前5行是问卷基本信息
 
