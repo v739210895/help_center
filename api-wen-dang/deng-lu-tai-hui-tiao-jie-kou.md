@@ -118,7 +118,7 @@ _回调URL示例_
       <td style="text-align:left">&#x5426;</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">2-10</td>
-      <td style="text-align:left">&#x4EC5;&#x5728;&#x95EE;&#x5377;&#x9700;&#x8981;&#x767B;&#x5F55;&#x65F6;&#x4F20;&#x9012;&#xFF0C;&#x767B;&#x5F55;&#x7528;&#x6237;&#x7C7B;&#x578B;&#xFF0C;&#x5305;&#x542B;&#xFF1A;wechat(&#x5FAE;&#x4FE1;)&#x3001;qq(QQ&#x767B;&#x5F55;)&#x3001;msdk(&#x6E38;&#x620F;&#x5185;)&#x3001;third_party(&#x975E;MSDK&#x767B;&#x5F55;&#x6001;&#x4F20;&#x9012;)</td>
+      <td style="text-align:left">&#x4EC5;&#x5728;&#x95EE;&#x5377;&#x9700;&#x8981;&#x767B;&#x5F55;&#x65F6;&#x4F20;&#x9012;&#xFF0C;&#x767B;&#x5F55;&#x7528;&#x6237;&#x7C7B;&#x578B;&#xFF0C;&#x5305;&#x542B;&#xFF1A;wechat(&#x5FAE;&#x4FE1;)&#x3001;qq(QQ&#x767B;&#x5F55;)&#x3001;msdk(&#x6E38;&#x620F;&#x5185;)&#x3001;third_party(&#x53C2;&#x6570;&#x4F20;&#x9012;-&#x4E25;&#x683C;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;)&#x3001;weak_third_party&#xFF08;&#x53C2;&#x6570;&#x4F20;&#x9012;-&#x4E0D;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;&#xFF09;</td>
     </tr>
     <tr>
       <td style="text-align:left">uid_source</td>
