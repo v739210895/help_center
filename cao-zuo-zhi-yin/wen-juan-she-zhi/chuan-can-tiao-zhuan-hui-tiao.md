@@ -149,25 +149,33 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
     </tr>
     <tr>
       <td style="text-align:left">MSDK&#x767B;&#x5F55;&#x9A8C;&#x8BC1;</td>
-      <td style="text-align:left">4&#x4E2A;&#x53D1;&#x5956;&#x53C2;&#x6570;&#x76F4;&#x63A5;&#x62FC;&#x63A5;&#x5728;&#x95EE;&#x5377;&#x94FE;&#x63A5;&#x540E;</td>
-      <td
-      style="text-align:left">https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&amp;lang=zh-CHS&amp;ADTAG=sid.5e8d767b76051f46707cf692<b>&amp;sPlatId={PlatId}&amp;sArea={sArea}&amp;sPartition={sPartition}&amp;sRoleId={sRoleId}</b>
-        </td>
+      <td style="text-align:left">
+        <p>4&#x4E2A;&#x53D1;&#x5956;&#x53C2;&#x6570;</p>
+        <p>&#x76F4;&#x63A5;&#x62FC;&#x63A5;&#x5728;</p>
+        <p>&#x95EE;&#x5377;&#x94FE;&#x63A5;&#x540E;</p>
+      </td>
+      <td style="text-align:left">https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&amp;lang=zh-CHS&amp;ADTAG=sid.5e8d767b76051f46707cf692<b>&amp;sPlatId={PlatId}&amp;sArea={sArea}&amp;sPartition={sPartition}&amp;sRoleId={sRoleId}</b>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">&#x53C2;&#x6570;&#x4F20;&#x9012;&#x63A5;&#x53E3;&#xFF08;&#x4E0D;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;&#xFF09;</td>
       <td
-      style="text-align:left">4&#x4E2A;&#x53D1;&#x5956;&#x53C2;&#x6570;&#x76F4;&#x63A5;&#x62FC;&#x63A5;&#x5728;&#x95EE;&#x5377;&#x94FE;&#x63A5;&#x540E;</td>
-        <td
-        style="text-align:left">https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&amp;lang=zh-CHS&amp;ADTAG=sid.5e8d767b76051f46707cf692&amp;openid={&#x7B54;&#x9898;&#x8005;openid}<b>&amp;sPlatId={PlatId}&amp;sArea={sArea}&amp;sPartition={sPartition}&amp;sRoleId={sRoleId}</b>
-          </td>
+      style="text-align:left">
+        <p>4&#x4E2A;&#x53D1;&#x5956;&#x53C2;&#x6570;</p>
+        <p>&#x76F4;&#x63A5;&#x62FC;&#x63A5;&#x5728;</p>
+        <p>&#x95EE;&#x5377;&#x94FE;&#x63A5;&#x540E;</p>
+        </td>
+        <td style="text-align:left">https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&amp;lang=zh-CHS&amp;ADTAG=sid.5e8d767b76051f46707cf692&amp;openid={&#x7B54;&#x9898;&#x8005;openid}<b>&amp;sPlatId={PlatId}&amp;sArea={sArea}&amp;sPartition={sPartition}&amp;sRoleId={sRoleId}</b>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">&#x53C2;&#x6570;&#x4F20;&#x9012;&#x63A5;&#x53E3;&#xFF08;&#x4E25;&#x683C;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;&#xFF09;</td>
       <td
-      style="text-align:left">4&#x4E2A;&#x53D1;&#x5956;&#x53C2;&#x6570;&#x62FC;&#x63A5;&#x5728;redirect&#x6240;&#x8D4B;&#x503C;&#x7684;&#x94FE;&#x63A5;&#x540E;&#x518D;&#x5BF9;redirect&#x7684;&#x503C;encode</td>
-        <td
-        style="text-align:left">
+      style="text-align:left">
+        <p>4&#x4E2A;&#x53D1;&#x5956;&#x53C2;&#x6570;</p>
+        <p>&#x62FC;&#x63A5;&#x5728;redirect&#x6240;&#x8D4B;&#x503C;&#x7684;&#x94FE;&#x63A5;&#x540E;&#x518D;&#x5BF9;redirect&#x7684;&#x503C;encode</p>
+        </td>
+        <td style="text-align:left">
           <p>https:// inapi.survey.imur.tencent.com/autologin?sid</p>
           <p>=5e8d767b76051f46707cf692&amp;uid=user_id&amp;timestamp=1573455797</p>
           <p>&amp;source=dwk&amp;info=extra_info&amp;redirect=https%3A%2F%2F</p>
@@ -178,7 +186,7 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
           <p><b>%3D{sPartition}%26sRoleId%3D{sRoleId}</b>
           </p>
           <p>&amp;sign=2ac5ab8ce6a9b306e07dc2664fe7d175</p>
-          </td>
+        </td>
     </tr>
   </tbody>
 </table>
