@@ -73,6 +73,6 @@
 * [常见问题](chang-jian-wen-ti/README.md)
   * [uid\(openid\)无法显示完整](chang-jian-wen-ti/uid-wu-fa-xian-shi-wan-zheng-wen-ti.md)
   * [uid\(openid\)转换QQ号](chang-jian-wen-ti/uidopenid-zhuan-huan-qq-hao.md)
-  * [AMS发奖设置](chang-jian-wen-ti/ams-fa-jiang-she-zhi.md)
+  * [答题自动发奖](chang-jian-wen-ti/ams-fa-jiang-she-zhi.md)
 * [版本记录](ban-ben-geng-xin.md)
 
