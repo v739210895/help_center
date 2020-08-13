@@ -27,7 +27,7 @@ https://inapi.survey.imur.tencent.com/autologin?sid=5e8d767b76051f46707cf692&uid
 2. 已开启不校验模式的问卷，若未正确拼接openid参数将无法打开问卷
 {% endhint %}
 
-![&#x53C2;&#x6570;&#x4F20;&#x9012;&#x63A5;&#x53E3;&#xFF08;&#x4E0D;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;&#xFF09;](../../.gitbook/assets/image%20%28570%29.png)
+![&#x53C2;&#x6570;&#x4F20;&#x9012;&#x63A5;&#x53E3;&#xFF08;&#x4E0D;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;&#xFF09;](../../.gitbook/assets/image%20%28571%29.png)
 
 {% hint style="info" %}
 **【内嵌投放链接】** 
@@ -95,7 +95,7 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
 
 在需要发奖的问卷中开启“提交问卷后发奖”功能，并配置AMS礼包单号、礼包组编号、业务缩写、AMS环境参数
 
-![&#x914D;&#x7F6E;&#x53D1;&#x5956;&#x53C2;&#x6570;](../../.gitbook/assets/image%20%28564%29.png)
+![&#x914D;&#x7F6E;&#x53D1;&#x5956;&#x53C2;&#x6570;](../../.gitbook/assets/image%20%28565%29.png)
 
 ### 【STEP 3】传递发奖参数
 
@@ -193,5 +193,7 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
 
 ### 【STEP 4】完成
 
-在游戏中投放问卷，答题者提交问卷后，问卷系统会自动触发调用AMS礼包单发奖。
+在游戏中投放问卷，答题者提交问卷后，问卷系统会自动触发调用AMS礼包单发奖（奖品名称显示为step1中所配置的礼包组名称）。
+
+![&#x6E38;&#x620F;&#x5185;&#x586B;&#x7B54;&#x540E;&#x53D1;&#x5956;&#x6210;&#x529F;&#x63D0;&#x793A;](../../.gitbook/assets/image%20%28563%29.png)
 
