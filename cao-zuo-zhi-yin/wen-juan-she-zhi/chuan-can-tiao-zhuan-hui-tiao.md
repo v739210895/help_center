@@ -2,21 +2,40 @@
 
 问卷系统支持内嵌投放及参数传递、答题后跳转、参数回调等功能，用户可根据实际需要按以下各项设置。
 
-![](../../.gitbook/assets/image%20%28255%29.png)
+![](../../.gitbook/assets/image%20%28561%29.png)
 
-## 非MSDK登录态传递接口
+## 参数传递接口（严格校验模式）
 
 对于未接入msdk的APP，问卷内嵌投放时，问卷系统通过开发者传递登录态的方式来采集用户的uid。功能开启后，弹窗显示密钥，密钥用于生成签名（密钥可自行修改或重新生成），点击确认关闭弹窗。
 
 ![&#x914D;&#x7F6E;&#x5BC6;&#x94A5;](../../.gitbook/assets/image%20%2818%29.png)
 
-{% hint style="warning" %}
-### 请求url示例
+{% hint style="info" %}
+【内嵌投放链接示例】 
 
-API接口地址?sid=XX&uid=XX&timestamp=XX&source=XX&info=XX&redirect=问卷投放链接&sign=XX
+https://inapi.survey.imur.tencent.com/autologin?sid=5e8d767b76051f46707cf692&uid=user\_id&timestamp=1573455797&source=dwk&info=extra\_info&redirect=https%3A%2F%2Fin.survey.imur.tencent.com%2F%3Fsid%5e8d767b76051f46707cf692%26lang%3Dzh-CHS%26ADTAG%3Dsid.5e8d767b76051f46707cf692&sign=2ac5ab8ce6a9b306e07dc2664fe7d175
 {% endhint %}
 
-[点击了解详细API文档](../../api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)。
+点击“[参数传递接口（严格校验）](../../api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)”查看API文档，了解内嵌投放链接的改造方法。
+
+## 参数传递接口（不校验模式）
+
+对于未接入msdk的APP，问卷内嵌投放时，问卷系统通过开发者传递登录态的方式来采集用户的uid。不校验模式开启功能后，只需在问卷链接后直接拼接参数即可把玩家信息等参数传递到问卷系统。
+
+{% hint style="warning" %}
+1. 不校验模式不进行签名校验，可能会存在被刷风险
+2. 已开启不校验模式的问卷，若未正确拼接openid参数将无法打开问卷
+{% endhint %}
+
+![&#x53C2;&#x6570;&#x4F20;&#x9012;&#x63A5;&#x53E3;&#xFF08;&#x4E0D;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;&#xFF09;](../../.gitbook/assets/image%20%28570%29.png)
+
+{% hint style="info" %}
+**【内嵌投放链接】** 
+
+https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADTAG=sid.5e8d767b76051f46707cf692&openid=XXXX&source=XXXX&info=XXXX
+{% endhint %}
+
+点击“[参数传递接口（不校验模式）](../../api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md)”查看API文档，了解问卷链接的改造方法。
 
 ## 提交问卷跳转到指定页面
 
@@ -53,4 +72,64 @@ API接口地址?sid=XX&uid=XX&timestamp=XX&source=XX&info=XX&redirect=问卷投�
 ![](../../.gitbook/assets/image%20%284%29.png)
 
 [点击了解详细API文档。](../../api-wen-dang/kai-fang-jie-kou.md)
+
+## 提交问卷后发奖
+
+支持AMS礼包发奖功能；对于未对接AMS发奖功能的游戏，开启此功能时，用户提交问卷后，问卷系统可自动触发奖励发放。
+
+{% hint style="info" %}
+1. 仅支持已对接邮件发奖功能的游戏使用
+2. 问卷务必开启[MSDK登录验证](da-ti-xian-zhi-she-zhi.md#msdk-deng-lu-yan-zheng)/[参数传递（严格校验模式）](chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-yan-ge-xiao-yan-mo-shi)/[参数传递（不校验模式）](chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)以上任一功能
+3. 对每个答题者仅发奖一次；已成功发奖的答题者再次回答问卷后不可二次触发发奖
+{% endhint %}
+
+### 【STEP 1】AMS礼包单配置
+
+请在AMS接口平台—礼包仓库\(mrms\)，即道具仓库中配置AMS礼包单，获取AMS礼包单号、礼包组编号
+
+{% hint style="danger" %}
+注：使用渠道务必配置为 **MUR问卷发奖应用 \[IEG-AMS-11836\]**
+{% endhint %}
+
+### 【STEP 2】发奖配置
+
+在需要发奖的问卷中开启“提交问卷后发奖”功能，并配置AMS礼包单号、礼包组编号、业务缩写、AMS环境参数
+
+![&#x914D;&#x7F6E;&#x53D1;&#x5956;&#x53C2;&#x6570;](../../.gitbook/assets/image%20%28564%29.png)
+
+### 【STEP 3】传递发奖参数
+
+问卷务必开启MSDK登录验证/参数传递（严格校验模式）/参数传递（不校验模式）以上任一功能，游戏客户端把以下4个发奖参数用拼接的方式注入问卷链接，用以发奖。
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x53C2;&#x6570;&#x540D;</th>
+      <th style="text-align:left">&#x8BF4;&#x660E;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <p>sPlatId</p>
+      </td>
+      <td style="text-align:left">&#x5E73;&#x53F0;&#x7C7B;&#x578B;&#xFF0C;&#x5982;IOS:0&#x3001;&#x5B89;&#x5353;:1</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">sArea</td>
+      <td style="text-align:left">&#x5BF9;&#x5E94;&#x5230;&#x6E20;&#x9053;&#xFF0C;&#x5982;&#x624B;Q&#x3001;&#x5FAE;&#x4FE1;&#xFF0C;&#x8BF7;&#x4F20;&#x5BF9;&#x5E94;&#x7684;&#x6570;&#x5B57;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">sPartition</td>
+      <td style="text-align:left">&#x624B;&#x673A;&#x7AEF;&#x4F7F;&#x7528;&#xFF0C;&#x5C0F;&#x533A;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">sRoleId</td>
+      <td style="text-align:left">&#x89D2;&#x8272;ID&#xFF0C;&#x53D1;&#x8D27;&#x5230;&#x6E38;&#x620F;&#x5185;&#x65F6;&#x63D0;&#x4F9B;</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
