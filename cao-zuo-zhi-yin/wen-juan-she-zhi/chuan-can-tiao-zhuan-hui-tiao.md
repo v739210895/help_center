@@ -191,3 +191,7 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
   </tbody>
 </table>
 
+### 【STEP 4】完成
+
+在游戏中投放问卷，答题者提交问卷后，问卷系统会自动触发调用AMS礼包单发奖。
+
