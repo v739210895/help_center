@@ -99,7 +99,7 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
 
 ### 【STEP 3】传递发奖参数
 
-问卷务必开启MSDK登录验证/参数传递（严格校验模式）/参数传递（不校验模式）以上任一功能，游戏客户端把以下4个发奖参数用拼接的方式注入问卷链接，用以发奖。
+问卷务必开启MSDK登录验证/参数传递（严格校验模式）/参数传递（不校验模式）以上任一功能，游戏客户端把以下4个发奖参数用拼接的方式注入问卷链接，用以发奖，参数说明如下：
 
 <table>
   <thead>
@@ -131,5 +131,55 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
   </tbody>
 </table>
 
+#### 问卷链接注入发奖参数示例
 
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x60C5;&#x51B5;</th>
+      <th style="text-align:left">&#x6CE8;&#x5165;&#x8BF4;&#x660E;</th>
+      <th style="text-align:left">&#x793A;&#x4F8B;&#x94FE;&#x63A5;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">&#x539F;&#x59CB;&#x95EE;&#x5377;&#x94FE;&#x63A5;</td>
+      <td style="text-align:left">--</td>
+      <td style="text-align:left">https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&amp;lang=zh-CHS&amp;ADTAG=sid.5e8d767b76051f46707cf692</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">MSDK&#x767B;&#x5F55;&#x9A8C;&#x8BC1;</td>
+      <td style="text-align:left">4&#x4E2A;&#x53D1;&#x5956;&#x53C2;&#x6570;&#x76F4;&#x63A5;&#x62FC;&#x63A5;&#x5728;&#x95EE;&#x5377;&#x94FE;&#x63A5;&#x540E;</td>
+      <td
+      style="text-align:left">https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&amp;lang=zh-CHS&amp;ADTAG=sid.5e8d767b76051f46707cf692<b>&amp;sPlatId={PlatId}&amp;sArea={sArea}&amp;sPartition={sPartition}&amp;sRoleId={sRoleId}</b>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x53C2;&#x6570;&#x4F20;&#x9012;&#x63A5;&#x53E3;&#xFF08;&#x4E0D;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;&#xFF09;</td>
+      <td
+      style="text-align:left">4&#x4E2A;&#x53D1;&#x5956;&#x53C2;&#x6570;&#x76F4;&#x63A5;&#x62FC;&#x63A5;&#x5728;&#x95EE;&#x5377;&#x94FE;&#x63A5;&#x540E;</td>
+        <td
+        style="text-align:left">https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&amp;lang=zh-CHS&amp;ADTAG=sid.5e8d767b76051f46707cf692&amp;openid={&#x7B54;&#x9898;&#x8005;openid}<b>&amp;sPlatId={PlatId}&amp;sArea={sArea}&amp;sPartition={sPartition}&amp;sRoleId={sRoleId}</b>
+          </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x53C2;&#x6570;&#x4F20;&#x9012;&#x63A5;&#x53E3;&#xFF08;&#x4E25;&#x683C;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;&#xFF09;</td>
+      <td
+      style="text-align:left">4&#x4E2A;&#x53D1;&#x5956;&#x53C2;&#x6570;&#x62FC;&#x63A5;&#x5728;redirect&#x6240;&#x8D4B;&#x503C;&#x7684;&#x94FE;&#x63A5;&#x540E;&#x518D;&#x5BF9;redirect&#x7684;&#x503C;encode</td>
+        <td
+        style="text-align:left">
+          <p>https:// inapi.survey.imur.tencent.com/autologin?sid</p>
+          <p>=5e8d767b76051f46707cf692&amp;uid=user_id&amp;timestamp=1573455797</p>
+          <p>&amp;source=dwk&amp;info=extra_info&amp;redirect=https%3A%2F%2F</p>
+          <p>in.survey.imur.tencent.com%2F%3Fsid%3D5e8d767b76051f46707cf692</p>
+          <p>%26lang%3Dzh-CHS%26ADTAG%3Dsid.5e8d767b76051f46707cf692</p>
+          <p><b>%26sPlatId%3D{sPlatId}%26sArea%3D{sArea}%26sPartition</b>
+          </p>
+          <p><b>%3D{sPartition}%26sRoleId%3D{sRoleId}</b>
+          </p>
+          <p>&amp;sign=2ac5ab8ce6a9b306e07dc2664fe7d175</p>
+          </td>
+    </tr>
+  </tbody>
+</table>
 
