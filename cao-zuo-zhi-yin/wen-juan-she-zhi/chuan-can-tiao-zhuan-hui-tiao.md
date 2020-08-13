@@ -85,7 +85,7 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
 
 ### 【STEP 1】AMS礼包单配置
 
-请在AMS接口平台—礼包仓库\(mrms\)，即道具仓库中配置AMS礼包单，获取AMS礼包单号、礼包组编号
+请在AMS接口平台—礼包仓库\(mrms\)，即道具仓库中配置AMS礼包单，以获取AMS礼包单号、礼包组编号。
 
 {% hint style="danger" %}
 注：使用渠道务必配置为 **MUR问卷发奖应用 \[IEG-AMS-11836\]**
