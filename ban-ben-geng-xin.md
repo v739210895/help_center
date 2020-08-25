@@ -16,7 +16,8 @@
         <ol>
           <li>&#x65B0;&#x589E;&#x529F;&#x80FD;&#xFF1A;<a href="cao-zuo-zhi-yin/tong-ji-fen-xi/da-ti-shu-ju-zai-xian-cha-kan.md">&#x5728;&#x7EBF;&#x67E5;&#x770B;&#x7B54;&#x9898;&#x6570;&#x636E;</a>
           </li>
-          <li>&#x65B0;&#x589E;&#x529F;&#x80FD;&#xFF1A;&#x5BFC;&#x51FA;&#x4EA4;&#x53C9;&#x8868;SPSS&#x4EE3;&#x7801;</li>
+          <li>&#x65B0;&#x589E;&#x529F;&#x80FD;&#xFF1A;<a href="cao-zuo-zhi-yin/xia-zai-shu-ju/spss-jiao-cha-biao.md">&#x5BFC;&#x51FA;&#x4EA4;&#x53C9;&#x8868;SPSS&#x4EE3;&#x7801;</a>
+          </li>
         </ol>
       </td>
     </tr>
