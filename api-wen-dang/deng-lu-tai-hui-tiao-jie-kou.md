@@ -111,7 +111,7 @@ _回调URL示例_
       <td style="text-align:left">&#x5426;</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">255</td>
-      <td style="text-align:left">&#x4EC5;&#x5728;&#x95EE;&#x5377;&#x9700;&#x8981;&#x767B;&#x5F55;&#x65F6;&#x4F20;&#x9012;&#xFF0C;&#x767B;&#x5F55;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;ID</td>
+      <td style="text-align:left">&#x4EC5;&#x5728;&#x95EE;&#x5377;&#x9700;&#x8981;&#x767B;&#x5F55;&#x65F6;&#x4F20;&#x9012;&#xFF0C;&#x767B;&#x5F55;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;ID&#xFF08;&#x5373;&#x4F20;&#x5165;&#x7684;&#x73A9;&#x5BB6;openid&#xFF09;</td>
     </tr>
     <tr>
       <td style="text-align:left">user_type</td>
