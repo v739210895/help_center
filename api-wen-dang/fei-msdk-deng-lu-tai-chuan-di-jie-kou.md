@@ -146,7 +146,7 @@ https://outapi.weisurvey.com/autologin?
 | sid | 是 | 是 | string | 32 | 问卷id，从问卷链接可解析 |
 | uid | 是 | 是 | string | 255 | 登录用户的唯一ID |
 | timestamp | 是 | 是 | int | 10位 | 时间戳 |
-| redirect | 是 | 是 | string | url地址 | 登录成功之后跳转的页面url，一般使用的是问卷的链接（URL需要encode后再赋值到redirect） |
+| redirect | 是 | 是 | string | url地址 | 登录成功之后跳转的页面url，一般使用的是问卷的链接（**加密**时使用原始URL；**拼接为内嵌投放链接**时，需先把URL进行encode后再赋值到redirect，再拼到内嵌投放链接中） |
 | source | 是 | 是 | string | 2-10位英文 | 用户自定义渠道标识 |
 | sign | 是 | 否 | string | 32 | 签名，参考签名算法 |
 | info | 否 | 是 | string | 255 | 额外的登录用户信息，可自定义；为空时不参与加密 |
