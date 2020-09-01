@@ -141,14 +141,15 @@ https://outapi.weisurvey.com/autologin?
 
 使用GET请求方式传参。
 
-| 参数 | 是否必须 | 数据类型 | 限制长度 | 说明 |
-| :--- | :--- | :--- | :--- | :--- |
-| uid | 是 | string | 255 | 登录用户的唯一ID |
-| timestamp | 是 | int | 10位 | 时间戳 |
-| redirect | 是 | string | url地址 | 登录成功之后跳转的页面url，一般使用的是问卷的链接 |
-| source | 是 | string | 2-10位英文 | 用户自定义渠道标识 |
-| sign | 是 | string | 32 | 签名，参考签名算法 |
-| info | 否 | string | 255 | 额外的登录用户信息，可自定义 |
+| 参数 | 是否必须 | 是否参与加密 | 数据类型 | 限制长度 | 说明 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| sid | 是 | 是 | string | 32 | 问卷id，从问卷链接可解析 |
+| uid | 是 | 是 | string | 255 | 登录用户的唯一ID |
+| timestamp | 是 | 是 | int | 10位 | 时间戳 |
+| redirect | 是 | 是 | string | url地址 | 登录成功之后跳转的页面url，一般使用的是问卷的链接（URL需要encode后再赋值到redirect） |
+| source | 是 | 是 | string | 2-10位英文 | 用户自定义渠道标识 |
+| sign | 是 | 否 | string | 32 | 签名，参考签名算法 |
+| info | 否 | 是 | string | 255 | 额外的登录用户信息，可自定义；为空时不参与加密 |
 
 #### 常见问题
 
