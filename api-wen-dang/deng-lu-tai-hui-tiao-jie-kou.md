@@ -93,6 +93,7 @@ _回调URL示例_
     <tr>
       <th style="text-align:left">&#x53C2;&#x6570;</th>
       <th style="text-align:left">&#x662F;&#x5426;&#x5FC5;&#x4F20;</th>
+      <th style="text-align:left">&#x662F;&#x5426;&#x53C2;&#x4E0E;&#x52A0;&#x5BC6;</th>
       <th style="text-align:left">&#x6570;&#x636E;&#x7C7B;&#x578B;</th>
       <th style="text-align:left">&#x9650;&#x5236;&#x957F;&#x5EA6;</th>
       <th style="text-align:left">&#x8BF4;&#x660E;</th>
@@ -102,6 +103,7 @@ _回调URL示例_
     <tr>
       <td style="text-align:left">sid</td>
       <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">&#x662F;</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">32</td>
       <td style="text-align:left">&#x95EE;&#x5377;id</td>
@@ -109,6 +111,7 @@ _回调URL示例_
     <tr>
       <td style="text-align:left">uid</td>
       <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x662F;</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">255</td>
       <td style="text-align:left">&#x4EC5;&#x5728;&#x95EE;&#x5377;&#x9700;&#x8981;&#x767B;&#x5F55;&#x65F6;&#x4F20;&#x9012;&#xFF0C;&#x767B;&#x5F55;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;ID&#xFF08;&#x5373;&#xFF0C;MSDK&#x767B;&#x5F55;&#x9A8C;&#x8BC1;&#x4E2D;&#x7684;&#x73A9;&#x5BB6;openid/&#x4E25;&#x683C;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;&#x4E0B;&#x4F20;&#x5165;&#x7684;uid/&#x4E0D;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;&#x4E0B;&#x4F20;&#x5165;&#x7684;openid&#xFF09;</td>
@@ -116,6 +119,7 @@ _回调URL示例_
     <tr>
       <td style="text-align:left">user_type</td>
       <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x662F;</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">2-10</td>
       <td style="text-align:left">&#x4EC5;&#x5728;&#x95EE;&#x5377;&#x9700;&#x8981;&#x767B;&#x5F55;&#x65F6;&#x4F20;&#x9012;&#xFF0C;&#x767B;&#x5F55;&#x7528;&#x6237;&#x7C7B;&#x578B;&#xFF0C;&#x5305;&#x542B;&#xFF1A;wechat(&#x5FAE;&#x4FE1;)&#x3001;qq(QQ&#x767B;&#x5F55;)&#x3001;msdk(&#x6E38;&#x620F;&#x5185;)&#x3001;third_party(&#x53C2;&#x6570;&#x4F20;&#x9012;-&#x4E25;&#x683C;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;)&#x3001;weak_third_party&#xFF08;&#x53C2;&#x6570;&#x4F20;&#x9012;-&#x4E0D;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;&#xFF09;</td>
@@ -123,12 +127,14 @@ _回调URL示例_
     <tr>
       <td style="text-align:left">uid_source</td>
       <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x662F;</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">2-10</td>
       <td style="text-align:left">&#x4EC5;&#x5728;&#x95EE;&#x5377;&#x9700;&#x8981;&#x767B;&#x5F55;&#x65F6;&#x4F20;&#x9012;&#xFF0C;&#x767B;&#x5F55;&#x7528;&#x6237;&#x6765;&#x6E90;&#xFF0C;&#x5F53;&#x524D;&#x53EA;&#x5728;msdk&#x4E0B;&#x6709;&#x503C;wx&#x4E0E;qq&#xFF0C;&#x975E;MSDK&#x767B;&#x5F55;&#x6001;&#x4F20;&#x9012;&#x5219;&#x9700;&#x8981;&#x5F00;&#x53D1;&#x8005;&#x81EA;&#x5DF1;&#x5B9A;&#x4E49;</td>
     </tr>
     <tr>
       <td style="text-align:left">timestamp</td>
+      <td style="text-align:left">&#x662F;</td>
       <td style="text-align:left">&#x662F;</td>
       <td style="text-align:left">int</td>
       <td style="text-align:left">10&#x4F4D;</td>
@@ -137,12 +143,14 @@ _回调URL示例_
     <tr>
       <td style="text-align:left">sign</td>
       <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">&#x5426;</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">32</td>
       <td style="text-align:left">&#x7B7E;&#x540D;&#xFF0C;&#x53C2;&#x8003;&#x7B7E;&#x540D;&#x7B97;&#x6CD5;</td>
     </tr>
     <tr>
       <td style="text-align:left">callback_params</td>
+      <td style="text-align:left">&#x5426;</td>
       <td style="text-align:left">&#x5426;</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">255</td>
@@ -154,6 +162,7 @@ _回调URL示例_
     <tr>
       <td style="text-align:left">info</td>
       <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x662F;</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">255</td>
       <td style="text-align:left">&#x767B;&#x5F55;&#x7528;&#x6237;&#x989D;&#x5916;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x8BE5;&#x5B57;&#x6BB5;&#x53EF;&#x4EE5;&#x914D;&#x5408;
