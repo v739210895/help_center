@@ -151,7 +151,7 @@ _回调URL示例_
     <tr>
       <td style="text-align:left">callback_params</td>
       <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x662F;</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">255</td>
       <td style="text-align:left">
