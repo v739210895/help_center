@@ -4,6 +4,8 @@
 
 ![&#x914D;&#x7F6E;MSDK v5&#x767B;&#x5F55;&#x6001;&#x83B7;&#x53D6;&#x63A5;&#x5165;&#x6240;&#x9700;&#x8981;&#x7684;&#x53C2;&#x6570;](../.gitbook/assets/image%20%28358%29.png)
 
+### 参数配置说明
+
 {% hint style="info" %}
 “密钥”请填写飞鹰系统参数中的MSDK\_SERVER\_KEY
 
@@ -50,9 +52,7 @@
 
 
 
-{% hint style="info" %}
-解密MSDK-V5登录态说明
-{% endhint %}
+### 解密MSDK-V5登录态说明
 
 API文档1参考：[http://docs.msdk.qq.com/v5/zh-CN/Server/verify.html](http://docs.msdk.qq.com/v5/zh-CN/Server/)
 
@@ -66,9 +66,7 @@ https://hktest.itop.qq.com/v2/auth/decrypt?channelid=1&gameid=11&os=1&source=0&t
 
 
 
-{% hint style="info" %}
-登录失败提示
-{% endhint %}
+### 登录失败提示
 
 当系统无法获取正确的登录态时，会显示警告弹窗，主要导致失败的原因如下：
 
