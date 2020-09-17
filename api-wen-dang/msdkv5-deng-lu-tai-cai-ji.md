@@ -22,8 +22,8 @@
       <td style="text-align:left">&#x6D4B;&#x8BD5;&#x73AF;&#x5883;</td>
       <td style="text-align:left">http://hktest.itop.tencent-cloud.net</td>
       <td style="text-align:left">
-        <p>&#xFF08;&#x56FD;&#x5185;&#xFF09;https://hktest.itop.qq.com</p>
-        <p>&#xFF08;&#x6D77;&#x5916;&#xFF09;https://ipv6-hktest.itop.qq.com</p>
+        <p>https://hktest.itop.qq.com &#xFF08;&#x56FD;&#x5185;&#xFF09;</p>
+        <p>https://ipv6-hktest.itop.qq.com&#xFF08;&#x6D77;&#x5916;&#xFF09;</p>
       </td>
     </tr>
     <tr>
