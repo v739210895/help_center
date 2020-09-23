@@ -174,6 +174,8 @@ _回调URL示例_
 
 {% hint style="info" %}
 非必传参数有值时参与加密，为空则不参与加密
+
+本文档未说明的参数不参与加密，可参考：[`为什么会接收到文档中未说明的回调参数`](../chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)\`\`
 {% endhint %}
 
 **回调成功约定返回格式**
