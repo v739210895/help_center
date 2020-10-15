@@ -51,7 +51,7 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
 
 ![](../../.gitbook/assets/image%20%28448%29.png)
 
-![&#x914D;&#x7F6E;&#x767B;&#x5F55;&#x6001;&#x56DE;&#x8C03;](../../.gitbook/assets/image%20%28585%29.png)
+![&#x914D;&#x7F6E;&#x767B;&#x5F55;&#x6001;&#x56DE;&#x8C03;](../../.gitbook/assets/image%20%28590%29.png)
 
 ### 同一问卷支持设置多个回调地址
 
