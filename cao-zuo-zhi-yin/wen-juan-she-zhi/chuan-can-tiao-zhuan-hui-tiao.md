@@ -51,15 +51,21 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
 
 ![](../../.gitbook/assets/image%20%28448%29.png)
 
-![&#x914D;&#x7F6E;&#x767B;&#x5F55;&#x6001;&#x56DE;&#x8C03;](../../.gitbook/assets/image%20%28339%29.png)
+![&#x914D;&#x7F6E;&#x767B;&#x5F55;&#x6001;&#x56DE;&#x8C03;](../../.gitbook/assets/image%20%28585%29.png)
 
+### 同一问卷支持设置多个回调地址
 
+投放时在问卷链接中注入callback参数，用以区分该次提交后回调到哪个回调地址中。
 
 {% hint style="info" %}
-### 回调url示例
+如投放链接中注入callback的值为2，则提交后系统自动把登录态信息回调到回调地址2中
 
-开发者回调接口url?sid=5da414769e8aa80019305e32×tamp=1573556685&uid=test\_user&user\_type=third\_party&uid\_source=qq&info=afdadsfasdfasdf&callback\_params=callbackparams&sign=38408d6222e1a4c6fa598e4820443ca8
+https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5&ADTAG=sid.5f87b81376051f331039dfe5&openid={openid}**&callback=2**
 {% endhint %}
+
+### 回调示例
+
+开发者回调接口url?sid=5da414769e8aa80019305e32&timestamp=1573556685&uid=test\_user&user\_type=third\_party&uid\_source=qq&info=afdadsfasdfasdf&callback\_params=callbackparams&sign=38408d6222e1a4c6fa598e4820443ca8
 
 [点击了解详细API文档](../../api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)。
 
