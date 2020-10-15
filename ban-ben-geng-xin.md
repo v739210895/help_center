@@ -102,7 +102,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">v12.1</td>
       <td style="text-align:center">2020.06.16</td>
       <td style="text-align:left">
         <ol>
