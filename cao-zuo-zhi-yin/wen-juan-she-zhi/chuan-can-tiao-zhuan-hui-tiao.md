@@ -57,11 +57,15 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
 
 投放时在问卷链接中注入callback参数，用以区分该次提交后回调到哪个回调地址中。
 
+**注：**每次提交问卷仅能回调到一个地址中，若问卷链接未注入callback参数，默认回调到地址1。
+
 {% hint style="info" %}
 如投放链接中注入callback的值为2，则提交后系统自动把登录态信息回调到回调地址2中
 
 https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5&ADTAG=sid.5f87b81376051f331039dfe5&openid={openid}**&callback=2**
 {% endhint %}
+
+![&#x591A;&#x4E2A;&#x56DE;&#x8C03;&#x5730;&#x5740;&#x914D;&#x7F6E;&#x793A;&#x4F8B;](../../.gitbook/assets/image%20%28592%29.png)
 
 ### 回调示例
 
