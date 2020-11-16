@@ -54,7 +54,7 @@
 
 ### 解密MSDK-V5登录态说明
 
-API文档1参考：[http://docs.msdk.qq.com/v5/zh-CN/Server/verify.html](http://docs.msdk.qq.com/v5/zh-CN/Server/)
+API文档1参考：[https://docs.msdk.qq.com/v5/zh-CN/Server/](https://docs.msdk.qq.com/v5/zh-CN/Server/)
 
 API文档2参考：[http://docs.msdk.qq.com/v5/zh-CN/Server/verify.html](http://docs.msdk.qq.com/v5/zh-CN/Server/verify.html)
 
