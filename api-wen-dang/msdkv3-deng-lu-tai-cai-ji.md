@@ -6,9 +6,7 @@
 
 ![](../.gitbook/assets/image%20%28283%29.png)
 
-{% hint style="info" %}
-解密MSDK-V3登录态说明
-{% endhint %}
+## 解密MSDK-V3登录态说明
 
 API文档参考：[https://wiki.ssl.msdk.qq.com/Unity/webview.html\#Unity\_DecodeLoginInfo ](https://wiki.ssl.msdk.qq.com/Unity/webview.html#Unity_DecodeLoginInfo%20)
 
@@ -25,9 +23,7 @@ A3E93E44F3270F19664D5499CA2990BE5BA9E232036197B184F1411B76CF95537AC07E3D6A27F054
 
 （2）当msdkEncodeParam参数无法正常解密登录态时，系统会直接获取openid参数值作为登录态。
 
-{% hint style="info" %}
-登录失败提示
-{% endhint %}
+## 登录失败提示
 
 当系统无法获取正确的登录态时，会显示警告弹窗，主要导致失败的原因如下：
 
@@ -35,9 +31,7 @@ A3E93E44F3270F19664D5499CA2990BE5BA9E232036197B184F1411B76CF95537AC07E3D6A27F054
 
 （2）链接中无openid参数，导致无法获取登录态。
 
-![](../.gitbook/assets/image%20%28293%29.png)
-
-
+![&#x767B;&#x5F55;&#x5931;&#x8D25;](../.gitbook/assets/image%20%28293%29.png)
 
 {% hint style="warning" %}
 如MSDK-V3登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。

@@ -72,9 +72,7 @@ https://hktest.itop.qq.com/v2/auth/decrypt?channelid=1&gameid=11&os=1&source=0&t
 
 （1）itopencodeparam解密登录态时，由于缺失os、gameid、channelid、ts、sig、source等参数导致解密失败。
 
-![](../.gitbook/assets/image%20%28293%29.png)
-
-
+![&#x767B;&#x5F55;&#x5931;&#x8D25;](../.gitbook/assets/image%20%28293%29.png)
 
 {% hint style="warning" %}
 如MSDK-V5登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。
