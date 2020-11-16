@@ -1,14 +1,20 @@
 # 登录态回调接口
 
-## 接口说明
+### [回调参数说明](deng-lu-tai-hui-tiao-jie-kou.md#hui-tiao-can-shu-shuo-ming-1)
 
-### 接口定义
+### [回调调试工具](deng-lu-tai-hui-tiao-jie-kou.md#hui-tiao-jie-kou-tiao-shi-gong-ju)
+
+### [常见问题](deng-lu-tai-hui-tiao-jie-kou.md#chang-jian-wen-ti-1)
+
+### 接口说明
+
+#### 接口定义
 
 用户登录后，问卷系统将登录态等参数回调给开发者，适用于奖励发放、业务状态修改等场景。
 
 #### 
 
-### 使用场景
+#### 使用场景
 
 适用于开发者接入问卷系统后，需要用户在答题之后将用户等相关信息回传给开发者服务端的情况，注意这个回传动作是问卷服务端异步完成的，会有一定的时延（秒级）。
 
@@ -24,9 +30,9 @@
 
 ### 
 
-### sign签名算法
+#### sign签名算法
 
-#### **算法流程**
+**算法流程**
 
 1. 提供必要参数（详情看API接口），使用kv数据结构；
 2. 添加appSecret作为签名密钥字段到kv数据结构；
@@ -36,7 +42,7 @@
 6. 对比接收到的sign和5中计算得到的sign签名；
 7. 返回状态码status。
 
-#### **代码示例**
+**代码示例**
 
 _PHP代码_ 
 
@@ -76,9 +82,9 @@ _回调URL示例_
 
 #### \*\*\*\*
 
-## **回调参数说明**
+#### **回调参数说明**
 
-### **参数说明**
+**参数说明**
 
 回调调用开发者的接口是使用GET请求。
 
@@ -172,9 +178,7 @@ _回调URL示例_
 本文档未说明的参数不参与加密，可参考：[`为什么会接收到文档中未说明的回调参数`](../chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)\`\`
 {% endhint %}
 
-### \*\*\*\*
-
-### **回调成功约定返回格式**
+**回调成功约定返回格式**
 
 开发者接收到回调并正常处理业务流程后，必需返回以下指定的json格式到问卷服务端：
 
@@ -184,25 +188,9 @@ _回调URL示例_
 }
 ```
 
-### 
+#### 
 
-### 同一问卷支持设置多个回调地址
-
-投放时在问卷链接中注入callback参数，用以区分该次提交后回调到哪个回调地址中。
-
-**注：**每次提交问卷仅能回调到一个地址中，若问卷链接未注入callback参数，默认回调到地址1。
-
-{% hint style="info" %}
-如投放链接中注入callback的值为2，则提交后系统自动把登录态信息回调到回调地址2中
-
-https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5&ADTAG=sid.5f87b81376051f331039dfe5&openid={openid}**&callback=2**
-{% endhint %}
-
-![&#x591A;&#x4E2A;&#x56DE;&#x8C03;&#x5730;&#x5740;&#x914D;&#x7F6E;&#x793A;&#x4F8B;](../.gitbook/assets/image%20%28592%29.png)
-
-
-
-## 回调接口调试工具
+#### 回调接口调试工具
 
 可使用回调接口调试工具（建议使用chrome打开）确认调通回调与签名验证。
 
@@ -210,9 +198,5 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5&ADTAG=sid.5f87b81376051f3
 
 ![&#x56DE;&#x8C03;&#x63A5;&#x53E3;&#x8C03;&#x8BD5;&#x5DE5;&#x5177;](../.gitbook/assets/image%20%28381%29.png)
 
-
-
-## 常见问题
-
-[为什么会接收到文档中未说明的回调参数？](../chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
+#### 常见问题
 
