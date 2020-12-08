@@ -72,7 +72,7 @@
   * [参数传递接口（严格校验模式）](api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)
   * [参数传递接口（不校验模式）](api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md)
   * [登录态回调接口](api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)
-  * [IDIP发奖](api-wen-dang/idip-fa-jiang.md)
+  * [AMS发奖](api-wen-dang/idip-fa-jiang.md)
   * [开放接口](api-wen-dang/kai-fang-jie-kou.md)
 * [常见问题](chang-jian-wen-ti/README.md)
   * [如何获取问卷系统权限](chang-jian-wen-ti/ru-he-huo-qu-wen-juan-xi-tong-quan-xian.md)
