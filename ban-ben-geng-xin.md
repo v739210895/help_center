@@ -23,8 +23,17 @@
           <li>&#x65B0;&#x589E;&#x529F;&#x80FD;&#xFF1A;&#x5BFC;&#x51FA;&#x6570;&#x636E;&#x589E;&#x52A0;&#x201C;&#x8BBE;&#x5907;&#x4FE1;&#x606F;&#x201D;&#x5217;&#xFF08;&#x542B;
             <a
             href="chang-jian-wen-ti/neng-cai-ji-dao-da-ti-zhe-de-shou-ji-xing-hao-ma.md">&#x624B;&#x673A;&#x578B;&#x53F7;</a>&#x3001;&#x6D4F;&#x89C8;&#x5668;&#x578B;&#x53F7;&#x3001;app&#x4FE1;&#x606F;&#xFF09;</li>
-          <li>&#x529F;&#x80FD;&#x4F18;&#x5316;&#xFF1A;&#x6211;&#x7684;&#x95EE;&#x5377;&#x5217;&#x8868;&#x589E;&#x52A0;&#x201C;&#x8BBE;&#x7F6E;&#x5173;&#x6CE8;&#x4EBA;&#x201D;&#x5165;&#x53E3;&#xFF0C;&#x95EE;&#x5377;&#x8D1F;&#x8D23;&#x4EBA;&#x53EF;&#x67E5;&#x770B;&#x8BE5;&#x5165;&#x53E3;</li>
+          <li>&#x529F;&#x80FD;&#x4F18;&#x5316;&#xFF1A;<a href="cao-zuo-zhi-yin/guan-li-wen-juan/wen-juan-cao-zuo.md">&#x6211;&#x7684;&#x95EE;&#x5377;&#x5217;&#x8868;</a>&#x589E;&#x52A0;&#x201C;&#x8BBE;&#x7F6E;&#x5173;&#x6CE8;&#x4EBA;&#x201D;&#x5165;&#x53E3;&#xFF0C;&#x4EC5;&#x95EE;&#x5377;&#x8D1F;&#x8D23;&#x4EBA;&#x53EF;&#x67E5;&#x770B;&#x8BE5;&#x5165;&#x53E3;</li>
           <li>&#x4EA4;&#x53C9;&#x5206;&#x6790;&#xFF1A;&#x4FEE;&#x590D;<b>&#x591A;&#x9009;&#x9898;&#x3001;&#x77E9;&#x9635;&#x591A;&#x9009;&#x9898;</b>&#x5728;&#x4EA4;&#x53C9;&#x5206;&#x6790;&#x4E2D;&#x8BA1;&#x7B97;&#x9519;&#x8BEF;&#x95EE;&#x9898;</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">v18.1</td>
+      <td style="text-align:center">2020.12.15</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x65B0;&#x589E;&#x529F;&#x80FD;&#xFF1A;&#x6D77;&#x5916;&#x9A8C;&#x8BC1;&#x6D41;&#x7A0B;&#x6839;&#x636E;&#x63D0;&#x793A;&#x8BED;&#x8BED;&#x8A00;&#x7FFB;&#x8BD1;&#x8F6C;&#x6362;</li>
         </ol>
       </td>
     </tr>
