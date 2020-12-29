@@ -81,5 +81,6 @@
   * [uid\(openid\)转换QQ号](chang-jian-wen-ti/uidopenid-zhuan-huan-qq-hao.md)
   * [答题自动发奖](chang-jian-wen-ti/ams-fa-jiang-she-zhi.md)
   * [为什么会接收到文档中未说明的回调参数？](chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
+  * [能采集到答题者的手机型号吗？](chang-jian-wen-ti/neng-cai-ji-dao-da-ti-zhe-de-shou-ji-xing-hao-ma.md)
 * [版本记录](ban-ben-geng-xin.md)
 
