@@ -36,6 +36,16 @@
 6. 对比接收到的sign和5中计算得到的sign签名；
 7. 返回状态码status。
 
+{% hint style="info" %}
+拼接后的加密字符串示例
+
+appSecretuIVtlG06callback\_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f3973timestamp1609408137uidtestuseruid\_sourcetestsourceuser\_typeweak\_third\_party
+
+【注】只有默认参数和appSecret参与计算签名，值为空的默认参数和其他未说明的参数不参与加密
+{% endhint %}
+
+
+
 #### **代码示例**
 
 _PHP代码_ 
