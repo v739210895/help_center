@@ -67,6 +67,7 @@
   * [联动题](ti-xing-shuo-ming/lian-dong-ti.md)
   * [信息栏](ti-xing-shuo-ming/xin-xi-lan.md)
 * [API文档](api-wen-dang/README.md)
+  * [题型字段说明](api-wen-dang/ti-xing-zi-duan-shuo-ming.md)
   * [MSDK-V3登录态采集](api-wen-dang/msdkv3-deng-lu-tai-cai-ji.md)
   * [MSDK-V5登录态采集](api-wen-dang/msdkv5-deng-lu-tai-cai-ji.md)
   * [参数传递接口（严格校验模式）](api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)
