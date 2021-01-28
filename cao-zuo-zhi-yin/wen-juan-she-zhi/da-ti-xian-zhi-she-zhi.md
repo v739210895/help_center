@@ -62,6 +62,8 @@
 
 #### openid
 
+直接写入白名单用户的openid，每行一个号码。
+
 <table>
   <thead>
     <tr>
