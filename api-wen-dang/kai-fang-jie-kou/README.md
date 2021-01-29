@@ -706,5 +706,27 @@ GET http://{host}/open/v1/statistics/{sid}/blanks
 }
 ```
 
+
+
+**7、答题数据列表**
+
+获取用户答题数据列表，支持分页。
+
+**接口地址**
+
+```text
+POST http://{host}/open/v1/answers/{sid}
+```
+
+
+
+| 参数 | 是否必须 | 数据类型 | 说明 |
+| :--- | :--- | :--- | :--- |
+| query | 否 | object | es筛选条件 |
+| page | 否 | int | 页码，起码为1，默认为1 |
+| page\_size | 否 | int | 页数，默认为10 |
+
+\*\*\*\*
+
 ### 常见问题
 
