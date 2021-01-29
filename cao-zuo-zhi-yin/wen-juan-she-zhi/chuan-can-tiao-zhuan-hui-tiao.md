@@ -81,7 +81,7 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5&ADTAG=sid.5f87b81376051f3
 
 ![](../../.gitbook/assets/image%20%284%29.png)
 
-[点击了解详细API文档。](../../api-wen-dang/kai-fang-jie-kou.md)
+[点击了解详细API文档。](../../api-wen-dang/kai-fang-jie-kou/)
 
 ## 提交问卷后发奖
 
