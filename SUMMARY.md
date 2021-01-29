@@ -75,7 +75,7 @@
   * [登录态回调接口](api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)
   * [AMS发奖](api-wen-dang/idip-fa-jiang.md)
   * [开放接口](api-wen-dang/kai-fang-jie-kou/README.md)
-    * [开发接口-答题统计](api-wen-dang/kai-fang-jie-kou/kai-fa-jie-kou-da-ti-tong-ji.md)
+    * [query参数说明](api-wen-dang/kai-fang-jie-kou/kai-fa-jie-kou-da-ti-tong-ji.md)
 * [常见问题](chang-jian-wen-ti/README.md)
   * [如何获取问卷系统权限](chang-jian-wen-ti/ru-he-huo-qu-wen-juan-xi-tong-quan-xian.md)
   * [为什么问卷内有的功能无法使用](chang-jian-wen-ti/wei-shen-me-wen-juan-nei-bu-fen-gong-neng-wu-fa-shi-yong.md)
