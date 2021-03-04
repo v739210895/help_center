@@ -2,6 +2,10 @@
 
 本问卷系统提供专业的在线调研及统计工具，主要服务于国内&海外的调研项目，专注游戏内嵌投放。不仅提供单选、多选、主观题、矩阵单选题等题型，还提供选项关联设置（漏斗型）、复杂组合逻辑设置、实时统计等功能。
 
+海外问卷涉及合规问题，请有需要使用海外问卷系统的用户，仔细阅读说明文档：[https://docs.qq.com/doc/DS2RYa0lxV0tURkx2](https://docs.qq.com/doc/DS2RYa0lxV0tURkx2)
+
+如有疑问，请企业微信联系：IMUR问卷系统助手
+
 ![](.gitbook/assets/image%20%28611%29.png)
 
 ![](.gitbook/assets/image%20%2889%29.png)
