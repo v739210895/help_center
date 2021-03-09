@@ -111,11 +111,11 @@ _\*以上参数对应的值仅作展示使用_
 
 tencent域：
 问卷投放域名为https://in.survey.imur.tencent.com/?sid=xxx则为tencent域，对应登录接口为：
-https://inapi.survey.imur.tencent.com/autologin?
+https://in.survey.imur.tencent.com/v2/api/autologin?
 
 非tencent域：
 问卷投放域名为https://in.weisurvey.com/?sid=xxx则为非tencent域，对应登录接口为：
-https://inapi.weisurvey.com/autologin?
+https://in.weisurvey.com/v2/api/autologin?
 ```
 
 #### **海外投放**
