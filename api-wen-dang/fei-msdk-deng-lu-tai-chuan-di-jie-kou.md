@@ -125,11 +125,11 @@ https://inapi.weisurvey.com/autologin?
 
 tencent域：
 问卷投放域名为https://out.survey.imur.tencent.com/?sid=xxx则为tencent域，对应登录接口为：
-https://outapi.survey.imur.tencent.com/autologin?
+https://out.survey.imur.tencent.com/v2/api/autologin?
 
 非tencent域：
 问卷投放域名为https://out.weisurvey.com/?sid=xxx则为非tencent域，对应登录接口为：
-https://outapi.weisurvey.com/autologin?
+https://out.weisurvey.com/v2/api/autologin?
 
 ```
 
