@@ -7,7 +7,7 @@
 ![&#x63D0;&#x4EA4;&#x95EE;&#x5377;&#x540E;&#x53D1;&#x5956;](../.gitbook/assets/image%20%28566%29.png)
 
 {% hint style="info" %}
-1. 仅支持已对接邮件发奖功能的游戏使用
+1. 仅支持已对接**邮件发货**功能的游戏使用
 2. 问卷务必开启[MSDK登录验证](../cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi.md#msdk-deng-lu-yan-zheng)/[参数传递（严格校验模式）](../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-yan-ge-xiao-yan-mo-shi)/[参数传递（不校验模式）](../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)以上任一功能
 3. 对每个答题者仅发奖一次；已成功发奖的答题者再次回答问卷后不可二次触发发奖
 {% endhint %}
