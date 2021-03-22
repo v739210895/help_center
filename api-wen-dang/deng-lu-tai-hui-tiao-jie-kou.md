@@ -159,8 +159,10 @@ _回调URL示例_
       <td style="text-align:left">string</td>
       <td style="text-align:left">255</td>
       <td style="text-align:left">
-        <p>&#x5F00;&#x53D1;&#x8005;&#x81EA;&#x5B9A;&#x4E49;&#x56DE;&#x8C03;&#x53C2;&#x6570;&#xFF0C;&#x4E1A;&#x52A1;&#x9700;&#x8981;&#x989D;&#x5916;&#x7684;&#x53C2;&#x6570;&#x5219;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x3002;&#x6CE8;&#x610F;&#xFF1A;&#x8BE5;&#x53C2;&#x6570;&#x662F;&#x7531;&#x5F00;&#x53D1;&#x8005;&#x901A;&#x8FC7;&#x95EE;&#x5377;&#x94FE;&#x63A5;<b>&#x900F;&#x4F20;</b>&#x5230;&#x5F00;&#x53D1;&#x8005;&#x670D;&#x52A1;&#x7AEF;&#x7684;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;https://in.survey.imur.tencent.com/?sid=xxx&amp;</p>
+        <p>&#x5F00;&#x53D1;&#x8005;&#x81EA;&#x5B9A;&#x4E49;&#x56DE;&#x8C03;&#x53C2;&#x6570;&#xFF0C;&#x4E1A;&#x52A1;&#x9700;&#x8981;&#x989D;&#x5916;&#x7684;&#x53C2;&#x6570;&#x5219;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x3002;&#x3010;&#x6CE8;&#x3011;</p>
+        <p>1.&#x8BE5;&#x53C2;&#x6570;&#x662F;&#x7531;&#x5F00;&#x53D1;&#x8005;&#x901A;&#x8FC7;&#x95EE;&#x5377;&#x94FE;&#x63A5;<b>&#x900F;&#x4F20;</b>&#x5230;&#x5F00;&#x53D1;&#x8005;&#x670D;&#x52A1;&#x7AEF;&#x7684;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;https://in.survey.imur.tencent.com/?sid=xxx&amp;</p>
         <p>lang=zh-CHS&amp;callback_params=xxxxx</p>
+        <p>2.&#x5982;&#x900F;&#x4F20;&#x65F6;&#x503C;&#x88AB;encode&#xFF0C;&#x5219;&#x52A0;&#x5BC6;&#x65F6;&#x9700;&#x5148;decode</p>
       </td>
     </tr>
     <tr>
