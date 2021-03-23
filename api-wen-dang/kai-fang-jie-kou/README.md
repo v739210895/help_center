@@ -726,7 +726,17 @@ POST http://{host}/open/v1/answers/{sid}
 | page | 否 | int | 页码，起码为1，默认为1 |
 | page\_size | 否 | int | 页数，默认为10 |
 
-\*\*\*\*
+**8、获取答题数据详情**
+
+获取回调中的aid获取一条答题数据。
+
+**接口地址**
+
+```text
+GET http://{host}/open/v1/answers/{sid}/{aid}
+```
+
+
 
 ### 常见问题
 
