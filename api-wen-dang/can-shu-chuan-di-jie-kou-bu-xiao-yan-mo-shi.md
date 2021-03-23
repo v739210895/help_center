@@ -23,11 +23,11 @@
 
 【普通投放链接】
 
-https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADTAG=sid.5e8d767b76051f46707cf692
+https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692
 
 【内嵌投放链接】
 
- https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADTAG=sid.5e8d767b76051f46707cf692&openid=XXXX&source=XXXX&info=XXXX
+ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&openid=XXXX&source=XXXX&info=XXXX
 
 _\*以上参数对应的值仅作展示使用_
 {% endhint %}
