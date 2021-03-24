@@ -12,6 +12,28 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">v19.2</td>
+      <td style="text-align:center">2021.03.02</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x65B0;&#x589E;&#x9898;&#x578B;&#xFF1A;<a href="ti-xing-shuo-ming/fu-jian-shang-chuan-ti.md">&#x9644;&#x4EF6;&#x4E0A;&#x4F20;&#x9898;</a>
+          </li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">v19.1</td>
+      <td style="text-align:center">2021.01.26</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x65B0;&#x589E;&#x529F;&#x80FD;&#xFF1A;<a href="cao-zuo-zhi-yin/hui-shou-da-juan.md#zi-ding-yi-lai-yuan-qu-dao">&#x81EA;&#x5B9A;&#x4E49;&#x6765;&#x6E90;&#x6E20;&#x9053;</a>
+          </li>
+          <li>&#x65B0;&#x589E;&#x529F;&#x80FD;&#xFF1A;<a href="cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi.md#bai-ming-dan-da-ti-xian-zhi">&#x767D;&#x540D;&#x5355;&#x7B54;&#x9898;&#x9650;&#x5236;</a>
+          </li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">v18.2</td>
       <td style="text-align:center">2020.12.29</td>
       <td style="text-align:left">
