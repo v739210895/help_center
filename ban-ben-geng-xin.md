@@ -12,6 +12,18 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">v19.4</td>
+      <td style="text-align:center">2021.03.30</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x65B0;&#x589E;&#x9898;&#x578B;&#xFF1A;<a href="ti-xing-shuo-ming/pai-xu-ti-kai-fa-zhong.md">&#x6392;&#x5E8F;&#x9898;</a>
+          </li>
+          <li>&#x529F;&#x80FD;&#x4F18;&#x5316;&#xFF1A;<a href="cao-zuo-zhi-yin/yu-lan-wen-juan.md">&#x9884;&#x89C8;&#x95EE;&#x5377;</a>
+          </li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">v19.2</td>
       <td style="text-align:center">2021.03.02</td>
       <td style="text-align:left">
