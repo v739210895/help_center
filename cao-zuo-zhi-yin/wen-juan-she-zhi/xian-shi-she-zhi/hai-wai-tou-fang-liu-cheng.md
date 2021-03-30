@@ -67,7 +67,7 @@
 | 欧洲 | 瑞典 | Sweden | 16 or younger |
 | 欧洲 | 瑞士 | Switzerland | 16 or younger |
 | 欧洲 | 英国 | United Kingdom | 16 or younger |
-| 北美洲 | 美国 | United States | 14 or younger |
+| 北美洲 | 美国 | United States | 16 or younger |
 
 ### 自定义海外投放验证条件
 
