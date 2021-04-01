@@ -10,7 +10,7 @@
 
 ### 使用场景
 
-适用于开发者接入问卷系统后，需要用户在答题之后将用户等相关信息回传给开发者服务端的情况，注意这个回传动作是问卷服务端异步完成的，会有一定的时延（秒级）。
+适用于开发者接入问卷系统后，需要用户在答题之后将用户等相关信息**回传给开发者服务端**的情况，注意这个回传动作是问卷服务端异步完成的，会有一定的时延（秒级）。
 
 登录态回调接口的配置在问卷编辑下的【设置】-&gt;【登录态回调接口】开启，需要用户配置【密钥】与【回调地址】，并在【回调地址】对请求参数进行签名验证，防止恶意刷接口。
 
@@ -37,11 +37,8 @@
 7. 返回状态码status。
 
 {% hint style="info" %}
-拼接后的加密字符串示例
-
-appSecretuIVtlG06callback\_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f3973timestamp1609408137uidtestuseruid\_sourcetestsourceuser\_typeweak\_third\_party
-
-【注】只有默认参数和appSecret参与计算签名，值为空的默认参数和其他未说明的参数不参与加密计算。
+1. appSecret即回调密钥，和回调地址一样，在问卷的“设置”页配置。配置方法详见[登录态回调配置](../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#deng-lu-tai-hui-tiao-jie-kou)
+2. 拼接后的加密字符串示例 appSecretuIVtlG06callback\_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f3973timestamp1609408137uidtestuseruid\_sourcetestsourceuser\_typeweak\_third\_party 【注】只有默认参数和appSecret参与计算签名，值为空的默认参数和其他未说明的参数不参与加密计算。
 {% endhint %}
 
 

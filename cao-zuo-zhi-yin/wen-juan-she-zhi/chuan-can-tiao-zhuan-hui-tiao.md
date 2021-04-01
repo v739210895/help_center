@@ -49,9 +49,9 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
 
 提供登录态回调的功能，开发者可自行配置回调地址和密钥，问卷系统将登录态等参数回调给开发者，开发者获取参数后可用于奖励发放。
 
-![](../../.gitbook/assets/image%20%28448%29.png)
+![&#x64CD;&#x4F5C;&#x6D41;&#x7A0B;](../../.gitbook/assets/image%20%28448%29.png)
 
-![&#x914D;&#x7F6E;&#x767B;&#x5F55;&#x6001;&#x56DE;&#x8C03;](../../.gitbook/assets/image%20%28590%29.png)
+![&#x914D;&#x7F6E;&#x767B;&#x5F55;&#x6001;&#x56DE;&#x8C03;](../../.gitbook/assets/image%20%28653%29.png)
 
 ### 同一问卷支持设置多个回调地址
 
@@ -62,10 +62,10 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
 {% hint style="info" %}
 如投放链接中注入callback的值为2，则提交后系统自动把登录态信息回调到回调地址2中
 
-https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5&ADTAG=sid.5f87b81376051f331039dfe5&openid={openid}**&callback=2**
+https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5&openid={openid}**&callback=2**
 {% endhint %}
 
-![&#x591A;&#x4E2A;&#x56DE;&#x8C03;&#x5730;&#x5740;&#x914D;&#x7F6E;&#x793A;&#x4F8B;](../../.gitbook/assets/image%20%28592%29.png)
+![&#x591A;&#x4E2A;&#x56DE;&#x8C03;&#x5730;&#x5740;&#x914D;&#x7F6E;&#x793A;&#x4F8B;](../../.gitbook/assets/image%20%28654%29.png)
 
 ### 回调示例
 
