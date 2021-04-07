@@ -219,7 +219,7 @@ business\_code必须是int16类型，即 -32768 ~ 32767
 {% hint style="info" %}
 如投放链接中注入callback的值为2，则提交后系统自动把登录态信息回调到回调地址2中
 
-https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5&ADTAG=sid.5f87b81376051f331039dfe5&openid={openid}**&callback=2**
+https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5&openid={openid}**&callback=2**
 {% endhint %}
 
 ![&#x591A;&#x4E2A;&#x56DE;&#x8C03;&#x5730;&#x5740;&#x914D;&#x7F6E;&#x793A;&#x4F8B;](../.gitbook/assets/image%20%28592%29.png)
