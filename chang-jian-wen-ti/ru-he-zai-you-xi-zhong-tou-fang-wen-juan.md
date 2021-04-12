@@ -6,5 +6,7 @@
 自助对接登记及内嵌方案推荐 [https://in.weisurvey.com/?sid=5f589c6e76051fa2a616a549](https://in.weisurvey.com/?sid=5f589c6e76051fa2a616a549)
 {% endhint %}
 
-![&#x5B9E;&#x4F8B;&#x6D41;&#x7A0B;](../.gitbook/assets/image%20%28655%29.png)
+![&#x5B9E;&#x4F8B;&#x6D41;&#x7A0B;&#x4ECB;&#x7ECD;](../.gitbook/assets/image%20%28656%29.png)
+
+
 
