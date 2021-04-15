@@ -133,8 +133,7 @@ https://out.weisurvey.com/v2/api/autologin?
 
 新海外环境：
 问卷投放域名为https://user.outweisurvey.com/?sid=xxxxx则为新海外环境，对应登录接口为：
-（待更新）
-
+https://user.outweisurvey.com/v2/api/autologin?
 ```
 
 ### **参数说明**
