@@ -72,6 +72,7 @@
   * [题型字段说明](api-wen-dang/ti-xing-zi-duan-shuo-ming.md)
   * [MSDK-V3登录态采集](api-wen-dang/msdkv3-deng-lu-tai-cai-ji.md)
   * [MSDK-V5登录态采集](api-wen-dang/msdkv5-deng-lu-tai-cai-ji.md)
+  * [INTL登录态采集](api-wen-dang/intl-deng-lu-tai-cai-ji.md)
   * [参数传递接口（严格校验模式）](api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)
   * [参数传递接口（不校验模式）](api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md)
   * [登录态回调接口](api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)
