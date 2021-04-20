@@ -12,6 +12,16 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">v20.1</td>
+      <td style="text-align:center">2021.04.20</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x65B0;&#x589E;&#x529F;&#x80FD;&#xFF1A;<a href="api-wen-dang/intl-deng-lu-tai-cai-ji.md">INTL&#x767B;&#x5F55;&#x6001;&#x91C7;&#x96C6;</a>
+          </li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">v19.4</td>
       <td style="text-align:center">2021.03.30</td>
       <td style="text-align:left">
