@@ -7,7 +7,7 @@
 ### 参数配置说明
 
 {% hint style="info" %}
-“密钥”请填写飞鹰系统参数中的INTL\_SERVER\_KEY
+“密钥”请填写INTL管理端参数中的INTL\_SERVER\_KEY
 
 “域名”区分正式环境和测试环境，填写参考：[INTL域名](https://developers.intlgame.com/docs/unity_zh/Backend/Overall.html#21-%E7%8E%AF%E5%A2%83)
 {% endhint %}
