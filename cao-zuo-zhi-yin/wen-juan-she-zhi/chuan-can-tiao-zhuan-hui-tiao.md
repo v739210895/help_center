@@ -41,9 +41,9 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
 
 功能开启后，在设置弹窗中填写跳转的链接（链接需为包含http://或http://前缀的地址），设置完成后当答题者提交问卷后浏览器将跳转到您设置的链接上。
 
-![](../../.gitbook/assets/image%20%28333%29.png)
+![&#x529F;&#x80FD;&#x6D41;&#x7A0B;](../../.gitbook/assets/image%20%28333%29.png)
 
-![&#x8BBE;&#x7F6E;&#x8DF3;&#x8F6C;&#x5730;&#x5740;](../../.gitbook/assets/image%20%28392%29.png)
+![&#x8BBE;&#x7F6E;&#x8DF3;&#x8F6C;&#x5730;&#x5740;](../../.gitbook/assets/image%20%28658%29.png)
 
 ## 登录态回调接口
 
