@@ -16,9 +16,11 @@
 
 ### 解密INTL登录态说明
 
+问卷系统后台用于解密获取玩家登录态流程的说明，游戏侧仅需关注是否有在问卷链接后**注入正确的登录态参数**。
+
 API文档1参考：[https://developers.intlgame.com/docs/unity\_zh/Module/WebView.html\#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE](https://developers.intlgame.com/docs/unity_zh/Module/WebView.html#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE)
 
-API文档2参考：[http://docs.msdk.qq.com/v5/zh-CN/Server/verify.html](https://developers.intlgame.com/docs/unity_zh/Backend/Auth.html#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C)
+API文档2参考：[https://developers.intlgame.com/docs/unity\_zh/Backend/Auth.html\#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C](https://developers.intlgame.com/docs/unity_zh/Backend/Auth.html#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C)
 
 （1）系统使用encodeparam参数进行登录态解密，此时要求必须带上os、gameid、channelid、ts、sig、source这6个参数参与，示例如下：
 
