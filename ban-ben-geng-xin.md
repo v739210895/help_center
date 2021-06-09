@@ -17,7 +17,10 @@
       <td style="text-align:left">
         <ol>
           <li>&#x4EA4;&#x53C9;&#x5206;&#x6790;&#xFF1A;&#x4EA4;&#x53C9;&#x9650;&#x5236;&#x6570;&#x91CF;&#x6269;&#x5C55;&#x4E3A;20*20</li>
-          <li>&#x5730;&#x5740;&#x9898;&#xFF1A;&#x5728;&#x7EBF;&#x7EDF;&#x8BA1;&#x65B0;&#x589E;&#x57CE;&#x5E02;&#x5206;&#x7EA7;&#x7EDF;&#x8BA1;&#xFF0C;&#x5BFC;&#x51FA;&#x6570;&#x636E;&#x65B0;&#x589E;&#x5BFC;&#x51FA;&#x57CE;&#x5E02;&#x5206;&#x7EA7;</li>
+          <li>&#x5730;&#x5740;&#x9898;&#xFF1A;&#x5728;&#x7EBF;&#x7EDF;&#x8BA1;<a href="ti-xing-shuo-ming/lian-dong-ti.md#tong-ji-jie-guo-zhan-shi">&#x65B0;&#x589E;&#x57CE;&#x5E02;&#x5206;&#x7EA7;&#x7EDF;&#x8BA1;</a>&#xFF0C;&#x5BFC;&#x51FA;&#x6570;&#x636E;
+            <a
+            href="ti-xing-shuo-ming/lian-dong-ti.md#dao-chu-shu-ju">&#x65B0;&#x589E;&#x5BFC;&#x51FA;&#x57CE;&#x5E02;&#x5206;&#x7EA7;</a>
+          </li>
           <li>&#x7B80;&#x5355;&#x903B;&#x8F91;&#xFF1A;&#x65B0;&#x589E;&#x652F;&#x6301;&#x6309;&#x4F4F;ctrl&#x591A;&#x9009;&#x53CA;&#x5168;&#x9009;</li>
           <li>&#x7EC4;&#x5408;&#x903B;&#x8F91;&#xFF1A;&#x65B0;&#x589E;&#x652F;&#x6301;&#x5168;&#x9009;&#x9009;&#x9879;&#x5217;&#x8868;</li>
         </ol>
@@ -33,7 +36,10 @@
       <td style="text-align:center">2021.05.11</td>
       <td style="text-align:left">
         <ol>
-          <li>&#x6211;&#x7684;&#x95EE;&#x5377;&#xFF1A;&#x65B0;&#x589E;&#x652F;&#x6301;&#x6279;&#x91CF;&#x64CD;&#x4F5C;&#x95EE;&#x5377;</li>
+          <li>&#x6211;&#x7684;&#x95EE;&#x5377;&#xFF1A;&#x65B0;&#x589E;&#x652F;&#x6301;
+            <a
+            href="cao-zuo-zhi-yin/guan-li-wen-juan/wen-juan-cao-zuo.md#pi-liang-cao-zuo">&#x6279;&#x91CF;&#x64CD;&#x4F5C;&#x95EE;&#x5377;</a>
+          </li>
         </ol>
       </td>
     </tr>
@@ -44,7 +50,7 @@
         <ol>
           <li>&#x65B0;&#x589E;&#x529F;&#x80FD;&#xFF1A;&#x9009;&#x9879;&#x5206;&#x5217;&#x5C55;&#x793A;</li>
           <li>&#x7EC4;&#x5408;&#x903B;&#x8F91;&#xFF1A;&#x65B0;&#x589E;&#x652F;&#x6301;&#x4EE5;&#x201C;&#x672A;&#x9009;&#x4E2D;&#x201D;&#x6307;&#x5B9A;&#x9009;&#x9879;&#x63A7;&#x5236;&#x903B;&#x8F91;</li>
-          <li>&#x95EE;&#x5377;&#x5BFC;&#x5165;/&#x8986;&#x76D6;&#x5BFC;&#x5165;&#xFF1A;&#x591A;&#x9009;&#x9898;&#x3001;&#x77E9;&#x9635;&#x591A;&#x9009;&#x9898;&#x65B0;&#x589E;&#x652F;&#x6301;&#x5BFC;&#x5165;&#x6700;&#x591A;&#x3001;&#x6700;&#x5C11;&#x9650;&#x5236;</li>
+          <li><a href="cao-zuo-zhi-yin/chuang-jian-wen-juan/dao-ru-wen-juan/#step-1-zai-excel-bian-ji-wen-juan-nei-rong">&#x95EE;&#x5377;&#x5BFC;&#x5165;</a>/&#x8986;&#x76D6;&#x5BFC;&#x5165;&#xFF1A;&#x591A;&#x9009;&#x9898;&#x3001;&#x77E9;&#x9635;&#x591A;&#x9009;&#x9898;&#x65B0;&#x589E;&#x652F;&#x6301;&#x5BFC;&#x5165;&#x6700;&#x591A;&#x3001;&#x6700;&#x5C11;&#x9650;&#x5236;</li>
         </ol>
       </td>
     </tr>
