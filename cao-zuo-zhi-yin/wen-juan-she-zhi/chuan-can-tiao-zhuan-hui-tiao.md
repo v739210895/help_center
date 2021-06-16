@@ -89,7 +89,7 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5&openid={openid}**&callbac
 
 {% hint style="info" %}
 1. 仅支持已对接**邮件发货**功能的游戏使用
-2. 问卷务必开启[MSDK登录验证](da-ti-xian-zhi-she-zhi.md#msdk-deng-lu-yan-zheng)/[参数传递（严格校验模式）](chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-yan-ge-xiao-yan-mo-shi)/[参数传递（不校验模式）](chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)以上任一功能
+2. 问卷务必开启[MSDK登录验证](da-ti-xian-zhi-she-zhi/#msdk-deng-lu-yan-zheng)/[参数传递（严格校验模式）](chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-yan-ge-xiao-yan-mo-shi)/[参数传递（不校验模式）](chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)以上任一功能
 3. 对每个答题者仅发奖一次；已成功发奖的答题者再次回答问卷后不可二次触发发奖
 {% endhint %}
 
