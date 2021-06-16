@@ -59,6 +59,12 @@
     </tr>
     <tr>
       <td style="text-align:left">&#x4E9A;&#x6D32;</td>
+      <td style="text-align:left">&#x6CF0;&#x56FD;</td>
+      <td style="text-align:left">Thailand</td>
+      <td style="text-align:left">20</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x4E9A;&#x6D32;</td>
       <td style="text-align:left">&#x571F;&#x8033;&#x5176;</td>
       <td style="text-align:left">Turkey</td>
       <td style="text-align:left">18</td>
@@ -269,6 +275,12 @@
     </tr>
     <tr>
       <td style="text-align:left">&#x5317;&#x7F8E;&#x6D32;</td>
+      <td style="text-align:left">&#x52A0;&#x62FF;&#x5927;</td>
+      <td style="text-align:left">Canada</td>
+      <td style="text-align:left">18</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x5317;&#x7F8E;&#x6D32;</td>
       <td style="text-align:left">&#x7F8E;&#x56FD;</td>
       <td style="text-align:left">United States</td>
       <td style="text-align:left">16</td>
@@ -283,6 +295,12 @@
       <td style="text-align:left">&#x5927;&#x6D0B;&#x6D32;</td>
       <td style="text-align:left">&#x6FB3;&#x5927;&#x5229;&#x4E9A;</td>
       <td style="text-align:left">Australia</td>
+      <td style="text-align:left">18</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x5927;&#x6D0B;&#x6D32;</td>
+      <td style="text-align:left">&#x65B0;&#x897F;&#x5170;</td>
+      <td style="text-align:left">New Zealand</td>
       <td style="text-align:left">18</td>
     </tr>
   </tbody>
