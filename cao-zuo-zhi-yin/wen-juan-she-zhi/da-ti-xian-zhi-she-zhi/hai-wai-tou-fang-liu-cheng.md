@@ -73,7 +73,7 @@
       <td style="text-align:left">&#x4E9A;&#x6D32;</td>
       <td style="text-align:left">&#x585E;&#x6D66;&#x8DEF;&#x65AF;</td>
       <td style="text-align:left">Republic of Cyprus</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x4E9A;&#x6D32;</td>
@@ -85,151 +85,151 @@
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x5965;&#x5730;&#x5229;</td>
       <td style="text-align:left">Austria</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x6BD4;&#x5229;&#x65F6;</td>
       <td style="text-align:left">Belgium</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x4FDD;&#x52A0;&#x5229;&#x4E9A;</td>
       <td style="text-align:left">Bulgaria</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x514B;&#x7F57;&#x5730;&#x4E9A;</td>
       <td style="text-align:left">Croatia</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x6377;&#x514B;</td>
       <td style="text-align:left">Czech Republic</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x4E39;&#x9EA6;</td>
       <td style="text-align:left">Denmark</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x7231;&#x6C99;&#x5C3C;&#x4E9A;</td>
       <td style="text-align:left">Estonia</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x82AC;&#x5170;</td>
       <td style="text-align:left">Finland</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x6CD5;&#x56FD;</td>
       <td style="text-align:left">France</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x5FB7;&#x56FD;</td>
       <td style="text-align:left">Germany</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x5E0C;&#x814A;</td>
       <td style="text-align:left">Greece</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x5308;&#x7259;&#x5229;</td>
       <td style="text-align:left">Hungary</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x51B0;&#x5C9B;</td>
       <td style="text-align:left">Iceland</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x7231;&#x5C14;&#x5170;</td>
       <td style="text-align:left">Ireland</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x610F;&#x5927;&#x5229;</td>
       <td style="text-align:left">Italy</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x62C9;&#x8131;&#x7EF4;&#x4E9A;</td>
       <td style="text-align:left">Latvia</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x5217;&#x652F;&#x6566;&#x58EB;&#x767B;</td>
       <td style="text-align:left">Liechtenstein</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x7ACB;&#x9676;&#x5B9B;</td>
       <td style="text-align:left">Lithuania</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x5362;&#x68EE;&#x5821;</td>
       <td style="text-align:left">Luxembourg</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x9A6C;&#x8033;&#x4ED6;</td>
       <td style="text-align:left">Malta</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x8377;&#x5170;</td>
       <td style="text-align:left">Netherlands</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x632A;&#x5A01;</td>
       <td style="text-align:left">Norway</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x6CE2;&#x5170;</td>
       <td style="text-align:left">Poland</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x8461;&#x8404;&#x7259;</td>
       <td style="text-align:left">Portugal</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x7F57;&#x9A6C;&#x5C3C;&#x4E9A;</td>
       <td style="text-align:left">Romania</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
@@ -241,37 +241,37 @@
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x65AF;&#x6D1B;&#x4F10;&#x514B;</td>
       <td style="text-align:left">Slovakia</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x65AF;&#x6D1B;&#x6587;&#x5C3C;&#x4E9A;</td>
       <td style="text-align:left">Slovenia</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x897F;&#x73ED;&#x7259;</td>
       <td style="text-align:left">Spain</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x745E;&#x5178;</td>
       <td style="text-align:left">Sweden</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x745E;&#x58EB;</td>
       <td style="text-align:left">Switzerland</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x6B27;&#x6D32;</td>
       <td style="text-align:left">&#x82F1;&#x56FD;</td>
       <td style="text-align:left">United Kingdom</td>
-      <td style="text-align:left">16 or younger</td>
+      <td style="text-align:left">16</td>
     </tr>
     <tr>
       <td style="text-align:left">&#x5317;&#x7F8E;&#x6D32;</td>
