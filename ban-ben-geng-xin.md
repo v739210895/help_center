@@ -1,5 +1,5 @@
 ---
-description: 最近更新：2021.06.09
+description: 最近更新：2021.06.16
 ---
 
 # 版本记录
@@ -15,6 +15,17 @@ description: 最近更新：2021.06.09
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td style="text-align:left">v22.1</td>
+      <td style="text-align:center">2021.06.16</td>
+      <td style="text-align:left">
+        <ol>
+          <li>&#x903B;&#x8F91;&#x529F;&#x80FD;&#xFF1A;&#x65B0;&#x589E;&#x652F;&#x6301;&#x9898;&#x76EE;&#x5206;&#x7EC4;&#x53CA;&#x9898;&#x7EC4;&#x62BD;&#x6837;&#x529F;&#x80FD;</li>
+          <li>&#x95EE;&#x5377;&#x8BBE;&#x7F6E;&#xFF1A;&#x767B;&#x5F55;&#x8BBE;&#x7F6E;&#x529F;&#x80FD;&#x8C03;&#x6574;</li>
+          <li>&#x4F18;&#x5316;&#x7BA1;&#x7406;&#x7AEF;&#x4EA4;&#x4E92;</li>
+        </ol>
+      </td>
+    </tr>
     <tr>
       <td style="text-align:left">v21.3</td>
       <td style="text-align:center">2021.05.25</td>
