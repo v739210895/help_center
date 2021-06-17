@@ -168,20 +168,21 @@ _回调URL示例_
       <td style="text-align:left">&#x662F;</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">255</td>
-      <td style="text-align:left">&#x767B;&#x5F55;&#x7528;&#x6237;&#x989D;&#x5916;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x8BE5;&#x5B57;&#x6BB5;&#x53EF;&#x4EE5;&#x914D;&#x5408;
+      <td style="text-align:left">&#x767B;&#x5F55;&#x7528;&#x6237;&#x989D;&#x5916;&#x7684;&#x4FE1;&#x606F;&#x3002;&#x8BE5;&#x5B57;&#x6BB5;&#x9700;&#x914D;&#x5408;
         <a
-        href="fei-msdk-deng-lu-tai-chuan-di-jie-kou.md">&#x975E;MSDK&#x767B;&#x5F55;&#x6001;&#x4F20;&#x9012;&#x63A5;&#x53E3;&#x4F7F;&#x7528;</a>&#x3002;</td>
+        href="fei-msdk-deng-lu-tai-chuan-di-jie-kou.md">&#x53C2;&#x6570;&#x4F20;&#x9012;&#xFF08;&#x4E25;&#x683C;&#x6821;&#x9A8C;&#xFF09;</a>/
+          <a
+          href="can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md">&#x53C2;&#x6570;&#x4F20;&#x9012;&#xFF08;&#x4E0D;&#x6821;&#x9A8C;&#xFF09;</a>&#x4F7F;&#x7528;&#xFF1B;&#x5982;&#x4F7F;&#x7528;MSDK
+            v3/v5&#x3001;INTL&#x81EA;&#x52A8;&#x767B;&#x5F55;&#xFF0C;info&#x4EC5;&#x4F5C;&#x4E3A;&#x666E;&#x901A;&#x53C2;&#x6570;&#x900F;&#x4F20;&#x3001;&#x4E0D;&#x53C2;&#x4E0E;&#x52A0;&#x5BC6;&#x3002;</td>
     </tr>
   </tbody>
 </table>
 
 {% hint style="info" %}
-非必传参数有值时参与加密，未传则不参与加密
-
-本文档未说明的参数不参与加密，可参考：[`为什么会接收到文档中未说明的回调参数`](../chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)\`\`
+1. 非必传参数有值时参与加密，未传则不参与加密
+2. 本文档未说明的参数不参与加密，可参考：[为什么会接收到文档中未说明的回调参数](../chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
+3. 如使用MSDK v3/v5、INTL自动登录，info仅作为普通参数透传，不参与加密，也不采集到答案中。
 {% endhint %}
-
-### \*\*\*\*
 
 ### **回调成功约定返回格式**
 
