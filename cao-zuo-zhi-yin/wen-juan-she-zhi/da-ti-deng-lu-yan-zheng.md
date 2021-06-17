@@ -4,7 +4,7 @@
 
 ![&#x767B;&#x5F55;&#x6001;&#x83B7;&#x53D6;](../../.gitbook/assets/image%20%28668%29.png)
 
-![&#x767B;&#x5F55;&#x9A8C;&#x8BC1;&#x914D;&#x7F6E;](../../.gitbook/assets/image%20%28670%29.png)
+![&#x767B;&#x5F55;&#x9A8C;&#x8BC1;&#x914D;&#x7F6E;](../../.gitbook/assets/image%20%28672%29.png)
 
 ## 微信、QQ登录
 
@@ -87,7 +87,7 @@
 2. 已开启不校验模式的问卷，若未正确拼接openid参数将无法打开问卷
 {% endhint %}
 
-![&#x53C2;&#x6570;&#x4F20;&#x9012;&#x63A5;&#x53E3;&#xFF08;&#x4E0D;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;&#xFF09;](../../.gitbook/assets/image%20%28669%29.png)
+![&#x53C2;&#x6570;&#x4F20;&#x9012;&#x63A5;&#x53E3;&#xFF08;&#x4E0D;&#x6821;&#x9A8C;&#x6A21;&#x5F0F;&#xFF09;](../../.gitbook/assets/image%20%28671%29.png)
 
 {% hint style="info" %}
 **【内嵌投放链接】** 
@@ -101,7 +101,7 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADT
 
 对于未接入msdk的APP，问卷内嵌投放时，问卷系统通过开发者传递登录态的方式来采集用户的uid。功能开启后，弹窗显示密钥，密钥用于生成签名（密钥可自行修改或重新生成），点击确认关闭弹窗。
 
-![&#x53C2;&#x6570;&#x4F20;&#x9012;&#xFF08;&#x4E25;&#x683C;&#x6821;&#x9A8C;&#xFF09;-&#x914D;&#x7F6E;&#x5BC6;&#x94A5;](../../.gitbook/assets/image%20%28671%29.png)
+![&#x53C2;&#x6570;&#x4F20;&#x9012;&#xFF08;&#x4E25;&#x683C;&#x6821;&#x9A8C;&#xFF09;-&#x914D;&#x7F6E;&#x5BC6;&#x94A5;](../../.gitbook/assets/image%20%28674%29.png)
 
 {% hint style="info" %}
 【内嵌投放链接示例】 
