@@ -9,8 +9,12 @@
 * 参数传递（严格校验模式）/（不校验模式）中，要求注入玩家id等登录态参数
 
 {% hint style="info" %}
-回调参数说明中，仅提供默认回调参数的说明，且只有默认参数和appsecret参与计算签名。
+**特别说明：**
+
+1. 非必传参数有值时参与加密，未传则不参与加密
+2. [登录态回调参数说明文档](../api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md#can-shu-shuo-ming)未说明的参数不参与加密
+3. 如使用MSDK v3/v5、INTL自动登录，info仅作为普通参数透传，不参与加密，也不采集到答案中。
 {% endhint %}
 
-![&#x53C2;&#x4E0E;&#x52A0;&#x5BC6;&#x7684;&#x56DE;&#x8C03;&#x53C2;&#x6570;](../.gitbook/assets/image%20%28584%29.png)
+![&#x53C2;&#x4E0E;&#x52A0;&#x5BC6;&#x7684;&#x56DE;&#x8C03;&#x53C2;&#x6570;](../.gitbook/assets/image%20%28684%29.png)
 
