@@ -40,18 +40,18 @@ _PHP代码_
 <?php
 $appSecret = 'iamsecret';
 
-$sid = '5dc5727a76051f14b96d5172';
+$sid = '60cfe98c76051f40495d32c2';
 
 $query = [
     'sid' => $sid,
-    'uid' => 'user_id',
+    'uid' => 'test_uid',
     'timestamp' => time(),
-    'source' => 'dwk',
+    'source' => 'testsource',
     'info' => 'extra_info',
-    // 登录完成后系统会跳转到redirect的地址，一般使用的是问卷投放链接，会包括sid、lang内容
-    // 如果有登录态回调参数，请参考【API文档】-> 【登录态回调接口】添加需要的参数
+    // 登录完成后系统会跳转到redirect的地址，一般使用的是问卷投放链接，会包括sid内容
+    // 如果有登录态回调参数，请参考【API文档】-> 【登录态回调接口】添加需要的参数，如callback、callback_params
     // 注意：这里的域名要根据投放的域名做修改，详情看文档下方【API接口】
-    'redirect' => 'https://in.survey.imur.tencent.com/index.html?sid='.$sid,
+    'redirect' => 'https://in.weisurvey.com/?sid='.$sid,
 ];
 
 // 添加密钥
@@ -81,7 +81,7 @@ header('Location: '.$redirectUrl);
 _请求url示例_
 
 ```text
- https://in.weisurvey.com/autologin?sid=5dc5727a76051f14b96d5172&uid=user_id&timestamp=1573455797&source=dwk&info=extra_info&redirect=https%3A%2F%2Fin.survey.imur.tencent.com%2Findex.html%3Fsid%3D5dc5727a76051f14b96d5172&sign=2ac5ab8ce6a9b306e07dc2664fe7d175
+ https://in.weisurvey.com/v2/api/autologin?sid=60cfe98c76051f40495d32c2&uid=test_uid&timestamp=1624262138&source=testsource&info=extra_info&redirect=https%3A%2F%2Fin.weisurvey.com%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback_params%3Dtestparams&sign=44b2e38119366c059946698f2828752c
 ```
 
 {% hint style="info" %}
@@ -89,11 +89,11 @@ _请求url示例_
 
 【普通投放链接】
 
-https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&lang=zh-CHS&ADTAG=sid.5e8d767b76051f46707cf692
+https://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2
 
 【内嵌投放链接】
 
- https://inapi.survey.imur.tencent.com/autologin?sid=5e8d767b76051f46707cf692&uid=user\_id&timestamp=1573455797&source=dwk&info=extra\_info&redirect=https%3A%2F%2Fin.survey.imur.tencent.com%2F%3Fsid%3D5e8d767b76051f46707cf692%26lang%3Dzh-CHS%26ADTAG%3Dsid.5e8d767b76051f46707cf692&sign=2ac5ab8ce6a9b306e07dc2664fe7d175
+https://in.weisurvey.com/v2/api/autologin?sid=60cfe98c76051f40495d32c2&uid=test\_uid&timestamp=1624262138&source=testsource&info=extra\_info&redirect=https%3A%2F%2Fin.weisurvey.com%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams&sign=44b2e38119366c059946698f2828752c
 
 _\*以上参数对应的值仅作展示使用_
 {% endhint %}
@@ -218,9 +218,51 @@ https://user.outweisurvey.com/v2/api/autologin?
   </tbody>
 </table>
 
-### 问卷设置
+### 客户端生成链接示例
 
-支持在问卷设置页面自定义密钥
+#### 原始链接
+
+https://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2
+
+#### STEP 1 原始链接注入参数
+
+https://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2**&callback=3&callback\_params=testparams**
+
+#### STEP 2 拼接kv数据结构的字符串
+
+appSecretiamsecretinfoextra\_inforedirecthttps://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2&callback=3&callback\_params=testparamssid60cfe98c76051f40495d32c2sourcetestsourcetimestamp1624262138uidtest\_uid
+
+#### STEP 3 对字符串加密生成sign
+
+sign=**44b2e38119366c059946698f2828752c**
+
+#### STEP 4 拼接链接，完成
+
+https://in.weisurvey.com/v2/api/autologin?sid=60cfe98c76051f40495d32c2&uid=test\_uid&timestamp=1624262138&source=testsource&info=extra\_info&redirect=https%3A%2F%2Fin.weisurvey.com%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams&sign=44b2e38119366c059946698f2828752c
+
+{% hint style="info" %}
+**参数赋值情况**
+
+sid=60cfe98c76051f40495d32c2
+
+uid=test\_uid 
+
+timestamp=1624245611 
+
+source=testsource 
+
+info=extra\_info
+
+redirect=https%3A%2F%2Fin.weisurvey.com%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams 
+
+sign=b76128e4fda567d1f8ef14f256a3adc6
+{% endhint %}
+
+![&#x6B65;&#x9AA4;&#x793A;&#x4F8B;](../.gitbook/assets/image%20%28687%29.png)
+
+## 问卷设置
+
+支持在问卷设置页面自定义密钥。
 
 ![&#x914D;&#x7F6E;&#x5BC6;&#x94A5;](../.gitbook/assets/image%20%2818%29.png)
 
