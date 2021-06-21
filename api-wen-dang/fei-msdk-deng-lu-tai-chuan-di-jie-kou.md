@@ -224,7 +224,7 @@ https://user.outweisurvey.com/v2/api/autologin?
 
 https://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2
 
-#### STEP 1 原始链接注入参数
+#### STEP 1 原始链接注入回调参数（非必要）
 
 https://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2**&callback=3&callback\_params=testparams**
 
