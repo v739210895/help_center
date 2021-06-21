@@ -140,15 +140,83 @@ https://user.outweisurvey.com/v2/api/autologin?
 
 使用GET请求方式传参。
 
-| 参数 | 是否必须 | 是否参与加密 | 数据类型 | 限制长度 | 说明 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| sid | 是 | 是 | string | 32 | 问卷id，从问卷链接可解析 |
-| uid | 是 | 是 | string | 255 | 登录用户的唯一ID |
-| timestamp | 是 | 是 | int | 10位 | 时间戳 |
-| redirect | 是 | 是 | string | url地址 | 登录成功之后跳转的页面url，一般使用的是问卷的链接（**加密**时使用原始URL；**拼接为内嵌投放链接**时，需先把URL进行encode后再赋值到redirect，再拼到内嵌投放链接中） |
-| source | 是 | 是 | string | 2-10位英文 | 用户自定义渠道标识 |
-| sign | 是 | 否 | string | 32 | 签名，参考签名算法 |
-| info | 否 | 是 | string | 255 | 额外的登录用户信息，可自定义；为空时不参与加密 |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">&#x53C2;&#x6570;</th>
+      <th style="text-align:left">&#x662F;&#x5426;&#x5FC5;&#x987B;</th>
+      <th style="text-align:left">&#x662F;&#x5426;&#x53C2;&#x4E0E;&#x52A0;&#x5BC6;</th>
+      <th style="text-align:left">&#x6570;&#x636E;&#x7C7B;&#x578B;</th>
+      <th style="text-align:left">&#x9650;&#x5236;&#x957F;&#x5EA6;</th>
+      <th style="text-align:left">&#x8BF4;&#x660E;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">sid</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">32</td>
+      <td style="text-align:left">&#x95EE;&#x5377;id&#xFF0C;&#x4ECE;&#x95EE;&#x5377;&#x94FE;&#x63A5;&#x53EF;&#x89E3;&#x6790;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">uid</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">255</td>
+      <td style="text-align:left">&#x767B;&#x5F55;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;ID</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">timestamp</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">int</td>
+      <td style="text-align:left">10&#x4F4D;</td>
+      <td style="text-align:left">&#x65F6;&#x95F4;&#x6233;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">redirect</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">url&#x5730;&#x5740;</td>
+      <td style="text-align:left">
+        <p>&#x767B;&#x5F55;&#x6210;&#x529F;&#x4E4B;&#x540E;&#x8DF3;&#x8F6C;&#x7684;&#x9875;&#x9762;url&#xFF0C;&#x4E00;&#x822C;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x95EE;&#x5377;&#x7684;&#x94FE;&#x63A5;</p>
+        <p>&#x3010;&#x6CE8;&#x3011;</p>
+        <ol>
+          <li><b>&#x52A0;&#x5BC6;</b>&#x65F6;&#x4F7F;&#x7528;&#x539F;&#x59CB;URL&#xFF1B;<b>&#x62FC;&#x63A5;&#x4E3A;&#x5185;&#x5D4C;&#x6295;&#x653E;&#x94FE;&#x63A5;</b>&#x65F6;&#xFF0C;&#x9700;&#x5148;&#x628A;URL&#x8FDB;&#x884C;encode&#x540E;&#x8D4B;&#x503C;&#x5230;redirect&#xFF0C;&#x518D;&#x62FC;&#x5230;&#x5185;&#x5D4C;&#x6295;&#x653E;&#x94FE;&#x63A5;&#x4E2D;</li>
+          <li>&#x56DE;&#x8C03;&#x4E2D;&#x7684;callback&#x3001;callback_params&#x9700;&#x5148;&#x6CE8;&#x5165;&#x5230;&#x95EE;&#x5377;&#x539F;&#x59CB;url&#xFF0C;&#x518D;&#x628A;&#x6B64;url&#x6309;&#x6B65;&#x9AA4;1&#x8D4B;&#x503C;&#x5230;redirect</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">source</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">2-10&#x4F4D;&#x82F1;&#x6587;</td>
+      <td style="text-align:left">&#x7528;&#x6237;&#x81EA;&#x5B9A;&#x4E49;&#x6E20;&#x9053;&#x6807;&#x8BC6;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">sign</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">32</td>
+      <td style="text-align:left">&#x7B7E;&#x540D;&#xFF0C;&#x53C2;&#x8003;&#x7B7E;&#x540D;&#x7B97;&#x6CD5;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">info</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">255</td>
+      <td style="text-align:left">&#x989D;&#x5916;&#x7684;&#x767B;&#x5F55;&#x7528;&#x6237;&#x4FE1;&#x606F;&#xFF0C;&#x53EF;&#x81EA;&#x5B9A;&#x4E49;&#xFF1B;&#x4E3A;&#x7A7A;&#x65F6;&#x4E0D;&#x53C2;&#x4E0E;&#x52A0;&#x5BC6;</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 问卷设置
 
