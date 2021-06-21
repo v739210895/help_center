@@ -186,7 +186,7 @@ https://user.outweisurvey.com/v2/api/autologin?
         <p>&#x767B;&#x5F55;&#x6210;&#x529F;&#x4E4B;&#x540E;&#x8DF3;&#x8F6C;&#x7684;&#x9875;&#x9762;url&#xFF0C;&#x4E00;&#x822C;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x95EE;&#x5377;&#x7684;&#x94FE;&#x63A5;</p>
         <p>&#x3010;&#x6CE8;&#x3011;</p>
         <ol>
-          <li><b>&#x52A0;&#x5BC6;</b>&#x65F6;&#x4F7F;&#x7528;&#x539F;&#x59CB;URL&#xFF1B;<b>&#x62FC;&#x63A5;&#x4E3A;&#x5185;&#x5D4C;&#x6295;&#x653E;&#x94FE;&#x63A5;</b>&#x65F6;&#xFF0C;&#x9700;&#x5148;&#x628A;URL&#x8FDB;&#x884C;encode&#x540E;&#x8D4B;&#x503C;&#x5230;redirect&#xFF0C;&#x518D;&#x62FC;&#x5230;&#x5185;&#x5D4C;&#x6295;&#x653E;&#x94FE;&#x63A5;&#x4E2D;</li>
+          <li><b>&#x52A0;&#x5BC6;sign</b>&#x65F6;&#x4F7F;&#x7528;&#x539F;&#x59CB;URL&#xFF1B;<b>&#x62FC;&#x63A5;&#x4E3A;&#x5185;&#x5D4C;&#x6295;&#x653E;&#x94FE;&#x63A5;</b>&#x65F6;&#xFF0C;&#x9700;&#x5148;&#x628A;URL&#x8FDB;&#x884C;encode&#x540E;&#x8D4B;&#x503C;&#x5230;redirect&#xFF0C;&#x518D;&#x62FC;&#x5230;&#x5185;&#x5D4C;&#x6295;&#x653E;&#x94FE;&#x63A5;&#x4E2D;</li>
           <li>&#x56DE;&#x8C03;&#x4E2D;&#x7684;callback&#x3001;callback_params&#x9700;&#x5148;&#x6CE8;&#x5165;&#x5230;&#x95EE;&#x5377;&#x539F;&#x59CB;url&#xFF0C;&#x518D;&#x628A;&#x6B64;url&#x6309;&#x6B65;&#x9AA4;1&#x8D4B;&#x503C;&#x5230;redirect</li>
         </ol>
       </td>
