@@ -89,6 +89,7 @@
   * [如何在游戏中投放问卷](chang-jian-wen-ti/ru-he-zai-you-xi-zhong-tou-fang-wen-juan.md)
   * [能采集到答题者的手机型号吗](chang-jian-wen-ti/neng-cai-ji-dao-da-ti-zhe-de-shou-ji-xing-hao-ma.md)
   * [答题自动发奖](chang-jian-wen-ti/ams-fa-jiang-she-zhi.md)
+  * [为什么收不到回调消息](chang-jian-wen-ti/wei-shen-me-shou-bu-dao-hui-tiao-xiao-xi.md)
   * [为什么会接收到文档中未说明的回调参数](chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
   * [为什么在小程序中打不开问卷](chang-jian-wen-ti/wei-shen-me-zai-xiao-cheng-xu-zhong-da-bu-kai-wen-juan.md)
 * [版本记录](ban-ben-geng-xin.md)
