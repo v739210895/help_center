@@ -2,15 +2,15 @@
 
 ### Interface Description
 
-#### Interface Description
+#### Interface Definition
 
 After the user submits the questionnaire, the questionnaire system will call back parameters such as the login status to the developer, which is suitable for scenarios such as reward distribution and status modification.
 
-#### scenes to be used
+#### Scenarios
 
-After the user submits the questionnaire, the questionnaire system will call back parameters such as the login status to the developer, which is suitable for scenarios such as reward distribution and status modification.Note that this return action is completed asynchronously by the questionnaire server, and there will be a certain delay \( Second level\).
+After the user submits the questionnaire, the questionnaire system will call back parameters such as the login status to the developer, which is suitable for scenarios such as reward distribution and status modification.Note that this callback action is completed asynchronously by the questionnaire server, and there will be a second delay.
 
-The configuration of the login state callback interface is turned on under \[Settings\] -&gt; \[Login state callback interface\] under questionnaire editing, and the user needs to configure the \[key\] and \[callback address\], and perform signature verification on the request parameters in the \[callback address\]. Prevent malicious interface brushing.
+The configuration of the login status callback interface is turned on under \[Settings\] -&gt; \[Login status callback interface\] under questionnaire editing, and the user needs to configure the \[key\] and \[callback address\], and perform signature verification on the request parameters in the \[callback address\],to prevent the malicious attack to the interface.
 
 {% hint style="info" %}
 Support public network callback and intranet L5 callback
@@ -25,7 +25,7 @@ Support public network callback and intranet L5 callback
 
 #### Algorithm flow
 
-1. Provide necessary parameters \(see API interface for details\), use kv data structure;
+1. Provide necessary parameters \(see API interface for details\), and kv data structure;
 2. Add appSecret as the signature key field to the kv data structure;
 3. Sort the keys in ascii ascending order;
 4. Traverse the sorted kv data structure, and concatenate all elements into a string according to the
@@ -33,23 +33,23 @@ Support public network callback and intranet L5 callback
    pattern of "key1value1key2value2";
 
 5. Carry out md5 summary on the spliced database to get the sign signature;
-6. Compare the received sign with the sign signature calculated in 5;
-7. The status code status is returned.
+6. Compare the received sign with the sign signature calculated in step 5;
+7. Return the status code.
 
 {% hint style="info" %}
-1. appSecret is the signature key, which is the same as the callback address and is configured on the "Settings" page of the questionnaire. 
-2. The spliced encrypted string example _appSecretuIVtlG06callback\_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f 3973timestamp1609408137uidtestuseruid\_sourcetestsourceuser\_typeweak\_third\_party_
+1. appSecret of Code example is the signature key, which is the same as the callback address, and is configured on the "Settings" page of the questionnaire. 
+2. Example of the spliced encrypted string _appSecretuIVtlG06callback\_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f 3_973timestamp1609408137uidtestuseruid\_sourcetestsourceuser\_typeweak\_third\_party
 
 \[Note\] 
 
-Only the default parameters and appSecret participate in the calculation of signatures. The default parameters with empty values and other unspecified parameters do not participate in the encryption calculation.
+The calculation of signatures cover the default parameters and appSecret. The default parameters with empty values and other unspecified parameters are excluded.
 {% endhint %}
 
 _Code example_
 
 PHP code
 
-```text
+```php
 <?php
 $query = $_GET;
 
@@ -80,7 +80,7 @@ echo json_encode([
 _Callback URL example_
 
 ```text
-Developer callback interface url?sid=5da414769e8aa80019305e32&timestamp=1573556685&uid=test_user&user_type=third_party&uid_source=qq&info=afdadsfasdfasdf&callback_params=callbackparams&sign=38408d6222e1a4c6fa598e4820443ca8
+Developer callback url?sid=5da414769e8aa80019305e32&timestamp=1573556685&uid=test_user&user_type=third_party&uid_source=qq&info=afdadsfasdfasdf&callback_params=callbackparams&sign=38408d6222e1a4c6fa598e4820443ca8
 ```
 
  
@@ -89,7 +89,7 @@ Developer callback interface url?sid=5da414769e8aa80019305e32&timestamp=15735566
 
 ### Parameter Description
 
-The interface for the callback to call the developer is to use a GET request.
+The callback interface uses GET request.
 
 <table>
   <thead>
@@ -117,10 +117,10 @@ The interface for the callback to call the developer is to use a GET request.
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">255</td>
-      <td style="text-align:left">Only pass when the questionnaire needs to log in, the unique ID of the
-        logged-in user (ie, the player openid in the MSDK login verification /
-        the uid passed in in the strict verification mode / the openid passed in
-        in the nonverification mode)</td>
+      <td style="text-align:left">It is only passed when the questionnaire needs to log in, the unique ID
+        of the logged-in user (eg, the player openid in the MSDK login verification
+        / the uid passed in in the strict verification mode / the openid passed
+        in in the nonverification mode)</td>
     </tr>
     <tr>
       <td style="text-align:left">user_type</td>
@@ -129,9 +129,8 @@ The interface for the callback to call the developer is to use a GET request.
       <td style="text-align:left">string</td>
       <td style="text-align:left">2-10</td>
       <td style="text-align:left">It is only passed when the questionnaire needs to be logged in. The type
-        of logged-in user, including: wechat (WeChat), qq (QQ login), msdk (in-game),
-        third_party (parameter transmission-strict verification mode), weak_third_party
-        (parameter transmission-no verification mode)</td>
+        of logged-in user, including the values of: <em>Wechat</em>, <em>QQ</em> , <em>MSDK (in-game)</em>, <em>third_party (parameter transmission-strict verification mode)</em>, <em>weak_third_party (parameter transmission-no verification mode)</em>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">uid_source</td>
@@ -141,7 +140,7 @@ The interface for the callback to call the developer is to use a GET request.
       <td style="text-align:left">2-10</td>
       <td style="text-align:left">It is only passed when the questionnaire needs to be logged in. The source
         of the logged-in user, currently only has the values wx and qq under msdk,
-        and the non-MSDK login state transfer needs to be defined by the developer.</td>
+        and the non-MSDK login status transfer needs to be defined by the developer.</td>
     </tr>
     <tr>
       <td style="text-align:left">timestamp</td>
@@ -166,14 +165,14 @@ The interface for the callback to call the developer is to use a GET request.
       <td style="text-align:left">string</td>
       <td style="text-align:left">255</td>
       <td style="text-align:left">
-        <p>The developer customizes the callback parameters, and the business needs
-          additional parameters can be used.</p>
+        <p>The developer customizes the callback parameters, and the business side
+          needs additional parameters to be used.</p>
         <p>&#x3010;Note&#x3011;</p>
-        <p>1. This parameter is linked by a developer through a questionnaire pass-through
-          to the developer&apos;s server, for example: https: //in.survey.imur.tencent.com/
+        <p>1. This parameter is transparently transmitted from the client to the
+          developer server through the questionnaire link, for example: https: //in.survey.imur.tencent.com/
           sid=xxx&amp;?callback_params=xxxxx</p>
-        <p>2. If the value of the transparent transmission is encoded, it must be
-          decoded first when encrypting</p>
+        <p>2. If the value is encoded during the transparently transmitted , it must
+          be decoded when encrypting.</p>
       </td>
     </tr>
     <tr>
@@ -182,27 +181,17 @@ The interface for the callback to call the developer is to use a GET request.
       <td style="text-align:left">Yes</td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">255</td>
-      <td style="text-align:left">Additional information for the logged-in user. This field needs to be
-        used with <a href="parameter-transfer-interface-no-verification-mode.md">parameter transfer (no verification)</a> ;
-        if you use MSDK v3/v5, INTL automatic login, info is only transparently
-        transmitted as a normal parameter and does not participate in encryption.</td>
+      <td style="text-align:left">It is additional information of the logged-in user. This field needs to
+        be used with <a href="parameter-transfer-interface-no-verification-mode.md">parameter transfer (no verification)</a> ;
+        if you use MSDK v3/v5, INTL automatic login, <em>info</em> is a normal parameter
+        during the transparently transmitted and does not participate in encryption.</td>
     </tr>
   </tbody>
 </table>
 
-1. Participate in encryption when the optional parameter has a value, and not participate in
-
-   encryption if it is not passed
-
-2. This document unspecified parameters is not involved in encryption, refer to: Why is not
-
-   described in the document received callback argument
-
-3. If you use MSDK v3/v5, INTL to log in automatically, info is only transparently transmitted
-
-   as a common parameter, and does not participate in encryption, nor is it collected in the
-
-   answer.
+1. The optional parameters participate in encryption when it has a value, otherwise it will not.
+2. Unspecified parameters are not involved in encryption, please refer to: [Why do I receive callback parameters that are not specified in the document?](callback-interface.md#why-do-i-receive-callback-parameters-that-are-not-specified-in-the-document)
+3. If you use MSDK v3/v5, INTL to log in automatically, _info_ is only transparently transmitted as a common parameter, and does not participate in encryption, nor is it collected in the answer.
 
 
 
@@ -236,12 +225,12 @@ If the business side needs to make some specific identification in the callback,
 
 ### The same questionnaire supports multiple callback addresses
 
-The **client** injects the callback parameter into the questionnaire link during launch to distinguish which callback address is called back after the submission. Up to 10 callback addresses can be configured, and the specific callback address is actually specified by the client.
+The **client** adds the callback parameter into the questionnaire link to distinguish which callback address is called back after the submission. Up to 10 callback addresses can be configured, and the specific callback address is actually specified by the client.
 
-**Note:** Each time you submit a questionnaire, you can only call back to one address. If the questionnaire link does not inject the callback parameter, it will call back to address 1 by default.
+**Note:** Each time you submit a questionnaire, it can only call back to one address. If the questionnaire link does not contain the _callback_, it will call back to address 1 by default.
 
 {% hint style="info" %}
-If the value of callback injected into the delivery link is 2, the system will callback the login status information to the callback address 2 after submission
+If the value of _callback_  is 2, the system will callback the login status information to the callback address 2 after submission
 
 [https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5&openid={openid}](https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5&openid={openid}) &callback=2
 {% endhint %}
@@ -256,41 +245,31 @@ You can use the callback interface debugging tool \(it is recommended to use chr
 
 ## Common problem
 
-### Why can not receive callback messages?
+### Why can't I receive callback messages?
 
 Under the condition that the provided callback address is correct, please check the following items:
 
-1. **Whether the callback address supports public network access**: If not, please use the internal network L5 callback address or handle it by yourself to open public network access
+1. **Whether the callback address is publicly accessible**: If not, please use the internal network L5 callback address or change _callback address_ to publicly accessible.
 2. **Whitelist restriction on the server**: If so, please contact the "IMUR Questionnaire System Assistant" on WeChat to obtain the questionnaire system export IP, and add it to the access whitelist \(domestic/overseas environment is completely isolated, export IP is different, please distinguish according to needs Obtain\)
 
 
 
 ### Why do I receive callback parameters that are not specified in the document?
 
-The parameters injected after the questionnaire link will be synchronously called back to the developer server during the callback, causing the developer server to receive callback parameters that are not described in the document. 
+This parameter is transparently transmitted from the client to the developer server through the questionnaire link, causing the developer server to receive callback parameters that are not described in the document. 
 
 Common scenarios include:
 
-* When logging in to MSDK, the browser will automatically inject the player's login status information after the questionnaire link 
-* The client injects custom parameters after the questionnaire link 
-* In parameter transfer \(strict verification mode\)/\(non-verification mode\), login parameters such as player id are required to be injected
+* When logging in to MSDK, the browser will automatically add the player's login status information after the questionnaire link 
+* The client might add custom parameters after the questionnaire link 
+* In _parameter transfer \(strict verification mode\)_/_\(non-verification mode_\), login parameters such as player id are required to be added
 
 {% hint style="info" %}
 **Special Note:**
 
-1. Participate in encryption when the optional parameter has a value, and not participate in
-
-   encryption if it is not passed
-
-2. [Callback Interface](callback-interface.md) documentation unspecified parameters is not involved in
-
-   encryption
-
-3. If you use MSDK v3/v5, INTL to log in automatically, info is only transparently transmitted
-
-   as a common parameter, and does not participate in encryption, nor is it collected in the
-
-   answer.
+1. The optional parameters participate in encryption when it has a value, otherwise it will not.
+2. Unspecified parameters are not involved in encryption, please refer to: [Why do I receive callback parameters that are not specified in the document?](callback-interface.md#why-do-i-receive-callback-parameters-that-are-not-specified-in-the-document)
+3. If you use MSDK v3/v5, INTL to log in automatically, _info_ is only transparently transmitted as a common parameter, and does not participate in encryption, nor is it collected in the answer.
 {% endhint %}
 
 ![Callback parameters involved in encryption](../.gitbook/assets/new_page_62.jpg)
