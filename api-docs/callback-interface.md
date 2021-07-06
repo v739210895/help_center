@@ -272,7 +272,7 @@ Common scenarios include:
 3. If you use MSDK v3/v5, INTL to log in automatically, _info_ is only transparently transmitted as a common parameter, and does not participate in encryption, nor is it collected in the answer.
 {% endhint %}
 
-![Callback parameters involved in encryption](../.gitbook/assets/new_page_62.jpg)
+![](../.gitbook/assets/image%20%28692%29.png)
 
 \*\*\*\*
 
