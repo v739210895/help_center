@@ -1,10 +1,16 @@
-# Parameter Transfer Interface \(No Verification Mode\)
+# Parameter Transfer Interface \(Non-Verification Mode\)
 
 ### Interface Description
 
 #### Interface definition <a id="jie-kou-ding-yi"></a>
 
-The **parameter transfer interface \(non-verification mode\)** interface is used to solve \(1\) third-party developers have their own user id \(such as applet login status, facebook login, etc.\), but they want to synchronize the login status to the questionnaire system. Situation: \(2\) Non-standard access to MSDK, the use of MSDK-V3 or MSDK-V5 cannot collect openid normally.
+The **parameter transfer interface \(non-verification mode\)** interface is used to  
+
+\(1\) third-party developers have their own user id \(such as facebook id, Game user id, etc.\), but they want to send the login status to the questionnaire system;
+
+\(2\) Non-standard access to MSDK, cannot collect openid with MSDK-V3 or MSDK-V5 .
+
+####  <a id="jie-kou-shuo-ming-1"></a>
 
 #### Interface Description <a id="jie-kou-shuo-ming-1"></a>
 

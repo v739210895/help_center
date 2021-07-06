@@ -82,7 +82,7 @@
   * [开放接口](api-wen-dang/kai-fang-jie-kou/README.md)
     * [query参数说明](api-wen-dang/kai-fang-jie-kou/kai-fa-jie-kou-da-ti-tong-ji.md)
 * [API Docs](api-docs/README.md)
-  * [Parameter Transfer Interface \(No Verification Mode\)](api-docs/parameter-transfer-interface-no-verification-mode.md)
+  * [Parameter Transfer Interface \(Non-Verification Mode\)](api-docs/parameter-transfer-interface-no-verification-mode.md)
   * [Callback Interface](api-docs/callback-interface.md)
 * [常见问题](chang-jian-wen-ti/README.md)
   * [如何获取问卷系统权限](chang-jian-wen-ti/ru-he-huo-qu-wen-juan-xi-tong-quan-xian.md)
