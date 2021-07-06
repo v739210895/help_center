@@ -64,7 +64,7 @@ $appSecret = 'iamsecret';
 $sign = $query['sign'];
 unset($query['sign']);
 
-// 添加密钥
+// add key
 $params = array_merge($query, [
     'appSecret' => $appSecret,
 ]);
