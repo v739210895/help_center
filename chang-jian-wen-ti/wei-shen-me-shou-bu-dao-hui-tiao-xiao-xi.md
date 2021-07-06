@@ -7,10 +7,3 @@
 
 
 
-## Why can not receive callback messages?
-
-Under the condition that the provided callback address is correct, please check the following items:
-
-1. **Whether the callback address supports public network access**: If not, please use the internal network L5 callback address or handle it by yourself to open public network access
-2. **Whitelist restriction on the server**: If so, please contact the "IMUR Questionnaire System Assistant" on WeChat to obtain the questionnaire system export IP, and add it to the access whitelist \(domestic/overseas environment is completely isolated, export IP is different, please distinguish according to needs Obtain\)
-

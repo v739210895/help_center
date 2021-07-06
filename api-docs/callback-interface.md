@@ -44,14 +44,12 @@ Support public network callback and intranet L5 callback
 1. appSecret is the callback key, which is the same as the callback address and is configured on the "Settings" page of the questionnaire. See configuration login state callback configuration
 2. The spliced encrypted string example appSecretuIVtlG06callback\_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f 3973timestamp1609408137uidtestuseruid\_sourcetestsourceuser\_typeweak\_third\_party
 
-\[Note\] Only the default parameters and appSecret participate in the calculation of
+\[Note\] 
 
-signatures. The default parameters with empty values and other unspecified parameters
-
-do not participate in the encryption calculation.
+Only the default parameters and appSecret participate in the calculation of signatures. The default parameters with empty values and other unspecified parameters do not participate in the encryption calculation.
 {% endhint %}
 
-Code example
+_Code example_
 
 PHP code
 
@@ -64,7 +62,7 @@ $appSecret = 'iamsecret';
 $sign = $query['sign'];
 unset($query['sign']);
 
-// add key
+// add signature key
 $params = array_merge($query, [
     'appSecret' => $appSecret,
 ]);
@@ -196,10 +194,6 @@ The interface for the callback to call the developer is to use a GET request.
   </tbody>
 </table>
 
-
-
-
-
 1. Participate in encryption when the optional parameter has a value, and not participate in
 
    encryption if it is not passed
@@ -250,8 +244,6 @@ The **client** injects the callback parameter into the questionnaire link during
 
 **Note:** Each time you submit a questionnaire, you can only call back to one address. If the questionnaire link does not inject the callback parameter, it will call back to address 1 by default.
 
-
-
 {% hint style="info" %}
 If the value of callback injected into the delivery link is 2, the system will callback the login status information to the callback address 2 after submission
 
@@ -264,11 +256,48 @@ If the value of callback injected into the delivery link is 2, the system will c
 
 You can use the callback interface debugging tool \(it is recommended to use chrome to open\) to confirm the callback and signature verification.
 
-![Callback interface debugging tool](../.gitbook/assets/image%20%28690%29.png)
+![Callback interface debugging tool](../.gitbook/assets/image%20%28691%29.png)
 
 ## Common problem
 
-[Why can not receive callback messages?](../chang-jian-wen-ti/wei-shen-me-shou-bu-dao-hui-tiao-xiao-xi.md#why-can-not-receive-callback-messages)
+### Why can not receive callback messages?
 
-[Why do I receive callback parameters that are not specified in the document?](../chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md#why-do-i-receive-callback-parameters-that-are-not-specified-in-the-document)
+Under the condition that the provided callback address is correct, please check the following items:
+
+1. **Whether the callback address supports public network access**: If not, please use the internal network L5 callback address or handle it by yourself to open public network access
+2. **Whitelist restriction on the server**: If so, please contact the "IMUR Questionnaire System Assistant" on WeChat to obtain the questionnaire system export IP, and add it to the access whitelist \(domestic/overseas environment is completely isolated, export IP is different, please distinguish according to needs Obtain\)
+
+
+
+### Why do I receive callback parameters that are not specified in the document?
+
+The parameters injected after the questionnaire link will be synchronously called back to the developer server during the callback, causing the developer server to receive callback parameters that are not described in the document. 
+
+Common scenarios include:
+
+* When logging in to MSDK, the browser will automatically inject the player's login status information after the questionnaire link 
+* The client injects custom parameters after the questionnaire link 
+* In parameter transfer \(strict verification mode\)/\(non-verification mode\), login parameters such as player id are required to be injected
+
+{% hint style="info" %}
+**Special Note:**
+
+1. Participate in encryption when the optional parameter has a value, and not participate in
+
+   encryption if it is not passed
+
+2. [Callback Interface](callback-interface.md) documentation unspecified parameters is not involved in
+
+   encryption
+
+3. If you use MSDK v3/v5, INTL to log in automatically, info is only transparently transmitted
+
+   as a common parameter, and does not participate in encryption, nor is it collected in the
+
+   answer.
+{% endhint %}
+
+![Callback parameters involved in encryption](../.gitbook/assets/new_page_62.jpg)
+
+\*\*\*\*
 

@@ -20,35 +20,5 @@
 
 
 
-## Why do I receive callback parameters that are not specified in the document?
-
-The parameters injected after the questionnaire link will be synchronously called back to the developer server during the callback, causing the developer server to receive callback parameters that are not described in the document. 
-
-Common scenarios include:
-
-* When logging in to MSDK, the browser will automatically inject the player's login status information after the questionnaire link 
-* The client injects custom parameters after the questionnaire link 
-* In parameter transfer \(strict verification mode\)/\(non-verification mode\), login parameters such as player id are required to be injected
-
-{% hint style="info" %}
-**Special Note:**
-
-1. Participate in encryption when the optional parameter has a value, and not participate in
-
-   encryption if it is not passed
-
-2. [Callback Interface](../api-docs/callback-interface.md) documentation unspecified parameters is not involved in
-
-   encryption
-
-3. If you use MSDK v3/v5, INTL to log in automatically, info is only transparently transmitted
-
-   as a common parameter, and does not participate in encryption, nor is it collected in the
-
-   answer.
-{% endhint %}
-
-
-
 \*\*\*\*
 
