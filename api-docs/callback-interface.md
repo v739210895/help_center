@@ -21,7 +21,7 @@ Support public network callback and intranet L5 callback
 
 
 
-### sign signature algorithm
+### Sign Signature Algorithm
 
 #### Algorithm flow
 
@@ -36,13 +36,9 @@ Support public network callback and intranet L5 callback
 6. Compare the received sign with the sign signature calculated in 5;
 7. The status code status is returned.
 
-   2021/7/6 Login state callback interface-IMUR new version questionnaire system help center
-
-   [https://imur.gitbook.io/help\_center/api-wen-dang/deng-lu-tai-hui-tiao-jie-kou](https://imur.gitbook.io/help_center/api-wen-dang/deng-lu-tai-hui-tiao-jie-kou) 3/12
-
 {% hint style="info" %}
-1. appSecret is the callback key, which is the same as the callback address and is configured on the "Settings" page of the questionnaire. See configuration login state callback configuration
-2. The spliced encrypted string example appSecretuIVtlG06callback\_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f 3973timestamp1609408137uidtestuseruid\_sourcetestsourceuser\_typeweak\_third\_party
+1. appSecret is the signature key, which is the same as the callback address and is configured on the "Settings" page of the questionnaire. 
+2. The spliced encrypted string example _appSecretuIVtlG06callback\_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f 3973timestamp1609408137uidtestuseruid\_sourcetestsourceuser\_typeweak\_third\_party_
 
 \[Note\] 
 
