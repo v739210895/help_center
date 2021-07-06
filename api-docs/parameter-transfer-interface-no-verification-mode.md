@@ -1,4 +1,4 @@
-# Parameter transfer interface \(no verification mode\)
+# Parameter Transfer Interface \(No Verification Mode\)
 
 ### Interface Description
 
