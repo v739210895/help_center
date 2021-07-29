@@ -14,29 +14,41 @@
 
 
 
-### 解密INTL登录态说明
+### INTL登录态加解密说明
 
 问卷系统后台用于解密获取玩家登录态流程的说明，游戏侧仅需关注是否有在问卷链接后**注入正确的登录态参数**。
 
-API文档1参考：[https://developers.intlgame.com/docs/unity\_zh/Module/WebView.html\#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE](https://developers.intlgame.com/docs/unity_zh/Module/WebView.html#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE)
+#### 游戏客户端获取登录态加密票据
 
-API文档2参考：[https://developers.intlgame.com/docs/unity\_zh/Backend/Auth.html\#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C](https://developers.intlgame.com/docs/unity_zh/Backend/Auth.html#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C)
+游戏客户端需通过INTL webview自带的“获取加密票据”接口在把问卷链接加密并注入登录态信息；参数包括：encodeparam、os、gameid、channelid、sdk\_version、user\_name、ts、seq。
 
-（1）系统使用encodeparam参数进行登录态解密，此时要求必须带上os、gameid、channelid、ts、sig、source这6个参数参与，示例如下：
+INTL文档参考：【获取加密票据】[https://developers.intlgame.com/docs/unity\_zh/Module/WebView.html\#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE](https://developers.intlgame.com/docs/unity_zh/Module/WebView.html#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE)
 
 ```text
-https://www.youtube.com/?gameid=11&os=1&ts=1597840414&version=0.1.000.0001&seq=11-42e0e9d2-2f0e-4b01-a1ab-6831cf9b6165-1597840414-11&encodeparam=4060E2A762B31B8B57A8D5A9BBAF10E8657A5A3A285B0DA7159417C2D6F0D801
+//原始问卷链接
+https://user.outweisurvey.com/?sid=60d57b6eacb1fb323d61f772
+
+//添加加密票据后的问卷链接
+https://user.outweisurvey.com/?sid=60d57b6eacb1fb323d61f772&gameid=11&os=1&ts=1597840414&version=0.1.000.0001&seq=11-42e0e9d2-2f0e-4b01-a1ab-6831cf9b6165-1597840414-11&encodeparam=4060E2A762B31B8B57A8D5A9BBAF10E8657A5A3A285B0DA7159417C2D6F0D801
 ```
+
+#### 问卷系统解密获取登录态信息
+
+系统通过“解密校验”获取encodeparam解密后的明文，游戏侧无须关注。
+
+INTL文档参考：【解密校验】[https://developers.intlgame.com/docs/unity\_zh/Backend/Auth.html\#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C](https://developers.intlgame.com/docs/unity_zh/Backend/Auth.html#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C)
+
+
 
 ### 登录失败提示
 
-当系统无法获取正确的登录态时，会显示警告弹窗，主要导致失败的原因如下：
+当系统无法获取正确的登录态时，问卷页面会显示警告弹窗，主要导致失败的原因如下：
 
-（1）encodeparam解密登录态时，由于缺失os、gameid、channelid、ts、sig、source等参数导致解密失败。
+（1）encodeparam解密登录态时，由于缺失os、gameid、channelid、sdk\_version、user\_name、ts、seq等参数导致解密失败。
 
 ![&#x767B;&#x5F55;&#x5931;&#x8D25;](../.gitbook/assets/image%20%28293%29.png)
 
 {% hint style="warning" %}
-如INTL登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。
+若INTL登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。
 {% endhint %}
 
