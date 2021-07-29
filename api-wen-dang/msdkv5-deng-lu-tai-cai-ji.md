@@ -52,23 +52,35 @@
 
 
 
-### 解密MSDK-V5登录态说明
+### MSDK-V5登录态加解密说明
 
-API文档1参考：[https://docs.msdk.qq.com/v5/zh-CN/Server/](https://docs.msdk.qq.com/v5/zh-CN/Server/)
+问卷系统后台用于解密获取玩家登录态流程的说明，游戏侧仅需关注是否有在问卷链接后**注入正确的登录态参数**。
 
-API文档2参考：[http://docs.msdk.qq.com/v5/zh-CN/Server/verify.html](http://docs.msdk.qq.com/v5/zh-CN/Server/verify.html)
+#### 游戏客户端获取登录态加密票据
 
-（1）系统使用itopencodeparam参数进行登录态解密，此时要求必须带上os、gameid、channelid、ts、sig、source这6个参数参与，示例如下：
+游戏客户端需通过MSDK webview自带的“获取加密票据”接口在把问卷链接加密并注入登录态信息；参数包括：itopencodeparam、algorithm、channelid、encode、gameid、os、ts、version、seq、sig、source等。
+
+MSDK文档参考：【获取加密票据】[https://docs.msdk.qq.com/v5/zh-CN/Module/WebView.html\#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE](https://docs.msdk.qq.com/v5/zh-CN/Module/WebView.html#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE)
 
 ```text
-https://hktest.itop.qq.com/v2/auth/decrypt?channelid=1&gameid=11&os=1&source=0&ts=1529907080&sig=8279b3214fc4900e7551ee21593b4d80&itopencodeparam=d9b48147c3b809a2bebbd8b2e96c26f1
+//原始问卷链接
+https://in.weisurvey.com/?sid=60ebdefe76051f6b8a37f782
+
+//添加加密票据后的问卷链接
+https://in.weisurvey.com/?sid=60ebdefe76051f6b8a37f782&algorithm=itop&encode=2&gameid=12&os=1&ts=1542889299&version=2.2.000.2607.2607&seq=11-5d0f17db-ef1e-44cd-88d7-57b556cc63ce-53&sig=eb6ee5ab9418d1c8e6400608815e76f2&itopencodeparam=F5382C12988BADA6F659B443ACE9978C14DE1B62EB1274AEFDECC219DE635C2B
 ```
+
+#### 问卷系统解密获取登录态信息
+
+系统通过“解密校验”接口获取itopencodeparam解密后的明文gopenid，游戏侧无须关注。
+
+MSDK文档参考：【解密校验】[https://docs.msdk.qq.com/v5/zh-CN/Server/verify.html\#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C](https://docs.msdk.qq.com/v5/zh-CN/Server/verify.html#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C)
 
 
 
 ### 登录失败提示
 
-当系统无法获取正确的登录态时，会显示警告弹窗，主要导致失败的原因如下：
+当系统无法获取正确的登录态时，问卷页面会显示警告弹窗，主要导致失败的原因如下：
 
 （1）itopencodeparam解密登录态时，由于缺失os、gameid、channelid、ts、sig、source等参数导致解密失败。
 
