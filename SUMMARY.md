@@ -25,6 +25,7 @@
     * [插入视频](cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)
     * [插入超链接](cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)
     * [覆盖导入](cao-zuo-zhi-yin/wen-juan-bian-ji/fu-gai-dao-ru.md)
+  * [外观设置](cao-zuo-zhi-yin/wai-guan-she-zhi.md)
   * [逻辑设置](cao-zuo-zhi-yin/luo-ji-she-zhi/README.md)
     * [简单逻辑](cao-zuo-zhi-yin/luo-ji-she-zhi/jian-dan-luo-ji.md)
     * [组合逻辑](cao-zuo-zhi-yin/luo-ji-she-zhi/zu-he-luo-ji.md)

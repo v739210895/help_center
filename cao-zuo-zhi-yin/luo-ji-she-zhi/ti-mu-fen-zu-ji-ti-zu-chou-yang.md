@@ -7,11 +7,11 @@
 题目分组功能当前灰度试用中，需手动修改投放链接以启用新版逻辑机制（原投放链接无法使用题目分组功能）。修改方法如下：
 
 {% hint style="info" %}
-#### **在域名xxx.com后添加/v2**
+#### **在域名xxx.com/后添加v2**
 
 旧版逻辑机制：https://in.weisurvey.com/?sid=6108a011fbdd7034141e5892
 
-新版逻辑机制：https://in.weisurvey.com**/v2**/?sid=6108a011fbdd7034141e5892
+新版逻辑机制：https://in.weisurvey.com**/v2**?sid=6108a011fbdd7034141e5892
 {% endhint %}
 
 ### STEP 1 添加分组
