@@ -46,6 +46,8 @@ INTL文档参考：【解密校验】[https://developers.intlgame.com/docs/unity
 
 （1）encodeparam解密登录态时，由于缺失os、gameid、channelid、sdk\_version、user\_name、ts、seq等参数导致解密失败。
 
+（2）注入登录态参数后的问卷链接过长，部分参数被截断导致参数缺失（需客户端另行处理）。
+
 ![&#x767B;&#x5F55;&#x5931;&#x8D25;](../.gitbook/assets/image%20%28293%29.png)
 
 {% hint style="warning" %}
