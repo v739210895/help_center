@@ -82,6 +82,7 @@
   * [AMS发奖](api-wen-dang/idip-fa-jiang.md)
   * [开放接口](api-wen-dang/kai-fang-jie-kou/README.md)
     * [query参数说明](api-wen-dang/kai-fang-jie-kou/kai-fa-jie-kou-da-ti-tong-ji.md)
+    * [答题详情参数说明](api-wen-dang/kai-fang-jie-kou/da-ti-xiang-qing-can-shu-shuo-ming.md)
 * [API Docs](api-docs/README.md)
   * [Parameter Transfer Interface \(Non-Verification Mode\)](api-docs/parameter-transfer-interface-no-verification-mode.md)
   * [Callback Interface](api-docs/callback-interface.md)

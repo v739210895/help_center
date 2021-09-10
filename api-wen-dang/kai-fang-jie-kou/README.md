@@ -718,17 +718,23 @@ GET http://{host}/open/v1/statistics/{sid}/blanks
 POST http://{host}/open/v1/answers/{sid}
 ```
 
-
-
 | 参数 | 是否必须 | 数据类型 | 说明 |
 | :--- | :--- | :--- | :--- |
 | query | 否 | object | es筛选条件 |
 | page | 否 | int | 页码，起码为1，默认为1 |
 | page\_size | 否 | int | 页数，默认为10 |
 
+\*\*\*\*
+
+{% hint style="info" %}
+page、page\_size未传参的情况下，默认最多仅返回1\*10条答题数据。
+{% endhint %}
+
+
+
 #### **8、获取答题数据详情**
 
-获取回调中的aid获取一条答题数据。
+根据回调返回的aid，请求获取**指定一条**答题数据。
 
 **接口地址**
 
@@ -736,7 +742,9 @@ POST http://{host}/open/v1/answers/{sid}
 GET http://{host}/open/v1/answers/{sid}/{aid}
 ```
 
+**返回数据**
 
+[点击查看样例](da-ti-xiang-qing-can-shu-shuo-ming.md#huo-qu-da-ti-shu-ju-xiang-qing)
 
 ## 常见问题
 
