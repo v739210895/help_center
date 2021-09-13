@@ -724,7 +724,9 @@ POST http://{host}/open/v1/answers/{sid}
 | page | 否 | int | 页码，起码为1，默认为1 |
 | page\_size | 否 | int | 页数，默认为10 |
 
-\*\*\*\*
+**返回数据**
+
+[点击查看样例](da-ti-xiang-qing-can-shu-shuo-ming.md#da-ti-shu-ju-lie-biao)
 
 {% hint style="info" %}
 page、page\_size未传参的情况下，默认最多仅返回1\*10条答题数据。
