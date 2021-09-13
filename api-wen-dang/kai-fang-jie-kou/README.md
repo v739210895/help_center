@@ -99,7 +99,7 @@ GET http://{host}/open/v1/surveys/{sid}
 
 **参数说明**
 
-无。
+详见“返回数据”
 
 **返回数据**
 
@@ -399,6 +399,24 @@ GET http://{host}/open/v1/surveys/{sid}
     }
 }
 ```
+
+**题型（type）有效值说明**
+
+| type | 题型 |
+| :--- | :--- |
+| radio | 单选题 |
+| checkbox | 多选题 |
+| select | 下拉题 |
+| subjective | 主观题 |
+| range | 量表题 |
+| matrixRadio | 矩阵单选题 |
+| matrixCheckbox | 矩阵多选题 |
+| matrixRange | 矩阵量表题 |
+| cascade | 联动题 |
+| attachment | 附件上传题 |
+| sort | 排序题 |
+
+
 
 ### 数据统计
 
