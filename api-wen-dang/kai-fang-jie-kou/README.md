@@ -8,7 +8,7 @@
 
 ### [签名算法](./#qian-ming-suan-fa-1)
 
-### [接口](./#jie-kou-1)
+### [接口](./#jie-kou)
 
 ### [常见问题](./#chang-jian-wen-ti-1)
 
@@ -85,7 +85,7 @@ $url = "http://9.84.189.40/open/v1/surveys/$sid?sign=$sign&timestamp=$timestamp"
 
 API接口采用RESTful方式实现，在接口地址中出现的sid为问卷的ID，具体的接口不再说明。
 
-### 问卷编辑
+### 问卷内容
 
 #### **1、获取问卷详情**
 
@@ -418,7 +418,7 @@ GET http://{host}/open/v1/surveys/{sid}
 
 
 
-### 数据统计
+### 答案数据统计
 
 #### **1、回收数据概述**
 
