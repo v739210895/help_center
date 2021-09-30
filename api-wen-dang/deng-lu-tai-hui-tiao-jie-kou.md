@@ -175,6 +175,16 @@ _回调URL示例_
           href="can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md">&#x53C2;&#x6570;&#x4F20;&#x9012;&#xFF08;&#x4E0D;&#x6821;&#x9A8C;&#xFF09;</a>&#x4F7F;&#x7528;&#xFF1B;&#x5982;&#x4F7F;&#x7528;MSDK
             v3/v5&#x3001;INTL&#x81EA;&#x52A8;&#x767B;&#x5F55;&#xFF0C;info&#x4EC5;&#x4F5C;&#x4E3A;&#x666E;&#x901A;&#x53C2;&#x6570;&#x900F;&#x4F20;&#x3001;&#x4E0D;&#x53C2;&#x4E0E;&#x52A0;&#x5BC6;&#x3002;</td>
     </tr>
+    <tr>
+      <td style="text-align:left">aid</td>
+      <td style="text-align:left">&#x662F;</td>
+      <td style="text-align:left">&#x5426;</td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">32</td>
+      <td style="text-align:left">&#x7B54;&#x5377;&#x7F16;&#x53F7;&#xFF1B;&#x4E0D;&#x53C2;&#x4E0E;&#x751F;&#x6210;sign&#xFF0C;
+        <a
+        href="kai-fang-jie-kou/">&#x5F00;&#x653E;&#x63A5;&#x53E3;</a>&#x4E2D;&#x7528;&#x4E8E;&#x67E5;&#x8BE2;&#x7B54;&#x5377;&#x8BE6;&#x60C5;&#x3002;</td>
+    </tr>
   </tbody>
 </table>
 

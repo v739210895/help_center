@@ -9,7 +9,7 @@
 {% hint style="info" %}
 “密钥”请填写INTL管理端参数中的INTL\_SERVER\_KEY
 
-“域名”区分正式环境和测试环境，请自行联系游戏后端开发获取。测试环境域名参考：https://test.intlgame.com
+“域名”区分正式环境和测试环境，填写参考：[INTL域名](https://developers.intlgame.com/docs/unity_zh/Backend/Overall.html#21-%E7%8E%AF%E5%A2%83)
 {% endhint %}
 
 
