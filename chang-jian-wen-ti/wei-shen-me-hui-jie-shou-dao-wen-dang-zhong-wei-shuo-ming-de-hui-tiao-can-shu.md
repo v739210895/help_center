@@ -16,9 +16,8 @@
 3. 如使用MSDK v3/v5、INTL自动登录，info仅作为普通参数透传，不参与加密，也不采集到答案中。
 {% endhint %}
 
-![&#x53C2;&#x4E0E;&#x52A0;&#x5BC6;&#x7684;&#x56DE;&#x8C03;&#x53C2;&#x6570;](../.gitbook/assets/image%20%28684%29.png)
+![参与加密的回调参数](<../.gitbook/assets/image (684).png>)
 
 
 
-\*\*\*\*
-
+****

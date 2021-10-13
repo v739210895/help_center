@@ -18,19 +18,19 @@
 
 #### 国内环境
 
-mod\_id: `65080257` cmd\_id: `65536`
+mod_id: `65080257` cmd_id: `65536`
 
 调用时Header中必需带上Host，Host值为`survey.imur.oa.com`。
 
 #### 海外环境
 
-mod\_id: `65080257` cmd\_id: `131072`
+mod_id: `65080257` cmd_id: `131072`
 
 调用时Header中必需带上Host，Host值为`outsurvey.imur.oa.com`。
 
 ## 签名算法
 
-开放接口采用参数+密钥的方式生成接口签名sign，密钥由管理端进行配置，每份问卷可配置独立的密钥，保证数据安全性；密钥可在问卷编辑页选择【设置】-&gt; 【API调用】中配置。
+开放接口采用参数+密钥的方式生成接口签名sign，密钥由管理端进行配置，每份问卷可配置独立的密钥，保证数据安全性；密钥可在问卷编辑页选择【设置】-> 【API调用】中配置。
 
 **注意**签名会对timestamp进行校验，生成超过10分钟的sign视为无效，需要重新生成。
 
@@ -47,9 +47,13 @@ mod\_id: `65080257` cmd\_id: `131072`
 9. 将kv数据结构转换成http的query请求参数；
 10. 带上query请求参数调用登录态传递接口。
 
+{% hint style="info" %}
+【注】appSecret即查询密钥，在问卷的“设置”页配置。配置方法详见[API调用配置](../../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#api-tiao-yong)
+{% endhint %}
+
 #### 代码示例
 
-_PHP代码_ [Demo](open.demo.php)
+_PHP代码_ [Demo](https://app.gitbook.com/s/-Lnu1UZ4dgrL0WcgooHk/api-wen-dang/open.demo.php)
 
 ```php
 <?php
@@ -93,7 +97,7 @@ API接口采用RESTful方式实现，在接口地址中出现的sid为问卷的I
 
 **接口地址**
 
-```text
+```
 GET http://{host}/open/v1/surveys/{sid}
 ```
 
@@ -402,19 +406,19 @@ GET http://{host}/open/v1/surveys/{sid}
 
 **题型（type）有效值说明**
 
-| type | 题型 |
-| :--- | :--- |
-| radio | 单选题 |
-| checkbox | 多选题 |
-| select | 下拉题 |
-| subjective | 主观题 |
-| range | 量表题 |
-| matrixRadio | 矩阵单选题 |
+| type           | 题型    |
+| -------------- | ----- |
+| radio          | 单选题   |
+| checkbox       | 多选题   |
+| select         | 下拉题   |
+| subjective     | 主观题   |
+| range          | 量表题   |
+| matrixRadio    | 矩阵单选题 |
 | matrixCheckbox | 矩阵多选题 |
-| matrixRange | 矩阵量表题 |
-| cascade | 联动题 |
-| attachment | 附件上传题 |
-| sort | 排序题 |
+| matrixRange    | 矩阵量表题 |
+| cascade        | 联动题   |
+| attachment     | 附件上传题 |
+| sort           | 排序题   |
 
 
 
@@ -426,7 +430,7 @@ GET http://{host}/open/v1/surveys/{sid}
 
 **接口地址**
 
-```text
+```
 GET http://{host}/open/v1/statistics/{sid}/overview
 ```
 
@@ -455,7 +459,7 @@ GET http://{host}/open/v1/statistics/{sid}/overview
 
 **接口地址**
 
-```text
+```
 GET http://{host}/open/v1/statistics/{sid}/consumed_median
 ```
 
@@ -478,7 +482,7 @@ GET http://{host}/open/v1/statistics/{sid}/consumed_median
 
 **接口地址**
 
-```text
+```
 GET http://{host}/open/v1/statistics/{sid}/consumed_ranges
 ```
 
@@ -567,7 +571,7 @@ GET http://{host}/open/v1/statistics/{sid}/consumed_ranges
 
 **接口地址**
 
-```text
+```
 GET http://{host}/open/v1/statistics/{sid}/answers_date_histogram
 ```
 
@@ -609,7 +613,7 @@ GET http://{host}/open/v1/statistics/{sid}/answers_date_histogram
 
 **接口地址**
 
-```text
+```
 GET http://{host}/open/v1/statistics/{sid}/answers
 ```
 
@@ -689,7 +693,7 @@ GET http://{host}/open/v1/statistics/{sid}/answers
 
 **接口地址**
 
-```text
+```
 GET http://{host}/open/v1/statistics/{sid}/blanks
 ```
 
@@ -697,11 +701,11 @@ GET http://{host}/open/v1/statistics/{sid}/blanks
 
 使用GET请求方式传参。
 
-| 参数 | 是否必须 | 数据类型 | 限制长度 | 说明 |
-| :--- | :--- | :--- | :--- | :--- |
-| blank\_id | 是 | string | 4 | 如果是主观题则为question_id；如果是选项中的填空题，由question\_id与option\_id组成，格式：{qid}_{oid} |
-| page | 否 | int |  | 页码，起码为1，默认为1 |
-| page\_size | 否 | int |  | 页数，默认为10 |
+| 参数        | 是否必须 | 数据类型   | 限制长度 | 说明                                                                     |
+| --------- | ---- | ------ | ---- | ---------------------------------------------------------------------- |
+| blank_id  | 是    | string | 4    | 如果是主观题则为question_id；如果是选项中的填空题，由question_id与option_id组成，格式：{qid}_{oid} |
+| page      | 否    | int    |      | 页码，起码为1，默认为1                                                           |
+| page_size | 否    | int    |      | 页数，默认为10                                                               |
 
 **返回数据**
 
@@ -732,22 +736,22 @@ GET http://{host}/open/v1/statistics/{sid}/blanks
 
 **接口地址**
 
-```text
+```
 POST http://{host}/open/v1/answers/{sid}
 ```
 
-| 参数 | 是否必须 | 数据类型 | 说明 |
-| :--- | :--- | :--- | :--- |
-| query | 否 | object | es筛选条件 |
-| page | 否 | int | 页码，起码为1，默认为1 |
-| page\_size | 否 | int | 页数，默认为10 |
+| 参数        | 是否必须 | 数据类型   | 说明           |
+| --------- | ---- | ------ | ------------ |
+| query     | 否    | object | es筛选条件       |
+| page      | 否    | int    | 页码，起码为1，默认为1 |
+| page_size | 否    | int    | 页数，默认为10     |
 
 **返回数据**
 
 [点击查看样例](da-ti-xiang-qing-can-shu-shuo-ming.md#da-ti-shu-ju-lie-biao)
 
 {% hint style="info" %}
-page、page\_size未传参的情况下，默认最多仅返回1\*10条答题数据。
+page、page_size未传参的情况下，默认最多仅返回1\*10条答题数据。
 {% endhint %}
 
 
@@ -758,7 +762,7 @@ page、page\_size未传参的情况下，默认最多仅返回1\*10条答题数�
 
 **接口地址**
 
-```text
+```
 GET http://{host}/open/v1/answers/{sid}/{aid}
 ```
 
@@ -767,4 +771,3 @@ GET http://{host}/open/v1/answers/{sid}/{aid}
 [点击查看样例](da-ti-xiang-qing-can-shu-shuo-ming.md#huo-qu-da-ti-shu-ju-xiang-qing)
 
 ## 常见问题
-

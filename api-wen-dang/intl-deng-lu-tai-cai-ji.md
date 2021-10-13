@@ -2,14 +2,14 @@
 
 对接了INTL的APP，可在问卷设置的登录验证中选择【INTL】登录；用户提交问卷时，问卷系统会自动获取该玩家登录态（如openid）并存储在答题数据中。
 
-![&#x914D;&#x7F6E;INTL&#x81EA;&#x52A8;&#x767B;&#x5F55;&#x6240;&#x9700;&#x8981;&#x7684;&#x53C2;&#x6570;](../.gitbook/assets/image%20%28693%29.png)
+![配置INTL自动登录所需要的参数](<../.gitbook/assets/image (693).png>)
 
 ### 参数配置说明
 
 {% hint style="info" %}
-“密钥”请填写INTL管理端参数中的INTL\_SERVER\_KEY
+“密钥”请填写INTL管理端参数中的INTL_SERVER_KEY
 
-“域名”区分正式环境和测试环境，填写参考：[INTL域名](https://developers.intlgame.com/docs/unity_zh/Backend/Overall.html#21-%E7%8E%AF%E5%A2%83)
+“域名”区分正式环境和测试环境，请自行联系游戏后端开发获取。测试环境域名参考：https://test.intlgame.com
 {% endhint %}
 
 
@@ -20,11 +20,11 @@
 
 #### 游戏客户端获取登录态加密票据
 
-游戏客户端需通过INTL webview自带的“获取加密票据”接口在把问卷链接加密并注入登录态信息；参数包括：encodeparam、os、gameid、channelid、sdk\_version、user\_name、ts、seq。
+游戏客户端需通过INTL webview自带的“获取加密票据”接口在把问卷链接加密并注入登录态信息；参数包括：encodeparam、os、gameid、channelid、sdk_version、user_name、ts、seq。
 
-INTL文档参考：【获取加密票据】[https://developers.intlgame.com/docs/unity\_zh/Module/WebView.html\#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE](https://developers.intlgame.com/docs/unity_zh/Module/WebView.html#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE)
+INTL文档参考：【获取加密票据】[https://developers.intlgame.com/docs/unity_zh/Module/WebView.html#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE](https://developers.intlgame.com/docs/unity_zh/Module/WebView.html#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE)
 
-```text
+```
 //原始问卷链接
 https://user.outweisurvey.com/?sid=60d57b6eacb1fb323d61f772
 
@@ -36,7 +36,7 @@ https://user.outweisurvey.com/?sid=60d57b6eacb1fb323d61f772&gameid=11&os=1&ts=15
 
 系统通过“解密校验”获取encodeparam解密后的明文，游戏侧无须关注。
 
-INTL文档参考：【解密校验】[https://developers.intlgame.com/docs/unity\_zh/Backend/Auth.html\#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C](https://developers.intlgame.com/docs/unity_zh/Backend/Auth.html#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C)
+INTL文档参考：【解密校验】[https://developers.intlgame.com/docs/unity_zh/Backend/Auth.html#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C](https://developers.intlgame.com/docs/unity_zh/Backend/Auth.html#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C)
 
 
 
@@ -44,13 +44,12 @@ INTL文档参考：【解密校验】[https://developers.intlgame.com/docs/unity
 
 当系统无法获取正确的登录态时，问卷页面会显示警告弹窗，主要导致失败的原因如下：
 
-（1）encodeparam解密登录态时，由于缺失os、gameid、channelid、sdk\_version、user\_name、ts、seq等参数导致解密失败。
+（1）encodeparam解密登录态时，由于缺失os、gameid、channelid、sdk_version、user_name、ts、seq等参数导致解密失败。
 
 （2）注入登录态参数后的问卷链接过长，部分参数被截断导致参数缺失（需客户端另行处理）。
 
-![&#x767B;&#x5F55;&#x5931;&#x8D25;](../.gitbook/assets/image%20%28293%29.png)
+![登录失败](<../.gitbook/assets/image (293).png>)
 
 {% hint style="warning" %}
 若INTL登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。
 {% endhint %}
-

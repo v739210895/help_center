@@ -2,7 +2,7 @@
 
 在“问卷设置”的“项目设置”项中可补充完整项目信息，包括所属产品、问卷负责人、问卷设计人、问卷关注人。
 
-![&#x95EE;&#x5377;&#x8BBE;&#x7F6E;](../../.gitbook/assets/image%20%28596%29.png)
+![问卷设置](<../../.gitbook/assets/image (596).png>)
 
 {% hint style="info" %}
 1. 问卷首次开始回收/提交审核前，需补充完整所属产品和负责人信息
@@ -19,16 +19,16 @@
 {% hint style="info" %}
 1.负责人输入框支持模糊搜索。
 
-2. 仅**用研经理**可被设置为问卷负责人。
+2\. 仅**用研经理**可被设置为问卷负责人。
 
 3.每份问卷支持设置多名负责人，至少保留一名负责人。
 
 4.若多名用户同时编辑/设置同一份问卷，以最后保存的一份问卷内容为准。
 {% endhint %}
 
-![&#x8BBE;&#x7F6E;&#x8D1F;&#x8D23;&#x4EBA;](../../.gitbook/assets/image%20%28599%29.png)
+![设置负责人](<../../.gitbook/assets/image (599).png>)
 
-![&#x65B0;&#x95EE;&#x5377;&#x63D0;&#x793A;&#x8BBE;&#x7F6E;&#x8D1F;&#x8D23;&#x4EBA;](../../.gitbook/assets/image%20%28597%29.png)
+![新问卷提示设置负责人](<../../.gitbook/assets/image (597).png>)
 
 ## 设置关注人
 
@@ -39,7 +39,7 @@
 2. 为避免敏感数据泄露，请谨慎分配“**答题数据**”和“**导出数据**”权限
 {% endhint %}
 
-![&#x6DFB;&#x52A0;&#x5173;&#x6CE8;&#x4EBA;](../../.gitbook/assets/image%20%28594%29.png)
+![添加关注人](<../../.gitbook/assets/image (594).png>)
 
 ## 设计人
 
@@ -53,5 +53,4 @@
 2.每份问卷仅支持设置一名设计人。
 {% endhint %}
 
-![&#x6DFB;&#x52A0;&#x8BBE;&#x8BA1;&#x4EBA;](../../.gitbook/assets/image%20%28595%29.png)
-
+![添加设计人](<../../.gitbook/assets/image (595).png>)
