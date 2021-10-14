@@ -2,15 +2,7 @@
 
 问卷支持调整答题端的皮肤外观，满足在内嵌投放中问卷与被嵌页面样式统一的场景。
 
-注：问卷外观功能当前灰度试用中，需手动修改投放链接以启用新版答题端（原投放链接无法使用题目分组功能）。修改方法如下：
 
-{% hint style="info" %}
-#### **在域名xxx.com/后添加v2**
-
-旧版投放链接：https://in.weisurvey.com/?sid=6108a011fbdd7034141e5892
-
-新版投放链接：https://in.weisurvey.com**/v2**?sid=6108a011fbdd7034141e5892
-{% endhint %}
 
 ## 外观颜色设置
 
@@ -18,7 +10,7 @@
 
 问卷主色调，包括开始/提交/上一页/下一页按钮、答题进度、选项选中状态等颜色。
 
-![&#x4E3B;&#x9898;&#x8272;&#x53D8;&#x66F4;&#x4E3A;&#x9EC4;&#x8272;](../.gitbook/assets/image%20%28696%29.png)
+![主题色变更为黄色](<../.gitbook/assets/image (696).png>)
 
 ### 背景色
 
@@ -50,9 +42,7 @@
 
 ## 示例效果
 
-![PC&#x7AEF;&#x76AE;&#x80A4;&#x6548;&#x679C;](../.gitbook/assets/image%20%28697%29.png)
+![PC端皮肤效果](<../.gitbook/assets/image (697).png>)
 
-![&#x79FB;&#x52A8;&#x7AEF;&#x76AE;&#x80A4;&#x6548;&#x679C;](../.gitbook/assets/image%20%28695%29.png)
-
-
+![移动端皮肤效果](<../.gitbook/assets/image (695).png>)
 
