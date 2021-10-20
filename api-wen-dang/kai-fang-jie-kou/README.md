@@ -18,13 +18,13 @@
 
 #### 国内环境
 
-mod_id: `65080257` cmd_id: `65536`
+mod\_id: `65080257` cmd\_id: `65536`
 
 调用时Header中必需带上Host，Host值为`survey.imur.oa.com`。
 
 #### 海外环境
 
-mod_id: `65080257` cmd_id: `131072`
+mod\_id: `65080257` cmd\_id: `131072`
 
 调用时Header中必需带上Host，Host值为`outsurvey.imur.oa.com`。
 
@@ -53,36 +53,122 @@ mod_id: `65080257` cmd_id: `131072`
 
 #### 代码示例
 
-_PHP代码_ [Demo](https://app.gitbook.com/s/-Lnu1UZ4dgrL0WcgooHk/api-wen-dang/open.demo.php)
+_PHP代码_
 
 ```php
-<?php
-$appSecret = 'iamsecret';
+class Sign
+{
+    /**
+     * 除去数组中的空值和签名参数、然后排序、然后生成md5签名
+     * @param array $params 签名参数组
+     * @param $appKey appKey
+     * @param $appSecret 签名密钥
+     * @param $timestamp 时间戳
+     * @return array 去掉空值与签名参数后并排序的新签名参数组
+     */
+    public static function generateSign($params, $appKey, $appSecret, $timestamp)
+    {
+        $params = array_merge($params, compact('appKey', 'appSecret', 'timestamp'));
+        $params = self::paramsFilter($params); // 去空
+        $params = self::argSort($params); // 排序
+        $preSign = self::generateStr($params); // 拼接
+        return strtolower(md5($preSign));
+    }
 
-$sid = '5dc5727a76051f14b96d5172';
-$timestamp = time();
+    /**
+     * 检测签名是否匹配
+     * @param $sign 接受到的签名
+     * @param array $params 签名参数组
+     * @param $appKey appKey
+     * @param $appSecret 签名密钥
+     * @param $timestamp 时间戳
+     * @return boolean
+     */
+    public static function verifySign($sign, $params, $appKey, $appSecret, $timestamp)
+    {
+        $gsign = self::generateSign($params, $appKey, $appSecret, $timestamp);
+        return ($gsign === $sign);
+    }
 
-$query = [
-    'sid' => $sid,
-    'timestamp' => $timestamp,
-];
+    /**
+     * 除去数组中的空值和签名参数
+     * @param array $params 签名参数组
+     * @return array 去掉空值与签名参数后的新签名参数组
+     */
+    public static function paramsFilter($params)
+    {
+        $paramsFilter = array();
 
-// 添加密钥
-$params = array_merge($query, [
-    'appSecret' => $appSecret,
-]);
+        foreach ($params as $key => $value) {
 
-ksort($params);
+            if (is_array($value) && !empty($value)) {
+                $value = json_encode($value);
+            }
 
-$str = '';
-foreach ($params as $key => $value) {
-    $str .= $key.$value;
+            if ($key == "sign" || $key == "sign_type" || self::checkEmpty($value) === true) {
+                continue;
+            } else {
+                $paramsFilter[$key] = $params[$key];
+            }
+        }
+        return $paramsFilter;
+    }
+
+    /**
+     * 检测值是否为空
+     * @param    string $value 待检测的值
+     * @return   boolean  null | "" | unsset 返回 true;
+     */
+    protected static function checkEmpty($value)
+    {
+        if (!isset($value)) {
+            return true;
+        }
+
+        if ($value === null) {
+            return true;
+        }
+
+        if (trim($value) === "") {
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
+     * 对数组排序
+     * @param array $params 排序前的数组
+     * @return array 排序后的数组
+     */
+    public static function argSort($params)
+    {
+        ksort($params);
+        reset($params);
+        return $params;
+    }
+
+    /**
+     * 方法2：把数组所有元素，按照“key1value1key2value2”的模式拼接成字符串
+     * @param array $params 需要拼接的一维数组
+     * @return string
+     */
+    public static function generateStr($params)
+    {
+        $arg = "";
+        foreach ($params as $key => $value) {
+            if (is_array($value) && !empty($value)) {
+                $value = json_encode($value);
+            }
+            $arg .= $key . $value;
+        }
+        //如果存在转义字符，那么去掉转义
+        if (get_magic_quotes_gpc()) {$arg = stripslashes($arg);}
+
+        return $arg;
+    }
+
 }
-
-$sign = strtolower(md5($str));
-
-// IP从l5获取
-$url = "http://9.84.189.40/open/v1/surveys/$sid?sign=$sign&timestamp=$timestamp";
 ```
 
 ## 接口
@@ -701,11 +787,11 @@ GET http://{host}/open/v1/statistics/{sid}/blanks
 
 使用GET请求方式传参。
 
-| 参数        | 是否必须 | 数据类型   | 限制长度 | 说明                                                                     |
-| --------- | ---- | ------ | ---- | ---------------------------------------------------------------------- |
-| blank_id  | 是    | string | 4    | 如果是主观题则为question_id；如果是选项中的填空题，由question_id与option_id组成，格式：{qid}_{oid} |
-| page      | 否    | int    |      | 页码，起码为1，默认为1                                                           |
-| page_size | 否    | int    |      | 页数，默认为10                                                               |
+| 参数         | 是否必须 | 数据类型   | 限制长度 | 说明                                                                       |
+| ---------- | ---- | ------ | ---- | ------------------------------------------------------------------------ |
+| blank\_id  | 是    | string | 4    | 如果是主观题则为question_id；如果是选项中的填空题，由question\_id与option\_id组成，格式：{qid}_{oid} |
+| page       | 否    | int    |      | 页码，起码为1，默认为1                                                             |
+| page\_size | 否    | int    |      | 页数，默认为10                                                                 |
 
 **返回数据**
 
@@ -740,18 +826,18 @@ GET http://{host}/open/v1/statistics/{sid}/blanks
 POST http://{host}/open/v1/answers/{sid}
 ```
 
-| 参数        | 是否必须 | 数据类型   | 说明           |
-| --------- | ---- | ------ | ------------ |
-| query     | 否    | object | es筛选条件       |
-| page      | 否    | int    | 页码，起码为1，默认为1 |
-| page_size | 否    | int    | 页数，默认为10     |
+| 参数         | 是否必须 | 数据类型   | 说明           |
+| ---------- | ---- | ------ | ------------ |
+| query      | 否    | object | es筛选条件       |
+| page       | 否    | int    | 页码，起码为1，默认为1 |
+| page\_size | 否    | int    | 页数，默认为10     |
 
 **返回数据**
 
 [点击查看样例](da-ti-xiang-qing-can-shu-shuo-ming.md#da-ti-shu-ju-lie-biao)
 
 {% hint style="info" %}
-page、page_size未传参的情况下，默认最多仅返回1\*10条答题数据。
+page、page\_size未传参的情况下，默认最多仅返回1\*10条答题数据。
 {% endhint %}
 
 
