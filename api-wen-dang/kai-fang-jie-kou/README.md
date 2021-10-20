@@ -53,8 +53,6 @@ mod\_id: `65080257` cmd\_id: `131072`
 
 #### 代码示例
 
-_PHP代码_
-
 ```php
 class Sign
 {
