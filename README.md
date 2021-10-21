@@ -6,9 +6,9 @@
 
 如有疑问，请企业微信联系：IMUR问卷系统助手
 
-![](.gitbook/assets/image%20%28611%29.png)
+![](<.gitbook/assets/image (611).png>)
 
-![](.gitbook/assets/image%20%2889%29.png)
+![](<.gitbook/assets/image (89).png>)
 
 ## 主要特色功能
 
@@ -28,31 +28,29 @@
 
 ### 界面主打轻量简洁，功能入口清晰
 
-![&#x521B;&#x5EFA;&#x95EE;&#x5377;](.gitbook/assets/image%20%28305%29.png)
+![创建问卷](<.gitbook/assets/image (305).png>)
 
 ### 沿用拖拽点选添加，简化编辑操作
 
-![&#x95EE;&#x5377;&#x7F16;&#x8F91;](.gitbook/assets/image%20%2849%29.png)
+![问卷编辑](<.gitbook/assets/image (49).png>)
 
 ### 实时自动保存更新，避免内容丢失错乱
 
-![&#x81EA;&#x52A8;&#x4FDD;&#x5B58;](.gitbook/assets/image%20%2892%29.png)
+![自动保存](<.gitbook/assets/image (92).png>)
 
 ### 支持游戏内嵌投放，自由配置跳转回调
 
-![](.gitbook/assets/image%20%2848%29.png)
+![](<.gitbook/assets/image (48).png>)
 
 ### 答题数据实时统计，直观图表展示
 
-![&#x7EDF;&#x8BA1;&#x56FE;&#x8868;](.gitbook/assets/image%20%28281%29.png)
+![实时统计](<.gitbook/assets/image (711).png>)
 
 ### 各种终端自动兼容，链接可多渠道投放
 
-![PC&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28415%29.png)
+![PC答题端](<.gitbook/assets/image (709).png>)
 
-![&#x79FB;&#x52A8;&#x7B54;&#x9898;&#x7AEF;](.gitbook/assets/image%20%28318%29.png)
-
-
+![移动答题端](<.gitbook/assets/image (708).png>)
 
 
 
