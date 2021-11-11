@@ -110,11 +110,11 @@ _\*以上参数对应的值仅作展示使用_
 国内投放拥有两套域名，分为tencent域与非tencent域，开发时需要注意
 
 tencent域：
-问卷投放域名为https://in.survey.imur.tencent.com/?sid=xxx则为tencent域，对应登录接口为：
+问卷投放域名为https://in.survey.imur.tencent.com/v2/?sid=xxx则为tencent域，对应登录接口为：
 https://in.survey.imur.tencent.com/v2/api/autologin?
 
 非tencent域：
-问卷投放域名为https://in.weisurvey.com/?sid=xxx则为非tencent域，对应登录接口为：
+问卷投放域名为https://in.weisurvey.com/v2/?sid=xxx则为非tencent域，对应登录接口为：
 https://in.weisurvey.com/v2/api/autologin?
 ```
 
@@ -124,11 +124,11 @@ https://in.weisurvey.com/v2/api/autologin?
 海外投放拥有三套域名，分为tencent域与非tencent域，开发时需要注意
 
 tencent域：
-问卷投放域名为https://out.survey.imur.tencent.com/?sid=xxx则为tencent域，对应登录接口为：
+问卷投放域名为https://out.survey.imur.tencent.com/v2/?sid=xxx则为tencent域，对应登录接口为：
 https://out.survey.imur.tencent.com/v2/api/autologin?
 
 非tencent域：
-问卷投放域名为https://out.weisurvey.com/?sid=xxx则为非tencent域，对应登录接口为：
+问卷投放域名为https://out.weisurvey.com/v2/?sid=xxx则为非tencent域，对应登录接口为：
 https://out.weisurvey.com/v2/api/autologin?
 
 ！！新海外环境：
@@ -158,19 +158,19 @@ https://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2
 
 #### STEP 1 原始链接注入回调参数（非必要）
 
-https://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2**\&callback=3\&callback\_params=testparams**
+https://in.weisurvey.com/v2/?sid=60cfe98c76051f40495d32c2**\&callback=3\&callback\_params=testparams**
 
 #### STEP 2 拼接kv数据结构的字符串
 
-appSecretiamsecretinfoextra\_inforedirecthttps://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2\&callback=3\&callback\_params=testparamssid60cfe98c76051f40495d32c2sourcetestsourcetimestamp1624262138uidtest\_uid
+appSecretiamsecretinfoextra\_inforedirecthttps://in.weisurvey.com/v2/?sid=60cfe98c76051f40495d32c2\&callback=3\&callback\_params=testparamssid60cfe98c76051f40495d32c2sourcetestsourcetimestamp1624262138uidtest\_uid
 
 #### STEP 3 对字符串加密生成sign
 
-sign=**44b2e38119366c059946698f2828752c**
+sign=**ade962f5273a404f72aaabf544b14281**
 
 #### STEP 4 拼接链接，完成
 
-https://in.weisurvey.com/v2/api/autologin?sid=60cfe98c76051f40495d32c2\&uid=test\_uid\&timestamp=1624262138\&source=testsource\&info=extra\_info\&redirect=https%3A%2F%2Fin.weisurvey.com%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams\&sign=44b2e38119366c059946698f2828752c
+https://in.weisurvey.com/v2/api/autologin?sid=60cfe98c76051f40495d32c2\&uid=test\_uid\&timestamp=1624262138\&source=testsource\&info=extra\_info\&redirect=https%3A%2F%2Fin.weisurvey.com%2Fv2%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams\&sign=ade962f5273a404f72aaabf544b14281
 
 {% hint style="info" %}
 **参数赋值情况**
@@ -185,12 +185,12 @@ source=testsource&#x20;
 
 info=extra\_info
 
-redirect=https%3A%2F%2Fin.weisurvey.com%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams&#x20;
+redirect=https%3A%2F%2Fin.weisurvey.com%2Fv2%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams&#x20;
 
-sign=b76128e4fda567d1f8ef14f256a3adc6
+sign=ade962f5273a404f72aaabf544b14281
 {% endhint %}
 
-![步骤示例](<../.gitbook/assets/image (687).png>)
+![步骤示例](<../.gitbook/assets/image (713).png>)
 
 ## 问卷设置
 

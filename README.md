@@ -48,7 +48,7 @@
 
 ### 各种终端自动兼容，链接可多渠道投放
 
-![PC答题端](<.gitbook/assets/image (709).png>)
+![PC答题端](<.gitbook/assets/image (709) (1).png>)
 
 ![移动答题端](<.gitbook/assets/image (708).png>)
 
