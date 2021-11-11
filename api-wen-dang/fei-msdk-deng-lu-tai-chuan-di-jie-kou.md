@@ -10,12 +10,12 @@
 
 以下几种情况可以**不需要**接入非MSDK登录态传递接口：
 
-* 问卷内嵌到游戏中，问卷系统默认支持MSDK登录态处理，可在问卷编辑页选择【设置】-&gt; 【MSDK登录验证】打开该功能，当前仅支持v3和v5版本MSDK登录；
-* 仅需要做每个用户答题限制，不关注采集的用户uid，可以选择使用微信或者手Q登录，可在问卷编辑页选择【设置】-&gt; 【微信、QQ登录验证】打开该功能；
+* 问卷内嵌到游戏中，问卷系统默认支持MSDK登录态处理，可在问卷编辑页选择【设置】-> 【MSDK登录验证】打开该功能，当前仅支持v3和v5版本MSDK登录；
+* 仅需要做每个用户答题限制，不关注采集的用户uid，可以选择使用微信或者手Q登录，可在问卷编辑页选择【设置】-> 【微信、QQ登录验证】打开该功能；
 
 ### 交互流程
 
-![](../.gitbook/assets/login_uml.jpg)
+![](../.gitbook/assets/login\_uml.jpg)
 
 开发者仅需关注开发者服务器流程，重点关注签名以及登录重定向url的生成。
 
@@ -80,7 +80,7 @@ header('Location: '.$redirectUrl);
 
 _请求url示例_
 
-```text
+```
  https://in.weisurvey.com/v2/api/autologin?sid=60cfe98c76051f40495d32c2&uid=test_uid&timestamp=1624262138&source=testsource&info=extra_info&redirect=https%3A%2F%2Fin.weisurvey.com%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback_params%3Dtestparams&sign=44b2e38119366c059946698f2828752c
 ```
 
@@ -89,11 +89,11 @@ _请求url示例_
 
 【普通投放链接】
 
-https://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2
+https://in.weisurvey.com/v2/?sid=60cfe98c76051f40495d32c2
 
 【内嵌投放链接】
 
-https://in.weisurvey.com/v2/api/autologin?sid=60cfe98c76051f40495d32c2&uid=test\_uid&timestamp=1624262138&source=testsource&info=extra\_info&redirect=https%3A%2F%2Fin.weisurvey.com%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams&sign=44b2e38119366c059946698f2828752c
+https://in.weisurvey.com/v2/api/autologin?sid=60cfe98c76051f40495d32c2\&uid=test\_uid\&timestamp=1624262138\&source=testsource\&info=extra\_info\&redirect=https%3A%2F%2Fin.weisurvey.com%2Fv2%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams\&sign=44b2e38119366c059946698f2828752c
 
 _\*以上参数对应的值仅作展示使用_
 {% endhint %}
@@ -106,7 +106,7 @@ _\*以上参数对应的值仅作展示使用_
 
 #### **国内投放**
 
-```text
+```
 国内投放拥有两套域名，分为tencent域与非tencent域，开发时需要注意
 
 tencent域：
@@ -120,7 +120,7 @@ https://in.weisurvey.com/v2/api/autologin?
 
 #### **海外投放**
 
-```text
+```
 海外投放拥有三套域名，分为tencent域与非tencent域，开发时需要注意
 
 tencent域：
@@ -140,83 +140,15 @@ https://user.outweisurvey.com/v2/api/autologin?
 
 使用GET请求方式传参。
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">&#x53C2;&#x6570;</th>
-      <th style="text-align:left">&#x662F;&#x5426;&#x5FC5;&#x987B;</th>
-      <th style="text-align:left">&#x662F;&#x5426;&#x53C2;&#x4E0E;&#x52A0;&#x5BC6;</th>
-      <th style="text-align:left">&#x6570;&#x636E;&#x7C7B;&#x578B;</th>
-      <th style="text-align:left">&#x9650;&#x5236;&#x957F;&#x5EA6;</th>
-      <th style="text-align:left">&#x8BF4;&#x660E;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">sid</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">32</td>
-      <td style="text-align:left">&#x95EE;&#x5377;id&#xFF0C;&#x4ECE;&#x95EE;&#x5377;&#x94FE;&#x63A5;&#x53EF;&#x89E3;&#x6790;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">uid</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">255</td>
-      <td style="text-align:left">&#x767B;&#x5F55;&#x7528;&#x6237;&#x7684;&#x552F;&#x4E00;ID</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">timestamp</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">int</td>
-      <td style="text-align:left">10&#x4F4D;</td>
-      <td style="text-align:left">&#x65F6;&#x95F4;&#x6233;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">redirect</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">url&#x5730;&#x5740;</td>
-      <td style="text-align:left">
-        <p>&#x767B;&#x5F55;&#x6210;&#x529F;&#x4E4B;&#x540E;&#x8DF3;&#x8F6C;&#x7684;&#x9875;&#x9762;url&#xFF0C;&#x4E00;&#x822C;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x95EE;&#x5377;&#x7684;&#x94FE;&#x63A5;</p>
-        <p>&#x3010;&#x6CE8;&#x3011;</p>
-        <ol>
-          <li><b>&#x52A0;&#x5BC6;sign</b>&#x65F6;&#x4F7F;&#x7528;&#x539F;&#x59CB;URL&#xFF1B;<b>&#x62FC;&#x63A5;&#x4E3A;&#x5185;&#x5D4C;&#x6295;&#x653E;&#x94FE;&#x63A5;</b>&#x65F6;&#xFF0C;&#x9700;&#x5148;&#x628A;URL&#x8FDB;&#x884C;encode&#x540E;&#x8D4B;&#x503C;&#x5230;redirect&#xFF0C;&#x518D;&#x62FC;&#x5230;&#x5185;&#x5D4C;&#x6295;&#x653E;&#x94FE;&#x63A5;&#x4E2D;</li>
-          <li>&#x56DE;&#x8C03;&#x4E2D;&#x7684;callback&#x3001;callback_params&#x9700;&#x5148;&#x6CE8;&#x5165;&#x5230;&#x95EE;&#x5377;&#x539F;&#x59CB;url&#xFF0C;&#x518D;&#x628A;&#x6B64;url&#x6309;&#x6B65;&#x9AA4;1&#x8D4B;&#x503C;&#x5230;redirect</li>
-        </ol>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">source</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">2-10&#x4F4D;&#x82F1;&#x6587;</td>
-      <td style="text-align:left">&#x7528;&#x6237;&#x81EA;&#x5B9A;&#x4E49;&#x6E20;&#x9053;&#x6807;&#x8BC6;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">sign</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">32</td>
-      <td style="text-align:left">&#x7B7E;&#x540D;&#xFF0C;&#x53C2;&#x8003;&#x7B7E;&#x540D;&#x7B97;&#x6CD5;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">info</td>
-      <td style="text-align:left">&#x5426;</td>
-      <td style="text-align:left">&#x662F;</td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">255</td>
-      <td style="text-align:left">&#x989D;&#x5916;&#x7684;&#x767B;&#x5F55;&#x7528;&#x6237;&#x4FE1;&#x606F;&#xFF0C;&#x53EF;&#x81EA;&#x5B9A;&#x4E49;&#xFF1B;&#x4E3A;&#x7A7A;&#x65F6;&#x4E0D;&#x53C2;&#x4E0E;&#x52A0;&#x5BC6;</td>
-    </tr>
-  </tbody>
-</table>
+| 参数        | 是否必须 | 是否参与加密 | 数据类型   | 限制长度    | 说明                                                                                                                                                                                                                                    |
+| --------- | ---- | ------ | ------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| sid       | 是    | 是      | string | 32      | 问卷id，从问卷链接可解析                                                                                                                                                                                                                         |
+| uid       | 是    | 是      | string | 255     | 登录用户的唯一ID                                                                                                                                                                                                                             |
+| timestamp | 是    | 是      | int    | 10位     | 时间戳                                                                                                                                                                                                                                   |
+| redirect  | 是    | 是      | string | url地址   | <p>登录成功之后跳转的页面url，一般使用的是问卷的链接</p><p>【注】</p><ol><li><strong>加密sign</strong>时使用原始URL；<strong>拼接为内嵌投放链接</strong>时，需先把URL进行encode后赋值到redirect，再拼到内嵌投放链接中</li><li>回调中的callback、callback_params需先注入到问卷原始url，再把此url按步骤1赋值到redirect</li></ol> |
+| source    | 是    | 是      | string | 2-10位英文 | 用户自定义渠道标识                                                                                                                                                                                                                             |
+| sign      | 是    | 否      | string | 32      | 签名，参考签名算法                                                                                                                                                                                                                             |
+| info      | 否    | 是      | string | 255     | 额外的登录用户信息，可自定义；为空时不参与加密                                                                                                                                                                                                               |
 
 ### 客户端生成链接示例
 
@@ -226,11 +158,11 @@ https://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2
 
 #### STEP 1 原始链接注入回调参数（非必要）
 
-https://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2**&callback=3&callback\_params=testparams**
+https://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2**\&callback=3\&callback\_params=testparams**
 
 #### STEP 2 拼接kv数据结构的字符串
 
-appSecretiamsecretinfoextra\_inforedirecthttps://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2&callback=3&callback\_params=testparamssid60cfe98c76051f40495d32c2sourcetestsourcetimestamp1624262138uidtest\_uid
+appSecretiamsecretinfoextra\_inforedirecthttps://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2\&callback=3\&callback\_params=testparamssid60cfe98c76051f40495d32c2sourcetestsourcetimestamp1624262138uidtest\_uid
 
 #### STEP 3 对字符串加密生成sign
 
@@ -238,33 +170,32 @@ sign=**44b2e38119366c059946698f2828752c**
 
 #### STEP 4 拼接链接，完成
 
-https://in.weisurvey.com/v2/api/autologin?sid=60cfe98c76051f40495d32c2&uid=test\_uid&timestamp=1624262138&source=testsource&info=extra\_info&redirect=https%3A%2F%2Fin.weisurvey.com%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams&sign=44b2e38119366c059946698f2828752c
+https://in.weisurvey.com/v2/api/autologin?sid=60cfe98c76051f40495d32c2\&uid=test\_uid\&timestamp=1624262138\&source=testsource\&info=extra\_info\&redirect=https%3A%2F%2Fin.weisurvey.com%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams\&sign=44b2e38119366c059946698f2828752c
 
 {% hint style="info" %}
 **参数赋值情况**
 
 sid=60cfe98c76051f40495d32c2
 
-uid=test\_uid 
+uid=test\_uid&#x20;
 
-timestamp=1624245611 
+timestamp=1624245611&#x20;
 
-source=testsource 
+source=testsource&#x20;
 
 info=extra\_info
 
-redirect=https%3A%2F%2Fin.weisurvey.com%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams 
+redirect=https%3A%2F%2Fin.weisurvey.com%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams&#x20;
 
 sign=b76128e4fda567d1f8ef14f256a3adc6
 {% endhint %}
 
-![&#x6B65;&#x9AA4;&#x793A;&#x4F8B;](../.gitbook/assets/image%20%28687%29.png)
+![步骤示例](<../.gitbook/assets/image (687).png>)
 
 ## 问卷设置
 
 支持在问卷设置页面自定义密钥。
 
-![&#x914D;&#x7F6E;&#x5BC6;&#x94A5;](../.gitbook/assets/image%20%2818%29.png)
+![配置密钥](<../.gitbook/assets/image (18).png>)
 
 ## 常见问题
-
