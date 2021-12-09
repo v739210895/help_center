@@ -26,7 +26,7 @@ mod\_id: `65080257` cmd\_id: `65536`
 
 mod\_id: `65080257` cmd\_id: `131072`
 
-调用时Header中必需带上Host，Host值为`outsurvey.imur.oa.com`。
+调用时Header中必需带上Host，Host值为`outweisurvey.com`。
 
 ## 签名算法
 
