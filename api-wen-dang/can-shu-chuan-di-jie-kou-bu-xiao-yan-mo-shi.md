@@ -8,15 +8,24 @@
 
 #### 接口说明
 
-开发者通过动态拼接指定参数到问卷链接中，实现登录态传递和其他参数传递，并存储到问卷系统中，其中参数包括openid(必填）、source(可选）、info(可选)，分别存储到导出数据中的uid、uidSource、info列。
+开发者通过动态拼接指定参数到问卷链接中，实现登录态传递和其他参数传递，并存储到问卷系统中，其中参数包括openid(必填）、channel(可选）、info(可选)，分别存储到导出数据中的用户ID、用户ID渠道、自定义内容列。
 
-| 参数     | 是否必须 | 说明                 |
-| ------ | ---- | ------------------ |
-| openid | 是    | 登录用户的唯一ID          |
-| source | 否    | 用户自定义渠道标识，例如wx/qq等 |
-| info   | 否    | 额外的登录用户信息，可自定义     |
+| 参数               | 是否必须 | 说明                                               |
+| ---------------- | ---- | ------------------------------------------------ |
+| openid           | 是    | 登录用户的唯一ID                                        |
+| source           | 否    | 用户自定义渠道标识，例如wx/qq等（仅在回调参数中返回，如需记录到答案，请使用channel） |
+| channel          | 否    | 用户自定义渠道，例如wx/qq等，记录到答题数据中                        |
+| info             | 否    | 额外的登录用户信息，可自定义。info值会记录到答题数据中的“自定义内容”字段。         |
+| callback\_params | 否    | 开发者自定义回调参数，业务需要额外的参数则可以使用                        |
 
-![3个参数内容会对应存储到导出数据的列中](<../.gitbook/assets/image (490).png>)
+
+
+{% hint style="danger" %}
+1. 各参数的赋值请勿带分号;  斜杠/  百分号% ，支持数字、字母、下划线\_，横杠- 组合的字符串
+2. info和partition均为“自定义内容”，请勿时传入info和partition，否则其中一个参数的值会丢失。
+{% endhint %}
+
+![openid、channel、info会对应存储到导出数据的用户ID、渠道、自定义内容列](<../.gitbook/assets/image (713).png>)
 
 {% hint style="info" %}
 **普通投放链接与内嵌投放链接示例对比**
@@ -27,7 +36,7 @@ https://in.survey.imur.tencent.com/v2/?sid=5e8d767b76051f46707cf692
 
 【内嵌投放链接】
 
-&#x20;https://in.survey.imur.tencent.com/v2/?sid=5e8d767b76051f46707cf692\&openid=XXXX\&source=XXXX\&info=XXXX
+&#x20;https://in.survey.imur.tencent.com/v2/?sid=5e8d767b76051f46707cf692\&openid=XXXX\&channel=XXXX\&info=XXXX
 
 _\*以上参数对应的值仅作展示使用_
 {% endhint %}

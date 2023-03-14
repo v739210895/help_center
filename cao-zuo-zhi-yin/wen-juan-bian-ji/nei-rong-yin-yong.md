@@ -8,7 +8,7 @@
 
 问卷编辑状态中，点击问卷题目、备注或选项文本编辑框后，左上方会展开富文本编辑工具，在富文本编辑工具中点击“引用设置”图标。
 
-![在富文本编辑工具中点击“引用设置”图标](<../../.gitbook/assets/image (247).png>)
+![在富文本编辑工具中点击“引用设置”图标](<../../.gitbook/assets/image (759).png>)
 
 
 
@@ -16,7 +16,7 @@
 
 点击“引用设置”图标后，将弹出引用设置的窗口，如下图。
 
-![引用设置弹窗](<../../.gitbook/assets/image (260).png>)
+![引用设置弹窗](<../../.gitbook/assets/image (781).png>)
 
 
 
@@ -30,11 +30,11 @@
 &#x20;   2\. 为避免显示错乱，请尽量避免编辑自动生成的标识内容。
 {% endhint %}
 
-![指定引用题目](<../../.gitbook/assets/image (225).png>)
+![指定引用题目](<../../.gitbook/assets/image (812).png>)
 
-![指定引用项](<../../.gitbook/assets/image (70).png>)
+![指定引用项](<../../.gitbook/assets/image (456).png>)
 
-![自动生成引用标识](<../../.gitbook/assets/image (386).png>)
+![自动生成引用标识](<../../.gitbook/assets/image (778).png>)
 
 {% hint style="info" %}
 ### 引用标识语法说明
@@ -45,22 +45,22 @@
 
 ### 选项标识
 
-**选中项 ** selected
+**选中项** selected
 
 &#x20;**未选中项**   unselected
 
-**填空内容 **  blank-content
+**填空内容**  blank-content
 {% endhint %}
 
-### ****
+****
 
 ### **【STEP 4】**调整显示位置
 
 引用标识可自由调整到文本中需要显示的位置，点击“确定”保存**，**文本编辑栏中显示已插入的引用标识。
 
-![调整显示位置](<../../.gitbook/assets/image (75).png>)
+![调整显示位置](<../../.gitbook/assets/image (620).png>)
 
-![编辑状态下显示已插入的引用标识](<../../.gitbook/assets/image (169).png>)
+![编辑状态下显示已插入的引用标识](<../../.gitbook/assets/image (70).png>)
 
 
 
@@ -68,7 +68,7 @@
 
 已插入引用内容的题目、备注或选项，在答题端中会根据所引用的前序题目选项/填空内变化自动同步文本，多项时会自动用逗号，隔开。
 
-![答题端动态同步引用内容](<../../.gitbook/assets/image (345).png>)
+![答题端动态同步引用内容](<../../.gitbook/assets/image (229).png>)
 
 
 

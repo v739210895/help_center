@@ -2,7 +2,7 @@
 
 系统提供导出用于生成交叉表的SPSS代码，在SPSS中导入数据和编码后，可直接运行此代码在SPSS中生成交叉表。
 
-![&#x5BFC;&#x51FA;&#x7F16;&#x7801;&#x6570;&#x636E;-&#x4EA4;&#x53C9;&#x8868;](../../.gitbook/assets/image%20%28579%29.png)
+![导出编码数据-交叉表](<../../.gitbook/assets/image (508).png>)
 
 {% hint style="info" %}
 1. 代码用于生成问卷中**所有题目**的交叉表
@@ -19,25 +19,23 @@
 
 把CTABLES.txt中的代码全选复制粘贴到SPSS的语法编辑器中，或解压后在PSS中通过“文件”-“打开”-“语法”打开CTABLES.txt文件。
 
-![CTABLES.txt&#x4E2D;&#x7684;&#x4EE3;&#x7801;](../../.gitbook/assets/image%20%28580%29.png)
+![CTABLES.txt中的代码](<../../.gitbook/assets/image (366).png>)
 
 ## 【STEP 3】编辑与运行
 
 按需删减行、列表头，选中代码后，点击运行，即开始计算生成交叉表。（可能会由于语法句子过长而出现红字报错信息，不影响生成交叉表）
 
-![&#x8FD0;&#x884C;&#x4EA4;&#x53C9;&#x8868;&#x4EE3;&#x7801;](../../.gitbook/assets/image%20%28577%29.png)
+![运行交叉表代码](<../../.gitbook/assets/image (349).png>)
 
 {% hint style="warning" %}
 在/TABLE行中，BY前的为行表头，BY后的为列表头
 {% endhint %}
 
-![&#x884C;&#x3001;&#x5217;&#x8868;&#x5934;&#x793A;&#x4F8B;](../../.gitbook/assets/image%20%28582%29.png)
+![行、列表头示例](<../../.gitbook/assets/image (50).png>)
 
 ## 【STEP 4】生成交叉表
 
 生成的交叉表在输出窗口显示。
 
-![&#x751F;&#x6210;&#x4EA4;&#x53C9;&#x8868;](../../.gitbook/assets/image%20%28578%29.png)
-
-
+![生成交叉表](<../../.gitbook/assets/image (583).png>)
 

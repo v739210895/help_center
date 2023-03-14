@@ -6,5 +6,4 @@
 iPhone/iPad的机型并非所有情况下都能采集到，能否采集到取决于答题者打开问卷使用的app。如需使用iPhone/iPad机型用于分析，请投放前测试确认。
 {% endhint %}
 
-![&#x8BBE;&#x5907;&#x4FE1;&#x606F;](../.gitbook/assets/image%20%28605%29.png)
-
+![设备信息](<../.gitbook/assets/image (159).png>)

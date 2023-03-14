@@ -2,9 +2,9 @@
 
 问卷系统支持采集不同类型的登录态信息（openid），问卷设计者可参考以下流程，开启对应的功能。部分功能需要由开发者对接系统接口实现。
 
-![登录态获取](<../../.gitbook/assets/image (668).png>)
+![登录态获取](<../../.gitbook/assets/image (367).png>)
 
-![登录验证配置](<../../.gitbook/assets/image (675).png>)
+![登录验证配置](<../../.gitbook/assets/image (395).png>)
 
 ## 微信、QQ登录
 
@@ -14,14 +14,18 @@
 
 功能启用后，在已接入MSDK v3的游戏内投放时，问卷系统可获取已登录用户的openid，并存储在用户id列，在答题数据中显示。
 
-## MSDK v5 
+![](<../../.gitbook/assets/image (529).png>)
+
+## MSDK v5&#x20;
 
 功能启用后，在已接入MSDK v5的游戏内投放时，问卷系统可获取已登录用户的gopenid，并存储在用户id列，在答题数据中显示。
+
+![](<../../.gitbook/assets/image (15).png>)
 
 ### 参数配置说明
 
 {% hint style="info" %}
-“密钥”请填写飞鹰系统参数中的MSDK_SERVER_KEY
+“密钥”请填写飞鹰系统参数中的MSDK\_SERVER\_KEY
 
 “msdk域名”区分正式环境和测试环境，填写参考：
 {% endhint %}
@@ -39,12 +43,14 @@
 
 功能启用后，在已接入INTL的游戏内投放时，问卷系统可获取已登录用户的openid，并存储在用户id列，在答题数据中显示。
 
+![](<../../.gitbook/assets/image (39).png>)
+
 ### 参数配置说明
 
 {% hint style="info" %}
-“密钥”请填写INTL管理端参数中的INTL_SERVER_KEY
+“密钥”请填写INTL管理端参数中的INTL\_SERVER\_KEY
 
-“域名”区分正式环境和测试环境，填写参考：[INTL域名](https://developers.intlgame.com/docs/unity_zh/Backend/Overall.html#21-%E7%8E%AF%E5%A2%83)
+“域名”区分正式环境和测试环境，填写参考：[INTL域名](https://developers.intlgame.com/docs/intlsdk/JS/JSOverview#Environment)
 {% endhint %}
 
 ## 参数传递（不校验模式）
@@ -56,10 +62,10 @@
 2. 已开启不校验模式的问卷，若未正确拼接openid参数将无法打开问卷
 {% endhint %}
 
-![参数传递接口（不校验模式）](<../../.gitbook/assets/image (672).png>)
+![参数传递接口（不校验模式）](<../../.gitbook/assets/image (589).png>)
 
 {% hint style="info" %}
-**【内嵌投放链接】 **
+**【内嵌投放链接】**&#x20;
 
 https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692\&lang=zh-CHS\&ADTAG=sid.5e8d767b76051f46707cf692\&openid=XXXX\&source=XXXX\&info=XXXX
 {% endhint %}
@@ -70,12 +76,12 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692\&lang=zh-CHS\&A
 
 对于未接入msdk的APP，问卷内嵌投放时，问卷系统通过开发者传递登录态的方式来采集用户的uid。功能开启后，弹窗显示密钥，密钥用于生成签名（密钥可自行修改或重新生成），点击确认关闭弹窗。
 
-![参数传递（严格校验）-配置密钥](<../../.gitbook/assets/image (678).png>)
+![参数传递（严格校验）-配置密钥](<../../.gitbook/assets/image (369).png>)
 
 {% hint style="info" %}
-【内嵌投放链接示例】 
+【内嵌投放链接示例】&#x20;
 
-https://inapi.survey.imur.tencent.com/autologin?sid=5e8d767b76051f46707cf692\&uid=user_id\&timestamp=1573455797\&source=dwk\&info=extra_info\&redirect=https%3A%2F%2Fin.survey.imur.tencent.com%2F%3Fsid%5e8d767b76051f46707cf692%26lang%3Dzh-CHS%26ADTAG%3Dsid.5e8d767b76051f46707cf692\&sign=2ac5ab8ce6a9b306e07dc2664fe7d175
+https://inapi.survey.imur.tencent.com/autologin?sid=5e8d767b76051f46707cf692\&uid=user\_id\&timestamp=1573455797\&source=dwk\&info=extra\_info\&redirect=https%3A%2F%2Fin.survey.imur.tencent.com%2F%3Fsid%5e8d767b76051f46707cf692%26lang%3Dzh-CHS%26ADTAG%3Dsid.5e8d767b76051f46707cf692\&sign=2ac5ab8ce6a9b306e07dc2664fe7d175
 {% endhint %}
 
 点击“[参数传递接口（严格校验）](../../api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)”查看API文档，了解内嵌投放链接的改造方法。

@@ -1,14 +1,28 @@
 # MSDK-V3登录态采集
 
-对接了MSDK V3版本的APP，可在问卷设置中启用【MSDK登录验证】功能，选择版本为v3；
+对接了MSDK V3版本的APP，可在问卷设置的登录验证中选择【MSDK v3】，用户提交问卷时，问卷系统会自动获取MSDK的登录态并存储在答题数据中。
 
-用户提交问卷时，问卷系统会自动获取MSDK的登录态并存储在答题数据中。
+![](<../.gitbook/assets/image (337).png>)
 
-![](<../.gitbook/assets/image (283).png>)
+## MSDK-V3登录态加解密说明
 
-## 解密MSDK-V3登录态说明
+问卷系统后台用于解密获取玩家登录态流程的说明，游戏侧仅需关注是否有在问卷链接后**注入正确的登录态参数**。
 
-API文档参考：[https://wiki.ssl.msdk.qq.com/Unity/webview.html#Unity_DecodeLoginInfo ](https://wiki.ssl.msdk.qq.com/Unity/webview.html#Unity_DecodeLoginInfo)
+### 游戏客户端获取登录态加密票据
+
+游戏客户端需通过MSDK webview自带的“获取加密票据”接口在把问卷链接加密并注入登录态信息；参数包括：msdkEncodeParam、timestamp、appid、algorithm、version、sig、encode等。
+
+MSDK文档参考：【获取加密票据】
+
+[https://wiki.ssl.msdk.qq.com/Android/webview.html#Android\_UrlAddEncodeParam](https://wiki.ssl.msdk.qq.com/Android/webview.html#Android\_UrlAddEncodeParam)
+
+
+
+### **问卷系统解密获取登录态信息**
+
+系统通过“解密校验”接口获取msdkEncodeParam解密后的明文openid，游戏侧无须关注。
+
+MSDK文档参考：【解密校验】[https://wiki.ssl.msdk.qq.com/Android/webview.html#Android\_DecodeLoginInfo](https://wiki.ssl.msdk.qq.com/Android/webview.html#Android\_DecodeLoginInfo)
 
 （1）系统优先使用msdkEncodeParam参数进行登录态解密，此时要求必须带上timestamp、appid、algorithm、version、sig、encode这6个参数参与，示例如下：
 
@@ -19,7 +33,7 @@ http://www.qq.com?algorithm=v2&version=2.0.6a&timestamp=1423538227203&appid=1007
 A3E93E44F3270F19664D5499CA2990BE5BA9E232036197B184F1411B76CF95537AC07E3D6A27F054AD3F26648B18554F9C1
 ```
 
-![](<../.gitbook/assets/image (488).png>)
+![](<../.gitbook/assets/image (791).png>)
 
 （2）当msdkEncodeParam参数无法正常解密登录态时，系统会直接获取openid参数值作为登录态。
 
@@ -33,9 +47,9 @@ A3E93E44F3270F19664D5499CA2990BE5BA9E232036197B184F1411B76CF95537AC07E3D6A27F054
 
 （3）注入登录态参数后的问卷链接过长，部分参数被截断导致参数缺失（需客户端另行处理）。
 
-![登录失败](<../.gitbook/assets/image (293).png>)
+![登录失败](<../.gitbook/assets/image (301).png>)
 
 {% hint style="warning" %}
-如MSDK-V3登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。
+如MSDK-V3登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help\_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help\_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。
 {% endhint %}
 

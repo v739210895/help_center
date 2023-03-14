@@ -12,17 +12,15 @@
 
 点击目标文字的编辑栏位置后上方出现富文本工具栏，点击“图片”图标后，可操作上传本地图片；插入后的图片可直接调整尺寸大小。
 
-![&#x5BCC;&#x6587;&#x672C;&#x5DE5;&#x5177;&#x680F;&#x4E2D;&#x70B9;&#x51FB;&#x63D2;&#x5165;&#x56FE;&#x7247;](../../.gitbook/assets/image%20%28382%29.png)
+![富文本工具栏中点击插入图片](<../../.gitbook/assets/image (580).png>)
 
-![&#x652F;&#x6301;&#x8C03;&#x6574;&#x56FE;&#x7247;&#x5C3A;&#x5BF8;](../../.gitbook/assets/image%20%28399%29.png)
+![支持调整图片尺寸](<../../.gitbook/assets/image (233).png>)
 
 ## 答题端显示图片
 
-![&#x79FB;&#x52A8;&#x7B54;&#x9898;&#x7AEF;&#x663E;&#x793A;&#x56FE;&#x7247;](../../.gitbook/assets/image%20%28136%29.png)
+![移动答题端显示图片](<../../.gitbook/assets/image (61).png>)
 
-![PC&#x7B54;&#x9898;&#x7AEF;&#x663E;&#x793A;&#x56FE;&#x7247;](../../.gitbook/assets/image%20%28389%29.png)
+![PC答题端显示图片](<../../.gitbook/assets/image (571).png>)
 
-![PC&#x7B54;&#x9898;&#x7AEF;&#x652F;&#x6301;&#x653E;&#x5927;&#x56FE;&#x7247;](../../.gitbook/assets/image%20%28387%29.png)
-
-
+![PC答题端支持放大图片](<../../.gitbook/assets/image (715).png>)
 

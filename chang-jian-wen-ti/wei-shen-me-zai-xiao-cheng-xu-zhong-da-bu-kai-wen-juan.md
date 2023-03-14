@@ -6,7 +6,6 @@
 业务域名：in.weisurvey.com 或 in.survey.imur.tencent.com，根据投放链接而定
 {% endhint %}
 
-![&#x914D;&#x7F6E;&#x4E1A;&#x52A1;&#x57DF;&#x540D;](../.gitbook/assets/image%20%28608%29.png)
+![配置业务域名](<../.gitbook/assets/image (60).png>)
 
-![&#x4E0B;&#x8F7D;&#x6821;&#x9A8C;&#x6587;&#x4EF6;&#x540E;&#x63D0;&#x4F9B;&#x7ED9;IMUR&#x95EE;&#x5377;&#x7CFB;&#x7EDF;&#x52A9;&#x624B;](https://mur-survey-1255655535.file.myqcloud.com/static_files/images/tKwus8ubwubxedio8WBj9a2LzacTETvpooOUGKqr.png?imageMogr2/thumbnail/850x&width=1396&height=775)
-
+![下载校验文件后提供给IMUR问卷系统助手](https://mur-survey-1255655535.file.myqcloud.com/static\_files/images/tKwus8ubwubxedio8WBj9a2LzacTETvpooOUGKqr.png?imageMogr2/thumbnail/850x\&width=1396\&height=775)

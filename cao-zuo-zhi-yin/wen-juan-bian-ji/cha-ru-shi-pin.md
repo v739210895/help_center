@@ -10,37 +10,46 @@
 
 问卷编辑状态中，点击问卷题目、备注或选项文本编辑框后，左上方会展开富文本编辑工具，在富文本编辑工具中点击“视频”图标。
 
-![文本编辑框的富文本编辑工具](<../../.gitbook/assets/image (25).png>)
+![文本编辑框的富文本编辑工具](<../../.gitbook/assets/image (521).png>)
 
-### ** 【STEP 2】显示插入视频弹窗**
+### &#x20;**【STEP 2】显示插入视频弹窗**
 
 点击“视频”图标后，将弹出插入视频的窗口，如下图。
 
-![插入视频弹窗](<../../.gitbook/assets/image (286).png>)
+![插入视频弹窗](<../../.gitbook/assets/image (297).png>)
 
 ### **【STEP 3】**第三方平台获取通用代码
 
 在第三方视频网站（建议使用腾讯视频），在被插入视频的播放页面下方的“分享”的按钮中找到“通用代码”并复制。
 
+{% hint style="success" %}
+**支持平台**
+
+* 腾讯视频
+* 优酷视频
+* bilibili
+* YouTube
+{% endhint %}
+
 #### 平台一：腾讯视频
 
-![复制通用代码](<../../.gitbook/assets/image (523).png>)
+![复制通用代码](<../../.gitbook/assets/image (165).png>)
 
 #### 平台二：优酷视频
 
-![复制通用代码](<../../.gitbook/assets/image (525).png>)
+![复制通用代码](<../../.gitbook/assets/image (64).png>)
 
 #### 平台三：YouTube
 
-![第1步：分享-嵌入](<../../.gitbook/assets/image (526).png>)
+![第1步：分享-嵌入](<../../.gitbook/assets/image (627).png>)
 
-![第2步：复制通用代码](<../../.gitbook/assets/image (524).png>)
+![第2步：复制通用代码](<../../.gitbook/assets/image (47).png>)
 
 ### **【STEP 4】**粘贴通用代码
 
 在插入视频的弹窗中粘贴上一步中已复制的视频通用代码
 
-![弹窗中粘贴通用代码](<../../.gitbook/assets/image (6).png>)
+![弹窗中粘贴通用代码](<../../.gitbook/assets/image (66).png>)
 
 #### 调整视频播放器尺寸大小
 
@@ -50,14 +59,14 @@
 仅支持调整PC答题端中的视频播放器尺寸
 {% endhint %}
 
-![在通用代码中调整视频尺寸](<../../.gitbook/assets/image (568).png>)
+![在通用代码中调整视频尺寸](<../../.gitbook/assets/image (138).png>)
 
 ### **【STEP 5】**确认插入视频
 
 点击确定即插入视频成功，文本编辑栏中显示已插入视频的缩略图。
 
-![编辑状态下插入视频](<../../.gitbook/assets/image (322).png>)
+![编辑状态下插入视频](<../../.gitbook/assets/image (347).png>)
 
 ## 答题端显示视频
 
-![答题端展示](<../../.gitbook/assets/image (406).png>)
+![答题端展示](<../../.gitbook/assets/image (314).png>)

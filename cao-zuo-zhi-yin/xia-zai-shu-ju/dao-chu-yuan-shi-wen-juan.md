@@ -2,9 +2,9 @@
 
 在“我的问卷”列表选择一份问卷，点击操作栏中的“导出”-导出原始问卷，即可导出excel格式的问卷文件。
 
-![我的问卷-导出原始问卷](<../../.gitbook/assets/image (573).png>)
+![我的问卷-导出原始问卷](<../../.gitbook/assets/image (533).png>)
 
-![导出的原始问卷](<../../.gitbook/assets/image (570).png>)
+![导出的原始问卷](<../../.gitbook/assets/image (393).png>)
 
 {% hint style="info" %}
 1. 导出问卷的格式规范与导入格式规范一致，详细说明请查看“[导入格式规范](../wen-juan-bian-ji/fu-gai-dao-ru.md#step-1-zai-excel-bian-ji-wen-juan-nei-rong)”

@@ -2,14 +2,18 @@
 
 对接了INTL的APP，可在问卷设置的登录验证中选择【INTL】登录；用户提交问卷时，问卷系统会自动获取该玩家登录态（如openid）并存储在答题数据中。
 
-![配置INTL自动登录所需要的参数](<../.gitbook/assets/image (693).png>)
+![配置INTL自动登录所需要的参数](<../.gitbook/assets/image (584).png>)
 
 ### 参数配置说明
 
 {% hint style="info" %}
-“密钥”请填写INTL管理端参数中的INTL\_SERVER\_KEY
+1. **密钥**：请填写INTL管理端参数中的INTL\_SERVER\_KEY
 
-“域名”区分正式环境和测试环境，请自行联系游戏后端开发获取。测试环境域名参考：https://test.intlgame.com
+&#x20; 2\. **域名**：区分正式环境和测试环境，请自行联系游戏后端开发获取。
+
+&#x20;      测试环境域名参考：https://test.intlgame.com
+
+&#x20;      正式环境域名参考：https://sg.intlgame.com
 {% endhint %}
 
 
@@ -28,10 +32,10 @@ INTL文档参考：【获取加密票据】
 
 ```
 //原始问卷链接
-https://user.outweisurvey.com/?sid=60d57b6eacb1fb323d61f772
+https://user.outweisurvey.com/v2/?sid=60d57b6eacb1fb323d61f772
 
 //添加加密票据后的问卷链接
-https://user.outweisurvey.com/?sid=60d57b6eacb1fb323d61f772&gameid=11&os=1&ts=1597840414&version=0.1.000.0001&seq=11-42e0e9d2-2f0e-4b01-a1ab-6831cf9b6165-1597840414-11&encodeparam=4060E2A762B31B8B57A8D5A9BBAF10E8657A5A3A285B0DA7159417C2D6F0D801
+https://user.outweisurvey.com/v2/?sid=60d57b6eacb1fb323d61f772&gameid=11&os=1&ts=1597840414&version=0.1.000.0001&seq=11-42e0e9d2-2f0e-4b01-a1ab-6831cf9b6165-1597840414-11&encodeparam=4060E2A762B31B8B57A8D5A9BBAF10E8657A5A3A285B0DA7159417C2D6F0D801
 ```
 
 #### 问卷系统解密获取登录态信息
@@ -52,7 +56,7 @@ INTL文档参考：【解密校验】
 
 （2）注入登录态参数后的问卷链接过长，部分参数被截断导致参数缺失（需客户端另行处理）。
 
-![登录失败](<../.gitbook/assets/image (293).png>)
+![登录失败](<../.gitbook/assets/image (301).png>)
 
 {% hint style="warning" %}
 若INTL登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help\_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help\_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。

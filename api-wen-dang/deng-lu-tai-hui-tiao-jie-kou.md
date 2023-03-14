@@ -1,14 +1,14 @@
 # 登录态回调接口
 
-## 接口说明
+## 1. 接口说明
 
-### 接口定义
+### 1.1 接口定义
 
 用户提交问卷后，问卷系统将登录态等参数回调给开发者，适用于奖励发放、业务状态修改等场景。
 
-####
 
-### 使用场景
+
+### 1.2 使用场景
 
 适用于开发者接入问卷系统后，需要用户在答题之后将用户等相关信息**回传给开发者服务端**的情况，注意这个回传动作是问卷服务端异步完成的，会有一定的时延（秒级）。
 
@@ -22,11 +22,11 @@
 2、支持L5地址，如：http://12345601:987654/surveytest1
 {% endhint %}
 
-###
 
-### sign签名算法
 
-#### **算法流程**
+### 1.3 sign签名算法
+
+#### **1.3.1 算法流程**
 
 1. 提供必要参数（详情看API接口），使用kv数据结构；
 2. 添加appSecret作为签名密钥字段到kv数据结构；
@@ -37,15 +37,15 @@
 7. 返回状态码status。
 
 {% hint style="info" %}
-1. appSecret即回调密钥，和回调地址一样，在问卷的“设置”页配置。配置方法详见[登录态回调配置](../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#deng-lu-tai-hui-tiao-jie-kou)
-2. 拼接后的加密字符串示例 appSecretuIVtlG06callback_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f3973timestamp1609408137uidtestuseruid_sourcetestsourceuser_typeweak_third_party 【注】只有默认参数和appSecret参与计算签名，值为空的默认参数和其他未说明的参数不参与加密计算。
+1. appSecret即回调密钥，和回调地址一样，在问卷的“设置”页配置。配置方法详见[登录态回调配置](../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao/#deng-lu-tai-hui-tiao-jie-kou)
+2. 拼接后的加密字符串示例 appSecretuIVtlG06callback\_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f3973timestamp1609408137uidtestuseruid\_sourcetestsourceuser\_typeweak\_third\_party 【注】只有默认参数和appSecret参与计算签名，值为空的默认参数和其他未说明的参数不参与加密计算。
 {% endhint %}
 
 
 
-#### **代码示例**
+#### **1.3.2 代码示例**
 
-_PHP代码_ 
+_PHP代码_&#x20;
 
 ```php
 <?php
@@ -83,23 +83,26 @@ _回调URL示例_
 
 #### ****
 
-## **回调参数说明**
+## **2. 回调参数说明**
 
-### **参数说明**
+### **2.1 参数说明**
 
 回调接口使用GET请求。
 
-| 参数              | 是否必传 | 是否参与加密 | 数据类型   | 限制长度 | 说明                                                                                                                                                                                                                         |
-| --------------- | ---- | ------ | ------ | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| sid             | 是    | 是      | string | 32   | 问卷id                                                                                                                                                                                                                       |
-| uid             | 否    | 是      | string | 255  | 仅在问卷需要登录时传递，登录用户的唯一ID（即，MSDK登录验证中的玩家openid/严格校验模式下传入的uid/不校验模式下传入的openid）                                                                                                                                                  |
-| user_type       | 否    | 是      | string | 2-10 | 仅在问卷需要登录时传递，登录用户类型，包含：wechat(微信)、qq(QQ登录)、msdk(游戏内)、third_party(参数传递-严格校验模式)、weak_third_party（参数传递-不校验模式）                                                                                                                  |
-| uid_source      | 否    | 是      | string | 2-10 | 仅在问卷需要登录时传递，登录用户来源，当前只在msdk下有值wx与qq，非MSDK登录态传递则需要开发者自己定义                                                                                                                                                                   |
-| timestamp       | 是    | 是      | int    | 10位  | 时间戳                                                                                                                                                                                                                        |
-| sign            | 是    | 否      | string | 32   | 签名，参考签名算法                                                                                                                                                                                                                  |
-| callback_params | 否    | 是      | string | 255  | <p>开发者自定义回调参数，业务需要额外的参数则可以使用。【注】</p><p>1.该参数是由开发者通过问卷链接<strong>透传</strong>到开发者服务端的，例如：https://in.survey.imur.tencent.com/?sid=xxx&#x26;</p><p>lang=zh-CHS&#x26;callback_params=xxxxx</p><p>2.如透传时值被encode，则加密时需先decode</p> |
-| info            | 否    | 是      | string | 255  | 登录用户额外的信息。该字段需配合[参数传递（严格校验）](fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)/[参数传递（不校验）](can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md)使用；如使用MSDK v3/v5、INTL自动登录，info仅作为普通参数透传、不参与加密。                                           |
-| aid             | 是    | 否      | string | 32   | 答卷编号；不参与生成sign，[开放接口](kai-fang-jie-kou/)中用于查询答卷详情。                                                                                                                                                                         |
+| 参数               | 是否必传 | 是否参与加密                                                   | 数据类型   | 限制长度 | 说明                                                                                                                                                                                                                         |
+| ---------------- | ---- | -------------------------------------------------------- | ------ | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| sid              | 是    | 是                                                        | string | 32   | 问卷id                                                                                                                                                                                                                       |
+| uid              | 否    | 是                                                        | string | 255  | 仅在问卷需要登录时传递，登录用户的唯一ID（即，MSDK登录验证中的玩家openid/严格校验模式下传入的uid/不校验模式下传入的openid）                                                                                                                                                  |
+| user\_type       | 否    | 是                                                        | string | 2-10 | 仅在问卷需要登录时传递，登录用户类型，包含：wechat(微信)、qq(QQ登录)、msdk(游戏内)、third\_party(参数传递-严格校验模式)、weak\_third\_party（参数传递-不校验模式）                                                                                                               |
+| uid\_source      | 否    | 是                                                        | string | 2-10 | 仅在问卷需要登录时传递，登录用户来源，当前只在msdk下有值wx与qq，非MSDK登录态传递则需要开发者自己定义                                                                                                                                                                   |
+| timestamp        | 是    | 是                                                        | int    | 10位  | 时间戳                                                                                                                                                                                                                        |
+| sign             | 是    | 否                                                        | string | 32   | 签名，参考签名算法                                                                                                                                                                                                                  |
+| callback\_params | 否    | 是                                                        | string | 255  | <p>开发者自定义回调参数，业务需要额外的参数则可以使用。【注】</p><p>1.该参数是由开发者通过问卷链接<strong>透传</strong>到开发者服务端的，例如：https://in.survey.imur.tencent.com/?sid=xxx&#x26;</p><p>lang=zh-CHS&#x26;callback_params=xxxxx</p><p>2.如透传时值被encode，则加密时需先decode</p> |
+| info             | 否    | <p>是<br>（如使用MSDK v3/v5、INTL自动登录，info仅作为普通参数透传、不参与加密）</p> | string | 255  | 登录用户额外的信息。该字段需配合[参数传递（严格校验）](fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)/[参数传递（不校验）](can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md)使用                                                                                       |
+| effective        | 是    | 否                                                        | bool   |      | 设置了自动过滤的条件，在答完题之后，计算用户的答案是否有效。如果有效则返回 "true"，否则返回 "false"                                                                                                                                                                  |
+| aid              | 是    | 否                                                        | string | 32   | 答卷编号；不参与生成sign，[开放接口](kai-fang-jie-kou/)中用于查询答卷详情。                                                                                                                                                                         |
+
+
 
 {% hint style="info" %}
 1. 非必传参数有值时参与加密，未传则不参与加密
@@ -107,9 +110,9 @@ _回调URL示例_
 3. 如使用MSDK v3/v5、INTL自动登录，info仅作为普通参数透传，不参与加密，也不采集到答案中。
 {% endhint %}
 
-![参数传递存储说明](<../.gitbook/assets/image (707).png>)
+![参数传递存储说明](<../.gitbook/assets/image (377).png>)
 
-### **回调成功约定返回格式**
+### **2.2 回调成功约定返回格式**
 
 开发者接收到回调并正常处理业务流程后，必需返回以下指定的json格式到问卷服务端：
 
@@ -119,9 +122,13 @@ _回调URL示例_
 }
 ```
 
-### 回调业务码
+{% hint style="warning" %}
+若接收方未正确返回状态码，问卷服务端会自动发起重试，最多重试4次。
+{% endhint %}
 
-如果业务方需要在回调中做一些特定标识，可以传递business_code字段，问卷系统会存储该字段的值到es中，可以用来在开放接口中根据该标识筛选数据，business_code值范围必须在 -32768 \~ 32767，如果超过该范围，则不会存储。示例：
+### 2.3 回调业务码
+
+如果业务方需要在回调中做一些特定标识，可以传递business\_code字段，问卷系统会存储该字段的值到es中，可以用来在开放接口中根据该标识筛选数据，business\_code值范围必须在 -32768 \~ 32767，如果超过该范围，则不会存储。示例：
 
 ```javascript
 {
@@ -131,12 +138,12 @@ _回调URL示例_
 ```
 
 {% hint style="info" %}
-business_code必须是int16类型，即 -32768 \~ 32767
+business\_code必须是int16类型，即 -32768 \~ 32767
 
 回调业务码只会在status为ok的情况下写入
 {% endhint %}
 
-### 同一问卷支持设置多个回调地址
+### 2.4 同一问卷支持设置多个回调地址
 
 投放时**客户端**在问卷链接中注入callback参数，用以区分该次提交后回调到哪个回调地址中。最多可配置10个回调地址，具体回调到哪个实际由客户端指定。
 
@@ -148,20 +155,20 @@ business_code必须是int16类型，即 -32768 \~ 32767
 https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callback=2**
 {% endhint %}
 
-![多个回调地址配置](<../.gitbook/assets/image (661).png>)
+![多个回调地址配置](<../.gitbook/assets/image (123).png>)
 
-## 回调接口调试工具
+## 3. 回调接口调试工具
 
-可使用回调接口调试工具（建议使用chrome打开）确认调通回调与签名验证。
+在【国内】版本创建的问卷，可使用回调接口调试工具（建议使用chrome打开）确认调通回调与签名验证。
 
 ****[**https://test.a.imur.tencent.com/static/tools/index.html#/callback**](https://test.a.imur.tencent.com/static/tools/index.html#/callback)****
 
-![回调接口调试工具](<../.gitbook/assets/image (381).png>)
+![回调接口调试工具](<../.gitbook/assets/image (763).png>)
 
 
 
-## 常见问题
+## 4. 常见问题
 
-### [为什么收不到回调消息？](../chang-jian-wen-ti/wei-shen-me-shou-bu-dao-hui-tiao-xiao-xi.md)
+### 4.1 [为什么收不到回调消息？](../chang-jian-wen-ti/wei-shen-me-shou-bu-dao-hui-tiao-xiao-xi.md)
 
-### [为什么会接收到文档中未说明的回调参数？](../chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
+### 4.2 [为什么会接收到文档中未说明的回调参数？](../chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)

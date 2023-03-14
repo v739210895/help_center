@@ -1,40 +1,48 @@
-# 开放接口
+# 开放接口（管理端）
 
-## 问卷开放接口
+## 简介
 
-问卷系统作为调研工具，为了支持不同的业务场景，将问卷相关的接口进行开放。
+为支持各类业务场景，将问卷相关的接口进行开放。第三方可通过接口的形式查询问卷内容（题目&选项）、回收统计、指定的答卷数据。
 
-### [接口调用方式](./#jie-kou-tiao-yong-fang-shi-1)
+1\. [接口调用方式](./#1.-jie-kou-tiao-yong-fang-shi)
 
-### [签名算法](./#qian-ming-suan-fa-1)
+2\. [签名算法](./#2.-qian-ming-suan-fa)
 
-### [接口](./#jie-kou)
+3\. [问卷内容接口](./#3.-wen-juan-nei-rong-jie-kou)
 
-### [常见问题](./#chang-jian-wen-ti-1)
+4\. [回收概况接口](./#4-hui-shou-gai-kuang-jie-kou)
 
-## 接口调用方式
+5\. [数据统计接口](./#5-da-ti-shu-ju-tong-ji)
 
-接口调用使用`cl5`方式调用。
+6\. [答题数据详情接口](./#5-da-ti-shu-ju-xiang-qing-jie-kou)
+
+7\. [常见问题](./#4.-chang-jian-wen-ti)
+
+## 1. 接口调用方式
 
 #### 国内环境
+
+【cl5方式】
 
 mod\_id: `65080257` cmd\_id: `65536`
 
 调用时Header中必需带上Host，Host值为`survey.imur.oa.com`。
 
+【通用方式】{host}为`survey.imur.tencent.com`
+
 #### 海外环境
 
-mod\_id: `65080257` cmd\_id: `131072`
+【通用方式】{host}为`www.outweisurvey.com`
 
-调用时Header中必需带上Host，Host值为`outsurvey.imur.oa.com`。
+调用时Header中必需带上Host，Host值为`outweisurvey.com`。
 
-## 签名算法
+## 2. 签名算法
 
-开放接口采用参数+密钥的方式生成接口签名sign，密钥由管理端进行配置，每份问卷可配置独立的密钥，保证数据安全性；密钥可在问卷编辑页选择【设置】-> 【API调用】中配置。
+开放接口采用参数+密钥的方式生成接口签名sign，密钥由管理端进行配置，每份问卷可配置独立的密钥，保证数据安全性；密钥需在问卷编辑页选择【设置】-> 【API调用】中配置。
 
-**注意**签名会对timestamp进行校验，生成超过10分钟的sign视为无效，需要重新生成。
+**注意：**签名会对timestamp进行校验，生成超过10分钟的sign视为无效，需要重新生成。
 
-#### 算法流程
+#### 2.1 算法流程
 
 1. 提供必要参数（详情需要根据每个接口要求的参数），使用kv数据结构；
 2. 添加问卷ID参数sid到kv数据结构；
@@ -48,10 +56,10 @@ mod\_id: `65080257` cmd\_id: `131072`
 10. 带上query请求参数调用登录态传递接口。
 
 {% hint style="info" %}
-【注】appSecret即查询密钥，在问卷的“设置”页配置。配置方法详见[API调用配置](../../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#api-tiao-yong)
+【注】appSecret即查询密钥，在问卷的“设置”页配置。配置方法详见[API调用配置](../../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao/#api-tiao-yong)
 {% endhint %}
 
-#### 代码示例
+#### 2.2 代码示例
 
 ```php
 class Sign
@@ -169,13 +177,11 @@ class Sign
 }
 ```
 
-## 接口
+## 3. 问卷内容接口
 
 API接口采用RESTful方式实现，在接口地址中出现的sid为问卷的ID，具体的接口不再说明。
 
-### 问卷内容
-
-#### **1、获取问卷详情**
+### **3.1 获取问卷详情**
 
 获取问卷详情数据。
 
@@ -503,12 +509,13 @@ GET http://{host}/open/v1/surveys/{sid}
 | cascade        | 联动题   |
 | attachment     | 附件上传题 |
 | sort           | 排序题   |
+| weight         | 权重分配题 |
 
 
 
-### 答案数据统计
+## 4 回收概况接口
 
-#### **1、回收数据概述**
+### **4.1 回收数据概述**
 
 获取问卷的答题量、浏览量、答题平均时长。
 
@@ -537,7 +544,7 @@ GET http://{host}/open/v1/statistics/{sid}/overview
 }
 ```
 
-#### **2、答题时长中位数**
+### **4.2 答题时长中位数**
 
 获取问卷用户答题时长的中位数。
 
@@ -560,7 +567,7 @@ GET http://{host}/open/v1/statistics/{sid}/consumed_median
 }
 ```
 
-#### **3、答题时长分布**
+### **4.3 答题时长分布**
 
 获取问卷答题时长在时间上的分布情况。
 
@@ -649,7 +656,7 @@ GET http://{host}/open/v1/statistics/{sid}/consumed_ranges
 }
 ```
 
-#### **4、答题回收趋势**
+### **4.3 答题回收趋势**
 
 获取问卷用户答题每日答题回收数据量趋势。
 
@@ -689,7 +696,9 @@ GET http://{host}/open/v1/statistics/{sid}/answers_date_histogram
 }
 ```
 
-#### **5、各题型统计**
+## **5** 数据统计接口
+
+### **5.1 各题型统计结果**
 
 获取问卷各个题型的数据统计。当前接口返回的数据相对比较精简，没有问卷的内容，在使用时要配合获取问卷详情来使用。下面的接口返回示例会说明每个ID对应的题目类型。
 
@@ -771,7 +780,7 @@ GET http://{host}/open/v1/statistics/{sid}/answers
 }
 ```
 
-#### **6、主观题或选项填空答案列表**
+### **5.2 主观题或选项填空答案列表**
 
 获取主观题/选项填空题列表，支持分页。
 
@@ -791,10 +800,9 @@ GET http://{host}/open/v1/statistics/{sid}/blanks
 | page       | 否    | int    |      | 页码，起码为1，默认为1                                                             |
 | page\_size | 否    | int    |      | 页数，默认为10                                                                 |
 
-**返回数据**
+**返回数据**{
 
 ```javascript
-{
     "data": {
         // 总数
         "total": 5,
@@ -812,9 +820,9 @@ GET http://{host}/open/v1/statistics/{sid}/blanks
 }
 ```
 
+## 6 答题数据详情接口
 
-
-#### **7、答题数据列表**
+### **6.1 答题数据列表（批量查询）**
 
 获取用户答题数据列表，支持分页。
 
@@ -832,7 +840,7 @@ POST http://{host}/open/v1/answers/{sid}
 
 **返回数据**
 
-[点击查看样例](da-ti-xiang-qing-can-shu-shuo-ming.md#da-ti-shu-ju-lie-biao)
+[点击查看样例](da-ti-xiang-qing-can-shu-shuo-ming.md#da-ti-shu-ju-lie-biao-pi-liang-cha-xun)
 
 {% hint style="info" %}
 page、page\_size未传参的情况下，默认最多仅返回1\*10条答题数据。
@@ -840,7 +848,7 @@ page、page\_size未传参的情况下，默认最多仅返回1\*10条答题数�
 
 
 
-#### **8、获取答题数据详情**
+### **6.2 获取答题数据详情（单条查询）**
 
 根据回调返回的aid，请求获取**指定一条**答题数据。
 
@@ -852,6 +860,61 @@ GET http://{host}/open/v1/answers/{sid}/{aid}
 
 **返回数据**
 
-[点击查看样例](da-ti-xiang-qing-can-shu-shuo-ming.md#huo-qu-da-ti-shu-ju-xiang-qing)
+[点击查看样例](da-ti-xiang-qing-can-shu-shuo-ming.md#huo-qu-da-ti-shu-ju-xiang-qing-dan-tiao-cha-xun)
 
-## 常见问题
+
+
+### **6.3 滚动获取答题数据列表**
+
+滚动获取用户答题数据列表，可以通过 \`scroll\_id\` 获取检索大量的结果
+
+**接口地址**
+
+```
+GET http://{host}/open/v1/scroll_answers/{sid}
+```
+
+| 参数         | 数据类型   | 说明                                             |
+| ---------- | ------ | ---------------------------------------------- |
+| scroll\_id | string | 列表中的_id字段(一般传入最后一个元素的_ \_id_)，_可为空，为空时获取最早批的数据 |
+| limit      | int    | 获取的条数，可为空，最大500                                |
+
+**返回数据**
+
+```json
+{
+    "data": [
+        {"_id": "63214f991db57257716a5706", "xxx": "xxx"},
+        {"_id": "63214f991db57257716a5707", "xxx": "xxx"}
+    ]
+}
+```
+
+### **6.4 获取id的哈希表**
+
+获取问卷下所有id对应的文本和序号
+
+**接口地址**
+
+```
+GET http://{host}/open/v1/surveys/{sid}/id_hash
+```
+
+**返回数据**
+
+```json
+{
+    "data": {
+        "LKM1": {
+            "index": 1,
+            "text": "这是一道单选题的标题"
+        },
+        "SWO2": {
+            "index": 1,
+            "text": "选项1"
+        }
+    }
+}
+```
+
+## 7. 常见问题

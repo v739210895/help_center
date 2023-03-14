@@ -1,27 +1,27 @@
 # 参数传递接口（严格校验模式）
 
-## 接口说明
+## 1. 接口说明
 
-### 接口定义
+### 1.1 接口定义
 
 参数传递接口（严格校验模式）接口用于解决第三方开发者拥有自己系统的登录态（如小程序登录态、facebook登录等），但又希望能够同步该登录态到问卷系统的情况。
 
-### 使用场景
+### 1.2 使用场景
 
 以下几种情况可以**不需要**接入非MSDK登录态传递接口：
 
 * 问卷内嵌到游戏中，问卷系统默认支持MSDK登录态处理，可在问卷编辑页选择【设置】-> 【MSDK登录验证】打开该功能，当前仅支持v3和v5版本MSDK登录；
 * 仅需要做每个用户答题限制，不关注采集的用户uid，可以选择使用微信或者手Q登录，可在问卷编辑页选择【设置】-> 【微信、QQ登录验证】打开该功能；
 
-### 交互流程
+### 1.3 交互流程
 
-![](../.gitbook/assets/login\_uml.jpg)
+![](../.gitbook/assets/login\_UML.jpg)
 
 开发者仅需关注开发者服务器流程，重点关注签名以及登录重定向url的生成。
 
-### sign签名算法
+### 1.4 sign签名算法
 
-#### **算法流程**
+#### **1.4.1 算法流程**
 
 1. 提供必要参数（详情看API接口，空值不需要参与签名），使用kv数据结构；
 2. 添加appSecret作为签名密钥字段到kv数据结构；
@@ -32,7 +32,7 @@
 7. 将kv数据结构转换成http的query请求参数；
 8. 带上query请求参数调用登录态传递接口。
 
-#### **代码示例**
+#### **1.4.2 代码示例**
 
 _PHP代码_
 
@@ -98,13 +98,13 @@ https://in.weisurvey.com/v2/api/autologin?sid=60cfe98c76051f40495d32c2\&uid=test
 _\*以上参数对应的值仅作展示使用_
 {% endhint %}
 
-## **接口参数说明**
+## **2. 接口参数说明**
 
-### **登录接口地址**
+### **2.1 登录接口地址**
 
 请根据业务投放域名与国内、海外选择接入接口。
 
-#### **国内投放**
+#### **2.1.1 国内投放**
 
 ```
 国内投放拥有两套域名，分为tencent域与非tencent域，开发时需要注意
@@ -118,25 +118,23 @@ https://in.survey.imur.tencent.com/v2/api/autologin?
 https://in.weisurvey.com/v2/api/autologin?
 ```
 
-#### **海外投放**
+#### **2.1.2 海外投放**
 
 ```
-海外投放拥有三套域名，分为tencent域与非tencent域，开发时需要注意
-
-tencent域：
-问卷投放域名为https://out.survey.imur.tencent.com/v2/?sid=xxx则为tencent域，对应登录接口为：
-https://out.survey.imur.tencent.com/v2/api/autologin?
-
-非tencent域：
-问卷投放域名为https://out.weisurvey.com/v2/?sid=xxx则为非tencent域，对应登录接口为：
-https://out.weisurvey.com/v2/api/autologin?
-
-！！新海外环境：
-问卷投放域名为https://user.outweisurvey.com/?sid=xxxxx则为新海外环境，对应登录接口为：
+海外投放对应登录接口为：
 https://user.outweisurvey.com/v2/api/autologin?
 ```
 
-### **参数说明**
+{% hint style="danger" %}
+由于接口升级，【国内】采用inapi前缀登录接口的游戏，请提前更改为新版登录接口，以免影响正常使用，调整如下：
+{% endhint %}
+
+| 问卷投放域名    | 旧版登录接口（已废弃）                                      | 新版登录接口                                               |
+| --------- | ------------------------------------------------ | ---------------------------------------------------- |
+| 非tencent域 | https://inapi.weisurvey.com/autologin?           | https://in.weisurvey.com/v2/api/autologin?           |
+| tencent域  | https://inapi.survey.imur.tencent.com/autologin? | https://in.survey.imur.tencent.com/v2/api/autologin? |
+
+### **2.2 参数说明**
 
 使用GET请求方式传参。
 
@@ -150,11 +148,15 @@ https://user.outweisurvey.com/v2/api/autologin?
 | sign      | 是    | 否      | string | 32      | 签名，参考签名算法                                                                                                                                                                                                                             |
 | info      | 否    | 是      | string | 255     | 额外的登录用户信息，可自定义；为空时不参与加密                                                                                                                                                                                                               |
 
-### 客户端生成链接示例
+{% hint style="danger" %}
+各参数的赋值请勿带分号;，否则值会被截断
+{% endhint %}
+
+### 2.3 客户端生成链接示例
 
 #### 原始链接
 
-https://in.weisurvey.com/?sid=60cfe98c76051f40495d32c2
+https://in.weisurvey.com/v2/?sid=60cfe98c76051f40495d32c2
 
 #### STEP 1 原始链接注入回调参数（非必要）
 
@@ -190,12 +192,12 @@ redirect=https%3A%2F%2Fin.weisurvey.com%2Fv2%2F%3Fsid%3D60cfe98c76051f40495d32c2
 sign=ade962f5273a404f72aaabf544b14281
 {% endhint %}
 
-![步骤示例](<../.gitbook/assets/image (713).png>)
+![步骤示例](<../.gitbook/assets/image (164).png>)
 
-## 问卷设置
+## 3. 问卷设置
 
-支持在问卷设置页面自定义密钥。
+需在问卷设置页面设置密钥，密钥支持自定义。
 
-![配置密钥](<../.gitbook/assets/image (18).png>)
+![配置密钥](<../.gitbook/assets/image (68).png>)
 
-## 常见问题
+## 4. 常见问题

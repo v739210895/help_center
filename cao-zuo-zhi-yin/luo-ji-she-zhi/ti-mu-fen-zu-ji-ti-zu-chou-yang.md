@@ -10,9 +10,9 @@
 
 在“逻辑”——“题目分组”中，点击右上角“添加分组”可新建题目分组。
 
-![添加分组](<../../.gitbook/assets/image (671).png>)
+![添加分组](<../../.gitbook/assets/image (586).png>)
 
-![给题目分组命名](<../../.gitbook/assets/image (679).png>)
+![给题目分组命名](<../../.gitbook/assets/image (245).png>)
 
 ### STEP 2 把题目移入分组
 
@@ -25,29 +25,29 @@
 4. 题组内/外的题目，逻辑设置仍生效，需满足逻辑后题目才显示。
 {% endhint %}
 
-![指定题目移入分组](<../../.gitbook/assets/image (681).png>)
+![指定题目移入分组](<../../.gitbook/assets/image (324).png>)
 
-![指定题目分组完成](<../../.gitbook/assets/image (680).png>)
+![指定题目分组完成](<../../.gitbook/assets/image (152).png>)
 
 ### STEP 3 分组完成，保存
 
 按步骤2把所需题目分成多组后，点击右上角“保存”。
 
-![最终分组效果](<../../.gitbook/assets/image (670).png>)
+![最终分组效果](<../../.gitbook/assets/image (2).png>)
 
 ## 分组随机抽样
 
 题目分组后，支持对题目设置随机抽样的数量，在满足显示条件的题组中随机抽取指定数量的题目展示。如满足显示条件的题组数量少于设定的随机抽取数量，则显示全部满足条件的题目。
 
-![分组随机抽样](<../../.gitbook/assets/image (674).png>)
+![分组随机抽样](<../../.gitbook/assets/image (122).png>)
 
 ## 题组逻辑
 
 在“组合逻辑”中，可对指定题组设置逻辑显示条件，满足条件时，指定题组才能正常显示/进入随机抽样范围。
 
-![设置题组为显示结果](<../../.gitbook/assets/image (682).png>)
+![设置题组为显示结果](<../../.gitbook/assets/image (375).png>)
 
-![题组逻辑](<../../.gitbook/assets/image (673).png>)
+![题组逻辑](<../../.gitbook/assets/image (723).png>)
 
 
 

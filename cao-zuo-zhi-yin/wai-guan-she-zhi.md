@@ -10,7 +10,7 @@
 
 问卷主色调，包括开始/提交/上一页/下一页按钮、答题进度、选项选中状态等颜色。
 
-![主题色变更为黄色](<../.gitbook/assets/image (696).png>)
+![主题色变更为黄色](<../.gitbook/assets/image (764).png>)
 
 ### 背景色
 
@@ -42,7 +42,7 @@
 
 ## 示例效果
 
-![PC端皮肤效果](<../.gitbook/assets/image (697).png>)
+![PC端皮肤效果](<../.gitbook/assets/image (313).png>)
 
-![移动端皮肤效果](<../.gitbook/assets/image (695).png>)
+![移动端皮肤效果](<../.gitbook/assets/image (727).png>)
 

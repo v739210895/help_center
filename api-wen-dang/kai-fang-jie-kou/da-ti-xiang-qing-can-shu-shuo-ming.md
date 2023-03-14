@@ -1,6 +1,6 @@
-# 答题详情参数说明
+# 答题详情示例及说明
 
-## **答题数据列表**
+## **答题数据列表（批量查询）**
 
 ```cpp
 //https://survey.imur.tencent.com/open/v1/answers/60ebdefe76051f6b8a37f782?sign=cf8197406494facd323b50de97f3f3ba&timestamp=1631268187
@@ -358,7 +358,7 @@
 }
 ```
 
-## **获取答题数据详情**
+## **获取答题数据详情（单条查询）**
 
 ```cpp
 //https://survey.imur.tencent.com/open/v1/answers/60ebdefe76051f6b8a37f782/613b1ea70bebcc94cec7f5bc?sign=132e7e09968c4dd43e3b4ede26f3584d&timestamp=1631266359

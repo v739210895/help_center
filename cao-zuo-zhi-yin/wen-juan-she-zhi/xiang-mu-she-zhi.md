@@ -2,7 +2,7 @@
 
 在“问卷设置”的“项目设置”项中可补充完整项目信息，包括所属产品、问卷负责人、问卷设计人、问卷关注人。
 
-![问卷设置](<../../.gitbook/assets/image (596).png>)
+![问卷设置](<../../.gitbook/assets/image (807).png>)
 
 {% hint style="info" %}
 1. 问卷首次开始回收/提交审核前，需补充完整所属产品和负责人信息
@@ -26,9 +26,9 @@
 4.若多名用户同时编辑/设置同一份问卷，以最后保存的一份问卷内容为准。
 {% endhint %}
 
-![设置负责人](<../../.gitbook/assets/image (599).png>)
+![设置负责人](<../../.gitbook/assets/image (490).png>)
 
-![新问卷提示设置负责人](<../../.gitbook/assets/image (597).png>)
+![新问卷提示设置负责人](<../../.gitbook/assets/image (116).png>)
 
 ## 设置关注人
 
@@ -39,7 +39,7 @@
 2. 为避免敏感数据泄露，请谨慎分配“**答题数据**”和“**导出数据**”权限
 {% endhint %}
 
-![添加关注人](<../../.gitbook/assets/image (594).png>)
+![添加关注人](<../../.gitbook/assets/image (780).png>)
 
 ## 设计人
 
@@ -53,4 +53,4 @@
 2.每份问卷仅支持设置一名设计人。
 {% endhint %}
 
-![添加设计人](<../../.gitbook/assets/image (595).png>)
+![添加设计人](<../../.gitbook/assets/image (351).png>)
