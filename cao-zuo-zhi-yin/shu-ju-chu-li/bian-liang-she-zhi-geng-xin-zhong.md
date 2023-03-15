@@ -51,10 +51,20 @@
 
 <mark style="color:red;">【示例二】</mark>
 
-<figure><img src="../../.gitbook/assets/image (415).png" alt=""><figcaption><p>多选型变量按有效值拆分为单选型变量</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>多选型变量按有效值拆分为单选型变量</p></figcaption></figure>
 
-## 【STEP 2】保存变量
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>拆分完成效果</p></figcaption></figure>
+
+## 【STEP 2】计算生成变量
 
 
 
-## 【STEP 3】计算生成变量
+## 应用1：参与加权设置
+
+## 应用2：在线查看数据
+
+## 应用3：导出数据
+
+## 应用4：统计图表
+
+## 应用5：交叉分析
