@@ -8,4 +8,4 @@
 
 ![离线下载入口](<../../.gitbook/assets/image (517).png>)
 
-![离线下载弹窗](<../../.gitbook/assets/image (106).png>)
+![离线下载弹窗](<../../.gitbook/assets/image (106) (1).png>)
