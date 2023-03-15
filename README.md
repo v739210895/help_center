@@ -50,7 +50,7 @@
 
 ### 支持游戏内嵌投放，自由配置跳转回调
 
-<figure><img src=".gitbook/assets/image (404).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (404) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 答题数据实时统计，直观图表展示
 

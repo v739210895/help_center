@@ -74,4 +74,4 @@ Q9沙盒类的游戏时间 选中 小于5小时&#x20;
 
 前往[在线查看答题数据](../../tong-ji-fen-xi/da-ti-shu-ju-zai-xian-cha-kan.md) 或 [导出数据](../../xia-zai-shu-ju/)，可查看被过滤的答题记录。
 
-<figure><img src="../../../.gitbook/assets/image (403).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (403) (1).png" alt=""><figcaption></figcaption></figure>

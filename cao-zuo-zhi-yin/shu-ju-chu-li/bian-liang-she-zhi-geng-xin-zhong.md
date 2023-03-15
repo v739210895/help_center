@@ -51,30 +51,34 @@
 
 <mark style="color:red;">【示例二】</mark>
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>多选型变量按有效值拆分为单选型变量</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>多选型变量按有效值拆分为单选型变量</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>拆分完成效果</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (418).png" alt=""><figcaption><p>拆分完成效果</p></figcaption></figure>
 
 ## 【STEP 2】计算生成变量
 
 全部变量编辑完成成，点击上方“执行计算变量”即可触发计算，计算完成后，变量作为新列的写入答题数据中，可用于统计、交叉分析等。
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>执行计算</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (407).png" alt=""><figcaption><p>执行计算</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>计算完成</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (397).png" alt=""><figcaption><p>计算完成</p></figcaption></figure>
 
 ## 应用1：参与加权设置
 
 新生成的所有变量都可作为加权条件同于调整样本比例。
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>变量作为加权条件</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (403).png" alt=""><figcaption><p>变量作为加权条件</p></figcaption></figure>
 
 ## 应用2：在线查看数据
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>生成的变量更新到答题数据中</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (400).png" alt=""><figcaption><p>生成的变量更新到答题数据中</p></figcaption></figure>
 
 ## 应用3：导出数据
 
 ## 应用4：统计图表
+
+可在统计图表页查看新生成变量的各个有效值分布情况。
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## 应用5：交叉分析
