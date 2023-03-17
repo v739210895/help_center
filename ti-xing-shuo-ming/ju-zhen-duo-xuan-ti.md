@@ -76,7 +76,7 @@
 
 问题关联即让答题者选中（或未选中）的选项显示在本矩阵多选题的问题中，一般用于题目相关性极高的两题中或追问的情况。
 
-![问题关联](<../.gitbook/assets/image (108).png>)
+![问题关联](<../.gitbook/assets/image (108) (1).png>)
 
 问题关联的设置方法与[选项关联](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)的设置方法相同。
 

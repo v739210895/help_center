@@ -10,7 +10,7 @@
 
 ![通过“题型”控件新建下拉题](<../.gitbook/assets/image (287).png>)
 
-![在指定题目下方新建下拉题](<../.gitbook/assets/image (107).png>)
+![在指定题目下方新建下拉题](<../.gitbook/assets/image (107) (1).png>)
 
 ## 【STEP 2】编辑题目、备注、选项内容
 

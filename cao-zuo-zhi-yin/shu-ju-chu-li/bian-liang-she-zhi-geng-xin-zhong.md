@@ -61,7 +61,7 @@
 
 <figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption><p>执行计算</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>计算完成</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption><p>计算完成</p></figcaption></figure>
 
 ## 应用1：参与加权设置
 
@@ -83,10 +83,10 @@
 
 可在统计图表页查看新生成变量的各个有效值分布情况。
 
-<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (100) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 应用5：交叉分析
 
 新生成的变量，可被用于作为表头进行交叉分析。
 
-<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (104) (1).png" alt=""><figcaption></figcaption></figure>
