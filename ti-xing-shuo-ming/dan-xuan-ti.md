@@ -16,7 +16,7 @@
 
 题目、选项及备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
-![单选题内容编辑](<../.gitbook/assets/image (8).png>)
+![单选题内容编辑](<../.gitbook/assets/image (8) (1).png>)
 
 ## 【STEP 3】题目及选项设置
 

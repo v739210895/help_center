@@ -60,7 +60,7 @@ Q9沙盒类的游戏时间 选中 小于5小时&#x20;
 
 <figure><img src="../../.gitbook/assets/image (399).png" alt=""><figcaption><p>执行清洗</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (397) (1).png" alt=""><figcaption><p>清洗中</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (397).png" alt=""><figcaption><p>清洗中</p></figcaption></figure>
 
 ## 【STEP 3】查看数据
 

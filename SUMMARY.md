@@ -63,7 +63,7 @@
     * [如何导入数据到数据处理工具](cao-zuo-zhi-yin/shu-ju-chu-li/ru-he-dao-ru-shu-ju-dao-shu-ju-chu-li-gong-ju.md)
     * [数据清洗](cao-zuo-zhi-yin/shu-ju-chu-li/shu-ju-qing-xi.md)
     * [变量设置](cao-zuo-zhi-yin/shu-ju-chu-li/bian-liang-she-zhi-geng-xin-zhong.md)
-    * [加权配比（更新中）](cao-zuo-zhi-yin/shu-ju-chu-li/jia-quan-pei-bi-geng-xin-zhong.md)
+    * [加权配比](cao-zuo-zhi-yin/shu-ju-chu-li/jia-quan-pei-bi.md)
   * [问卷审核](cao-zuo-zhi-yin/wen-juan-shen-he.md)
   * [游戏指标](cao-zuo-zhi-yin/you-xi-zhi-biao/README.md)
     * [游戏指标权限申请](cao-zuo-zhi-yin/you-xi-zhi-biao/you-xi-zhi-biao-quan-xian-shen-qing.md)
