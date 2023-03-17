@@ -11,15 +11,15 @@
 
 选择题目/变量（可选择1个或多个）->选择所需加权方案->设置目标权重百分比。
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>功能入口</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption><p>功能入口</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption><p>设置加权方案</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (104) (2).png" alt=""><figcaption><p>设置加权方案</p></figcaption></figure>
 
 ### 常规加权
 
 常规加权即因子加权，根据一个条件或多个条件组合把答题用户划分为多个分组，并为每个分组设置对应目标比例（总计需为100%）。设置完成后，系统将根据目标占比和实际占比的数据，实时计算出每个用户分组的对应权重值。
 
-
+<figure><img src="../../.gitbook/assets/image (397).png" alt=""><figcaption><p>常规加权</p></figcaption></figure>
 
 ### 边缘加权
 
@@ -31,24 +31,24 @@
 系统进行的迭代次数是有限的，当执行迭代次数超过25但当前样本加权后仍未同时满足多个条件的目标占比时，将自动结束迭代。如出现此情况，请增加投放样本或调整目标占比再重新执行加权。
 {% endhint %}
 
+<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption><p>边缘加权</p></figcaption></figure>
 
-
-## 在线统计应用加权方案 <a href="#yin-yong-quan-zhong" id="yin-yong-quan-zhong"></a>
+## 应用1：在线统计 <a href="#yin-yong-quan-zhong" id="yin-yong-quan-zhong"></a>
 
 统计图表页支持按权重方案查看各题统计结果。
 
-
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>加权方案应用到统计图表</p></figcaption></figure>
 
 支持选择多种加权方案，实时查看对比统计结果。
 
+<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption><p>多种加权方案对比统计结果</p></figcaption></figure>
 
-
-## 交叉分析应用加权方案
+## 应用2：交叉分析
 
 交叉分析功能支持按权重方案查看交叉结果。
 
+<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
 
-
-## 导出权重系数
+## 应用3：导出数据
 
 设置并计算加权后，在“答题数据”-导出数据中，导出的答题数据明细包含每个样本对应的权重系数。可通过导出的明细数据进行其他深度分析。
