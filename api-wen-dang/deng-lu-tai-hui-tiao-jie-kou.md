@@ -159,16 +159,26 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 ## 3. 回调接口调试工具
 
-在【国内】版本创建的问卷，可使用回调接口调试工具（建议使用chrome打开）确认调通回调与签名验证。
+可使用回调接口调试工具（建议使用chrome打开）确认调通回调与签名验证。
 
-****[**https://test.a.imur.tencent.com/static/tools/index.html#/callback**](https://test.a.imur.tencent.com/static/tools/index.html#/callback)****
+[https://test.a.imur.tencent.com/static/tools/index.html#/callback](https://test.a.imur.tencent.com/static/tools/index.html#/callback)
 
 ![回调接口调试工具](<../.gitbook/assets/image (763).png>)
 
 
 
-## 4. 常见问题
+## 4. 回调记录查询
 
-### 4.1 [为什么收不到回调消息？](../chang-jian-wen-ti/wei-shen-me-shou-bu-dao-hui-tiao-xiao-xi.md)
+系统提供工具用于查询问卷服务端发起回调的记录和回调参数，请根据所属环境使用
 
-### 4.2 [为什么会接收到文档中未说明的回调参数？](../chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
+【国内】[https://test.a.imur.tencent.com/static/tools/index.html#/callback/log](https://test.a.imur.tencent.com/static/tools/index.html#/callback/log)
+
+【海外】[https://test.a.imur.tencent.com/static/tools-out/#/callback/log](https://test.a.imur.tencent.com/static/tools-out/#/callback/log)
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+## 5. 常见问题
+
+### 5.1 [为什么收不到回调消息？](../chang-jian-wen-ti/wei-shen-me-shou-bu-dao-hui-tiao-xiao-xi.md)
+
+### 5.2 [为什么会接收到文档中未说明的回调参数？](../chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)

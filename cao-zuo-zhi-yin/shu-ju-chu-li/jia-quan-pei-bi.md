@@ -39,7 +39,7 @@
 
 统计图表页支持按权重方案查看各题统计结果。
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>加权方案应用到统计图表</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>加权方案应用到统计图表</p></figcaption></figure>
 
 支持选择多种加权方案，实时查看对比统计结果。
 
