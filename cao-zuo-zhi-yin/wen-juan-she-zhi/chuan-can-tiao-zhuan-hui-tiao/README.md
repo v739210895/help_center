@@ -106,14 +106,5 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 在游戏中投放问卷，答题者提交问卷后，问卷系统会自动触发调用AMS礼包单发奖（奖品名称显示为step1中所配置的礼包组名称）。
 
-![游戏内填答后发奖成功提示](<../../../.gitbook/assets/image (751).png>)
+<figure><img src="../../../.gitbook/assets/企业微信截图_16811971304888.png" alt=""><figcaption><p>游戏内填答后发奖成功提示</p></figcaption></figure>
 
-## 在问卷设置中配置了AMS礼包单，为什么提交问卷后还是领不到奖励？
-
-请确保满足以下条件，才能成功发奖：
-
-1. 已开启[MSDK登录验证](../da-ti-xian-zhi-she-zhi/#msdk-deng-lu-yan-zheng)/[参数传递（严格校验模式）](./#can-shu-chuan-di-jie-kou-yan-ge-xiao-yan-mo-shi)/[参数传递（不校验模式）](./#can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)以上任一功能
-2. 传递的玩家openid正确（参数传递的openid请赋值为玩家的游戏openid，如：oprwpv50pyA2Ts4C14P3NvqSN1q5，非纯数字的gopenid，转换接口可参考[https://docs.itop.qq.com/v5/zh-CN/Server/openid2uid.html](https://docs.itop.qq.com/v5/zh-CN/Server/openid2uid.html)）
-3. 传递的发奖参数sPlatId、sArea、sPartition、sRoleId正确
-4. 游戏内的邮件发奖功能可用
-5. 该答题者是首次在该问卷中领取奖励

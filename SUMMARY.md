@@ -105,6 +105,7 @@
   * [用户id(openid)与QQ号的转换](chang-jian-wen-ti/uidopenid-zhuan-huan-qq-hao.md)
   * [能采集到答题者的手机型号吗](chang-jian-wen-ti/neng-cai-ji-dao-da-ti-zhe-de-shou-ji-xing-hao-ma.md)
   * [答题自动发奖](chang-jian-wen-ti/ams-fa-jiang-she-zhi.md)
+  * [在问卷设置中配置了AMS礼包单，为什么提交问卷后还是领不到奖励？](chang-jian-wen-ti/zai-wen-juan-she-zhi-zhong-pei-zhi-le-ams-li-bao-dan-wei-shi-mo-ti-jiao-wen-juan-hou-huan-shi-ling-b.md)
   * [为什么收不到回调消息](chang-jian-wen-ti/wei-shen-me-shou-bu-dao-hui-tiao-xiao-xi.md)
   * [为什么会接收到文档中未说明的回调参数](chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
   * [为什么在小程序中打不开问卷](chang-jian-wen-ti/wei-shen-me-zai-xiao-cheng-xu-zhong-da-bu-kai-wen-juan.md)
