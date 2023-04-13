@@ -6,7 +6,7 @@
 
 ![提交问卷后发奖](<../.gitbook/assets/image (483).png>)
 
-<figure><img src="../.gitbook/assets/企业微信截图_16811971304888 (1).png" alt=""><figcaption><p>提示发奖成功效果</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/企业微信截图_16811971304888.png" alt=""><figcaption><p>提示发奖成功效果</p></figcaption></figure>
 
 ## 配置步骤
 

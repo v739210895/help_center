@@ -51,7 +51,7 @@
 
 <mark style="color:red;">【示例二】</mark>
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>多选型变量按有效值拆分为单选型变量</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption><p>多选型变量按有效值拆分为单选型变量</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption><p>拆分完成效果</p></figcaption></figure>
 

@@ -13,7 +13,7 @@
 
 选择题目/变量（可选择1个或多个）->选择所需加权方案->设置目标权重百分比。
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>功能入口</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>功能入口</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption><p>设置加权方案</p></figcaption></figure>
 
@@ -21,7 +21,7 @@
 
 常规加权即因子加权，根据一个条件或多个条件组合把答题用户划分为多个分组，并为每个分组设置对应目标比例（总计需为100%）。设置完成后，系统将根据目标占比和实际占比的数据，实时计算出每个用户分组的对应权重值。
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>常规加权</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption><p>常规加权</p></figcaption></figure>
 
 ### 边缘加权
 

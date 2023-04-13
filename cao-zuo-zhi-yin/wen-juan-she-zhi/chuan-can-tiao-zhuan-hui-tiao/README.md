@@ -106,5 +106,23 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 在游戏中投放问卷，答题者提交问卷后，问卷系统会自动触发调用AMS礼包单发奖（奖品名称显示为step1中所配置的礼包组名称）。
 
-<figure><img src="../../../.gitbook/assets/企业微信截图_16811971304888.png" alt=""><figcaption><p>游戏内填答后发奖成功提示</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/企业微信截图_16811971304888 (1).png" alt=""><figcaption><p>游戏内填答后发奖成功提示</p></figcaption></figure>
+
+### 发奖记录查询
+
+点击“发奖记录”即可查看所有答题账号的触发发奖情况。
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>查询发奖记录</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>发奖记录详情</p></figcaption></figure>
+
+#### ams响应码说明
+
+| ams响应码 | 情况说明                    | 建议操作                                                                                                 |
+| ------ | ----------------------- | ---------------------------------------------------------------------------------------------------- |
+| 0      | 发奖成功                    | /                                                                                                    |
+| 空或-100 | 不是测试号                   | 测试环境调用发礼包接口需要使用测试号，请先前往**测试号系统**登记绑定并关联openid                                                        |
+| 100002 | 礼包扣光需要回滚资格              | 前往礼包仓库调整礼包单的配置，调整为每个账号可领取多次或增加礼包总数量                                                                  |
+| -9012  | 区服等参数异常                 | 需要确认sPlatId、sArea、sPartition、sRoleId等四个参数值是否正确                                                       |
+| -9081  | 调用gopenid接口未得到有效gopenid | <p>1、游戏内使用openid体系：关闭设置弹窗中的“使用gopenid发奖设置”<br>2、游戏内使用gopenid体系：用户未注册游戏角色或者gopenid服务异常，检查账号状态是否正常</p> |
 
