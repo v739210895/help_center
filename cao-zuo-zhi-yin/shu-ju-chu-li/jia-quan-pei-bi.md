@@ -13,7 +13,7 @@
 
 选择题目/变量（可选择1个或多个）->选择所需加权方案->设置目标权重百分比。
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>功能入口</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>功能入口</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption><p>设置加权方案</p></figcaption></figure>
 

@@ -188,4 +188,3 @@ Common scenarios include:
 
 ![](<../.gitbook/assets/image (474).png>)
 
-****
