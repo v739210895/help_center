@@ -12,6 +12,16 @@
 
 ![导出的答题编码数据文件](<../../.gitbook/assets/image (343).png>)
 
+{% hint style="warning" %}
+**特殊说明**
+
+由于合规限制，base国内用户不可获取玩家id等个人隐私信息，问卷系统对导出数据中的ip地址、用户id列做脱敏处理。如需获取明文数据，请自行联系base海外的同事并找问卷系统助手开通权限后下载。下载的数据必须**脱敏后才能传回国内**。数据示例如下：
+
+<img src="../../.gitbook/assets/image.png" alt="" data-size="original">
+{% endhint %}
+
+
+
 ## 在EXCEL中打开答题编码数据
 
 答题编码数据（.csv）一般需要使用SPSS软件进行数据分析，详情请查看[SPSS数据分析](spss-shu-ju-fen-xi.md)，也可导入到EXCEL中直接查看。
