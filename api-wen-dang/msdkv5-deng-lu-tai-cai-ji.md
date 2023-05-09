@@ -27,9 +27,7 @@
 
 ### 游戏客户端获取登录态加密票据
 
-游戏客户端需通过MSDK webview自带的“获取加密票据”接口在把问卷链接加密并注入登录态信息；参数包括：itopencodeparam、algorithm、channelid、encode、gameid、os、ts、version、seq、sig、source等。
-
-MSDK文档参考：【获取加密票据】[http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE](http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE)
+游戏客户端需通过MSDK webview自带接口在把问卷链接加密并注入登录态信息；参数包括：itopencodeparam、algorithm、channelid、encode、gameid、os、ts、version、seq、sig、source等。
 
 ```
 //原始问卷链接
@@ -39,9 +37,31 @@ https://in.weisurvey.com/?sid=60ebdefe76051f6b8a37f782
 https://in.weisurvey.com/?sid=60ebdefe76051f6b8a37f782&algorithm=itop&encode=2&gameid=12&os=1&ts=1542889299&version=2.2.000.2607.2607&seq=11-5d0f17db-ef1e-44cd-88d7-57b556cc63ce-53&sig=eb6ee5ab9418d1c8e6400608815e76f2&itopencodeparam=F5382C12988BADA6F659B443ACE9978C14DE1B62EB1274AEFDECC219DE635C2B
 ```
 
+#### 方式一：调用OpenUrl接口打开链接时，参数isUseURLEndode赋值为true
+
+MSDK文档参考：
+
+【打开网页OpenUrl】[http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#22-%E6%89%93%E5%BC%80%E7%BD%91%E9%A1%B5](http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#22-%E6%89%93%E5%BC%80%E7%BD%91%E9%A1%B5)
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>MSDK文档</p></figcaption></figure>
+
+#### 方式二：调用（获取加密票据）接口在链接后注入登录态参数
+
+MSDK文档参考：
+
+【获取加密票据GetEncodeUrl】[http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE](http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE)
+
+
+
+{% hint style="danger" %}
+以上两种注入登录态方式任选其一，不可同时使用，否则会重复注入多次登录态参数导致问卷侧解密失败，无法访问问卷。（报错提示：登录失败请刷新）
+{% endhint %}
+
+
+
 ### 问卷系统解密获取登录态信息
 
-系统通过“解密校验”接口获取itopencodeparam解密后的明文gopenid，游戏侧无须关注。
+问卷系统通过“解密校验”接口获取itopencodeparam解密后的明文gopenid，**游戏侧无须关注**。
 
 MSDK文档参考：【解密校验】[http://doc.itop.woa.com//v5/zh-CN/Server/verify.html#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C](http://doc.itop.woa.com/v5/zh-CN/Server/verify.html#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C)
 
@@ -53,7 +73,9 @@ MSDK文档参考：【解密校验】[http://doc.itop.woa.com//v5/zh-CN/Server/v
 
 （1）itopencodeparam解密登录态时，由于缺失os、gameid、channelid、ts、sig、source等参数导致解密失败。
 
-（2）注入登录态参数后的问卷链接过长，部分参数被截断导致参数缺失（需客户端另行处理）。
+（2）注入登录态参数后的问卷链接过长，部分参数被截断导致参数缺失。游戏客户端需自行处理。
+
+（3）重复注入多次登录态参数导致解密失败。游戏客户端需排查OpenUrl()的isUseURLEncode是否为true，若是，则不需要另外调用GetEncodeUrl()。
 
 ![登录失败](<../.gitbook/assets/image (301).png>)
 

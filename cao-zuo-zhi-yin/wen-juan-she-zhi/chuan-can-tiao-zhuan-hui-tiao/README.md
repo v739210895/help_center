@@ -114,7 +114,7 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>查询发奖记录</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>发奖记录详情</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>发奖记录详情</p></figcaption></figure>
 
 #### ams响应码说明
 
