@@ -1,16 +1,26 @@
 # 系统介绍
 
-本问卷系统提供专业的在线调研及统计工具，主要服务于国内&海外的调研项目，专注游戏内嵌投放。不仅提供单选、多选、主观题、矩阵单选题等题型，还提供选项关联设置（漏斗型）、复杂组合逻辑设置、实时统计等功能。
+本问卷系统提供专业的在线调研及统计工具，服务于国内&海外的调研项目，专注游戏内嵌投放。不仅提供单选、多选、开放题、矩阵题等题型，还提供选项关联（漏斗）、复杂组合逻辑设置、实时统计等功能。
 
-海外问卷涉及合规问题，请有需要使用海外问卷系统的用户，仔细阅读说明文档：[https://docs.qq.com/doc/DS2RYa0lxV0tURkx2](https://docs.qq.com/doc/DS2RYa0lxV0tURkx2)
+{% hint style="info" %}
+海外系统合规使用说明：[https://docs.qq.com/doc/DS2RYa0lxV0tURkx2](https://docs.qq.com/doc/DS2RYa0lxV0tURkx2)
+{% endhint %}
 
-如有疑问，请企业微信联系：IMUR问卷系统助手
+{% hint style="info" %}
+产品更新：[https://iwiki.woa.com/pages/viewpage.action?pageId=4007751213](https://iwiki.woa.com/pages/viewpage.action?pageId=4007751213)
+{% endhint %}
+
+{% hint style="info" %}
+吐槽反馈：[https://txc.qq.com/products/593117](https://txc.qq.com/products/593117)
+{% endhint %}
+
+{% hint style="info" %}
+企业微信客服：IMUR问卷系统助手
+{% endhint %}
 
 ![](<.gitbook/assets/image (545).png>)
 
-![](<.gitbook/assets/image (270).png>)
-
-## 主要特色功能
+## <mark style="color:blue;">主要特色功能</mark>
 
 **问卷编辑/投放**
 
@@ -34,7 +44,9 @@
 * **合规：**提供海外投放答题者信息验证，降低隐私问题风险
 * **语言：**自定义答题提示语言，满足海外投放需求
 
-## 重点使用体验
+##
+
+## <mark style="color:blue;">重点使用体验</mark>
 
 ### 界面主打轻量简洁，功能入口清晰
 
