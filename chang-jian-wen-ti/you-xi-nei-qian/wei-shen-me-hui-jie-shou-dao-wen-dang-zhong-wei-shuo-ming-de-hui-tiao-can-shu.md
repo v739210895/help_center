@@ -1,4 +1,4 @@
-# 为什么会接收到文档中未说明的回调参数
+# 为什么会接收到文档中未说明的回调参数？
 
 在问卷链接后注入的参数会在回调时同步回调到开发者服务端，导致开发者服务端接收到文档中未说明的回调参数。
 
@@ -13,11 +13,11 @@
 **特别说明：**
 
 1. 非必传参数有值时参与加密，未传则不参与加密
-2. [登录态回调参数说明文档](../api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md#can-shu-shuo-ming)未说明的参数不参与加密
+2. [登录态回调参数说明文档](../../api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md#can-shu-shuo-ming)未说明的参数不参与加密
 3. 如使用MSDK v3/v5、INTL自动登录，info仅作为普通参数透传，不参与加密，也不采集到答案中。
 {% endhint %}
 
-![参与加密的回调参数](<../.gitbook/assets/image (171).png>)
+![参与加密的回调参数](<../../.gitbook/assets/image (171).png>)
 
 
 

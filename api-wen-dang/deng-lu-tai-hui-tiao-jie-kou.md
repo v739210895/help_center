@@ -106,7 +106,7 @@ _回调URL示例_
 
 {% hint style="info" %}
 1. 非必传参数有值时参与加密，未传则不参与加密
-2. 本文档未说明的参数不参与加密，可参考：[为什么会接收到文档中未说明的回调参数](../chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
+2. 本文档未说明的参数不参与加密，可参考：[为什么会接收到文档中未说明的回调参数](../chang-jian-wen-ti/you-xi-nei-qian/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
 3. 如使用MSDK v3/v5、INTL自动登录，info仅作为普通参数透传，不参与加密，也不采集到答案中。
 {% endhint %}
 
@@ -179,6 +179,6 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 ## 5. 常见问题
 
-### 5.1 [为什么收不到回调消息？](../chang-jian-wen-ti/wei-shen-me-shou-bu-dao-hui-tiao-xiao-xi.md)
+### 5.1 [为什么收不到回调消息？](../chang-jian-wen-ti/you-xi-nei-qian/wei-shen-me-shou-bu-dao-hui-tiao-xiao-xi.md)
 
-### 5.2 [为什么会接收到文档中未说明的回调参数？](../chang-jian-wen-ti/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
+### 5.2 [为什么会接收到文档中未说明的回调参数？](../chang-jian-wen-ti/you-xi-nei-qian/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)

@@ -1,4 +1,4 @@
-# 游戏如何接入问卷功能
+# 游戏如何接入内嵌API？
 
 系统为游戏提供多种内嵌功能，可用于采集玩家openid、答题后实时通知游戏、奖励发放等。
 
@@ -8,5 +8,5 @@
 流程实现及实例介绍可参考[https://docs.qq.com/slide/DSlR6WExqemZub092](https://docs.qq.com/slide/DSlR6WExqemZub092)
 {% endhint %}
 
-![实例流程介绍](<../.gitbook/assets/image (134).png>)
+![实例流程介绍](<../../.gitbook/assets/image (134).png>)
 
