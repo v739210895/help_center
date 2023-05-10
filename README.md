@@ -3,15 +3,15 @@
 本问卷系统提供专业的在线调研及统计工具，服务于国内&海外的调研项目，专注游戏内嵌投放。不仅提供单选、多选、开放题、矩阵题等题型，还提供选项关联（漏斗）、复杂组合逻辑设置、实时统计等功能。
 
 {% hint style="info" %}
-海外系统合规使用说明：[https://docs.qq.com/doc/DS2RYa0lxV0tURkx2](https://docs.qq.com/doc/DS2RYa0lxV0tURkx2)
+海外合规说明：[https://docs.qq.com/doc/DS2RYa0lxV0tURkx2](https://docs.qq.com/doc/DS2RYa0lxV0tURkx2)
 {% endhint %}
 
 {% hint style="info" %}
-产品更新：[https://iwiki.woa.com/pages/viewpage.action?pageId=4007751213](https://iwiki.woa.com/pages/viewpage.action?pageId=4007751213)
+产品更新日志：[https://iwiki.woa.com/pages/viewpage.action?pageId=4007751213](https://iwiki.woa.com/pages/viewpage.action?pageId=4007751213)
 {% endhint %}
 
 {% hint style="info" %}
-吐槽反馈：[https://txc.qq.com/products/593117](https://txc.qq.com/products/593117)
+吐槽反馈/功能投票：[https://txc.qq.com/products/593117](https://txc.qq.com/products/593117)
 {% endhint %}
 
 {% hint style="info" %}
