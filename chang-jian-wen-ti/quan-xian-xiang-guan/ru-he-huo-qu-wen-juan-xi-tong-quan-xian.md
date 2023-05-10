@@ -1,4 +1,4 @@
-# 如何获取问卷系统权限
+# 如何获取问卷系统权限？
 
 如需开通问卷系统权限，请先填写权限申请表 [https://in.weisurvey.com/v2?sid=5e5bf17a76051f8ec12b9602](https://in.weisurvey.com/v2?sid=5e5bf17a76051f8ec12b9602)
 

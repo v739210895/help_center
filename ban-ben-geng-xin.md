@@ -2,7 +2,7 @@
 description: 最近更新：2023.03.07
 ---
 
-# 版本记录
+# 📋 版本记录
 
 {% hint style="info" %}
 产品更新日志：[https://iwiki.woa.com/pages/viewpage.action?pageId=4007751213](https://iwiki.woa.com/pages/viewpage.action?pageId=4007751213)
