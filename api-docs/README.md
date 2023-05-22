@@ -1,2 +1,2 @@
-# ⚙ API Docs
+# API Docs
 
