@@ -43,7 +43,7 @@ MSDK文档参考：
 
 【打开网页OpenUrl】[http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#22-%E6%89%93%E5%BC%80%E7%BD%91%E9%A1%B5](http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#22-%E6%89%93%E5%BC%80%E7%BD%91%E9%A1%B5)
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>MSDK文档</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>MSDK文档</p></figcaption></figure>
 
 #### 方式二：调用（获取加密票据）接口在链接后注入登录态参数
 

@@ -114,15 +114,9 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>查询发奖记录</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>发奖记录详情</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption><p>发奖记录详情</p></figcaption></figure>
 
 #### ams响应码说明
 
-| ams响应码 | 情况说明                    | 建议操作                                                                                                 |
-| ------ | ----------------------- | ---------------------------------------------------------------------------------------------------- |
-| 0      | 发奖成功                    | /                                                                                                    |
-| 空或-100 | 不是测试号                   | 测试环境调用发礼包接口需要使用测试号，请先前往**测试号系统**登记绑定并关联openid                                                        |
-| 100002 | 礼包扣光需要回滚资格              | 前往礼包仓库调整礼包单的配置，调整为每个账号可领取多次或增加礼包总数量                                                                  |
-| -9012  | 区服等参数异常                 | 需要确认sPlatId、sArea、sPartition、sRoleId等四个参数值是否正确                                                       |
-| -9081  | 调用gopenid接口未得到有效gopenid | <p>1、游戏内使用openid体系：关闭设置弹窗中的“使用gopenid发奖设置”<br>2、游戏内使用gopenid体系：用户未注册游戏角色或者gopenid服务异常，检查账号状态是否正常</p> |
+<table><thead><tr><th width="136">ams响应码</th><th width="198.33333333333331">情况说明</th><th>建议操作</th></tr></thead><tbody><tr><td>0</td><td>发奖成功</td><td>/</td></tr><tr><td>空或-100</td><td>不是测试号</td><td>测试环境调用发礼包接口需要使用测试号，请先前往<strong>测试号系统</strong>登记绑定并关联openid</td></tr><tr><td>100002</td><td>礼包扣光需要回滚资格</td><td>前往礼包仓库调整礼包单的配置，调整为每个账号可领取多次或增加礼包总数量</td></tr><tr><td>-9012</td><td>区服等参数异常</td><td>需要确认sPlatId、sArea、sPartition、sRoleId等四个参数值是否正确</td></tr><tr><td>-9081</td><td>调用gopenid接口未得到有效gopenid</td><td>1、游戏内使用openid体系：关闭设置弹窗中的“使用gopenid发奖设置”<br>2、游戏内使用gopenid体系：用户未注册游戏角色或者gopenid服务异常，检查账号状态是否正常</td></tr></tbody></table>
 

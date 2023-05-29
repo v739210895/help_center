@@ -1,4 +1,4 @@
-# 项目名称与产品设置
+# 项目名称设置
 
 ## 修改项目名称
 
@@ -8,8 +8,5 @@
 项目名称用于管理端标识问卷，答题端不可见。
 {% endhint %}
 
-![修改项目名称](<../../.gitbook/assets/image (557).png>)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>修改项目名称</p></figcaption></figure>
 
-## 产品设置
-
-当前版本暂不支持修改产品名称。

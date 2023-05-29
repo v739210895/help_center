@@ -7,7 +7,7 @@
     * [问卷自动导入](cao-zuo-zhi-yin/chuang-jian-wen-juan/dao-ru-wen-juan/README.md)
       * [常见导入失败原因](cao-zuo-zhi-yin/chuang-jian-wen-juan/dao-ru-wen-juan/chang-jian-dao-ru-shi-bai-yuan-yin.md)
   * [问卷编辑](cao-zuo-zhi-yin/wen-juan-bian-ji/README.md)
-    * [项目名称与产品设置](cao-zuo-zhi-yin/wen-juan-bian-ji/xiang-mu-ming-cheng-yu-chan-pin-she-zhi.md)
+    * [项目名称设置](cao-zuo-zhi-yin/wen-juan-bian-ji/xiang-mu-ming-cheng-yu-chan-pin-she-zhi.md)
     * [问卷标题编辑](cao-zuo-zhi-yin/wen-juan-bian-ji/wen-juan-biao-ti-bian-ji.md)
     * [欢迎语结束语编辑](cao-zuo-zhi-yin/wen-juan-bian-ji/huan-ying-yu-jie-shu-yu-bian-ji.md)
     * [分页与增删问卷页](cao-zuo-zhi-yin/wen-juan-bian-ji/fen-ye-yu-zeng-shan-wen-juan-ye.md)
