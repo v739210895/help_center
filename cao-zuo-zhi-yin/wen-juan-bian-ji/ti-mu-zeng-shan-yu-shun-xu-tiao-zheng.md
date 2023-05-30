@@ -6,7 +6,7 @@
 
 点击页面左侧“题目”控件中的所需题型即可在当前页面下方新增一个对应的题目。
 
-![左侧“题型”控件](<../../.gitbook/assets/image (10).png>)
+![左侧“题型”控件](<../../.gitbook/assets/image (10) (1).png>)
 
 ![当前页面下方添加题目](<../../.gitbook/assets/image (491).png>)
 
