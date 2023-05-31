@@ -7,7 +7,7 @@
 //示例
 
 //sign生成（md5）appSecretiamsecretsid60ebdefe76051f6b8a37f782timestamp1631268187
-//时间戳有时效性，失效了就更新时间戳重新计算sign
+//时间戳有时效性，失效（错误码10016）需要更新时间戳重新计算sign
 
 //仅返回有答案的题目
 {

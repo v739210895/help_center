@@ -39,7 +39,7 @@
 2. 最多可设置最大上传数量为20
 {% endhint %}
 
-![最大上传数量](<../.gitbook/assets/image (435) (1).png>)
+![最大上传数量](<../.gitbook/assets/image (435).png>)
 
 ## 编辑页及答题端显示
 

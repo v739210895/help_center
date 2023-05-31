@@ -2,7 +2,7 @@
 
 在编辑问卷题目、备注或选项时，均支持引用前序题目的选中项、未选中项、填空内容。
 
-<figure><img src="../../.gitbook/assets/image (435).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>内容引用效果</p></figcaption></figure>
 
 ## 设置引用内容
 
@@ -24,7 +24,7 @@
 
 ### **【STEP 3】**指定引用内容
 
-在下拉框中指定需要引用的前序题目后，选择引用该题的选中项、未选中项或填空项，选择后点击右侧“插入到下文”自动生成标识。
+在下拉框中指定需要引用的前序题目后，选择引用该题的选中项、未选中项或填空项，选择后点击右侧**“插入到下文”**自动生成标识。
 
 {% hint style="danger" %}
 1. 仅支持引用前序的单选题或多选题，其他题型不支持作为被引用题目。
