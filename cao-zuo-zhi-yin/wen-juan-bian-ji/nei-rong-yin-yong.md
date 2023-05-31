@@ -2,6 +2,8 @@
 
 在编辑问卷题目、备注或选项时，均支持引用前序题目的选中项、未选中项、填空内容。
 
+<figure><img src="../../.gitbook/assets/image (435).png" alt=""><figcaption></figcaption></figure>
+
 ## 设置引用内容
 
 ### **【STEP 1】指定插入内容引用的位置**
