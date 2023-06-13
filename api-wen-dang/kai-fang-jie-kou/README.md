@@ -34,8 +34,6 @@ mod\_id: `65080257` cmd\_id: `65536`
 
 【通用方式】{host}为`www.outweisurvey.com`
 
-调用时Header中必需带上Host，Host值为`outweisurvey.com`。
-
 ## 2. 签名算法
 
 开放接口采用参数+密钥的方式生成接口签名sign，密钥由管理端进行配置，每份问卷可配置独立的密钥，保证数据安全性；密钥需在问卷编辑页选择【设置】-> 【API调用】中配置。
