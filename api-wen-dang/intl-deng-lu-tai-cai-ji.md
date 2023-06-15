@@ -26,10 +26,6 @@
 
 游戏客户端需通过INTL webview自带的“获取加密票据”接口在把问卷链接加密并注入登录态信息；参数包括：encodeparam、os、gameid、channelid、sdk\_version、user\_name、ts、seq。
 
-INTL文档参考：【获取加密票据】
-
-[https://developers.intlgame.com/docs/intlsdk/SDK/WebView/GetEncryptUrl](https://developers.intlgame.com/docs/intlsdk/SDK/WebView/GetEncryptUrl)
-
 ```
 //原始问卷链接
 https://user.outweisurvey.com/v2/?sid=60d57b6eacb1fb323d61f772
@@ -38,9 +34,29 @@ https://user.outweisurvey.com/v2/?sid=60d57b6eacb1fb323d61f772
 https://user.outweisurvey.com/v2/?sid=60d57b6eacb1fb323d61f772&gameid=11&os=1&ts=1597840414&version=0.1.000.0001&seq=11-42e0e9d2-2f0e-4b01-a1ab-6831cf9b6165-1597840414-11&encodeparam=4060E2A762B31B8B57A8D5A9BBAF10E8657A5A3A285B0DA7159417C2D6F0D801
 ```
 
+#### 方式一：调用OpenUrl接口打开链接时，参数encryptEnable赋值为true
+
+INTL文档参考：
+
+【打开网页OpenUrl】[https://developers.intlgame.com/docs/intlsdk/zh/SDK/WebView/OpenUrl](https://developers.intlgame.com/docs/intlsdk/zh/SDK/WebView/OpenUrl)
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>参数赋值说明</p></figcaption></figure>
+
+#### 方式二：调用（获取加密票据）接口在链接后注入登录态参数
+
+MSDK文档参考：
+
+【获取加密票据GetEncryptUrl】[https://developers.intlgame.com/docs/intlsdk/SDK/WebView/GetEncryptUrl](https://developers.intlgame.com/docs/intlsdk/SDK/WebView/GetEncryptUrl)
+
+{% hint style="danger" %}
+以上两种注入登录态方式任选其一，不可同时使用，否则会重复注入多次登录态参数导致问卷侧解密失败，无法访问问卷。（报错提示：登录失败请刷新）
+{% endhint %}
+
+
+
 #### 问卷系统解密获取登录态信息
 
-系统通过“解密校验”获取encodeparam解密后的明文，游戏侧无须关注。
+系统通过“解密校验”获取encodeparam解密后的明文，<mark style="color:red;">游戏侧无须关注</mark>。
 
 INTL文档参考：【解密校验】
 
