@@ -49,7 +49,15 @@ MSDK文档参考：
 【获取加密票据GetEncryptUrl】[https://developers.intlgame.com/docs/intlsdk/SDK/WebView/GetEncryptUrl](https://developers.intlgame.com/docs/intlsdk/SDK/WebView/GetEncryptUrl)
 
 {% hint style="danger" %}
+**特别注意**
+
 以上两种注入登录态方式任选其一，不可同时使用，否则会重复注入多次登录态参数导致问卷侧解密失败，无法访问问卷。（报错提示：登录失败请刷新）
+{% endhint %}
+
+{% hint style="info" %}
+**问卷分发情况说明**
+
+使用“问卷分发页”投放的多语言问卷，注入登录态方式与上述描述一致，在分发页的汇总链接后注入登录态参数。
 {% endhint %}
 
 
