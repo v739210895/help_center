@@ -1,8 +1,8 @@
 # 项目设置
 
-在“问卷设置”的“项目设置”项中可补充完整项目信息，包括所属产品、问卷负责人、问卷设计人、问卷关注人。
+在“问卷设置”的“项目设置”项中可补充完整项目信息，包括所属产品、问卷负责人、问卷设计人、问卷关注人、提示语言。
 
-![问卷设置](<../../.gitbook/assets/image (807).png>)
+![问卷设置](../../.gitbook/assets/Snipaste\_2023-10-08\_11-44-17.png)
 
 {% hint style="info" %}
 1. 问卷首次开始回收/提交审核前，需补充完整所属产品和负责人信息
@@ -26,7 +26,7 @@
 4.若多名用户同时编辑/设置同一份问卷，以最后保存的一份问卷内容为准。
 {% endhint %}
 
-![设置负责人](<../../.gitbook/assets/image (490).png>)
+![设置负责人](../../.gitbook/assets/Snipaste\_2023-10-08\_11-49-59.png)
 
 ![新问卷提示设置负责人](<../../.gitbook/assets/image (116).png>)
 
@@ -39,7 +39,7 @@
 2. 为避免敏感数据泄露，请谨慎分配“**答题数据**”和“**导出数据**”权限
 {% endhint %}
 
-![添加关注人](<../../.gitbook/assets/image (780).png>)
+![添加关注人](../../.gitbook/assets/Snipaste\_2023-10-08\_11-51-03.png)
 
 ## 设计人
 
@@ -53,4 +53,43 @@
 2.每份问卷仅支持设置一名设计人。
 {% endhint %}
 
-![添加设计人](<../../.gitbook/assets/image (351).png>)
+![添加设计人](../../.gitbook/assets/Snipaste\_2023-10-08\_11-51-35.png)
+
+## 提示语言
+
+提示语言指的是，在答题端中显示的提示语语种，默认为中文简体，可根据实际需要设置其他语种。
+
+<figure><img src="../../.gitbook/assets/企业微信截图_16967377362363.png" alt=""><figcaption><p>答卷语言设置</p></figcaption></figure>
+
+{% hint style="info" %}
+提示语支持语种：
+
+* 中文简体-中文简体&#x20;
+* 中文繁体-中文繁體&#x20;
+* 英语-English&#x20;
+* 阿拉伯语-العربية&#x20;
+* 德语-Deutsch&#x20;
+* 俄语-Pусский&#x20;
+* 法语-Français&#x20;
+* 菲律宾语-Filipino&#x20;
+* 韩语-한국어&#x20;
+* 高棉语-ខ្មែរ។&#x20;
+* 马来语-Bahasa Melayu
+* 孟加拉语-বাংলা
+* 葡萄牙语-Português&#x20;
+* 日语-日本語&#x20;
+* 泰语-ภาษาไทย&#x20;
+* 土耳其语-Türkçe&#x20;
+* 乌尔都语-اردو‎
+* 西班牙语-Español&#x20;
+* 意大利语-Italiano&#x20;
+* 印地语-हिन्दी&#x20;
+* 印尼语-Bahasa Indonesia&#x20;
+* 越南语-Tiếng Việt
+{% endhint %}
+
+
+
+<figure><img src="../../.gitbook/assets/Snipaste_2023-10-08_11-56-04.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Snipaste_2023-10-08_11-57-10.png" alt=""><figcaption></figcaption></figure>
