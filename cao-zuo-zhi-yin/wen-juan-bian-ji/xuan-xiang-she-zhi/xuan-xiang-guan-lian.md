@@ -27,7 +27,7 @@
 点击展开题目下拉框，选择题目。
 
 {% hint style="info" %}
-仅支持选择单选题/多选题。
+仅支持选择单选题/duoxantui
 {% endhint %}
 
 ![选择关联题目](<../../../.gitbook/assets/image (136).png>)

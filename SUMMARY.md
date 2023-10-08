@@ -6,7 +6,6 @@
     * [创建空白问卷](cao-zuo-zhi-yin/chuang-jian-wen-juan/chuang-jian-kong-bai-wen-juan.md)
     * [问卷自动导入](cao-zuo-zhi-yin/chuang-jian-wen-juan/dao-ru-wen-juan/README.md)
       * [常见导入失败原因](cao-zuo-zhi-yin/chuang-jian-wen-juan/dao-ru-wen-juan/chang-jian-dao-ru-shi-bai-yuan-yin.md)
-    * [模板库](cao-zuo-zhi-yin/chuang-jian-wen-juan/mo-ban-ku.md)
   * [问卷编辑](cao-zuo-zhi-yin/wen-juan-bian-ji/README.md)
     * [项目名称设置](cao-zuo-zhi-yin/wen-juan-bian-ji/xiang-mu-ming-cheng-yu-chan-pin-she-zhi.md)
     * [问卷标题编辑](cao-zuo-zhi-yin/wen-juan-bian-ji/wen-juan-biao-ti-bian-ji.md)
