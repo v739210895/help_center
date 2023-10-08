@@ -54,7 +54,7 @@ mod\_id: `65080257` cmd\_id: `65536`
 10. 带上query请求参数调用登录态传递接口。
 
 {% hint style="info" %}
-【注】appSecret即查询密钥，在问卷的“设置”页配置。配置方法详见[API调用配置](../../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao/#api-tiao-yong)
+【注】appSecret即查询密钥，在问卷的“设置”页配置。配置方法详见[API调用配置](../../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#api-tiao-yong)
 {% endhint %}
 
 #### 2.2 代码示例

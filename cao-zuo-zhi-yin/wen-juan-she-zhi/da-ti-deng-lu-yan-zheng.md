@@ -4,7 +4,7 @@
 
 ![登录态获取](<../../.gitbook/assets/image (367).png>)
 
-![登录验证配置](<../../.gitbook/assets/image (395).png>)
+![登录验证配置](../../.gitbook/assets/Snipaste\_2023-10-08\_14-28-38.png)
 
 ## 微信、QQ登录
 
@@ -14,13 +14,13 @@
 
 功能启用后，在已接入MSDK v3的游戏内投放时，问卷系统可获取已登录用户的openid，并存储在用户id列，在答题数据中显示。
 
-![](<../../.gitbook/assets/image (529).png>)
+![](../../.gitbook/assets/Snipaste\_2023-10-08\_14-30-24.png)
 
 ## MSDK v5&#x20;
 
 功能启用后，在已接入MSDK v5的游戏内投放时，问卷系统可获取已登录用户的gopenid，并存储在用户id列，在答题数据中显示。
 
-![](<../../.gitbook/assets/image (15).png>)
+![](../../.gitbook/assets/Snipaste\_2023-10-08\_14-31-20.png)
 
 ### 参数配置说明
 
@@ -43,7 +43,7 @@
 
 功能启用后，在已接入INTL的游戏内投放时，问卷系统可获取已登录用户的openid，并存储在用户id列，在答题数据中显示。
 
-![](<../../.gitbook/assets/image (39).png>)
+![](../../.gitbook/assets/Snipaste\_2023-10-08\_14-32-06.png)
 
 ### 参数配置说明
 
@@ -62,7 +62,7 @@
 2. 已开启不校验模式的问卷，若未正确拼接openid参数将无法打开问卷
 {% endhint %}
 
-![参数传递接口（不校验模式）](<../../.gitbook/assets/image (589).png>)
+![参数传递接口（不校验模式）](../../.gitbook/assets/Snipaste\_2023-10-08\_14-32-51.png)
 
 {% hint style="info" %}
 **【内嵌投放链接】**&#x20;
@@ -76,7 +76,7 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692\&lang=zh-CHS\&A
 
 对于未接入msdk的APP，问卷内嵌投放时，问卷系统通过开发者传递登录态的方式来采集用户的uid。功能开启后，弹窗显示密钥，密钥用于生成签名（密钥可自行修改或重新生成），点击确认关闭弹窗。
 
-![参数传递（严格校验）-配置密钥](<../../.gitbook/assets/image (369).png>)
+![参数传递（严格校验）-配置密钥](../../.gitbook/assets/Snipaste\_2023-10-08\_14-34-26.png)
 
 {% hint style="info" %}
 【内嵌投放链接示例】&#x20;

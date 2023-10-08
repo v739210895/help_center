@@ -10,7 +10,7 @@
 
 问卷设置页中支持开启/关闭海外投放验证流程，可实时启用或关闭此功能。开启海外验证流程后，答题者需要选择自己所在的国家地区及年龄等信息，不符合海外答题条件的用户将无法查看问卷（不符合条件用户的信息不回收）。
 
-![开启海外投放验证](<../../../.gitbook/assets/image (762).png>)
+![开启海外投放验证](../../../.gitbook/assets/Snipaste\_2023-10-08\_14-07-39.png)
 
 {% hint style="warning" %}
 海外投放验证的开启后，默认使用系统定义限制值（[海外投放验证默认地区年龄限制](hai-wai-tou-fang-liu-cheng.md#hai-wai-tou-fang-yan-zheng-mo-ren-di-qu-nian-ling-xian-zhi)）；

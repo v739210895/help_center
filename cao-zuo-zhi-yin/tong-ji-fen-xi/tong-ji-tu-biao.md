@@ -6,11 +6,15 @@
 左侧导航大纲支持点击定位到指定题目。
 {% endhint %}
 
-![统计图表](<../../.gitbook/assets/image (54).png>)
+![统计图表](../../.gitbook/assets/Snipaste\_2023-10-08\_15-15-37.png)
 
-导出格式为CSV格式，可在excel中直接打开，排版如下：显示小计和占比百分比。
+下载结果格式为CSV格式，可在excel中直接打开，包含：总表（总计+小计+百分比）+频率表（含百分比）+频数表（含小计），满足不同看数场景
 
-![导出统计结果](<../../.gitbook/assets/image (49).png>)
+![总表](../../.gitbook/assets/Snipaste\_2023-10-08\_15-17-48.png)
+
+<figure><img src="../../.gitbook/assets/Snipaste_2023-10-08_15-20-43.png" alt=""><figcaption><p>频率表</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Snipaste_2023-10-08_15-21-30.png" alt=""><figcaption><p>频数表</p></figcaption></figure>
 
 ## 数据筛选
 
@@ -21,23 +25,19 @@
 2. 筛选条件仅当次有效，不保存记录
 {% endhint %}
 
-【STEP 1】开启数据筛选
+添加条件
 
-![在统计图表页启用数据筛选](<../../.gitbook/assets/image (596).png>)
+点击添加条件可设置多个条件进行筛选，支持一次勾选多个选项设定。筛选条件默认包含（来源平台、年龄、提交时间、答题时长、清洗结果）
 
-【STEP 2】设置筛选条件
+![在统计图表页启用数据筛选](../../.gitbook/assets/Snipaste\_2023-10-08\_15-29-22.png)
 
-点击“设置规则”在所显示的设置规则弹窗中勾选需要设定的筛选条件，支持一次勾选多个题目及选项设定，筛选条件包括用户信息（提交时间、答题时长、所在大洲、所在国家或地区、年龄）和答题信息，点击确定关闭弹窗后即根据勾选项生成多个条件。
+添加条件组
 
-![点击“设置规则”显示弹窗](<../../.gitbook/assets/image (612).png>)
+点击“添加条件组“可自定义满足"And”或”or”条件下的数据筛选，支持一次勾选多个选项设定。筛选条件默认包含（来源平台、年龄、提交时间、答题时长、清洗结果）
 
-![设置规则弹窗](<../../.gitbook/assets/image (135).png>)
+![点击“设置规则”显示弹窗](../../.gitbook/assets/Snipaste\_2023-10-08\_15-36-25.png)
 
-【STEP 3】设置规则关系及筛选
+添加条件后点击开始筛选，统计图表将会根据筛选条件刷新&#x20;
 
-对STEP 2中指定的规则设定连接关系，包括符合以下全部条件（and）、符合以下任一条件（or）两种关系；点击下方的“筛选”按钮即可进行筛选。
-
-![设置规则关系及筛选](<../../.gitbook/assets/image (253).png>)
-
-
+<figure><img src="../../.gitbook/assets/Snipaste_2023-10-08_15-38-12.png" alt=""><figcaption></figcaption></figure>
 
