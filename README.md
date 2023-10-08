@@ -52,7 +52,7 @@ iMUR问卷系统提供专业的在线调研及统计工具，服务于国内&海
 
 ### 界面主打轻量简洁，功能入口清晰
 
-<figure><img src=".gitbook/assets/Snipaste_2023-10-08_09-19-28.png" alt=""><figcaption><p>创建问卷</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Snipaste_2023-10-08_09-19-28 (2).png" alt=""><figcaption><p>创建问卷</p></figcaption></figure>
 
 ### 沿用拖拽点选添加，简化编辑操作
 
