@@ -8,15 +8,15 @@
 
 在问卷编辑页中，选择左侧题型控件中的“多选题”或在指定题目点击右侧快捷工具栏中的+按钮选择“多选题”即可新建多选题。
 
-![通过“题型”控件新建多选题](<../.gitbook/assets/image (442).png>)
+![通过“题型”控件新建多选题](../.gitbook/assets/Snipaste\_2023-10-10\_10-12-13.png)
 
-![在指定题目下方新建多选题](<../.gitbook/assets/image (700).png>)
+![在指定题目下方新建多选题](../.gitbook/assets/Snipaste\_2023-10-10\_10-12-51.png)
 
 ## 【STEP 2】编辑题目、备注、选项内容
 
 题目、选项及备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
-![多选题内容编辑](<../.gitbook/assets/image (716).png>)
+![多选题内容编辑](../.gitbook/assets/Snipaste\_2023-10-10\_10-13-16.png)
 
 ## 【STEP 3】题目及选项设置
 
@@ -28,13 +28,13 @@
 所有题目默认开启“此题必答”功能。
 {% endhint %}
 
-![“此题必答”功能](<../.gitbook/assets/image (379).png>)
+![“此题必答”功能](../.gitbook/assets/Snipaste\_2023-10-10\_10-15-46.png)
 
 ### 题型切换
 
 单选题、多选题、下拉题之间可自由切换，切换后原题目的必答设置、选项关联设置、选项随机设置均保留。
 
-![](<../.gitbook/assets/image (464).png>)
+![](../.gitbook/assets/Snipaste\_2023-10-10\_10-16-22.png)
 
 ### 可选范围
 

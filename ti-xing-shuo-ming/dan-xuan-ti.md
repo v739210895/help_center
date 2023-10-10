@@ -16,7 +16,7 @@
 
 题目、选项及备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
-![单选题内容编辑](../.gitbook/assets/Snipaste\_2023-10-09\_16-37-10.png)
+![单选题内容编辑](../.gitbook/assets/Snipaste\_2023-10-10\_10-05-17.png)
 
 ## 【STEP 3】题目及选项设置
 
@@ -28,13 +28,19 @@
 所有题目默认开启“此题必答”功能。
 {% endhint %}
 
-![“此题必答”功能](../.gitbook/assets/Snipaste\_2023-10-09\_16-37-46.png)
+![“此题必答”功能](../.gitbook/assets/Snipaste\_2023-10-10\_10-06-02.png)
 
 ### 题型切换
 
 单选题、多选题、下拉题之间可自由切换，切换后原题目的必答设置、选项关联设置、选项随机设置均保留。
 
-![](../.gitbook/assets/Snipaste\_2023-10-09\_16-38-22.png)
+![](../.gitbook/assets/Snipaste\_2023-10-10\_10-06-31.png)
+
+### 在选项后增加填空框
+
+开启后，在选项后方增加填空框，勾选必填，用户须填写内容后才可提交，，适用于用户选择其他项后，收集信息的场景
+
+<figure><img src="../.gitbook/assets/Snipaste_2023-10-10_10-07-37.png" alt=""><figcaption></figcaption></figure>
 
 ### 选项关联
 
@@ -48,7 +54,7 @@
 
 ### 选项分列
 
-在题目编辑状态下，可设置选项分列，设置成功后，在PC答题端会根据设置的每行展示选项个数对选项进行分列展示，可设置每行展示1\~3个。移动端不生效，适用于选项数量多且选项文本不长的情况。
+在题目编辑状态下，可设置选项分列，设置成功后，在答题端会根据设置的每行展示选项个数对选项进行分列展示，可设置每行展示1\~3个。适用于选项数量多且选项文本不长的情况。
 
 ![选项分列设置](../.gitbook/assets/Snipaste\_2023-10-09\_16-41-01.png)
 
