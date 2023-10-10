@@ -36,17 +36,23 @@
 
 ![](../.gitbook/assets/Snipaste\_2023-10-10\_10-16-22.png)
 
+### 在选项后添加填空框
+
+开启后，在选项后方增加填空框，勾选必填，用户须填写内容后才可提交，适用于用户选择其他项后，收集其他相关信息的场景
+
+<figure><img src="../.gitbook/assets/Snipaste_2023-10-10_10-25-27.png" alt=""><figcaption></figcaption></figure>
+
 ### 可选范围
 
 多选题中，可限制同一问题中用户可选择的选项数量。
 
-![设置可选范围](<../.gitbook/assets/image (212).png>)
+![设置可选范围](../.gitbook/assets/Snipaste\_2023-10-10\_10-17-03.png)
 
 ### 选项关联
 
 选项关联即让答题者选中（或未选中）的选项显示在下一题的可选项中，一般用于题目相关性极高的两题中或追问的情况。
 
-![选项关联](<../.gitbook/assets/image (524).png>)
+![选项关联](../.gitbook/assets/Snipaste\_2023-10-10\_10-18-45.png)
 
 {% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
 [xuan-xiang-guan-lian.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
@@ -54,9 +60,9 @@
 
 ### 选项分列
 
-在题目编辑状态下，可设置选项分列，设置成功后，在PC答题端会根据设置的每行展示选项个数对选项进行分列展示，可设置每行展示1\~3个。移动端不生效，适用于选项数量多且选项文本不长的情况。
+在题目编辑状态下，可设置选项分列，设置成功后，在答题端会根据设置的每行展示选项个数对选项进行分列展示，横屏下可设置每行展示1\~6个，竖屏下可设置每行展示1\~3个。适用于选项数量多且选项文本不长的情况。
 
-![选项分列设置](<../.gitbook/assets/image (1) (1) (1).png>)
+![选项分列设置](../.gitbook/assets/Snipaste\_2023-10-10\_10-21-26.png)
 
 ![电脑答题端显示](<../.gitbook/assets/image (276).png>)
 
@@ -64,7 +70,7 @@
 
 多选题中的选项互斥指的是指定某个选项为互斥项，答题时若用户选择了任一被设置为互斥项的选项，则不可选择其他选项。
 
-![选项互斥](<../.gitbook/assets/image (311).png>)
+![选项互斥](../.gitbook/assets/Snipaste\_2023-10-10\_10-32-11.png)
 
 ### 选项随机
 
@@ -74,19 +80,19 @@
 
 选项随机排序是指答题时题目中的选项以随机顺序出现。开启“选项随机排序”功能后，题目的选项右侧会出现不随机的勾选框，若希望某个选项固定在当前位置，可在其后勾选“不随机”，则该选项不参与随机排序。
 
-![选项随机排序](<../.gitbook/assets/image (194).png>)
+![选项随机排序](../.gitbook/assets/Snipaste\_2023-10-10\_11-24-49.png)
 
 #### 选项随机正逆序
 
 选项随机正逆序是指答题时题目中的选项随机以正序/逆序出现。开启“选项随机正逆序”功能后，“选项随机正逆序”功能下方会出现“固定最后一个选项”功能开关，若希望最后一个选项固定在当前位置，可开启“固定最后一个选项”功能，则在答题端显示时最后一个选项不参与随机正逆序。
 
-![选项随机正逆序](<../.gitbook/assets/image (12).png>)
+![选项随机正逆序](../.gitbook/assets/Snipaste\_2023-10-10\_14-36-33.png)
 
 #### 选项分组显示
 
 选项分组显示是指把选项自由划分为多个组别，答题时每个分组的选项随机抽出一个或多个显示，支持分组间随机排序显示，设置方式详见[选项分组显示设置](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md#xuan-xiang-fen-zu-xian-shi)。
 
-![选项分组显示](<../.gitbook/assets/image (124).png>)
+![选项分组显示](../.gitbook/assets/Snipaste\_2023-10-10\_14-37-59.png)
 
 {% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md" %}
 [xuan-xiang-sui-ji.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md)
@@ -102,7 +108,7 @@
 
 ## 统计结果展示
 
-在统计分析页中，以条形图+表格小计的形式展示多选题的填答结果。
+在统计分析页中，以小计+条形百分比的形式展示多选题的填答结果。
 
-![多选题统计结果](<../.gitbook/assets/image (163).png>)
+![多选题统计结果](../.gitbook/assets/Snipaste\_2023-10-10\_14-38-41.png)
 

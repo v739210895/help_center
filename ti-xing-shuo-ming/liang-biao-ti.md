@@ -8,13 +8,13 @@
 
 在问卷编辑页中，选择左侧题型控件中的“量表题”或在指定题目点击右侧快捷工具栏中的+按钮选择“量表题”即可新建量表题。
 
-![通过“题型”控件或在指定题目下方新建单选题](<../.gitbook/assets/image (619).png>)
+![通过“题型”控件或在指定题目下方新建单选题](<../.gitbook/assets/Snipaste\_2023-10-10\_15-15-53 (1).png>)
 
 ## 【STEP 2】编辑题目、备注、选项内容
 
 题目、备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
-![量表题内容编辑](<../.gitbook/assets/image (648).png>)
+![量表题内容编辑](../.gitbook/assets/Snipaste\_2023-10-10\_16-06-01.png)
 
 ## 【STEP 3】题目及选项设置
 
@@ -26,13 +26,13 @@
 所有题目默认开启“此题必答”功能。
 {% endhint %}
 
-![“此题必答”功能](<../.gitbook/assets/image (722).png>)
+![“此题必答”功能](../.gitbook/assets/Snipaste\_2023-10-10\_16-06-48.png)
 
 ### 分数范围
 
 分数范围即设置量表题的量度，刻度为1，最低分与最高分之间差值仅支持10以内；设置后可在编辑区实时查看量表情况。
 
-![设置分数范围](<../.gitbook/assets/image (607).png>)
+![设置分数范围](../.gitbook/assets/Snipaste\_2023-10-10\_16-08-08.png)
 
 {% hint style="info" %}
 支持设置异常项：&#x20;
@@ -40,13 +40,13 @@
 开启异常项功能后，自定义设置异常项的显示文案，异常项不计入有效填答量、不计分。
 {% endhint %}
 
-![异常项](<../.gitbook/assets/image (269).png>)
+![异常项](../.gitbook/assets/Snipaste\_2023-10-10\_16-09-58.png)
 
 ### 提示方式
 
 提示方式即设置量表提示语，左边提示语对应最低分，右边提示语对应最高分；当量表逆序显示时，提示语会相应逆序展示。
 
-![设置提示语](<../.gitbook/assets/image (83).png>)
+![设置提示语](../.gitbook/assets/Snipaste\_2023-10-10\_16-10-57.png)
 
 ### 选项随机
 
@@ -56,13 +56,13 @@
 
 随机正逆序是指答题时量表随机以正序/逆序展示，最低分->最高分或最高分->最低分，提示语相应正序/逆序展示。
 
-![随机正逆序](<../.gitbook/assets/image (382).png>)
+![随机正逆序](../.gitbook/assets/Snipaste\_2023-10-10\_16-12-55.png)
 
 #### 分数反转
 
 分数反转是指答题时量表以逆序展示，即最高分->最低分，提示语相应逆序展示。
 
-![分数反转](<../.gitbook/assets/image (255).png>)
+![分数反转](<../.gitbook/assets/Snipaste\_2023-10-10\_16-13-52 (2).png>)
 
 ## 编辑页及答题端显示
 
@@ -74,7 +74,7 @@
 
 ## 统计结果展示
 
-在统计分析页中，以表格小计的形式展示量表题的填答结果。
+在统计分析页中，以表格小计+条形百分比的形式展示量表题的填答结果。
 
-![量表题统计图表](<../.gitbook/assets/image (734).png>)
+![量表题统计图表](../.gitbook/assets/Snipaste\_2023-10-10\_16-17-13.png)
 
