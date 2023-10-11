@@ -8,19 +8,19 @@
 
 在问卷编辑页中，选择左侧题型控件中的“矩阵单选题”或在指定题目点击右侧快捷工具栏中的+按钮选择“矩阵单选题”即可新建矩阵单选题。
 
-![通过“题型”控件新建矩阵单选题](../.gitbook/assets/Snipaste\_2023-10-11\_15-54-03.png)
+![通过“题型”控件新建矩阵单选题](../.gitbook/assets/Snipaste\_2023-10-11\_16-24-49.png)
 
-![在指定题目下方新建矩阵单选题](../.gitbook/assets/Snipaste\_2023-10-11\_15-55-33.png)
+![在指定题目下方新建矩阵单选题](../.gitbook/assets/Snipaste\_2023-10-11\_16-25-01.png)
 
 ## 【STEP 2】编辑题目、问题、备注、选项内容
 
 矩阵单选题的题目、问题、选项及备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
-![矩阵单选题内容编辑](<../.gitbook/assets/image (802).png>)
+![矩阵单选题内容编辑](../.gitbook/assets/Snipaste\_2023-10-11\_16-23-37.png)
 
 编辑完成后可预览该矩阵，矩阵中显示的每行是一个问题，每列是一个选项。
 
-![预览矩阵](<../.gitbook/assets/image (552).png>)
+![预览矩阵](../.gitbook/assets/Snipaste\_2023-10-11\_16-33-32.png)
 
 ## 【STEP 3】题目、问题及选项设置
 
@@ -32,7 +32,7 @@
 所有题目默认开启“此题必答”功能。
 {% endhint %}
 
-![“此题必答”功能](<../.gitbook/assets/image (703).png>)
+![“此题必答”功能](../.gitbook/assets/Snipaste\_2023-10-11\_16-34-29.png)
 
 ### 选项关联
 
