@@ -38,7 +38,7 @@
 
 选项关联即让答题者选中（或未选中）的选项显示在本矩阵单选题的可选项中，一般用于题目相关性极高的两题中或追问的情况。
 
-![选项关联](<../.gitbook/assets/image (679).png>)
+![选项关联](../.gitbook/assets/Snipaste\_2023-10-13\_15-53-43.png)
 
 {% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
 [xuan-xiang-guan-lian.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
@@ -52,13 +52,13 @@
 
 选项随机排序是指答题时题目中的选项以随机顺序出现。开启“选项随机排序”功能后，题目的选项右侧会出现不随机的勾选框，若希望某个选项固定在当前位置，可在其后勾选“不随机”，则该选项不参与随机排序。
 
-![选项随机排序](<../.gitbook/assets/image (513).png>)
+![选项随机排序](<../.gitbook/assets/Snipaste\_2023-10-13\_15-53-43 (1).png>)
 
 #### 选项随机正逆序
 
 选项随机正逆序是指答题时题目中的选项随机以正序/逆序出现。开启“选项随机正逆序”功能后，“选项随机正逆序”功能下方会出现“固定最后一个选项”功能开关，若希望最后一个选项固定在当前位置，可开启“固定最后一个选项”功能，则在答题端显示时最后一个选项不参与随机正逆序。
 
-![选项随机正逆序](<../.gitbook/assets/image (757).png>)
+![选项随机正逆序](../.gitbook/assets/Snipaste\_2023-10-13\_15-57-20.png)
 
 {% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md" %}
 [xuan-xiang-sui-ji.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md)
@@ -68,7 +68,7 @@
 
 问题关联即让答题者选中（或未选中）的选项显示在本矩阵单选题的问题中，一般用于题目相关性极高的两题中或追问的情况。
 
-![问题关联](<../.gitbook/assets/image (454).png>)
+![问题关联](../.gitbook/assets/Snipaste\_2023-10-13\_15-58-03.png)
 
 问题关联的设置方法与[选项关联](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)的设置方法相同。
 
@@ -80,13 +80,13 @@
 
 问题随机排序是指答题时该矩阵单选题中的问题以随机顺序出现。开启“问题随机排序”功能后，每个问题右侧会出现不随机的勾选框，若希望某个问题固定在当前位置，可在其后勾选“不随机”，则该问题不参与随机排序。
 
-![问题随机排序](<../.gitbook/assets/image (392).png>)
+![问题随机排序](../.gitbook/assets/Snipaste\_2023-10-13\_15-58-43.png)
 
 #### 问题随机正逆序
 
 问题随机正逆序是指答题时该矩阵单选题中的问题随机以正序/逆序出现。开启“问题随机正逆序”功能后，“问题随机正逆序”功能下方会出现“固定最后一个问题”功能开关，若希望最后一个问题固定在当前位置，可开启“固定最后一个问题”功能，则在答题端显示时最后一个问题不参与随机正逆序。
 
-![问题随机正逆序](<../.gitbook/assets/image (248).png>)
+![问题随机正逆序](../.gitbook/assets/Snipaste\_2023-10-13\_15-59-39.png)
 
 问题随机的设置方法与[选项随机](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md)的设置方法相同。
 
@@ -94,17 +94,17 @@
 
 编辑完成后，在编辑页内可查看矩阵单选题的具体内容及选项的关联、内容引用、填空设置。
 
-![编辑页内的矩阵单选题题显示](<../.gitbook/assets/image (453).png>)
+![编辑页内的矩阵单选题题显示](../.gitbook/assets/Snipaste\_2023-10-13\_16-02-34.png)
 
 矩阵单选题会根据答题终端自适应展示为矩阵或问题拆分形式。
 
-![PC答题端的矩阵单选题显示](<../.gitbook/assets/image (505).png>)
+![PC答题端的矩阵单选题显示](../.gitbook/assets/Snipaste\_2023-10-13\_16-01-53.png)
 
-![手机答题端的矩阵单选题显示](<../.gitbook/assets/image (498).png>)
+![手机答题端的矩阵单选题显示](../.gitbook/assets/Snipaste\_2023-10-13\_16-02-58.png)
 
 ## 统计结果展示
 
 在统计分析页中，以条形图+表格小计的形式展示矩阵单选题的填答结果。
 
-![矩阵单选题统计结果](<../.gitbook/assets/image (546).png>)
+![矩阵单选题统计结果](../.gitbook/assets/Snipaste\_2023-10-13\_16-04-20.png)
 
