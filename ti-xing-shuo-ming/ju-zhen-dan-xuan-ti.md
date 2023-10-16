@@ -2,7 +2,7 @@
 
 矩阵单选题是将同类的多个问题和选项排列成一个矩阵，方便答题者对比后进行单项选择。
 
-![矩阵单选题](<../.gitbook/assets/image (494).png>)
+![矩阵单选题](../.gitbook/assets/Snipaste\_2023-10-16\_10-19-27.png)
 
 ## 【STEP 1】 新建矩阵单选题
 
@@ -33,6 +33,12 @@
 {% endhint %}
 
 ![“此题必答”功能](../.gitbook/assets/Snipaste\_2023-10-11\_16-34-29.png)
+
+### 在选项后增加填空框
+
+开启后，在选项后方增加填空框，勾选必填，用户须填写内容后才可提交，适用于用户选择其他项后，收集其他相关信息的场景
+
+<figure><img src="../.gitbook/assets/Snipaste_2023-10-16_10-42-27.png" alt=""><figcaption></figcaption></figure>
 
 ### 选项关联
 
