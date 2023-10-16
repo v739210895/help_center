@@ -8,15 +8,15 @@
 
 在问卷编辑页中，选择左侧题型控件中的“排序题”或在指定题目点击右侧快捷工具栏中的+按钮选择“排序题”即可创建排序题。
 
-![通过“题型”控件新建排序题](<../.gitbook/assets/image (608).png>)
+![通过“题型”控件新建排序题](../.gitbook/assets/Snipaste\_2023-10-16\_16-22-03.png)
 
-![在指定题目下方新建排序题](<../.gitbook/assets/image (803).png>)
+![在指定题目下方新建排序题](../.gitbook/assets/Snipaste\_2023-10-16\_16-22-30.png)
 
 ## 【STEP 2】编辑题目、备注内容
 
 题目及备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
-![排序题内容编辑](<../.gitbook/assets/image (709).png>)
+![排序题内容编辑](../.gitbook/assets/Snipaste\_2023-10-16\_16-23-37.png)
 
 ## 【STEP 3】题目设置
 
@@ -28,7 +28,7 @@
 所有题目默认开启“此题必答”功能。
 {% endhint %}
 
-![必答设置](<../.gitbook/assets/image (712).png>)
+![必答设置](../.gitbook/assets/Snipaste\_2023-10-16\_16-25-03.png)
 
 ### 逻辑设置
 
@@ -44,7 +44,7 @@
 仅支持关联单选题、多选题、下拉题的选项
 {% endhint %}
 
-![选项关联](<../.gitbook/assets/image (534).png>)
+![选项关联](../.gitbook/assets/Snipaste\_2023-10-16\_16-29-08.png)
 
 ### 数量限制
 
@@ -60,25 +60,25 @@
 
 选项随机排序是指答题时题目中的选项以随机顺序出现。开启“选项随机排序”功能后，题目的选项右侧会出现不随机的勾选框，若希望某个选项固定在当前位置，可在其后勾选“不随机”，则该选项不参与随机排序。
 
-![选项随机排序](<../.gitbook/assets/image (591).png>)
+![选项随机排序](../.gitbook/assets/Snipaste\_2023-10-16\_16-30-30.png)
 
 #### 选项随机正逆序
 
 选项随机正逆序是指答题时题目中的选项随机以正序/逆序出现。开启“选项随机正逆序”功能后，“选项随机正逆序”功能下方会出现“固定最后一个选项”功能开关，若希望最后一个选项固定在当前位置，可开启“固定最后一个选项”功能，则在答题端显示时最后一个选项不参与随机正逆序。
 
-![选项随机正逆序](<../.gitbook/assets/image (7) (1).png>)
+![选项随机正逆序](../.gitbook/assets/Snipaste\_2023-10-16\_16-31-04.png)
 
 #### 选项分组显示
 
 选项分组显示是指把选项自由划分为多个组别，答题时每个分组的选项随机抽出一个或多个显示，支持分组间随机排序显示。
 
-![选项分组显示](<../.gitbook/assets/image (142).png>)
+![选项分组显示](../.gitbook/assets/Snipaste\_2023-10-16\_16-31-52.png)
 
 ## 编辑页及答题端显示
 
 编辑完成后，在编辑页内可查看排序的显示样式。
 
-![编辑页显示](<../.gitbook/assets/image (88).png>)
+![编辑页显示](../.gitbook/assets/Snipaste\_2023-10-16\_16-49-21.png)
 
 ![答题端显示](<../.gitbook/assets/image (348).png>)
 
@@ -86,13 +86,13 @@
 
 在统计页的“答题数据”可查看每个答题者对本题选项的排序情况。
 
-![查看答题数据](<../.gitbook/assets/image (18).png>)
+![查看答题数据](../.gitbook/assets/Snipaste\_2023-10-16\_17-06-10.png)
 
 ## 统计结果展示
 
 在统计分析页中，可查看本题中各选项的排名情况。
 
-![统计结果展示](<../.gitbook/assets/image (45).png>)
+![统计结果展示](../.gitbook/assets/Snipaste\_2023-10-16\_17-05-19.png)
 
 {% hint style="info" %}
 综合排名计算方式
