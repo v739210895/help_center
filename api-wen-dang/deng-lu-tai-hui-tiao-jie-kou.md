@@ -144,7 +144,7 @@ business\_code必须是int16类型，即 -32768 \~ 32767
 https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callback=2**
 {% endhint %}
 
-![多个回调地址配置](<../.gitbook/assets/image (123).png>)
+![多个回调地址配置](../.gitbook/assets/Snipaste\_2023-10-17\_10-56-23.png)
 
 ## 3. 回调接口调试工具
 

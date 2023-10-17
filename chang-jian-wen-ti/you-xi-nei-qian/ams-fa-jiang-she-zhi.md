@@ -4,7 +4,7 @@
 
 系统支持AMS礼包发奖，可通过问卷设置—提交问卷后发奖功能实现；对于已对接AMS邮件发货功能的游戏，开启此功能时，用户提交问卷后，问卷系统可自动触发奖励发放。
 
-![提交问卷后发奖](<../../.gitbook/assets/image (483).png>)
+![提交问卷后发奖](../../.gitbook/assets/Snipaste\_2023-10-17\_10-49-44.png)
 
 <figure><img src="../../.gitbook/assets/企业微信截图_16811971304888.png" alt=""><figcaption><p>提示发奖成功效果</p></figcaption></figure>
 

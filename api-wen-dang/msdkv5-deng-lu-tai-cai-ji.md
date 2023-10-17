@@ -2,7 +2,7 @@
 
 对接了MSDK V5版本的APP，可在问卷设置的登录验证中选择【MSDK v5】登录功能；用户提交问卷时，问卷系统会自动获取MSDK的登录态（如gopenid）并存储在答题数据中。
 
-![配置MSDK v5自动登录所需要的参数](<../.gitbook/assets/image (28).png>)
+![配置MSDK v5自动登录所需要的参数](../.gitbook/assets/Snipaste\_2023-10-17\_10-52-41.png)
 
 ## 参数配置说明
 

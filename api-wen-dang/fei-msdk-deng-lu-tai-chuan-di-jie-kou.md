@@ -198,6 +198,6 @@ sign=ade962f5273a404f72aaabf544b14281
 
 需在问卷设置页面设置密钥，密钥支持自定义。
 
-![配置密钥](<../.gitbook/assets/image (68).png>)
+![配置密钥](../.gitbook/assets/Snipaste\_2023-10-17\_10-55-06.png)
 
 ## 4. 常见问题
