@@ -22,7 +22,9 @@
 
 在需要发奖的问卷中开启“提交问卷后发奖”功能，并配置AMS礼包单号、礼包组编号、业务缩写、AMS环境参数
 
-![配置发奖参数](<../.gitbook/assets/image (770).png>)
+若游戏内是使用的是gopenid发奖，则开启gopenid即可
+
+![配置发奖参数](../.gitbook/assets/Snipaste\_2023-10-17\_17-43-35.png)
 
 ### 【STEP 3】传递发奖参数
 
