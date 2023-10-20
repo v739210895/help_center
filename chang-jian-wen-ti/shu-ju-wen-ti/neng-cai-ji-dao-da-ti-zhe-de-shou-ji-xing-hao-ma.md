@@ -11,3 +11,7 @@ iPhone/iPad的机型并非所有情况下都能采集到，能否采集到取决
 {% endhint %}
 
 ![设备信息](<../../.gitbook/assets/image (159).png>)
+
+导出原始数据中硬件型号一列可以统计到答题者的设备硬件型号
+
+<figure><img src="../../.gitbook/assets/企业微信截图_16977683967653.png" alt=""><figcaption></figcaption></figure>
