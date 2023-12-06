@@ -59,7 +59,7 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 ![提交问卷后发奖](../../.gitbook/assets/Snipaste\_2023-10-08\_14-48-53.png)
 
 {% hint style="info" %}
-1. 仅支持已对接**邮件发货**功能的游戏（国内版）使用
+1. 仅支持已对接**邮件发货**功能的游戏使用
 2. 问卷务必开启[MSDK登录验证](da-ti-xian-zhi-she-zhi/#msdk-deng-lu-yan-zheng)/[参数传递（严格校验模式）](chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-yan-ge-xiao-yan-mo-shi)/[参数传递（不校验模式）](chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)以上任一功能
 3. 对每个答题者仅发奖一次；已成功发奖的答题者再次回答问卷后不可二次触发发奖
 {% endhint %}
@@ -69,7 +69,9 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 请在AMS接口平台—礼包仓库(mrms)，即道具仓库中配置AMS礼包单，以获取AMS礼包单号、礼包组编号。
 
 {% hint style="danger" %}
-注：使用渠道务必配置为 **MUR问卷发奖应用 \[IEG-AMS-11836]**
+注：**国内**使用渠道务必配置为 **MUR问卷发奖应用 \[IEG-AMS-11836]**
+
+&#x20;        **海外**使用渠道务必配置为 **MUR问卷发奖应用 \[IEG-AMS-4000046]**
 {% endhint %}
 
 ### 【STEP 2】发奖配置
@@ -108,7 +110,7 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 在游戏中投放问卷，答题者提交问卷后，问卷系统会自动触发调用AMS礼包单发奖（奖品名称显示为step1中所配置的礼包组名称）。
 
-<figure><img src="../../.gitbook/assets/企业微信截图_16811971304888 (1).png" alt=""><figcaption><p>游戏内填答后发奖成功提示</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Snipaste_2023-12-06_14-12-48.png" alt=""><figcaption><p>游戏内填答后发奖成功提示</p></figcaption></figure>
 
 ### 发奖记录查询
 
