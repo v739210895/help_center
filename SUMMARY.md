@@ -94,6 +94,7 @@
     * [答题详情示例及说明](api-wen-dang/kai-fang-jie-kou/da-ti-xiang-qing-can-shu-shuo-ming.md)
     * [题型字段说明](api-wen-dang/kai-fang-jie-kou/ti-xing-zi-duan-shuo-ming.md)
   * [开放接口（答题端）](api-wen-dang/kai-fang-jie-kou-da-ti-duan.md)
+  * [内嵌问卷SDK-原生接入指南](api-wen-dang/nei-qian-wen-juan-sdk-yuan-sheng-jie-ru-zhi-nan.md)
 * [API Docs](api-docs/README.md)
   * [Parameter Transfer Interface (Non-Verification Mode)](api-docs/parameter-transfer-interface-no-verification-mode.md)
   * [Callback Interface](api-docs/callback-interface.md)
