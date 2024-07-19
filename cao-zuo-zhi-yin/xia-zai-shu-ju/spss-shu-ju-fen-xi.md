@@ -40,7 +40,7 @@
 
 导入答题数据后，变量视图中的标签和值均为空，需要导入答题编码。
 
-![变量视图中的标签和值](<../../.gitbook/assets/image (22).png>)
+![变量视图中的标签和值](<../../.gitbook/assets/image (22) (1).png>)
 
 在STEP2已导入答题数据的基础上，点击“文件”-“打开”-“语法”，选择压缩包中解压出来的SPSS编码文件（.txt），打开。
 
@@ -62,4 +62,4 @@
 
 这是由于在“[**【STEP 2】导入答题数据**](spss-shu-ju-fen-xi.md#step-2-dao-ru-da-ti-shu-ju)”步骤中，对多选题/矩阵多选题的同一题n列未设置统一数据类型导致的。可按照下图提示，在SPSS数据编辑器的“变量视图”中，调整对应列的数据类型后，重新按“[**【STEP 3】导入答题编码**](spss-shu-ju-fen-xi.md#step-3-dao-ru-da-ti-bian-ma)”步骤操作。
 
-![调整数据类型  ](<../../.gitbook/assets/image (19).png>)
+![调整数据类型  ](<../../.gitbook/assets/image (19) (1).png>)
