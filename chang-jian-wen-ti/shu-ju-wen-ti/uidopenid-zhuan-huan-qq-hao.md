@@ -16,7 +16,7 @@ openid转QQ号，使用统一登录平台：[https://qqlogin.woa.com/](https://q
 
 QQ号/微信号转openid，使用业务受理系统：[http://ptzh.sap.cm.com/ajax/ajax.html](http://ptzh.sap.cm.com/ajax/ajax.html)
 
-![业务受理系统可以进行QQ号/微信号转openid的操作](<../../.gitbook/assets/image (16).png>)
+![业务受理系统可以进行QQ号/微信号转openid的操作](<../../.gitbook/assets/image (16) (1).png>)
 
 ## 附录    openid是什么：应用内用户身份的唯一标识
 
