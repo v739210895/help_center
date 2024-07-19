@@ -4,9 +4,9 @@ description: 编辑问卷时上传一张图片，需要问卷答题者在这个�
 
 # 热力图
 
-## 【STEP 1】 新建主观题 <a href="#step-1-xin-jian-zhu-guan-ti" id="step-1-xin-jian-zhu-guan-ti"></a>
+## 【STEP 1】 新建热力图 <a href="#step-1-xin-jian-zhu-guan-ti" id="step-1-xin-jian-zhu-guan-ti"></a>
 
-在问卷编辑页中，选择左侧题型控件中的“热力图”或在指定题目点击右侧快捷工具栏中的+按钮选择“热力图”即可新建主观题。
+在问卷编辑页中，选择左侧题型控件中的“热力图”或在指定题目点击右侧快捷工具栏中的+按钮选择“热力图”即可新建热力图。
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>通过“题型”控件新建热力图</p></figcaption></figure>
 
