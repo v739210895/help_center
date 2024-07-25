@@ -38,7 +38,7 @@ https://user.outweisurvey.com/v2/?sid=60d57b6eacb1fb323d61f772&gameid=11&os=1&ts
 
 INTL文档参考：
 
-【打开网页OpenUrl】[https://developers.intlgame.com/docs/intlsdk/zh/SDK/WebView/OpenUrl](https://developers.intlgame.com/docs/intlsdk/zh/SDK/WebView/OpenUrl)
+【打开网页OpenUrl】 [https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/OpenUrl](https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/OpenUrl)
 
 <figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>参数赋值说明</p></figcaption></figure>
 
@@ -46,7 +46,9 @@ INTL文档参考：
 
 MSDK文档参考：
 
-【获取加密票据GetEncryptUrl】[https://developers.intlgame.com/docs/intlsdk/SDK/WebView/GetEncryptUrl](https://developers.intlgame.com/docs/intlsdk/SDK/WebView/GetEncryptUrl)
+【获取加密票据GetEncryptUrl】
+
+[https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/GetEncryptUrl](https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/GetEncryptUrl)
 
 {% hint style="danger" %}
 **特别注意**
@@ -68,7 +70,7 @@ MSDK文档参考：
 
 INTL文档参考：【解密校验】
 
-[https://developers.intlgame.com/docs/intlsdk/Backend/Auth/decrypt\_aes](https://developers.intlgame.com/docs/intlsdk/Backend/Auth/decrypt\_aes)
+[https://docs.playernetwork.intlgame.com/docs/zh/API/Backend/Auth/decrypt\_aes](https://docs.playernetwork.intlgame.com/docs/zh/API/Backend/Auth/decrypt\_aes#interface)
 
 
 
