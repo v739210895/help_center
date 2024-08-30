@@ -16,7 +16,7 @@
 
 {% hint style="danger" %}
 1. 各参数的赋值请勿带分号;  斜杠/  百分号% ，支持数字、字母、下划线\_，横杠- 组合的字符串
-2. info和partition均为“自定义内容”，请勿时传入info和partition，否则其中一个参数的值会丢失。
+2. info和partition均为“自定义内容”，请勿同时传入info和partition，否则其中一个参数的值会丢失。
 {% endhint %}
 
 ![openid、channel、info会对应存储到导出数据的用户ID、渠道、自定义内容列](<../.gitbook/assets/image (713).png>)

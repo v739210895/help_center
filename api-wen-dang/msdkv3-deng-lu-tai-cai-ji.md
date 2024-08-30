@@ -37,6 +37,20 @@ A3E93E44F3270F19664D5499CA2990BE5BA9E232036197B184F1411B76CF95537AC07E3D6A27F054
 
 （2）当msdkEncodeParam参数无法正常解密登录态时，系统会直接获取openid参数值作为登录态。
 
+（3）如需获取自定义参数，可在链接后拼接“info”为自定义内容存储到答题数据中（非必选）
+
+<figure><img src="../.gitbook/assets/image (835).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+原始问卷链接 https://in.weisurvey.com/?sid=60ebdefe76051f6b8a37f782
+
+
+
+添加加密票据和info后的问卷链接 https://in.weisurvey.com/?sid=60ebdefe76051f6b8a37f782\&algorithm=itop\&encode=2\&gameid=12\&os=1\&ts=1542889299\&version=2.2.000.2607.2607\&seq=11-5d0f17db-ef1e-44cd-88d7-57b556cc63ce-53\&sig=eb6ee5ab9418d1c8e6400608815e76f2\&itopencodeparam=F5382C12988BADA6F659B443ACE9978C14DE1B62EB1274AEFDECC219DE635C2B\&info=xxx
+{% endhint %}
+
+
+
 ## 登录失败提示
 
 当系统无法获取正确的登录态时，会显示警告弹窗，主要导致失败的原因如下：
