@@ -6,7 +6,7 @@ description: 编辑问卷页面左侧，提供个人题库与公共题库，点�
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-点击题目后侧收藏按钮，可收藏题目到个人题库
+点击题目右侧收藏按钮，可收藏题目到个人题库
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
