@@ -24,8 +24,6 @@ description: 问卷编辑后，可通过点击检查tab切换到检查问卷模�
 
 开启检查模式后，问卷编辑页中已设置简单逻辑的单选题、多选题选项后会显示选中后显示的题目题号。
 
-{% hint style="info" %}
-仅支持简单逻辑检查，已启用组合逻辑的问卷将无法进行逻辑检查。
-{% endhint %}
+
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
