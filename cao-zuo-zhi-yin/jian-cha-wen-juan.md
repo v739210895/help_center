@@ -1,8 +1,24 @@
+---
+description: 问卷编辑后，可通过点击检查tab切换到检查问卷模式，以辅助问卷编辑者优化题目内容与调研方法，从而提升问卷的回收率和答题质量。
+---
+
 # 检查问卷
 
-问卷编辑后，可通过开启检查模式检查逻辑设置，以保证问卷内容的准确性。
+## 预估答题时长
 
-![检查模式](../.gitbook/assets/Snipaste\_2023-10-08\_14-58-04.png)
+计算方法：对符合逻辑条件的最长填答路径（题目数量最多）估算最终答题时长，根据过往问卷答题时长预估，仅供参考
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+## 检查和建议
+
+多维度检查与建议包含：矩阵子问题数量、主观题数量、人称代词一致性、题干重复、选项重复、只有一个选项、逻辑重复等
+
+点击相关题目题干，即可定位到题目进行修改
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ## 逻辑检查
 
@@ -12,4 +28,4 @@
 仅支持简单逻辑检查，已启用组合逻辑的问卷将无法进行逻辑检查。
 {% endhint %}
 
-![检查模式](../.gitbook/assets/Snipaste\_2023-10-08\_15-00-32.png)
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>

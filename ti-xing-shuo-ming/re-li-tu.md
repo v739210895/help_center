@@ -8,9 +8,9 @@ description: 编辑问卷时上传一张图片，需要问卷答题者在这个�
 
 在问卷编辑页中，选择左侧题型控件中的“热力图”或在指定题目点击右侧快捷工具栏中的+按钮选择“热力图”即可新建热力图。
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>通过“题型”控件新建热力图</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>通过“题型”控件新建热力图</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>在指定题目下方新建热力图</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>在指定题目下方新建热力图</p></figcaption></figure>
 
 ## 【STEP 2】编辑题目、备注内容 <a href="#step-2-bian-ji-ti-mu-bei-zhu-nei-rong" id="step-2-bian-ji-ti-mu-bei-zhu-nei-rong"></a>
 
@@ -18,7 +18,7 @@ description: 编辑问卷时上传一张图片，需要问卷答题者在这个�
 
 必须上传图片，才可发布问卷
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>热力图内容编辑</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>热力图内容编辑</p></figcaption></figure>
 
 ## 【STEP 3】题目设置 <a href="#step-3-ti-mu-she-zhi" id="step-3-ti-mu-she-zhi"></a>
 
@@ -26,7 +26,7 @@ description: 编辑问卷时上传一张图片，需要问卷答题者在这个�
 
 在右侧面板中关闭“此题必答”功能后，答题时此题可以跳过不作答。所有题目默认开启“此题必答”功能。
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 点选后评论
 
