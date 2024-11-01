@@ -36,14 +36,16 @@ mod\_id: `65080257` cmd\_id: `65536`
 
 ## 2. 签名算法
 
+### 2.1签名算法V1版本(不推荐)
+
 开放接口采用参数+密钥的方式生成接口签名sign，密钥由管理端进行配置，每份问卷可配置独立的密钥，保证数据安全性；密钥需在问卷编辑页选择【设置】-> 【API调用】中配置。
 
 **注意：**签名会对timestamp进行校验，生成超过10分钟的sign视为无效，需要重新生成。
 
-#### 2.1 算法流程
+#### 2.1.1 算法流程
 
 1. 提供必要参数（详情需要根据每个接口要求的参数），使用kv数据结构；
-2. 添加问卷ID参数sid到kv数据结构；
+2. 添加问卷ID参数 sid 到kv数据结构；
 3. 添加当前时间戳参数timestamp到kv数据结构；
 4. 添加appSecret作为签名密钥字段到kv数据结构；
 5. 对key进行按ascii升序排序；
@@ -57,7 +59,7 @@ mod\_id: `65080257` cmd\_id: `65536`
 【注】appSecret即查询密钥，在问卷的“设置”页配置。配置方法详见[API调用配置](../../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#api-tiao-yong)
 {% endhint %}
 
-#### 2.2 代码示例
+#### 2.1.2 代码示例
 
 ```php
 class Sign
@@ -174,6 +176,62 @@ class Sign
 
 }
 ```
+
+### 签名算法V2 版本(推荐)
+
+#### 2.2.1 算法流程
+
+1. 提供指定参数：sid(问卷 ID)、timestamp(当前毫秒时间戳)、algorithm\_version(签名算法版本，使用 "v2")，并且使用kv数据结构；
+2. 对key进行按ascii升序排序；
+3. 遍历排序后的kv数据结构，把所有元素，按照“key1value1key2value2”的模式拼接成字符串；
+4. 对拼接的数据库进行md5摘要，即可得sign签名；
+5. 添加sign作为签名字段到kv数据结构；
+6. 添加appSecret作为签名密钥字段到kv数据结构；
+7. 将kv数据结构转换成http的query/body 的请求参数；
+8. 带上请求参数调用登录态传递接口。
+
+#### 2.2.2 代码示例
+
+```go
+query = make(map[string]string)
+query["sid"] = input.Sid
+query["algorithm_version"] = input.AlgorithmVersion
+query["timestamp"] = strconv.Itoa(input.Timestamp)
+
+sign := MakeSign(query, input.Secret)
+
+// MakeSign 生成签名
+func MakeSign(data map[string]string, secret string) string {
+	str := MakeSignParamStr(data, secret)
+
+	sign := MD5(str)
+
+	return sign
+}
+
+// MakeSignParamStr 生成参数串
+func MakeSignParamStr(data map[string]string, secret string) string {
+	data["appSecret"] = secret
+
+	var keys = make([]string, 0)
+	for key := range data {
+		keys = append(keys, key)
+	}
+	sort.Strings(keys)
+
+	str := ""
+	for _, sortKey := range keys {
+		if data[sortKey] != "" {
+			str = str + sortKey + data[sortKey]
+		}
+	}
+	delete(data, "appSecret")
+
+	return str
+}
+```
+
+
 
 ## 3. 问卷内容接口
 
