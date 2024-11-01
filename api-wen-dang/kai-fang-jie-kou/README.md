@@ -36,7 +36,7 @@ mod\_id: `65080257` cmd\_id: `65536`
 
 ## 2. 签名算法
 
-### 2.1签名算法V1版本(不推荐)
+### 2.1 签名算法V1版本(不推荐)
 
 开放接口采用参数+密钥的方式生成接口签名sign，密钥由管理端进行配置，每份问卷可配置独立的密钥，保证数据安全性；密钥需在问卷编辑页选择【设置】-> 【API调用】中配置。
 
@@ -177,7 +177,7 @@ class Sign
 }
 ```
 
-### 签名算法V2 版本(推荐)
+### 2.2 签名算法V2 版本(推荐)
 
 #### 2.2.1 算法流程
 
@@ -194,11 +194,11 @@ class Sign
 
 ```go
 query = make(map[string]string)
-query["sid"] = input.Sid
-query["algorithm_version"] = input.AlgorithmVersion
-query["timestamp"] = strconv.Itoa(input.Timestamp)
+query["sid"] = "6718c32fa102ea95d00b2372"
+query["algorithm_version"] = "v2"
+query["timestamp"] = "1730442215"
 
-sign := MakeSign(query, input.Secret)
+sign := MakeSign(query, "xxx")
 
 // MakeSign 生成签名
 func MakeSign(data map[string]string, secret string) string {
