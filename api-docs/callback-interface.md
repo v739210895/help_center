@@ -94,7 +94,8 @@ The callback interface uses GET request.
 
 1. The optional parameters participate in encryption when it has a value, otherwise it will not.
 2. Unspecified parameters are not involved in encryption, please refer to: [Why do I receive callback parameters that are not specified in the document?](callback-interface.md#why-do-i-receive-callback-parameters-that-are-not-specified-in-the-document)
-3. If you use MSDK v3/v5, INTL to log in automatically, _info_ is only transparently transmitted as a common parameter, and does not participate in encryption, nor is it collected in the answer.
+
+
 
 
 
