@@ -2,7 +2,7 @@
 
 ## **答题数据列表（批量查询）**
 
-**请求方式: GET  \`**open/v1/answers/{sid}/{aid}\`
+**请求方式: GET  \`**&#x6F;pen/v1/answers/{sid}/{aid}\`
 
 ```cpp
 //https://survey.imur.tencent.com/open/v1/answers/60ebdefe76051f6b8a37f782?sign=cf8197406494facd323b50de97f3f3ba&timestamp=1631268187

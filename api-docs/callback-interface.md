@@ -36,8 +36,8 @@ Support public network callback and intranet L5 callback
 7. Return the status code.
 
 {% hint style="info" %}
-1. appSecret of Code example is the signature key, which is the same as the callback address, and is configured on the "Settings" page of the questionnaire.&#x20;
-2. Example of the spliced encrypted string _appSecretuIVtlG06callback\_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f 3_973timestamp1609408137uidtestuseruid\_sourcetestsourceuser\_typeweak\_third\_party
+1) appSecret of Code example is the signature key, which is the same as the callback address, and is configured on the "Settings" page of the questionnaire.&#x20;
+2) Example of the spliced encrypted string _appSecretuIVtlG06callback\_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f &#x33;_&#x39;73timestamp1609408137uidtestuseruid\_sourcetestsourceuser\_typeweak\_third\_party
 
 \[Note]&#x20;
 

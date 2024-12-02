@@ -15,7 +15,7 @@
 
 ### 1.3 交互流程
 
-![](../.gitbook/assets/login\_UML.jpg)
+![](../.gitbook/assets/login_UML.jpg)
 
 开发者仅需关注开发者服务器流程，重点关注签名以及登录重定向url的生成。
 
@@ -160,7 +160,7 @@ https://in.weisurvey.com/v2/?sid=60cfe98c76051f40495d32c2
 
 #### STEP 1 原始链接注入回调参数（非必要）
 
-https://in.weisurvey.com/v2/?sid=60cfe98c76051f40495d32c2**\&callback=3\&callback\_params=testparams**
+https://in.weisurvey.com/v2/?sid=60cfe98c76051f40495d32c&#x32;**\&callback=3\&callback\_params=testparams**
 
 #### STEP 2 拼接kv数据结构的字符串
 
@@ -198,6 +198,6 @@ sign=ade962f5273a404f72aaabf544b14281
 
 需在问卷设置页面设置密钥，密钥支持自定义。
 
-![配置密钥](../.gitbook/assets/Snipaste\_2023-10-17\_10-55-06.png)
+![配置密钥](../.gitbook/assets/Snipaste_2023-10-17_10-55-06.png)
 
 ## 4. 常见问题

@@ -37,8 +37,8 @@
 7. 返回状态码status。
 
 {% hint style="info" %}
-1. appSecret即回调密钥，和回调地址一样，在问卷的“设置”页配置。配置方法详见[登录态回调配置](../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#deng-lu-tai-hui-tiao-jie-kou)
-2. 拼接后的加密字符串示例 appSecretuIVtlG06callback\_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f3973timestamp1609408137uidtestuseruid\_sourcetestsourceuser\_typeweak\_third\_party 【注】只有默认参数和appSecret参与计算签名，值为空的默认参数和其他未说明的参数不参与加密计算。
+1) appSecret即回调密钥，和回调地址一样，在问卷的“设置”页配置。配置方法详见[登录态回调配置](../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#deng-lu-tai-hui-tiao-jie-kou)
+2) 拼接后的加密字符串示例 appSecretuIVtlG06callback\_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f3973timestamp1609408137uidtestuseruid\_sourcetestsourceuser\_typeweak\_third\_party 【注】只有默认参数和appSecret参与计算签名，值为空的默认参数和其他未说明的参数不参与加密计算。
 {% endhint %}
 
 可使用调试工具验证签名:
@@ -139,7 +139,7 @@ business\_code必须是int16类型，即 -32768 \~ 32767
 
 投放时**客户端**在问卷链接中注入callback参数，用以区分该次提交后回调到哪个回调地址中。最多可配置10个回调地址，具体回调到哪个实际由客户端指定。
 
-**注：**每次提交问卷仅能回调到一个地址中，若问卷链接未注入callback参数，默认回调到地址1。
+**注：**&#x6BCF;次提交问卷仅能回调到一个地址中，若问卷链接未注入callback参数，默认回调到地址1。
 
 {% hint style="info" %}
 如投放链接中注入callback的值为2，则提交后系统自动把登录态信息回调到回调地址2中
@@ -147,7 +147,7 @@ business\_code必须是int16类型，即 -32768 \~ 32767
 https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callback=2**
 {% endhint %}
 
-![多个回调地址配置](../.gitbook/assets/Snipaste\_2023-10-17\_10-56-23.png)
+![多个回调地址配置](../.gitbook/assets/Snipaste_2023-10-17_10-56-23.png)
 
 ## 3. 回调接口调试工具
 
