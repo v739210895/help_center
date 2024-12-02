@@ -1,2 +1,2 @@
-# &#x20;题型说明
+# Description of Question Types
 

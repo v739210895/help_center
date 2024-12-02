@@ -194,7 +194,7 @@
       * [创建空白问卷](user-guide-updating/cao-zuo-zhi-yin/chuang-jian-wen-juan/chuang-jian-kong-bai-wen-juan.md)
       * [问卷自动导入](user-guide-updating/cao-zuo-zhi-yin/chuang-jian-wen-juan/dao-ru-wen-juan/README.md)
         * [常见导入失败原因](user-guide-updating/cao-zuo-zhi-yin/chuang-jian-wen-juan/dao-ru-wen-juan/chang-jian-dao-ru-shi-bai-yuan-yin.md)
-  * [ 题型说明](user-guide-updating/ti-xing-shuo-ming/README.md)
+  * [Description of Question Types](user-guide-updating/ti-xing-shuo-ming/README.md)
     * [单选题](user-guide-updating/ti-xing-shuo-ming/dan-xuan-ti.md)
     * [下拉题](user-guide-updating/ti-xing-shuo-ming/xia-la-ti.md)
     * [多选题](user-guide-updating/ti-xing-shuo-ming/duo-xuan-ti.md)
