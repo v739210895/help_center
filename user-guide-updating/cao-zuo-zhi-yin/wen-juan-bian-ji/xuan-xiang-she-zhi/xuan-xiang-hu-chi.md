@@ -1,33 +1,34 @@
-# 选项互斥
+# Mutually Exclusive Options
 
-在多选题的题目编辑状态下，可设置互斥选项，当选项被设置为互斥选项后，在答题时选择了该互斥项就无法再选择该题目中别的选项。
+In the question editing state of a multiple-choice question, you can set mutually exclusive options. Once an option is set as mutually exclusive, selecting this option during the survey will prevent the selection of other options in the same question.
 
 {% hint style="info" %}
-从前序题目关联下来的选项不支持互斥设置。
+The options linked from the previous question do not support mutually exclusive settings.
 {% endhint %}
 
-## 设置互斥选项
+## Set mutually exclusive options
 
-#### 【STEP 1】启用互斥设置
+### 【STEP 1】Enable Mutex Settings
 
-在多选题的题目编辑状态下，右侧“题目设置”面板中启用“选项互斥”功能。
+In the editing state of a multiple-choice question, enable the "Mutually Exclusive Options" feature in the "Question Settings" panel on the right.
 
-![启用“选项互斥”功能](../../../../.gitbook/assets/Snipaste_2023-10-08_10-39-38.png)
+![Enable "Mutually Exclusive Options" feature](../../../../.gitbook/assets/Snipaste_2023-10-08_10-39-38.png)
 
-#### 【STEP 2】指定选项
+### 【STEP 2】Specify Options
 
-启用“选项互斥”功能后，该题每个选项后方显示“互斥”勾选框，勾选需设置为互斥选项的后方“互斥”勾选框，即完成设置。
+After enabling the "Option Mutually Exclusive" feature, a "Mutually Exclusive" checkbox will appear next to each option for this question. Check the "Mutually Exclusive" checkbox next to the options that need to be set as mutually exclusive to complete the setup.
 
-![勾选“互斥”勾选框](../../../../.gitbook/assets/Snipaste_2023-10-08_10-39-46.png)
+![Select the "Mutually Exclusive" checkbox](../../../../.gitbook/assets/Snipaste_2023-10-08_10-39-46.png)
 
-> **【示例】**
+> #### \[Example]
 >
-> 多选题Q1有选项A、B、C、D，选项C和D均被设置为互斥选项，则用户在答题时可能出现的情况为：AB、A、B、C、D。
+> Multiple-choice question Q1 has options A, B, C, and D. Options C and D are set as mutually exclusive options, so the possible situations when users answer the question are: AB, A, B, C, D.
 >
-> （即：若用户选了C，不可选择A、B、D中任意一项；若用户选了D，不可选择A、B、C中任意一项）
+> (i.e.: If the user selects C, they cannot choose any of A, B, or D; if the user selects D, they cannot choose any of A, B, or C)
 
-## 答题端显示
+### Survey Interface Display
 
-当用户选择了互斥选项后，其他选项为禁用不可选择状态。
+When the user selects a mutually exclusive option, the other options are disabled and cannot be selected.
 
-![选择互斥选项后其他选项被禁用](<../../../../.gitbook/assets/image (74).png>)
+![Other options are disabled after selecting a mutually exclusive option.](<../../../../.gitbook/assets/image (74).png>)
+

@@ -1,68 +1,68 @@
-# 选项随机
+# Options are random
 
-在题目编辑状态下，可设置选项随机，设置成功后，在答题端会根据所选择的随机方式显示选项。随机方式包括：随机排序、随机正逆序、分组显示。
+In the question editing state, options can be set to random. Once set successfully, the options will be displayed in the answer interface according to the chosen random method. The random methods include: random order, random forward and reverse order, and grouped display.
 
 {% hint style="info" %}
-从前序题目关联下来的选项不支持随机设置。
+Options linked from the previous question do not support randomization.
 {% endhint %}
 
-## 选项随机排序
+### Randomize options
 
-选项随机排序是指答题时题目中的选项以随机顺序出现。开启“选项随机排序”功能后，题目的选项右侧会出现不随机的勾选框，若希望某个选项固定在当前位置，可在其后勾选“不随机”，则该选项不参与随机排序。
+Random option order means that the options in a question appear in a random order when answering. After enabling the "Random option order" feature, a checkbox labeled "Not random" will appear on the right side of each option. If you want a specific option to remain in its current position, you can check "Not random" next to it, and that option will not be included in the random order.
 
-![选项随机排序](../../../../.gitbook/assets/Snipaste_2023-10-08_10-44-25.png)
+![Randomize options](../../../../.gitbook/assets/Snipaste_2023-10-08_10-44-25.png)
 
-## 选项随机正逆序
+### Randomize options
 
-选项随机正逆序是指答题时题目中的选项随机以正序/逆序出现。开启“选项随机正逆序”功能后，“选项随机正逆序”功能下方会出现“固定最后一个选项”功能开关，若希望最后一个选项固定在当前位置，可开启“固定最后一个选项”功能，则在答题端显示时最后一个选项不参与随机正逆序。
+Random forward and reverse order of options refers to the options in the question appearing in a random forward or reverse order when answering. After enabling the "Random forward and reverse order of options" feature, a "Fix the last option" toggle will appear below it. If you wish to keep the last option fixed in its current position, you can enable the "Fix the last option" feature, and the last option will not participate in the random forward and reverse order when displayed on the answering end.
 
-![选项随机正逆序](../../../../.gitbook/assets/Snipaste_2023-10-08_10-45-36.png)
+![Options randomly ordered in forward and reverse](../../../../.gitbook/assets/Snipaste_2023-10-08_10-45-36.png)
 
-## 选项分组显示
+### Grouped display of options
 
-选项分组显示是指把选项自由划分为多个组别，答题时每个分组的选项随机抽出一个或多个显示，支持分组间随机排序显示。
+Option grouping display refers to dividing the options into multiple groups freely. During the survey, one or more options from each group are randomly selected for display, and the options can be displayed in a random order among the groups.
 
-### 【STEP 1】开启功能
+### 【STEP 1】Enable the Feature
 
-开启“选项分组显示”功能后，“选项分组显示”功能下方会出现“设置”按钮，点击显示选项分组显示设置弹窗。
+After enabling the "Option Group Display" feature, a "Settings" button will appear below the "Option Group Display" feature. Click it to display the option group display settings popup.
 
-![选项分组显示设置](../../../../.gitbook/assets/Snipaste_2023-10-08_10-47-28.png)
+![Option Group Display Settings](../../../../.gitbook/assets/Snipaste_2023-10-08_10-47-28.png)
 
-### 【STEP 2】向分组添加选项/移出选项
+### \[STEP 2] Add options to/remove options from the group
 
-功能开启后默认有一个分组，在弹窗左侧勾选需要划分为同一个分组的选项，勾选后点击分组左侧的>按钮把已勾选的选项划分到分组中，划分后左侧自动显示“分组X”。
+After the feature is enabled, there will be a default group. On the left side of the pop-up window, check the options that need to be divided into the same group. After checking, click the > button on the left side of the group to divide the selected options into the group. After the division, "Group X" will automatically be displayed on the left side.
 
-![勾选选项](../../../../.gitbook/assets/Snipaste_2023-10-08_10-49-11.png)
+![Check the option](../../../../.gitbook/assets/Snipaste_2023-10-08_10-49-11.png)
 
-![分组内添加选项成功](../../../../.gitbook/assets/Snipaste_2023-10-08_10-49-20.png)
+![Option added successfully](../../../../.gitbook/assets/Snipaste_2023-10-08_10-49-20.png)
 
-勾选分组内的选项，点击该分组左侧的<按钮，即可把该分组内已勾选的选项移出分组，左侧栏重新显示该选项。
+Check the options within the group, click the button on the left side of the group, and the checked options within the group will be removed from the group, and the left sidebar will display the option again.
 
-![勾选选项移出分组](../../../../.gitbook/assets/Snipaste_2023-10-08_10-50-27.png)
+![Check option to remove from group](../../../../.gitbook/assets/Snipaste_2023-10-08_10-50-27.png)
 
-![移出分组成功](../../../../.gitbook/assets/Snipaste_2023-10-08_10-51-07.png)
+![Group creation successful](../../../../.gitbook/assets/Snipaste_2023-10-08_10-51-07.png)
 
-### 【STEP 3】设置显示选项数
+### 【STEP 3】Set the number of display options
 
-在每个分组上方可设置该组随机展示的选项数量，设置后答题时在该组内抽取X个选项按随机顺序展示。
+Above each group, you can set the number of options to be randomly displayed for that group. After setting, X options will be randomly selected within the group and displayed in random order during the survey.
 
-![设置随机展示选项数量](../../../../.gitbook/assets/Snipaste_2023-10-08_10-51-39.png)
+![Set random display option quantity](../../../../.gitbook/assets/Snipaste_2023-10-08_10-51-39.png)
 
-### 【STEP 4】添加分组
+### 【STEP 4】Add Group
 
-点击分组设置中的“添加分组”按钮，可在后方添加新的分组，添加新分组后按【STEP 2】和【STEP 3】中的步骤设置选项与显示选项数。
+Click the "Add Group" button in the Group Settings to add a new group at the end. After adding a new group, follow the steps in \[STEP 2] and \[STEP 3] to set the options and the number of display options.
 
-![添加分组](../../../../.gitbook/assets/Snipaste_2023-10-08_10-52-34.png)
+![Add Group](../../../../.gitbook/assets/Snipaste_2023-10-08_10-52-34.png)
 
-### 【STEP 5】分组间随机排序
+### \[STEP 5] Random Sorting Between Groups
 
-分组间支持随机排序显示，勾选“分组间随机排序”勾选框，在答题端显示时每个分组按随机顺序展示（分组内的随机显示不影响），未划分到任何分组的每个选项独立，参与分组间随机排序显示。
+Support for random sorting between groups: check the "Random Sorting Between Groups" checkbox, and each group will be displayed in a random order when shown on the answering side (random display within the group is not affected). Each option that is not assigned to any group will be independent and participate in the random sorting display between groups.
 
-![分组间随机排序](../../../../.gitbook/assets/Snipaste_2023-10-08_10-53-15.png)
+![Random Sorting Between Groups](../../../../.gitbook/assets/Snipaste_2023-10-08_10-53-15.png)
 
-### 【STEP 6】确定设置
+### 【STEP 6】Determine Settings
 
-点击确定后，答题端该题目的选项显示按分组间随机和组内随机抽取的设置显示。
+After clicking confirm, the options for the question on the answering end will be displayed according to the settings of random selection between groups and within groups.
 
 ###
 

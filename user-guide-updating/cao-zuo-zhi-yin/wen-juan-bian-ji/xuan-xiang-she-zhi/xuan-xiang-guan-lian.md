@@ -1,59 +1,60 @@
-# 选项关联
+# Option Association
 
-选项关联即让答题者选中（或未选中）的选项显示在下一题的可选项中，一般用于题目相关性极高的两题中或追问的情况。
-
-{% hint style="info" %}
-从前序题目关联下来的选项不支持设置填空、互斥或随机。
-{% endhint %}
-
-## 【STEP 1】显示设置弹窗
-
-在题目编辑状态下，点击右侧题目设置面板中“选项关联”右侧“设置”按钮，即显示选项关联设置弹窗。
-
-![选项设置关联弹窗](../../../../.gitbook/assets/Snipaste_2023-10-08_10-34-55.png)
-
-## 【STEP 2】新增关联/移除关联
-
-### 新增关联
-
-在选项关联设置弹窗中，点击“新增关联”按钮后，显示题目与选项设置下拉框。
-
-![新增关联](<../../../../.gitbook/assets/image (85).png>)
-
-![题目与选项设置下拉框](<../../../../.gitbook/assets/image (344).png>)
-
-
-
-点击展开题目下拉框，选择题目。
+Option association means that the selected (or unselected) options by the respondent will appear as options in the next question. This is generally used in cases where two questions are highly related or in follow-up questions.
 
 {% hint style="info" %}
-仅支持选择单选题/多选题/下拉题
+The options linked from the previous question do not support setting fill-in-the-blank, mutual exclusivity, or randomization.
 {% endhint %}
 
-![选择关联题目](../../../../.gitbook/assets/Snipaste_2023-10-08_10-35-28.png)
+### 【STEP 1】Display Settings Popup
+
+In the question editing state, click the "Settings" button next to "Option Association" in the question settings panel on the right, and the option association settings popup will appear.
+
+![Option Settings Association Pop-up](../../../../.gitbook/assets/Snipaste_2023-10-08_10-34-55.png)
+
+### 【STEP 2】 Add Association/Remove Association
+
+### Add Association
+
+In the options association settings popup, after clicking the "Add Association" button, a dropdown menu for question and option settings will be displayed.
+
+![Add Association](<../../../../.gitbook/assets/image (85).png>)
+
+![Dropdown for setting questions and options](<../../../../.gitbook/assets/image (344).png>)
 
 
 
-点击展开选项设置下拉框，选择“选中项”/“未选中项”。
+Click to expand the question dropdown menu and select a question.
 
-![关联项设置](<../../../../.gitbook/assets/image (475).png>)
+{% hint style="info" %}
+Only supports selecting single-choice /multiple-choice /drop-down&#x20;
+{% endhint %}
+
+![Select related questions](../../../../.gitbook/assets/Snipaste_2023-10-08_10-35-28.png)
 
 
 
-点击确定设置完成。
+Click to expand the options settings dropdown menu, and select "Selected Items" / "Unselected Items".
 
-![题目编辑状态下显示选项关联](../../../../.gitbook/assets/Snipaste_2023-10-08_10-36-59.png)
+![Association Settings](<../../../../.gitbook/assets/image (475).png>)
 
-### 移除关联
 
-在选项关联设置弹窗中点击 - 即可移除选项关联设置。
 
-![移除选项关联](<../../../../.gitbook/assets/image (388).png>)
+Click OK to complete the setup.
 
-![移除后题目编辑状态下的显示](../../../../.gitbook/assets/Snipaste_2023-10-08_10-38-02.png)
+![Display option association in question editing mode](../../../../.gitbook/assets/Snipaste_2023-10-08_10-36-59.png)
 
-## 答题端显示
+### Remove association
 
-设置选项关联后，答题时题目的选项会根据已设置所关联题目的选项情况改变。
+Click in the option association settings popup - to remove the option association settings.
 
-![答题端显示选项关联](<../../../../.gitbook/assets/image (242).png>)
+![Remove option association](<../../../../.gitbook/assets/image (388).png>)
+
+![Display after removing in edit mode](../../../../.gitbook/assets/Snipaste_2023-10-08_10-38-02.png)
+
+## Survey Interface Display
+
+After setting the option association, the options of the question will change according to the options of the associated question when answering.
+
+![The answer interface displays option association](<../../../../.gitbook/assets/image (242).png>)
+

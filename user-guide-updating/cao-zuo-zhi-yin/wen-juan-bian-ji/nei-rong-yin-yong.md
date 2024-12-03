@@ -1,51 +1,51 @@
-# 内容引用
+# Content citation
 
-在编辑问卷题目、备注或选项时，均支持引用前序题目的选中项、未选中项、填空内容。
+When editing survey questions, notes, or options, it supports referencing the selected items, unselected items, and fill-in-the-blank content of previous questions.
 
-<figure><img src="../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption><p>内容引用效果</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption><p>Content Citation Effect</p></figcaption></figure>
 
-## 设置引用内容
+### Set blockquote
 
-### **【STEP 1】指定插入内容引用的位置**
+### 【STEP 1】Specify the position to insert the content reference
 
-问卷编辑状态中，点击问卷题目、备注或选项文本编辑框后，左上方会展开富文本编辑工具，在富文本编辑工具中点击“引用设置”图标。
+In the survey editing mode, after clicking on the survey question, note, or option text editing box, a rich text editor tool will expand in the upper left corner. Click on the "Quote Settings" icon in the rich text editor tool.
 
-![在富文本编辑工具中点击“引用设置”图标](../../../.gitbook/assets/Snipaste_2023-10-08_11-14-24.png)
-
-
-
-### **【STEP 2】显示引用设置弹窗**
-
-点击“引用设置”图标后，将弹出引用设置的窗口，如下图。
-
-![引用设置弹窗](../../../.gitbook/assets/Snipaste_2023-10-08_11-15-03.png)
+![Click the "Quote Settings" icon in the rich text editor](../../../.gitbook/assets/Snipaste_2023-10-08_11-14-24.png)
 
 
 
-### **【STEP 3】**&#x6307;定引用内容
+### 【STEP 2】Display Citation Settings Popup
 
-在下拉框中指定需要引用的前序题目后，选择引用该题的选中项、未选中项或填空项，选择后点击右&#x4FA7;**“插入到下文”**&#x81EA;动生成标识。
+After clicking the "Citation Settings" icon, the Citation Settings window will pop up, as shown in the figure below.
+
+![Citation Settings Popup](../../../.gitbook/assets/Snipaste_2023-10-08_11-15-03.png)
+
+
+
+### 【STEP 3】Specify the reference content
+
+Specify the previous question to be referenced in the dropdown menu, then choose to reference the selected option, unselected option, or fill-in-the-blank item of that question. After making your selection, click "Insert into text below" on the right to automatically generate the identifier.
 
 {% hint style="danger" %}
-1. 仅支持引用前序的单选题/多选题/下拉题，其他题型不支持作为被引用题目。
+1. Only previous single-choice questions/multiple-choice questions/drop-down questions are supported for referencing, other question types are not supported as referenced questions.
 
-&#x20;   2\. 为避免显示错乱，请尽量避免编辑自动生成的标识内容。
+&#x20;   2\. To avoid display errors, please try to avoid editing the automatically generated label content.
 {% endhint %}
 
-![指定引用题目](../../../.gitbook/assets/Snipaste_2023-10-08_11-16-09.png)
+![Specify citation title](../../../.gitbook/assets/Snipaste_2023-10-08_11-16-09.png)
 
-![指定引用项](../../../.gitbook/assets/Snipaste_2023-10-08_11-17-01.png)
+![Designated citation](../../../.gitbook/assets/Snipaste_2023-10-08_11-17-01.png)
 
-![自动生成引用标识](../../../.gitbook/assets/Snipaste_2023-10-08_11-17-35.png)
+![Automatically generate citation identifiers](../../../.gitbook/assets/Snipaste_2023-10-08_11-17-35.png)
 
 {% hint style="info" %}
-### 引用标识语法说明
+Quotation Mark Syntax Explanation
 
-格式：\[Q数字题号:选项标识] &#x20;
+Format：\[Q:option identifier]
 
-如：\[Q4:blank-content]
+Such as：\[Q4:blank-content]
 
-### 选项标识
+Option Identifier
 
 **选中项** selected
 
@@ -56,23 +56,23 @@
 
 
 
-### **【STEP 4】**&#x8C03;整显示位置
+### 【STEP 4】Adjust Display Position
 
-引用标识可自由调整到文本中需要显示的位置，点击“确定”保&#x5B58;**，**&#x6587;本编辑栏中显示已插入的引用标识。
+The citation markers can be freely adjusted to the desired position in the text. Click "OK" to save, and the text editor will display the inserted citation markers.
 
-![调整显示位置](../../../.gitbook/assets/Snipaste_2023-10-08_11-18-15.png)
+![Adjust display position](../../../.gitbook/assets/Snipaste_2023-10-08_11-18-15.png)
 
-![编辑状态下显示已插入的引用标识](../../../.gitbook/assets/Snipaste_2023-10-08_11-18-51.png)
+![Citation markers inserted in edit mode](../../../.gitbook/assets/Snipaste_2023-10-08_11-18-51.png)
 
 
 
-## 答题端显示
+### Survey interface display
 
-已插入引用内容的题目、备注或选项，在答题端中会根据所引用的前序题目选项/填空内变化自动同步文本，多项时会自动用逗号，隔开。
+The titles, notes, or options with inserted references will automatically synchronize the text on the answering end according to the changes in the referenced previous question options/blank fields. When there are multiple references, they will be automatically separated by commas.
 
 <figure><img src="../../../.gitbook/assets/Snipaste_2023-10-08_11-21-49.png" alt=""><figcaption></figcaption></figure>
 
-![答题端动态同步引用内容](../../../.gitbook/assets/Snipaste_2023-10-08_11-20-58.png)
+![Dynamic synchronization of referenced content in the survey answering interface](../../../.gitbook/assets/Snipaste_2023-10-08_11-20-58.png)
 
 
 

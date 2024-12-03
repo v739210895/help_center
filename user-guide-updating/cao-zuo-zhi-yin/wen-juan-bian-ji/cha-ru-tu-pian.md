@@ -1,26 +1,26 @@
-# 插入图片
+# Insert Image
 
-在编辑问卷欢迎语、结束语、题目、备注或选项时，均支持使用插入图片功能。
+When editing the survey's welcome message, closing message, questions, notes, or options, the insert image function is supported.
 
 {% hint style="info" %}
-1. 上传的图片限制最大为5MB
-2. 支持支持GIF、JPG、PNG和BMP格式
-3. 尺寸不限
+1. The maximum upload limit for images is 5MB.
+2. Supports GIF, JPG, PNG, and BMP formats
+3. Size not limited
 {% endhint %}
 
-## 编辑状态下插入图片
+### Insert image in edit mode
 
-点击目标文字的编辑栏位置后上方出现富文本工具栏，点击“图片”图标后，可操作上传本地图片；插入后的图片可直接调整尺寸大小。
+After clicking the edit bar of the target text, a rich text toolbar will appear at the top. By clicking the "image" icon, you can upload local images. The inserted image can be directly resized.
 
-![富文本工具栏中点击插入图片](../../../.gitbook/assets/Snipaste_2023-10-10_16-37-46.png)
+![Click Insert Image in the rich text toolbar](../../../.gitbook/assets/Snipaste_2023-10-10_16-37-46.png)
 
-![支持调整图片尺寸](../../../.gitbook/assets/Snipaste_2023-10-10_16-38-01.png)
+![Support resizing images](../../../.gitbook/assets/Snipaste_2023-10-10_16-38-01.png)
 
-## 答题端显示图片
+### The survey interface displays images
 
-![移动答题端显示图片](<../../../.gitbook/assets/image (61).png>)
+![The mobile survey platform displays images.](<../../../.gitbook/assets/image (61).png>)
 
-![PC答题端显示图片](<../../../.gitbook/assets/image (571).png>)
+![PC answer terminal displays images](<../../../.gitbook/assets/image (571).png>)
 
-![PC答题端支持放大图片](<../../../.gitbook/assets/image (715).png>)
+![The PC quiz interface supports image zooming.](<../../../.gitbook/assets/image (715).png>)
 
