@@ -1,44 +1,42 @@
+---
+description: Edit option content
+---
+
 # 选项编辑
 
-## 编辑选项内容
+In the question editing mode, you can freely modify the text and font style of the options.
 
-在题目编辑状态下，可自由修改选项的文本及字体样式。
+### Modify the option text content
 
-### 修改选项文本内容
+1. Modify the text content of the options in the options edit box
 
-1. 在选项编辑框修改选项的文本内容
+![Directly modify in the option input box](<../../../.gitbook/assets/image (278).png>)
 
-![选项输入框中直接修改](<../../../.gitbook/assets/image (278).png>)
+&#x20;  2.Modify in the bulk edit options popup
 
-&#x20;  2.在批量修改选项弹窗中修改
+![Batch modify options](<../../../.gitbook/assets/image (196).png>)
 
-![批量修改选项](<../../../.gitbook/assets/image (196).png>)
+### Adjust the font style of the options
 
-### 调整选项字体样式
-
-选定文本后，点击富文本工具栏中的字体样式即把选中的文本改成对应的字体样式。文本样式包括：加粗、斜体、下划线、字体颜色。
+After selecting the text, click on the font style in the rich text toolbar to change the selected text to the corresponding font style. The text styles include: bold, italic, underline, and font color.
 
 ![选定文本后即可修改字体样式](../../../.gitbook/assets/Snipaste_2023-10-17_11-52-53.png)
 
-## 设置填空
+### Set Fill-in-the-Blanks
 
-在题目编辑状态下，可为指定选项设置填空框及该填空框是否必填；设置成功后，答题端的对应选项显示填空框及必填标记。
+In the question editing state, you can set fill-in-the-blank boxes for specified options and whether the fill-in-the-blank boxes are mandatory. Once set successfully, the corresponding options on the answering end will display fill-in-the-blank boxes and mandatory markers.
 
 {% hint style="info" %}
-从前序题目关联下来的选项不支持设置填空。
+Options linked from previous questions do not support setting fill-in-the-blank.
 {% endhint %}
 
-### 指定选项设置填空框
+### Specify option to set fill-in-the-blank box
 
-#### 【STEP 1】启用填空设置
+### 【STEP 1】Enable fill-in-the-blank setting
 
-在题目编辑状态下，右侧“题目设置”面板中开启“在选项后增加填空框”功能。
+In the question editing mode, enable the "Add fill-in-the-blank box after options" feature in the "Question Settings" panel on the right.
 
-![开启“在选项后增加填空框”功能](../../../.gitbook/assets/Snipaste_2023-10-08_10-27-49.png)
-
-【STEP 2】指定选项
-
-开启“在选项后增加填空框”功能后，该题每个选项后方显示“填空”勾选框，勾选需增加填空框的选项后方的“填空”勾选框后，该选项后会自动增加填空框。
+![Enable "add fill-in-the-blank box after options"](../../../.gitbook/assets/Snipaste_2023-10-08_10-27-49.png)
 
 ![勾选“填空”勾选框](../../../.gitbook/assets/Snipaste_2023-10-08_10-28-29.png)
 

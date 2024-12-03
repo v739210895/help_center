@@ -1,19 +1,19 @@
-# 题目设置
+# Survey Setup
 
-题目编辑状态下，在右侧面板“题目设置”可进行题目设置。
+In the question editing mode, you can configure question settings in the 'Question Settings' panel on the right-hand side.
 
-## 必答设置
+### Required setting
 
-在右侧面板中关闭“此题必答”功能后，答题时此题可以为空。
+Disable the "This question is mandatory" feature in the right panel to allow this question to be optional when answering.
 
 {% hint style="info" %}
-所有题目默认开启“此题必答”功能。
+All questions have the "mandatory" feature enabled by default.
 {% endhint %}
 
-![“此题必答”功能](../../../.gitbook/assets/Snipaste_2023-10-08_10-19-37.png)
+!["Required Question" feature.](../../../.gitbook/assets/Snipaste_2023-10-08_10-19-37.png)
 
-## 题型切换
+### Question Type Switching
 
-单选题、多选题、下拉题之间可进行题型切换，切换后已设置的填空、随机排序方式、是否必答功能不变。
+Single-choice questions, multiple-choice questions, and dropdown questions can be switched between question types. After switching, the settings for fill-in-the-blank, random order, and mandatory answer will remain unchanged.
 
-![题型切换](../../../.gitbook/assets/Snipaste_2023-10-08_10-20-35.png)
+![Question Type Switching](../../../.gitbook/assets/Snipaste_2023-10-08_10-20-35.png)

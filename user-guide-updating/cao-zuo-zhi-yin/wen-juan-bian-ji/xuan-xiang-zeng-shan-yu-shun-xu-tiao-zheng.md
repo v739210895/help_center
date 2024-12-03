@@ -1,50 +1,50 @@
-# 选项增删与顺序调整
+# Adding, Deleting, and Reordering Options
 
-## 添加选项
+### Add option
 
-添加选项方式包括：单个添加和批量添加。
+There are two ways to add options: adding individually and adding in bulk.
 
-### 添加单个选项
+### Add a single option
 
-题目编辑状态下，点击下方“添加单个选项”按钮即在最后一个选项的下方新增选项框。
+In the question editing state, clicking the "Add Single Option" button below will add a new option box below the last option.
 
-![添加单个选项](../../../.gitbook/assets/Snipaste_2023-10-17_11-46-14.png)
+![Add a single option](../../../.gitbook/assets/Snipaste_2023-10-17_11-46-14.png)
 
-![在最后新增选项框](../../../.gitbook/assets/Snipaste_2023-10-17_11-47-12.png)
+![Add an option box at the end](../../../.gitbook/assets/Snipaste_2023-10-17_11-47-12.png)
 
-### 批量添加选项
+### Bulk Add Options
 
-题目编辑状态下，点击下方“批量修改选项”按钮显示批量修改选项弹窗，可在编辑区中直接添加新选项，每行为一个选项，点击确定后自动生成到编辑状态下的选项框中。
+In the question editing state, clicking the "Batch Edit Options" button below will display the batch edit options popup. You can directly add new options in the editing area, with each line representing one option. After clicking confirm, the options will be automatically generated in the option box in the editing state.
 
-![在批量修改选项弹窗中通过换行新增选项](../../../.gitbook/assets/Snipaste_2023-10-17_11-48-30.png)
+![Add new options in the batch edit options popup by using line breaks](../../../.gitbook/assets/Snipaste_2023-10-17_11-48-30.png)
 
-![确定后自动生成新选项](../../../.gitbook/assets/Snipaste_2023-10-17_11-48-53.png)
+![Automatically generate new options after confirmation](../../../.gitbook/assets/Snipaste_2023-10-17_11-48-53.png)
 
-## 删除选项
+### Delete option
 
-### 单个删除选项
+### Delete single option
 
-点击指定选项后方的删除按钮删除该选项。
+Click the delete button next to the specified option to remove it.
 
-![直接删除](<../../../.gitbook/assets/image (243).png>)
+![Delete directly](<../../../.gitbook/assets/image (243).png>)
 
-### 批量删除选项  &#x20;
+### Bulk Delete Options  &#x20;
 
-在批量修改选项弹窗中删除该选项所在行
+Delete the row containing this option in the batch edit options popup
 
-![在批量修改选项弹窗中删除所在行](<../../../.gitbook/assets/image (196).png>)
+![Delete in the batch edit options popup](<../../../.gitbook/assets/image (196).png>)
 
-## 选项顺序调整
+### Reordering of options
 
-### 单选项拖拽调整顺序
+### Drag and drop to reorder single-choice options
 
-题目编辑状态下，鼠标移入选项文本框左侧可通过长按拖拽的方式调整选项顺序。
+In the question editing state, you can adjust the order of options by long-pressing and dragging when the mouse is hovered over the left side of the option text box.
 
-![鼠标点击拖拽](../../../.gitbook/assets/Snipaste_2023-10-08_10-24-45.png)
+![Mouse click and drag](../../../.gitbook/assets/Snipaste_2023-10-08_10-24-45.png)
 
-### 选项批量调整顺序
+### Batch Adjust Option Order
 
-在批量修改选项弹窗中调整选项顺序，每行为一个选项。
+In the bulk edit options dialog, adjust the order of options, with each line
 
-![在批量修改选项弹窗中调整顺序](<../../../.gitbook/assets/image (196).png>)
+![Adjust in the bulk edit options popup](<../../../.gitbook/assets/image (196).png>)
 

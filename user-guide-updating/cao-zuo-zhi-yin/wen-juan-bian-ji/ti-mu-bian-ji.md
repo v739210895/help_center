@@ -1,34 +1,34 @@
-# 题目编辑
+# Title Editing
 
-在题目编辑状态下，可自由修改题目的文本及字体样式。
+In the question editing mode, you can freely modify the text and font style of the question.
 
-## 修改题目文本内容
+### Modify the question text content
 
-在题目编辑状态下，可直接在题目编辑框修改题目的文本内容。
+In the question editing state, you can directly modify the text content of the question in the question editing box.。
 
-![修改题目内容](../../../.gitbook/assets/Snipaste_2023-10-08_10-12-02.png)
+![Modify the question text content](../../../.gitbook/assets/Snipaste_2023-10-08_10-12-02.png)
 
-## 调整题目字体样式
+### Adjust the font style of the title
 
-选定文本后，点击富文本工具栏中的字体样式即把选中的文本改成对应的字体样式。文本样式包括：加粗、斜体、下划线、字体颜色。
+After selecting the text, click on the font style in the rich text toolbar to change the selected text to the corresponding font style. Text styles include: bold, italic, underline, font color.
 
-![调整字体样式](../../../.gitbook/assets/Snipaste_2023-10-08_10-15-07.png)
+![Adjust font style](../../../.gitbook/assets/Snipaste_2023-10-08_10-15-07.png)
 
-## 修改备注文本内容
+### Modify the remarks text content
 
-在题目编辑状态下，可直接在备注编辑框修改备注的文本内容。
+In the question editing state, you can directly modify the text content of the note in the note editing box.
 
-![修改备注内容](../../../.gitbook/assets/Snipaste_2023-10-08_10-16-20.png)
+![Modify the remarks text content](../../../.gitbook/assets/Snipaste_2023-10-08_10-16-20.png)
 
-## 调整备注字体样式
+### Adjust the note font style
 
-选定文本后，点击富文本工具栏中的字体样式即把选中的文本改成对应的字体样式。文本样式包括：加粗、斜体、下划线、字体颜色。
+After selecting the text, click on the font style in the rich text toolbar to change the selected text to the corresponding font style. The text styles include: bold, italic, underline, and font color.
 
-![调整字体样式](../../../.gitbook/assets/Snipaste_2023-10-08_10-18-41.png)
+![Adjust the note font style](../../../.gitbook/assets/Snipaste_2023-10-08_10-18-41.png)
 
-## 插入其他内容
+### Insert other content
 
-题目与备注均支持插入图片、插入视频、插入超链接、引用前序题目选项内容的功能。
+Both questions and comments support the functionality of inserting images, inserting videos, inserting hyperlinks, and quoting content from previous question options.
 
 {% content-ref url="../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md" %}
 [cha-ru-tu-pian.md](../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)
