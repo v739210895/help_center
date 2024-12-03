@@ -1,122 +1,122 @@
-# 组合逻辑
+# Combinational Logic
 
-组合逻辑的规则为：该题目默认隐藏不予显示，当符合设定的条件时（如在Q2选中选项A），此题目显示；支持设置结束页（回收数据）与结束页（不回收数据）作为显示结果：当符合规定的条件时（如在Q2选中选项A），答题者点击下一页按钮后，跳到结束页。
+The rules of combinational logic are as follows: This question is hidden by default and will only be displayed when the set conditions are met (e.g., selecting option A in Q2). It supports setting an end page (data collected) and an end page (data not collected) as display results: When the specified conditions are met (e.g., selecting option A in Q2), the respondent will be directed to the end page after clicking the next page button.
 
-## 【STEP 1】新增逻辑
+## 【STEP 1】New logic added
 
-在问卷编辑页中切换至“组合逻辑”功能，点击“新增逻辑”按钮即可新建一条规则。
+Switch to the "Combined Logic" function on the survey editing page, and click the "Add Logic" button to create a new rule.
 
 ![](<../../../.gitbook/assets/image (244).png>)
 
-## 【STEP 2】设置显示结果
+## 【STEP 2】Set display results
 
-在新建的组合逻辑规则中需先设置显示结果题目，在弹窗中指定显示结果为题目、结束页（正常结束）、结束页（非正常结束，不回收数据）。
+In the newly created combination logic rules, you need to first set the display result question. In the pop-up window, specify the display result as a question, end page (normal end), or end page (abnormal end, data not collected).
 
 ![](<../../../.gitbook/assets/image (258).png>)
 
-### （1）设置结束页为显示结果
+### （1）Set the end page to display results
 
-设置后符合指定条件时，答题者点击该页的下一页按钮时跳到结束页。
+When the specified conditions are met, the respondent will be redirected to the end page upon clicking the next page button on that page.
 
 {% hint style="info" %}
-1、结束页（正常结束）和结束页（非正常结束，不回收数据）均只能被设置为显示结果一次，如需用多个条件控制结束页，请用or、and等规则关系处理。 &#x20;
+1、The end page (normal end) and the end page (abnormal end, no data collection) can only be set to display the results once. If you need to control the end page with multiple conditions, please use logical relationships such as "or" and "and". &#x20;
 
-&#x20;      eg：规则1设置**结束页（正常结束）**&#x4F5C;为显示结果后，规则2不可再设置**结束页（正常结束）**&#x4F5C;为显示结果。
+&#x20;      eg：After Rule 1 sets the end page (normal end) as the result display, Rule 2 can no longer set the end page (normal end) as the result display.
 
-2、结束页（非正常结束，不回收数据）指符合指定条件时，答题者点击该页的下一页按钮时跳到结束页，该份答题数据不回收。
+2、End page (abnormal end, data not collected) means that when the respondent meets the specified conditions and clicks the next page button on this page, they will be directed to the end page, and the response data will not be collected.
 {% endhint %}
 
 ![](<../../../.gitbook/assets/image (87).png>)
 
-### （2）设置题目为显示结果
+### （2）Set the question to display results
 
-设置后符合指定条件时，显示指定题目，可指定一个或多个题目。
+When the specified conditions are met after setting, the specified question(s) will be displayed. You can specify one or more questions.。
 
 {% hint style="info" %}
-每个题目仅允许被设置为显示结果一次，即规则1设置Q2作为显示结果后，规则2不可再设置Q2作为显示结果。
+Each question can only be set to display results once. If Rule 1 sets Q2 to display results, Rule 2 cannot set Q2 to display results again.
 {% endhint %}
 
 ![](<../../../.gitbook/assets/image (518).png>)
 
-### 设置结果后显示在页面
+### Display on the page after setting the results
 
-在设置显示结果弹窗中点击确定，显示到逻辑设置中。
+Click OK in the display results popup to show it in the logic settings.
 
 ![](<../../../.gitbook/assets/image (89).png>)
 
-再次点击该规则中的“设置显示结果”按钮即可修改已设置的显示结果。
+Click the "Set Display Result" button in this rule again to modify the already set display result.
 
-## 【STEP 3】设置显示条件
+## 【STEP 3】Set display conditions
 
-设置组合逻辑规则的显示条件，包括题目及具体条件。点击“设置条件”后在弹窗中选择题目、条件（选中/未选中/显示）、选项。
+Set the display conditions for the combination logic rules, including the questions and specific conditions. After clicking "Set Conditions," select the question, condition (selected/unselected/display), and options in the popup window.
 
 {% hint style="info" %}
-单选题、多选题、下拉题、量表题、矩阵单选题可设置条件包括：该题目是否显示、选中/未选中指定选项
+Single choice questions, multiple choice questions, dropdown questions, scale questions, and matrix single choice questions can have conditions set, including whether the question is displayed and whether specified options are selected or not selected.
 
-主观题、信息栏、联动题可设置条件包括：该题目是否显示
+Subjective questions, information fields, and linked questions can have conditions set, including whether the question is displayed.
 {% endhint %}
 
 ![](<../../../.gitbook/assets/image (232).png>)
 
-点击确定后，系统根据勾选的条件生成多条规则，如Q1选中选项A、Q1选中选项B、Q2显示、Q3未选中选项C等，显示在逻辑设置页面中。
+After clicking confirm, the system will generate multiple rules based on the selected conditions, such as Q1 option A selected, Q1 option B selected, Q2 displayed, Q3 option C not selected, etc., and display them on the logic settings page.
 
 ![](<../../../.gitbook/assets/image (642).png>)
 
-再次点击该规则中的“设置条件”按钮即可修改规则。
+Click the "Set Conditions" button in this rule again to modify the rule.
 
-## 【STEP 4】设置条件逻辑
+## 【STEP 4】Set Conditional Logic
 
-若【STEP 3】中设置了多个条件，默认为符合任一条件时显示结果的题目显示。选择规则中的“自定义条件”功能后，可通过连接条件：and、or与括号自由定义逻辑表达式（定义已添加多个条件的逻辑关系），当符合时会显示结果题目。
+If multiple conditions are set in \[STEP 3], the default is to display the question results when any one condition is met. After selecting the "Custom Conditions" function in the rules, you can freely define logical expressions by connecting conditions with: and, or, and parentheses (defining the logical relationship of multiple added conditions). When the conditions are met, the result question will be displayed.
 
 ![](<../../../.gitbook/assets/image (67).png>)
 
 ![](<../../../.gitbook/assets/image (507).png>)
 
 {% hint style="danger" %}
-### 【条件逻辑说明】
+### 【Conditional Logic Explanation】
 
-or 表示或者关系&#x20;
+or Indicates or relationship
 
-and 表示并且关系&#x20;
+and Representation and Relationship
 
-( ) 表示绑定计算
+( ) Indicating binding calculation
 
-条件数字和and或or操作符之间用空格隔开，操作符仅支持英文小写
+Separate conditional numbers and the and/or operators with spaces, and the operators only support lowercase English.
 {% endhint %}
 
-示例：1 and 2 and (3 or 4)&#x20;
+Example：1 and 2 and (3 or 4)&#x20;
 
-## 【STEP 5】删除逻辑
+## 【STEP 5】Delete logic
 
-点击指定规则右上角的删除按钮可对此条规则进行删除。
+Click the delete button at the top right corner of the specified rule to delete this rule.
 
 ![](<../../../.gitbook/assets/image (473).png>)
 
-## 【STEP 6】保存当前设置
+## 【STEP 6】Save current settings
 
-逻辑设置完成后，点击右上角的“保存”按钮即可对当前页面中所有的规则进行保存并应用。（正在回收的问卷不支持修改保存，若需修改规则，请先暂停回收）
+After the logic is set up, click the "Save" button in the upper right corner to save and apply all the rules on the current page. (Surveys that are being collected do not support modification and saving. If you need to modify the rules, please pause the collection first.)
 
 ![](<../../../.gitbook/assets/image (590).png>)
 
-## 常见问题
+### Frequently Asked Questions
 
-### 逻辑设置可以跨页吗？
+### Can the logic settings span across pages?
 
-可以。
+Yes, it is possible.
 
-逻辑设置中的显示结果题目和条件题目如果全部在一页中设置，会导致结果题目不断被显示（跳出来），影响用户视觉体验和答题流畅度。建议尽可能的跨页设置显示逻辑，尽量不要让外网用户感觉到题目在不断变化。
-
-
-
-### 为什么题目不能设置组合逻辑？
-
-每个题目仅能被设置为组合逻辑的显示结果一次，若已被设置过成为组合逻辑的显示结果题目，需要删除原规则后才能再次被设置。
+If the display result questions and conditional questions in the logic settings are all set on one page, it will cause the result questions to be continuously displayed (popping up), affecting the user's visual experience and the smoothness of answering the survey. It is recommended to set the display logic across pages as much as possible, to avoid making external users feel that the questions are constantly changing.
 
 
 
-### 为什么我的问卷会出现空白页？
+### Why can't the questions be set with combined logic?
 
-出现空白页一般是因为，该页的题目全部被设置为组合逻辑的显示结果题目，默认为隐藏状态未被显示出来。请认真梳理用户答题路径，确保每条路径都是畅通的。
+Each question can only be set as the display result of a combination logic once. If it has already been set as the display result of a combination logic, the original rule must be deleted before it can be set again.
+
+
+
+### Why does my survey show a blank page?
+
+A blank page usually appears because all the questions on that page are set as the display result of combined logic questions, and are hidden by default. Please carefully review the user’s answering path to ensure that every path is clear and unobstructed.
 
 
 

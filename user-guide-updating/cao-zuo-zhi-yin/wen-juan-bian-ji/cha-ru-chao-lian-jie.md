@@ -1,77 +1,77 @@
-# 插入超链接
+# Insert hyperlink
 
-## 插入超链接
+### Enter the hyperlink address in the edit boxEnter the hyperlink address in the edit boxEnter the hyperlink address in the edit boxEnter the hyperlink address in the edit boxwInsert hyperlink
 
-在编辑问卷标题、欢迎语、结束语、题目、备注或选项时，均支持在指定文字中插入超链接。
+When editing the survey title, welcome message, end message, questions, remarks, or options, it is possible to insert hyperlinks into the specified text.
 
-### **【STEP 1】**&#x9009;定文字
+### \[STEP 1] Select the text
 
-拖动选中目标文字后，点击编辑栏上方的富文本工具栏中“超链接”图标后，显示超链接编辑框。
+After selecting the target text by dragging, click the "Hyperlink" icon in the rich text toolbar above the editing bar to display the hyperlink editing box.
 
-![选中目标文字](../../../.gitbook/assets/Snipaste_2023-10-17_11-06-20.png)
+![Select target text](../../../.gitbook/assets/Snipaste_2023-10-17_11-06-20.png)
 
 
 
-### **【STEP 2】**&#x8F93;入链接
+### 【STEP 2】Enter the link
 
-在超链接编辑框中输入超链接地址。
+Enter the hyperlink address in the hyperlink edit box.
 
 {% hint style="info" %}
-超链接地址必须带有https://、http://等前缀。
+The hyperlink address must include prefixes such as https:// or http://.
 {% endhint %}
 
-![在编辑框中输入超链接地址](../../../.gitbook/assets/Snipaste_2023-10-17_11-08-11.png)
+![](../../../.gitbook/assets/Snipaste_2023-10-17_11-08-11.png)
 
 
 
-### **【STEP 3】**&#x4FDD;存
+### 【STEP 3】Save
 
-保存后已选定文字的显示为超链接样式。
+After saving, the selected text will be displayed as a hyperlink.
 
-![编辑状态下显示超链接](../../../.gitbook/assets/Snipaste_2023-10-17_11-08-44.png)
+![Display hyperlinks in edit mode](../../../.gitbook/assets/Snipaste_2023-10-17_11-08-44.png)
 
-## 编辑超链接
+### Edit hyperlink
 
 在指定文字中插入超链接后，支持多次修改超链接地址。
 
-### 【STEP 1】选定文字
+### \[STEP 1] Select Text
 
-在问卷编辑状态下，点击需修改的超链接显示文字后，下方显示该段文字所对应的超链接地址。
+In the survey editing mode, after clicking on the hyperlink text that needs to be modified, the corresponding hyperlink address for that text will be displayed below.
 
-![选定需修改的超链接文字](../../../.gitbook/assets/Snipaste_2023-10-17_11-09-19.png)
+![Select the hyperlink text to be modified](../../../.gitbook/assets/Snipaste_2023-10-17_11-09-19.png)
 
-### 【STEP 2】编辑
+### 【STEP 2】Edit
 
-点击超链接工具栏中的“Edit”编辑按钮，切换至超链接编辑模式，在显示的超链接地址栏输入新超链接地址。
+Click the "Edit" button in the hyperlink toolbar to switch to hyperlink editing mode, and enter the new hyperlink address in the displayed address bar.
 
-![点击超链接编辑按钮后切换至编辑模式](../../../.gitbook/assets/Snipaste_2023-10-17_11-09-25.png)
-
-
-
-### 【STEP 3】保存
-
-保存后已选定文字的显示为超链接样式，文字对应超链接地址更新为新的超链接地址。
-
-![编辑状态下显示超链接](<../../../.gitbook/assets/Snipaste_2023-10-17_11-08-44 (1).png>)
+![Switch to editing mode after clicking the hyperlink edit button.](../../../.gitbook/assets/Snipaste_2023-10-17_11-09-25.png)
 
 
 
-## 移除超链接
+### 【STEP 3】Save
 
-已插入超链接的文字支持移除超链接并保留文字的功能。
+After saving, the selected text will be displayed in hyperlink style, and the hyperlink address corresponding to the text will be updated to the new hyperlink address.
 
-### 【STEP 1】选定文字
+![Display hyperlink in edit mode](<../../../.gitbook/assets/Snipaste_2023-10-17_11-08-44 (1).png>)
 
-在问卷编辑状态下，点击需修改的超链接显示文字后，下方显示该段文字所对应的超链接地址。
 
-![选定需修改的超链接文字](<../../../.gitbook/assets/Snipaste_2023-10-17_11-09-19 (1).png>)
 
-### 【STEP 2】移除
+### Remove hyperlink
 
-点击超链接工具栏中的“删除”按钮后，自动删除已插入的超链接，已选定文字还原为普通文本样式。
+Text with inserted hyperlinks supports the functionality to remove hyperlinks while retaining the text.
 
-![移除超链接后文字还原为普通样式](../../../.gitbook/assets/Snipaste_2023-10-17_11-12-41.png)
+### 【STEP 1】Select the text
 
-## **答题端显示**
+In the survey editing mode, after clicking the hyperlink display text that needs to be modified, the corresponding hyperlink address for that text will be displayed below.
 
-![答题端显示超链接](<../../../.gitbook/assets/image (206).png>)
+![Select the hyperlink text to be modified](<../../../.gitbook/assets/Snipaste_2023-10-17_11-09-19 (1).png>)
+
+### 【STEP 2】Remove
+
+After clicking the "Delete" button in the hyperlink toolbar, the inserted hyperlink will be automatically removed, and the selected text will revert to normal text style.
+
+![After removing the hyperlink, the text reverts to normal style.](../../../.gitbook/assets/Snipaste_2023-10-17_11-12-41.png)
+
+### Survey Interface Display
+
+![The survey interface displays hyperlinks.](<../../../.gitbook/assets/image (206).png>)

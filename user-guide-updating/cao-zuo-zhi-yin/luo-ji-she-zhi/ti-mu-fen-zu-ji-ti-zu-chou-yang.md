@@ -1,67 +1,65 @@
-# 题目分组及题组抽样
+# Grouping of Questions and Sampling of Question Sets
 
-问卷系统支持对问卷题目进行分组，把问卷中的题目划分成多个题组。分组后可在“组合逻辑”中设置指定题组显示的前提条件，满足逻辑后才显示该题组；也可设置题组随机抽样，即在满足显示的题组中随机抽样显示n个，以减少答题者需回答的题目数量。
+The survey system supports grouping survey questions, dividing the questions into multiple question groups. After grouping, you can set the conditions for displaying specific question groups in the "combination logic". The question group will only be displayed if the conditions are met. You can also set random sampling for the question groups, meaning that n questions will be randomly sampled and displayed from the groups that meet the display conditions, reducing the number of questions the respondent needs to answer.
 
-## 题目分组
+### Question Grouping
 
-### STEP 1 添加分组
+### STEP 1 Add Group
 
-在“逻辑”——“题目分组”中，点击右上角“添加分组”可新建题目分组。
+In "Logic" - "Question Grouping", click "Add Group" in the top right corner to create a new question group.
 
-![添加分组](<../../../.gitbook/assets/image (586).png>)
+![Add Group](<../../../.gitbook/assets/image (586).png>)
 
-![给题目分组命名](<../../../.gitbook/assets/image (245).png>)
+![Name groups of questions](<../../../.gitbook/assets/image (245).png>)
 
-### STEP 2 把题目移入分组
+### STEP 2 Move the question into the group
 
-在左侧“问题大纲”中勾选题目，勾选后点击需要移入分组左侧的“>”移入按钮，题目被划分入指定分组。
-
-{% hint style="info" %}
-1. 一题仅能被分到一组。
-2. 矩阵单选题/矩阵多选题/矩阵量表题仅能整题分组。
-3. 支持仅分组问卷中的部分题目，未被分组的题目固定顺序显示。
-4. 题组内/外的题目，逻辑设置仍生效，需满足逻辑后题目才显示。
-{% endhint %}
-
-![指定题目移入分组](<../../../.gitbook/assets/image (324).png>)
-
-![指定题目分组完成](<../../../.gitbook/assets/image (152).png>)
-
-### STEP 3 分组完成，保存
-
-按步骤2把所需题目分成多组后，点击右上角“保存”。
-
-![最终分组效果](<../../../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
-
-
-
-## 分组随机抽样
-
-题目分组后，支持对题目设置随机抽样的数量，在满足显示条件的题组中随机抽取指定数量的题目展示。如满足显示条件的题组数量少于设定的随机抽取数量，则显示全部满足条件的题目。
-
-抽样机制为系统自动抽取，当答题样本量越大，每组样本的分布越平均。
-
-![分组随机抽样](<../../../.gitbook/assets/image (122).png>)
+Check the questions in the "Question Outline" on the left, then click the ">" button on the left side of the group you want to move them to. The questions will be assigned to the specified group.
 
 {% hint style="info" %}
-**特殊说明**
-
-为防止答题者多次刷新问卷猜题，系统底层对抽样机制有所限制：同一cookie信息下，题组抽样相对固定。
-
-（例：玩家A用QQ浏览器填答问卷，系统抽样题组3显示给玩家A作答。玩家A继续用此浏览器二次打开问卷时，系统仍向其显示题组3）
-
-如需测试检查题组抽样情况，请每次答题后更换浏览器或清除当前浏览器的cookie信息。
+1. A question can only be assigned to one group.
+2. Matrix single-choice questions/matrix multiple-choice questions/matrix scale questions can only be grouped as a whole.
+3. Support displaying only grouped survey questions in a fixed order, while ungrouped questions are displayed in a fixed sequence.
+4. For questions within/outside the question group, the logic settings still apply. The questions will only be displayed if the logic conditions are met.
 {% endhint %}
 
+![Move the specified question into the group](<../../../.gitbook/assets/image (324).png>)
+
+![Complete the grouping by topic](<../../../.gitbook/assets/image (152).png>)
+
+### STEP 3 Grouping completed, save
+
+After dividing the required items into multiple groups as per Step 2, click "Save" in the top
+
+![Final Grouping Results](<../../../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
 
 
-## 题组逻辑
 
-在“组合逻辑”中，可对指定题组设置逻辑显示条件，满足条件时，指定题组才能正常显示/进入随机抽样范围。
+### Cluster random sampling
 
-![设置题组为显示结果](<../../../.gitbook/assets/image (375).png>)
+After grouping the questions, it supports setting a random sampling number for the questions. A specified number of questions will be randomly selected from the question groups that meet the display conditions. If the number of question groups that meet the display conditions is less than the set random sampling number, all questions that meet the conditions will be displayed.
 
-![题组逻辑](<../../../.gitbook/assets/image (723).png>)
+The sampling mechanism is automatically performed by the system. As the number of survey responses increases, the distribution of each sample group becomes more even.
+
+![Cluster random sampling](<../../../.gitbook/assets/image (122).png>)
+
+\*\*Special Instructions\*\*
+
+To prevent respondents from refreshing the survey multiple times to guess questions, the system has certain limitations on the sampling mechanism: questions will appear relatively consistently for the same cookie information.
+
+(Example: If Player A uses QQ browser to fill out the survey, the system shows question set 3. If Player A opens the survey again using the same browser, the system will still show question set 3 to them.)
+
+To test and check the question sampling, please switch browsers or clear the current browser's cookie information after each attempt.&#x20;
+
+
+
+### Question set logic
+
+In "combination logic," you can set logical display conditions for specified question groups. Only when these conditions are met will the specified question groups be displayed normally or enter the random sampling range.
+
+![Set the question group to display results](<../../../.gitbook/assets/image (375).png>)
+
+![Question set logic](<../../../.gitbook/assets/image (723).png>)
 
 
 

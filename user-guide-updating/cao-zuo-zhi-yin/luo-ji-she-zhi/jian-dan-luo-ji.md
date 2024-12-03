@@ -1,41 +1,41 @@
-# 简单逻辑
+# Simple Logic
 
-简单逻辑：根据题目所选选项进行控制指定题目的显示或结束页跳转，适合题目量较少的情况或者是该题目选项较多时，可以在每个选项中设置控制不同的题目。
+Simple logic: Control the display of specific questions or the end page jump based on the options selected in the question. This is suitable for situations with a small number of questions or when the question has many options. You can set different questions to be controlled by each option.
 
-支持设置简单逻辑的题型：单选题、下拉题、多选题、量表题、矩阵单选题、矩阵多选题、矩阵量表题。
-
-{% hint style="info" %}
-1. 简单逻辑支持导入（仅支持**单选题**、**多选题**、**下拉题**导入逻辑），格式详见“[问卷自动导入](../../../cao-zuo-zhi-yin/chuang-jian-wen-juan/dao-ru-wen-juan/)”一节
-2. 被设置为显示结果的题目默认隐藏，答题者按逻辑设置选中指定选项后才显示
-3. 简单逻辑与组合逻辑功能仅可使用其一，启用组合逻辑后不可再编辑简单逻辑
-4. 启用组合逻辑后，系统将自动把已设置的简单逻辑转换为组合逻辑
-5. 若需使用or、and关系设置调研逻辑，请切换启用[组合逻辑](../../../cao-zuo-zhi-yin/luo-ji-she-zhi/zu-he-luo-ji.md)功能
-{% endhint %}
-
-## 【STEP 1】在指定题目中设置简单逻辑
-
-在问卷编辑页，把鼠标放在需要设置逻辑的题目上，右侧快捷工具栏出现简单逻辑设置按钮；或在题目编辑状态下的右侧题目设置栏点击“简单逻辑”设置按钮，打开简单逻辑设置弹窗。
-
-![快捷工具栏-简单逻辑](<../../../.gitbook/assets/image (102) (1).png>)
-
-![题目设置-简单逻辑](<../../../.gitbook/assets/image (565).png>)
-
-## 【STEP 2】设置简单逻辑（控制题目的显示）
-
-简单逻辑设置弹窗中，左侧为题目选项，右侧为问卷所有题目列表；选中左侧选项和右侧题目，表示用户选择了该选项后才显示右侧对应的题目，否则默认不显示右侧选中的题目
-
-![简单逻辑设置](<../../../.gitbook/assets/image (41).png>)
-
-## 【STEP 3】设置简单逻辑（控制结束页）
-
-用户答题时默认是按照1、2、3…页的默认顺序答题，在逻辑设置中，支持按照设定的逻辑在选中指定选项后跳到结束页（在答题者点击下一页时执行，若当页有其他题目，答题者需回答完其他已显示的题目）。
+Supports question types with simple logic settings: single choice questions, dropdown questions, multiple choice questions, scale questions, matrix single choice questions, matrix multiple choice questions, and matrix scale questions.
 
 {% hint style="info" %}
-默认：按已设置的默认顺序显示下一页
-
-结束页（正常结束）：选中指定选项后，答题者点击下一页时跳到结束页，答题数据正常回收
-
-结束页（非正常结束，不回收数据）：选中指定选项后，答题者点击下一页时跳到结束页，答题数据不回收
+1. Simple logic import is supported (only single-choice questions, multiple-choice questions, and dropdown questions logic import are supported). For the format, please refer to the "Survey Auto Import" section.
+2. Questions set to display results are hidden by default and will only be shown when respondents select specified options according to the logic settings.
+3. Only one of simple logic or combinational logic functions can be used. Once combinational logic is enabled, simple logic can no longer be edited.
+4. After enabling combinational logic, the system will automatically convert the set simple logic into combinational logic.
+5. To set survey logic using "or" and "and" relationships, please switch to enable the combination logic feature.
 {% endhint %}
 
-![简单逻辑设置](<../../../.gitbook/assets/image (634).png>)
+## 【STEP 1】Set simple logic in the specified question
+
+On the survey editing page, hover the mouse over the question that needs logic settings, and a simple logic setting button will appear on the right quick toolbar; or click the "Simple Logic" setting button on the right question settings bar in the question editing state to open the simple logic setting pop-up window.
+
+![Quick Toolbar - Simple Logic](<../../../.gitbook/assets/image (102) (1).png>)
+
+![Question Setup - Simple Logic](<../../../.gitbook/assets/image (565).png>)
+
+## 【STEP 2】Set Simple Logic (Control the Display of Questions)
+
+In the simple logic setup popup, the left side contains the question options, and the right side contains the list of all survey questions. Selecting an option on the left and a question on the right indicates that the question on the right will be displayed only after the user selects the corresponding option on the left; otherwise, the selected question on the right will not be displayed by default.
+
+![Simple Logic Setup](<../../../.gitbook/assets/image (41).png>)
+
+## 【STEP 3】Set Simple Logic (Control End Page)
+
+By default, users answer questions in the default order of pages 1, 2, 3, etc. In the logic settings, it is supported to jump to the end page after selecting a specified option according to the set logic (executed when the respondent clicks the next page; if there are other questions on the current page, the respondent needs to answer the other displayed questions).
+
+{% hint style="info" %}
+Default: Display the next page in the set default order
+
+End page (normal end): After selecting the specified option, the respondent will jump to the end page when clicking the next page, and the survey data will be normally collected.
+
+End page (abnormal termination, data not collected): After selecting the specified option, the respondent will be directed to the end page when clicking next, and the survey data will not be collected.
+{% endhint %}
+
+![Simple Logic Setup](<../../../.gitbook/assets/image (634).png>)

@@ -1,37 +1,37 @@
-# 覆盖导入
+# Overlay Import
 
-如果您已经有设计好的EXCEL问卷，可以使用”覆盖导入“功能在已创建问卷中进行问卷导入，导入后原问卷的投放链接不变，原问卷内容、逻辑设置和已回收答卷数据被清空。
+If you already have a designed EXCEL survey, you can use the "Overwrite Import" feature to import the survey into an already created survey. After importing, the original survey's distribution link remains unchanged, but the original survey content, logic settings, and collected response data will be cleared.
 
-## 【STEP 1】在EXCEL编辑问卷内容
+## 【STEP 1】Edit the survey content in EXCE
 
-可提前在EXCEL中编辑问卷，包括：问卷基本信息（项目名称、产品名称、问卷标题、欢迎语、结束语）、题目与选项内容（含字体样式）、题目设置、分页设置等。
+The survey can be edited in advance in EXCEL, including: basic survey information (project name, product name, survey title, welcome message, closing message), question and option content (including font styles), question settings, pagination settings, etc.
 
-![EXCEL编辑问卷内容](<../../../.gitbook/assets/image (30).png>)
+![Edit survey content in EXCEL](<../../../.gitbook/assets/image (30).png>)
 
 {% hint style="info" %}
-1. 若excel中包含多份问卷，覆盖导入时仅识别第一份问卷
-2. excel中编辑问卷的格式规范详见“[格式规范](https://imur.gitbook.io/help_center/cao-zuo-zhi-yin/chuang-jian-wen-juan/dao-ru-wen-juan#ge-shi-gui-fan)”
+1. If the Excel file contains multiple surveys, only the first survey will be recognized during import.
+2. For detailed format specifications on editing surveys in Excel, please refer to the "Format Specifications".
 {% endhint %}
 
-## 【STEP 2】覆盖导入
+## 【STEP 2】Overlay Import
 
-在需要进行覆盖导入的问卷编辑页中，点击右上角的“覆盖导入”按钮，选择需要导入的excel文件。
+On the survey editing page where a coverage import is required, click the "Coverage Import" button in the upper right corner and select the Excel file to be imported.
 
 {% hint style="danger" %}
-1. 仅支持“暂停回收”状态的问卷进行覆盖导入，正在回收/正在审核的问卷在覆盖导入前需先暂停回收/撤销审核
-2. 覆盖导入后原问卷的问卷内容、逻辑设置与已回收答卷数据会被清空，请谨慎操作
+1. Only surveys with the "Pause Collection" status support overlay import. Surveys that are currently being collected or under review must be paused or the review must be revoked before overlay import.
+2. After importing, the content, logic settings, and collected responses of the original survey will be cleared. Please proceed with caution.
 {% endhint %}
 
-![覆盖导入](../../../.gitbook/assets/Snipaste_2023-10-17_11-17-24.png)
+![Overlay import](../../../.gitbook/assets/Snipaste_2023-10-17_11-17-24.png)
 
-## 【STEP 3】确认基本信息
+## 【STEP 3】Confirm basic information
 
-上传EXCEL文件后，系统会自动识别问卷内容，已上传的问卷支持重新上传与调整项目名称、产品名称、问卷标题。
+After uploading the EXCEL file, the system will automatically recognize the survey content. The uploaded survey supports re-uploading and adjusting project names, product names, and survey titles.
 
-![上传问卷成功](../../../.gitbook/assets/Snipaste_2023-10-17_11-18-03.png)
+![Survey uploaded successfully](../../../.gitbook/assets/Snipaste_2023-10-17_11-18-03.png)
 
-## 【STEP 4】生成问卷&#x20;
+## 【STEP 4】Generate survey&#x20;
 
-确认问卷信息后，点击“覆盖导入”即可在当前问卷中导入excel中的问卷内容，显示在编辑页中。
+After confirming the survey information, click "Overwrite Import" to import the survey content from the excel file into the current survey, which will be displayed on the editing page.
 
-![覆盖导入完成](../../../.gitbook/assets/Snipaste_2023-10-17_11-18-47.png)
+![Overlay import completed](../../../.gitbook/assets/Snipaste_2023-10-17_11-18-47.png)
