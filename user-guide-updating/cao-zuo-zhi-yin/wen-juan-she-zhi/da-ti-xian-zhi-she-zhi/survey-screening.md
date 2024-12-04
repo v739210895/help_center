@@ -1,4 +1,4 @@
-# 答卷甄别
+# Survey Screening
 
 The system provides a survey screening function, applicable scenarios: After players submit, the system automatically excludes samples that do not meet the specified conditions. In the online answer data view/export data, unqualified samples are marked as invalid.
 
@@ -51,16 +51,16 @@ Q9 Sandbox game time selected less than 5 hours
 
 ## 【STEP] Save
 
-After setting all the conditions, click "Save Conditions" at the top right corner to complete.View data
+After setting all the conditions, click "Save Conditions" at the top right corner to complete.
 
 <figure><img src="../../../../.gitbook/assets/image (401).png" alt=""><figcaption></figcaption></figure>
 
-## 【STEP 3】查看数据
+## 【STEP 3】View data
 
-开始回收后，页面会显示被过滤掉的无效答卷总数。
+Once the collection starts, the page will show the total number of invalid
 
 <figure><img src="../../../../.gitbook/assets/image (422).png" alt=""><figcaption></figcaption></figure>
 
-前往[在线查看答题数据](../../../../cao-zuo-zhi-yin/tong-ji-fen-xi/da-ti-shu-ju-zai-xian-cha-kan.md) 或 [导出数据](../../../../cao-zuo-zhi-yin/xia-zai-shu-ju/)，可查看被过滤的答题记录。
+Go to the[在线查看答题数据](../../../../cao-zuo-zhi-yin/tong-ji-fen-xi/da-ti-shu-ju-zai-xian-cha-kan.md) or [导出数据](../../../../cao-zuo-zhi-yin/xia-zai-shu-ju/)，filtered survey responses can be viewed
 
 <figure><img src="../../../../.gitbook/assets/image (403).png" alt=""><figcaption></figcaption></figure>
