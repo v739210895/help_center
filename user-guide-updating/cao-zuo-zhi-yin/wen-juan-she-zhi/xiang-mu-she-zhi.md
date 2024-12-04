@@ -1,92 +1,90 @@
-# 项目设置
+# Project Settings
 
-在“问卷设置”的“项目设置”项中可补充完整项目信息，包括所属产品、问卷负责人、问卷设计人、问卷关注人、提示语言。
+In the "survey settings" under "project settings," you can complete the project information, including the associated product, survey manager, survey designer, survey followers, and prompt language.
 
-![问卷设置](../../../.gitbook/assets/Snipaste_2023-10-08_11-44-17.png)
-
-{% hint style="info" %}
-1. 问卷首次开始回收/提交审核前，需补充完整所属产品和负责人信息
-2. 负责人请填写项目对接的**用研经理**
-3. 用研经理创建问卷后，默认成为问卷负责人
-{% endhint %}
-
-## 设置负责人
-
-负责人即本问卷的其他管理员，负责人拥有该问卷最高的权限，且该问卷出现在他的“我的问卷”列表中，从而实现该问卷的协同编辑及管理。
-
-在“设置”页可设置指定问卷的负责人，在输入框中输入用户的RTX账号或姓名后自动搜索匹配的用户，选择后即设置负责人成功。
+![Survey settings](../../../.gitbook/assets/Snipaste_2023-10-08_11-44-17.png)
 
 {% hint style="info" %}
-1.负责人输入框支持模糊搜索。
-
-2\. 仅**用研经理**可被设置为问卷负责人。
-
-3.每份问卷支持设置多名负责人，至少保留一名负责人。
-
-4.若多名用户同时编辑/设置同一份问卷，以最后保存的一份问卷内容为准。
+1. Before the survey is first collected/submitted for review, the information of the associated product and the person in charge needs to be completed.
+2. The person in charge, please fill in the user research manager for project coordination
+3. After the UX research manager creates a survey, they automatically become the survey owner.
 {% endhint %}
 
-![设置负责人](../../../.gitbook/assets/Snipaste_2023-10-08_11-49-59.png)
+Head of Settings
 
-![新问卷提示设置负责人](<../../../.gitbook/assets/image (116).png>)
+The person in charge, also known as the other administrators of this survey, has the highest authority over the survey. The survey appears in their "My Surveys" list, enabling collaborative editing and management of the survey.
 
-## 设置关注人
+On the "Settings" page, you can designate the person in charge of a specific survey. After entering the user's RTX account or name in the input box, it will automatically search for matching users. Once selected, the person in charge will be successfully set.
 
-关注人即本问卷的普通用户，支持为关注人分配指定权限，且该问卷出现在他的“我的问卷”列表中，从而实现该问卷的协同编辑及管理。
+{% hint style="info" %}
+
+
+1. The person-in-charge input box supports fuzzy search.
+2. Only the research manager can be designated as the survey leader.
+3. Each survey can have multiple persons in charge, with at least one person in charge being mandatory.
+4. If multiple users edit/set the same survey simultaneously, the content of the last saved survey will prevail.
+{% endhint %}
+
+![Head of Setup](../../../.gitbook/assets/Snipaste_2023-10-08_11-49-59.png)
+
+![New survey prompt settings manager](<../../../.gitbook/assets/image (116).png>)
+
+### Set up a follower
+
+The focus person is the regular user of this survey, supporting the assignment of specific permissions to the focus person. This survey will appear in their "My Surveys" list, enabling collaborative editing and management of the survey.
 
 {% hint style="danger" %}
-1. 仅问卷负责人可添加关注人并为其分配权限
-2. 为避免敏感数据泄露，请谨慎分配“**答题数据**”和“**导出数据**”权限
+1. Only the survey administrator can add followers and assign permissions to them.
+2. To avoid sensitive data leakage, please be cautious when assigning "survey data" and "export data" permissions.
 {% endhint %}
 
-![添加关注人](../../../.gitbook/assets/Snipaste_2023-10-08_11-51-03.png)
+![Add Follower](../../../.gitbook/assets/Snipaste_2023-10-08_11-51-03.png)
 
-## 设计人
+Designer
 
-问卷设计人即问卷的设计者，问卷设计人角色不可查看及编辑该问卷，本功能仅用于记录问卷设计者。
+The survey designer, who is the creator of the survey, cannot view or edit the survey. This function is only used to record the survey designer.
 
-可设置指定问卷的设计人，在设计人输入弹窗中输入设计者的RTX账号或姓名后自动搜索匹配的用户，选择后即设置设计人成功。
+You can set a specific designer for the survey. In the designer input pop-up window, after entering the designer's RTX account or name, it will automatically search for matching users. Once selected, the designer is successfully set.
 
 {% hint style="info" %}
-1.设计人输入框的自动搜索支持模糊搜索。
 
-2.每份问卷仅支持设置一名设计人。
+
+1. The designer input box supports fuzzy search for automatic searching.
+2. Each survey can only have one designer.
 {% endhint %}
 
-![添加设计人](../../../.gitbook/assets/Snipaste_2023-10-08_11-51-35.png)
+![Add Designer](../../../.gitbook/assets/Snipaste_2023-10-08_11-51-35.png)
 
-## 提示语言
+### Prompt language
 
-提示语言指的是，在答题端中显示的提示语语种，默认为中文简体，可根据实际需要设置其他语种。
+The prompt language refers to the language used for prompts displayed on the answering interface. The default is Simplified Chinese, but other languages can be set according to actual needs.
 
-<figure><img src="../../../.gitbook/assets/企业微信截图_16967377362363.png" alt=""><figcaption><p>答卷语言设置</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/企业微信截图_16967377362363.png" alt=""><figcaption><p>Survey Language Settings</p></figcaption></figure>
 
-{% hint style="info" %}
-提示语支持语种：
+Supported Languages:
 
-* 中文简体-中文简体&#x20;
-* 中文繁体-中文繁體&#x20;
-* 英语-English&#x20;
-* 阿拉伯语-العربية&#x20;
-* 德语-Deutsch&#x20;
-* 俄语-Pусский&#x20;
-* 法语-Français&#x20;
-* 菲律宾语-Filipino&#x20;
-* 韩语-한국어&#x20;
-* 高棉语-ខ្មែរ។&#x20;
-* 马来语-Bahasa Melayu
-* 孟加拉语-বাংলা
-* 葡萄牙语-Português&#x20;
-* 日语-日本語&#x20;
-* 泰语-ภาษาไทย&#x20;
-* 土耳其语-Türkçe&#x20;
-* 乌尔都语-اردو‎
-* 西班牙语-Español&#x20;
-* 意大利语-Italiano&#x20;
-* 印地语-हिन्दी&#x20;
-* 印尼语-Bahasa Indonesia&#x20;
-* 越南语-Tiếng Việt
-{% endhint %}
+* Simplified Chinese - 中文简体
+* Traditional Chinese - 中文繁體
+* English - English
+* Arabic - العربية
+* German - Deutsch
+* Russian - Pусский
+* French - Français
+* Filipino - Filipino
+* Korean - 한국어
+* Khmer - ខ្មែរ
+* Malay - Bahasa Melayu
+* Bengali - বাংলা
+* Portuguese - Português
+* Japanese - 日本語
+* Thai - ภาษาไทย
+* Turkish - Türkçe
+* Urdu - اردو‎
+* Spanish - Español
+* Italian - Italiano
+* Hindi - हिन्दी
+* Indonesian - Bahasa Indonesia
+* Vietnamese - Tiếng Việt \{%
 
 
 

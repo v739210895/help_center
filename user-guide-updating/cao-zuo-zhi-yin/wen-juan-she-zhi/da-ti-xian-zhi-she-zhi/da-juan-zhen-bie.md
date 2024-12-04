@@ -1,62 +1,55 @@
 # 答卷甄别
 
-系统提供答卷甄别功能，适用场景：玩家提交后系统自动按指定条件把不符合要求的样本剔除，[在线查看答题数据](../../../../cao-zuo-zhi-yin/tong-ji-fen-xi/da-ti-shu-ju-zai-xian-cha-kan.md)/[导出数据](../../../../cao-zuo-zhi-yin/xia-zai-shu-ju/)中，不合格样本被标记为无效。
+The system provides a survey screening function, applicable scenarios: After players submit, the system automatically excludes samples that do not meet the specified conditions. In the online answer data view/export data, unqualified samples are marked as invalid.
 
-<figure><img src="../../../../.gitbook/assets/Snipaste_2024-01-29_09-15-21.png" alt=""><figcaption><p>答卷甄别</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Snipaste_2024-01-29_09-15-21.png" alt=""><figcaption><p>Survey Screening</p></figcaption></figure>
 
 {% hint style="warning" %}
-**特殊说明**
+Special Instructions
 
-1、设置甄别条件必须在**投放前**，投放前务必确认所设置的甄别条件无误。
-
-2、如投放过程中修改甄别条件，新回收部分的数据将按照新调整的甄别条件过滤，已回收部分的数据不会改变
+1. The screening criteria must be set before the survey is launched, and it is essential to confirm that the set screening criteria are correct before launching.
+2. If the screening criteria are modified during the survey distribution process, the newly collected data will be filtered according to the newly adjusted screening criteria, while the already collected data will remain unchanged.
 {% endhint %}
 
-## 【STEP 1】设置条件
+## 【STEP 1】Set Conditions
 
-在“设置”-“答题限制”中，启用“答卷甄别”设置入口。
+In "Settings" - "Response Restrictions", enable the "Survey Screening" setting entry.
 
-<figure><img src="../../../../.gitbook/assets/Snipaste_2024-01-29_09-18-15.png" alt=""><figcaption><p>功能入口</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Snipaste_2024-01-29_09-18-15.png" alt=""><figcaption><p>Function Entry</p></figcaption></figure>
 
-进入页面后，点击右上角“新增条件”或“”添加第一个条件”即可创建一条新的甄别条件。
+After entering the page, click on "Add New Condition" in the upper right corner or "Add First Condition" to create a new screening condition.
 
-### 创建甄别条件
+### Create screening criteria
 
-<figure><img src="../../../../.gitbook/assets/Snipaste_2024-01-29_09-20-22.png" alt=""><figcaption><p>创建甄别条件</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Snipaste_2024-01-29_09-20-22.png" alt=""><figcaption><p>Create screening criteria</p></figcaption></figure>
 
-### 设置条件及规则的and、or关系
+The "and" and "or" relationships for setting conditions and rules
 
 <figure><img src="../../../../.gitbook/assets/Snipaste_2024-01-29_09-26-46.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**操作提示**
+**Operation Tips**
 
-在选择选项时，如需连续n个，在下拉列表中：点选首个选项->按住shift->点选末个选项，松开shift，即可实现连选
+When selecting options, if you need to select multiple consecutive options, follow these steps in the dropdown list: click the first option -> hold down the shift key -> click the last option -> release the shift key to complete the selection.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (431).png" alt=""><figcaption><p>设置条件（组）之间的and、or关系</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (431).png" alt=""><figcaption><p>and, or between conditions (groups)</p></figcaption></figure>
 
-{% hint style="info" %}
-**操作提示**
+\*\*Operation Tip\*\*
 
-支持用条件/条件组来设置复杂表达式的清洗规则，可实现条件之间的嵌套
+You can use conditions/groups to set complex expressions for data cleaning rules, including nested conditions.
 
+**Example:** To clean responses with inconsistent statements about "sandbox game time":
 
+Q9 Sandbox game time selected less than 5 hours
 
-【例】需要清洗掉关于“沙盒游戏时间”前后说法不一致的答题记录：
+**and**
 
-Q9沙盒类的游戏时间 选中 小于5小时&#x20;
-
-**and**&#x20;
-
-（Q10.1 A类的沙盒游戏时间 选中 5小时以上的选项 **or** Q10.2 B类的沙盒游戏时间 选中 5小时以上的选项 **or** Q10.3 C类的沙盒游戏时间 选中 5小时以上的选项 **or** Q10.4 D类的沙盒游戏时间 选中 5小时以上的选项）
-
-
-{% endhint %}
+(Q10.1 A-type sandbox game time selected more than 5 hours **or** Q10.2 B-type sandbox game time selected more than 5 hours **or** Q10.3 C-type sandbox game time selected more than 5 hours **or** Q10.4 D-type sandbox game time selected more than 5 hours)
 
 ![【例】复杂条件 --嵌套条件组](<../../../../.gitbook/assets/image (81).png>)
 
-## 【STEP 2】保存
+## 【STEP 2AVE【例】复杂条件 --嵌套条件\[Example] Complex Condition -- Nested Condition
 
 设置完所有条件后，点击右上角“保存条件”，完成。
 

@@ -1,60 +1,60 @@
-# 答题限制设置
+# Survey Response Limit Settings
 
 ![答题限制设置](<../../../../.gitbook/assets/image (624).png>)
 
-## 每个用户ID只能回答一次
+## Each user ID can only answer once
 
-此功能需要配合微信、QQ登录验证或MSDK登录验证使用。功能启用后，根据用户ID判断该用户是否已答题，若已答题，不可打开问卷。重复答题提示语按所设置的答卷语言显示翻译。
+This feature requires verification via WeChat, QQ login, or MSDK login. Once enabled, it will check whether the user has already completed the survey based on their user ID. If they have already completed it, the survey cannot be opened. The message for attempting to retake the survey will be displayed in the language set for the survey.
 
-![重复答题提示](<../../../../.gitbook/assets/image (48).png>)
+![Duplicate survey response warning](<../../../../.gitbook/assets/image (48).png>)
 
-## 每个IP只能答一次
+### Each IP can only answer once
 
 {% hint style="danger" %}
-功能暂未开放使用
+This feature is not yet available
 {% endhint %}
 
-功能启用后，打开问卷时会根据用户IP进行校验，若该用户已回答过问卷，会禁止用户二次回答。
+Once the feature is enabled, the survey will verify the user’s IP when opened. If the user has already answered the survey, they will be prohibited from responding a second time.
 
-## 每个浏览器只能答一次
+### Each browser can only answer once.
 
-功能启用后，根据用户当前的浏览器标识判断该用户是否已答题，若该用户已答题，会禁止打开问卷。
+After the feature is enabled, it will determine whether the user has already completed the survey based on the user's current browser identifier. If the user has completed the survey, they will be prohibited from opening the survey.
 
 {% hint style="info" %}
-若用户清理浏览器缓存后，可再次回答问卷。
+If the user clears the browser cache, they can answer the survey again.
 {% endhint %}
 
-## 白名单答题限制
+## Whitelist survey restriction
 
-功能启用后，打开问卷时会先校验当前答题者是否白名单用户，白名单用户才能访问问卷。
+After the feature is enabled, the system will first check if the current respondent is a whitelist user when opening the survey. Only whitelist users can access the survey.
 
-![白名单身份验证](<../../../../.gitbook/assets/image (372).png>)
+![Whitelist Authentication](<../../../../.gitbook/assets/image (372).png>)
 
 {% hint style="info" %}
-白名单文件大小限制**10MB**；白名单用户数量不限，可参考：
+The whitelist file size limit is 10MB; there is no limit on the number of whitelist users. You can refer to:
 
-【openid】（22位）：可上传约30万个
+【openid】 (22 characters): Can upload approximately 300,000
 
-【QQ号】（9位）：可上传约75万个
+\[QQ number] (9 digits): Can upload approximately 750,000
 
-【手机号】（11位）：可上传约60万个
+\[Phone Number] (11 digits): can upload approximately 600,000
 {% endhint %}
 
-### 白名单文件规则说明
+### Whitelist File Rules Description
 
-#### QQ号/手机号
+QQ number/Phone number
 
-直接写入白名单用户的QQ号/手机号，每行一个号码。
+Directly write the QQ number/phone number of the whitelist user, one number per line.
 
 #### openid
 
-直接写入白名单用户的openid，每行一个号码，需配合以下任一登录功能使用。
+Directly write the openid of whitelisted users, one number per line, and use it with any of the following login functions.
 
-| 登录验证方式      | openid值说明                                                                                                                                                                                                                  | 示例值                                                                                       |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 微信、QQ登录验证   | 用户通过微信/QQ登录问卷后的openid（非游戏openid），QQ号转openid方法请参考[QQ号转openid](https://imur.gitbook.io/help_center/chang-jian-wen-ti/uidopenid-zhuan-huan-qq-hao#fu-lu-openid-shi-shen-me-ying-yong-nei-yong-hu-shen-fen-de-wei-yi-biao-shi) | <p>【QQ】78F2938728791F866806043CEFF5222D</p><p>【微信】</p><p>oY2--whSvI7JPzmQWcRg7o60TpdQ</p> |
-| MSDK登录验证：v3 | 游戏内的玩家openid                                                                                                                                                                                                               | 56C589029A4C0BD2282D5CD2DD5725F2                                                          |
-| MSDK登录验证：v5 | 游戏内的玩家gopenid                                                                                                                                                                                                              | 13293484783071200846                                                                      |
-| 参数传递（严格校验）  | <p>参数传递时的uid值（由游戏自定义），</p><p>详情可参考<a href="../../../../api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md">参数传递接口（严格校验模式）</a></p>                                                                                       | 30291658356950347                                                                         |
-| 参数传递（不校验）   | 参数传递时的openid值（由游戏自定义），详情可参考[参数传递接口（不校验模式）](../../../../api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md)                                                                                                        | 30291658356950347                                                                         |
+| Login verification method             | Explanation of openid value                                                                                                                                                                                                                                                                                                             | Example Value                                                                                 |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| WeChat, QQ login verification         | The openid (non-game openid) that users obtain after logging into the survey through WeChat/QQ,Please refer to the method for converting QQ number to openid.[QQ号转openid](https://imur.gitbook.io/help_center/chang-jian-wen-ti/uidopenid-zhuan-huan-qq-hao#fu-lu-openid-shi-shen-me-ying-yong-nei-yong-hu-shen-fen-de-wei-yi-biao-shi) | <p>【QQ】78F2938728791F866806043CEFF5222D</p><p>【WeChat】</p><p>oY2--whSvI7JPzmQWcRg7o60TpdQ</p> |
+| MSDKv3                                | Players openid in the game                                                                                                                                                                                                                                                                                                              | 56C589029A4C0BD2282D5CD2DD5725F2                                                              |
+| MSDKv5                                | Players openid in the game                                                                                                                                                                                                                                                                                                              | 13293484783071200846                                                                          |
+| Parameter Passing (Strict Validation) | The uid value when passing parameters (customized by the game), for details please refer to[参数传递接口（严格校验模式）](../../../../api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)                                                                                                                                                          | 30291658356950347                                                                             |
+| Parameter Passing (No Validation)     | The openid value when passing parameters (customized by the game), for more details please refer to[参数传递接口（不校验模式）](../../../../api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md)                                                                                                                                             | 30291658356950347                                                                             |
 
