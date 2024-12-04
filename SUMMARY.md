@@ -158,7 +158,7 @@
         * [Survey Screening](user-guide-updating/cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi/survey-screening.md)
       * [Survey Login Verification](user-guide-updating/cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-deng-lu-yan-zheng.md)
       * [API (redirection/callback/reward distribution)](user-guide-updating/cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md)
-      * [🆕 配额设置](user-guide-updating/cao-zuo-zhi-yin/wen-juan-she-zhi/peieshe-zhi.md)
+      * [🆕 Quota Settings](user-guide-updating/cao-zuo-zhi-yin/wen-juan-she-zhi/quota-settings.md)
     * [检查问卷](user-guide-updating/cao-zuo-zhi-yin/jian-cha-wen-juan.md)
     * [预览问卷](user-guide-updating/cao-zuo-zhi-yin/yu-lan-wen-juan.md)
     * [投放问卷](user-guide-updating/cao-zuo-zhi-yin/hui-shou-da-juan/README.md)
