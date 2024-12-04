@@ -47,11 +47,11 @@ Q9 Sandbox game time selected less than 5 hours
 
 (Q10.1 A-type sandbox game time selected more than 5 hours **or** Q10.2 B-type sandbox game time selected more than 5 hours **or** Q10.3 C-type sandbox game time selected more than 5 hours **or** Q10.4 D-type sandbox game time selected more than 5 hours)
 
-![【例】复杂条件 --嵌套条件组](<../../../../.gitbook/assets/image (81).png>)
+![\[Example\] Complex Condition -- Nested Condition](<../../../../.gitbook/assets/image (81).png>)
 
-## 【STEP 2AVE【例】复杂条件 --嵌套条件\[Example] Complex Condition -- Nested Condition
+## 【STEP] Save
 
-设置完所有条件后，点击右上角“保存条件”，完成。
+After setting all the conditions, click "Save Conditions" at the top right corner to complete.View data
 
 <figure><img src="../../../../.gitbook/assets/image (401).png" alt=""><figcaption></figcaption></figure>
 
