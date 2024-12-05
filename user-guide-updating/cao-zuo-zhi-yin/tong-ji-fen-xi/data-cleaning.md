@@ -1,4 +1,4 @@
-# Untitled
+# Data Cleaning
 
 The system provides data cleaning functionality, applicable in scenarios where samples that do not meet specified criteria are removed after the survey is completed.[在线查看答题数据](../../../cao-zuo-zhi-yin/tong-ji-fen-xi/da-ti-shu-ju-zai-xian-cha-kan.md)/[导出数据](../../../cao-zuo-zhi-yin/xia-zai-shu-ju/)The disqualified samples are marked as invalid.
 
@@ -54,6 +54,6 @@ After execution is complete, the page will display the number of invalid surveys
 
 ![Cleaning completed](<../../../.gitbook/assets/image (217).png>)
 
-Go to the[在线查看答题数据](../../../cao-zuo-zhi-yin/tong-ji-fen-xi/da-ti-shu-ju-zai-xian-cha-kan.md) ，可查看被标记为无效的答题记录。
+Go to the[在线查看答题数据](../../../cao-zuo-zhi-yin/tong-ji-fen-xi/da-ti-shu-ju-zai-xian-cha-kan.md) ，You can view the survey responses marked as invalid.
 
 ![](<../../../.gitbook/assets/image (653).png>)

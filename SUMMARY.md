@@ -168,7 +168,7 @@
       * [Recycling Overview](user-guide-updating/cao-zuo-zhi-yin/tong-ji-fen-xi/hui-shou-gai-kuang.md)
       * [Statistical Chart](user-guide-updating/cao-zuo-zhi-yin/tong-ji-fen-xi/tong-ji-tu-biao.md)
       * [View survey data online](user-guide-updating/cao-zuo-zhi-yin/tong-ji-fen-xi/da-ti-shu-ju-zai-xian-cha-kan.md)
-      * [Untitled](user-guide-updating/cao-zuo-zhi-yin/tong-ji-fen-xi/untitled.md)
+      * [Data Cleaning](user-guide-updating/cao-zuo-zhi-yin/tong-ji-fen-xi/data-cleaning.md)
       * [交叉分析](user-guide-updating/cao-zuo-zhi-yin/tong-ji-fen-xi/jiao-cha-fen-xi.md)
     * [报告分享](user-guide-updating/cao-zuo-zhi-yin/share.md)
     * [数据导出](user-guide-updating/cao-zuo-zhi-yin/xia-zai-shu-ju/README.md)
