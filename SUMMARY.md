@@ -163,7 +163,7 @@
     * [Check the survey](user-guide-updating/cao-zuo-zhi-yin/jian-cha-wen-juan.md)
     * [Preview survey](user-guide-updating/cao-zuo-zhi-yin/yu-lan-wen-juan.md)
     * [Distribute survey](user-guide-updating/cao-zuo-zhi-yin/hui-shou-da-juan/README.md)
-      * [🆕 高级设置](user-guide-updating/cao-zuo-zhi-yin/hui-shou-da-juan/gao-ji-she-zhi.md)
+      * [🆕 Advanced Settings](user-guide-updating/cao-zuo-zhi-yin/hui-shou-da-juan/advanced-settings.md)
     * [统计分析](user-guide-updating/cao-zuo-zhi-yin/tong-ji-fen-xi/README.md)
       * [回收概况](user-guide-updating/cao-zuo-zhi-yin/tong-ji-fen-xi/hui-shou-gai-kuang.md)
       * [统计图表](user-guide-updating/cao-zuo-zhi-yin/tong-ji-fen-xi/tong-ji-tu-biao.md)
