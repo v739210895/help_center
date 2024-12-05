@@ -1,28 +1,31 @@
 ---
-description: 问卷编辑后，可通过点击检查tab切换到检查问卷模式，以辅助问卷编辑者优化题目内容与调研方法，从而提升问卷的回收率和答题质量。
+description: >-
+  After editing the survey, you can switch to the survey review mode by clicking
+  the check tab. This assists survey editors in optimizing question content and
+  research methods, thereby improving the sur
 ---
 
-# 检查问卷
+# Check the survey
 
-## 预估答题时长
+### Estimated survey completion time
 
-计算方法：对符合逻辑条件的最长填答路径（题目数量最多）估算最终答题时长，根据过往问卷答题时长预估，仅供参考
+Calculation method: Estimate the final answering duration for the longest logical answering path (with the maximum number of questions) based on the estimated answering duration of past surveys, for reference only.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-## 检查和建议
+## Inspection and Recommendations
 
-多维度检查与建议包含：矩阵子问题数量、主观题数量、人称代词一致性、题干重复、选项重复、只有一个选项、逻辑重复等
+Multidimensional checks and suggestions include: number of matrix sub-questions, number of subjective questions, consistency of personal pronouns, repetition of question stems, repetition of options, only one option, logical repetition, etc.
 
-点击相关题目题干，即可定位到题目进行修改
+Click on the relevant question stem to locate and modify the question.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 
 
-## 逻辑检查
+### Logic Check
 
-开启检查模式后，问卷编辑页中已设置简单逻辑的单选题、多选题选项后会显示选中后显示的题目题号。
+After enabling the inspection mode, the question numbers that will be displayed after selecting options for single-choice and multiple-choice questions with simple logic set in the survey editing page will be shown.
 
 
 

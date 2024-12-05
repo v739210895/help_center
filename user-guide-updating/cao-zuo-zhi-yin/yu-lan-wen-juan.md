@@ -1,35 +1,35 @@
-# 预览问卷
+# Preview survey
 
-问卷编辑完成后，可以通过预览链接来检查问卷编辑效果，也可以将问卷链接或二维码发送给其他人进行检查确认，从而保证编辑的准确性，问卷支持多终端自适应，可以直接预览到电脑、手机端的效果。
+After editing the survey, you can check the editing results through the preview link, or send the survey link or QR code to others for inspection and confirmation to ensure the accuracy of the editing. The survey supports multi-terminal adaptation, allowing you to directly preview the effects on both computer and mobile devices.
 
-在问卷编辑页中点击右上角“预览”按钮或在“我的问卷”列表中点击指定问卷的项目名称即可进入该问卷的预览页面，包括两种终端预览效果“手机预览”和“电脑预览”，支持扫描预览二维码在手机中预览问卷。
+On the survey editing page, click the "Preview" button in the upper right corner or click the item name of the specified survey in the "My Surveys" list to enter the preview page of the survey. This includes two terminal preview effects: "Mobile Preview" and "Computer Preview". It also supports scanning the preview QR code to preview the survey on your mobile phone.
 
-![预览问卷](<../../.gitbook/assets/image (775).png>)
+![Preview survey](<../../.gitbook/assets/image (775).png>)
 
-## 题号设置选择
+## Question Number Setting Options
 
-为方便进行题目显隐情况检查，预览页支持切换显示默认题号/原始题号。当设置为原始题号时，按问卷编辑页中的题号显示。
+To facilitate the inspection of question visibility, the preview page supports toggling between displaying default question numbers and original question numbers. When set to original question numbers, it will display according to the question numbers in the survey editing page.
 
 {% hint style="info" %}
-切换题号类型仅在预览页生效，不影响答题端的题号显示。
+Switching the question number type only takes effect on the preview page and does not affect the display of question numbers on the answering end.
 {% endhint %}
 
-![按原始题号显示](<../../.gitbook/assets/image (42).png>)
+![Original question number display](<../../.gitbook/assets/image (42).png>)
 
-![按默认题号显示（重新编号）](<../../.gitbook/assets/image (504).png>)
+![Display by default question number (renumbered)](<../../.gitbook/assets/image (504).png>)
 
 {% hint style="warning" %}
-预览状态下答题数据不被记录。
+Answer data is not recorded in preview mode.
 {% endhint %}
 
-## 复制预览链接
+## Copy preview link
 
-系统提供外网可查看的预览链接，在预览页右上角点击“复制预览链接”按钮即可生成。
+The system provides a preview link that can be viewed externally. On the preview page, click the "Copy Preview Link" button at the top right corner to generate it.
 
-![复制预览链接](<../../.gitbook/assets/image (17) (1).png>)
+![Copy preview link](<../../.gitbook/assets/image (17) (1).png>)
 
-## 常见问题
+### Frequently Asked Questions
 
-### 预览链接可以用于投放吗？
+Can the preview link be used for placement?
 
-”预览“仅供检查问卷使用，在预览链接中点击“提交”后不记录数据，切记不能用预览链接投放问卷。
+"Preview" is only for checking the survey. Data will not be recorded after clicking "Submit" in the preview link. Remember not to distribute the survey using the preview link.
