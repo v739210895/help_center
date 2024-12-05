@@ -1,17 +1,17 @@
-# 答题数据在线查看
+# View survey data online
 
-在统计页可在线查看答卷详情，以快速了解问卷各题的回收数据及回收情况。
+The survey details can be viewed online on the statistics page, providing a quick overview of the data and response status for each question in the survey.
 
 {% hint style="info" %}
-用户未回答的题目答案处显示为空。
+The answer fields for questions not answered by the user will be displayed as empty.
 {% endhint %}
 
-![在线查看答题数据](../../../.gitbook/assets/Snipaste_2023-10-08_15-40-25.png)
+![View survey data online](../../../.gitbook/assets/Snipaste_2023-10-08_15-40-25.png)
 
-矩阵单选题、矩阵多选题和矩阵量表题可点击弹窗查看每个问题的答题详情。
+For matrix single-choice questions, matrix multiple-choice questions, and matrix scale questions, you can click on the pop-up window to view the details of each question's answers.
 
-![矩阵单选题查看答题详情](../../../.gitbook/assets/Snipaste_2023-10-08_15-42-21.png)
+![View answers for matrix single-choice questions](../../../.gitbook/assets/Snipaste_2023-10-08_15-42-21.png)
 
-支持按指定条件进行数据筛选，根据指定条件查看部分答卷。
+Support data filtering based on specified conditions, allowing viewing of partial surveys according to the specified criteria.
 
-![数据筛选](../../../.gitbook/assets/Snipaste_2023-10-08_15-43-16.png)
+![Data filtering](../../../.gitbook/assets/Snipaste_2023-10-08_15-43-16.png)

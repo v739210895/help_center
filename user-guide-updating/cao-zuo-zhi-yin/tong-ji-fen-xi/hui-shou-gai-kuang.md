@@ -1,38 +1,35 @@
-# 回收概况
+# Recycling Overview
 
-### 整体概况
+### Overall Summary
 
-回收概况展示问卷回收的整体情况。
+The recycling overview shows the overall situation of survey collection.
 
-![整体概况](../../../.gitbook/assets/Snipaste_2023-10-08_15-14-27.png)
+![Overall Summary](../../../.gitbook/assets/Snipaste_2023-10-08_15-14-27.png)
 
-| 指标     | 说明                                  |
-| ------ | ----------------------------------- |
-| 回收量    | 实时回收的有效答卷数量                         |
-| 浏览量    | 实时点击进入问卷投放链接的数量                     |
-| 回收率    | 有效回答问卷的数量在浏览量中的占比，回收率=回收量/浏览量\*100% |
-| 平均完成时间 | 回收答卷中所有答题者的平均答题时长，计算公式=所有用户总用时/回收量  |
-| 用时中位数  | 回收答卷中所有答题者回答问卷的答题时长中位数              |
+| Metric                  | Explanation                                                                                                                                                        |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Recycling volume        | Number of valid surveys collected in real-time                                                                                                                     |
+| Page views              | The number of real-time clicks on the survey link                                                                                                                  |
+| Recycling rate          | The proportion of the number of valid responses to the survey in the total views, recovery rate = number of responses / total views \* 100%                        |
+| Average Completion Time | Calculate the average response time of all respondents in the collected surveys using the formula = total time spent by all users / number of responses collected. |
+| Median Time Taken       | Collect all survey respondents                                                                                                                                     |
 
-### 页面PV
+### Page PV
 
-点击浏览量指标的ICON，可以显示浏览量详情，系统会埋点统计各核心页面的PV。
+Click on the view count icon to display the view details. The system will track and record the PV (page views) of each core page.
 
-![各页面统计量](<../../../.gitbook/assets/image (463).png>)
+![Statistics of Each Page](<../../../.gitbook/assets/image (463).png>)
 
-| 指标        | 说明                                    |
-| --------- | ------------------------------------- |
-| 总浏览量      | 点击问卷链接的统计量                            |
-| 登录成功人数    | 访问QQ登录页/微信授权登录/游戏内登录成功的数量             |
-| 海外流程验证页PV | 开启了海外验证流程功能，会记录进入到流程页的PV，如关闭功能，则不统计PV |
-| 海外正常流失数   | 海外验证流程页面，不符合条件或不同意隐私政策的统计量            |
-| 欢迎页PV     | 访问欢迎语的PV。海外验证流程可跳过欢迎页，此时，不会统计欢迎页PV    |
-| 答题页PV     | 访问答题页的PV，多个题目分页都只会统计1次                |
-| 回收量       | 回收的有效答卷数量                             |
+| Metric                      | Explanation                                                                                                                                    |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Number of Successful Logins | Number of successful logins via QQ login page/WeChat authorization login/in-game login                                                         |
+| Welcome Page PV             | PV of the welcome message. The overseas verification process can skip the welcome page, in which case the welcome page PV will not be counted. |
+| Survey page PV              | The PV of visiting the survey page will only be counted once, even if there are multiple question pages.                                       |
+| Recycling volume            | Number of valid surveys collected                                                                                                              |
 
-### 导出按日统计的页面PV
+### Export daily statistics of page PV
 
-点击浏览量详情弹窗中的导出按钮，可以导出按天统计的指标数据。
+Click the export button in the view count details popup to export the metric data statistics by day.
 
-![按天记录](<../../../.gitbook/assets/image (614).png>)
+![Record by day](<../../../.gitbook/assets/image (614).png>)
 

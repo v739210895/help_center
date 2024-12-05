@@ -1,43 +1,43 @@
-# 统计图表
+# Statistical Chart
 
-在统计图表页支持在线查看各题答案的统计结果、统计结果导出（含小计和百分比）。
-
-{% hint style="info" %}
-左侧导航大纲支持点击定位到指定题目。
-{% endhint %}
-
-![统计图表](../../../.gitbook/assets/Snipaste_2023-10-08_15-15-37.png)
-
-下载结果格式为CSV格式，可在excel中直接打开，包含：总表（总计+小计+百分比）+频率表（含百分比）+频数表（含小计），满足不同看数场景
-
-![总表](../../../.gitbook/assets/Snipaste_2023-10-08_15-17-48.png)
-
-<figure><img src="../../../.gitbook/assets/Snipaste_2023-10-08_15-20-43.png" alt=""><figcaption><p>频率表</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/Snipaste_2023-10-08_15-21-30.png" alt=""><figcaption><p>频数表</p></figcaption></figure>
-
-## 数据筛选
-
-统计图表提供数据筛选功能，开启后可设定指定条件对当前已回收的答卷数据进行筛选，筛选结果以统计图表形式展现。
+On the statistics chart page, support for online viewing of the statistical results of each question's answers, and export of statistical results (including subtotals and percentages).
 
 {% hint style="info" %}
-1. 关闭或刷新页面，将清空筛选条件并展示全部答题数据&#x20;
-2. 筛选条件仅当次有效，不保存记录
+The left-side navigation outline supports clicking to locate the specified question.
 {% endhint %}
 
-添加条件
+![Statistical Chart](../../../.gitbook/assets/Snipaste_2023-10-08_15-15-37.png)
 
-点击添加条件可设置多个条件进行筛选，支持一次勾选多个选项设定。筛选条件默认包含（来源平台、年龄、提交时间、答题时长、清洗结果）
+The download results are in CSV format, which can be directly opened in Excel, and include: a summary table (total + subtotal + percentage), a frequency table (including percentage), and a frequency distribution table (including subtotal), to meet different data viewing scenarios.
 
-![在统计图表页启用数据筛选](../../../.gitbook/assets/Snipaste_2023-10-08_15-29-22.png)
+![Summary Table](../../../.gitbook/assets/Snipaste_2023-10-08_15-17-48.png)
 
-添加条件组
+<figure><img src="../../../.gitbook/assets/Snipaste_2023-10-08_15-20-43.png" alt=""><figcaption><p>Frequency table</p></figcaption></figure>
 
-点击“添加条件组“可自定义满足"And”或”or”条件下的数据筛选，支持一次勾选多个选项设定。筛选条件默认包含（来源平台、年龄、提交时间、答题时长、清洗结果）
+<figure><img src="../../../.gitbook/assets/Snipaste_2023-10-08_15-21-30.png" alt=""><figcaption><p>Frequency table</p></figcaption></figure>
 
-![点击“设置规则”显示弹窗](../../../.gitbook/assets/Snipaste_2023-10-08_15-36-25.png)
+## Data Filtering
 
-添加条件后点击开始筛选，统计图表将会根据筛选条件刷新&#x20;
+The statistical chart provides data filtering functionality. Once enabled, you can set specific conditions to filter the currently collected survey data. The filtering results are displayed in the form of a statistical chart.
+
+{% hint style="info" %}
+1. Closing or refreshing the page will clear the filters and display all survey data.
+2. The filter criteria are only valid for this session and will not be saved.
+{% endhint %}
+
+Add conditions
+
+Click "Add Condition" to set multiple conditions for filtering. It supports selecting multiple options at once. The default filtering conditions include (source platform, age, submission time, response duration, cleaning results).
+
+![Enable data filtering on the chart page](../../../.gitbook/assets/Snipaste_2023-10-08_15-29-22.png)
+
+Add Condition Group
+
+Click "Add Condition Group" to customize data filtering that meets "And" or "Or" conditions, supporting the selection of multiple options at once. The default filtering conditions include (source platform, age, submission time, survey duration, cleaning results).
+
+![Click "Set Rules" to display the popup](../../../.gitbook/assets/Snipaste_2023-10-08_15-36-25.png)
+
+After adding the conditions, click to start filtering. The statistical charts will refresh based on the filtering conditions.
 
 <figure><img src="../../../.gitbook/assets/Snipaste_2023-10-08_15-38-12.png" alt=""><figcaption></figcaption></figure>
 

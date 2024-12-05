@@ -1,7 +1,7 @@
-# 统计分析
+# Statistical Analysis
 
-问卷开始回收后，用户可通过在问卷编辑页内点击右上角”统计“或点击”我的问卷—操作—在线统计”进入统计分析页查看数据回收情况。
+After the survey starts collecting responses, users can view the data collection status by clicking "Statistics" in the upper right corner of the survey editing page or by clicking "My Surveys — Actions — Online Statistics" to enter the statistics analysis page.
 
-![问卷编辑页内“统计分析”功能入口](../../../.gitbook/assets/Snipaste_2023-10-08_15-13-21.png)
+![Entry to the "Statistical Analysis" feature in the survey editing page](../../../.gitbook/assets/Snipaste_2023-10-08_15-13-21.png)
 
-![“我的问卷”列表中“统计分析”功能快捷入口](../../../.gitbook/assets/Snipaste_2023-10-08_15-12-57.png)
+![Quick access to "Statistical Analysis" feature in "My Survey" list](../../../.gitbook/assets/Snipaste_2023-10-08_15-12-57.png)
