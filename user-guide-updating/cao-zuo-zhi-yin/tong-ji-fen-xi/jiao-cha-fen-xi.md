@@ -1,24 +1,24 @@
-# 交叉分析
+# Cross analysis
 
-在统计页中支持定义行、列进行交叉分析，实时快速生成交叉表用于分析多道题之间的关系。
+The statistics page supports defining rows and columns for cross-analysis, allowing for real-time and rapid generation of cross tables to analyze the relationships between multiple questions.
 
-以问卷中的题目为变量，设置自变量和因变量后进行交叉分析。
+Use the questions in the survey as variables, set independent and dependent variables, and then conduct a cross-analysis.
 
-* 定义行表头：一般为样本属性，如性别、年龄等；最多可设置20个自变量
-* 定义列表头：一般为需要分析的题目，如偏好品类、游戏频率、付费情况等；最多可设置20个因变量
+* Define row headers: Generally sample attributes such as gender, age, etc.; up to 20 independent variables can be set.
+* Define the list header: Generally, these are the topics that need to be analyzed, such as preference categories, game frequency, payment status, etc. A maximum of 20 dependent variables can be set.
 
-## 【STEP 1】数据筛选
+## 【STEP 1】Data filtering
 
-提供数据筛选功能，开启后可设定指定条件先对当前已回收的答卷数据进行筛选，在筛选结果中生成交叉表。
+Provide data filtering functionality. Once enabled, specific conditions can be set to filter the currently collected survey data first, and then generate a cross-tabulation from the filtered results.
 
 ![数据筛选器](../../../.gitbook/assets/Snipaste_2023-10-08_15-45-40.png)
 
-## 【STEP 2】设置行、列表头
+## 【STEP 2】Set rows, list headers
 
-在左侧设置栏中分别勾选作为行表头、列表头的题目，点击下方“开始计算”按钮即实时计算生成交叉表。
+In the settings panel on the left, select the questions to be used as row headers and column headers, then click the "Start Calculation" button below to generate the crosstab in real-time.
 
-![行表头、列表头设置](../../../.gitbook/assets/Snipaste_2023-10-08_15-46-31.png)
+![Row header, column header settings](../../../.gitbook/assets/Snipaste_2023-10-08_15-46-31.png)
 
-## 【STEP 3】生成交叉表
+## 【STEP 3】Generate a crosstab
 
-![交叉表](../../../.gitbook/assets/Snipaste_2023-10-08_15-47-23.png)
+![crosstab](../../../.gitbook/assets/Snipaste_2023-10-08_15-47-23.png)

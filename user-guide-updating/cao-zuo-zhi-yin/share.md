@@ -1,27 +1,27 @@
-# 报告分享
+# Report Sharing
 
-系统提供报告分享功能，用户可在指定问卷的统计页中获取报告分享页链接，配置该分享页是否加密，分享到其他平台；获取到链接的用户不需登录问卷系统即可直接查看该问卷的实时回收情况及各题型统计数据。
+The system provides a report sharing function. Users can obtain the report sharing page link on the statistics page of the specified survey, configure whether the sharing page is encrypted, and share it to other platforms. Users who obtain the link can directly view the real-time collection status and statistical data of each question type of the survey without logging into the survey system.
 
-### STEP 1 功能入口
+### STEP 1 Function Entrance
 
-在统计页中点击右上角的“分享报告”按钮。
+Click the "Share Report" button at the top right of the statistics page.
 
 ![](../../.gitbook/assets/Snipaste_2023-10-08_15-48-47.png)
 
-### STEP 2 启用分享
+### STEP 2 Enable sharing
 
-在分享报告弹窗中启用报告分享功能，获取分享页链接；功能关闭后，该分享页链接失效，分享页将无法访问。
+Enable the report sharing feature in the share report popup to get the share page link; once the feature is disabled, the share page link will become invalid and the share page will be inaccessible.
 
 ![](../../.gitbook/assets/Snipaste_2023-10-08_15-50-01.png)
 
-### STEP 3 配置加密
+### STEP 3 Configure Encryption
 
-在弹窗中可配置给分享页是否加密，访问密钥支持自由修改；开启访问密钥后，获取分享页链接的用户需要输入正确的密钥才可访问该分享页。
+In the pop-up window, you can configure whether to encrypt the share page, and the access key can be freely modified. After enabling the access key, users who obtain the share page link need to enter the correct key to access the share page.
 
 ![](../../.gitbook/assets/Snipaste_2023-10-08_15-49-33.png)
 
-### 报告分享页
+### Report Sharing Page
 
-报告分享页与原问卷的统计页数据一致，可实时查看该问卷的回收情况。
+The report sharing page is consistent with the statistics page of the original survey, allowing real-time viewing of the survey's recovery status.
 
 ![](../../.gitbook/assets/Snipaste_2023-10-08_15-50-49.png)

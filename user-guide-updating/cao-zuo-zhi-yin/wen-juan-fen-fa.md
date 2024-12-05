@@ -1,47 +1,47 @@
-# 问卷分发
+# Survey distribution
 
-问卷分发主要适用于同一套问卷需要按多语言或多版本进行投放的场景，让答题者根据实际情况选择填写不同版本的问卷，各问卷的答题数据独立统计。
+Survey distribution is mainly applicable to scenarios where the same survey needs to be distributed in multiple languages or versions, allowing respondents to choose and fill out different versions of the survey according to their actual situation. The response data for each survey is independently collected and analyzed.
 
-管理端提供问卷分发页的配置功能，用于配置分发页（汇总页）多个按钮上所显示的文字及点击按钮后跳转的问卷，投放时使用分发页的分发链接进行投放。
+The management end provides a configuration function for the survey distribution page, which is used to configure the text displayed on multiple buttons on the distribution page (summary page) and the survey that is redirected to after clicking the buttons. The distribution link of the distribution page is used for deployment.
 
-![问卷分发-答题端](<../../.gitbook/assets/image (239).png>)
+![Survey Distribution - Response End](<../../.gitbook/assets/image (239).png>)
 
-## 新建分发任务
+## Create a new distribution task
 
-### 【STEP 1】设置任务名称及提示语
+### 【STEP 1】Set the task name and prompt
 
-在“问卷分发”功能中点击左上角“新建分发任务”按钮，显示新建分发任务弹窗，在弹窗中设置任务名称及提示语。
+In the "survey distribution" feature, click the "Create New Distribution Task" button in the upper left corner to display the new distribution task popup. Set the task name and prompt in the popup.
 
-* 任务名称：仅展示在问卷系统中，答题者不可见
-* 提示语：显示在投放页内的提示语，一般用于指引答题者选择问卷
+* Task Name: Only displayed in the survey system, not visible to respondents
+* Prompt: Displayed within the survey page, generally used to guide respondents in selecting the survey.
 
-![设置任务名称及提示语](../../.gitbook/assets/Snipaste_2023-10-09_16-16-31.png)
+![Set Task Name and Prompt](../../.gitbook/assets/Snipaste_2023-10-09_16-16-31.png)
 
-### 【STEP 2】配置显示按钮与其对应的问卷
+### 【STEP 2】Configure display buttons with their corresponding surveys
 
-弹窗中设置按钮所需显示的文本内容，选择该按钮对应的问卷，在答题端中答题者点击某个按钮会自动跳转到对应的问卷中，支持配置多个按钮。
+The text content required for the button in the pop-up window, select the corresponding survey for the button. When the respondent clicks a button in the answering end, it will automatically jump to the corresponding survey. Multiple buttons can be configured.
 
 {% hint style="info" %}
-* 可选择本人创建/关注的问卷，支持输入项目名称搜索
-* 按钮提供系统预设的文案（19种语言）可选，也支持输入编辑
-* 备注仅在问卷系统后台展示，不向答题者展示
+* You can choose surveys created/followed by yourself, and support searching by entering the project name.
+* The button provides system preset texts (in 19 languages) to choose from, and also supports input and editing.
+* Remarks are only displayed in the survey system backend and are not shown to the respondents.
 {% endhint %}
 
-![配置分发按钮](../../.gitbook/assets/Snipaste_2023-10-09_16-19-23.png)
+![Configure Distribution Button](../../.gitbook/assets/Snipaste_2023-10-09_16-19-23.png)
 
-### 【STEP 3】保存与投放
+### 【STEP 3】Save and Deliver
 
-设置任务名称、提示语、按钮及对应问卷后，保存即可生效。在操作菜单中获取投放链接用于投放，多个投放域名均可使用。
+After setting the task name, prompt, buttons, and corresponding survey, save to take effect. Obtain the distribution link from the operation menu for deployment, and multiple distribution domains can be used.
 
 ![](../../.gitbook/assets/Snipaste_2023-10-09_16-20-38.png)
 
 {% hint style="danger" %}
-删除分发任务后分发页面失效，但不影响各问卷的投放状态和已收集数据
+After deleting the distribution task, the distribution page becomes invalid, but it does not affect the distribution status or the collected data of each survey.
 {% endhint %}
 
-### 答题端展示
+### Survey interface display
 
-答题者可通过点击各按钮跳转到指定问卷中，各问卷回收的答题数据独立。
+Respondents can navigate to the specified survey by clicking each button, and the response data collected from each survey is independent
 
 ![](<../../.gitbook/assets/image (338).png>)
 

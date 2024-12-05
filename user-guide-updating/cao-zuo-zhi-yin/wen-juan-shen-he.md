@@ -1,31 +1,31 @@
-# 问卷审核
+# Survey Review
 
-为避免风险及保证项目信息的安全，普通用户如需投放问卷，需先把问卷提交到指定审核人审核，审核员审核问卷通过后，投放链接自动生效，可正常回收答题数据。
+To avoid risks and ensure the security of project information, regular users need to submit the survey to a designated reviewer for review before distributing it. Once the reviewer approves the survey, the distribution link becomes effective automatically, and the response data can be collected normally.
 
-## 列表管理
+## List Management
 
-&#x20;“问卷审核”列表中展示所有本用户（作为审核人）待审核或已审核的问卷，问卷列表按“提交审核时间”倒序排列。
+&#x20;The "survey review" list displays all the surveys that need to be reviewed or have been reviewed by the user (as the reviewer). The survey list is sorted in descending order of "submission review time".
 
-![审核列表](../../.gitbook/assets/Snipaste_2023-10-09_16-28-46.png)
+![Review List](../../.gitbook/assets/Snipaste_2023-10-09_16-28-46.png)
 
-## 问卷预览&#x20;
+## Survey Preview&#x20;
 
-在“问卷审核”列表中，点击指定问卷的项目名称即可进入该问卷的预览页面。
+In the "survey review" list, click the project name of the specified survey to enter the preview page of that survey.
 
 ![](../../.gitbook/assets/Snipaste_2023-10-09_16-29-22.png)
 
-## 审核状态&#x20;
+## Review Status&#x20;
 
-审核状态包括三种：待审核、审核通过、审核不通过、撤销，只有审核状态为待审核的问卷才可对其进行操作。
+There are three review statuses: Pending Review, Approved, Not Approved, and Revoked. Only surveys with a status of Pending Review can be operated on.
 
-## 问卷编辑
+## Survey Editor
 
-审核人可对待审核的问卷进行编辑，编辑并审核通过后该问卷的投放链接将切换为公开状态。
+The reviewer can edit the survey under review. After editing and approving, the distribution link of the survey will switch to public status.
 
-![打开该问卷的编辑页](../../.gitbook/assets/Snipaste_2023-10-09_16-30-24.png)
+![Open the survey editing page](../../.gitbook/assets/Snipaste_2023-10-09_16-30-24.png)
 
-## 审核记录
+### Audit Records
 
-点击“记录”按钮可查看该问卷的审核记录，包括每次审核结果及审核人等信息。
+Click the "Record" button to view the review records of the survey, including each review result and information about the reviewer.
 
-![审核记录](<../../.gitbook/assets/image (282).png>)
+![](<../../.gitbook/assets/image (282).png>)

@@ -1,11 +1,11 @@
-# 离线下载
+# Offline Download
 
-为提高文件导出效率，问卷系统采用文件异步下载方式，即先导出文件再下载到本地。在导出答题编码数据、导出原始数据时，导出完成后需在顶部工具栏中的“离线下载”功能中下载对应文件。
+To improve file export efficiency, the survey system uses an asynchronous file download method, which means exporting the file first and then downloading it locally. When exporting response code data and raw data, after the export is complete, you need to download the corresponding file from the "Offline Download" feature in the top toolbar.
 
 {% hint style="info" %}
-导出后的文件存储在云端，支持用户自行删除。
+The exported files are stored in the cloud, and users have the option to delete them themselves.
 {% endhint %}
 
-![离线下载入口](../../../.gitbook/assets/Snipaste_2023-10-09_10-31-38.png)
+![Offline Download Portal](../../../.gitbook/assets/Snipaste_2023-10-09_10-31-38.png)
 
-![离线下载弹窗](../../../.gitbook/assets/Snipaste_2023-10-09_10-31-51.png)
+![Offline Download Popup](../../../.gitbook/assets/Snipaste_2023-10-09_10-31-51.png)
