@@ -1,112 +1,112 @@
-# 投放问卷
+# Distribute survey
 
-问卷完成编辑及设置后，有问卷审核权限的用户可通过“开始回收”功能使投放链接生效，进行问卷投放；若用户无问卷审核权限，需要提交审核到指定审核人进行问卷审核，审核通过后投放链接自动生效。样本收集完成后，用户可以通过“暂停回收”功能关闭投放链接，以确保问卷信息安全。
+After completing the editing and setting of the survey, users with survey review permissions can activate the distribution link through the "Start Collection" function to distribute the survey. If the user does not have survey review permissions, they need to submit the survey for review to the designated reviewer. Once approved, the distribution link will automatically become active. After the sample collection is complete, users can close the distribution link using the "Pause Collection" function to ensure the security of the survey information.
 
-## 开始回收
+### Start recycling
 
-问卷完成编辑及设置后，建议使用预览链接发给组内同事及所在项目组成员协助检查，确保无误后再开始回收。在问卷编辑页内点击右上角”开始回收“或通过”我的问卷—操作—开始回收”点击确定即可。
+After completing the editing and settings of the survey, it is recommended to send the preview link to colleagues within the group and members of the project team for assistance in checking. Ensure there are no errors before starting the collection. On the survey editing page, click "Start Collection" in the upper right corner or go to "My Surveys—Actions—Start Collection" and click confirm.
 
 {% hint style="info" %}
-两个投放域名通用，所回收的答题数据一并统计
+The two deployed domains are common, and the collected survey data will be aggregated together.
 {% endhint %}
 
-![问卷编辑页内的“开始回收”](../../../.gitbook/assets/Snipaste_2023-10-08_15-02-21.png)
+!["Start Collection" on the survey editing page](../../../.gitbook/assets/Snipaste_2023-10-08_15-02-21.png)
 
-![“我的问卷”列表的“开始回收”](../../../.gitbook/assets/Snipaste_2023-10-08_15-03-14.png)
+![The "Start Collection" of "My Survey" list](../../../.gitbook/assets/Snipaste_2023-10-08_15-03-14.png)
 
 {% hint style="warning" %}
-正在回收的问卷不支持修改、删除及数据清空
+The survey being recycled does not support modification, deletion, or data clearing.
 {% endhint %}
 
-## 提交审核
+### Submit for review
 
-问卷完成编辑及设置后，没有问卷审核权限的用户如需投放问卷，需要把问卷提交到指定审核人审核，审核员审核问卷通过后，投放链接自动生效，可正常回收答题数据。
+After completing the editing and settings of the survey, users who do not have survey review permissions need to submit the survey to the designated reviewer for review. Once the reviewer approves the survey, the distribution link will automatically become effective, and response data can be collected normally.
 
-![问卷编辑页内的“提交审核”](../../../.gitbook/assets/Snipaste_2023-10-17_17-19-38.png)
+![Submit for Review in the survey editing page](../../../.gitbook/assets/Snipaste_2023-10-17_17-19-38.png)
 
-![“我的问卷”列表的“提交审核”](../../../.gitbook/assets/Snipaste_2023-10-17_17-31-13.png)
+![The "Submit for Review" in "My Survey" list](../../../.gitbook/assets/Snipaste_2023-10-17_17-31-13.png)
 
 {% hint style="warning" %}
-* 项目组成员默认不开通问卷审核权限，如需投放问卷，请联系对接的用研经理进行问卷审核。
-* 提交审核时设置的审核人必须具有问卷审核权限
-* 可设置多名审核人，任一审核人审核通过后，问卷状态变更为“正在回收”，投放链接生效
-* 提交审核后，问卷不支持修改
-* 提交审核后，若需修改问卷或修改审核人，需要先撤销审核
+* Project team members do not have survey review permissions by default. If you need to distribute a survey, please contact the corresponding UX manager for survey review.
+* The reviewer set during submission must have survey review permissions.
+* Multiple reviewers can be assigned, and once any reviewer approves, the survey status changes to "collecting responses" and the distribution link becomes active.
+* Once submitted for review, the survey cannot be modified.
+* After submitting for review, if you need to modify the survey or change the reviewer, you must first withdraw the review.
 {% endhint %}
 
-![正在审核的问卷支持撤销审核](../../../.gitbook/assets/Snipaste_2023-10-17_17-30-14.png)
+![The survey under review supports revocation.](../../../.gitbook/assets/Snipaste_2023-10-17_17-30-14.png)
 
-![“我的问卷”列表的“撤销审核”](../../../.gitbook/assets/Snipaste_2023-10-17_17-34-03.png)
+!["Undo" in the "My survey" list](../../../.gitbook/assets/Snipaste_2023-10-17_17-34-03.png)
 
-## 获取投放链接
+## Get the deployment link
 
-问卷开始回收后，在问卷编辑页内“投放”功能或“我的问卷—操作—投放问卷”可获取问卷的投放链接与移动端二维码，答题者可通过投放链接或二维码任一方式进入答题。
+After the survey starts collecting responses, the distribution link and mobile QR code for the survey can be obtained in the "Distribution" function on the survey editing page or "My Surveys — Actions — Distribute Survey". Respondents can enter the survey through either the distribution link or the QR code.
 
-![获取投放链接](../../../.gitbook/assets/Snipaste_2023-10-08_15-04-43.png)
+![Get the deployment link](../../../.gitbook/assets/Snipaste_2023-10-08_15-04-43.png)
 
-![我的问卷—操作—投放问卷](../../../.gitbook/assets/Snipaste_2023-10-08_15-05-38.png)
+![My Survey - Operations - Deploy Survey](../../../.gitbook/assets/Snipaste_2023-10-08_15-05-38.png)
 
-## 自定义来源渠道
+## Custom Source Channel
 
-系统支持按投放渠道生成问卷链接，适用于同一份问卷在多渠道中投放时追踪在各渠道中用户填答情况的场景。
+The system supports generating survey links by distribution channels, which is suitable for tracking user responses across different channels when the same survey is distributed through multiple channels.
 
-### STEP 1 设置来源渠道的问卷链接
+### STEP 1 Set up the survey link for the source channel
 
-在“投放”页中，可设置来源渠道的问卷链接，系统提供了预设分类及预设值，可直接选择使用或自行编辑。
+On the "Deployment" page, you can set the survey link for the source channels. The system provides preset categories and preset values, which can be directly selected or edited by yourself.
 
-如果是自定义的渠道号，需要满足以下格式：由1～20位英文、数字或者下划线`_`组成，否则渠道号在答题端会识别为空。
+If it is a custom channel number, it needs to meet the following format: composed of 1 to 20 English letters, numbers, or underscores (\_). Otherwise, the channel number will be recognized as empty in the survey interface.
 
-![设置来源渠道](../../../.gitbook/assets/Snipaste_2023-10-08_15-06-06.png)
+![Set Source Channel](../../../.gitbook/assets/Snipaste_2023-10-08_15-06-06.png)
 
-![定义来源渠道参数](../../../.gitbook/assets/Snipaste_2023-10-08_15-06-41.png)
+![Define source channel parameters](../../../.gitbook/assets/Snipaste_2023-10-08_15-06-41.png)
 
-### STEP 2 获取链接
+### STEP 2 Get the link
 
-点击保存后返回“投放”页，可获取各渠道的问卷链接。
+After clicking save, return to the "Delivery" page to obtain the survey links for each channel.
 
 ![](../../../.gitbook/assets/Snipaste_2023-10-08_15-07-22.png)
 
-### STEP 3 投放并回收数据
+### STEP 3 Deploy and Collect Data
 
-投放时把相应链接放到渠道中投放，答题者用此链接填写问卷并提交后，回收的答卷数据中将记录来源渠道，导出数据即可查看。
+When deploying, place the corresponding link into the channels. Respondents will use this link to fill out and submit the survey. The collected survey data will record the source channel, and you can view it by exporting the data.
 
-![渠道值会记录在“来源平台”列](<../../../.gitbook/assets/image (154).png>)
+![The channel value will be recorded in the "Source Platform" column.](<../../../.gitbook/assets/image (154).png>)
 
-### STEP 4 按来源渠道筛选数据
+### STEP 4 Filter data by source channel
 
-在统计页中，可使用数据筛选器对“来源平台”进行筛选，查看指定渠道的答卷数据和统计图表。
+On the statistics page, you can use the data filter to filter by "source platform" to view the survey data and statistical charts for the specified channel.
 
-![按“来源渠道”筛选数据](../../../.gitbook/assets/Snipaste_2023-10-08_15-08-11.png)
+![Filter data by "source channel"](../../../.gitbook/assets/Snipaste_2023-10-08_15-08-11.png)
 
-## 暂停回收
+## Pause Recycling
 
-在样本收集完成后，可通过问卷编辑页内右上角”开始回收“或通过”我的问卷—更多—暂停回收”关闭投放链接，关闭后答题端会提示用户问卷已暂停回收数据，用户无法查看问卷。
+After the sample collection is completed, you can close the distribution link by clicking "Start Collection" in the upper right corner of the survey editing page or through "My Surveys—More—Pause Collection". After closing, the respondents will be notified that the survey data collection has been paused, and they will not be able to view the survey.
 
-![问卷编辑页的“暂停回收”](../../../.gitbook/assets/Snipaste_2023-10-08_15-10-32.png)
+!["Pause Collection" on the survey editing page](../../../.gitbook/assets/Snipaste_2023-10-08_15-10-32.png)
 
-![“我的问卷”列表的“暂停回收”](../../../.gitbook/assets/Snipaste_2023-10-08_15-10-50.png)
+!["Pause Collection" of "My Survey" list](../../../.gitbook/assets/Snipaste_2023-10-08_15-10-50.png)
 
-![暂停回收后答题端的提示](../../../.gitbook/assets/Snipaste_2023-10-08_15-11-52.png)
-
-
-
-## 常见问题
-
-### 开始回收后投放域名可以修改吗？
-
-可以，展示的两个投放域名通用，两个域名回收的数据一并统计。
+![Pause recycling after answering the survey prompt](../../../.gitbook/assets/Snipaste_2023-10-08_15-11-52.png)
 
 
 
-### 问卷正在回收中还能编辑吗？
+## Frequently Asked Questions
 
-“正在回收”状态的问卷不可以编辑，需先暂停回收问卷再进行编辑；若已有回收的答题数据，编辑可能会影响数据的统计，请谨慎操作。
+### Can the domain name be changed after starting the recycling?
+
+Yes, the two displayed domains are universal, and the data collected from both domains will be aggregated.
 
 
 
-### 正在回收中的问卷编辑后原答题数据还在吗？
+### Can the survey still be edited while it is being collected?
 
-删除选项、删除题目后原答题数据会同步删除（仅删除该选项/该题目的答题数据）；若修改题目/选项的文本内容、调整顺序、增加，原答题数据不受影响。
+Surveys in the "Recycling" status cannot be edited. You need to pause the survey collection before editing. If there are already collected responses, editing may affect the data statistics. Please proceed with caution.
+
+
+
+### Is the original response data still available after editing a survey that is being recycled?
+
+Deleting options or questions will also delete the original survey responses associated with them (only the responses related to the deleted options/questions). If you modify the text content of questions/options, adjust the order, or add new ones, the original survey responses will not be affected.
 
 
 

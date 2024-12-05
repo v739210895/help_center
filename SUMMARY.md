@@ -162,7 +162,7 @@
       * [🆕 Quota Settings](user-guide-updating/cao-zuo-zhi-yin/wen-juan-she-zhi/quota-settings.md)
     * [Check the survey](user-guide-updating/cao-zuo-zhi-yin/jian-cha-wen-juan.md)
     * [Preview survey](user-guide-updating/cao-zuo-zhi-yin/yu-lan-wen-juan.md)
-    * [投放问卷](user-guide-updating/cao-zuo-zhi-yin/hui-shou-da-juan/README.md)
+    * [Distribute survey](user-guide-updating/cao-zuo-zhi-yin/hui-shou-da-juan/README.md)
       * [🆕 高级设置](user-guide-updating/cao-zuo-zhi-yin/hui-shou-da-juan/gao-ji-she-zhi.md)
     * [统计分析](user-guide-updating/cao-zuo-zhi-yin/tong-ji-fen-xi/README.md)
       * [回收概况](user-guide-updating/cao-zuo-zhi-yin/tong-ji-fen-xi/hui-shou-gai-kuang.md)
