@@ -1,6 +1,6 @@
-# 信息栏
+# Information Bar
 
-在问卷调研中，经常需要对问卷题目进行分类标记或进一步阐述。信息栏可在题目与题目之间增加文字描述，让答题者能更清晰直观地了解问卷内容。
+In surveys, it is often necessary to categorize or further elaborate on the questions. Information sections can add textual descriptions between questions, allowing respondents to understand the content of the survey more clearly and intuitively.
 
 ![信息栏](<../../.gitbook/assets/image (391).png>)
 

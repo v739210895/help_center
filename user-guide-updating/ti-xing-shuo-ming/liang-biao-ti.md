@@ -1,6 +1,6 @@
-# 量表题
+# Scale
 
-量表题通过数字区间值选择来衡量受访者的态度，选择范围从极端态度到相反的极端态度，例如从非常不满意 1分到非常满意 10分。
+Scale measure respondents' feelings or attitudes towards a particular issue using predefined numerical ranges.
 
 ![量表题](<../../.gitbook/assets/image (101) (1).png>)
 

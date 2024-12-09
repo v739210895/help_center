@@ -1,6 +1,6 @@
-# 矩阵多选题
+# Matrix Multiple Choice
 
-矩阵多选题是将同类的多个问题和选项排列成一个矩阵，方便答题者对比后进行多项选择。
+Matrix multiple choice list multiple questions and multiple options in a matrix format, where respondents need to select one or more answers for each question.
 
 ![矩阵多选题](../../.gitbook/assets/Snipaste_2023-10-16_10-24-05.png)
 

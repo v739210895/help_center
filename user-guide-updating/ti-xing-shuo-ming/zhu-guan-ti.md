@@ -1,6 +1,6 @@
-# 主观题
+# Text entry
 
-在问卷调研的开放式问答中，经常需要使用主观题让答题者在文本框内输入符合问题的答案。主观题支持自定义字数的范围及进行文本验证。
+Text entry allow respondents to provide open-ended answers to the questions, supporting a customizable range of word counts and text validation.
 
 ![主观题](<../../.gitbook/assets/image (555).png>)
 

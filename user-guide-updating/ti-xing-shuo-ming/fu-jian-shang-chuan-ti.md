@@ -1,6 +1,6 @@
-# 附件上传题
+# File Upload
 
-附件上传题，答题者上传图片/视频作为该题的答案，适用于收集答题者提交的图片或视频文件。
+The file Upload requires respondents to upload images/videos as the answer to the question. It is suitable for collecting image or video files submitted by respondents.
 
 ![附件上传题](<../../.gitbook/assets/image (631).png>)
 

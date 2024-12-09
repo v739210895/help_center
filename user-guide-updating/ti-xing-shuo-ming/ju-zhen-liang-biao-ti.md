@@ -1,6 +1,6 @@
-# 矩阵量表题
+# Matrix Scale
 
-矩阵量表题是将同类的多个问题和选项排列成一个矩阵，方便答题者对比后进行分数选择。
+Matrix scale measure respondents' feelings or attitudes towards multiple similar issues through preset numerical range values.
 
 ![矩阵量表题](<../../.gitbook/assets/image (798).png>)
 

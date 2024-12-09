@@ -1,8 +1,11 @@
 ---
-description: 编辑问卷时上传一张图片，需要问卷答题者在这个图片上做点击操作。系统可以汇总所有作答者的点击情况，形成人群对这张图片关注点的热力图。
+description: >-
+  A heatmap allows respondents to answer questions by selecting or marking on
+  the heatmap, typically used to display and collect respondents' preferences,
+  satisfaction, or other evaluations of multiple
 ---
 
-# 热力图
+# Heat Map
 
 ## 【STEP 1】 新建热力图 <a href="#step-1-xin-jian-zhu-guan-ti" id="step-1-xin-jian-zhu-guan-ti"></a>
 

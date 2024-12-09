@@ -1,6 +1,6 @@
-# 排序题
+# Rank order
 
-排序题要求答题者对选项按照一定的标准依次排列，适用于调查答题者对多个选项态度倾向的场景。答题者依次点击选项，即可对选项进行排序，对已排序的选项可通过点击右侧按钮拖拽调整顺序。
+Rank order require respondents to order a set of options based on specific criteria or preferences. They are suitable for survey questions that assess respondents' attitudes or preferences towards multiple options.
 
 ![排序题](<../../.gitbook/assets/image (173).png>)
 

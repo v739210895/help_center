@@ -1,8 +1,8 @@
-# 权重分配题
+# Weight Distribution
 
 
 
-权重分配题要求答题者对各选项按照一定的标准分配权重值，适用于调查答题者对多个选项态度倾向的场景。
+The weight distribution requires respondents to allocate a certain total weight to several options to indicate the importance or priority of each option. It is applicable in scenarios where survey respondents' attitudes towards multiple options are being assessed.
 
 
 

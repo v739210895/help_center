@@ -4,7 +4,7 @@ In the "Statistics - Chart" section, an entry point for data processing tools is
 
 Other responsible persons or concerned individuals of this survey can collaborate on data processing. For example, after User A performs data cleaning on the survey, another responsible person, User B, can use the advanced data processing tools to review the cleaning results, adjust the cleaning rules, and re-execute the cleaning.
 
-<figure><img src="../../../.gitbook/assets/image (426).png" alt=""><figcaption><p>进阶数据处理功能入口</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (426).png" alt=""><figcaption><p>Advanced Data Processing Function Entry</p></figcaption></figure>
 
 For surveys with completed data processing tasks, users can choose to directly access previously executed data processing tasks or re-import data upon their second visit. If they choose to re-import data, the system will automatically perform operations such as cleaning, setting variables, and weighting according to the previously saved conditions.
 

@@ -1,50 +1,52 @@
-# 单选题
+# Single Choice
 
-单选题指从一组选项当中，选出其中一个作为正确的答案。
+Multiple choice allow respondents to select one option from a set of choices.
 
-![单选题](<../../.gitbook/assets/image (461).png>)
+![](<../../.gitbook/assets/image (461).png>)
 
-## 【STEP 1】 新建单选题
+## 【STEP 1】 Create new survey question
 
-在问卷编辑页中，选择左侧题型控件中的“单选题”或在指定题目点击右侧快捷工具栏中的+按钮选择“单选题”即可新建单选题。
+On the survey editing page, select "Single Choice Question" from the question type controls on the left side, or click the + button in the quick toolbar on the right side of a specified question to create a new single choice question.
 
 ![通过“题型”控件新建单选题](../../.gitbook/assets/Snipaste_2023-10-09_16-32-33.png)
 
 ![在指定题目下方新建单选题](../../.gitbook/assets/Snipaste_2023-10-09_16-33-12.png)
 
-## 【STEP 2】编辑题目、备注、选项内容
+## 【STEP 2】Edit the question, notes, and options content
 
-题目、选项及备注均支持富文本编辑，包括：字体样式、[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
+The title, options, and remarks all support rich text editing, including: font styles.[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
 ![单选题内容编辑](../../.gitbook/assets/Snipaste_2023-10-10_10-05-17.png)
 
-## 【STEP 3】题目及选项设置
+## 【STEP 3】Question and option settings
 
-### 必答设置
+### Mandatory settings
 
-在右侧面板中关闭“此题必答”功能后，答题时此题可以为空。
+After turning off the "This question is mandatory" feature in the right panel, this question can be left blank when answering.
 
 {% hint style="info" %}
-所有题目默认开启“此题必答”功能。
+All questions are set to "mandatory" by default.
 {% endhint %}
 
 ![“此题必答”功能](../../.gitbook/assets/Snipaste_2023-10-10_10-06-02.png)
 
-### 题型切换
+### Question Type
 
-单选题、多选题、下拉题之间可自由切换，切换后原题目的必答设置、选项关联设置、选项随机设置均保留。
+Single-choice, multiple-choice, and dropdown questions can be freely switched. After switching, the original question's required settings, option association settings, and random option settings are retained.
 
 ![](../../.gitbook/assets/Snipaste_2023-10-10_10-06-31.png)
 
-### 在选项后增加填空框
+### Add a fill-in-the-blank box after the options
 
-开启后，在选项后方增加填空框，勾选必填，用户须填写内容后才可提交，适用于用户选择其他项后，收集其他相关信息的场景
+Upon opening, add a fill-in-the-blank box after the option, mark it as required, and users must fill in the content before submitting. This is suitable for scenarios where users select "Other" and additional information needs to be collected
 
 <figure><img src="../../.gitbook/assets/Snipaste_2023-10-10_10-23-09.png" alt=""><figcaption></figcaption></figure>
 
-### 选项关联
+### Option Association
 
-选项关联即让答题者选中（或未选中）的选项显示在下一题的可选项中，一般用于题目相关性极高的两题中或追问的情况。
+**Option Association**
+
+Option association refers to displaying the selected (or unselected) options in the next question's available choices. This is typically used for highly related questions or follow-up inquiries.
 
 ![选项关联](../../.gitbook/assets/Snipaste_2023-10-09_16-40-24.png)
 
@@ -52,21 +54,21 @@
 [xuan-xiang-guan-lian.md](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
 {% endcontent-ref %}
 
-### 选项分列
+### Options Listing
 
-在题目编辑状态下，可设置选项分列，设置成功后，在答题端会根据设置的每行展示选项个数对选项进行分列展示，横屏下可设置每行展示1\~6个，竖屏下可设置每行展示1\~3个。适用于选项数量多且选项文本不长的情况。
+In the question editing state, you can set the options to be displayed in columns. Once set, the answer interface will display the options in columns according to the number of options per row. In landscape mode, you can set 1 to 6 options per row, and in portrait mode, you can set 1 to 3 options per row. This is suitable for situations where there are many options and the option text is not long.
 
 ![选项分列设置](../../.gitbook/assets/Snipaste_2023-10-09_16-41-01.png)
 
 ![电脑答题端显示](<../../.gitbook/assets/image (478).png>)
 
-### 选项随机
+### Options are random
 
-在题目编辑状态下，可设置选项随机，设置成功后，在答题端会根据所选择的随机方式显示选项。随机方式包括：随机排序、随机正逆序、分组显示。
+In the question editing mode, options can be set to random. Once set successfully, the options will be displayed randomly on the answering end according to the chosen random method. The random methods include: random order, random forward and reverse order, and grouped display.
 
-#### 选项随机排序
+#### Randomize options
 
-选项随机排序是指答题时题目中的选项以随机顺序出现。开启“选项随机排序”功能后，题目的选项右侧会出现不随机的勾选框，若希望某个选项固定在当前位置，可在其后勾选“不随机”，则该选项不参与随机排序。
+Random option ordering means that the options in a question appear in a random order when answering. After enabling the "Random option ordering" feature, a non-random checkbox will appear on the right side of the options. If you want a specific option to remain in its current position, you can check "Non-random" next to it, and that option will not participate in the random ordering.
 
 ![选项随机排序](../../.gitbook/assets/Snipaste_2023-10-09_16-42-16.png)
 

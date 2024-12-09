@@ -1,6 +1,6 @@
-# 多选题
+# Multiple Choice
 
-多选题指从一组选项当中，选出其中一个或多个作为正确的答案，可指定选择数量的范围。
+Multiple choice allow respondents to select one or more options from a set of choices.
 
 ![多选题](<../../.gitbook/assets/image (486).png>)
 

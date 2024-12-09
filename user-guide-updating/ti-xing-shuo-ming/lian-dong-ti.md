@@ -1,6 +1,6 @@
-# 联动题
+# Multi level linkage
 
-联动题可实现多级分类，因素关联分析等，例如地域、行业、专业、大学等。并且可自由编辑多级联动下拉，每级的选项关系为总分关系，即第一级的选项可以细分到第二级选项。
+Collaborative questions can achieve multi-level classification and factor correlation analysis, such as region, industry, major, university, etc. Additionally, multi-level linked drop-down menus can be freely edited, with each level's options having a hierarchical relationship. This means that the options in the first level can be subdivided into the second level options.
 
 ## 【STEP 1】 新建联动题
 

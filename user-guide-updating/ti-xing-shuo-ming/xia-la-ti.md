@@ -1,6 +1,6 @@
-# 下拉题
+# Dropdown
 
-下拉题指从一组选项当中，选出其中一个作为正确的答案。下拉题将所有题目选项隐藏在下拉框内，下拉菜单后依次展开，适用于选项数量较多的场景。
+Dropdown allow respondents to select an answer from a preset group of options by clicking on a dropdown menu. This is suitable for scenarios with a large number of options.
 
 ![下拉题](<../../.gitbook/assets/image (647).png>)
 

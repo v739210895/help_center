@@ -1,6 +1,6 @@
-# 矩阵单选题
+# Matrix Single Choice
 
-矩阵单选题是将同类的多个问题和选项排列成一个矩阵，方便答题者对比后进行单项选择。
+Matrix single choice list multiple questions or options in a matrix format, and visitors need to select one answer for each question.
 
 ![矩阵单选题](../../.gitbook/assets/Snipaste_2023-10-16_10-19-27.png)
 
