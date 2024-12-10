@@ -4,41 +4,41 @@ Dropdown allow respondents to select an answer from a preset group of options by
 
 ![下拉题](<../../.gitbook/assets/image (647).png>)
 
-## 【STEP 1】 新建下拉题
+## 【STEP 1】 Create new dropdown question
 
-在问卷编辑页中，选择左侧题型控件中的“下拉题”或在指定题目点击右侧快捷工具栏中的+按钮选择“下拉题”即可新建下拉题。
+On the survey editing page, select "Dropdown Question" from the question type controls on the left, or click the + button in the quick toolbar on the right side of the specified question to choose "Dropdown Question" to create a new dropdown question.
 
-![通过“题型”控件新建下拉题](../../.gitbook/assets/Snipaste_2023-10-10_09-38-52.png)
+![Create a new dropdown question through the "Question Type" control](../../.gitbook/assets/Snipaste_2023-10-10_09-38-52.png)
 
-![在指定题目下方新建下拉题](../../.gitbook/assets/Snipaste_2023-10-10_09-39-56.png)
+![Create a new dropdown question under the specified title](../../.gitbook/assets/Snipaste_2023-10-10_09-39-56.png)
 
-## 【STEP 2】编辑题目、备注、选项内容
+## 【STEP 2】Edit the question, notes, and options content
 
-题目和备注均支持富文本编辑，包括：字体样式、[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)；选项仅支持编辑文本内容及内容引用。
+The title, options, and remarks all support rich text editing, including: font styles.[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
 ![下拉题内容编辑](../../.gitbook/assets/Snipaste_2023-10-10_09-50-46.png)
 
-## 【STEP 3】题目及选项设置
+## 【STEP 3】Question and Option Settings
 
-### 必答设置
+### Mandatory setting
 
-在右侧面板中关闭“此题必答”功能后，答题时此题可以为空。
+After turning off the "Required" feature in the right panel, this question can be left blank when answering.
 
 {% hint style="info" %}
-所有题目默认开启“此题必答”功能。
+All questions are set to "mandatory" by default.
 {% endhint %}
 
 ![“此题必答”功能](../../.gitbook/assets/Snipaste_2023-10-10_09-51-24.png)
 
-### 题型切换
+### Switch Question Type
 
-单选题、多选题、下拉题之间可自由切换，切换后原题目的必答设置、选项关联设置、选项随机设置均保留。
+You can freely switch between single-choice questions, multiple-choice questions, and dropdown questions. After switching, the mandatory answer settings, option association settings, and option randomization settings of the original question will be retained.
 
 ![](../../.gitbook/assets/Snipaste_2023-10-10_09-52-33.png)
 
-### 选项关联
+### Option Association
 
-选项关联即让答题者选中（或未选中）的选项显示在下一题的可选项中，一般用于题目相关性极高的两题中或追问的情况。
+Option association means that the options selected (or not selected) by the respondent will appear as options in the next question. This is generally used in cases where two questions are highly related or in follow-up questions.
 
 ![选项关联](../../.gitbook/assets/Snipaste_2023-10-10_09-55-57.png)
 
@@ -46,11 +46,11 @@ Dropdown allow respondents to select an answer from a preset group of options by
 [xuan-xiang-guan-lian.md](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
 {% endcontent-ref %}
 
-### 选项随机
+### Random options
 
-在题目编辑状态下，可设置选项随机，设置成功后，在答题端会根据所选择的随机方式显示选项。随机方式包括：随机排序、随机正逆序、分组显示。
+In the question editing mode, you can set options to be randomized. Once set successfully, the options will be displayed on the answering end according to the selected randomization method. The randomization methods include: random order, random forward and reverse order, and grouped display.
 
-#### 选项随机排序
+#### Randomize options
 
 选项随机排序是指答题时题目中的选项以随机顺序出现。开启“选项随机排序”功能后，题目的选项右侧会出现不随机的勾选框，若希望某个选项固定在当前位置，可在其后勾选“不随机”，则该选项不参与随机排序。
 
