@@ -12,9 +12,9 @@ Matrix scale measure respondents' feelings or attitudes towards multiple similar
 
 ![通过快捷工具栏添加](../../.gitbook/assets/Snipaste_2023-10-16_10-46-52.png)
 
-## 【STEP 2】编辑题目、问题、备注、选项内容 <a href="#step-2-bian-ji-ti-mu-wen-ti-bei-zhu-xuan-xiang-nei-rong" id="step-2-bian-ji-ti-mu-wen-ti-bei-zhu-xuan-xiang-nei-rong"></a>
+## 【STEP 2】Edit title, notes, and option content
 
-矩阵单选题的题目、问题、选项及备注均支持富文本编辑，包括：字体样式、[插入超链接](https://app.gitbook.com/@imur/s/help_center/~/drafts/-MCLe6a5QFx9H9EC9MtF/cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie)、[插入图片](https://app.gitbook.com/@imur/s/help_center/~/drafts/-MCLe6a5QFx9H9EC9MtF/cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian)、[插入视频](https://app.gitbook.com/@imur/s/help_center/~/drafts/-MCLe6a5QFx9H9EC9MtF/cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin)、[引用选项内容](https://app.gitbook.com/@imur/s/help_center/~/drafts/-MCLe6a5QFx9H9EC9MtF/cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong)。
+The title, options, and remarks all support rich text editing, including font styles.[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
 ![题目编辑](../../.gitbook/assets/Snipaste_2023-10-16_10-47-42.png)
 

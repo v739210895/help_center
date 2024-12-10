@@ -4,111 +4,77 @@ Multiple choice allow respondents to select one or more options from a set of ch
 
 ![多选题](<../../.gitbook/assets/image (486).png>)
 
-## 【STEP 1】 新建多选题
+## 【STEP 1】 Create new multiple-choice question
 
-在问卷编辑页中，选择左侧题型控件中的“多选题”或在指定题目点击右侧快捷工具栏中的+按钮选择“多选题”即可新建多选题。
+On the survey editing page, select "Multiple Choice Question" from the question type controls on the left, or click the + button on the right quick toolbar of a specified question to choose "Multiple Choice Question" to create a new multiple choice question.
 
 ![通过“题型”控件新建多选题](../../.gitbook/assets/Snipaste_2023-10-10_10-12-13.png)
 
 ![在指定题目下方新建多选题](../../.gitbook/assets/Snipaste_2023-10-10_10-12-51.png)
 
-## 【STEP 2】编辑题目、备注、选项内容
+## 【STEP 2】Edit title, notes, and option content
 
-题目、选项及备注均支持富文本编辑，包括：字体样式、[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
+The title, options, and remarks all support rich text editing, including font styles.[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
 ![多选题内容编辑](../../.gitbook/assets/Snipaste_2023-10-10_10-13-16.png)
 
-## 【STEP 3】题目及选项设置
+## 【STEP 3】Question and Option Settings
 
-### 必答设置
+### Mandatory setting
 
-在右侧面板中关闭“此题必答”功能后，答题时此题可以为空。
+After turning off the "Required" feature in the right panel, this question can be left blank when answering.
 
 {% hint style="info" %}
-所有题目默认开启“此题必答”功能。
+All questions are set to "mandatory" by default.
 {% endhint %}
 
 ![“此题必答”功能](../../.gitbook/assets/Snipaste_2023-10-10_10-15-46.png)
 
-### 题型切换
+### Switch Question Type
 
-单选题、多选题、下拉题之间可自由切换，切换后原题目的必答设置、选项关联设置、选项随机设置均保留。
+Single-choice questions, multiple-choice questions, and dropdown questions can be freely switched. After switching, the mandatory settings, option association settings, and option randomization settings of the original question will be retained.
 
 ![](../../.gitbook/assets/Snipaste_2023-10-10_10-16-22.png)
 
-### 在选项后添加填空框
+### Add a fill-in-the-blank box after the options
 
-开启后，在选项后方增加填空框，勾选必填，用户须填写内容后才可提交，适用于用户选择其他项后，收集其他相关信息的场景
+After enabling, a fill-in-the-blank box will be added behind the options. When the required option is checked, users must fill in the content before they can submit. This is suitable for scenarios where users select "Other" and need to provide additional related information.
 
 <figure><img src="../../.gitbook/assets/Snipaste_2023-10-10_10-25-27.png" alt=""><figcaption></figcaption></figure>
 
-### 可选范围
+### Optional Range
 
-多选题中，可限制同一问题中用户可选择的选项数量。
+In multiple-choice questions, the number of options a user can select for a single question can be limited.
 
 ![设置可选范围](../../.gitbook/assets/Snipaste_2023-10-10_10-17-03.png)
 
-### 选项关联
 
-选项关联即让答题者选中（或未选中）的选项显示在下一题的可选项中，一般用于题目相关性极高的两题中或追问的情况。
 
-![选项关联](../../.gitbook/assets/Snipaste_2023-10-10_10-18-45.png)
+### Option split
 
-{% content-ref url="../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
-[xuan-xiang-guan-lian.md](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
-{% endcontent-ref %}
-
-### 选项分列
-
-在题目编辑状态下，可设置选项分列，设置成功后，在答题端会根据设置的每行展示选项个数对选项进行分列展示，横屏下可设置每行展示1\~6个，竖屏下可设置每行展示1\~3个。适用于选项数量多且选项文本不长的情况。
+In the question editing state, you can set the options to be displayed in columns. Once set successfully, the options will be displayed in columns on the answering end based on the number of options per row. In landscape mode, you can set 1 to 6 options per row, and in portrait mode, you can set 1 to 3 options per row. This is suitable for situations where there are many options and the option text is not long.
 
 ![选项分列设置](../../.gitbook/assets/Snipaste_2023-10-10_10-21-26.png)
 
 ![电脑答题端显示](<../../.gitbook/assets/image (276).png>)
 
-### 选项互斥
+### Mutually Exclusive Options
 
-多选题中的选项互斥指的是指定某个选项为互斥项，答题时若用户选择了任一被设置为互斥项的选项，则不可选择其他选项。
+Mutually exclusive options in a multiple-choice question refer to designating a specific option as mutually exclusive. If a user selects any of the options set as mutually exclusive while answering, they cannot select any other options.
 
 ![选项互斥](../../.gitbook/assets/Snipaste_2023-10-10_10-32-11.png)
 
-### 选项随机
+### Editor page and survey interface display
 
-在题目编辑状态下，可设置选项随机，设置成功后，在答题端会根据所选择的随机方式显示选项。随机方式包括：随机排序、随机正逆序、分组显示。
-
-#### 选项随机排序
-
-选项随机排序是指答题时题目中的选项以随机顺序出现。开启“选项随机排序”功能后，题目的选项右侧会出现不随机的勾选框，若希望某个选项固定在当前位置，可在其后勾选“不随机”，则该选项不参与随机排序。
-
-![选项随机排序](../../.gitbook/assets/Snipaste_2023-10-10_11-24-49.png)
-
-#### 选项随机正逆序
-
-选项随机正逆序是指答题时题目中的选项随机以正序/逆序出现。开启“选项随机正逆序”功能后，“选项随机正逆序”功能下方会出现“固定最后一个选项”功能开关，若希望最后一个选项固定在当前位置，可开启“固定最后一个选项”功能，则在答题端显示时最后一个选项不参与随机正逆序。
-
-![选项随机正逆序](../../.gitbook/assets/Snipaste_2023-10-10_14-36-33.png)
-
-#### 选项分组显示
-
-选项分组显示是指把选项自由划分为多个组别，答题时每个分组的选项随机抽出一个或多个显示，支持分组间随机排序显示，设置方式详见[选项分组显示设置](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md#xuan-xiang-fen-zu-xian-shi)。
-
-![选项分组显示](../../.gitbook/assets/Snipaste_2023-10-10_14-37-59.png)
-
-{% content-ref url="../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md" %}
-[xuan-xiang-sui-ji.md](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md)
-{% endcontent-ref %}
-
-## 编辑页及答题端显示
-
-编辑完成后，在编辑页内可查看单选题的具体内容及选项的关联、内容引用、填空设置。
+After editing, you can view the specific content of the multiple-choice questions, the association of options, content references, and fill-in-the-blank settings on the editing page.
 
 ![编辑页内的多选题显示](<../../.gitbook/assets/image (362).png>)
 
 ![答题端的多选题显示](<../../.gitbook/assets/image (625).png>)
 
-## 统计结果展示
+## Survey Results
 
-在统计分析页中，以小计+条形百分比的形式展示多选题的填答结果。
+On the statistical analysis page, display the responses to multiple-choice questions in the form of subtotal + bar percentage.
 
 ![多选题统计结果](../../.gitbook/assets/Snipaste_2023-10-10_14-38-41.png)
 

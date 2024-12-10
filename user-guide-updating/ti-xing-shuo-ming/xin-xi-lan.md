@@ -12,9 +12,9 @@ In surveys, it is often necessary to categorize or further elaborate on the ques
 
 ![在指定题目下方新建信息栏](../../.gitbook/assets/Snipaste_2023-10-16_17-15-40.png)
 
-## 【STEP 2】编辑信息栏内容
+## 【STEP 2】Edit title, notes, and option content
 
-信息栏内容支持富文本编辑，包括：字体样式、[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
+The title, options, and remarks all support rich text editing, including font styles.[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
 ![信息栏内容编辑](../../.gitbook/assets/Snipaste_2023-10-16_17-16-42.png)
 

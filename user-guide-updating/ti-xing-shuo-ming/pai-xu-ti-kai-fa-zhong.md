@@ -12,9 +12,9 @@ Rank order require respondents to order a set of options based on specific crite
 
 ![在指定题目下方新建排序题](../../.gitbook/assets/Snipaste_2023-10-16_16-22-30.png)
 
-## 【STEP 2】编辑题目、备注内容
+## 【STEP 2】Edit title, notes, and option content
 
-题目及备注均支持富文本编辑，包括：字体样式、[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
+The title, options, and remarks all support rich text editing, including font styles.[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
 ![排序题内容编辑](../../.gitbook/assets/Snipaste_2023-10-16_16-23-37.png)
 

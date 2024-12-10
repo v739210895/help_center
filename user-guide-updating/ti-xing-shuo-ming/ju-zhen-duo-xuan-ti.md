@@ -12,9 +12,9 @@ Matrix multiple choice list multiple questions and multiple options in a matrix 
 
 ![在指定题目下方新建矩阵多选题](../../.gitbook/assets/Snipaste_2023-10-16_10-25-42.png)
 
-## 【STEP 2】编辑题目、问题、备注、选项内容
+## 【STEP 2】Edit title, notes, and option content
 
-矩阵多选题的题目、问题、选项及备注均支持富文本编辑，包括：字体样式、[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
+The title, options, and remarks all support rich text editing, including font styles.[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
 ![矩阵多选题内容编辑](../../.gitbook/assets/Snipaste_2023-10-16_10-26-47.png)
 

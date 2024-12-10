@@ -52,19 +52,19 @@ In the question editing mode, you can set options to be randomized. Once set suc
 
 #### Randomize options
 
-选项随机排序是指答题时题目中的选项以随机顺序出现。开启“选项随机排序”功能后，题目的选项右侧会出现不随机的勾选框，若希望某个选项固定在当前位置，可在其后勾选“不随机”，则该选项不参与随机排序。
+Option randomization refers to presenting the options in a question in a random order when answering. Once the "Option Randomization" feature is enabled, a "Not Random" checkbox will appear on the right side of each option. If you wish to keep a particular option in its current position, you can check the "Not Random" box, and that option will not be included in the randomization.
 
 ![选项随机排序](../../.gitbook/assets/Snipaste_2023-10-10_09-57-13.png)
 
-#### 选项随机正逆序
+#### Options in random forward and reverse order
 
-选项随机正逆序是指答题时题目中的选项随机以正序/逆序出现。开启“选项随机正逆序”功能后，“选项随机正逆序”功能下方会出现“固定最后一个选项”功能开关，若希望最后一个选项固定在当前位置，可开启“固定最后一个选项”功能，则在答题端显示时最后一个选项不参与随机正逆序。
+Random forward/reverse order of options means that the options in the question will appear in a random forward or reverse order when answering. After enabling the "Random forward/reverse order of options" feature, a "Fix the last option" toggle will appear below the "Random forward/reverse order of options" feature. If you wish to keep the last option fixed in its current position, you can enable the "Fix the last option" feature, so that the last option will not participate in the random forward/reverse order when displayed on the answering end.
 
 ![选项随机正逆序](../../.gitbook/assets/Snipaste_2023-10-10_09-57-45.png)
 
-#### 选项分组显示
+#### Grouped display of options
 
-选项分组显示是指把选项自由划分为多个组别，答题时每个分组的选项随机抽出一个或多个显示，支持分组间随机排序显示。
+Option grouping display refers to freely dividing options into multiple groups, and during the survey, one or more options from each group are randomly selected for display, supporting random sorting display between groups.
 
 ![选项分组显示](../../.gitbook/assets/Snipaste_2023-10-10_09-58-17.png)
 
@@ -72,16 +72,16 @@ In the question editing mode, you can set options to be randomized. Once set suc
 [xuan-xiang-sui-ji.md](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md)
 {% endcontent-ref %}
 
-## 编辑页及答题端显示
+## Display of the editing page and the survey answering interface
 
-编辑完成后，在编辑页内可查看单选题的具体内容及选项的关联、内容引用、填空设置。
+After editing, you can view the specific content of the single-choice questions and the association of options, content references, and fill-in-the-blank settings on the editing page.
 
 ![编辑页内的下拉题显示](<../../.gitbook/assets/image (98).png>)
 
 ![答题端的下拉题显示](<../../.gitbook/assets/image (789).png>)
 
-## 统计结果展示
+### Survey Results
 
-在统计分析页中，以小计+条形百分比的形式展示下拉题的填答结果
+In the statistical analysis page, display the response results of the dropdown question in the form of subtotal + bar percentage.
 
 ![下拉题统计结果](../../.gitbook/assets/Snipaste_2023-10-10_10-01-15.png)

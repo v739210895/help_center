@@ -4,69 +4,69 @@ Text entry allow respondents to provide open-ended answers to the questions, sup
 
 ![主观题](<../../.gitbook/assets/image (555).png>)
 
-## 【STEP 1】 新建主观题
+## 【STEP 1】 Create new text entry
 
-在问卷编辑页中，选择左侧题型控件中的“主观题”或在指定题目点击右侧快捷工具栏中的+按钮选择“主观题”即可新建主观题。
+In the survey editing page, you can create a new subjective question by selecting "Subjective Question" from the question type controls on the left, or by clicking the + button in the quick toolbar on the right of a specified question and selecting "Subjective Question".
 
 ![通过“题型”控件新建主观题](../../.gitbook/assets/Snipaste_2023-10-11_09-28-53.png)
 
 ![在指定题目下方新建主观题](../../.gitbook/assets/Snipaste_2023-10-11_09-29-30.png)
 
-## 【STEP 2】编辑题目、备注内容
+## 【STEP 2】Edit title, notes, and option content
 
-题目及备注均支持富文本编辑，包括：字体样式、[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
+The title, options, and remarks all support rich text editing, including font styles.[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
 ![主观题内容编辑](<../../.gitbook/assets/image (227).png>)
 
-## 【STEP 3】题目设置
+## 【STEP 3】Survey Setup
 
-### 必答设置
+### Required settings
 
-在右侧面板中关闭“此题必答”功能后，答题时此题可以为空。
+After turning off the "Required" function in the right panel, this question can be left blank when answering.
 
 {% hint style="info" %}
-所有题目默认开启“此题必答”功能。
+All questions have the "mandatory" function enabled by default.
 {% endhint %}
 
 ![必答设置](../../.gitbook/assets/Snipaste_2023-10-11_09-32-37.png)
 
-### 答题框大小
+### Answer box size
 
-主观题中的答题框大小可根据调研需求自由设置。“小”为单行，适用于姓名、电话等信息填写场景；“中“为两行，”大”为三行，适用于意见征集等调研场景。
+The size of the answer box for subjective questions can be freely set according to the survey needs. "Small" is for single line, suitable for filling in information such as name and phone number; "Medium" is for two lines; "Large" is for three lines, suitable for opinion collection and other survey scenarios.
 
 ![答题框大小设置](../../.gitbook/assets/Snipaste_2023-10-11_09-33-46.png)
 
-### 文本验证
+### Text Verification
 
-在题目编辑状态下，可设置文本验证方式，设置成功后，在答题端会根据所选择的验证方式校验主观题的答案。验证方式包括：数字、字母、中文、邮箱、手机号。
+In the question editing state, you can set the text validation method. Once set successfully, the subjective question answers will be validated on the answering end according to the selected validation method. The validation methods include: numbers, letters, Chinese characters, email, and phone number.
 
 {% hint style="warning" %}
-手机号为13位数字，设置为验证手机号后所设置的限制字数范围将失效。
+If the mobile number is 13 digits long, the character limit set after verifying the mobile number will become invalid.
 {% endhint %}
 
 ![文本验证设置](../../.gitbook/assets/Snipaste_2023-10-11_09-34-36.png)
 
-### 字数范围
+### Word Count Range
 
-主观题可限制答案的文本长度，设置成功后，在答题端会根据所设置的文本长度范围自动校验答题者所输入的答案。
+The length of the answers to subjective questions can be limited. Once set successfully, the system will automatically validate the respondents' answers based on the specified length range on the answering end.
 
 {% hint style="info" %}
-“最少填写”、“最多填写”输入框为空，则不设限制。
+If the "minimum fill" and "maximum fill" input fields are empty, no restrictions will be set.
 {% endhint %}
 
 ![字数范围设置](../../.gitbook/assets/Snipaste_2023-10-11_09-35-26.png)
 
-## 编辑页及答题端显示
+### Editor page and survey response interface
 
-编辑完成后，在编辑页内可查看主观题的具体内容及答题框设置。
+After editing, you can view the specific content of the subjective questions and the answer box settings on the editing page.
 
 ![编辑页内的主观题显示](<../../.gitbook/assets/image (609).png>)
 
 ![答题端的主观题显示](<../../.gitbook/assets/image (575).png>)
 
-## 统计结果展示
+### Survey Results
 
-在统计分析页中，以列表的形式展示主观题的填答结果，点击“导出答案”可导出该题所有的答案详情（在[离线下载](../../cao-zuo-zhi-yin/xia-zai-shu-ju/li-xian-xia-zai.md)中进行下载）
+On the statistical analysis page, the answers to subjective questions are displayed in a list format. Clicking "Export Answers" allows you to export all the detailed answers to the question (to be downloaded in offline download).
 
 ![主观题的答题数据展示](../../.gitbook/assets/Snipaste_2023-10-11_09-40-26.png)
 
