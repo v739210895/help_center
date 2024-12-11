@@ -14,7 +14,7 @@ On the survey editing page, select "Dropdown Question" from the question type co
 
 ## 【STEP 2】Edit the question, notes, and options content
 
-The title, options, and remarks all support rich text editing, including: font styles.[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
+The title, options, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
 
 ![下拉题内容编辑](../../.gitbook/assets/Snipaste_2023-10-10_09-50-46.png)
 
@@ -42,8 +42,8 @@ Option association means that the options selected (or not selected) by the resp
 
 ![选项关联](../../.gitbook/assets/Snipaste_2023-10-10_09-55-57.png)
 
-{% content-ref url="../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
-[xuan-xiang-guan-lian.md](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
+{% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
+[xuan-xiang-guan-lian.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
 {% endcontent-ref %}
 
 ### Random options

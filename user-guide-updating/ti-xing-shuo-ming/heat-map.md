@@ -17,9 +17,9 @@ description: >-
 
 ## 【STEP 2】Edit title, notes, and option content
 
-The title, options, and remarks all support rich text editing, including font styles.[插入超链接](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
+The title, options, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
 
-必须上传图片，才可发布问卷
+An image must be uploaded in order to publish the survey.
 
 <figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>热力图内容编辑</p></figcaption></figure>
 
