@@ -4,9 +4,9 @@ Multiple choice allow respondents to select one option from a set of choices.
 
 ![](<../../.gitbook/assets/image (461).png>)
 
-## 【STEP 1】 Create new survey question
+## 【STEP 1】 Create new Single Choice
 
-On the survey editing page, select "Single Choice Question" from the question type controls on the left side, or click the + button in the quick toolbar on the right side of a specified question to create a new single choice question.
+On the survey editing page, select "Single Choice" from the question type controls on the left side, or click the + button in the quick toolbar on the right side of a specified question to create a new single choice question.
 
 ![Create a new single-choice question using the "Question Type" control](../../.gitbook/assets/Snipaste_2023-10-09_16-32-33.png)
 

@@ -4,9 +4,9 @@ Multiple choice allow respondents to select one or more options from a set of ch
 
 ![多选题](<../../.gitbook/assets/image (486).png>)
 
-## 【STEP 1】 Create new multiple-choice question
+## 【STEP 1】 Create new Multiple Choice&#x20;
 
-On the survey editing page, select "Multiple Choice Question" from the question type controls on the left, or click the + button on the right quick toolbar of a specified question to choose "Multiple Choice Question" to create a new multiple choice question.
+On the survey editing page, select "Multiple Choice" from the question type controls on the left, or click the + button on the right quick toolbar of a specified question to choose "Multiple Choice Question" to create a new multiple choice question.
 
 ![通过“题型”控件新建多选题](../../.gitbook/assets/Snipaste_2023-10-10_10-12-13.png)
 

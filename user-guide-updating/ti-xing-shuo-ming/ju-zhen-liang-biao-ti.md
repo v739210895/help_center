@@ -4,9 +4,9 @@ Matrix scale measure respondents' feelings or attitudes towards multiple similar
 
 ![矩阵量表题](<../../.gitbook/assets/image (798).png>)
 
-## 【STEP 1】 新建矩阵量表题
+## 【STEP 1】 Create new matrix scale
 
-在问卷编辑页中，选择左侧题型控件中的“矩阵量表题”或在指定题目点击右侧快捷工具栏中的+按钮选择“矩阵量表题”即可新建矩阵量表题。
+On the survey editing page, select the "Matrix Scale " from the question type controls on the left side, or click the + button in the quick toolbar on the right side of a specified question to choose "Matrix Scale Question" and create a new matrix scale question.
 
 ![通过左侧“题型”添加](../../.gitbook/assets/Snipaste_2023-10-16_10-46-03.png)
 

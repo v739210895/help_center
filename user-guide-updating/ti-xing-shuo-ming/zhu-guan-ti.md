@@ -6,7 +6,7 @@ Text entry allow respondents to provide open-ended answers to the questions, sup
 
 ## 【STEP 1】 Create new text entry
 
-In the survey editing page, you can create a new subjective question by selecting "Subjective Question" from the question type controls on the left, or by clicking the + button in the quick toolbar on the right of a specified question and selecting "Subjective Question".
+In the survey editing page, you can create a new subjective question by selecting "Subjective " from the question type controls on the left, or by clicking the + button in the quick toolbar on the right of a specified question and selecting "Subjective Question".
 
 ![通过“题型”控件新建主观题](../../.gitbook/assets/Snipaste_2023-10-11_09-28-53.png)
 

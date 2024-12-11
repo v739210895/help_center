@@ -4,9 +4,9 @@ Dropdown allow respondents to select an answer from a preset group of options by
 
 ![下拉题](<../../.gitbook/assets/image (647).png>)
 
-## 【STEP 1】 Create new dropdown question
+## 【STEP 1】 Create new Dropdown&#x20;
 
-On the survey editing page, select "Dropdown Question" from the question type controls on the left, or click the + button in the quick toolbar on the right side of the specified question to choose "Dropdown Question" to create a new dropdown question.
+On the survey editing page, select "Dropdown " from the question type controls on the left, or click the + button in the quick toolbar on the right side of the specified question to choose "Dropdown Question" to create a new dropdown question.
 
 ![Create a new dropdown question through the "Question Type" control](../../.gitbook/assets/Snipaste_2023-10-10_09-38-52.png)
 

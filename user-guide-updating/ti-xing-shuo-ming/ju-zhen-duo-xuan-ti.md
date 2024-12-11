@@ -4,9 +4,9 @@ Matrix multiple choice list multiple questions and multiple options in a matrix 
 
 ![矩阵多选题](../../.gitbook/assets/Snipaste_2023-10-16_10-24-05.png)
 
-## 【STEP 1】 新建矩阵多选题
+## 【STEP 1】 Create New Matrix Multiple Choice&#x20;
 
-在问卷编辑页中，选择左侧题型控件中的“矩阵多选题”或在指定题目点击右侧快捷工具栏中的+按钮选择“矩阵多选题”即可新建矩阵多选题。
+On the survey editing page, you can create a new matrix multiple-choice question by selecting "Matrix Multiple-Choice Question" from the question type controls on the left side or by clicking the + button on the quick toolbar on the right side of a specified question to choose "Matrix Multiple-Choice Question".
 
 ![通过“题型”控件新建矩阵多选题](../../.gitbook/assets/Snipaste_2023-10-16_10-25-08.png)
 
@@ -18,97 +18,93 @@ The title, options, and remarks all support rich text editing, including: font s
 
 ![矩阵多选题内容编辑](../../.gitbook/assets/Snipaste_2023-10-16_10-26-47.png)
 
-编辑完成后可预览该矩阵，矩阵中显示的每行是一个问题，每列是一个选项。
+After editing, you can preview the matrix. Each row in the matrix represents a question, and each column represents an option.
 
 ![预览矩阵](../../.gitbook/assets/Snipaste_2023-10-16_10-27-15.png)
 
-## 【STEP 3】题目、问题及选项设置
+## 【STEP 3】Title, questions, and options settings
 
-### 必答设置
+### Mandatory settings
 
-在右侧面板中关闭“此题必答”功能后，答题时此题可以为空。
+After turning off the "This question is mandatory" feature in the right panel, this question can be left blank when answering.
 
 {% hint style="info" %}
-所有题目默认开启“此题必答”功能。
+By default, the "mandatory question" feature is enabled for all questions.
 {% endhint %}
 
 ![“此题必答”功能](../../.gitbook/assets/Snipaste_2023-10-16_10-28-04.png)
 
-### 在选项后增加填空框
+### Add a fill-in-the-blank box after the options
 
-开启后，在选项后方增加填空框，勾选必填，用户须填写内容后才可提交，适用于用户选择其他项后，收集其他相关信息的场景
+After enabling, add a text box behind the options. If the required option is checked, the user must fill in the content before submitting. This is suitable for scenarios where users select "Other" and need to provide additional information.
 
 <figure><img src="../../.gitbook/assets/Snipaste_2023-10-16_10-43-38.png" alt=""><figcaption></figcaption></figure>
 
-### 可选范围
+### Optional Range
 
-矩阵多选题中，可限制同一问题中用户可选择的选项数量。
+In matrix multiple-choice questions, the number of options a user can select for the same question can be limited.
 
 ![可选范围设置](../../.gitbook/assets/Snipaste_2023-10-16_10-28-58.png)
 
-### 选项互斥
+### Mutually exclusive options
 
-矩阵多选题中的选项互斥指的是指定某个选项作为互斥项，答题时若用户选中了互斥项，则不可再选中该问题中的其他选项，可设置多个互斥项。
+In a matrix multiple-choice question, mutually exclusive options refer to designating a certain option as an exclusive item. If the user selects this exclusive option while answering, they cannot select any other options for that question. Multiple exclusive options can be set.
 
 ![指定任意选项作为互斥项](../../.gitbook/assets/Snipaste_2023-10-16_10-29-49.png)
 
-### 选项关联
+### Option Association
 
-选项关联即让答题者选中（或未选中）的选项显示在本矩阵多选题的可选项中，一般用于题目相关性极高的两题中或追问的情况。
+Option association allows the selected (or unselected) options to be displayed as options in this matrix single-choice question. It is generally used in situations where two questions are highly relevant or for follow-up questions.
 
 ![选项关联](../../.gitbook/assets/Snipaste_2023-10-16_10-30-29.png)
 
-{% content-ref url="../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
-[xuan-xiang-guan-lian.md](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
+{% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
+[xuan-xiang-guan-lian.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
 {% endcontent-ref %}
 
-### 选项随机
+### Options are random
 
-在题目编辑状态下，可设置选项随机，设置成功后，在答题端会根据所选择的随机方式显示选项。矩阵多选题的选项随机方式包括：随机排序、随机正逆序。
+In the question editing state, options can be set to random. Once successfully set, the options will be displayed in the answer interface according to the chosen random method. The randomization methods for matrix single-choice questions include: random order and random reverse order.
 
-#### 选项随机排序
+### Randomize options
 
-选项随机排序是指答题时题目中的选项以随机顺序出现。开启“选项随机排序”功能后，题目的选项右侧会出现不随机的勾选框，若希望某个选项固定在当前位置，可在其后勾选“不随机”，则该选项不参与随机排序。
+Randomizing options means that the options in the question will appear in a random order when answering. After enabling the "Randomize Options" feature, a non-random checkbox will appear to the right of the options. If you want a certain option to remain in its current position, you can check "Non-random" next to it, and that option will not be included in the random sorting.
 
 ![选项随机排序](../../.gitbook/assets/Snipaste_2023-10-16_10-31-43.png)
 
-#### 选项随机正逆序
+### Options in random forward and reverse order
 
-选项随机正逆序是指答题时题目中的选项随机以正序/逆序出现。开启“选项随机正逆序”功能后，“选项随机正逆序”功能下方会出现“固定最后一个选项”功能开关，若希望最后一个选项固定在当前位置，可开启“固定最后一个选项”功能，则在答题端显示时最后一个选项不参与随机正逆序。
+Random forward/reverse order of options means that the options in the question appear in a random forward or reverse order when answering. After enabling the "Random forward/reverse order of options" feature, a "Fix the last option" switch will appear below it. If you want the last option to remain in its current position, you can enable the "Fix the last option" feature. In this case, the last option will not participate in the random forward/reverse order when displayed on the answering end.
 
 ![选项随机正逆序](../../.gitbook/assets/Snipaste_2023-10-16_10-32-12.png)
 
-### 问题关联
+### Issue correlation
 
-问题关联即让答题者选中（或未选中）的选项显示在本矩阵多选题的问题中，一般用于题目相关性极高的两题中或追问的情况。
+Question association means that the options selected (or not selected) by the respondent are displayed in the questions of this matrix multiple-choice question. It is generally used in cases where two questions are highly relevant or in follow-up questions.
 
 ![问题关联](../../.gitbook/assets/Snipaste_2023-10-16_10-33-05.png)
 
-问题关联的设置方法与[选项关联](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)的设置方法相同。
+### Questions are random
 
-### 问题随机
+In the question editing state, you can set the questions in a matrix single-choice survey to be displayed randomly. Once set, the questions will be displayed in the response interface according to the selected random method. The random methods for questions in a matrix single-choice survey include: random order and random forward/reverse order.
 
-在题目编辑状态下，可设置矩阵多选题中的问题随机显示，设置成功后，在答题端会根据所选择的随机方式显示问题。矩阵多选题中问题随机方式包括：随机排序、随机正逆序。
+### Random order of questions
 
-#### 问题随机排序
-
-问题随机排序是指答题时该矩阵多选题中的问题以随机顺序出现。开启“问题随机排序”功能后，每个问题右侧会出现不随机的勾选框，若希望某个问题固定在当前位置，可在其后勾选“不随机”，则该问题不参与随机排序。
+Question randomization refers to the questions in the matrix single-choice question appearing in a random order when answering. After enabling the "question randomization" feature, a non-random checkbox will appear on the right side of each question. If you want a particular question to remain in its current position, you can check the "non-random" box next to it, and that question will not be included in the randomization.
 
 ![问题随机排序](../../.gitbook/assets/Snipaste_2023-10-16_10-33-46.png)
 
-#### 问题随机正逆序
+#### Random forward and reverse order of questions
 
-问题随机正逆序是指答题时该矩阵单选题中的问题随机以正序/逆序出现。开启“问题随机正逆序”功能后，“问题随机正逆序”功能下方会出现“固定最后一个问题”功能开关，若希望最后一个问题固定在当前位置，可开启“固定最后一个问题”功能，则在答题端显示时最后一个问题不参与随机正逆序。
+Random forward/reverse order of questions means that the questions in the matrix single-choice question appear in a random forward/reverse order when answering. After enabling the "Random forward/reverse order of questions" feature, a "Fix the last question" switch will appear below the "Random forward/reverse order of questions" feature. If you want the last question to remain in its current position, you can enable the "Fix the last question" feature, and the last question will not participate in the random forward/reverse order when displayed on the answering end.
 
 ![](../../.gitbook/assets/Snipaste_2023-10-16_10-34-35.png)
 
-问题随机的设置方法与[选项随机](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md)的设置方法相同。
 
 
+### Display of the editing page and survey answering interface
 
-## 编辑页及答题端显示
-
-编辑完成后，在编辑页内可查看矩阵多选题的具体内容及选项的关联、内容引用、填空设置。
+After editing, you can view the specific content of the matrix multiple-choice questions, the association of options, content references, and fill-in-the-blank settings on the editing page.
 
 ![编辑页内的矩阵多选题显示](../../.gitbook/assets/Snipaste_2023-10-16_10-35-52.png)
 
