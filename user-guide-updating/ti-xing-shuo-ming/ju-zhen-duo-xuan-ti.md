@@ -112,14 +112,14 @@ The title, options, and remarks all support rich text editing, including: font s
 
 ![编辑页内的矩阵多选题显示](../../.gitbook/assets/Snipaste_2023-10-16_10-35-52.png)
 
-矩阵多选题会根据答题终端自适应展示为矩阵或问题拆分形式。
+Matrix multiple-choice questions will adaptively display as a matrix or in a split-question format based on the answering terminal.
 
 ![PC答题端的矩阵多选题显示](../../.gitbook/assets/Snipaste_2023-10-16_10-36-21.png)
 
 ![手机答题端的矩阵多选题显示](../../.gitbook/assets/Snipaste_2023-10-16_10-36-31.png)
 
-## 统计结果展示
+## Survey Results
 
-在统计分析页中，以表格小计+条形百分比的形式展示矩阵多选题的填答结果。
+On the statistical analysis page, the results of the matrix single-choice questions are displayed in the form of a bar chart and a table subtotal.
 
 ![统计分析-矩阵多选题](../../.gitbook/assets/Snipaste_2023-10-16_10-38-00.png)

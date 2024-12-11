@@ -46,8 +46,8 @@ Option association allows the selected (or unselected) options to be displayed a
 
 ![选项关联](../../.gitbook/assets/Snipaste_2023-10-13_15-53-43.png)
 
-{% content-ref url="../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
-[xuan-xiang-guan-lian.md](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
+{% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
+[xuan-xiang-guan-lian.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
 {% endcontent-ref %}
 
 ### Options are random
@@ -66,8 +66,8 @@ Random forward/reverse order of options means that the options in the question a
 
 ![选项随机正逆序](../../.gitbook/assets/Snipaste_2023-10-13_15-57-20.png)
 
-{% content-ref url="../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md" %}
-[xuan-xiang-sui-ji.md](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md)
+{% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md" %}
+[xuan-xiang-sui-ji.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md)
 {% endcontent-ref %}
 
 ### Issue correlation
@@ -104,9 +104,9 @@ After editing, you can view the specific content of the matrix single-choice que
 
 ![手机答题端的矩阵单选题显示](../../.gitbook/assets/Snipaste_2023-10-13_16-02-58.png)
 
-## 统计结果展示
+## Survey Results
 
-在统计分析页中，以条形图+表格小计的形式展示矩阵单选题的填答结果。
+On the statistical analysis page, the results of the matrix single-choice questions are displayed in the form of a bar chart and a table subtotal.
 
 ![矩阵单选题统计结果](../../.gitbook/assets/Snipaste_2023-10-13_16-04-20.png)
 
