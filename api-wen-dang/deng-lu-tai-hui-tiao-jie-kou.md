@@ -79,6 +79,133 @@ echo json_encode([
 ]);
 ```
 
+
+
+_Go代码_
+
+```go
+
+import (
+	"sort"
+)
+​
+func VerifySign(sign string, params map[string]string, secret string) bool {
+	return sign == MakeSign(params, secret)
+}
+​
+func MakeSign(data map[string]string, secret string) string {
+	str := MakeSignParamStr(data, secret)
+​
+	sign := MD5(str)
+​
+	return sign
+}
+​
+func MakeSignParamStr(data map[string]string, secret string) string {
+	data["appSecret"] = secret
+​
+	var keys = make([]string, 0)
+	for key := range data {
+		keys = append(keys, key)
+	}
+	sort.Strings(keys)
+​
+	str := ""
+	for _, sortKey := range keys {
+		if data[sortKey] != "" {
+			str = str + sortKey + data[sortKey]
+		}
+	}
+	delete(data, "appSecret")
+​
+	return str
+}
+```
+
+_C# 完整示例_
+
+```csharp
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Web;
+
+namespace TxProxy.Services;
+
+public static class Program
+{
+	public static void Main()
+	{
+		var queryString = ""; // important! Your queryString
+
+		var request = HttpUtility.ParseQueryString(queryString);
+		var requestDict = request.AllKeys.ToDictionary(k => k!, k => request[k]);
+		var sign = requestDict["sign"]!;
+		var verifier = new PollCallbackAppSecretVerifier(""); // important! Your survey appSecret
+		var isVerified = verifier.Verify(sign, requestDict);
+
+		Console.WriteLine("Verification result: " + (isVerified ? "Valid" : "Invalid"));
+	}
+}
+
+public sealed class PollCallbackAppSecretVerifier
+{
+    private static readonly string[] EncryptList =
+    {
+        "sid",
+        "uid",
+        "user_type",
+        "uid_source",
+        "timestamp",
+        "callback_params",
+	"info",
+    };
+
+    private readonly string appSecret;
+
+    public PollCallbackAppSecretVerifier(string appSecret)
+    {
+        this.appSecret = appSecret;
+    }
+
+    // Sign signature algorithm flow
+    public bool Verify(string sign, Dictionary<string, string> queryParams)
+	{
+		var verifyParams = EncryptList.ToHashSet();
+
+		var pairs = queryParams
+			.Where(data => verifyParams.Contains(data.Key))
+			.Append(new KeyValuePair<string, string>("appSecret", this.appSecret))
+			.ToList();
+
+		var sortedPairs = pairs.OrderBy(pair => pair.Key);
+
+		var signBytes = Convert.FromHexString(sign);
+
+		var sb = new StringBuilder();
+		foreach (var (k, v) in sortedPairs)
+		{
+			sb.Append(k);
+			sb.Append(v);
+		}
+
+		var serialized = sb.ToString();
+
+	#pragma warning disable CA5351
+		var result = MD5.HashData(Encoding.ASCII.GetBytes(serialized));
+	#pragma warning restore CA5351
+
+		return StructuralComparisons.StructuralEqualityComparer.Equals(result, signBytes);
+	}
+}
+
+```
+
+
+
 _回调URL示例_
 
 ```aspnet
