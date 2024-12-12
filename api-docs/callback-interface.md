@@ -50,10 +50,9 @@ PHP code
 
 ```php
 <?php
+
 $query = $_GET;
-
 $appSecret = 'iamsecret';
-
 $sign = $query['sign'];
 unset($query['sign']);
 
@@ -76,6 +75,131 @@ echo json_encode([
 ]);
 ```
 
+
+
+Golang code
+
+```go
+import (
+	"sort"
+)
+
+func VerifySign(sign string, params map[string]string, secret string) bool {
+	return sign == MakeSign(params, secret)
+}
+
+func MakeSign(data map[string]string, secret string) string {
+	str := MakeSignParamStr(data, secret)
+
+	sign := MD5(str)
+
+	return sign
+}
+
+func MakeSignParamStr(data map[string]string, secret string) string {
+	data["appSecret"] = secret
+
+	var keys = make([]string, 0)
+	for key := range data {
+		keys = append(keys, key)
+	}
+	sort.Strings(keys)
+
+	str := ""
+	for _, sortKey := range keys {
+		if data[sortKey] != "" {
+			str = str + sortKey + data[sortKey]
+		}
+	}
+	delete(data, "appSecret")
+
+	return str
+}
+
+```
+
+C# code, full example
+
+```csharp
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Web;
+
+namespace TxProxy.Services;
+
+public static class Program
+{
+	public static void Main()
+	{
+		var queryString = ""; // important! Your queryString
+
+		var request = HttpUtility.ParseQueryString(queryString);
+		var requestDict = request.AllKeys.ToDictionary(k => k!, k => request[k]);
+		var sign = requestDict["sign"]!;
+		var verifier = new PollCallbackAppSecretVerifier(""); // important! Your survey appSecret
+		var isVerified = verifier.Verify(sign, requestDict);
+
+		Console.WriteLine("Verification result: " + (isVerified ? "Valid" : "Invalid"));
+	}
+}
+
+public sealed class PollCallbackAppSecretVerifier
+{
+    private static readonly string[] EncryptList =
+    {
+        "sid",
+        "uid",
+        "user_type",
+        "uid_source",
+        "timestamp",
+        "callback_params",
+	"info",
+    };
+
+    private readonly string appSecret;
+
+    public PollCallbackAppSecretVerifier(string appSecret)
+    {
+        this.appSecret = appSecret;
+    }
+
+    // Sign signature algorithm flow
+    public bool Verify(string sign, Dictionary<string, string> queryParams)
+	{
+		var verifyParams = EncryptList.ToHashSet();
+
+		var pairs = queryParams
+			.Where(data => verifyParams.Contains(data.Key))
+			.Append(new KeyValuePair<string, string>("appSecret", this.appSecret))
+			.ToList();
+
+		var sortedPairs = pairs.OrderBy(pair => pair.Key);
+
+		var signBytes = Convert.FromHexString(sign);
+
+		var sb = new StringBuilder();
+		foreach (var (k, v) in sortedPairs)
+		{
+			sb.Append(k);
+			sb.Append(v);
+		}
+
+		var serialized = sb.ToString();
+
+	#pragma warning disable CA5351
+		var result = MD5.HashData(Encoding.ASCII.GetBytes(serialized));
+	#pragma warning restore CA5351
+
+		return StructuralComparisons.StructuralEqualityComparer.Equals(result, signBytes);
+	}
+}
+
+```
+
 _Callback URL example_
 
 ```
@@ -90,7 +214,7 @@ Developer callback url?sid=5da414769e8aa80019305e32&timestamp=1573556685&uid=tes
 
 The callback interface uses GET request.
 
-<table data-header-hidden><thead><tr><th width="150">parameter</th><th width="150">Required</th><th width="150">Whether to participate in encryption</th><th width="150">type</th><th width="150">Limit length</th><th width="556">Description</th></tr></thead><tbody><tr><td>parameter</td><td>Response parameters</td><td>Whether to participate in encryption</td><td>type</td><td>Limit length</td><td>Description</td></tr><tr><td>sid</td><td>Yes</td><td>Yes</td><td>string</td><td>32</td><td>Questionnaire ID</td></tr><tr><td>uid</td><td>no</td><td>Yes</td><td>string</td><td>255</td><td>It is only passed when the questionnaire needs to log in, the unique ID of the logged-in user (eg, the player openid in the MSDK login verification / the uid passed in in the strict verification mode / the openid passed in in the nonverification mode)</td></tr><tr><td>user_type</td><td>no</td><td>Yes</td><td>string</td><td>2-10</td><td>It is only passed when the questionnaire needs to be logged in. The type of logged-in user, including the values of: <em>Wechat</em>, <em>QQ</em> , <em>MSDK (in-game)</em>, <em>third_party (parameter transmission-strict verification mode)</em>, <em>weak_third_party (parameter transmission-no verification mode)</em></td></tr><tr><td>uid_source</td><td>no</td><td>Yes</td><td>string</td><td>2-10</td><td>It is only passed when the questionnaire needs to be logged in. The source of the logged-in user, currently only has the values wx and qq under msdk, and the non-MSDK login status transfer needs to be defined by the developer.</td></tr><tr><td>timestamp</td><td>Yes</td><td>Yes</td><td>int</td><td>10</td><td>Timestamp</td></tr><tr><td>sign</td><td>Yes</td><td>no</td><td>string</td><td>32</td><td>Signature, refer to signature algorithm</td></tr><tr><td>callback_params</td><td>no</td><td>Yes</td><td>string</td><td>255</td><td><p>The developer customizes the callback parameters, and the business side needs additional parameters to be used. </p><p>【Note】</p><p>1. This parameter is transparently transmitted from the client to the developer server through the questionnaire link, for example: https: //in.survey.imur.tencent.com/ sid=xxx&#x26;?callback_params=xxxxx </p><p>2. If the value is encoded during the transparently transmitted , it must be decoded when encrypting.</p></td></tr><tr><td>info</td><td>no</td><td>Yes</td><td>string</td><td>255</td><td>It is additional information of the logged-in user. This field needs to be used with  <a href="parameter-transfer-interface-no-verification-mode.md">parameter transfer (no verification)</a> ; if you use MSDK v3/v5, INTL automatic login, <em>info</em> is a normal parameter during the transparently transmitted and does not participate in encryption.</td></tr><tr><td>effective</td><td>Yes</td><td>no</td><td>bool</td><td></td><td></td></tr><tr><td>aid</td><td>Yes</td><td>no</td><td>string</td><td>32</td><td>Answer ID</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="150">parameter</th><th width="150">Required</th><th width="150">Whether to participate in encryption</th><th width="150">type</th><th width="150">Limit length</th><th width="556">Description</th></tr></thead><tbody><tr><td>parameter</td><td>Response parameters</td><td>Whether to participate in encryption</td><td>type</td><td>Limit length</td><td>Description</td></tr><tr><td>sid</td><td>Yes</td><td>Yes</td><td>string</td><td>32</td><td>Questionnaire ID</td></tr><tr><td>uid</td><td>no</td><td>Yes</td><td>string</td><td>255</td><td>It is only passed when the questionnaire needs to log in, the unique ID of the logged-in user (eg, the player openid in the MSDK login verification / the uid passed in in the strict verification mode / the openid passed in in the nonverification mode)</td></tr><tr><td>user_type</td><td>no</td><td>Yes</td><td>string</td><td>2-10</td><td>It is only passed when the questionnaire needs to be logged in. The type of logged-in user, including the values of: <em>Wechat</em>, <em>QQ</em> , <em>MSDK (in-game)</em>, <em>third_party (parameter transmission-strict verification mode)</em>, <em>weak_third_party (parameter transmission-no verification mode)</em></td></tr><tr><td>uid_source</td><td>no</td><td>Yes</td><td>string</td><td>2-10</td><td>It is only passed when the questionnaire needs to be logged in. The source of the logged-in user, currently only has the values wx and qq under msdk, and the non-MSDK login status transfer needs to be defined by the developer.</td></tr><tr><td>timestamp</td><td>Yes</td><td>Yes</td><td>int</td><td>10</td><td>Timestamp</td></tr><tr><td>sign</td><td>Yes</td><td>no</td><td>string</td><td>32</td><td>Signature, refer to signature algorithm</td></tr><tr><td>callback_params</td><td>no</td><td>Yes</td><td>string</td><td>255</td><td><p>The developer customizes the callback parameters, and the business side needs additional parameters to be used. </p><p>【Note】</p><p>1. This parameter is transparently transmitted from the client to the developer server through the questionnaire link, for example: https: //in.survey.imur.tencent.com/ sid=xxx&#x26;?callback_params=xxxxx </p><p>2. If the value is encoded during the transparently transmitted , it must be decoded when encrypting.</p></td></tr><tr><td>info</td><td>no</td><td>Yes</td><td>string</td><td>255</td><td>It is additional information of the logged-in user. This field needs to be used with  <a href="parameter-transfer-interface-no-verification-mode.md">parameter transfer (no verification)</a> ; </td></tr><tr><td>effective</td><td>Yes</td><td>no</td><td>bool</td><td>4-5</td><td></td></tr><tr><td>aid</td><td>Yes</td><td>no</td><td>string</td><td>32</td><td>Answer ID</td></tr></tbody></table>
 
 1. The optional parameters participate in encryption when it has a value, otherwise it will not.
 2. Unspecified parameters are not involved in encryption, please refer to: [Why do I receive callback parameters that are not specified in the document?](callback-interface.md#why-do-i-receive-callback-parameters-that-are-not-specified-in-the-document)
@@ -105,9 +229,9 @@ After the developer receives the callback and processes the business process nor
 
 following specified json format to the questionnaire server:
 
-```
+```json
 {
-"status" : "ok"
+    "status" : "ok"
 }
 ```
 
@@ -115,10 +239,10 @@ following specified json format to the questionnaire server:
 
 If the business side needs to make some specific identification in the callback, you can pass the business\_code field, and the questionnaire system will store the value of this field in es, which can be used to filter data based on the identification in the open interface. The business\_code value range must be -32768 \~ 32767, if it exceeds this range, it will not be stored. Example:
 
-```
+```json
 {
-"status" : "ok",
-"business_code" : 1000
+    "status" : "ok",
+    "business_code" : 1000
 }
 ```
 
@@ -144,6 +268,8 @@ If the value of _callback_  is 2, the system will callback the login status info
 ## Callback interface debugging tool&#x20;
 
 You can use the callback interface debugging tool (it is recommended to use chrome to open) to confirm the callback and signature verification.
+
+[https://test.a.imur.tencent.com/static/tools-out/#/callback](https://test.a.imur.tencent.com/static/tools-out/#/callback)
 
 ![Callback interface debugging tool](<../.gitbook/assets/image (340).png>)
 
@@ -173,8 +299,5 @@ Common scenarios include:
 
 1. The optional parameters participate in encryption when it has a value, otherwise it will not.
 2. Unspecified parameters are not involved in encryption, please refer to: [Why do I receive callback parameters that are not specified in the document?](callback-interface.md#why-do-i-receive-callback-parameters-that-are-not-specified-in-the-document)
-3. If you use MSDK v3/v5, INTL to log in automatically, _info_ is only transparently transmitted as a common parameter, and does not participate in encryption, nor is it collected in the answer.
+3. ~~If you use MSDK v3/v5, INTL to log in automatically, _info_ is only transparently transmitted as a common parameter, and does not participate in encryption, nor is it collected in the answer.~~**If you use intl/MSDK login, the latest version requires adding 'info' as a parameter in the signature.**
 {% endhint %}
-
-![](<../.gitbook/assets/image (474).png>)
-
