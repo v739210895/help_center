@@ -4,9 +4,9 @@ The file Upload requires respondents to upload images/videos as the answer to th
 
 ![附件上传题](<../../.gitbook/assets/image (631).png>)
 
-## 【STEP 1】 新建附件上传题
+## 【STEP 1】 Creat new file upload
 
-在问卷编辑页中，选择左侧题型控件中的“附件上传题”或在指定题目点击右侧快捷工具栏中的+按钮选择“附件上传题”即可创建附件上传题。
+On the survey editing page, select the "Attachment Upload Question" from the question type controls on the left or click the + button in the quick toolbar on the right of the specified question to create an attachment upload question.
 
 ![通过“题型”控件新建附件上传题](../../.gitbook/assets/Snipaste_2023-10-16_11-10-15.png)
 
@@ -18,52 +18,52 @@ The title, options, and remarks all support rich text editing, including: font s
 
 ![附件上传题内容编辑](../../.gitbook/assets/Snipaste_2023-10-16_11-11-20.png)
 
-## 【STEP 3】题目设置
+## 【STEP 3】Title, questions, and options settings
 
-### 必答设置
+### Mandatory settings
 
-在右侧面板中关闭“此题必答”功能后，答题时此题可以为空。
+After turning off the "This question is mandatory" feature in the right panel, this question can be left blank when answering.
 
 {% hint style="info" %}
-所有题目默认开启“此题必答”功能。
+By default, the "mandatory question" feature is enabled for all questions.
 {% endhint %}
 
 ![必答设置](../../.gitbook/assets/Snipaste_2023-10-16_11-11-49.png)
 
-### 最大上传数量
+### Maximum upload limit
 
-附件上传题可限制上传文件数量，设置成功后，在答题端会根据所设置的上传文件数量自动校验答案。
+The attachment upload question can limit the number of files uploaded. Once the settings are successfully configured, the answer will be automatically validated on the answering end based on the set number of uploaded files.
 
 {% hint style="info" %}
-1. 默认每题仅支持上传1个文件
-2. 最多可设置最大上传数量为20
+1. By default, only one file can be uploaded per question
+2. The maximum upload limit can be set to 20.
 {% endhint %}
 
 ![最大上传数量](../../.gitbook/assets/Snipaste_2023-10-16_11-12-28.png)
 
-## 文件大小MB限制
+### File size MB limit
 
-可设置单个文件大小，最大可设置为300MB
+The size of a single file can be set, with a maximum limit of 300MB.
 
 <figure><img src="../../.gitbook/assets/Snipaste_2023-10-16_11-13-10.png" alt=""><figcaption></figcaption></figure>
 
 ##
 
-## 编辑页及答题端显示
+## Editor page and survey interface display
 
-编辑完成后，在编辑页内可查看附件上传题的显示样式。
+After editing, you can view the display style of the attachment upload question on the editing page.
 
 ![编辑页内的附件上传题显示](<../../.gitbook/assets/image (767).png>)
 
 ![答题端的附件上传题显示](<../../.gitbook/assets/image (541).png>)
 
-## 查看答题数据
+## View survey data
 
-统计页可查看每个答题者上传的图片/视频。
+On the statistics page, you can view the images/videos uploaded by each respondent.
 
 ![查看答题数据](../../.gitbook/assets/Snipaste_2023-10-16_11-20-30.png)
 
-## 下载答题数据
+## Download survey data
 
 附件上传题的文件暂不支持下载，仅支持在线查看附件内容，在导出数据的文件中可以点击查看。
 

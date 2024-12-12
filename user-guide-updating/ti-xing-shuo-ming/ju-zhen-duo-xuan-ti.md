@@ -22,7 +22,7 @@ After editing, you can preview the matrix. Each row in the matrix represents a q
 
 ![预览矩阵](../../.gitbook/assets/Snipaste_2023-10-16_10-27-15.png)
 
-## 【STEP 3】Title, questions, and options settings
+## 【STEP 3】Title、 questions、and options settings
 
 ### Mandatory settings
 

@@ -2,11 +2,11 @@
 
 If you already have a designed EXCEL survey, you can use the "Overwrite Import" feature to import the survey into an already created survey. After importing, the original survey's distribution link remains unchanged, but the original survey content, logic settings, and collected response data will be cleared.
 
-## 【STEP 1】Edit the survey content in EXCE
+## 【STEP 1】Edit the survey content in excel
 
 The survey can be edited in advance in EXCEL, including: basic survey information (project name, product name, survey title, welcome message, closing message), question and option content (including font styles), question settings, pagination settings, etc.
 
-![Edit survey content in EXCEL](<../../../.gitbook/assets/image (30).png>)
+![Edit survey content excel](<../../../.gitbook/assets/image (30).png>)
 
 {% hint style="info" %}
 1. If the Excel file contains multiple surveys, only the first survey will be recognized during import.

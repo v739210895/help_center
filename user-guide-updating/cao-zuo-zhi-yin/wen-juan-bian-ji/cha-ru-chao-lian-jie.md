@@ -32,7 +32,7 @@ After saving, the selected text will be displayed as a hyperlink.
 
 ### Edit hyperlink
 
-在指定文字中插入超链接后，支持多次修改超链接地址。
+After inserting a hyperlink in the specified text, it supports multiple modifications of the hyperlink address.
 
 ### \[STEP 1] Select Text
 

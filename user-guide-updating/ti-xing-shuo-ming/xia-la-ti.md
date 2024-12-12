@@ -68,8 +68,8 @@ Option grouping display refers to freely dividing options into multiple groups, 
 
 ![选项分组显示](../../.gitbook/assets/Snipaste_2023-10-10_09-58-17.png)
 
-{% content-ref url="../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md" %}
-[xuan-xiang-sui-ji.md](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md)
+{% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md" %}
+[xuan-xiang-sui-ji.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md)
 {% endcontent-ref %}
 
 ## Display of the editing page and the survey answering interface

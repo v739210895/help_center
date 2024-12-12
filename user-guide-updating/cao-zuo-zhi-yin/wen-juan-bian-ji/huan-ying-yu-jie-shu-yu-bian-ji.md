@@ -8,12 +8,12 @@ Open or create a survey. On the welcome page of the survey editing interface, yo
 
 Welcome message content supports inserting hyperlinks and images.
 
-{% content-ref url="../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md" %}
-[cha-ru-chao-lian-jie.md](../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)
+{% content-ref url="cha-ru-chao-lian-jie.md" %}
+[cha-ru-chao-lian-jie.md](cha-ru-chao-lian-jie.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md" %}
-[cha-ru-tu-pian.md](../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)
+{% content-ref url="cha-ru-tu-pian.md" %}
+[cha-ru-tu-pian.md](cha-ru-tu-pian.md)
 {% endcontent-ref %}
 
 Welcome Message Settings Checkbox
@@ -32,10 +32,10 @@ Open or create a new survey. On the ending page of the survey editing interface,
 
 The closing remarks can support the insertion of hyperlinks and images.
 
-{% content-ref url="../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md" %}
-[cha-ru-chao-lian-jie.md](../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)
+{% content-ref url="cha-ru-chao-lian-jie.md" %}
+[cha-ru-chao-lian-jie.md](cha-ru-chao-lian-jie.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md" %}
-[cha-ru-tu-pian.md](../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)
+{% content-ref url="cha-ru-tu-pian.md" %}
+[cha-ru-tu-pian.md](cha-ru-tu-pian.md)
 {% endcontent-ref %}

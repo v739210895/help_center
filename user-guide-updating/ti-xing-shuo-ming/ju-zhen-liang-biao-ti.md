@@ -18,108 +18,100 @@ The title, options, and remarks all support rich text editing, including: font s
 
 ![题目编辑](../../.gitbook/assets/Snipaste_2023-10-16_10-47-42.png)
 
-编辑完成后可预览该矩阵，矩阵中显示的每行是一个问题，每列是一个选项。​
+## 【STEP 3】Title, questions, and options settings
 
-![矩阵量表题](<../../.gitbook/assets/Snipaste_2023-10-16_10-48-37 (2).png>)
+### Mandatory settings
 
-## 【STEP 3】题目、问题及选项设置 <a href="#step-3-ti-mu-wen-ti-ji-xuan-xiang-she-zhi" id="step-3-ti-mu-wen-ti-ji-xuan-xiang-she-zhi"></a>
-
-### 必答设置 <a href="#bi-da-she-zhi" id="bi-da-she-zhi"></a>
-
-在右侧面板中关闭“此题必答”功能后，答题时此题可以为空。
+After turning off the "This question is mandatory" feature in the right panel, this question can be left blank when answering.
 
 {% hint style="info" %}
-所有题目默认开启“此题必答”功能。
+By default, the "mandatory question" feature is enabled for all questions.
 {% endhint %}
 
 ![“此题必答”功能](../../.gitbook/assets/Snipaste_2023-10-16_10-59-22.png)
 
-### 分数范围
+### Score Range
 
-分数范围即设置量表题的量度，刻度为1，最低分与最高分之间差值仅支持11以内；设置后可在编辑区实时查看量表情况。
+The score range is the measurement scale for the scale question, with a range of 1 and a maximum difference of 11 between the lowest and highest scores. Once set, the scale can be viewed in real-time in the editing area.
 
 ![设置分数范围](../../.gitbook/assets/Snipaste_2023-10-16_11-00-06.png)
 
 {% hint style="info" %}
-支持设置异常项：
+Support setting exception items:
 
-开启异常项功能后，自定义设置异常项的显示文案，异常项不计入有效填答量、不计分。
+After enabling the exception item feature, you can customize the display text for exception items. Exception items are not counted towards the valid response count and are not scored.
 {% endhint %}
 
 ![设置异常项](../../.gitbook/assets/Snipaste_2023-10-16_11-00-39.png)
 
-### 提示方式
+### Prompt method
 
-提示方式即设置量表提示语，左边提示语对应最低分，右边提示语对应最高分；当量表逆序显示时，提示语会相应逆序展示。
+The prompt method is to set scale prompts, with the left prompt corresponding to the lowest score and the right prompt corresponding to the highest score; when the scale is displayed in reverse order, the prompts will also be displayed in reverse order accordingly.
 
 ![设置提示语](../../.gitbook/assets/Snipaste_2023-10-16_11-01-30.png)
 
-### 问题关联
+### Question relevance
 
-问题关联即让答题者选中（或未选中）的选项显示在本矩阵量表题的问题中，一般用于题目相关性极高的两题中或追问的情况。
+Question association allows the selected (or unselected) options by the respondent to be displayed in the questions of this matrix scale question. It is generally used in cases where two questions are highly related or for follow-up questions.
 
 ![问题关联](../../.gitbook/assets/Snipaste_2023-10-16_11-02-35.png)
 
-问题关联的设置方法与[选项关联](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)的设置方法相同。
+### Questions are randomized
 
-### 问题随机
+In the question editing state, you can set the questions in the matrix scale question to display randomly. Once set successfully, the questions will be displayed according to the selected random method on the survey end. The random methods for questions in the matrix scale question include: random order, random forward and reverse order.
 
-在题目编辑状态下，可设置矩阵量表题中的问题随机显示，设置成功后，在答题端会根据所选择的随机方式显示问题。矩阵量表题中问题随机方式包括：随机排序、随机正逆序。
+#### Random order of questions
 
-#### 问题随机排序
-
-问题随机排序是指答题时该矩阵量表题中的问题以随机顺序出现。开启“问题随机排序”功能后，每个问题右侧会出现不随机的勾选框，若希望某个问题固定在当前位置，可在其后勾选“不随机”，则该问题不参与随机排序。
+Question randomization refers to the questions in the matrix scale appearing in random order when answering. After enabling the "question randomization" feature, a non-random checkbox will appear on the right side of each question. If you want a specific question to remain in its current position, you can check "non-random" next to it, and that question will not be included in the randomization.
 
 ![问题随机排序](../../.gitbook/assets/Snipaste_2023-10-16_11-03-27.png)
 
-#### 问题随机正逆序
+#### Random forward and reverse order of questions
 
-问题随机正逆序是指答题时该矩阵量表题中的问题随机以正序/逆序出现。开启“问题随机正逆序”功能后，“问题随机正逆序”功能下方会出现“固定最后一个问题”功能开关，若希望最后一个问题固定在当前位置，可开启“固定最后一个问题”功能，则在答题端显示时最后一个问题不参与随机正逆序。
+Random forward and reverse order of questions means that the questions in the matrix scale appear in a random forward or reverse order when answering. After enabling the "Random forward and reverse order of questions" feature, a "Fix the last question" toggle will appear below the "Random forward and reverse order of questions" feature. If you want the last question to remain in its current position, you can enable the "Fix the last question" feature, so that the last question will not participate in the random forward and reverse order when displayed on the answering end.
 
 ![问题随机正逆序](../../.gitbook/assets/Snipaste_2023-10-16_11-03-55.png)
 
-问题随机的设置方法与[选项随机](../../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md)的设置方法相同。
+### Options are randomized
 
-### 选项随机
+In the question editing mode, you can set options to be randomized. Once successfully set, the score will be displayed on the answering end according to the chosen randomization method. The randomization methods for the matrix scale options include: random forward and reverse order, and score inversion.
 
-在题目编辑状态下，可设置选项随机，设置成功后，在答题端会根据所选择的随机方式显示分数。矩阵量表的选项随机方式包括：随机正逆序、分数反转。
+#### Options are randomly ordered in forward or reverse sequence
 
-#### 选项随机正逆序
-
-选项随机正逆序是指答题时题目中的分数随机以正序/逆序出现，如：答题者A看到分数12345，答题者B看到分数54321。
+Random ordering of options refers to the scores in the questions appearing in random ascending/descending order when answering, for example: respondent A sees the scores as 12345, while respondent B sees the scores as 54321.
 
 ![随机正逆序](../../.gitbook/assets/Snipaste_2023-10-16_11-05-08.png)
 
-#### 分数反转
+#### Score Reversal
 
-分数反转是指答题时量表以逆序展示，即最高分->最低分，提示语相应逆序展示。
+Score reversal refers to the presentation of a scale in reverse order when answering questions, i.e., from the highest score to the lowest score, with the prompts displayed in the corresponding reverse order.
 
 {% hint style="info" %}
-已开启异常项的情况下，异常项固定显示在右侧。
+When the exceptions are enabled, they are fixedly displayed on the right side.
 {% endhint %}
 
 ![设置分数反转](../../.gitbook/assets/Snipaste_2023-10-16_11-05-59.png)
 
 ![分数反转-答题端显示](<../../.gitbook/assets/image (213).png>)
 
-## 编辑页及答题端显示
+## Editing page and survey response interface
 
-编辑完成后，在编辑页内可查看矩阵量表题的具体内容及选项的关联、内容引用、填空设置。
+After editing, you can view the specific content of the matrix scale questions and the association of options, content references, and fill-in-the-blank settings on the editing page.
 
 ![](../../.gitbook/assets/Snipaste_2023-10-16_11-06-40.png)
 
-矩阵量表题会根据答题终端自适应展示为矩阵或问题拆分形式。
+Matrix scale questions will adaptively display as a matrix or split questions based on the answering terminal.
 
 ![PC答题端的矩阵量表题显示](<../../.gitbook/assets/image (162).png>)
 
 ![手机答题端的矩阵量表题显示](<../../.gitbook/assets/image (469).png>)
 
-## 统计结果展示
+## Survey Results
 
-在统计分析页中，以表格小计+条形百分比的形式展示矩阵单选题的填答结果。
+In the statistical analysis page, display the response results of the matrix single-choice question in the form of table subtotal + bar percentage.
 
 {% hint style="info" %}
-异常项不计入有效填答量、不计入平均分。
+Anomalies are not included in the valid response count and are not included in the average score.
 {% endhint %}
 
 ![矩阵量表题-统计结果](../../.gitbook/assets/Snipaste_2023-10-16_11-07-43.png)

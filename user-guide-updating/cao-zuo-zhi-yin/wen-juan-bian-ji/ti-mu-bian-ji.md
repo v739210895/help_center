@@ -30,18 +30,18 @@ After selecting the text, click on the font style in the rich text toolbar to ch
 
 Both questions and comments support the functionality of inserting images, inserting videos, inserting hyperlinks, and quoting content from previous question options.
 
-{% content-ref url="../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md" %}
-[cha-ru-tu-pian.md](../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)
+{% content-ref url="cha-ru-tu-pian.md" %}
+[cha-ru-tu-pian.md](cha-ru-tu-pian.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md" %}
-[cha-ru-shi-pin.md](../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)
+{% content-ref url="cha-ru-shi-pin.md" %}
+[cha-ru-shi-pin.md](cha-ru-shi-pin.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md" %}
-[cha-ru-chao-lian-jie.md](../../../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)
+{% content-ref url="cha-ru-chao-lian-jie.md" %}
+[cha-ru-chao-lian-jie.md](cha-ru-chao-lian-jie.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md" %}
-[nei-rong-yin-yong.md](../../../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)
+{% content-ref url="nei-rong-yin-yong.md" %}
+[nei-rong-yin-yong.md](nei-rong-yin-yong.md)
 {% endcontent-ref %}

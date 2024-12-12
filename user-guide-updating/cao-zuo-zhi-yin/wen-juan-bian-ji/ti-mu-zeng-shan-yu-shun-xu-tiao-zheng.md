@@ -53,19 +53,19 @@ Users can locate specific questions by clicking on the titles in the "Outline".
 ![大纲中拖拽调整顺序](../../../.gitbook/assets/Snipaste_2023-10-08_10-08-15.png)
 
 {% hint style="danger" %}
-1. 被设置为组合逻辑结果的题目不可调整到逻辑显示条件的题目前
-2. 设置关联选项的题目不可调整到被关联的题目前
+1. Questions set as the result of combined logic cannot be adjusted before the questions with logical display conditions.
+2. The question with associated options cannot be moved before the question it is associated with.
 {% endhint %}
 
-## 常见问题
+### Frequently Asked Questions
 
-### 有题目插入点选择和题目复制功能吗 ？
+Are there options for inserting question placeholders and copying questions?
 
-有，插入点前一题的右侧快捷工具栏中点击“+”选中需要插入的题型，即可在此题下方的插入已选择的新题目。可复制题目，复制后的新题在当前题的下方。
+Yes, click on the "+" in the right-side quick toolbar of the previous question to select the type of question you want to insert. This will insert the selected new question below the current question. You can also copy a question, and the copied new question will appear below the current question.
 
 {% hint style="danger" %}
-1. 复制题目不包括复制原题的逻辑设置、选项关联设置。
-2. 复制后可能导致后序题目的题号更改，其他题目的引用设置中题号需要生动修改。
+1. Copying the survey does not include copying the original survey's logic settings and option association settings.
+2. Copying may cause subsequent question numbers to change, and the question numbers in the references of other questions need to be dynamically modified.
 {% endhint %}
 
 ![](<../../../.gitbook/assets/image (289).png>)
