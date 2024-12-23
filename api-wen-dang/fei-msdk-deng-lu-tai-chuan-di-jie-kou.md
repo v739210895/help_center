@@ -108,13 +108,10 @@ _\*以上参数对应的值仅作展示使用_
 
 ```
 国内投放拥有两套域名，开发时需要注意
-
-qq域：
-问卷投放域名为https://in.survey.imur.qq.com/v2/?sid=xxx则为qq域，对应登录接口为：
+1.问卷投放域名为https://in.survey.imur.qq.com/v2/?sid=xxx则为qq域，对应登录接口为：
 https://in.survey.imur.qq.com/v2/api/autologin?
 
-非qq域：
-问卷投放域名为https://in.weisurvey.com/v2/?sid=xxx则为非tencent域，对应登录接口为：
+2.问卷投放域名为https://in.weisurvey.com/v2/?sid=xxx则为非qq域，对应登录接口为：
 https://in.weisurvey.com/v2/api/autologin?
 ```
 
