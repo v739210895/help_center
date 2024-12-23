@@ -26,7 +26,7 @@
 
 若游戏内是使用的是gopenid发奖，则开启gopenid即可
 
-![配置发奖参数](../.gitbook/assets/Snipaste\_2023-10-17\_17-43-35.png)
+![配置发奖参数](../.gitbook/assets/Snipaste_2023-10-17_17-43-35.png)
 
 ### 【STEP 3】传递发奖参数
 
@@ -41,7 +41,7 @@
 
 #### 问卷链接注入发奖参数示例
 
-<table data-header-hidden><thead><tr><th width="180.61832587663224">情况</th><th width="150">注入说明</th><th>示例链接</th></tr></thead><tbody><tr><td>情况</td><td>注入说明</td><td>示例链接</td></tr><tr><td>原始问卷链接</td><td>--</td><td>https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692</td></tr><tr><td>MSDK登录验证</td><td><p>4个发奖参数</p><p>直接拼接在</p><p>问卷链接后</p></td><td>https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692<strong>&#x26;sPlatId={sPlatId}&#x26;sArea={sArea}&#x26;sPartition={sPartition}&#x26;sRoleId={sRoleId}</strong></td></tr><tr><td>参数传递接口<br>（不校验模式）</td><td><p>4个发奖参数</p><p>直接拼接在</p><p>问卷链接后</p></td><td>https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692&#x26;openid={答题者openid}<strong>&#x26;sPlatId={sPlatId}&#x26;sArea={sArea}&#x26;sPartition={sPartition}&#x26;sRoleId={sRoleId}</strong></td></tr><tr><td>参数传递接口<br>（严格校验模式）</td><td><p>4个发奖参数</p><p>拼接在redirect所赋值的链接后再对redirect的值encode</p></td><td><p>https:// inapi.survey.imur.tencent.com/autologin?sid</p><p>=5e8d767b76051f46707cf692&#x26;uid=user_id&#x26;timestamp=1573455797</p><p>&#x26;source=dwk&#x26;info=extra_info&#x26;redirect=https%3A%2F%2F</p><p>in.survey.imur.tencent.com%2F%3Fsid%3D5e8d767b76051f46707cf692</p><p>%26lang%3Dzh-CHS%26ADTAG%3Dsid.5e8d767b76051f46707cf692</p><p><strong>%26sPlatId%3D{sPlatId}%26sArea%3D{sArea}%26sPartition</strong></p><p><strong>%3D{sPartition}%26sRoleId%3D{sRoleId}</strong></p><p>&#x26;sign=2ac5ab8ce6a9b306e07dc2664fe7d175</p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="180.61832587663224">情况</th><th width="150">注入说明</th><th>示例链接</th></tr></thead><tbody><tr><td>情况</td><td>注入说明</td><td>示例链接</td></tr><tr><td>原始问卷链接</td><td>--</td><td><a href="https://in.weisurvey.com">https://in.weisurvey.com</a>/？sid=5e8d767b76051f46707cf692</td></tr><tr><td>MSDK登录验证</td><td><p>4个发奖参数</p><p>直接拼接在</p><p>问卷链接后</p></td><td><a href="https://in.weisurvey.com">https://in.weisurvey.com</a>/?sid=5e8d767b76051f46707cf692<strong>&#x26;sPlatId={sPlatId}&#x26;sArea={sArea}&#x26;sPartition={sPartition}&#x26;sRoleId={sRoleId}</strong></td></tr><tr><td>参数传递接口<br>（不校验模式）</td><td><p>4个发奖参数</p><p>直接拼接在</p><p>问卷链接后</p></td><td><a href="https://in.weisurvey.com">https://in.weisurvey.com</a>/?sid=5e8d767b76051f46707cf692&#x26;openid={答题者openid}<strong>&#x26;sPlatId={sPlatId}&#x26;sArea={sArea}&#x26;sPartition={sPartition}&#x26;sRoleId={sRoleId}</strong></td></tr><tr><td>参数传递接口<br>（严格校验模式）</td><td><p>4个发奖参数</p><p>拼接在redirect所赋值的链接后再对redirect的值encode</p></td><td><p>https:// inap.in.weisurvey.com/autologin?sid</p><p>=5e8d767b76051f46707cf692&#x26;uid=user_id&#x26;timestamp=1573455797</p><p>&#x26;source=dwk&#x26;info=extra_info&#x26;redirect=https%3A%2F%2F</p><p>in.survey.imur.tencent.com%2F%3Fsid%3D5e8d767b76051f46707cf692</p><p>%26lang%3Dzh-CHS%26ADTAG%3Dsid.5e8d767b76051f46707cf692</p><p><strong>%26sPlatId%3D{sPlatId}%26sArea%3D{sArea}%26sPartition</strong></p><p><strong>%3D{sPartition}%26sRoleId%3D{sRoleId}</strong></p><p>&#x26;sign=2ac5ab8ce6a9b306e07dc2664fe7d175</p></td></tr></tbody></table>
 
 ### 【STEP 4】接口申请
 
@@ -51,7 +51,7 @@
 
 在游戏中投放问卷，答题者提交问卷后，问卷系统会自动触发调用AMS礼包单发奖（奖品名称显示为step1中所配置的礼包组名称）。
 
-![游戏内填答后发奖成功提示](../.gitbook/assets/Snipaste\_2023-12-06\_14-12-48.png)
+![游戏内填答后发奖成功提示](../.gitbook/assets/Snipaste_2023-12-06_14-12-48.png)
 
 ### 发奖记录查询
 

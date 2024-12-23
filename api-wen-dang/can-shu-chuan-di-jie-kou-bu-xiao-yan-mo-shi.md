@@ -26,11 +26,11 @@
 
 【普通投放链接】
 
-https://in.survey.imur.tencent.com/v2/?sid=5e8d767b76051f46707cf692
+[https://in.weisurvey.com](https://in.weisurvey.com)/v2/?sid=5e8d767b76051f46707cf692
 
 【内嵌投放链接】
 
-&#x20;https://in.survey.imur.tencent.com/v2/?sid=5e8d767b76051f46707cf692\&openid=XXXX\&channel=XXXX\&info=XXXX
+&#x20;[https://in.weisurvey.com](https://in.weisurvey.com)/v2/?sid=5e8d767b76051f46707cf692\&openid=XXXX\&channel=XXXX\&info=XXXX
 
 _\*以上参数对应的值仅作展示使用_
 {% endhint %}
