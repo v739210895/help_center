@@ -107,13 +107,13 @@ _\*以上参数对应的值仅作展示使用_
 #### **2.1.1 国内投放**
 
 ```
-国内投放拥有两套域名，分为tencent域与非tencent域，开发时需要注意
+国内投放拥有两套域名，开发时需要注意
 
-tencent域：
-问卷投放域名为https://in.survey.imur.tencent.com/v2/?sid=xxx则为tencent域，对应登录接口为：
-https://in.survey.imur.tencent.com/v2/api/autologin?
+qq域：
+问卷投放域名为https://in.survey.imur.qq.com/v2/?sid=xxx则为qq域，对应登录接口为：
+https://in.survey.imur.qq.com/v2/api/autologin?
 
-非tencent域：
+非qq域：
 问卷投放域名为https://in.weisurvey.com/v2/?sid=xxx则为非tencent域，对应登录接口为：
 https://in.weisurvey.com/v2/api/autologin?
 ```
@@ -129,10 +129,10 @@ https://user.outweisurvey.com/v2/api/autologin?
 由于接口升级，【国内】采用inapi前缀登录接口的游戏，请提前更改为新版登录接口，以免影响正常使用，调整如下：
 {% endhint %}
 
-| 问卷投放域名    | 旧版登录接口（已废弃）                                      | 新版登录接口                                               |
-| --------- | ------------------------------------------------ | ---------------------------------------------------- |
-| 非tencent域 | https://inapi.weisurvey.com/autologin?           | https://in.weisurvey.com/v2/api/autologin?           |
-| tencent域  | https://inapi.survey.imur.tencent.com/autologin? | https://in.survey.imur.tencent.com/v2/api/autologin? |
+| 问卷投放域名 | 旧版登录接口（已废弃）                                      | 新版登录接口                                          |
+| ------ | ------------------------------------------------ | ----------------------------------------------- |
+| 非qq域   | https://inapi.weisurvey.com/autologin?           | https://in.weisurvey.com/v2/api/autologin?      |
+| qq域    | https://inapi.survey.imur.tencent.com/autologin? | https://in.survey.imur.qq.com/v2/api/autologin? |
 
 ### **2.2 参数说明**
 
