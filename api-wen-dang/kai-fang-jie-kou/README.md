@@ -22,13 +22,15 @@
 
 #### 国内环境
 
-【cl5方式】
+【cl5/北极星方式】
 
-mod\_id: `65080257` cmd\_id: `65536`
+旧cl5: mod\_id: `65080257` cmd\_id: `65536`
 
-调用时Header中必需带上Host，Host值为`survey.imur.oa.com`。
+北极星: \`65080257:65536\`
 
-【通用方式】{host}为`survey.imur.tencent.com`
+【通用方式】
+
+{host}为`survey.imur.tencent.com`
 
 #### 海外环境
 
