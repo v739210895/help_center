@@ -263,7 +263,7 @@ If the value of _callback_  is 2, the system will callback the login status info
 [https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}](https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}) \&callback=2
 {% endhint %}
 
-![Multiple callback address configuration](<../.gitbook/assets/image (62).png>)
+![Multiple callback address configuration](<../../.gitbook/assets/image (62).png>)
 
 ## Callback interface debugging tool&#x20;
 
@@ -271,7 +271,7 @@ You can use the callback interface debugging tool (it is recommended to use chro
 
 [https://test.a.imur.tencent.com/static/tools-out/#/callback](https://test.a.imur.tencent.com/static/tools-out/#/callback)
 
-![Callback interface debugging tool](<../.gitbook/assets/image (340).png>)
+![Callback interface debugging tool](<../../.gitbook/assets/image (340).png>)
 
 ## Common problem
 

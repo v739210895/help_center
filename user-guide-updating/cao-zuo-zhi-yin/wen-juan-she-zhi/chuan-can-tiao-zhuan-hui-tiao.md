@@ -34,7 +34,7 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 Developer Callback Interfaceurl?sid=5da414769e8aa80019305e32\&timestamp=1573556685\&uid=test\_user\&user\_type=third\_party\&uid\_source=qq\&info=afdadsfasdfasdf\&callback\_params=callbackparams\&sign=38408d6222e1a4c6fa598e4820443ca8
 
-[Click to view detailed API documentation.](../../api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)
+[Click to view detailed API documentation.](broken-reference)
 
 
 
