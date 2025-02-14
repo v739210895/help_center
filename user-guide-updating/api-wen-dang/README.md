@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # API Documentation
 
 系统为游戏提供多种内嵌功能，可用于采集玩家openid、答题后实时通知游戏、奖励发放等。
