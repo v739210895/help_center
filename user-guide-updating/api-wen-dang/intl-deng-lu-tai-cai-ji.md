@@ -1,89 +1,91 @@
-# INTL登录态采集
+---
+coverY: 0
+---
 
-对接了INTL的APP，可在问卷设置的登录验证中选择【INTL】登录；用户提交问卷时，问卷系统会自动获取该玩家登录态（如openid）并存储在答题数据中。
+# INTL Login State Collection
 
-![配置INTL自动登录所需要的参数](../../.gitbook/assets/Snipaste_2023-10-17_10-53-49.png)
+After integrating the INTL APP, you can select \[INTL] login in the login verification of the survey settings; when the user submits the survey, the survey system will automatically obtain the player's login status (such as openid) and store it in the answer data.
 
-### 参数配置说明
+![Configuration required for INTL auto login](../../.gitbook/assets/intl.png)
+
+**Parameter Configuration Instructions**
 
 {% hint style="info" %}
-1. **密钥**：请填写INTL管理端参数中的INTL\_SERVER\_KEY
+1. **Key:** Please fill in INTL\_SERVER\_KEY in the INTL management terminal parameters.
 
-&#x20; 2\. **域名**：区分正式环境和测试环境，请自行联系游戏后端开发获取。
+&#x20; 2\. **Domain name：**&#x54;o distinguish between the production environment and the testing environment, please contact the game backend developers directly.
 
-&#x20;      测试环境域名参考：https://test.intlgame.com
+**Test Environment Domain Reference：**&#x68;ttps://test.intlgame.com
 
-&#x20;      正式环境域名参考：https://sg.intlgame.com
+&#x20;**Official environment domain reference：**&#x68;ttps://sg.intlgame.com
 {% endhint %}
 
 
 
-### INTL登录态加解密说明
+**INTL Login Encryption and Decryption Instructions**
 
-问卷系统后台用于解密获取玩家登录态流程的说明，游戏侧仅需关注是否有在问卷链接后**注入正确的登录态参数**。
+The survey system backend is used to decrypt and obtain the player's login status process. The game side only needs to ensure that the correct login status parameters are injected after the survey link.
 
-#### 游戏客户端获取登录态加密票据
+**The game client obtains the login state encrypted ticket**
 
-游戏客户端需通过INTL webview自带的“获取加密票据”接口在把问卷链接加密并注入登录态信息；参数包括：encodeparam、os、gameid、channelid、sdk\_version、user\_name、ts、seq。
+The game client needs to encrypt the survey link and inject login state information through the "Get Encrypted Ticket" interface provided by the INTL webview; the parameters include: encodeparam, os, gameid, channelid, sdk\_version, user\_name, ts, seq.
 
 ```
-//原始问卷链接
+//Original survey link
 https://user.outweisurvey.com/v2/?sid=60d57b6eacb1fb323d61f772
 
-//添加加密票据后的问卷链接
+//Survey link with added encrypted token
 https://user.outweisurvey.com/v2/?sid=60d57b6eacb1fb323d61f772&gameid=11&os=1&ts=1597840414&version=0.1.000.0001&seq=11-42e0e9d2-2f0e-4b01-a1ab-6831cf9b6165-1597840414-11&encodeparam=4060E2A762B31B8B57A8D5A9BBAF10E8657A5A3A285B0DA7159417C2D6F0D801
 ```
 
-#### 方式一：调用OpenUrl接口打开链接时，参数encryptEnable赋值为true
+**Method 1: When calling the OpenUrl interface to open the link, set the parameter encryptEnable to true.**
 
-INTL文档参考：
+INTL document reference:
 
-【打开网页OpenUrl】 [https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/OpenUrl](https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/OpenUrl)
+**\[Open webpage OpenUrl]** [https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/OpenUrl](https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/OpenUrl)
 
 <figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption><p>参数赋值说明</p></figcaption></figure>
 
-#### 方式二：调用（获取加密票据）接口在链接后注入登录态参数
+#### Method 2: Call the (obtain encrypted ticket) interface to inject login state parameters after the link
 
-MSDK文档参考：
+MSDK Documentation Reference:&#x20;
 
-【获取加密票据GetEncryptUrl】
+GetEncryptUrl
 
 [https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/GetEncryptUrl](https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/GetEncryptUrl)
 
 {% hint style="danger" %}
-**特别注意**
+Special Attention&#x20;
 
-以上两种注入登录态方式任选其一，不可同时使用，否则会重复注入多次登录态参数导致问卷侧解密失败，无法访问问卷。（报错提示：登录失败请刷新）
+You can choose either of the above two methods to inject login status, but they cannot be used simultaneously. Otherwise, multiple login status parameters will be injected repeatedly, causing the survey decryption to fail and making the survey inaccessible. (Error message: Login failed, please refresh)
 {% endhint %}
 
 {% hint style="info" %}
-**问卷分发情况说明**
+**Survey Distribution Report**
 
-使用“问卷分发页”投放的多语言问卷，注入登录态方式与上述描述一致，在分发页的汇总链接后注入登录态参数。
+For multi-language surveys distributed using the "survey distribution page," the method of injecting login status is consistent with the description above. The login status parameters are injected after the summary link on the distribution page.
 {% endhint %}
 
 
 
-#### 问卷系统解密获取登录态信息
+**Survey system decrypts and retrieves login state information**
 
-系统通过“解密校验”获取encodeparam解密后的明文，<mark style="color:red;">游戏侧无须关注</mark>。
+The system obtains the plaintext after decrypting encodeparam through "decryption verification", and the game side does not need to pay attention to it.
 
-INTL文档参考：【解密校验】
+INTL document reference: \[Decryption Verification]
 
 [https://docs.playernetwork.intlgame.com/docs/zh/API/Backend/Auth/decrypt\_aes](https://docs.playernetwork.intlgame.com/docs/zh/API/Backend/Auth/decrypt_aes#interface)
 
 
 
-### 登录失败提示
+Login Failure Prompt When the system fails to obtain the correct login status, the survey page will display a warning popup. The main reasons for the failure are as follows:&#x20;
 
-当系统无法获取正确的登录态时，问卷页面会显示警告弹窗，主要导致失败的原因如下：
+(1) When decrypting the encodeparam login state, the decryption fails due to missing parameters such as os, gameid, channelid, sdk\_version, user\_name, ts, and seq.&#x20;
 
-（1）encodeparam解密登录态时，由于缺失os、gameid、channelid、sdk\_version、user\_name、ts、seq等参数导致解密失败。
-
-（2）注入登录态参数后的问卷链接过长，部分参数被截断导致参数缺失（需客户端另行处理）。
+(2) The survey link with injected login parameters is too long, causing some parameters to be truncated and missing (requires separate handling by the client).
 
 ![登录失败](<../../.gitbook/assets/image (301).png>)
 
 {% hint style="warning" %}
-若INTL登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。
+If the INTL login state collection interface fails during joint debugging, you can switch to using the parameter passing ([strict validation mode](fei-msdk-deng-lu-tai-chuan-di-jie-kou.md), [non-validation mode](parameter-transfer-interface-no-verification-mode.md)) interface to achieve login state transmission.
 {% endhint %}

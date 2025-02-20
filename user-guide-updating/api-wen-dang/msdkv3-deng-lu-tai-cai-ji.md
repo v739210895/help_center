@@ -1,8 +1,8 @@
-# MSDK-V3登录态采集
+# MSDK-V3 Login State Collection
 
 The APP integrated with MSDK V3 version can select \[MSDK v3] in the login verification of the survey settings. When users submit the survey, the survey system will automatically obtain the MSDK login status and store it in the response data.
 
-![](../../.gitbook/assets/Snipaste_2023-10-17_10-51-05.png)
+![](../../.gitbook/assets/Snipaste_2025-02-20_10-13-06.png)
 
 ## MSDK-V3 Login State Encryption and Decryption Instructions
 
@@ -65,7 +65,7 @@ When the system fails to obtain the correct login status, a warning pop-up will 
 
 (3) The survey link with the login state parameters injected is too long, causing some parameters to be truncated and missing (requires separate handling by the client).
 
-![登录失败](<../../.gitbook/assets/image (301).png>)
+![Login failed](<../../.gitbook/assets/image (301).png>)
 
 {% hint style="warning" %}
 If the MSDK-V3 login state collection interface fails to integrate, you can use the parameter passing (strict verification mode, non-verification mode) interface to achieve login state transmission.

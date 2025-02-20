@@ -1,84 +1,82 @@
-# MSDK-V5登录态采集
+# MSDK-V5 Login State Collection
 
 对接了MSDK V5版本的APP，可在问卷设置的登录验证中选择【MSDK v5】登录功能；用户提交问卷时，问卷系统会自动获取MSDK的登录态（如gopenid）并存储在答题数据中。
 
-![配置MSDK v5自动登录所需要的参数](../../.gitbook/assets/Snipaste_2023-10-17_10-52-41.png)
+![Parameters required to configure MSDK v5 for automatic login](../../.gitbook/assets/Snipaste_2025-02-20_10-13-20.png)
 
-## 参数配置说明
+**Parameter Configuration Description**
 
 {% hint style="info" %}
-“密钥”请填写飞鹰系统参数中的MSDK\_SERVER\_KEY
-
-“msdk域名”区分正式环境和测试环境，填写参考：
+Please fill in the "Key" with the MSDK\_SERVER\_KEY from the Falcon system parameters. The "msdk domain name" distinguishes between the production environment and the testing environment. Please refer to the following for details:
 {% endhint %}
 
-| 环境（域名）  | HTTP内网                               | HTTPS外网                                                                          |
-| ------- | ------------------------------------ | -------------------------------------------------------------------------------- |
-| 测试环境    | http://hktest.itop.tencent-cloud.net | <p>https://hktest.itop.qq.com （国内）</p><p>https://ipv6-hktest.itop.qq.com（海外）</p> |
-| 国内正式环境  | http://itop.tencent-cloud.net        | <p>https://itop.qq.com</p><p>https://ipv6-sh.itop.qq.com</p>                     |
-| 新加坡正式环境 | 无                                    | https://sg.itopsdk.com                                                           |
-| 硅谷正式环境  | 无                                    | https://us.itopsdk.com                                                           |
+| Environment (Domain)               | HTTP Intranet                        | HTTPS External Network                                                                       |
+| ---------------------------------- | ------------------------------------ | -------------------------------------------------------------------------------------------- |
+| Test Environment                   | http://hktest.itop.tencent-cloud.net | <p>https://hktest.itop.qq.com （Domestic）</p><p>https://ipv6-hktest.itop.qq.com（Overseas）</p> |
+| Formal environment                 | http://itop.tencent-cloud.net        | <p>https://itop.qq.com</p><p>https://ipv6-sh.itop.qq.com</p>                                 |
+| Singapore's formal environment     | None                                 | https://sg.itopsdk.com                                                                       |
+| Silicon Valley formal environment境 | None                                 | https://us.itopsdk.com                                                                       |
 
 
 
-## MSDK-V5登录态加解密说明
+## MSDK-V5 Login State Encryption and Decryption Instructions
 
-问卷系统后台用于解密获取玩家登录态流程的说明，游戏侧仅需关注是否有在问卷链接后**注入正确的登录态参数**。
+The survey system backend is used to decrypt and obtain the player's login status process. The game side only needs to focus on whether the correct login status parameters are injected after the survey link.
 
-### 游戏客户端获取登录态加密票据
+## The game client obtains the login state encrypted token
 
-游戏客户端需通过MSDK webview自带接口在把问卷链接加密并注入登录态信息；参数包括：itopencodeparam、algorithm、channelid、encode、gameid、os、ts、version、seq、sig、source等。
+The game client needs to encrypt the survey link and inject login status information through the "Get Encrypted Ticket" interface provided by the MSDK webview; parameters include: msdkEncodeParam, timestamp, appid, algorithm, version, sig, encode, etc.
 
-```
-//原始问卷链接
-https://in.weisurvey.com/?sid=60ebdefe76051f6b8a37f782
+**Original survey link**
 
-//添加加密票据后的问卷链接
-https://in.weisurvey.com/?sid=60ebdefe76051f6b8a37f782&algorithm=itop&encode=2&gameid=12&os=1&ts=1542889299&version=2.2.000.2607.2607&seq=11-5d0f17db-ef1e-44cd-88d7-57b556cc63ce-53&sig=eb6ee5ab9418d1c8e6400608815e76f2&itopencodeparam=F5382C12988BADA6F659B443ACE9978C14DE1B62EB1274AEFDECC219DE635C2B
-```
+[<mark style="color:purple;">https://in.weisurvey.com/?sid=60ebdefe76051f6b8a37f782</mark>](https://in.weisurvey.com/?sid=60ebdefe76051f6b8a37f782)
 
-#### 方式一：调用OpenUrl接口打开链接时，参数isUseURLEndode赋值为true
+**Survey link with added encrypted token**
 
-MSDK文档参考：
+[<mark style="color:purple;">https://in.weisurvey.com/?sid=60ebdefe76051f6b8a37f782\&algorithm=itop\&encode=2\&gameid=12\&os=1\&ts=1542889299\&version=2.2.000.2607.2607\&seq=11-5d0f17db-ef1e-44cd-88d7-57b556cc63ce-53\&sig=eb6ee5ab9418d1c8e6400608815e76f2\&itopencodeparam=F5382C12988BADA6F659B443ACE9978C14DE1B62EB1274AEFDECC219DE635C2B</mark>](https://in.weisurvey.com/?sid=60ebdefe76051f6b8a37f782\&algorithm=itop\&encode=2\&gameid=12\&os=1\&ts=1542889299\&version=2.2.000.2607.2607\&seq=11-5d0f17db-ef1e-44cd-88d7-57b556cc63ce-53\&sig=eb6ee5ab9418d1c8e6400608815e76f2\&itopencodeparam=F5382C12988BADA6F659B443ACE9978C14DE1B62EB1274AEFDECC219DE635C2B)
 
-【打开网页OpenUrl】[http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#22-%E6%89%93%E5%BC%80%E7%BD%91%E9%A1%B5](http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#22-%E6%89%93%E5%BC%80%E7%BD%91%E9%A1%B5)
+**Method 1: When calling the OpenUrl interface to open a link, set the parameter isUseURLEncode to true.**
+
+&#x20;**MSDK Documentation Reference:**
+
+【Open Webpage OpenUrl】[http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#22-%E6%89%93%E5%BC%80%E7%BD%91%E9%A1%B5](http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#22-%E6%89%93%E5%BC%80%E7%BD%91%E9%A1%B5)
 
 <figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>MSDK文档</p></figcaption></figure>
 
-#### 方式二：调用（获取加密票据）接口在链接后注入登录态参数
+**Method 2: Call the (Get Encrypted Ticket) interface to inject login state parameters after the link.**
 
-MSDK文档参考：
+&#x20;MSDK Documentation Reference:&#x20;
 
-【获取加密票据GetEncodeUrl】[http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE](http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE)
+【Get Encrypted Token GetEncodeUrl】http://doc.itop.woa.com/v5/en-US/Module/WebView.html#23-%E8%8E%B7%E5%8F%96%E5%8A%A0%E5%AF%86%E7%A5%A8%E6%8D%AE
 
 
 
 {% hint style="danger" %}
-以上两种注入登录态方式任选其一，不可同时使用，否则会重复注入多次登录态参数导致问卷侧解密失败，无法访问问卷。（报错提示：登录失败请刷新）
+You can choose either of the above two methods to inject the login state, but you cannot use both simultaneously. Doing so will result in multiple injections of login state parameters, causing decryption failure on the survey side and making the survey inaccessible. (Error message: Login failed, please refresh)
 {% endhint %}
 
 
 
-### 问卷系统解密获取登录态信息
+## Survey system decrypts to obtain login state information
 
-问卷系统通过“解密校验”接口获取itopencodeparam解密后的明文gopenid，**游戏侧无须关注**。
+The survey system obtains the plaintext gopenid decrypted from itopencodeparam through the "decryption verification" interface, which does not require attention from the game side.
 
-MSDK文档参考：【解密校验】[http://doc.itop.woa.com//v5/zh-CN/Server/verify.html#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C](http://doc.itop.woa.com/v5/zh-CN/Server/verify.html#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C)
+MSDK Documentation Reference: \[Decryption Verification]
+
+[http://doc.itop.woa.com//v5/zh-CN/Server/verify.html#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C](http://doc.itop.woa.com/v5/zh-CN/Server/verify.html#%E4%BA%8C%E3%80%81%E8%A7%A3%E5%AF%86%E6%A0%A1%E9%AA%8C)
 
 
 
-## 登录失败提示
+**Login Failure Prompt When the system fails to obtain the correct login status, the survey page will display a warning popup. The main reasons for the failure are as follows:**&#x20;
 
-当系统无法获取正确的登录态时，问卷页面会显示警告弹窗，主要导致失败的原因如下：
+(1) The decryption of the itopencodeparam login state failed due to the lack of parameters such as os, gameid, channelid, ts, sig, and source.&#x20;
 
-（1）itopencodeparam解密登录态时，由于缺失os、gameid、channelid、ts、sig、source等参数导致解密失败。
+(2) The survey link with injected login state parameters is too long, causing some parameters to be truncated and missing. The game client needs to handle this on its own.&#x20;
 
-（2）注入登录态参数后的问卷链接过长，部分参数被截断导致参数缺失。游戏客户端需自行处理。
-
-（3）重复注入多次登录态参数导致解密失败。游戏客户端需排查OpenUrl()的isUseURLEncode是否为true，若是，则不需要另外调用GetEncodeUrl()。
+(3) Repeated injection of login state parameters multiple times leads to decryption failure. The game client needs to check whether isUseURLEncode in OpenUrl() is set to true. If it is, then there is no need to additionally call GetEncodeUrl().
 
 ![登录失败](<../../.gitbook/assets/image (301).png>)
 
 {% hint style="warning" %}
-若MSDK-V5登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。
+If the MSDK-V5 login state collection interface fails during joint debugging, you can switch to using the parameter passing ([strict validation mode](fei-msdk-deng-lu-tai-chuan-di-jie-kou.md), [non-validation mode](parameter-transfer-interface-no-verification-mode.md)) interface to achieve login state transmission.
 {% endhint %}
