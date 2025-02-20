@@ -44,7 +44,7 @@ The system provides an open interface for querying response information, answer 
 
 ![API Call](../../../.gitbook/assets/Snipaste_2023-10-08_14-47-43.png)
 
-[Click to view detailed API documentation](../../api-wen-dang/kai-fang-jie-kou-da-ti-duan.md)
+[Click to view detailed API documentation](broken-reference)
 
 ### Rewards will be given after submitting the survey
 
