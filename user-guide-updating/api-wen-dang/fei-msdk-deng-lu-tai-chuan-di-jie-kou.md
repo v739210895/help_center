@@ -1,40 +1,40 @@
-# 参数传递接口（严格校验模式）
+# Parameter Passing Interface (Strict Validation Mode)
 
-## 1. 接口说明
+## 1. Interface Description
 
-### 1.1 接口定义
+### 1.1 Interface Definition
 
-参数传递接口（严格校验模式）接口用于解决第三方开发者拥有自己系统的登录态（如小程序登录态、facebook登录等），但又希望能够同步该登录态到问卷系统的情况。
+The parameter passing interface (strict validation mode) is used to address the situation where third-party developers have their own system login states (such as mini-program login states, Facebook login, etc.), but wish to synchronize these login states to the survey system.
 
-### 1.2 使用场景
+### 1.2 Usage scenario
 
-以下几种情况可以**不需要**接入非MSDK登录态传递接口：
+The following situations do not require the integration of non-MSDK login state transmission interfaces:
 
-* 问卷内嵌到游戏中，问卷系统默认支持MSDK登录态处理，可在问卷编辑页选择【设置】-> 【MSDK登录验证】打开该功能，当前仅支持v3和v5版本MSDK登录；
-* 仅需要做每个用户答题限制，不关注采集的用户uid，可以选择使用微信或者手Q登录，可在问卷编辑页选择【设置】-> 【微信、QQ登录验证】打开该功能；
+* The survey is embedded into the game, and the survey system by default supports MSDK login state handling. You can enable this feature by selecting \[Settings] -> \[MSDK Login Verification] on the survey editing page. Currently, only v3 and v5 versions of MSDK login are supported.
+* It is only necessary to set a limit on the number of questions each user can answer, without collecting the user's UID. Users can choose to log in using WeChat or QQ. This feature can be enabled in the survey editing page by selecting \[Settings] -> \[WeChat, QQ login verification].
 
-### 1.3 交互流程
+### 1.3 Interactive Process
 
-![](../../.gitbook/assets/login_UML.jpg)
+![](../../.gitbook/assets/参数传递.png)
 
-开发者仅需关注开发者服务器流程，重点关注签名以及登录重定向url的生成。
+Developers only need to focus on the developer server process, with an emphasis on the generation of signature and login redirect URLs.
 
-### 1.4 sign签名算法
+### 1.4 Signature Algorithm
 
-#### **1.4.1 算法流程**
+#### **1.4.1** Algorithm Process
 
-1. 提供必要参数（详情看API接口，空值不需要参与签名），使用kv数据结构；
-2. 添加appSecret作为签名密钥字段到kv数据结构；
-3. 对key进行按ascii升序排序；
-4. 遍历排序后的kv数据结构，把所有元素，按照“key1value1key2value2”的模式拼接成字符串；
-5. 对拼接的数据库进行md5摘要，即可得sign签名；
-6. 添加sign作为签名字段到kv数据结构；
-7. 将kv数据结构转换成http的query请求参数；
-8. 带上query请求参数调用登录态传递接口。
+1. Provide the necessary parameters (see API interface for details, empty values do not need to participate in the signature), using the kv data structure;
+2. Add appSecret as a signature key field to the kv data structure;
+3. Sort the keys in ascending ASCII order;
+4. Traverse the sorted kv data structure and concatenate all elements into a string in the pattern of "key1value1key2value2";
+5. Perform an MD5 digest on the concatenated database to obtain the sign signature;
+6. Add sign as a signature field to the kv data structure;
+7. Convert kv data structure into HTTP query request parameters;
+8. Use the query request parameter to call the login status transfer interface.
 
-#### **1.4.2 代码示例**
+#### **1.4.2** Code Example
 
-_PHP代码_
+PHP code
 
 ```php
 <?php
@@ -48,13 +48,13 @@ $query = [
     'timestamp' => time(),
     'source' => 'testsource',
     'info' => 'extra_info',
-    // 登录完成后系统会跳转到redirect的地址，一般使用的是问卷投放链接，会包括sid内容
-    // 如果有登录态回调参数，请参考【API文档】-> 【登录态回调接口】添加需要的参数，如callback、callback_params
-    // 注意：这里的域名要根据投放的域名做修改，详情看文档下方【API接口】
+    // After logging in, the system will redirect to the address specified in the redirect, which is usually a survey distribution link and will include the sid content.
+    // If there are login state callback parameters, please refer to [API Documentation] -> [Login State Callback Interface] to add the required parameters, such as callback、callback_params
+    // Note: The domain name here should be modified according to the domain name used for delivery. For details, see the [API Interface] section at the bottom of the document.
     'redirect' => 'https://in.weisurvey.com/?sid='.$sid,
 ];
 
-// 添加密钥
+// Add key
 $params = array_merge($query, [
     'appSecret' => $appSecret,
 ]);
@@ -63,7 +63,7 @@ ksort($params);
 
 $str = '';
 foreach ($params as $key => $value) {
-    // 值为空的参数不参与加密
+    // Parameters with null values are not included in the addition.
     if ($value !== '') {
         $str .= $key.$value;
     }
@@ -71,111 +71,108 @@ foreach ($params as $key => $value) {
 
 $query['sign'] = strtolower(md5($str));
 
-// 注意：这里的域名要根据投放的域名做修改，详情看文档下方【API接口】
+// Note: The domain name here needs to be modified according to the domain name being used. For details, see the [API Interface] section at the bottom of the document.
 $redirectUrl = 'https://in.weisurvey.com/v2/api/autologin?'.http_build_query($query);
 
-// 重定向
+// Redirect
 header('Location: '.$redirectUrl);
 ```
 
-_请求url示例_
+Request URL Example
 
 ```
  https://in.weisurvey.com/v2/api/autologin?sid=60cfe98c76051f40495d32c2&uid=test_uid&timestamp=1624262138&source=testsource&info=extra_info&redirect=https%3A%2F%2Fin.weisurvey.com%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback_params%3Dtestparams&sign=44b2e38119366c059946698f2828752c
 ```
 
 {% hint style="info" %}
-**普通投放链接与内嵌投放链接示例对比**
+Comparison of Normal Embedding Link and Embedded Embedding Link Examples
 
-【普通投放链接】
+【Regular distribution link】
 
 https://in.weisurvey.com/v2/?sid=60cfe98c76051f40495d32c2
 
-【内嵌投放链接】
+【Embedded delivery link】
 
 https://in.weisurvey.com/v2/api/autologin?sid=60cfe98c76051f40495d32c2\&uid=test\_uid\&timestamp=1624262138\&source=testsource\&info=extra\_info\&redirect=https%3A%2F%2Fin.weisurvey.com%2Fv2%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams\&sign=44b2e38119366c059946698f2828752c
 
-_\*以上参数对应的值仅作展示使用_
+_\*_&#x54;he values corresponding to the above parameters are for display purposes only.
 {% endhint %}
 
-## **2. 接口参数说明**
+## **2.** Interface Parameters Description
 
-### **2.1 登录接口地址**
+### **2.1** Login interface address
 
-请根据业务投放域名与国内、海外选择接入接口。
+Please choose the access interface based on the business deployment domain and whether it is domestic or overseas.
 
-#### **2.1.1 国内投放**
+#### **2.1.1** Domestic Placement
 
 ```
-国内投放拥有两套域名，分为tencent域与非tencent域，开发时需要注意
+The domestic deployment has two sets of domain names, which need to be noted during development.
 
-tencent域：
-问卷投放域名为https://in.survey.imur.tencent.com/v2/?sid=xxx则为tencent域，对应登录接口为：
-https://in.survey.imur.tencent.com/v2/api/autologin?
-
-非tencent域：
-问卷投放域名为https://in.weisurvey.com/v2/?sid=xxx则为非tencent域，对应登录接口为：
+1.https://in.survey.imur.qq.com/v2/?sid=xxx is the QQ domain, and the corresponding login interface is:
+https://in.survey.imur.qq.com/v2/api/autologin?
+2.https://in.weisurvey.com/v2/?sid=xxx is a non-QQ domain, and the corresponding login interface is:
 https://in.weisurvey.com/v2/api/autologin?
 ```
 
-#### **2.1.2 海外投放**
+#### **2.1.2** Overseas Advertising
 
 ```
-海外投放对应登录接口为：
+The login interface for overseas advertising is:
 https://user.outweisurvey.com/v2/api/autologin?
 ```
 
 {% hint style="danger" %}
-由于接口升级，【国内】采用inapi前缀登录接口的游戏，请提前更改为新版登录接口，以免影响正常使用，调整如下：
+Due to the interface upgrade, games using the inapi prefix login interface in \[China] should switch to the new login interface in advance to avoid any disruption. The adjustments are as follows:
 {% endhint %}
 
-| 问卷投放域名    | 旧版登录接口（已废弃）                                      | 新版登录接口                                               |
-| --------- | ------------------------------------------------ | ---------------------------------------------------- |
-| 非tencent域 | https://inapi.weisurvey.com/autologin?           | https://in.weisurvey.com/v2/api/autologin?           |
-| tencent域  | https://inapi.survey.imur.tencent.com/autologin? | https://in.survey.imur.tencent.com/v2/api/autologin? |
+| Domain name deployment | Login Interface                                                                                         |
+| ---------------------- | ------------------------------------------------------------------------------------------------------- |
+| Non-QQ domain          | [https://in.weisurvey.com/v2/api/autologin?](https://in.weisurvey.com/v2/api/autologin?)                |
+| QQ domain              | [https://in.survey.imur.tencent.com/v2/api/autologin?](https://in.survey.imur.qq.com/v2/api/autologin?) |
 
-### **2.2 参数说明**
+### **2.2** Parameter Description
 
-使用GET请求方式传参。
+Pass parameters using GET request method
 
-| 参数        | 是否必须 | 是否参与加密 | 数据类型   | 限制长度    | 说明                                                                                                                                                                                                                                    |
-| --------- | ---- | ------ | ------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| sid       | 是    | 是      | string | 32      | 问卷id，从问卷链接可解析                                                                                                                                                                                                                         |
-| uid       | 是    | 是      | string | 255     | 登录用户的唯一ID                                                                                                                                                                                                                             |
-| timestamp | 是    | 是      | int    | 10位     | 时间戳                                                                                                                                                                                                                                   |
-| redirect  | 是    | 是      | string | url地址   | <p>登录成功之后跳转的页面url，一般使用的是问卷的链接</p><p>【注】</p><ol><li><strong>加密sign</strong>时使用原始URL；<strong>拼接为内嵌投放链接</strong>时，需先把URL进行encode后赋值到redirect，再拼到内嵌投放链接中</li><li>回调中的callback、callback_params需先注入到问卷原始url，再把此url按步骤1赋值到redirect</li></ol> |
-| source    | 是    | 是      | string | 2-10位英文 | 用户自定义渠道标识                                                                                                                                                                                                                             |
-| sign      | 是    | 否      | string | 32      | 签名，参考签名算法                                                                                                                                                                                                                             |
-| info      | 否    | 是      | string | 255     | 额外的登录用户信息，可自定义；为空时不参与加密                                                                                                                                                                                                               |
+| Parameter | Is it necessary | Whether to participate in encryption | Data Type | Limit length               | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| --------- | --------------- | ------------------------------------ | --------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| sid       | yes             | yes                                  | string    | 32                         | Survey ID, can be parsed from survey link                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| uid       | yes             | yes                                  | string    | 255                        | Unique ID of the logged-in user                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| timestamp | yes             | yes                                  | int       | 10位                        | Timestamp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| redirect  | yes             | yes                                  | string    | URL address                | The URL of the page redirected to after a successful login is usually the survey link. \[Note] When encrypting the sign, use the original URL; when concatenating it into the embedded delivery link, first encode the URL and assign it to redirect, then concatenate it into the embedded delivery link. The callback and callback\_params in the callback need to be injected into the original survey URL first, and then this URL should be assigned to redirect according to step 1. |
+| source    | yes             | yes                                  | string    | 2-10 characters in English | User Custom Channel Identifier                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| sign      | yes             | no                                   | string    | 32                         | Signature, refer to the signature algorithm法                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| info      | no              | yes                                  | string    | 255                        | Additional login user information, customizable; will not be encrypted if empty                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 {% hint style="danger" %}
-各参数的赋值请勿带分号;，否则值会被截断
+Please do not include semicolons when assigning values to parameters, otherwise the values will be truncated.
 {% endhint %}
 
-### 2.3 客户端生成链接示例
+### 2.3 Client-generated link example
 
-#### 原始链接
+**Original link**
 
 https://in.weisurvey.com/v2/?sid=60cfe98c76051f40495d32c2
 
-#### STEP 1 原始链接注入回调参数（非必要）
+#### STEP 1 Original link injection callback parameters (optional)
 
 https://in.weisurvey.com/v2/?sid=60cfe98c76051f40495d32c&#x32;**\&callback=3\&callback\_params=testparams**
 
-#### STEP 2 拼接kv数据结构的字符串
+**STEP 2 Concatenate kv data structure string**
 
 appSecretiamsecretinfoextra\_inforedirecthttps://in.weisurvey.com/v2/?sid=60cfe98c76051f40495d32c2\&callback=3\&callback\_params=testparamssid60cfe98c76051f40495d32c2sourcetestsourcetimestamp1624262138uidtest\_uid
 
-#### STEP 3 对字符串加密生成sign
+#### STEP 3 Generate sign by encrypting the string
 
 sign=**ade962f5273a404f72aaabf544b14281**
 
-#### STEP 4 拼接链接，完成
+#### STEP 4 Splicing link, completed
 
 https://in.weisurvey.com/v2/api/autologin?sid=60cfe98c76051f40495d32c2\&uid=test\_uid\&timestamp=1624262138\&source=testsource\&info=extra\_info\&redirect=https%3A%2F%2Fin.weisurvey.com%2Fv2%2F%3Fsid%3D60cfe98c76051f40495d32c2%26callback%3D3%26callback\_params%3Dtestparams\&sign=ade962f5273a404f72aaabf544b14281
 
 {% hint style="info" %}
-**参数赋值情况**
+Parameter Assignment Situation
 
 sid=60cfe98c76051f40495d32c2
 
@@ -192,12 +189,10 @@ redirect=https%3A%2F%2Fin.weisurvey.com%2Fv2%2F%3Fsid%3D60cfe98c76051f40495d32c2
 sign=ade962f5273a404f72aaabf544b14281
 {% endhint %}
 
-![步骤示例](<../../.gitbook/assets/image (164).png>)
+## 3. Survey settings
 
-## 3. 问卷设置
+A key needs to be set on the survey settings page, and the key supports customization.
 
-需在问卷设置页面设置密钥，密钥支持自定义。
-
-![配置密钥](../../.gitbook/assets/Snipaste_2023-10-17_10-55-06.png)
+![Configure Key](../../.gitbook/assets/Snipaste_2025-02-20_09-44-50.png)
 
 ## 4. 常见问题

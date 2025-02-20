@@ -202,7 +202,7 @@
     * [MSDK-V3登录态采集](user-guide-updating/api-wen-dang/msdkv3-deng-lu-tai-cai-ji.md)
     * [MSDK-V5登录态采集](user-guide-updating/api-wen-dang/msdkv5-deng-lu-tai-cai-ji.md)
     * [INTL登录态采集](user-guide-updating/api-wen-dang/intl-deng-lu-tai-cai-ji.md)
-    * [参数传递接口（严格校验模式）](user-guide-updating/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)
+    * [Parameter Passing Interface (Strict Validation Mode)](user-guide-updating/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)
     * [Parameter Transfer Interface (Non-Verification Mode)](user-guide-updating/api-wen-dang/parameter-transfer-interface-no-verification-mode.md)
     * [Callback Interface](user-guide-updating/api-wen-dang/callback-interface.md)
     * [AMS发奖](user-guide-updating/api-wen-dang/idip-fa-jiang.md)
