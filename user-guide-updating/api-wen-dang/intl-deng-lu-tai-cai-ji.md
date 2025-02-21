@@ -44,7 +44,7 @@ INTL document reference:
 
 **\[Open webpage OpenUrl]** [https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/OpenUrl](https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/OpenUrl)
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption><p>参数赋值说明</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/说明3.png" alt=""><figcaption><p>Parameter assignment statement</p></figcaption></figure>
 
 #### Method 2: Call the (obtain encrypted ticket) interface to inject login state parameters after the link
 
@@ -84,7 +84,7 @@ Login Failure Prompt When the system fails to obtain the correct login status, t
 
 (2) The survey link with injected login parameters is too long, causing some parameters to be truncated and missing (requires separate handling by the client).
 
-![登录失败](<../../.gitbook/assets/image (301).png>)
+![](<../../.gitbook/assets/Snipaste_2025-02-21_15-34-33 (2).png>)
 
 {% hint style="warning" %}
 If the INTL login state collection interface fails during joint debugging, you can switch to using the parameter passing ([strict validation mode](fei-msdk-deng-lu-tai-chuan-di-jie-kou.md), [non-validation mode](parameter-transfer-interface-no-verification-mode.md)) interface to achieve login state transmission.

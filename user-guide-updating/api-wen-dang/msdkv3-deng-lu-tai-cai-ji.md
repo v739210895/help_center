@@ -35,7 +35,7 @@ http://www.qq.com?algorithm=v2&version=2.0.6a&timestamp=1423538227203&appid=1007
 A3E93E44F3270F19664D5499CA2990BE5BA9E232036197B184F1411B76CF95537AC07E3D6A27F054AD3F26648B18554F9C1
 ```
 
-![](<../../.gitbook/assets/image (791).png>)
+![](../../.gitbook/assets/说明.png)
 
 (2) When the msdkEncodeParam parameter cannot decrypt the login state properly, the system will directly use the openid parameter value as the login state.
 
@@ -65,7 +65,7 @@ When the system fails to obtain the correct login status, a warning pop-up will 
 
 (3) The survey link with the login state parameters injected is too long, causing some parameters to be truncated and missing (requires separate handling by the client).
 
-![Login failed](<../../.gitbook/assets/image (301).png>)
+![Login failed](../../.gitbook/assets/Snipaste_2025-02-21_15-34-33.png)
 
 {% hint style="warning" %}
 If the MSDK-V3 login state collection interface fails to integrate, you can use the parameter passing (strict verification mode, non-verification mode) interface to achieve login state transmission.

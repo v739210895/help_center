@@ -2,7 +2,7 @@
 
 对接了MSDK V3版本的APP，可在问卷设置的登录验证中选择【MSDK v3】，用户提交问卷时，问卷系统会自动获取MSDK的登录态并存储在答题数据中。
 
-![](../.gitbook/assets/Snipaste\_2023-10-17\_10-51-05.png)
+![](../.gitbook/assets/Snipaste_2023-10-17_10-51-05.png)
 
 ## MSDK-V3登录态加解密说明
 
@@ -14,7 +14,7 @@
 
 MSDK文档参考：【获取加密票据】
 
-[https://wiki.ssl.msdk.qq.com/Android/webview.html#Android\_UrlAddEncodeParam](https://wiki.ssl.msdk.qq.com/Android/webview.html#Android\_UrlAddEncodeParam)
+[https://wiki.ssl.msdk.qq.com/Android/webview.html#Android\_UrlAddEncodeParam](https://wiki.ssl.msdk.qq.com/Android/webview.html#Android_UrlAddEncodeParam)
 
 
 
@@ -22,7 +22,7 @@ MSDK文档参考：【获取加密票据】
 
 系统通过“解密校验”接口获取msdkEncodeParam解密后的明文openid，游戏侧无须关注。
 
-MSDK文档参考：【解密校验】[https://wiki.ssl.msdk.qq.com/Android/webview.html#Android\_DecodeLoginInfo](https://wiki.ssl.msdk.qq.com/Android/webview.html#Android\_DecodeLoginInfo)
+MSDK文档参考：【解密校验】[https://wiki.ssl.msdk.qq.com/Android/webview.html#Android\_DecodeLoginInfo](https://wiki.ssl.msdk.qq.com/Android/webview.html#Android_DecodeLoginInfo)
 
 （1）系统优先使用msdkEncodeParam参数进行登录态解密，此时要求必须带上timestamp、appid、algorithm、version、sig、encode这6个参数参与，示例如下：
 
@@ -61,9 +61,9 @@ A3E93E44F3270F19664D5499CA2990BE5BA9E232036197B184F1411B76CF95537AC07E3D6A27F054
 
 （3）注入登录态参数后的问卷链接过长，部分参数被截断导致参数缺失（需客户端另行处理）。
 
-![登录失败](<../.gitbook/assets/image (301).png>)
+![登录失败](../.gitbook/assets/Snipaste_2025-02-21_15-32-59.png)
 
 {% hint style="warning" %}
-如MSDK-V3登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help\_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help\_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。
+如MSDK-V3登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。
 {% endhint %}
 

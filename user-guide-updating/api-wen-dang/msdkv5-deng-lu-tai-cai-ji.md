@@ -1,6 +1,6 @@
 # MSDK-V5 Login State Collection
 
-对接了MSDK V5版本的APP，可在问卷设置的登录验证中选择【MSDK v5】登录功能；用户提交问卷时，问卷系统会自动获取MSDK的登录态（如gopenid）并存储在答题数据中。
+The APP integrated with MSDK V5 version can select \[MSDK v5] in the login verification of the survey settings. When users submit the survey, the survey system will automatically obtain the MSDK login status and store it in the response data.
 
 ![Parameters required to configure MSDK v5 for automatic login](../../.gitbook/assets/Snipaste_2025-02-20_10-13-20.png)
 
@@ -41,7 +41,7 @@ The game client needs to encrypt the survey link and inject login status informa
 
 【Open Webpage OpenUrl】[http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#22-%E6%89%93%E5%BC%80%E7%BD%91%E9%A1%B5](http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#22-%E6%89%93%E5%BC%80%E7%BD%91%E9%A1%B5)
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>MSDK文档</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/说明2.png" alt=""><figcaption><p>MSDK Document</p></figcaption></figure>
 
 **Method 2: Call the (Get Encrypted Ticket) interface to inject login state parameters after the link.**
 
@@ -75,7 +75,7 @@ MSDK Documentation Reference: \[Decryption Verification]
 
 (3) Repeated injection of login state parameters multiple times leads to decryption failure. The game client needs to check whether isUseURLEncode in OpenUrl() is set to true. If it is, then there is no need to additionally call GetEncodeUrl().
 
-![登录失败](<../../.gitbook/assets/image (301).png>)
+![Login failed](<../../.gitbook/assets/Snipaste_2025-02-21_15-34-33 (1).png>)
 
 {% hint style="warning" %}
 If the MSDK-V5 login state collection interface fails during joint debugging, you can switch to using the parameter passing ([strict validation mode](fei-msdk-deng-lu-tai-chuan-di-jie-kou.md), [non-validation mode](parameter-transfer-interface-no-verification-mode.md)) interface to achieve login state transmission.

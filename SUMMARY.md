@@ -205,4 +205,4 @@
     * [Parameter Passing Interface (Strict Validation Mode)](user-guide-updating/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)
     * [Parameter Transfer Interface (Non-Verification Mode)](user-guide-updating/api-wen-dang/parameter-transfer-interface-no-verification-mode.md)
     * [Callback Interface](user-guide-updating/api-wen-dang/callback-interface.md)
-    * [AMS发奖](user-guide-updating/api-wen-dang/idip-fa-jiang.md)
+    * [AMS Awards](user-guide-updating/api-wen-dang/idip-fa-jiang.md)
