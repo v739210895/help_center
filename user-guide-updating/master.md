@@ -46,29 +46,27 @@ In-game embedded/open interfaces
 
 #### The interface features a lightweight and simple design with clear function entries.
 
-<figure><img src="../.gitbook/assets/企业微信截图_17331106425650.png" alt=""><figcaption><p>Workbench</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (836).png" alt=""><figcaption></figcaption></figure>
 
 #### Continue using drag-and-drop selection to simplify editing operations
 
-<figure><img src="../.gitbook/assets/image (413).png" alt=""><figcaption><p>Survey Editor</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (837).png" alt=""><figcaption></figcaption></figure>
 
 #### Real-time automatic save updates to prevent content loss and confusion
 
-<figure><img src="../.gitbook/assets/image (409).png" alt=""><figcaption><p>Auto Save</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (839).png" alt=""><figcaption></figcaption></figure>
 
 #### Support in-game embedded ads, freely configure jump callbacks
 
-<figure><img src="../.gitbook/assets/image (404).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (840).png" alt=""><figcaption></figcaption></figure>
 
 #### Real-time statistics of survey data, intuitive chart display
 
-<figure><img src="../.gitbook/assets/image (427).png" alt=""><figcaption><p>答题结果统计</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (841).png" alt=""><figcaption></figcaption></figure>
 
 #### Various terminals automatically compatible, links can be distributed through multiple channels
 
-![PC survey terminal](<../.gitbook/assets/image (308).png>)
-
-![Mobile survey platform](<../.gitbook/assets/image (502).png>)
+<div align="left"><figure><img src="../.gitbook/assets/67aa70917fd2f973f502dadced841f4.jpg" alt="" width="375"><figcaption></figcaption></figure></div>
 
 
 

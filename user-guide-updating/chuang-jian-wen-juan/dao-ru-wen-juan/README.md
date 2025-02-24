@@ -6,7 +6,7 @@ If you already have a designed Excel survey, you can directly use the "Automatic
 
 The survey can be edited in advance in EXCEL, including: basic survey information (project name, product name, survey title, welcome message, ending message), question and option content (including font style), question settings, page settings, simple logic settings, etc.
 
-![EXCEL编辑问卷内容](../../../.gitbook/assets/问卷导入excel.jpg)
+<figure><img src="../../../.gitbook/assets/image (843).png" alt=""><figcaption></figcaption></figure>
 
 \# Format Guidelines
 
@@ -49,7 +49,7 @@ The survey can be edited in advance in EXCEL, including: basic survey informatio
 
 On the survey creation page, click the "Survey Auto Import" button to enter the import page, and upload the edited EXCEL file.
 
-![导入问卷](../../../.gitbook/assets/Snipaste_2024-12-02_16-08-15.png)
+<figure><img src="../../../.gitbook/assets/image (844).png" alt=""><figcaption></figcaption></figure>
 
 ![上传问卷](../../../.gitbook/assets/Snipaste_2024-12-02_16-31-04.png)
 
