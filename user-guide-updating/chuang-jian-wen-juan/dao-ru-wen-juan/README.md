@@ -51,18 +51,18 @@ On the survey creation page, click the "Survey Auto Import" button to enter the 
 
 <figure><img src="../../../.gitbook/assets/image (844).png" alt=""><figcaption></figcaption></figure>
 
-![上传问卷](../../../.gitbook/assets/Snipaste_2024-12-02_16-31-04.png)
+<figure><img src="../../../.gitbook/assets/image (845).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】Confirm basic information
 
 After uploading the EXCEL file, the system will automatically recognize the survey content and generate a survey list. The uploaded surveys support re-uploading or deletion (deleted surveys will not generate a survey). You can adjust the project name, product name, and survey title.
 
-![问卷列表](../../../.gitbook/assets/Snipaste_2024-12-02_16-32-29.png)
+<figure><img src="../../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 4】Create an online survey
 
 After confirming the survey information, click "Create Survey" to generate an online survey, which will be displayed in the "My Surveys" list.
 
-![确认问卷](../../../.gitbook/assets/Snipaste_2023-10-08_09-42-05.png)
+<figure><img src="../../../.gitbook/assets/image (847).png" alt=""><figcaption></figcaption></figure>
 
-![生成问卷](../../../.gitbook/assets/企业微信截图_16967294105015.png)
+<figure><img src="../../../.gitbook/assets/image (848).png" alt=""><figcaption></figcaption></figure>

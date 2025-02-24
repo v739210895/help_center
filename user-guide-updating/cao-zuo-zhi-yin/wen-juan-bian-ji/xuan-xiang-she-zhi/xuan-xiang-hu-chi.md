@@ -1,4 +1,4 @@
-# Mutually Exclusive Options
+# Mutually Exclusive Choices
 
 In the question editing state of a multiple-choice question, you can set mutually exclusive options. Once an option is set as mutually exclusive, selecting this option during the survey will prevent the selection of other options in the same question.
 
@@ -6,19 +6,17 @@ In the question editing state of a multiple-choice question, you can set mutuall
 The options linked from the previous question do not support mutually exclusive settings.
 {% endhint %}
 
-## Set mutually exclusive options
+## Set mutually exclusive choices
 
 ### 【STEP 1】Enable Mutex Settings
 
-In the editing state of a multiple-choice question, enable the "Mutually Exclusive Options" feature in the "Question Settings" panel on the right.
+In the editing state of a multiple-choice , enable the "Mutually Exclusive Choices" feature in the "Question Settings" panel on the right.
 
-![Enable "Mutually Exclusive Options" feature](../../../../.gitbook/assets/Snipaste_2023-10-08_10-39-38.png)
+### 【STEP 2】Specify Choices
 
-### 【STEP 2】Specify Options
+After enabling the "Choice Mutually Exclusive" feature, a "Mutually Exclusive" checkbox will appear next to each choice for this question. Check the "Mutually Exclusive" checkbox next to the choices that need to be set as mutually exclusive to complete the setup.
 
-After enabling the "Option Mutually Exclusive" feature, a "Mutually Exclusive" checkbox will appear next to each option for this question. Check the "Mutually Exclusive" checkbox next to the options that need to be set as mutually exclusive to complete the setup.
-
-![Select the "Mutually Exclusive" checkbox](../../../../.gitbook/assets/Snipaste_2023-10-08_10-39-46.png)
+<figure><img src="../../../../.gitbook/assets/image (897).png" alt=""><figcaption></figcaption></figure>
 
 > #### \[Example]
 >
@@ -30,5 +28,5 @@ After enabling the "Option Mutually Exclusive" feature, a "Mutually Exclusive" c
 
 When the user selects a mutually exclusive option, the other options are disabled and cannot be selected.
 
-![Other options are disabled after selecting a mutually exclusive option.](<../../../../.gitbook/assets/image (74).png>)
+<figure><img src="../../../../.gitbook/assets/image (898).png" alt=""><figcaption></figcaption></figure>
 

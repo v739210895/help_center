@@ -8,7 +8,7 @@ Supports two methods: uploading local videos and inserting third-party platform 
 
 In the survey editing state, after clicking on the survey question, remarks, or option text edit box, a rich text editing tool will expand in the upper left corner. Click on the "Video" icon in the rich text editing tool.
 
-![Rich text editing tools for the text editor](../../../.gitbook/assets/Snipaste_2023-10-10_16-40-08.png)
+<figure><img src="../../../.gitbook/assets/image (924).png" alt=""><figcaption></figcaption></figure>
 
 
 

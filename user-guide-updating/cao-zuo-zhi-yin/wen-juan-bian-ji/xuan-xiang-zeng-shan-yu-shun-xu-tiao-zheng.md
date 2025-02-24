@@ -1,50 +1,48 @@
-# Adding, Deleting, and Reordering Options
+# Adding, Deleting, and Reordering Choices
 
-### Add option
+### Add choice
 
 There are two ways to add options: adding individually and adding in bulk.
 
-### Add a single option
+### Add a single choice
 
-In the question editing state, clicking the "Add Single Option" button below will add a new option box below the last option.
+In the question editing state, clicking the "Add Single Choice " button below will add a new choice box below the last choice.
 
-![Add a single option](../../../.gitbook/assets/Snipaste_2023-10-17_11-46-14.png)
+<figure><img src="../../../.gitbook/assets/image (880).png" alt=""><figcaption></figcaption></figure>
 
-![Add an option box at the end](../../../.gitbook/assets/Snipaste_2023-10-17_11-47-12.png)
+<figure><img src="../../../.gitbook/assets/image (881).png" alt=""><figcaption></figcaption></figure>
 
-### Bulk Add Options
+### Bulk Add Choices
 
-In the question editing state, clicking the "Batch Edit Options" button below will display the batch edit options popup. You can directly add new options in the editing area, with each line representing one option. After clicking confirm, the options will be automatically generated in the option box in the editing state.
+In the question editing state, clicking the "Batch Edit Choices" button below will display the batch edit choices popup. You can directly add new choices in the editing area, with each line representing one choice. After clicking confirm, the choices will be automatically generated in the choice box in the editing state.
 
-![Add new options in the batch edit options popup by using line breaks](../../../.gitbook/assets/Snipaste_2023-10-17_11-48-30.png)
-
-![Automatically generate new options after confirmation](../../../.gitbook/assets/Snipaste_2023-10-17_11-48-53.png)
+<figure><img src="../../../.gitbook/assets/image (882).png" alt=""><figcaption></figcaption></figure>
 
 ### Delete option
 
 ### Delete single option
 
-Click the delete button next to the specified option to remove it.
+Click the delete button next to the specified choice  to remove it.
 
-![Delete directly](<../../../.gitbook/assets/image (243).png>)
+<figure><img src="../../../.gitbook/assets/image (883).png" alt=""><figcaption></figcaption></figure>
 
-### Bulk Delete Options  &#x20;
+### Bulk Delete Choices  &#x20;
 
-Delete the row containing this option in the batch edit options popup
+Delete the row containing this Choices in the batch edit choices popup
 
-![Delete in the batch edit options popup](<../../../.gitbook/assets/image (196).png>)
+<figure><img src="../../../.gitbook/assets/image (884).png" alt=""><figcaption></figcaption></figure>
 
-### Reordering of options
+### Reordering of choices
 
-### Drag and drop to reorder single-choice options
+### Drag and drop to reorder single-choice&#x20;
 
-In the question editing state, you can adjust the order of options by long-pressing and dragging when the mouse is hovered over the left side of the option text box.
+In the question editing state, you can adjust the order of options by long-pressing and dragging when the mouse is hovered over the left side of the choice text box.
 
-![Mouse click and drag](../../../.gitbook/assets/Snipaste_2023-10-08_10-24-45.png)
+<figure><img src="../../../.gitbook/assets/image (885).png" alt=""><figcaption></figcaption></figure>
 
-### Batch Adjust Option Order
+### Batch Adjust Choice Order
 
-In the bulk edit options dialog, adjust the order of options, with each line
+In the bulk edit choices dialog, adjust the order of choices, with each line
 
-![Adjust in the bulk edit options popup](<../../../.gitbook/assets/image (196).png>)
+<figure><img src="../../../.gitbook/assets/image (884).png" alt=""><figcaption></figcaption></figure>
 

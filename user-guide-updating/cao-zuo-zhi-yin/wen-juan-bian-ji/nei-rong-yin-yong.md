@@ -2,7 +2,7 @@
 
 When editing survey questions, notes, or options, it supports referencing the selected items, unselected items, and fill-in-the-blank content of previous questions.
 
-<figure><img src="../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption><p>Content Citation Effect</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (911).png" alt=""><figcaption></figcaption></figure>
 
 ### Set blockquote
 
@@ -10,7 +10,7 @@ When editing survey questions, notes, or options, it supports referencing the se
 
 In the survey editing mode, after clicking on the survey question, note, or option text editing box, a rich text editor tool will expand in the upper left corner. Click on the "Quote Settings" icon in the rich text editor tool.
 
-![Click the "Quote Settings" icon in the rich text editor](../../../.gitbook/assets/Snipaste_2023-10-08_11-14-24.png)
+<figure><img src="../../../.gitbook/assets/image (912).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -18,25 +18,23 @@ In the survey editing mode, after clicking on the survey question, note, or opti
 
 After clicking the "Citation Settings" icon, the Citation Settings window will pop up, as shown in the figure below.
 
-![Citation Settings Popup](../../../.gitbook/assets/Snipaste_2023-10-08_11-15-03.png)
+<figure><img src="../../../.gitbook/assets/image (916).png" alt=""><figcaption></figcaption></figure>
+
+
 
 
 
 ### 【STEP 3】Specify the reference content
 
-Specify the previous question to be referenced in the dropdown menu, then choose to reference the selected option, unselected option, or fill-in-the-blank item of that question. After making your selection, click "Insert into text below" on the right to automatically generate the identifier.
+Specify the previous question to be referenced in the dropdown menu, then choose to reference the selected choice, unselected choice, or fill-in-the-blank item of that question. After making your selection, click "Insert into text below" on the right to automatically generate the identifier.
 
 {% hint style="danger" %}
-1. Only previous single-choice questions/multiple-choice questions/drop-down questions are supported for referencing, other question types are not supported as referenced questions.
+1. Only previous single-choice/multiple-choice /drop-down questions are supported for referencing, other question types are not supported as referenced questions.
 
 &#x20;   2\. To avoid display errors, please try to avoid editing the automatically generated label content.
 {% endhint %}
 
-![Specify citation title](../../../.gitbook/assets/Snipaste_2023-10-08_11-16-09.png)
-
-![Designated citation](../../../.gitbook/assets/Snipaste_2023-10-08_11-17-01.png)
-
-![Automatically generate citation identifiers](../../../.gitbook/assets/Snipaste_2023-10-08_11-17-35.png)
+<figure><img src="../../../.gitbook/assets/image (915).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Quotation Mark Syntax Explanation
@@ -60,19 +58,11 @@ Option Identifier
 
 The citation markers can be freely adjusted to the desired position in the text. Click "OK" to save, and the text editor will display the inserted citation markers.
 
-![Adjust display position](../../../.gitbook/assets/Snipaste_2023-10-08_11-18-15.png)
+<figure><img src="../../../.gitbook/assets/image (918).png" alt=""><figcaption></figcaption></figure>
 
-![Citation markers inserted in edit mode](../../../.gitbook/assets/Snipaste_2023-10-08_11-18-51.png)
+<figure><img src="../../../.gitbook/assets/image (919).png" alt=""><figcaption></figcaption></figure>
 
-
-
-### Survey interface display
-
-The titles, notes, or options with inserted references will automatically synchronize the text on the answering end according to the changes in the referenced previous question options/blank fields. When there are multiple references, they will be automatically separated by commas.
-
-<figure><img src="../../../.gitbook/assets/Snipaste_2023-10-08_11-21-49.png" alt=""><figcaption></figcaption></figure>
-
-![Dynamic synchronization of referenced content in the survey answering interface](../../../.gitbook/assets/Snipaste_2023-10-08_11-20-58.png)
+###
 
 
 

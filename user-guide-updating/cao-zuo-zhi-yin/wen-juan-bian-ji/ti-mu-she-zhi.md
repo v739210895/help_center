@@ -10,10 +10,10 @@ Disable the "This question is mandatory" feature in the right panel to allow thi
 All questions have the "mandatory" feature enabled by default.
 {% endhint %}
 
-!["Required Question" feature.](../../../.gitbook/assets/Snipaste_2023-10-08_10-19-37.png)
+<figure><img src="../../../.gitbook/assets/image (878).png" alt=""><figcaption></figcaption></figure>
 
 ### Question Type Switching
 
-Single-choice questions, multiple-choice questions, and dropdown questions can be switched between question types. After switching, the settings for fill-in-the-blank, random order, and mandatory answer will remain unchanged.
+Single-choice , multiple-choice , and dropdown  can be switched between question types. After switching, the settings for fill-in-the-blank, random order, and mandatory answer will remain unchanged.
 
-![Question Type Switching](../../../.gitbook/assets/Snipaste_2023-10-08_10-20-35.png)
+<figure><img src="../../../.gitbook/assets/image (879).png" alt=""><figcaption></figcaption></figure>

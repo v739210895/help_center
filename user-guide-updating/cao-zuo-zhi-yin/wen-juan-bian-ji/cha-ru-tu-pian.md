@@ -12,15 +12,12 @@ When editing the survey's welcome message, closing message, questions, notes, or
 
 After clicking the edit bar of the target text, a rich text toolbar will appear at the top. By clicking the "image" icon, you can upload local images. The inserted image can be directly resized.
 
-![Click Insert Image in the rich text toolbar](../../../.gitbook/assets/Snipaste_2023-10-10_16-37-46.png)
+<figure><img src="../../../.gitbook/assets/image (920).png" alt=""><figcaption></figcaption></figure>
 
-![Support resizing images](../../../.gitbook/assets/Snipaste_2023-10-10_16-38-01.png)
+<figure><img src="../../../.gitbook/assets/image (921).png" alt=""><figcaption></figcaption></figure>
 
 ### The survey interface displays images
 
-![The mobile survey platform displays images.](<../../../.gitbook/assets/image (61).png>)
+<figure><img src="../../../.gitbook/assets/image (922).png" alt=""><figcaption></figcaption></figure>
 
-![PC answer terminal displays images](<../../../.gitbook/assets/image (571).png>)
-
-![The PC quiz interface supports image zooming.](<../../../.gitbook/assets/image (715).png>)
-
+<figure><img src="../../../.gitbook/assets/image (923).png" alt=""><figcaption></figcaption></figure>

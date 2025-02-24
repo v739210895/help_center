@@ -1,4 +1,4 @@
-# Option Association
+# Choice Association
 
 Option association means that the selected (or unselected) options by the respondent will appear as options in the next question. This is generally used in cases where two questions are highly related or in follow-up questions.
 
@@ -10,7 +10,7 @@ The options linked from the previous question do not support setting fill-in-the
 
 In the question editing state, click the "Settings" button next to "Option Association" in the question settings panel on the right, and the option association settings popup will appear.
 
-![Option Settings Association Pop-up](../../../../.gitbook/assets/Snipaste_2023-10-08_10-34-55.png)
+<figure><img src="../../../../.gitbook/assets/image (895).png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 2】 Add Association/Remove Association
 
@@ -42,7 +42,7 @@ Click to expand the options settings dropdown menu, and select "Selected Items" 
 
 Click OK to complete the setup.
 
-![Display option association in question editing mode](../../../../.gitbook/assets/Snipaste_2023-10-08_10-36-59.png)
+<figure><img src="../../../../.gitbook/assets/image (896).png" alt=""><figcaption></figcaption></figure>
 
 ### Remove association
 

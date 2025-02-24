@@ -22,7 +22,7 @@ On the survey editing page where a coverage import is required, click the "Cover
 2. After importing, the content, logic settings, and collected responses of the original survey will be cleared. Please proceed with caution.
 {% endhint %}
 
-![Overlay import](../../../.gitbook/assets/Snipaste_2023-10-17_11-17-24.png)
+<figure><img src="../../../.gitbook/assets/image (927).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】Confirm basic information
 
@@ -33,5 +33,3 @@ After uploading the EXCEL file, the system will automatically recognize the surv
 ## 【STEP 4】Generate survey&#x20;
 
 After confirming the survey information, click "Overwrite Import" to import the survey content from the excel file into the current survey, which will be displayed on the editing page.
-
-![Overlay import completed](../../../.gitbook/assets/Snipaste_2023-10-17_11-18-47.png)
