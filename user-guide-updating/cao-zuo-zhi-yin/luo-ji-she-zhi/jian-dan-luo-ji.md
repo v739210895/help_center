@@ -16,15 +16,15 @@ Supports question types with simple logic settings: single choice questions, dro
 
 On the survey editing page, hover the mouse over the question that needs logic settings, and a simple logic setting button will appear on the right quick toolbar; or click the "Simple Logic" setting button on the right question settings bar in the question editing state to open the simple logic setting pop-up window.
 
-![Quick Toolbar - Simple Logic](<../../../.gitbook/assets/image (102) (1).png>)
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-![Question Setup - Simple Logic](<../../../.gitbook/assets/image (565).png>)
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】Set Simple Logic (Control the Display of Questions)
 
 In the simple logic setup popup, the left side contains the question options, and the right side contains the list of all survey questions. Selecting an option on the left and a question on the right indicates that the question on the right will be displayed only after the user selects the corresponding option on the left; otherwise, the selected question on the right will not be displayed by default.
 
-![Simple Logic Setup](<../../../.gitbook/assets/image (41).png>)
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】Set Simple Logic (Control End Page)
 
@@ -38,4 +38,4 @@ End page (normal end): After selecting the specified option, the respondent will
 End page (abnormal termination, data not collected): After selecting the specified option, the respondent will be directed to the end page when clicking next, and the survey data will not be collected.
 {% endhint %}
 
-![Simple Logic Setup](<../../../.gitbook/assets/image (634).png>)
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>

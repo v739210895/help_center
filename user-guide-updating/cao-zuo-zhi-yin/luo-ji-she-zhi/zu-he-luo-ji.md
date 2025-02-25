@@ -4,15 +4,17 @@ The rules of combinational logic are as follows: This question is hidden by defa
 
 ## 【STEP 1】New logic added
 
-Switch to the "Combined Logic" function on the survey editing page, and click the "Add Logic" button to create a new rule.
+Switch to the "Combined Logic" function on the survey editing page, and click the "New Logic" button to create a new rule.
 
-![](<../../../.gitbook/assets/image (244).png>)
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ## 【STEP 2】Set display results
 
 In the newly created combination logic rules, you need to first set the display result question. In the pop-up window, specify the display result as a question, end page (normal end), or end page (abnormal end, data not collected).
 
-![](<../../../.gitbook/assets/image (258).png>)
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### （1）Set the end page to display results
 
@@ -26,7 +28,7 @@ When the specified conditions are met, the respondent will be redirected to the 
 2、End page (abnormal end, data not collected) means that when the respondent meets the specified conditions and clicks the next page button on this page, they will be directed to the end page, and the response data will not be collected.
 {% endhint %}
 
-![](<../../../.gitbook/assets/image (87).png>)
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ### （2）Set the question to display results
 
@@ -36,13 +38,13 @@ When the specified conditions are met after setting, the specified question(s) w
 Each question can only be set to display results once. If Rule 1 sets Q2 to display results, Rule 2 cannot set Q2 to display results again.
 {% endhint %}
 
-![](<../../../.gitbook/assets/image (518).png>)
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 ### Display on the page after setting the results
 
 Click OK in the display results popup to show it in the logic settings.
 
-![](<../../../.gitbook/assets/image (89).png>)
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 Click the "Set Display Result" button in this rule again to modify the already set display result.
 
@@ -56,7 +58,7 @@ Single choice questions, multiple choice questions, dropdown questions, scale qu
 Subjective questions, information fields, and linked questions can have conditions set, including whether the question is displayed.
 {% endhint %}
 
-![](<../../../.gitbook/assets/image (232).png>)
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 After clicking confirm, the system will generate multiple rules based on the selected conditions, such as Q1 option A selected, Q1 option B selected, Q2 displayed, Q3 option C not selected, etc., and display them on the logic settings page.
 

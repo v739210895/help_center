@@ -15,6 +15,6 @@ Select a survey from the "My Surveys" list, click "Export" in the action bar, an
 
 Due to compliance restrictions, base domestic users cannot access player IDs and other personal privacy information. The survey system anonymizes the IP address and user ID columns in the exported data. If you need to obtain the plaintext data, please contact colleagues from base overseas and request the survey system assistant to grant access before downloading. The downloaded data must be anonymized before being sent back to the domestic base. Data examples are as follows:
 
-<img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" data-size="original">
 {% endhint %}
 

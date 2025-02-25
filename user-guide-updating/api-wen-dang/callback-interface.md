@@ -4,13 +4,13 @@
 
 #### Interface Definition
 
-After the user submits the questionnaire, the questionnaire system will call back parameters such as the login status to the developer, which is suitable for scenarios such as reward distribution and status modification.
+After the user submits the survey, the survey system will call back parameters such as the login status to the developer, which is suitable for scenarios such as reward distribution and status modification.
 
 #### Scenarios
 
-After the user submits the questionnaire, the questionnaire system will call back parameters such as the login status to the developer, which is suitable for scenarios such as reward distribution and status modification.Note that this callback action is completed asynchronously by the questionnaire server, and there will be a second delay.
+After the user submits the survey, the survey system will call back parameters such as the login status to the developer, which is suitable for scenarios such as reward distribution and status modification.Note that this callback action is completed asynchronously by the survey server, and there will be a second delay.
 
-The configuration of the login status callback interface is turned on under \[Settings] -> \[Login status callback interface] under questionnaire editing, and the user needs to configure the \[key] and \[callback address], and perform signature verification on the request parameters in the \[callback address],to prevent the malicious attack to the interface.
+The configuration of the login status callback interface is turned on under \[Settings] -> \[Login status callback interface] under survey editing, and the user needs to configure the \[key] and \[callback address], and perform signature verification on the request parameters in the \[callback address],to prevent the malicious attack to the interface.
 
 {% hint style="info" %}
 Support public network callback and intranet L5 callback

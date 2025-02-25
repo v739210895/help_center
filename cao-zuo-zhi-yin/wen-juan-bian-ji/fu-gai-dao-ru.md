@@ -6,11 +6,11 @@
 
 可提前在EXCEL中编辑问卷，包括：问卷基本信息（项目名称、产品名称、问卷标题、欢迎语、结束语）、题目与选项内容（含字体样式）、题目设置、分页设置等。
 
-![EXCEL编辑问卷内容](<../../.gitbook/assets/image (30).png>)
+![EXCEL编辑问卷内容](<../../.gitbook/assets/image (30) (1).png>)
 
 {% hint style="info" %}
 1. 若excel中包含多份问卷，覆盖导入时仅识别第一份问卷
-2. excel中编辑问卷的格式规范详见“[格式规范](https://imur.gitbook.io/help\_center/cao-zuo-zhi-yin/chuang-jian-wen-juan/dao-ru-wen-juan#ge-shi-gui-fan)”
+2. excel中编辑问卷的格式规范详见“[格式规范](https://imur.gitbook.io/help_center/cao-zuo-zhi-yin/chuang-jian-wen-juan/dao-ru-wen-juan#ge-shi-gui-fan)”
 {% endhint %}
 
 ## 【STEP 2】覆盖导入
@@ -22,16 +22,16 @@
 2. 覆盖导入后原问卷的问卷内容、逻辑设置与已回收答卷数据会被清空，请谨慎操作
 {% endhint %}
 
-![覆盖导入](../../.gitbook/assets/Snipaste\_2023-10-17\_11-17-24.png)
+![覆盖导入](../../.gitbook/assets/Snipaste_2023-10-17_11-17-24.png)
 
 ## 【STEP 3】确认基本信息
 
 上传EXCEL文件后，系统会自动识别问卷内容，已上传的问卷支持重新上传与调整项目名称、产品名称、问卷标题。
 
-![上传问卷成功](../../.gitbook/assets/Snipaste\_2023-10-17\_11-18-03.png)
+![上传问卷成功](../../.gitbook/assets/Snipaste_2023-10-17_11-18-03.png)
 
 ## 【STEP 4】生成问卷&#x20;
 
 确认问卷信息后，点击“覆盖导入”即可在当前问卷中导入excel中的问卷内容，显示在编辑页中。
 
-![覆盖导入完成](../../.gitbook/assets/Snipaste\_2023-10-17\_11-18-47.png)
+![覆盖导入完成](../../.gitbook/assets/Snipaste_2023-10-17_11-18-47.png)

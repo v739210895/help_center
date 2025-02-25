@@ -10,21 +10,21 @@ After completing the editing and settings of the survey, it is recommended to se
 The two deployed domains are common, and the collected survey data will be aggregated together.
 {% endhint %}
 
-!["Start Collection" on the survey editing page](../../../.gitbook/assets/Snipaste_2023-10-08_15-02-21.png)
-
-![The "Start Collection" of "My Survey" list](../../../.gitbook/assets/Snipaste_2023-10-08_15-03-14.png)
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 The survey being recycled does not support modification, deletion, or data clearing.
 {% endhint %}
 
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+
 ### Submit for review
 
 After completing the editing and settings of the survey, users who do not have survey review permissions need to submit the survey to the designated reviewer for review. Once the reviewer approves the survey, the distribution link will automatically become effective, and response data can be collected normally.
 
-![Submit for Review in the survey editing page](../../../.gitbook/assets/Snipaste_2023-10-17_17-19-38.png)
+<figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-![The "Submit for Review" in "My Survey" list](../../../.gitbook/assets/Snipaste_2023-10-17_17-31-13.png)
+<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 * Project team members do not have survey review permissions by default. If you need to distribute a survey, please contact the corresponding UX manager for survey review.
@@ -34,17 +34,15 @@ After completing the editing and settings of the survey, users who do not have s
 * After submitting for review, if you need to modify the survey or change the reviewer, you must first withdraw the review.
 {% endhint %}
 
-![The survey under review supports revocation.](../../../.gitbook/assets/Snipaste_2023-10-17_17-30-14.png)
+<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
-!["Undo" in the "My survey" list](../../../.gitbook/assets/Snipaste_2023-10-17_17-34-03.png)
+##
 
 ## Get the deployment link
 
 After the survey starts collecting responses, the distribution link and mobile QR code for the survey can be obtained in the "Distribution" function on the survey editing page or "My Surveys — Actions — Distribute Survey". Respondents can enter the survey through either the distribution link or the QR code.
 
 ![Get the deployment link](../../../.gitbook/assets/Snipaste_2023-10-08_15-04-43.png)
-
-![My Survey - Operations - Deploy Survey](../../../.gitbook/assets/Snipaste_2023-10-08_15-05-38.png)
 
 ## Custom Source Channel
 
@@ -56,15 +54,15 @@ On the "Deployment" page, you can set the survey link for the source channels. T
 
 If it is a custom channel number, it needs to meet the following format: composed of 1 to 20 English letters, numbers, or underscores (\_). Otherwise, the channel number will be recognized as empty in the survey interface.
 
-![Set Source Channel](../../../.gitbook/assets/Snipaste_2023-10-08_15-06-06.png)
+<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
-![Define source channel parameters](../../../.gitbook/assets/Snipaste_2023-10-08_15-06-41.png)
+<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 2 Get the link
 
 After clicking save, return to the "Delivery" page to obtain the survey links for each channel.
 
-![](../../../.gitbook/assets/Snipaste_2023-10-08_15-07-22.png)
+<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 3 Deploy and Collect Data
 
@@ -76,17 +74,19 @@ When deploying, place the corresponding link into the channels. Respondents will
 
 On the statistics page, you can use the data filter to filter by "source platform" to view the survey data and statistical charts for the specified channel.
 
-![Filter data by "source channel"](../../../.gitbook/assets/Snipaste_2023-10-08_15-08-11.png)
+<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 ## Pause Recycling
 
 After the sample collection is completed, you can close the distribution link by clicking "Start Collection" in the upper right corner of the survey editing page or through "My Surveys—More—Pause Collection". After closing, the respondents will be notified that the survey data collection has been paused, and they will not be able to view the survey.
 
-!["Pause Collection" on the survey editing page](../../../.gitbook/assets/Snipaste_2023-10-08_15-10-32.png)
+<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-!["Pause Collection" of "My Survey" list](../../../.gitbook/assets/Snipaste_2023-10-08_15-10-50.png)
+<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 ![Pause recycling after answering the survey prompt](../../../.gitbook/assets/Snipaste_2023-10-08_15-11-52.png)
+
+
 
 
 

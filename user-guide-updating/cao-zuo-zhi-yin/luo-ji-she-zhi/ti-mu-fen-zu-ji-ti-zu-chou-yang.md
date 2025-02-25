@@ -8,9 +8,9 @@ The survey system supports grouping survey questions, dividing the questions int
 
 In "Logic" - "Question Grouping", click "Add Group" in the top right corner to create a new question group.
 
-![Add Group](<../../../.gitbook/assets/image (586).png>)
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-![Name groups of questions](<../../../.gitbook/assets/image (245).png>)
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 2 Move the question into the group
 
@@ -23,15 +23,13 @@ Check the questions in the "Question Outline" on the left, then click the ">" bu
 4. For questions within/outside the question group, the logic settings still apply. The questions will only be displayed if the logic conditions are met.
 {% endhint %}
 
-![Move the specified question into the group](<../../../.gitbook/assets/image (324).png>)
-
-![Complete the grouping by topic](<../../../.gitbook/assets/image (152).png>)
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 3 Grouping completed, save
 
 After dividing the required items into multiple groups as per Step 2, click "Save" in the top
 
-![Final Grouping Results](<../../../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -41,7 +39,7 @@ After grouping the questions, it supports setting a random sampling number for t
 
 The sampling mechanism is automatically performed by the system. As the number of survey responses increases, the distribution of each sample group becomes more even.
 
-![Cluster random sampling](<../../../.gitbook/assets/image (122).png>)
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 \*\*Special Instructions\*\*
 
@@ -57,9 +55,7 @@ To test and check the question sampling, please switch browsers or clear the cur
 
 In "combination logic," you can set logical display conditions for specified question groups. Only when these conditions are met will the specified question groups be displayed normally or enter the random sampling range.
 
-![Set the question group to display results](<../../../.gitbook/assets/image (375).png>)
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-![Question set logic](<../../../.gitbook/assets/image (723).png>)
-
-
+<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 

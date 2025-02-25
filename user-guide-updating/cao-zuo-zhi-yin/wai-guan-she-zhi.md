@@ -10,7 +10,7 @@ The survey supports adjusting the appearance of the answering interface, meeting
 
 The main color scheme of the survey, including the start/submit/previous/next buttons, answer progress, selected option status, and other colors.
 
-![The theme color has been changed to yellow.](<../../.gitbook/assets/image (764).png>)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Background color
 
@@ -52,7 +52,5 @@ The default color of the progress bar on the survey answering page
 
 ### Example effect
 
-![PC skin effects](<../../.gitbook/assets/image (313).png>)
-
-![Mobile skin effects](<../../.gitbook/assets/image (727).png>)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 

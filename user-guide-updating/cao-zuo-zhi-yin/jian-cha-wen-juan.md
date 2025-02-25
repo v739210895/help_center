@@ -11,7 +11,7 @@ description: >-
 
 Calculation method: Estimate the final answering duration for the longest logical answering path (with the maximum number of questions) based on the estimated answering duration of past surveys, for reference only.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 ## Inspection and Recommendations
 
@@ -19,14 +19,7 @@ Multidimensional checks and suggestions include: number of matrix sub-questions,
 
 Click on the relevant question stem to locate and modify the question.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 
 
-### Logic Check
-
-After enabling the inspection mode, the question numbers that will be displayed after selecting options for single-choice and multiple-choice questions with simple logic set in the survey editing page will be shown.
-
-
-
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>

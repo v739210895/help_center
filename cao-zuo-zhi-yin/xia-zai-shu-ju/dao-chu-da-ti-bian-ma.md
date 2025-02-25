@@ -2,22 +2,22 @@
 
 在“我的问卷”列表选择一份问卷，点击操作栏中的“导出”-导出答题编码，即可导出该问卷的全部答题数据。
 
-![我的问卷-导出答题编码数据](../../.gitbook/assets/Snipaste\_2023-10-09\_10-13-00.png)
+![我的问卷-导出答题编码数据](../../.gitbook/assets/Snipaste_2023-10-09_10-13-00.png)
 
 &#x20;文件采用异步下载方式，任务导出状态显示在“离线下载”弹窗中，导出完成后下载。
 
-![导出后的答题数据在离线下载中下载](../../.gitbook/assets/Snipaste\_2023-10-09\_10-14-33.png)
+![导出后的答题数据在离线下载中下载](../../.gitbook/assets/Snipaste_2023-10-09_10-14-33.png)
 
 导出的答题编码数据为.zip格式的压缩包，内含答题编码数据（.csv）、SPSS编码（.txt）、交叉表代码（.txt）。
 
-![导出的答题编码数据文件](../../.gitbook/assets/Snipaste\_2023-10-09\_10-27-02.png)
+![导出的答题编码数据文件](../../.gitbook/assets/Snipaste_2023-10-09_10-27-02.png)
 
 {% hint style="warning" %}
 **特殊说明**
 
 由于合规限制，base国内用户不可获取玩家id等个人隐私信息，问卷系统对导出数据中的ip地址、用户id列做脱敏处理。如需获取明文数据，请自行联系base海外的同事并找问卷系统助手开通权限后下载。下载的数据必须**脱敏后才能传回国内**。数据示例如下：
 
-<img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" data-size="original">
 {% endhint %}
 
 
@@ -27,7 +27,7 @@
 答题编码数据（.csv）一般需要使用SPSS软件进行数据分析，详情请查看[SPSS数据分析](spss-shu-ju-fen-xi.md)，也可导入到EXCEL中直接查看。
 
 {% hint style="danger" %}
-1. 直接使用EXCEL打开答题编码数据（.csv）文件可能会导致所收集的手机号码、uid等长数字显示错乱。请避免直接用EXCEL打开答题编码数据（.csv）文件，请按以下步骤导入。  （excel2016的导入设置请[点击此处](https://imur.gitbook.io/help\_center/cao-zuo-zhi-yin/xia-zai-shu-ju/dao-chu-da-ti-bian-ma#excel-2016)查看，excel2019的导入设置请[点击此处](https://imur.gitbook.io/help\_center/cao-zuo-zhi-yin/xia-zai-shu-ju/dao-chu-da-ti-bian-ma#excel-2019)查看）
+1. 直接使用EXCEL打开答题编码数据（.csv）文件可能会导致所收集的手机号码、uid等长数字显示错乱。请避免直接用EXCEL打开答题编码数据（.csv）文件，请按以下步骤导入。  （excel2016的导入设置请[点击此处](https://imur.gitbook.io/help_center/cao-zuo-zhi-yin/xia-zai-shu-ju/dao-chu-da-ti-bian-ma#excel-2016)查看，excel2019的导入设置请[点击此处](https://imur.gitbook.io/help_center/cao-zuo-zhi-yin/xia-zai-shu-ju/dao-chu-da-ti-bian-ma#excel-2019)查看）
 2. 当答卷数量过多时，在EXCEL中查看答题编码数据（.csv）文件可能会出现卡顿，请改用SPSS软件查看。
 {% endhint %}
 
@@ -90,7 +90,7 @@
 
 导出的答题数据或答题编码出现乱码是由于编码配置不兼容导致的问题，可通过“记事本”打开文件，“另存为”选择编码为“UTF-8”即可。
 
-![](<../../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (25) (1).png>)
 
 ###
 

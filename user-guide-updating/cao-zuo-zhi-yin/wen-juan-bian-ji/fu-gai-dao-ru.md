@@ -6,7 +6,7 @@ If you already have a designed EXCEL survey, you can use the "Overwrite Import" 
 
 The survey can be edited in advance in EXCEL, including: basic survey information (project name, product name, survey title, welcome message, closing message), question and option content (including font styles), question settings, pagination settings, etc.
 
-![Edit survey content excel](<../../../.gitbook/assets/image (30).png>)
+![Edit survey content excel](<../../../.gitbook/assets/image (30) (1).png>)
 
 {% hint style="info" %}
 1. If the Excel file contains multiple surveys, only the first survey will be recognized during import.

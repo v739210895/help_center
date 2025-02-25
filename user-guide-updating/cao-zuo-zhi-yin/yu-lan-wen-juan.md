@@ -4,8 +4,6 @@ After editing the survey, you can check the editing results through the preview 
 
 On the survey editing page, click the "Preview" button in the upper right corner or click the item name of the specified survey in the "My Surveys" list to enter the preview page of the survey. This includes two terminal preview effects: "Mobile Preview" and "Computer Preview". It also supports scanning the preview QR code to preview the survey on your mobile phone.
 
-![Preview survey](<../../.gitbook/assets/image (775).png>)
-
 ## Question Number Setting Options
 
 To facilitate the inspection of question visibility, the preview page supports toggling between displaying default question numbers and original question numbers. When set to original question numbers, it will display according to the question numbers in the survey editing page.
@@ -14,9 +12,9 @@ To facilitate the inspection of question visibility, the preview page supports t
 Switching the question number type only takes effect on the preview page and does not affect the display of question numbers on the answering end.
 {% endhint %}
 
-![Original question number display](<../../.gitbook/assets/image (42).png>)
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-![Display by default question number (renumbered)](<../../.gitbook/assets/image (504).png>)
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Answer data is not recorded in preview mode.
@@ -26,7 +24,7 @@ Answer data is not recorded in preview mode.
 
 The system provides a preview link that can be viewed externally. On the preview page, click the "Copy Preview Link" button at the top right corner to generate it.
 
-![Copy preview link](<../../.gitbook/assets/image (17) (1).png>)
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 ### Frequently Asked Questions
 

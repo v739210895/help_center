@@ -1,11 +1,11 @@
 # Project Settings
 
-In the "survey settings" under "project settings," you can complete the project information, including the associated product, survey manager, survey designer, survey followers, and prompt language.
+In the "settings" under "Basic Settings," you can complete the project information, including the associated product, survey owner, survey participants, survey creator, and prompt language.etc
 
-![Survey settings](../../../.gitbook/assets/Snipaste_2023-10-08_11-44-17.png)
+<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-1. Before the survey is first collected/submitted for review, the information of the associated product and the person in charge needs to be completed.
+1. Before the survey is first collected/submitted for review, the information of the  product and the owner needs to be completed.
 2. The person in charge, please fill in the user research manager for project coordination
 3. After the UX research manager creates a survey, they automatically become the survey owner.
 {% endhint %}
