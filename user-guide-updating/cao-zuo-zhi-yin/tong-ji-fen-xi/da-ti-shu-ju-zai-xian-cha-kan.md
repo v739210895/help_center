@@ -6,12 +6,12 @@ The survey details can be viewed online on the statistics page, providing a quic
 The answer fields for questions not answered by the user will be displayed as empty.
 {% endhint %}
 
-![View survey data online](../../../.gitbook/assets/Snipaste_2023-10-08_15-40-25.png)
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 For matrix single-choice questions, matrix multiple-choice questions, and matrix scale questions, you can click on the pop-up window to view the details of each question's answers.
 
-![View answers for matrix single-choice questions](../../../.gitbook/assets/Snipaste_2023-10-08_15-42-21.png)
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 Support data filtering based on specified conditions, allowing viewing of partial surveys according to the specified criteria.
 
-![Data filtering](../../../.gitbook/assets/Snipaste_2023-10-08_15-43-16.png)
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>

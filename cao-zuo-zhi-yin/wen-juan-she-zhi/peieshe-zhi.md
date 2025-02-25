@@ -45,7 +45,7 @@ description: >-
 可对每个投放渠道分别设置有效问卷回收量，有效问卷量上限后该渠道链接自动暂停回收，其他渠道正常回收问卷。
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 添加变量
 

@@ -11,14 +11,14 @@ Use the questions in the survey as variables, set independent and dependent vari
 
 Provide data filtering functionality. Once enabled, specific conditions can be set to filter the currently collected survey data first, and then generate a cross-tabulation from the filtered results.
 
-![数据筛选器](../../../.gitbook/assets/Snipaste_2023-10-08_15-45-40.png)
+<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】Set rows, list headers
 
-In the settings panel on the left, select the questions to be used as row headers and column headers, then click the "Start Calculation" button below to generate the crosstab in real-time.
+In the settings panel on the left, select the questions to be used as row headers and column headers, then click the "Start Calculation" button below to generate the crosstab in real-time
 
-![Row header, column header settings](../../../.gitbook/assets/Snipaste_2023-10-08_15-46-31.png)
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】Generate a crosstab
 
-![crosstab](../../../.gitbook/assets/Snipaste_2023-10-08_15-47-23.png)
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>

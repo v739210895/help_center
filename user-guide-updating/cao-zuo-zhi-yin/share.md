@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Report Sharing
 
 The system provides a report sharing function. Users can obtain the report sharing page link on the statistics page of the specified survey, configure whether the sharing page is encrypted, and share it to other platforms. Users who obtain the link can directly view the real-time collection status and statistical data of each question type of the survey without logging into the survey system.
