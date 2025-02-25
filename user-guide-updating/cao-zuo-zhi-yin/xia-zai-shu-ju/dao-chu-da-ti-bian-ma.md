@@ -2,11 +2,11 @@
 
 In the "My Surveys" list, select a survey and click "Export" in the action bar to export the answer codes. This will export all the answer data for that survey.
 
-![My survey - Export Response Coding Data](../../../.gitbook/assets/Snipaste_2023-10-09_10-13-00.png)
+<figure><img src="../../../.gitbook/assets/image (930).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;The file is downloaded asynchronously, and the export status of the task is displayed in the "Offline Download" pop-up window. You can download it after the export is complete.
 
-![The exported survey data can be downloaded in offline downloads.](../../../.gitbook/assets/Snipaste_2023-10-09_10-14-33.png)
+<figure><img src="../../../.gitbook/assets/image (931).png" alt=""><figcaption></figcaption></figure>
 
 The exported answer coding data is a .zip format compressed file, containing answer coding data (.csv), SPSS coding (.txt), and cross-tabulation code (.txt).
 
@@ -22,25 +22,7 @@ Due to compliance restrictions, base domestic users cannot access personal priva
 
 
 
-###
 
 
 
-###
-
-
-
-###
-
-###
-
-
-
-
-
-##
-
-###
-
-###
 

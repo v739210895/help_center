@@ -2,7 +2,7 @@
 
 Select a survey from the "My Surveys" list, click "Export" in the action bar, and choose "Export Original Survey" to export the survey file in Excel format.
 
-![My Survey - Export Original Survey](../../../.gitbook/assets/Snipaste_2023-10-09_10-20-48.png)
+<figure><img src="../../../.gitbook/assets/image (933).png" alt=""><figcaption></figcaption></figure>
 
 ![Export Original Survey](<../../../.gitbook/assets/image (393).png>)
 
