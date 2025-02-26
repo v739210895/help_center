@@ -47,7 +47,7 @@ Once the number of valid surveys reaches the preset value, the collection will a
 It is possible to set a valid survey response volume for each distribution channel separately. Once the valid survey response volume limit is reached for a channel, the link for that channel will automatically pause the collection of responses, while other channels will continue to collect surveys normally.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Add variable
 

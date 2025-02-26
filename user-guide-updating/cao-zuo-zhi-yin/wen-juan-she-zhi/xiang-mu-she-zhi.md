@@ -2,7 +2,7 @@
 
 In the "settings" under "Basic Settings," you can complete the project information, including the associated product, survey owner, survey participants, survey creator, and prompt language.etc
 
-<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 1. Before the survey is first collected/submitted for review, the information of the  product and the owner needs to be completed.

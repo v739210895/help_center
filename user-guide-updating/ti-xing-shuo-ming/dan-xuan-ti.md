@@ -2,23 +2,21 @@
 
 Multiple choice allow respondents to select one option from a set of choices.
 
-![](<../../.gitbook/assets/image (461).png>)
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 Create new Single Choice
 
 On the survey editing page, select "Single Choice" from the question type controls on the left side, or click the + button in the quick toolbar on the right side of a specified question to create a new single choice question.
 
-![Create a new single-choice question using the "Question Type" control](../../.gitbook/assets/Snipaste_2023-10-09_16-32-33.png)
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-![Create a new single-choice question under the specified topic](../../.gitbook/assets/Snipaste_2023-10-09_16-33-12.png)
+## 【STEP 2】Edit the question, notes, and choices content
 
-## 【STEP 2】Edit the question, notes, and options content
+The title, choices, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
 
-The title, options, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-![Single Choice Question Content Editing](../../.gitbook/assets/Snipaste_2023-10-10_10-05-17.png)
-
-## 【STEP 3】Question and option settings
+## 【STEP 3】Question and choice settings
 
 ### Mandatory settings
 
@@ -28,77 +26,69 @@ After turning off the "This question is mandatory" feature in the right panel, t
 All questions are set to "mandatory" by default.
 {% endhint %}
 
-!["Mandatory Question" feature](../../.gitbook/assets/Snipaste_2023-10-10_10-06-02.png)
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### Question Type
 
-Single-choice, multiple-choice, and dropdown questions can be freely switched. After switching, the original question's required settings, option association settings, and random option settings are retained.
+Single-choice, multiple-choice, and dropdown  can be freely switched. After switching, the original question's required settings, option association settings, and random option settings are retained.
 
-![](../../.gitbook/assets/Snipaste_2023-10-10_10-06-31.png)
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-### Add a fill-in-the-blank box after the options
+### Add a fill-in-the-blank box after the choices
 
-Upon opening, add a fill-in-the-blank box after the option, mark it as required, and users must fill in the content before submitting. This is suitable for scenarios where users select "Other" and additional information needs to be collected
+Upon opening, add a fill-in-the-blank box after the choice, mark it as required, and users must fill in the content before submitting. This is suitable for scenarios where users select "Other" and additional information needs to be collected
 
-<figure><img src="../../.gitbook/assets/Snipaste_2023-10-10_10-23-09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-### Option Association
+### Choice Association
 
-**Option Association**
+&#x20;Choice association refers to displaying the selected (or unselected) choices in the next question's available choices. This is typically used for highly related questions or follow-up inquiries.
 
-Option association refers to displaying the selected (or unselected) options in the next question's available choices. This is typically used for highly related questions or follow-up inquiries.
-
-![Option Association](../../.gitbook/assets/Snipaste_2023-10-09_16-40-24.png)
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
 [xuan-xiang-guan-lian.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
 {% endcontent-ref %}
 
-### Options Listing
+### Choices Listing
 
-In the question editing state, you can set the options to be displayed in columns. Once set, the answer interface will display the options in columns according to the number of options per row. In landscape mode, you can set 1 to 6 options per row, and in portrait mode, you can set 1 to 3 options per row. This is suitable for situations where there are many options and the option text is not long.
+In the question editing state, you can set the choices to be displayed in columns. Once set, the answer interface will display the choices in columns according to the number of choices per row. In landscape mode, you can set 1 to 6 choices per row, and in portrait mode, you can set 1 to 3 choices per row. This is suitable for situations where there are many options and the choice text is not long.
 
-![Option Split Settings](../../.gitbook/assets/Snipaste_2023-10-09_16-41-01.png)
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-![Computer answer display](<../../.gitbook/assets/image (478).png>)
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-### Options are random
+### Choices are random
 
-In the question editing mode, options can be set to random. Once set successfully, the options will be displayed randomly on the answering end according to the chosen random method. The random methods include: random order, random forward and reverse order, and grouped display.
+In the question editing mode, choices can be set to random. Once set successfully, the choices will be displayed randomly on the answering end according to the chosen random method. The random methods include: random order, random forward and reverse order, and grouped display.
 
-#### Randomize options
+#### Randomize choices
 
-Random option ordering means that the options in a question appear in a random order when answering. After enabling the "Random option ordering" feature, a non-random checkbox will appear on the right side of the options. If you want a specific option to remain in its current position, you can check "Non-random" next to it, and that option will not participate in the random ordering.
+Random choice ordering means that the choices in a question appear in a random order when answering. After enabling the "Random choice ordering" feature, a non-random checkbox will appear on the right side of the choices. If you want a specific option to remain in its current position, you can check "Non-random" next to it, and that choice will not participate in the random ordering.
 
-![选项随机排序](../../.gitbook/assets/Snipaste_2023-10-09_16-42-16.png)
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-#### Options in random forward and reverse order
+#### Choices in random forward and reverse order
 
-Random forward/reverse order of options means that the options in the question will randomly appear in forward or reverse order when answering. After enabling the "Random forward/reverse order of options" feature, a "Fix the last option" toggle will appear below the "Random forward/reverse order of options" feature. If you want the last option to remain in its current position, you can enable the "Fix the last option" feature, and the last option will not participate in the random forward/reverse order when displayed on the answering end.
+Random forward/reverse order of choices means that the choices in the question will randomly appear in forward or reverse order when answering. After enabling the "Random forward/reverse order of choices" feature, a "Fix the last choice" toggle will appear below the "Random forward/reverse order of choices" feature. If you want the last choice to remain in its current position, you can enable the "Fix the last choice" feature, and the last choice will not participate in the random forward/reverse order when displayed on the answering end.
 
-![选项随机正逆序](../../.gitbook/assets/Snipaste_2023-10-09_16-43-05.png)
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 #### Grouped display of options
 
-Option grouping display refers to the free division of options into multiple groups, where one or more options from each group are randomly selected to be displayed during the survey. It also supports random sorting display between groups.
+Choice grouping display refers to the free division of choices into multiple groups, where one or more choices from each group are randomly selected to be displayed during the survey. It also supports random sorting display between groups.
 
-![选项分组显示](../../.gitbook/assets/Snipaste_2023-10-09_16-43-42.png)
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md" %}
 [xuan-xiang-sui-ji.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md)
 {% endcontent-ref %}
 
-## Edit page and survey interface display
 
-After editing, you can view the specific content of the single-choice questions and the associations of the options, content references, and fill-in-the-blank settings on the editing page.
-
-![编辑页内的单选题显示](<../../.gitbook/assets/image (618).png>)
-
-![答题端的单选题显示](<../../.gitbook/assets/image (718).png>)
 
 ## Survey Results
 
-In the statistical analysis page, display the results of single-choice questions in the form of subtotal + bar percentage.
+In the statistical analysis page, display the results of single-choice  in the form of subtotal + bar percentage.
 
-![单选题统计结果](../../.gitbook/assets/Snipaste_2023-10-09_16-44-49.png)
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 

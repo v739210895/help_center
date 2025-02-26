@@ -10,13 +10,13 @@ After completing the editing and settings of the survey, it is recommended to se
 The two deployed domains are common, and the collected survey data will be aggregated together.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 The survey being recycled does not support modification, deletion, or data clearing.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Submit for review
 
@@ -34,7 +34,7 @@ After completing the editing and settings of the survey, users who do not have s
 * After submitting for review, if you need to modify the survey or change the reviewer, you must first withdraw the review.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
 ##
 

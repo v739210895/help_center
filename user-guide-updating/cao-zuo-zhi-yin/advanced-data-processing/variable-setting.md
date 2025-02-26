@@ -4,15 +4,11 @@ Support for custom variables, which allows the recombination of survey question 
 
 ## 【STEP 1】Set variable
 
-<figure><img src="../../../.gitbook/assets/image (434).png" alt=""><figcaption><p>Set Variable Function Entry</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image (420).png" alt=""><figcaption><p>Example of Variable and Valid Value Definition</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Fields marked with \* are mandatory. Multiple valid values can be added under the same variable. The rules for valid values are defined according to project requirements.
 
-<figure><img src="../../../.gitbook/assets/image (425).png" alt=""><figcaption><p>Set variables</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image (406).png" alt=""><figcaption><p>Define multiple valid values</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 The system will match according to the order of the valid values above. The same survey data will be preferentially matched to the valid values in the earlier order. If none of the above conditions are met, it will be left blank.
 
@@ -33,7 +29,7 @@ If the conditions for valid values include multiple-choice questions/matrix mult
 The current system functionality only supports setting single-choice variables. If there are multiple-choice variables, the variables need to be split into multiple ones according to valid values. Each variable would be: original\_variable\_valid\_value: valid\_value or original\_variable\_valid\_value: yes.
 {% endhint %}
 
-\[Example 1]
+\[Example]
 
 Frequently played genres: Action Role-Playing Games (ARPG), Shooting games, Real-time MMORPG, Racing games, Sports games
 
@@ -49,19 +45,13 @@ Frequently Played Category\_Racing: Yes&#x20;
 
 Frequently Played Category\_Sports: Yes
 
-\[Example 2]
 
-<figure><img src="../../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption><p>Multiple-choice variables are split into single-choice variables based on valid values.</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image (105).png" alt=""><figcaption><p>Split Completion Effect</p></figcaption></figure>
 
 ## 【STEP 2】Calculate generated variables
 
 fter finishing editing all variables, click "Execute Calculation Variables" above to trigger the calculation. Once the calculation is complete, the variables will be written into the survey data as new columns, which can be used for statistics, cross-analysis, etc.
 
-<figure><img src="../../../.gitbook/assets/image (101).png" alt=""><figcaption><p>Execute calculation</p></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image (100).png" alt=""><figcaption><p>Calculation complete</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Application 1: Participation in Weighted Settings
 
@@ -71,7 +61,7 @@ All newly generated variables can be used as weighting conditions to adjust the 
 
 ### Application 2: Online Data Viewing
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>The generated variables are updated to the survey data.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>The generated variables are updated to the survey data.</p></figcaption></figure>
 
 ### Application 3: Export Data
 

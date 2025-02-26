@@ -15,7 +15,7 @@ In the "survey distribution" feature, click the "Create New Distribution Task" b
 * Task Name: Only displayed in the survey system, not visible to respondents
 * Prompt: Displayed within the survey page, generally used to guide respondents in selecting the survey.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 2】Configure display buttons with their corresponding surveys
 
@@ -27,13 +27,13 @@ The text content required for the button in the pop-up window, select the corres
 * Remarks are only displayed in the survey system backend and are not shown to the respondents.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 3】Save and Deliver
 
 After setting the task name, prompt, buttons, and corresponding survey, save to take effect. Obtain the distribution link from the operation menu for deployment, and multiple distribution domains can be used.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 After deleting the distribution task, the distribution page becomes invalid, but it does not affect the distribution status or the collected data of each survey.
