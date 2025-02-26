@@ -4,11 +4,11 @@ Support for custom variables, which allows the recombination of survey question 
 
 ## 【STEP 1】Set variable
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 Fields marked with \* are mandatory. Multiple valid values can be added under the same variable. The rules for valid values are defined according to project requirements.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 The system will match according to the order of the valid values above. The same survey data will be preferentially matched to the valid values in the earlier order. If none of the above conditions are met, it will be left blank.
 
@@ -51,7 +51,7 @@ Frequently Played Category\_Sports: Yes
 
 fter finishing editing all variables, click "Execute Calculation Variables" above to trigger the calculation. Once the calculation is complete, the variables will be written into the survey data as new columns, which can be used for statistics, cross-analysis, etc.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ### Application 1: Participation in Weighted Settings
 

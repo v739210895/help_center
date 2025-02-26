@@ -15,7 +15,7 @@ In the "survey distribution" feature, click the "Create New Distribution Task" b
 * Task Name: Only displayed in the survey system, not visible to respondents
 * Prompt: Displayed within the survey page, generally used to guide respondents in selecting the survey.
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 2】Configure display buttons with their corresponding surveys
 

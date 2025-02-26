@@ -22,9 +22,9 @@ The survey being recycled does not support modification, deletion, or data clear
 
 After completing the editing and settings of the survey, users who do not have survey review permissions need to submit the survey to the designated reviewer for review. Once the reviewer approves the survey, the distribution link will automatically become effective, and response data can be collected normally.
 
-<figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 * Project team members do not have survey review permissions by default. If you need to distribute a survey, please contact the corresponding UX manager for survey review.
@@ -54,15 +54,15 @@ On the "Deployment" page, you can set the survey link for the source channels. T
 
 If it is a custom channel number, it needs to meet the following format: composed of 1 to 20 English letters, numbers, or underscores (\_). Otherwise, the channel number will be recognized as empty in the survey interface.
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 2 Get the link
 
 After clicking save, return to the "Delivery" page to obtain the survey links for each channel.
 
-<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 3 Deploy and Collect Data
 
@@ -74,7 +74,7 @@ When deploying, place the corresponding link into the channels. Respondents will
 
 On the statistics page, you can use the data filter to filter by "source platform" to view the survey data and statistical charts for the specified channel.
 
-<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Pause Recycling
 

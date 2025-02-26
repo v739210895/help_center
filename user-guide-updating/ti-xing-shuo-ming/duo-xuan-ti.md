@@ -1,24 +1,22 @@
 # Multiple Choice
 
-Multiple choice allow respondents to select one or more options from a set of choices.
+Multiple choice allow respondents to select one or more choices from a set of choices.
 
-![多选题](<../../.gitbook/assets/image (486).png>)
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 Create new Multiple Choice&#x20;
 
 On the survey editing page, select "Multiple Choice" from the question type controls on the left, or click the + button on the right quick toolbar of a specified question to choose "Multiple Choice Question" to create a new multiple choice question.
 
-![通过“题型”控件新建多选题](../../.gitbook/assets/Snipaste_2023-10-10_10-12-13.png)
-
-![在指定题目下方新建多选题](../../.gitbook/assets/Snipaste_2023-10-10_10-12-51.png)
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】Edit title, notes, and option content
 
-The title, options, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
+The title, choices, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
 
 ![多选题内容编辑](../../.gitbook/assets/Snipaste_2023-10-10_10-13-16.png)
 
-## 【STEP 3】Question and Option Settings
+## 【STEP 3】Question and Choice Settings
 
 ### Mandatory setting
 
@@ -28,13 +26,13 @@ After turning off the "Required" feature in the right panel, this question can b
 All questions are set to "mandatory" by default.
 {% endhint %}
 
-![“此题必答”功能](../../.gitbook/assets/Snipaste_2023-10-10_10-15-46.png)
+
 
 ### Switch Question Type
 
 Single-choice questions, multiple-choice questions, and dropdown questions can be freely switched. After switching, the mandatory settings, option association settings, and option randomization settings of the original question will be retained.
 
-![](../../.gitbook/assets/Snipaste_2023-10-10_10-16-22.png)
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ### Add a fill-in-the-blank box after the options
 
