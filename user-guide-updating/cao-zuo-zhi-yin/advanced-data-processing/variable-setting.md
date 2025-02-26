@@ -71,7 +71,7 @@ All newly generated variables can be used as weighting conditions to adjust the 
 
 ### Application 2: Online Data Viewing
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>The generated variables are updated to the survey data.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>The generated variables are updated to the survey data.</p></figcaption></figure>
 
 ### Application 3: Export Data
 

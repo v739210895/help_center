@@ -15,7 +15,7 @@ In the "survey distribution" feature, click the "Create New Distribution Task" b
 * Task Name: Only displayed in the survey system, not visible to respondents
 * Prompt: Displayed within the survey page, generally used to guide respondents in selecting the survey.
 
-![Set Task Name and Prompt](../../.gitbook/assets/Snipaste_2023-10-09_16-16-31.png)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 2】Configure display buttons with their corresponding surveys
 
@@ -27,13 +27,13 @@ The text content required for the button in the pop-up window, select the corres
 * Remarks are only displayed in the survey system backend and are not shown to the respondents.
 {% endhint %}
 
-![Configure Distribution Button](../../.gitbook/assets/Snipaste_2023-10-09_16-19-23.png)
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 3】Save and Deliver
 
 After setting the task name, prompt, buttons, and corresponding survey, save to take effect. Obtain the distribution link from the operation menu for deployment, and multiple distribution domains can be used.
 
-![](../../.gitbook/assets/Snipaste_2023-10-09_16-20-38.png)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 After deleting the distribution task, the distribution page becomes invalid, but it does not affect the distribution status or the collected data of each survey.
@@ -47,18 +47,3 @@ Respondents can navigate to the specified survey by clicking each button, and th
 
 
 
-## 分发按钮随机排序
-
-在配置分发任务时，支持设置分发按钮随机排序。功能开启后，答题者访问该分发页时，分发按钮按随机顺序展示，以保证在多套问卷投放的场景下样本量可平均分布。
-
-![分发按钮随机排序设置](../../.gitbook/assets/Snipaste_2023-10-09_16-21-55.png)
-
-![分发按钮随机排序效果](<../../.gitbook/assets/image (689).png>)
-
-## 分发按钮分列展示
-
-在配置分发任务时，支持设置分发按钮分列展示，设置成功后，在PC答题端/移动答题端横屏中会根据设置的每行展示按钮个数对按钮进行分列展示，可设置每行展示1\~3个。移动端竖屏不生效，适用于按钮数量多且按钮文本不长的情况。
-
-![分发按钮分列展示设置](../../.gitbook/assets/Snipaste_2023-10-09_16-22-45.png)
-
-![分发按钮分列展示效果](<../../.gitbook/assets/image (724).png>)

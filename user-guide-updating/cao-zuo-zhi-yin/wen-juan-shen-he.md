@@ -6,13 +6,13 @@ To avoid risks and ensure the security of project information, regular users nee
 
 &#x20;The "survey review" list displays all the surveys that need to be reviewed or have been reviewed by the user (as the reviewer). The survey list is sorted in descending order of "submission review time".
 
-![Review List](../../.gitbook/assets/Snipaste_2023-10-09_16-28-46.png)
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## Survey Preview&#x20;
 
 In the "survey review" list, click the project name of the specified survey to enter the preview page of that survey.
 
-![](../../.gitbook/assets/Snipaste_2023-10-09_16-29-22.png)
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ## Review Status&#x20;
 
@@ -22,10 +22,5 @@ There are three review statuses: Pending Review, Approved, Not Approved, and Rev
 
 The reviewer can edit the survey under review. After editing and approving, the distribution link of the survey will switch to public status.
 
-![Open the survey editing page](../../.gitbook/assets/Snipaste_2023-10-09_16-30-24.png)
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-### Audit Records
-
-Click the "Record" button to view the review records of the survey, including each review result and information about the reviewer.
-
-![](<../../.gitbook/assets/image (282).png>)

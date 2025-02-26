@@ -17,7 +17,7 @@
 
 由于合规限制，base国内用户不可获取玩家id等个人隐私信息，问卷系统对导出数据中的ip地址、用户id列做脱敏处理。如需获取明文数据，请自行联系base海外的同事并找问卷系统助手开通权限后下载。下载的数据必须**脱敏后才能传回国内**。数据示例如下：
 
-<img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" data-size="original">
 {% endhint %}
 
 
