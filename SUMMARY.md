@@ -188,7 +188,7 @@
     * [Matrix Multiple Choice](user-guide-updating/ti-xing-shuo-ming/ju-zhen-duo-xuan-ti.md)
     * [Matrix Scale](user-guide-updating/ti-xing-shuo-ming/ju-zhen-liang-biao-ti.md)
     * [File Upload](user-guide-updating/ti-xing-shuo-ming/fu-jian-shang-chuan-ti.md)
-    * [Weight Distribution](user-guide-updating/ti-xing-shuo-ming/weight-distribution.md)
+    * [Slider](user-guide-updating/ti-xing-shuo-ming/slider.md)
     * [Rank order](user-guide-updating/ti-xing-shuo-ming/pai-xu-ti-kai-fa-zhong.md)
     * [Multi level linkage](user-guide-updating/ti-xing-shuo-ming/lian-dong-ti.md)
     * [Heat Map](user-guide-updating/ti-xing-shuo-ming/heat-map.md)
