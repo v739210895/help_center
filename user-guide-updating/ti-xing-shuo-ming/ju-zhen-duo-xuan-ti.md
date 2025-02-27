@@ -64,46 +64,26 @@ Randomizing choices means that the choices in the question will appear in a rand
 
 Random forward/reverse order of options means that the choices in the question appear in a random forward or reverse order when answering. After enabling the "Random forward/reverse order of options" feature, a "Fix the last option" switch will appear below it. If you want the last option to remain in its current position, you can enable the "Fix the last choice" feature. In this case, the last choice will not participate in the random forward/reverse order when displayed on the answering end.
 
-![选项随机正逆序](../../.gitbook/assets/Snipaste_2023-10-16_10-32-12.png)
+<figure><img src="../../.gitbook/assets/image (944).png" alt=""><figcaption></figcaption></figure>
 
 ### Question association
 
 Question association means that the options selected (or not selected) by the respondent are displayed in the questions of this matrix multiple-choice question. It is generally used in cases where two questions are highly relevant or in follow-up questions.
 
-![问题关联](../../.gitbook/assets/Snipaste_2023-10-16_10-33-05.png)
+<figure><img src="../../.gitbook/assets/image (945).png" alt=""><figcaption></figcaption></figure>
 
 ### Questions are random
 
 In the question editing state, you can set the questions in a matrix single-choice survey to be displayed randomly. Once set, the questions will be displayed in the response interface according to the selected random method. The random methods for questions in a matrix single-choice survey include: random order and random forward/reverse order.
 
-### Random order of questions
 
-Question randomization refers to the questions in the matrix single-choice question appearing in a random order when answering. After enabling the "question randomization" feature, a non-random checkbox will appear on the right side of each question. If you want a particular question to remain in its current position, you can check the "non-random" box next to it, and that question will not be included in the randomization.
-
-![问题随机排序](../../.gitbook/assets/Snipaste_2023-10-16_10-33-46.png)
-
-#### Random forward and reverse order of questions
-
-Random forward/reverse order of questions means that the questions in the matrix single-choice question appear in a random forward/reverse order when answering. After enabling the "Random forward/reverse order of questions" feature, a "Fix the last question" switch will appear below the "Random forward/reverse order of questions" feature. If you want the last question to remain in its current position, you can enable the "Fix the last question" feature, and the last question will not participate in the random forward/reverse order when displayed on the answering end.
-
-![](../../.gitbook/assets/Snipaste_2023-10-16_10-34-35.png)
-
-
-
-### Display of the editing page and survey answering interface
-
-After editing, you can view the specific content of the matrix multiple-choice questions, the association of options, content references, and fill-in-the-blank settings on the editing page.
-
-![编辑页内的矩阵多选题显示](../../.gitbook/assets/Snipaste_2023-10-16_10-35-52.png)
 
 Matrix multiple-choice questions will adaptively display as a matrix or in a split-question format based on the answering terminal.
 
-![PC答题端的矩阵多选题显示](../../.gitbook/assets/Snipaste_2023-10-16_10-36-21.png)
-
-![手机答题端的矩阵多选题显示](../../.gitbook/assets/Snipaste_2023-10-16_10-36-31.png)
+<figure><img src="../../.gitbook/assets/image (949).png" alt=""><figcaption></figcaption></figure>
 
 ## Survey Results
 
 On the statistical analysis page, the results of the matrix single-choice questions are displayed in the form of a bar chart and a table subtotal.
 
-![统计分析-矩阵多选题](../../.gitbook/assets/Snipaste_2023-10-16_10-38-00.png)
+<figure><img src="../../.gitbook/assets/image (948).png" alt=""><figcaption></figcaption></figure>

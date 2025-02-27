@@ -2,23 +2,21 @@
 
 Matrix scale measure respondents' feelings or attitudes towards multiple similar issues through preset numerical range values.
 
-![矩阵量表题](<../../.gitbook/assets/image (798).png>)
+<figure><img src="../../.gitbook/assets/image (950).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 Create new matrix scale
 
 On the survey editing page, select the "Matrix Scale " from the question type controls on the left side, or click the + button in the quick toolbar on the right side of a specified question to choose "Matrix Scale Question" and create a new matrix scale question.
 
-![通过左侧“题型”添加](../../.gitbook/assets/Snipaste_2023-10-16_10-46-03.png)
+<figure><img src="../../.gitbook/assets/image (951).png" alt=""><figcaption></figcaption></figure>
 
-![通过快捷工具栏添加](../../.gitbook/assets/Snipaste_2023-10-16_10-46-52.png)
-
-## 【STEP 2】Edit title, notes, and option content
+## 【STEP 2】Edit title, notes, and choice content
 
 The title, options, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
 
-![题目编辑](../../.gitbook/assets/Snipaste_2023-10-16_10-47-42.png)
+<figure><img src="../../.gitbook/assets/image (952).png" alt=""><figcaption></figcaption></figure>
 
-## 【STEP 3】Title, questions, and options settings
+## 【STEP 3】Title, questions, and choices settings
 
 ### Mandatory settings
 
@@ -28,13 +26,13 @@ After turning off the "This question is mandatory" feature in the right panel, t
 By default, the "mandatory question" feature is enabled for all questions.
 {% endhint %}
 
-![“此题必答”功能](../../.gitbook/assets/Snipaste_2023-10-16_10-59-22.png)
+<figure><img src="../../.gitbook/assets/image (953).png" alt=""><figcaption></figcaption></figure>
 
 ### Score Range
 
 The score range is the measurement scale for the scale question, with a range of 1 and a maximum difference of 11 between the lowest and highest scores. Once set, the scale can be viewed in real-time in the editing area.
 
-![设置分数范围](../../.gitbook/assets/Snipaste_2023-10-16_11-00-06.png)
+<figure><img src="../../.gitbook/assets/image (954).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Support setting exception items:
