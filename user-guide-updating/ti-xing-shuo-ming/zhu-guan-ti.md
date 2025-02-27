@@ -26,9 +26,7 @@ After turning off the "Required" function in the right panel, this question can 
 All questions have the "mandatory" function enabled by default.
 {% endhint %}
 
-
-
-<figure><img src="../../.gitbook/assets/image (940).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Answer box size
 
@@ -51,10 +49,10 @@ If the mobile number is 13 digits long, the character limit set after verifying 
 The length of the answers to subjective questions can be limited. Once set successfully, the system will automatically validate the respondents' answers based on the specified length range on the answering end.
 
 {% hint style="info" %}
-If the "minimum fill" and "maximum fill" input fields are empty, no restrictions will be set.
+If the "Fill in at least" and "Fill in at most" input fields are empty, no restrictions will be set.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (942).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Editor page and survey response interface
 
