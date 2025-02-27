@@ -2,21 +2,19 @@
 
 Text entry allow respondents to provide open-ended answers to the questions, supporting a customizable range of word counts and text validation.
 
-![主观题](<../../.gitbook/assets/image (555).png>)
+<figure><img src="../../.gitbook/assets/image (935).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 Create new text entry
 
 In the survey editing page, you can create a new subjective question by selecting "Subjective " from the question type controls on the left, or by clicking the + button in the quick toolbar on the right of a specified question and selecting "Subjective Question".
 
-![通过“题型”控件新建主观题](../../.gitbook/assets/Snipaste_2023-10-11_09-28-53.png)
+<figure><img src="../../.gitbook/assets/image (936).png" alt=""><figcaption></figcaption></figure>
 
-![在指定题目下方新建主观题](../../.gitbook/assets/Snipaste_2023-10-11_09-29-30.png)
+## 【STEP 2】Edit title, notes, and choice content
 
-## 【STEP 2】Edit title, notes, and option content
+The title, choices, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
 
-The title, options, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
-
-![主观题内容编辑](<../../.gitbook/assets/image (227).png>)
+<figure><img src="../../.gitbook/assets/image (937).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】Survey Setup
 
@@ -28,13 +26,15 @@ After turning off the "Required" function in the right panel, this question can 
 All questions have the "mandatory" function enabled by default.
 {% endhint %}
 
-![必答设置](../../.gitbook/assets/Snipaste_2023-10-11_09-32-37.png)
+
+
+<figure><img src="../../.gitbook/assets/image (940).png" alt=""><figcaption></figcaption></figure>
 
 ### Answer box size
 
-The size of the answer box for subjective questions can be freely set according to the survey needs. "Small" is for single line, suitable for filling in information such as name and phone number; "Medium" is for two lines; "Large" is for three lines, suitable for opinion collection and other survey scenarios.
+The size of the answer box for subjective questions can be freely set according to the survey needs. "Small" is for single line, suitable for filling in information such as name and phone number; "Middle" is for two lines; "Big" is for three lines, suitable for opinion collection and other survey scenarios.
 
-![答题框大小设置](../../.gitbook/assets/Snipaste_2023-10-11_09-33-46.png)
+<figure><img src="../../.gitbook/assets/image (939).png" alt=""><figcaption></figcaption></figure>
 
 ### Text Verification
 
@@ -44,7 +44,7 @@ In the question editing state, you can set the text validation method. Once set 
 If the mobile number is 13 digits long, the character limit set after verifying the mobile number will become invalid.
 {% endhint %}
 
-![文本验证设置](../../.gitbook/assets/Snipaste_2023-10-11_09-34-36.png)
+<figure><img src="../../.gitbook/assets/image (941).png" alt=""><figcaption></figcaption></figure>
 
 ### Word Count Range
 
@@ -54,19 +54,15 @@ The length of the answers to subjective questions can be limited. Once set succe
 If the "minimum fill" and "maximum fill" input fields are empty, no restrictions will be set.
 {% endhint %}
 
-![字数范围设置](../../.gitbook/assets/Snipaste_2023-10-11_09-35-26.png)
+<figure><img src="../../.gitbook/assets/image (942).png" alt=""><figcaption></figcaption></figure>
 
 ### Editor page and survey response interface
 
 After editing, you can view the specific content of the subjective questions and the answer box settings on the editing page.
 
-![编辑页内的主观题显示](<../../.gitbook/assets/image (609).png>)
-
-![答题端的主观题显示](<../../.gitbook/assets/image (575).png>)
-
 ### Survey Results
 
 On the statistical analysis page, the answers to subjective questions are displayed in a list format. Clicking "Export Answers" allows you to export all the detailed answers to the question (to be downloaded in offline download).
 
-![主观题的答题数据展示](../../.gitbook/assets/Snipaste_2023-10-11_09-40-26.png)
+<figure><img src="../../.gitbook/assets/image (943).png" alt=""><figcaption></figcaption></figure>
 

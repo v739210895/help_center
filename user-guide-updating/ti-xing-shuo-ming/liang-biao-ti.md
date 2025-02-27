@@ -8,7 +8,7 @@ Scale measure respondents' feelings or attitudes towards a particular issue usin
 
 On the survey editing page, you can create a new scale by selecting "Scale Question" from the question type controls on the left or by clicking the + button in the quick toolbar on the right for the specified question and selecting "Scale Question".
 
-![通过“题型”控件或在指定题目下方新建单选题](<../../.gitbook/assets/Snipaste_2023-10-10_15-15-53 (1).png>)
+<figure><img src="../../.gitbook/assets/image (934).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】Edit title, notes, and option content
 
