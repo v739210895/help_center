@@ -2,7 +2,7 @@
 
 Matrix multiple choice list multiple questions and multiple choices in a matrix format, where respondents need to select one or more answers for each question.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 Create New Matrix Multiple Choice&#x20;
 

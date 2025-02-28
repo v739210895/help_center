@@ -40,7 +40,7 @@ INTL文档参考：
 
 【打开网页OpenUrl】 [https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/OpenUrl](https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/OpenUrl)
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>参数赋值说明</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>参数赋值说明</p></figcaption></figure>
 
 #### 方式二：调用（获取加密票据）接口在链接后注入登录态参数
 

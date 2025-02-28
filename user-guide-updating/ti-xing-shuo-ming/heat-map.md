@@ -11,9 +11,9 @@ description: >-
 
 在问卷编辑页中，选择左侧题型控件中的“热力图”或在指定题目点击右侧快捷工具栏中的+按钮选择“热力图”即可新建热力图。
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>通过“题型”控件新建热力图</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>通过“题型”控件新建热力图</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>在指定题目下方新建热力图</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>在指定题目下方新建热力图</p></figcaption></figure>
 
 ## 【STEP 2】Edit title, notes, and option content
 
@@ -21,7 +21,7 @@ The title, options, and remarks all support rich text editing, including: font s
 
 An image must be uploaded in order to publish the survey.
 
-<figure><img src="../../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>热力图内容编辑</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>热力图内容编辑</p></figcaption></figure>
 
 ## 【STEP 3】题目设置 <a href="#step-3-ti-mu-she-zhi" id="step-3-ti-mu-she-zhi"></a>
 
@@ -29,13 +29,13 @@ An image must be uploaded in order to publish the survey.
 
 在右侧面板中关闭“此题必答”功能后，答题时此题可以跳过不作答。所有题目默认开启“此题必答”功能。
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 点选后评论
 
 开启后，作答者在点选图片后，可以自定义追问点选原因等
 
-<figure><img src="../../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 选项设置
 

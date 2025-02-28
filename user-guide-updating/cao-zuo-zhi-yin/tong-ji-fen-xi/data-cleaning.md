@@ -10,7 +10,7 @@ On the "Statistics" - "Data Cleaning" page, click "Add Condition" in the top rig
 
 ### Create cleaning conditions
 
-<figure><img src="../../../.gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### The "and" and "or" relationships for setting conditions and rules
 

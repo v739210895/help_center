@@ -1,107 +1,81 @@
 # Rank order
 
-Rank order require respondents to order a set of options based on specific criteria or preferences. They are suitable for survey questions that assess respondents' attitudes or preferences towards multiple options.
+Rank order require respondents to order a set of options based on specific criteria or preferences. They are suitable for survey questions that assess respondents' attitudes or preferences towards multiple choices.
 
-![排序题](<../../.gitbook/assets/image (173).png>)
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-## 【STEP 1】 新建排序题
+## 【STEP 1】 New Rank order&#x20;
 
-在问卷编辑页中，选择左侧题型控件中的“排序题”或在指定题目点击右侧快捷工具栏中的+按钮选择“排序题”即可创建排序题。
+On the survey editing page, select "Sorting Question" from the question type controls on the left, or click the + button in the quick toolbar on the right of the specified question to choose "Sorting Question" to create a sorting question.
 
-![通过“题型”控件新建排序题](../../.gitbook/assets/Snipaste_2023-10-16_16-22-03.png)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-![在指定题目下方新建排序题](../../.gitbook/assets/Snipaste_2023-10-16_16-22-30.png)
+## 【STEP 2】Edit title, notes, and choice content
 
-## 【STEP 2】Edit title, notes, and option content
+The title, choices, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
 
-The title, options, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-![排序题内容编辑](../../.gitbook/assets/Snipaste_2023-10-16_16-23-37.png)
+## 【STEP 3】Question Setting&#x20;
 
-## 【STEP 3】题目设置
+## Mandatory setting
 
-### 必答设置
-
-在右侧面板中关闭“此题必答”功能后，答题时此题可以为空。
+&#x20;After turning off the "This question is mandatory" feature in the right panel, this question can be left blank when answering.
 
 {% hint style="info" %}
-所有题目默认开启“此题必答”功能。
+All questions have the "mandatory" option enabled by default.
 {% endhint %}
 
-![必答设置](../../.gitbook/assets/Snipaste_2023-10-16_16-25-03.png)
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-### 逻辑设置
 
-排序题中指定选项的顺序可用于控制后序题目的显隐。如：Q1的选项1排序在第1或第2时显示Q2。
 
-![选项的排序控制后序题目显隐](<../../.gitbook/assets/image (666).png>)
+## Choice Association
 
-### 选项关联
-
-选项关联即让答题者选中（或未选中）的选项显示在下一题的可选项中，一般用于题目相关性极高的两题中或追问的情况。
+Choice association means that the choice selected (or not selected) by the respondent will appear as an option in the next question. It is generally used in cases where two questions are highly related or in follow-up questions.
 
 {% hint style="info" %}
-仅支持关联单选题、多选题、下拉题的选项
+Only supports the choices of associated single choice , multiple choice, and dropdown .
 {% endhint %}
 
-![选项关联](../../.gitbook/assets/Snipaste_2023-10-16_16-29-08.png)
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-### 数量限制
+### Quantity Limit
 
-排序题可支持限制答题者排序选项的数量，适用于在多个选项中让答题者选出最适合的几个选项的场景。
+The ranking question can support limiting the number of choices respondents can rank, which is suitable for scenarios where respondents need to select the most suitable choices from multiple options.
 
-![限制排序数量](<../../.gitbook/assets/image (306).png>)
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-### 选项随机
+### Choices are random
 
-在题目编辑状态下，可设置选项随机，设置成功后，在答题端会根据所选择的随机方式显示选项。随机方式包括：随机排序、随机正逆序、分组显示。
+In the question editing mode, you can set the choices to be random. Once set successfully, the choices will be displayed in the answering interface according to the selected random method. The random methods include: random order, random forward and reverse order, and grouped display.
 
-#### 选项随机排序
+## Randomize choices
 
-选项随机排序是指答题时题目中的选项以随机顺序出现。开启“选项随机排序”功能后，题目的选项右侧会出现不随机的勾选框，若希望某个选项固定在当前位置，可在其后勾选“不随机”，则该选项不参与随机排序。
+Random choice ordering means that the choices in the question appear in a random order when answering. After enabling the "random choice ordering" feature, a non-random checkbox will appear on the right side of the choices. If you want a certain choice to remain in its current position, you can check "non-random" after it, and that choice will not be included in the random ordering.
 
-![选项随机排序](../../.gitbook/assets/Snipaste_2023-10-16_16-30-30.png)
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-#### 选项随机正逆序
+## Random forward and reverse order of choices
 
-选项随机正逆序是指答题时题目中的选项随机以正序/逆序出现。开启“选项随机正逆序”功能后，“选项随机正逆序”功能下方会出现“固定最后一个选项”功能开关，若希望最后一个选项固定在当前位置，可开启“固定最后一个选项”功能，则在答题端显示时最后一个选项不参与随机正逆序。
+Randomizing the order of choices means that the choices in the questions will appear in either ascending or descending order randomly. When the "Randomize Choices Order" feature is enabled, a "Fix the Last Choice" switch will appear below it. If you wish to keep the last choice in its current position, you can enable the "Fix the Last Choice" feature, and the last choice will not be included in the randomization of the order.
 
-![选项随机正逆序](../../.gitbook/assets/Snipaste_2023-10-16_16-31-04.png)
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-#### 选项分组显示
+#### Choice Group Display
 
-选项分组显示是指把选项自由划分为多个组别，答题时每个分组的选项随机抽出一个或多个显示，支持分组间随机排序显示。
+Choice grouping display refers to dividing choices into multiple groups freely. During the survey, one or more choices from each group are randomly selected to be displayed, and the groups can be displayed in a random order.
 
-![选项分组显示](../../.gitbook/assets/Snipaste_2023-10-16_16-31-52.png)
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-## 编辑页及答题端显示
+## View survey data
 
-编辑完成后，在编辑页内可查看排序的显示样式。
+&#x20;In the "Answer Data" section of the statistics page, you can view the ranking of each respondent's choices for this question.
 
-![编辑页显示](../../.gitbook/assets/Snipaste_2023-10-16_16-49-21.png)
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-![答题端显示](<../../.gitbook/assets/image (348).png>)
+## Statistical Results Display
 
-## 查看答题数据
+On the statistical analysis page, you can view the ranking of each choice in this question.
 
-在统计页的“答题数据”可查看每个答题者对本题选项的排序情况。
-
-![查看答题数据](../../.gitbook/assets/Snipaste_2023-10-16_17-06-10.png)
-
-## 统计结果展示
-
-在统计分析页中，可查看本题中各选项的排名情况。
-
-![统计结果展示](../../.gitbook/assets/Snipaste_2023-10-16_17-05-19.png)
-
-{% hint style="info" %}
-综合排名计算方式
-
-1. **计算公式** 每个选项的总分=分数1 \* 排序第1的答题者数量 + 分数2 \* 排序第2的答题者数量 + 分数3 \* 排序第3的答题者数量 + ... + 分数x \* 排序第x的答题者数量，其中分数1=x，分数2=x-1，分数3=x-2，分数x=1&#x20;
-2. x跟题目设置的数量限制有关： 【数量不限】x=本题的总选项数（自由选项+关联选项） 【数量限制为x】x
-3. 按各选项的总分从高到低排序，越高排序越前
-
-注意：如有总分相同，则排名一样，下一个分数的排名往后推&#x20;
-
-例 第二名总分为48，有三个同分，则此三项的综合排序都是2，下一个总分47的综合排序是5
-{% endhint %}
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
