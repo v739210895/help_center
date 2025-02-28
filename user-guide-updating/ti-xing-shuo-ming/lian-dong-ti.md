@@ -1,46 +1,44 @@
 # Multi level linkage
 
-Collaborative questions can achieve multi-level classification and factor correlation analysis, such as region, industry, major, university, etc. Additionally, multi-level linked drop-down menus can be freely edited, with each level's options having a hierarchical relationship. This means that the options in the first level can be subdivided into the second level options.
+Multi level linkage can achieve multi-level classification and factor correlation analysis, such as region, industry, major, university, etc. Additionally, multi-level linked drop-down menus can be freely edited, with each level's options having a hierarchical relationship. This means that the options in the first level can be subdivided into the second level options.
 
-## 【STEP 1】 新建联动题
 
-在问卷编辑页中，选择左侧题型控件中的“联动题”或在指定题目点击右侧快捷工具栏中的+按钮选择“联动题”即可新建联动题。
 
-![通过“题型”控件新建联动题](../../.gitbook/assets/Snipaste_2023-10-16_17-08-18.png)
+## 【STEP 1】 New Multi level linkage
 
-![在指定题目下方新建联动题](../../.gitbook/assets/Snipaste_2023-10-16_17-08-58.png)
+On the survey editing page, select "Linked Question" from the question type controls on the left, or click the + button in the quick toolbar on the right of the specified question to create a new linked question.
 
-## 【STEP 2】Edit title, notes, and option content
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-The title, options, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
+## 【STEP 2】Edit title, notes, and choice content
 
-![联动题内容编辑](../../.gitbook/assets/Snipaste_2023-10-16_17-09-21.png)
+The title, choices, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
 
-## 【STEP 3】题目设置
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-### 必答设置
+## 【STEP 3】
 
-在右侧面板中关闭“此题必答”功能后，答题时此题可以为空。
+## Question Setting&#x20;
+
+## Mandatory setting
+
+&#x20;After turning off the "This question is mandatory" feature in the right panel, this question can be left blank when answering.
 
 {% hint style="info" %}
-所有题目默认开启“此题必答”功能。
+All questions have the "mandatory" option enabled by default.
 {% endhint %}
 
-![必答设置](../../.gitbook/assets/Snipaste_2023-10-16_17-10-00.png)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-### 地址题
+Address question（Applicable in China）
 
-系统提供地址题预设选项，省市区选项列表导入即可使用，导入后支持手动二次编辑。
+&#x20;The system provides preset choices for address questions. The province, city, and district choice list can be imported and used directly. After importing, manual secondary editing is supported.
 
-![导入地址题选项](../../.gitbook/assets/Snipaste_2023-10-16_17-10-13.png)
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-## 编辑页及答题端显示
+Support batch import choice
 
-编辑完成后，在编辑页内可查看联动题的具体内容及答题框设置。
-
-![编辑页内的联动题显示](<../../.gitbook/assets/image (205).png>)
-
-![答题端的联动题显示](<../../.gitbook/assets/image (305).png>)
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## 统计结果展示
 

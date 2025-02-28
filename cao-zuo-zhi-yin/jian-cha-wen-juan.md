@@ -8,7 +8,7 @@ description: 问卷编辑后，可通过点击检查tab切换到检查问卷模�
 
 计算方法：对符合逻辑条件的最长填答路径（题目数量最多）估算最终答题时长，根据过往问卷答题时长预估，仅供参考
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 检查和建议
 
@@ -26,4 +26,4 @@ description: 问卷编辑后，可通过点击检查tab切换到检查问卷模�
 
 
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

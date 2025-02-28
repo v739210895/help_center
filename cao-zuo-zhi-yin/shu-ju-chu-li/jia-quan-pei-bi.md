@@ -7,7 +7,7 @@
 * 常规加权（因子加权）：为总计 100% 的每个回复组指定目标百分比
 * 边缘加权：也被称为迭代比例拟合或随机迭代法。它适用的情况是：您需要调整采样群体以满足目标群体的代表，但不知道多重特征群体的比例。
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 新建加权方案 <a href="#she-zhi-quan-zhong-ming-cheng" id="she-zhi-quan-zhong-ming-cheng"></a>
 

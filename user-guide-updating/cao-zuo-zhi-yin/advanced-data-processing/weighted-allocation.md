@@ -7,7 +7,7 @@ Support two weight setting schemes
 * Regular weighting (factor weighting): Assign target percentages for each response group totaling 100%
 * Edge weighting: Also known as iterative proportional fitting or random iterative method. It is applicable in situations where you need to adjust the sampling population to meet the representation of the target population, but do not know the proportions of multiple characteristic groups.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### New Weighted Scheme
 

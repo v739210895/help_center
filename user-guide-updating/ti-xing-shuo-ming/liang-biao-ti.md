@@ -2,7 +2,7 @@
 
 Scale measure respondents' feelings or attitudes towards a particular issue using predefined numerical ranges.
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 Creat New Scale
 
