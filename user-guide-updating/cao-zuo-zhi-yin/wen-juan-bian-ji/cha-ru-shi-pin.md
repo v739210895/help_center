@@ -6,7 +6,7 @@ Supports two methods: uploading local videos and inserting third-party platform 
 
 ### 【STEP 1】Specify the video insertion position
 
-In the survey editing state, after clicking on the survey question, remarks, or option text edit box, a rich text editing tool will expand in the upper left corner. Click on the "Video" icon in the rich text editing tool.
+In the survey editing state, after clicking on the survey question, remarks, or choice text edit box, a rich text editing tool will expand in the upper left corner. Click on the "Video" icon in the rich text editing tool.
 
 <figure><img src="../../../.gitbook/assets/image (924).png" alt=""><figcaption></figcaption></figure>
 
@@ -61,12 +61,5 @@ Only supports adjusting the video player size in the PC survey interface
 
 ![Adjust video size in generic code](<../../../.gitbook/assets/image (138).png>)
 
-### 【STEP 3】Confirm video insertion
 
-Click OK to successfully insert the video, and a thumbnail of the inserted video will be displayed in the text editing bar.
 
-![Insert video in edit mode](<../../../.gitbook/assets/image (347).png>)
-
-The survey interface displays a video.
-
-![Survey Interface Display](<../../../.gitbook/assets/image (314).png>)

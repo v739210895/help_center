@@ -18,7 +18,7 @@ While viewing the question, focus on the specified question with the mouse, clic
 
 ### Copy the question
 
-In the view mode of the problem, when you focus the mouse on a specific problem and click the copy button on the right toolbar, the problem will be duplicated below. The title, options, and other content and settings will be exactly the same as the original problem.
+In the view mode of the problem, when you focus the mouse on a specific problem and click the copy button on the right toolbar, the problem will be duplicated below. The title, choices, and other content and settings will be exactly the same as the original problem.
 
 {% hint style="info" %}
 Copying the question does not include copying the original question's logical settings.

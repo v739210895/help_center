@@ -32,6 +32,4 @@ After saving, the selected text will be displayed as a hyperlink.
 
 
 
-### Survey Interface Display
-
-![The survey interface displays hyperlinks.](<../../../.gitbook/assets/image (206).png>)
+###

@@ -3,7 +3,7 @@
 In the question editing state, choices can be set to random. Once set successfully, the choices will be displayed in the answer interface according to the chosen random method. The random methods include: random order, random forward and reverse order, and grouped display.
 
 {% hint style="info" %}
-Options linked from the previous question do not support randomization.
+Choices linked from the previous question do not support randomization.
 {% endhint %}
 
 ### Randomize options
@@ -14,7 +14,7 @@ Random choice order means that the choices in a question appear in a random orde
 
 ### Randomize choices
 
-Random forward and reverse order of choices refers to the choices in the question appearing in a random forward or reverse order when answering. After enabling the "Random forward and reverse order of choices" feature, a "Fix the last option" toggle will appear below it. If you wish to keep the last option fixed in its current position, you can enable the "Fix the last option" feature, and the last choice will not participate in the random forward and reverse order when displayed on the answering end.
+Random forward and reverse order of choices refers to the choices in the question appearing in a random forward or reverse order when answering. After enabling the "Random forward and reverse order of choices" feature, a "Fix the last choice" toggle will appear below it. If you wish to keep the last choice fixed in its current position, you can enable the "Fix the last choice" feature, and the last choice will not participate in the random forward and reverse order when displayed on the answering end.
 
 <figure><img src="../../../../.gitbook/assets/image (900).png" alt=""><figcaption></figcaption></figure>
 

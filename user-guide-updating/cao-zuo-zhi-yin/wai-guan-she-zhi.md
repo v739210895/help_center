@@ -8,7 +8,7 @@ The survey supports adjusting the appearance of the answering interface, meeting
 
 ### Theme color
 
-The main color scheme of the survey, including the start/submit/previous/next buttons, answer progress, selected option status, and other colors.
+The main color scheme of the survey, including the start/submit/previous/next buttons, answer progress, selected choice status, and other colors.
 
 <figure><img src="../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -24,7 +24,7 @@ It is recommended that the background color of the webpage be the same color or 
 
 The text color of the question stem should be distinct from the background color.
 
-### Option text
+### Choice text
 
 The text color of the question stem should be distinct from the background color.
 

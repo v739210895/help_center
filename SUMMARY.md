@@ -127,7 +127,7 @@
     * [Survey Editing](user-guide-updating/cao-zuo-zhi-yin/wen-juan-bian-ji/README.md)
       * [Project Name Setup](user-guide-updating/cao-zuo-zhi-yin/wen-juan-bian-ji/xiang-mu-ming-cheng-yu-chan-pin-she-zhi.md)
       * [Survey Title Edit](user-guide-updating/cao-zuo-zhi-yin/wen-juan-bian-ji/wen-juan-biao-ti-bian-ji.md)
-      * [Welcome Message Closing Edit](user-guide-updating/cao-zuo-zhi-yin/wen-juan-bian-ji/huan-ying-yu-jie-shu-yu-bian-ji.md)
+      * [Greeting and Ending Edit](user-guide-updating/cao-zuo-zhi-yin/wen-juan-bian-ji/huan-ying-yu-jie-shu-yu-bian-ji.md)
       * [Pagination and adding/removing survey pages](user-guide-updating/cao-zuo-zhi-yin/wen-juan-bian-ji/fen-ye-yu-zeng-shan-wen-juan-ye.md)
       * [Addition, Deletion, and Reordering of Questions](user-guide-updating/cao-zuo-zhi-yin/wen-juan-bian-ji/ti-mu-zeng-shan-yu-shun-xu-tiao-zheng.md)
       * [Survey Setup](user-guide-updating/cao-zuo-zhi-yin/wen-juan-bian-ji/ti-mu-she-zhi.md)

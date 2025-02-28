@@ -1,6 +1,6 @@
 # Content citation
 
-When editing survey questions, notes, or options, it supports referencing the selected items, unselected items, and fill-in-the-blank content of previous questions.
+When editing survey questions, notes, or choices, it supports referencing the selected items, unselected items, and fill-in-the-blank content of previous questions.
 
 <figure><img src="../../../.gitbook/assets/image (911).png" alt=""><figcaption></figcaption></figure>
 
@@ -8,7 +8,7 @@ When editing survey questions, notes, or options, it supports referencing the se
 
 ### 【STEP 1】Specify the position to insert the content reference
 
-In the survey editing mode, after clicking on the survey question, note, or option text editing box, a rich text editor tool will expand in the upper left corner. Click on the "Quote Settings" icon in the rich text editor tool.
+In the survey editing mode, after clicking on the survey question, note, or choice text editing box, a rich text editor tool will expand in the upper left corner. Click on the "Quote Settings" icon in the rich text editor tool.
 
 <figure><img src="../../../.gitbook/assets/image (912).png" alt=""><figcaption></figcaption></figure>
 

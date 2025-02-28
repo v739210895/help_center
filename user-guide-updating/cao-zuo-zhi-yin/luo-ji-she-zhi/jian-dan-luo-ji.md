@@ -1,12 +1,12 @@
 # Simple Logic
 
-Simple logic: Control the display of specific questions or the end page jump based on the options selected in the question. This is suitable for situations with a small number of questions or when the question has many options. You can set different questions to be controlled by each option.
+Simple logic: Control the display of specific questions or the end page jump based on the choices selected in the question. This is suitable for situations with a small number of questions or when the question has many choices. You can set different questions to be controlled by each choice.
 
-Supports question types with simple logic settings: single choice questions, dropdown questions, multiple choice questions, scale questions, matrix single choice questions, matrix multiple choice questions, and matrix scale questions.
+Supports question types with simple logic settings: single choice , dropdown , multiple choice questions, scale , matrix single choice , matrix multiple choice , and matrix scale .
 
 {% hint style="info" %}
-1. Simple logic import is supported (only single-choice questions, multiple-choice questions, and dropdown questions logic import are supported). For the format, please refer to the "Survey Auto Import" section.
-2. Questions set to display results are hidden by default and will only be shown when respondents select specified options according to the logic settings.
+1. Simple logic import is supported (only single-choice , multiple-choice and dropdown  logic import are supported). For the format, please refer to the "Survey Auto Import" section.
+2. Questions set to display results are hidden by default and will only be shown when respondents select specified choices according to the logic settings.
 3. Only one of simple logic or combinational logic functions can be used. Once combinational logic is enabled, simple logic can no longer be edited.
 4. After enabling combinational logic, the system will automatically convert the set simple logic into combinational logic.
 5. To set survey logic using "or" and "and" relationships, please switch to enable the combination logic feature.

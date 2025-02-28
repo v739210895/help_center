@@ -25,9 +25,7 @@ On the "Settings" page, you can designate the person in charge of a specific sur
 4. If multiple users edit/set the same survey simultaneously, the content of the last saved survey will prevail.
 {% endhint %}
 
-![Head of Setup](../../../.gitbook/assets/Snipaste_2023-10-08_11-49-59.png)
-
-![New survey prompt settings manager](<../../../.gitbook/assets/image (116).png>)
+<figure><img src="../../../.gitbook/assets/image (988).png" alt=""><figcaption></figcaption></figure>
 
 ### Set up a follower
 
@@ -38,28 +36,13 @@ The focus person is the regular user of this survey, supporting the assignment o
 2. To avoid sensitive data leakage, please be cautious when assigning "survey data" and "export data" permissions.
 {% endhint %}
 
-![Add Follower](../../../.gitbook/assets/Snipaste_2023-10-08_11-51-03.png)
-
-Designer
-
-The survey designer, who is the creator of the survey, cannot view or edit the survey. This function is only used to record the survey designer.
-
-You can set a specific designer for the survey. In the designer input pop-up window, after entering the designer's RTX account or name, it will automatically search for matching users. Once selected, the designer is successfully set.
-
-{% hint style="info" %}
-
-
-1. The designer input box supports fuzzy search for automatic searching.
-2. Each survey can only have one designer.
-{% endhint %}
-
-![Add Designer](../../../.gitbook/assets/Snipaste_2023-10-08_11-51-35.png)
+<figure><img src="../../../.gitbook/assets/image (990).png" alt=""><figcaption></figcaption></figure>
 
 ### Prompt language
 
 The prompt language refers to the language used for prompts displayed on the answering interface. The default is Simplified Chinese, but other languages can be set according to actual needs.
 
-<figure><img src="../../../.gitbook/assets/企业微信截图_16967377362363.png" alt=""><figcaption><p>Survey Language Settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (991).png" alt=""><figcaption></figcaption></figure>
 
 Supported Languages:
 

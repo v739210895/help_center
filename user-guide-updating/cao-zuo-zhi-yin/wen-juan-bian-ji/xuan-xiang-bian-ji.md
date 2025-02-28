@@ -10,11 +10,11 @@ In the question editing mode, you can freely modify the text and font style of t
 
 ### Modify the choice text content
 
-1. Modify the text content of the options in the choices edit box
+1. Modify the text content of the choices in the choices edit box
 
 <figure><img src="../../../.gitbook/assets/image (887).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;  2.Modify in the bulk edit options popup
+&#x20;  2.Modify in the bulk edit choices popup
 
 <figure><img src="../../../.gitbook/assets/image (888).png" alt=""><figcaption></figcaption></figure>
 
@@ -36,19 +36,19 @@ Options linked from previous questions do not support setting fill-in-the-blank.
 
 ### 【STEP 1】Enable fill-in-the-blank setting
 
-In the question editing mode, enable the "Add fill-in-the-blank box after choices" feature in the "Question Settings" panel on the right.
+In the question editing mode, enable the "Add fill-in-the-blank box after choices" feature in the " Question Setup" panel on the right.
 
 <figure><img src="../../../.gitbook/assets/image (890).png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 2】Specify Choices
 
-After enabling the "Add fill-in-the-blank box after options" feature, a "fill-in-the-blank" checkbox will appear after each choice for the question. By checking the "fill-in-the-blank" checkbox after the desired choice, a fill-in-the-blank box will automatically be added after that choice.
+After enabling the "Add fill-in-the-blank box after choices" feature, a "fill-in-the-blank" checkbox will appear after each choice for the question. By checking the "fill-in-the-blank" checkbox after the desired choice, a fill-in-the-blank box will automatically be added after that choice.
 
 <figure><img src="../../../.gitbook/assets/image (892).png" alt=""><figcaption></figcaption></figure>
 
 ### Set as required
 
-The option to display the fill-in-the-blank field has been enabled, and a "required" checkbox will appear next to it. Checking this box will set the fill-in-the-blank field as required.
+The choice to display the fill-in-the-blank field has been enabled, and a "required" checkbox will appear next to it. Checking this box will set the fill-in-the-blank field as required.
 
 <figure><img src="../../../.gitbook/assets/image (891).png" alt=""><figcaption></figcaption></figure>
 

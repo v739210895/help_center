@@ -2,7 +2,7 @@
 
 ### Add choice
 
-There are two ways to add options: adding individually and adding in bulk.
+There are two ways to add choices: adding individually and adding in bulk.
 
 ### Add a single choice
 
