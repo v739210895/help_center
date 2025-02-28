@@ -7,53 +7,51 @@ description: >-
 
 # Heat Map
 
-## 【STEP 1】 新建热力图 <a href="#step-1-xin-jian-zhu-guan-ti" id="step-1-xin-jian-zhu-guan-ti"></a>
+## 【STEP 1】 Create Heatmap <a href="#step-1-xin-jian-zhu-guan-ti" id="step-1-xin-jian-zhu-guan-ti"></a>
 
-在问卷编辑页中，选择左侧题型控件中的“热力图”或在指定题目点击右侧快捷工具栏中的+按钮选择“热力图”即可新建热力图。
+In the survey editing page, select "Heatmap" from the question type controls on the left side or click the + button in the quick toolbar on the right side of a specified question to create a new heatmap.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>通过“题型”控件新建热力图</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (976).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>在指定题目下方新建热力图</p></figcaption></figure>
+## 【STEP 2】Edit title, notes, and choice content
 
-## 【STEP 2】Edit title, notes, and option content
-
-The title, options, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
+The title, choices, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
 
 An image must be uploaded in order to publish the survey.
 
-<figure><img src="../../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>热力图内容编辑</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (977).png" alt=""><figcaption></figcaption></figure>
 
-## 【STEP 3】题目设置 <a href="#step-3-ti-mu-she-zhi" id="step-3-ti-mu-she-zhi"></a>
+## 【STEP 3】Question Setup  <a href="#step-3-ti-mu-she-zhi" id="step-3-ti-mu-she-zhi"></a>
 
-#### 必答设置 <a href="#bi-da-she-zhi" id="bi-da-she-zhi"></a>
+### Mandatory settings  <a href="#step-3-ti-mu-she-zhi" id="step-3-ti-mu-she-zhi"></a>
 
-在右侧面板中关闭“此题必答”功能后，答题时此题可以跳过不作答。所有题目默认开启“此题必答”功能。
+After turning off the "Mandatory Question" feature in the right panel, this question can be skipped during the survey. By default, the "Mandatory Question" feature is enabled for all questions.
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (979).png" alt=""><figcaption></figcaption></figure>
 
-#### 点选后评论
+#### Comment after choice
 
-开启后，作答者在点选图片后，可以自定义追问点选原因等
+After activation, respondents can customize follow-up questions about the reasons for their choice after selecting an image.
 
-<figure><img src="../../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (980).png" alt=""><figcaption></figcaption></figure>
 
-#### 选项设置
+#### Choice Settings
 
-可限制同一问题中用户在图片上最少、最多点击次数
+You can limit the minimum and maximum number of clicks a user can make on an image within the same question.
 
-<figure><img src="../../.gitbook/assets/image (14) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (981).png" alt=""><figcaption></figcaption></figure>
 
-## 答题端显示
 
-开启点选后评论，答题者点击后，下方生成该标记点对应的输入框
 
-<figure><img src="../../.gitbook/assets/image (17) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>点选后评论</p></figcaption></figure>
+## Answer interface display
 
-<figure><img src="../../.gitbook/assets/image (18) (1) (1) (1) (1).png" alt=""><figcaption><p>不开启点选后评论</p></figcaption></figure>
+When the choice for commenting is enabled, an input box corresponding to the marked point will be generated below when the respondent clicks on it.
 
-## 查看答题数据 <a href="#cha-kan-da-ti-shu-ju" id="cha-kan-da-ti-shu-ju"></a>
+<figure><img src="../../.gitbook/assets/image (982).png" alt=""><figcaption></figcaption></figure>
 
-统计页可查看每个答题者在图片上的点击情况
+### View survey data
+
+&#x20;The statistics page allows you to view each respondent's clicks on the images.
 
 <figure><img src="../../.gitbook/assets/image (19) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
