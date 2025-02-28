@@ -26,7 +26,7 @@ QQ号批量转换为gopenid（具备映射关系），使用GACC统一账号平�
 
 <figure><img src="../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Step1：登入GACC系统后先申请权限，联系GACC助手通过申请</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Step1：登入GACC系统后先申请权限，联系GACC助手通过申请</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Step2：权限通过后按要求上传待转换的qq号文件</p></figcaption></figure>
 

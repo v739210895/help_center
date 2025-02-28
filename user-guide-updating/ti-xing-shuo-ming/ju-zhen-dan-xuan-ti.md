@@ -2,7 +2,7 @@
 
 Matrix single choice list multiple questions or choice in a matrix format, and visitors need to select one answer for each question.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 Create New Matrix Single Choice Question
 
