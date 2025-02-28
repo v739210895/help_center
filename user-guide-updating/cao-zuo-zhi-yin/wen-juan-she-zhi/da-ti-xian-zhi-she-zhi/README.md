@@ -1,6 +1,6 @@
 # Survey Response Limit Settings
 
-![答题限制设置](<../../../../.gitbook/assets/image (624).png>)
+<figure><img src="../../../../.gitbook/assets/image (1003).png" alt=""><figcaption></figcaption></figure>
 
 ## Each user ID can only answer once
 
