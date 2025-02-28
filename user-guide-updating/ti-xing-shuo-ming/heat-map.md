@@ -53,22 +53,22 @@ When the choice for commenting is enabled, an input box corresponding to the mar
 
 &#x20;The statistics page allows you to view each respondent's clicks on the images.
 
-<figure><img src="../../.gitbook/assets/image (19) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-## 查看统计图表
+## View statistical chart
 
-1.在统计分析页中，位置完全一致的点会被合并，以热力图形式呈现，颜色越深，点击数越多，下方显示颜色对应点击数；
+1.In the statistical analysis page, points with completely consistent positions will be merged and presented in the form of a heat map. The deeper the color, the higher the number of clicks, with the corresponding number of clicks displayed below.
 
-<figure><img src="../../.gitbook/assets/image (20) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-2.点击全部导出可下载用户id、点选坐标，以及评论详情
+2.Click "Export All" to download user IDs, click coordinates, and comment details.
 
 {% hint style="info" %}
-空代表答题者未对标记点评论
+Empty means the respondent did not comment on the marked point.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (21) (1) (1) (1) (1).png" alt=""><figcaption><p>全部导出</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-3.点击划区导出可以在热力图上选取需要导出数据的区域，做局部分析；（例如只想查看选中脸部的玩家答题详情，那么确认选区后会自动导出对应区域数据）
+3.Click "Select Area to Export" to select the area on the heatmap from which you want to export data for local analysis. (For example, if you only want to view the quiz details of players who selected the face, the corresponding area data will be automatically exported after confirming the selection.)
 
-<figure><img src="../../.gitbook/assets/image (22) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>

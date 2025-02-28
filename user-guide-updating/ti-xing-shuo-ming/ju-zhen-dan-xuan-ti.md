@@ -2,19 +2,19 @@
 
 Matrix single choice list multiple questions or choice in a matrix format, and visitors need to select one answer for each question.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 Create New Matrix Single Choice Question
 
 On the survey editing page, you can create a new matrix single-choice question by selecting "Matrix Single Choice Question" from the question type controls on the left, or by clicking the + button on the right quick toolbar of a specified question and selecting "Matrix Single Choice Question".
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】Edit title, notes, and choice content
 
 The title, choices, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -28,7 +28,7 @@ After turning off the "This question is mandatory" feature in the right panel, t
 All questions have the "mandatory" choice enabled by default.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Add a fill-in-the-blank box after the choices
 
