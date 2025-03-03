@@ -1,6 +1,6 @@
 # Mutually Exclusive Choices
 
-In the question editing state of a multiple-choice , you can set mutually exclusive options. Once an option is set as mutually exclusive, selecting this choice during the survey will prevent the selection of other choices in the same question.
+In the question editing state of a multiple-choice , you can set mutually exclusive choices. Once an choice is set as mutually exclusive, selecting this choice during the survey will prevent the selection of other choices in the same question.
 
 {% hint style="info" %}
 The choices linked from the previous question do not support mutually exclusive settings.

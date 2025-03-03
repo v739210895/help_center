@@ -30,7 +30,7 @@ Only supports selecting single-choice /multiple-choice /drop-down&#x20;
 
 
 
-Click to expand the options settings dropdown menu, and select "Selected Items" / "Unselected Items".
+Click to expand the choices settings dropdown menu, and select "Selected Items" / "Unselected Items".
 
 <figure><img src="../../../../.gitbook/assets/image (985).png" alt=""><figcaption></figcaption></figure>
 
