@@ -62,7 +62,7 @@ Subjective questions, information fields, and linked questions can have conditio
 
 After clicking confirm, the system will generate multiple rules based on the selected conditions, such as Q1 option A selected, Q1 option B selected, Q2 displayed, Q3 option C not selected, etc., and display them on the logic settings page.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Click the "Set Conditions" button in this rule again to modify the rule.
 
@@ -70,9 +70,9 @@ Click the "Set Conditions" button in this rule again to modify the rule.
 
 If multiple conditions are set in \[STEP 3], the default is to display the question results when any one condition is met. After selecting the "Custom Conditions" function in the rules, you can freely define logical expressions by connecting conditions with: and, or, and parentheses (defining the logical relationship of multiple added conditions). When the conditions are met, the result question will be displayed.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 ### 【Conditional Logic Explanation】
@@ -92,13 +92,13 @@ Example：1 and 2 and (3 or 4)&#x20;
 
 Click the delete button at the top right corner of the specified rule to delete this rule.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 6】Save current settings
 
 After the logic is set up, click the "Save" button in the upper right corner to save and apply all the rules on the current page. (Surveys that are being collected do not support modification and saving. If you need to modify the rules, please pause the collection first.)
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Frequently Asked Questions
 
