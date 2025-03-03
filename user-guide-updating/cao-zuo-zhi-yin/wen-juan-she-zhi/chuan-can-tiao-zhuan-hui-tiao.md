@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # API (redirection/callback/reward distribution)
 
 The survey system supports embedded deployment, post-survey redirection, parameter callbacks, and other functions. Users can configure the settings according to their actual needs.
@@ -110,7 +114,7 @@ Award Record Inquiry
 
 Click "Award Records" to view the award triggering status of all quiz accounts.。
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Check prize records</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Check prize records</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption><p>Award Record Details</p></figcaption></figure>
 

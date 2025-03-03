@@ -1,6 +1,6 @@
 # Display Settings
 
-受In the "Display Settings" section of the "Survey Settings," you can configure the display of the response interface based on actual needs.
+In the "Display Settings" section of the "Survey Settings," you can configure the display of the response interface based on actual needs.
 
 ## Show question number
 
@@ -54,7 +54,7 @@ Only by enabling login verification can the user ID be used as a survey watermar
 
 Display effect of the survey interface
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ###
 

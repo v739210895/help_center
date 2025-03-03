@@ -71,7 +71,7 @@
 
 ## 应用2：在线查看数据
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>生成的变量更新到答题数据中</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>生成的变量更新到答题数据中</p></figcaption></figure>
 
 ## 应用3：导出数据
 

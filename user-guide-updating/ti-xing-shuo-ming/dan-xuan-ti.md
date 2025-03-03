@@ -2,19 +2,19 @@
 
 Multiple choice allow respondents to select one option from a set of choices.
 
-<figure><img src="../../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 Create new Single Choice
 
 On the survey editing page, select "Single Choice" from the question type controls on the left side, or click the + button in the quick toolbar on the right side of a specified question to create a new single choice question.
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】Edit the question, notes, and choices content
 
 The title, choices, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
 
-<figure><img src="../../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】Question and choice settings
 
@@ -26,13 +26,13 @@ After turning off the "This question is mandatory" feature in the right panel, t
 All questions are set to "mandatory" by default.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Question Type
 
 Single-choice, multiple-choice, and dropdown  can be freely switched. After switching, the original question's required settings, option association settings, and random option settings are retained.
 
-<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Add a fill-in-the-blank box after the choices
 

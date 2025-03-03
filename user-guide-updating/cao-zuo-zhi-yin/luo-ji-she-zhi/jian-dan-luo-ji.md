@@ -16,19 +16,19 @@ Supports question types with simple logic settings: single choice , dropdown , m
 
 On the survey editing page, hover the mouse over the question that needs logic settings, and a simple logic setting button will appear on the right quick toolbar; or click the "Simple Logic" setting button on the right question settings bar in the question editing state to open the simple logic setting pop-up window.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】Set Simple Logic (Control the Display of Questions)
 
-In the simple logic setup popup, the left side contains the question options, and the right side contains the list of all survey questions. Selecting an option on the left and a question on the right indicates that the question on the right will be displayed only after the user selects the corresponding option on the left; otherwise, the selected question on the right will not be displayed by default.
+In the simple logic setup popup, the left side contains the question choices, and the right side contains the list of all survey questions. Selecting an choice on the left and a question on the right indicates that the question on the right will be displayed only after the user selects the corresponding choice on the left; otherwise, the selected question on the right will not be displayed by default.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】Set Simple Logic (Control End Page)
 
-By default, users answer questions in the default order of pages 1, 2, 3, etc. In the logic settings, it is supported to jump to the end page after selecting a specified option according to the set logic (executed when the respondent clicks the next page; if there are other questions on the current page, the respondent needs to answer the other displayed questions).
+By default, users answer questions in the default order of pages 1, 2, 3, etc. In the logic settings, it is supported to jump to the end page after selecting a specified choice according to the set logic (executed when the respondent clicks the next page; if there are other questions on the current page, the respondent needs to answer the other displayed questions).
 
 {% hint style="info" %}
 Default: Display the next page in the set default order
@@ -38,4 +38,4 @@ End page (normal end): After selecting the specified option, the respondent will
 End page (abnormal termination, data not collected): After selecting the specified option, the respondent will be directed to the end page when clicking next, and the survey data will not be collected.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

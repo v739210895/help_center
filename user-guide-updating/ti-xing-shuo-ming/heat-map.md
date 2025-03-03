@@ -53,13 +53,13 @@ When the choice for commenting is enabled, an input box corresponding to the mar
 
 &#x20;The statistics page allows you to view each respondent's clicks on the images.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 ## View statistical chart
 
 1.In the statistical analysis page, points with completely consistent positions will be merged and presented in the form of a heat map. The deeper the color, the higher the number of clicks, with the corresponding number of clicks displayed below.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2.Click "Export All" to download user IDs, click coordinates, and comment details.
 
@@ -71,4 +71,4 @@ Empty means the respondent did not comment on the marked point.
 
 3.Click "Select Area to Export" to select the area on the heatmap from which you want to export data for local analysis. (For example, if you only want to view the quiz details of players who selected the face, the corresponding area data will be automatically exported after confirming the selection.)
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>

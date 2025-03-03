@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Survey Login Verification
 
 The survey system supports collecting different types of login status information (openid). Survey designers can follow the process below to enable the corresponding functions. Some features require developers to integrate with the system's
