@@ -28,7 +28,9 @@ On the survey editing page where a coverage import is required, click the "Cover
 
 After uploading the EXCEL file, the system will automatically recognize the survey content. The uploaded survey supports re-uploading and adjusting project names, product names, and survey titles.
 
-![Survey uploaded successfully](../../../.gitbook/assets/Snipaste_2023-10-17_11-18-03.png)
+
+
+<figure><img src="../../../.gitbook/assets/image (1006).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 4】Generate survey&#x20;
 

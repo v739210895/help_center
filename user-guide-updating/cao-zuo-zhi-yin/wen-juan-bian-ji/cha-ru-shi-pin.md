@@ -16,11 +16,11 @@ In the survey editing state, after clicking on the survey question, remarks, or 
 
 Support local video uploads, with videos directly uploaded to the survey system backend, more effectively preventing material leaks in sensitive survey projects.
 
-<figure><img src="../../../.gitbook/assets/image.33.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1004).png" alt=""><figcaption></figcaption></figure>
 
 ### Method 2: Third-party platform video code
 
-<figure><img src="../../../.gitbook/assets/企业微信截图_16854440013107.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1005).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Note: When uploading videos, you should first upload the video to a third-party video website platform. It is recommended to use: Tencent Video.
