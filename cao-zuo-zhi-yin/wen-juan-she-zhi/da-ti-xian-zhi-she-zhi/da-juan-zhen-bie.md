@@ -2,7 +2,7 @@
 
 系统提供答卷甄别功能，适用场景：玩家提交后系统自动按指定条件把不符合要求的样本剔除，[在线查看答题数据](../../tong-ji-fen-xi/da-ti-shu-ju-zai-xian-cha-kan.md)/[导出数据](../../xia-zai-shu-ju/)中，不合格样本被标记为无效。
 
-<figure><img src="../../../.gitbook/assets/Snipaste_2024-01-29_09-15-21.png" alt=""><figcaption><p>答卷甄别</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **特殊说明**
@@ -14,15 +14,15 @@
 
 ## 【STEP 1】设置条件
 
-在“设置”-“答题限制”中，启用“答卷甄别”设置入口。
+在“设置”中，进入“甄别设置”入口。
 
-<figure><img src="../../../.gitbook/assets/Snipaste_2024-01-29_09-18-15.png" alt=""><figcaption><p>功能入口</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-进入页面后，点击右上角“新增条件”或“”添加第一个条件”即可创建一条新的甄别条件。
+进入页面后，点击“新增条件”或“”添加第一个条件”即可创建一条新的甄别条件。
 
 ### 创建甄别条件
 
-<figure><img src="../../../.gitbook/assets/Snipaste_2024-01-29_09-20-22.png" alt=""><figcaption><p>创建甄别条件</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 ### 设置条件及规则的and、or关系
 

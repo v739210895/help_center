@@ -2,7 +2,7 @@
 
 问卷系统支持内嵌投放及答题后跳转、参数回调等功能，用户可根据实际需要按以下各项设置。
 
-![API配置](../../.gitbook/assets/Snipaste_2023-10-08_14-35-18.png)
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 ## 提交问卷跳转到指定页面
 
@@ -10,7 +10,7 @@
 
 ![功能流程](<../../.gitbook/assets/image (493).png>)
 
-![设置跳转地址](../../.gitbook/assets/Snipaste_2023-10-08_14-53-11.png)
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ## 登录态回调接口
 
@@ -18,7 +18,7 @@
 
 ![操作流程](<../../.gitbook/assets/image (527).png>)
 
-![配置登录态回调](../../.gitbook/assets/Snipaste_2023-10-08_14-37-52.png)
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 ### 同一问卷支持设置多个回调地址
 
@@ -48,15 +48,15 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 ![](<../../.gitbook/assets/image (51).png>)
 
-![API调用](../../.gitbook/assets/Snipaste_2023-10-08_14-47-43.png)
-
 [点击了解详细API文档。](../../api-wen-dang/kai-fang-jie-kou/)
 
-## 提交问卷后发奖
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+## AMS发奖
 
 系统支持AMS礼包发奖，可通过问卷设置—提交问卷后发奖功能实现；对于已对接AMS邮件发货功能的游戏，开启此功能时，用户提交问卷后，问卷系统可自动触发奖励发放。
 
-![提交问卷后发奖](../../.gitbook/assets/Snipaste_2023-10-08_14-48-53.png)
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 1. 仅支持已对接**邮件发货**功能的游戏使用
@@ -80,7 +80,7 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 若游戏内是使用的是gopenid发奖，则开启gopenid即可
 
-![配置发奖参数](../../.gitbook/assets/Snipaste_2023-10-08_14-49-39.png)
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 3】传递发奖参数
 
@@ -116,7 +116,7 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 点击“发奖记录”即可查看所有答题账号的触发发奖情况。
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>查询发奖记录</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption><p>发奖记录详情</p></figcaption></figure>
 

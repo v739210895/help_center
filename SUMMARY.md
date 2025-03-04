@@ -34,7 +34,7 @@
   * [问卷设置](cao-zuo-zhi-yin/wen-juan-she-zhi/README.md)
     * [项目设置](cao-zuo-zhi-yin/wen-juan-she-zhi/xiang-mu-she-zhi.md)
     * [显示设置](cao-zuo-zhi-yin/wen-juan-she-zhi/xian-shi-she-zhi.md)
-    * [答题限制设置](cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi/README.md)
+    * [作答限制](cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi/README.md)
       * [答卷甄别](cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi/da-juan-zhen-bie.md)
       * [海外投放验证流程](cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi/hai-wai-tou-fang-liu-cheng.md)
     * [答题登录验证](cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-deng-lu-yan-zheng.md)

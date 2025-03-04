@@ -2,7 +2,7 @@
 
 Dropdown allow respondents to select an answer from a preset group of choices by clicking on a dropdown menu. This is suitable for scenarios with a large number of choices.
 
-<figure><img src="../../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 Create new Dropdown&#x20;
 
@@ -56,13 +56,13 @@ Choice randomization refers to presenting the choices in a question in a random 
 
 Random forward/reverse order of options means that the choices in the question will appear in a random forward or reverse order when answering. After enabling the "Random forward/reverse order of choices" feature, a "Fix the last choice" toggle will appear below the "Random forward/reverse order of choices" feature. If you wish to keep the last choice fixed in its current position, you can enable the "Fix the last choice" feature, so that the last choice will not participate in the random forward/reverse order when displayed on the answering end.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Grouped display of choices
 
 choiceshoices grouping display refers to freely dividing options into multiple groups, and during the vey, one or more options from each group are randomly selected for display, supporting random sorting display between groups.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md" %}
 [xuan-xiang-sui-ji.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md)
@@ -74,4 +74,4 @@ choiceshoices grouping display refers to freely dividing options into multiple g
 
 In the statistical analysis page, display the response results of the dropdown question in the form of subtotal + bar percentage.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

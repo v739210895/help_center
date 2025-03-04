@@ -1,8 +1,8 @@
 # 项目设置
 
-在“问卷设置”的“项目设置”项中可补充完整项目信息，包括所属产品、问卷负责人、问卷设计人、问卷关注人、提示语言。
+在“问卷设置”的“项目设置”项中可补充完整项目信息，包括所属产品、问卷负责人、问卷关注人、提示语言。
 
-![问卷设置](../../.gitbook/assets/Snipaste\_2023-10-08\_11-44-17.png)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 1. 问卷首次开始回收/提交审核前，需补充完整所属产品和负责人信息
@@ -26,9 +26,7 @@
 4.若多名用户同时编辑/设置同一份问卷，以最后保存的一份问卷内容为准。
 {% endhint %}
 
-![设置负责人](../../.gitbook/assets/Snipaste\_2023-10-08\_11-49-59.png)
-
-![新问卷提示设置负责人](<../../.gitbook/assets/image (116).png>)
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## 设置关注人
 
@@ -39,27 +37,15 @@
 2. 为避免敏感数据泄露，请谨慎分配“**答题数据**”和“**导出数据**”权限
 {% endhint %}
 
-![添加关注人](../../.gitbook/assets/Snipaste\_2023-10-08\_11-51-03.png)
-
-## 设计人
-
-问卷设计人即问卷的设计者，问卷设计人角色不可查看及编辑该问卷，本功能仅用于记录问卷设计者。
-
-可设置指定问卷的设计人，在设计人输入弹窗中输入设计者的RTX账号或姓名后自动搜索匹配的用户，选择后即设置设计人成功。
-
-{% hint style="info" %}
-1.设计人输入框的自动搜索支持模糊搜索。
-
-2.每份问卷仅支持设置一名设计人。
-{% endhint %}
-
-![添加设计人](../../.gitbook/assets/Snipaste\_2023-10-08\_11-51-35.png)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## 提示语言
 
 提示语言指的是，在答题端中显示的提示语语种，默认为中文简体，可根据实际需要设置其他语种。
 
-<figure><img src="../../.gitbook/assets/企业微信截图_16967377362363.png" alt=""><figcaption><p>答卷语言设置</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+
 
 {% hint style="info" %}
 提示语支持语种：

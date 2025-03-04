@@ -4,11 +4,11 @@ Support for custom variables, which allows the recombination of survey question 
 
 ## 【STEP 1】Set variable
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Fields marked with \* are mandatory. Multiple valid values can be added under the same variable. The rules for valid values are defined according to project requirements.
 
-<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The system will match according to the order of the valid values above. The same survey data will be preferentially matched to the valid values in the earlier order. If none of the above conditions are met, it will be left blank.
 
@@ -51,17 +51,17 @@ Frequently Played Category\_Sports: Yes
 
 fter finishing editing all variables, click "Execute Calculation Variables" above to trigger the calculation. Once the calculation is complete, the variables will be written into the survey data as new columns, which can be used for statistics, cross-analysis, etc.
 
-<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Application 1: Participation in Weighted Settings
 
 All newly generated variables can be used as weighting conditions to adjust the sample proportion.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Application 2: Online Data Viewing
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Application 3: Export Data
 
@@ -73,10 +73,10 @@ In the exported raw data/encoded data, newly generated variables will be updated
 
 The distribution of each valid value of the newly generated variable can be viewed on the statistical chart page.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Application 5: Cross Analysis
 
 The newly generated variable can be used as a header for cross-analysis.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>

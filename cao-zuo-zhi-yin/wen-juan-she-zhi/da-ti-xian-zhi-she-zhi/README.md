@@ -1,6 +1,6 @@
-# 答题限制设置
+# 作答限制
 
-![答题限制设置](<../../../.gitbook/assets/image (624).png>)
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ## 每个用户ID只能回答一次
 
@@ -50,11 +50,11 @@
 
 直接写入白名单用户的openid，每行一个号码，需配合以下任一登录功能使用。
 
-| 登录验证方式      | openid值说明                                                                                                                                                                                                                   | 示例值                                                                                       |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 微信、QQ登录验证   | 用户通过微信/QQ登录问卷后的openid（非游戏openid），QQ号转openid方法请参考[QQ号转openid](https://imur.gitbook.io/help\_center/chang-jian-wen-ti/uidopenid-zhuan-huan-qq-hao#fu-lu-openid-shi-shen-me-ying-yong-nei-yong-hu-shen-fen-de-wei-yi-biao-shi) | <p>【QQ】78F2938728791F866806043CEFF5222D</p><p>【微信】</p><p>oY2--whSvI7JPzmQWcRg7o60TpdQ</p> |
-| MSDK登录验证：v3 | 游戏内的玩家openid                                                                                                                                                                                                                | 56C589029A4C0BD2282D5CD2DD5725F2                                                          |
-| MSDK登录验证：v5 | 游戏内的玩家gopenid                                                                                                                                                                                                               | 13293484783071200846                                                                      |
-| 参数传递（严格校验）  | <p>参数传递时的uid值（由游戏自定义），</p><p>详情可参考<a href="../../../api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md">参数传递接口（严格校验模式）</a></p>                                                                                           | 30291658356950347                                                                         |
-| 参数传递（不校验）   | 参数传递时的openid值（由游戏自定义），详情可参考[参数传递接口（不校验模式）](../../../api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md)                                                                                                            | 30291658356950347                                                                         |
+| 登录验证方式      | openid值说明                                                                                                                                                                                                                  | 示例值                                                                                       |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| 微信、QQ登录验证   | 用户通过微信/QQ登录问卷后的openid（非游戏openid），QQ号转openid方法请参考[QQ号转openid](https://imur.gitbook.io/help_center/chang-jian-wen-ti/uidopenid-zhuan-huan-qq-hao#fu-lu-openid-shi-shen-me-ying-yong-nei-yong-hu-shen-fen-de-wei-yi-biao-shi) | <p>【QQ】78F2938728791F866806043CEFF5222D</p><p>【微信】</p><p>oY2--whSvI7JPzmQWcRg7o60TpdQ</p> |
+| MSDK登录验证：v3 | 游戏内的玩家openid                                                                                                                                                                                                               | 56C589029A4C0BD2282D5CD2DD5725F2                                                          |
+| MSDK登录验证：v5 | 游戏内的玩家gopenid                                                                                                                                                                                                              | 13293484783071200846                                                                      |
+| 参数传递（严格校验）  | <p>参数传递时的uid值（由游戏自定义），</p><p>详情可参考<a href="../../../api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md">参数传递接口（严格校验模式）</a></p>                                                                                          | 30291658356950347                                                                         |
+| 参数传递（不校验）   | 参数传递时的openid值（由游戏自定义），详情可参考[参数传递接口（不校验模式）](../../../api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md)                                                                                                           | 30291658356950347                                                                         |
 
