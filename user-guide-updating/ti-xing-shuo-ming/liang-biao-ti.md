@@ -10,11 +10,11 @@ On the survey editing page, you can create a new scale by selecting "Scale Quest
 
 <figure><img src="../../.gitbook/assets/image (934).png" alt=""><figcaption></figcaption></figure>
 
-## 【STEP 2】Edit title, notes, and option content
+## 【STEP 2】Edit title, notes, and choice content
 
 The title, choices, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
 
-![量表题内容编辑](../../.gitbook/assets/Snipaste_2023-10-10_16-06-01.png)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】Question and Choice Settings
 

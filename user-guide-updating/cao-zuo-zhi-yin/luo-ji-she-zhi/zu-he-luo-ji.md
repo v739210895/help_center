@@ -70,9 +70,9 @@ Click the "Set Conditions" button in this rule again to modify the rule.
 
 If multiple conditions are set in \[STEP 3], the default is to display the question results when any one condition is met. After selecting the "Custom Conditions" function in the rules, you can freely define logical expressions by connecting conditions with: and, or, and parentheses (defining the logical relationship of multiple added conditions). When the conditions are met, the result question will be displayed.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 ### 【Conditional Logic Explanation】

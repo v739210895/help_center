@@ -64,11 +64,7 @@ Question randomization refers to the questions in the matrix scale appearing in 
 
 <figure><img src="../../.gitbook/assets/image (958).png" alt=""><figcaption></figcaption></figure>
 
-#### Random forward and reverse order of questions
 
-Random forward and reverse order of questions means that the questions in the matrix scale appear in a random forward or reverse order when answering. After enabling the "Random forward and reverse order of questions" feature, a "Fix the last question" toggle will appear below the "Random forward and reverse order of questions" feature. If you want the last question to remain in its current position, you can enable the "Fix the last question" feature, so that the last question will not participate in the random forward and reverse order when displayed on the answering end.
-
-![问题随机正逆序](../../.gitbook/assets/Snipaste_2023-10-16_11-03-55.png)
 
 ### Choices are randomized
 

@@ -27,7 +27,7 @@ The text content required for the button in the pop-up window, select the corres
 * Remarks are only displayed in the survey system backend and are not shown to the respondents.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 3】Save and Deliver
 

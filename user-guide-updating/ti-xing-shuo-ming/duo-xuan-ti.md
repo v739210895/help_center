@@ -44,7 +44,7 @@ After enabling, a fill-in-the-blank box will be added behind the choices. When t
 
 In multiple-choice questions, the number of options a user can select for a single question can be limited.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -58,7 +58,7 @@ In the question editing state, you can set the choices to be displayed in column
 
 Mutually exclusive choices in a multiple-choice question refer to designating a specific choice as mutually exclusive. If a user selects any of the options set as mutually exclusive while answering, they cannot select any other choices.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

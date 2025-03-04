@@ -2,7 +2,7 @@
 
 Matrix single choice list multiple questions or choice in a matrix format, and visitors need to select one answer for each question.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 Create New Matrix Single Choice Question
 
@@ -80,13 +80,9 @@ In the question editing state, you can set the questions in a matrix single-choi
 
 Question randomization refers to the questions in the matrix single-choice question appearing in a random order when answering. After enabling the "question randomization" feature, a non-random checkbox will appear on the right side of each question. If you want a particular question to remain in its current position, you can check the "non-random" box next to it, and that question will not be included in the randomization.
 
-![问题随机排序](../../.gitbook/assets/Snipaste_2023-10-13_15-58-43.png)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-### Questions in random forward and reverse order
 
-Random forward/reverse order of questions means that the questions in the matrix single-choice question appear in a random forward or reverse order when answering. After enabling the "Random forward/reverse order of questions" function, a "Fix the last question" function switch will appear below it. If you want to fix the last question in its current position, you can enable the "Fix the last question" function, so that the last question will not participate in the random forward/reverse order when displayed on the answering end.
-
-![问题随机正逆序](../../.gitbook/assets/Snipaste_2023-10-13_15-59-39.png)
 
 ###
 
