@@ -201,3 +201,6 @@
     * [Parameter Transfer Interface (Non-Verification Mode)](user-guide-updating/api-wen-dang/parameter-transfer-interface-no-verification-mode.md)
     * [Callback Interface](user-guide-updating/api-wen-dang/callback-interface.md)
     * [AMS Awards](user-guide-updating/api-wen-dang/idip-fa-jiang.md)
+    * [Open API (for Answering Client)](user-guide-updating/api-wen-dang/open-api-for-answering-client/README.md)
+      * [Signature Algorithm](user-guide-updating/api-wen-dang/open-api-for-answering-client/signature-algorithm.md)
+      * [Available APIs](user-guide-updating/api-wen-dang/open-api-for-answering-client/available-apis.md)
