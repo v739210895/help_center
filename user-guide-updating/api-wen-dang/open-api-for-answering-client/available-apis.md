@@ -6,6 +6,8 @@ description: 'Request URL:  https://user.outweisurvey.com'
 
 ## 1. **Get Answer Details by User ID**
 
+Returns the latest answer record submitted by the user for the survey.
+
 **API Endpoint**
 
 `{URL}/open/api/answers/{sid}`

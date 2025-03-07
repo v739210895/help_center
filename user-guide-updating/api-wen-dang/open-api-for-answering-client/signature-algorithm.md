@@ -73,7 +73,6 @@ func main() {
 	// Example parameters
 	params := map[string]string{
 		"sid":               "67c6a30e2797730bf50d0972",
-		"uid":	             "xxxxx",
 		"timestamp":         "1741071430",
 		"algorithm_version": "v2",
 	}
@@ -93,3 +92,6 @@ func main() {
 
 
 
+### 4. Signature Verification
+
+On this page: [https://test.a.imur.tencent.com/static/tools-out/#/open\_api](https://test.a.imur.tencent.com/static/tools-out/#/open_api), you can enter the required parameters to generate your signature, which is used to verify that your algorithm is consistent with ours.
