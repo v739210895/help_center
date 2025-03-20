@@ -4,7 +4,7 @@
 
 ![登录态获取](<../../.gitbook/assets/image (367).png>)
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 微信、QQ登录
 

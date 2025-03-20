@@ -24,7 +24,7 @@
 
 ![编辑页内的信息栏显示](<../.gitbook/assets/image (613).png>)
 
-![答题端中的信息栏显示](<../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![答题端中的信息栏显示](<../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 {% hint style="warning" %}
 1. 信息栏不设题号，不参与题号排序

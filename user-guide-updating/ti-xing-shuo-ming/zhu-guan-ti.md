@@ -26,7 +26,7 @@ After turning off the "Required" function in the right panel, this question can 
 All questions have the "mandatory" function enabled by default.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Answer box size
 
@@ -52,7 +52,7 @@ The length of the answers to subjective questions can be limited. Once set succe
 If the "Fill in at least" and "Fill in at most" input fields are empty, no restrictions will be set.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Editor page and survey response interface
 
