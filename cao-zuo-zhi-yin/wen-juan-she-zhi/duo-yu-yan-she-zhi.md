@@ -9,7 +9,51 @@
 
 **多语言功能使用可通过**<mark style="color:red;">**线上创建多语言问卷**</mark>**或**<mark style="color:red;">**Excel导入**</mark>**使用**
 
-### Excel 导入
+### **线上创建多语言问卷**
+
+**【step1】** 点击创建问卷，添加题目进行逻辑设置等操作
+
+<figure><img src="../../.gitbook/assets/image (1011).png" alt=""><figcaption><p>创建问卷</p></figcaption></figure>
+
+添加题目编辑问卷
+
+<figure><img src="../../.gitbook/assets/image (1012).png" alt=""><figcaption></figcaption></figure>
+
+【step2】进入多语言设置，选择中文简体或者英文作为该问卷的主语言
+
+（主语言为您在编辑页面编辑的问卷文案语言，您可在下拉列表中选择，选择后不可修改）
+
+<figure><img src="../../.gitbook/assets/image (1014).png" alt=""><figcaption></figcaption></figure>
+
+【step3】点击添加语言，选择您需要上传的语言
+
+<figure><img src="../../.gitbook/assets/image (1015).png" alt=""><figcaption></figcaption></figure>
+
+勾选后确认下载，将导出对应的语言模版翻译文件
+
+<figure><img src="../../.gitbook/assets/image (1017).png" alt=""><figcaption></figcaption></figure>
+
+【step4】 打开翻译文件A列为下载的翻译编码，B列为主语言文案，C列为翻译语言代码
+
+{% hint style="info" %}
+<mark style="color:red;">1.请勿删除A/B列内容</mark>
+
+<mark style="color:red;">2.C列首行为对应语言代码，请勿删除</mark>
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (1020).png" alt=""><figcaption></figcaption></figure>
+
+您需要将翻译文案一对一填充在C列，若有多个语言，则对应填写多列即可
+
+<figure><img src="../../.gitbook/assets/image (1019).png" alt=""><figcaption></figcaption></figure>
+
+【step5】 上传翻译后的文件到问卷系统
+
+<figure><img src="../../.gitbook/assets/image (1021).png" alt=""><figcaption></figcaption></figure>
+
+【】
+
+Excel 导入
 
 【step1】 点击excel导入，进入单问卷多语言导入
 
@@ -63,7 +107,7 @@
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-### **线上创建多语言**
+###
 
 
 
