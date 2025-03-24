@@ -21,15 +21,19 @@
 
 【step2】进入多语言设置，选择中文简体或者英文作为该问卷的主语言
 
-（主语言为您在编辑页面编辑的问卷文案语言，您可在下拉列表中选择，选择后不可修改）
+{% hint style="info" %}
+主语言为您在问卷编辑页面的文案语言，因系统不支持自动识别文案为中文或者英文，所以您可在下拉列表中选择中文简体或者英文作为主语言，选择后不可修改；
 
-<figure><img src="../../.gitbook/assets/image (1014).png" alt=""><figcaption></figcaption></figure>
+主语言主要作用为该问卷编辑语言做一个标识，进行双语对照
+{% endhint %}
 
-【step3】点击添加语言，选择您需要上传的语言
+<figure><img src="../../.gitbook/assets/image (1029).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1015).png" alt=""><figcaption></figcaption></figure>
 
-勾选后确认下载，将导出对应的语言模版翻译文件
+
+【step3】点击添加语言，选择您需要上传的语言，勾选后确认下载，将导出对应的语言模版翻译文件
+
+
 
 <figure><img src="../../.gitbook/assets/image (1017).png" alt=""><figcaption></figcaption></figure>
 
@@ -38,7 +42,7 @@
 {% hint style="info" %}
 <mark style="color:red;">1.请勿删除A/B列内容</mark>
 
-<mark style="color:red;">2.C列首行为对应语言代码，请勿删除</mark>
+<mark style="color:red;">2.首行为对应语言代码，请勿删除</mark>
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (1020).png" alt=""><figcaption></figcaption></figure>
@@ -51,9 +55,35 @@
 
 <figure><img src="../../.gitbook/assets/image (1021).png" alt=""><figcaption></figcaption></figure>
 
-【】
+【step6】上传成功后，若缺少翻译会弹出提示，进入双语对照页面进行补充即可
 
-Excel 导入
+<figure><img src="../../.gitbook/assets/image (1023).png" alt=""><figcaption></figcaption></figure>
+
+可在翻译语言列进行文案补充，主语言不可编辑
+
+<figure><img src="../../.gitbook/assets/image (1024).png" alt=""><figcaption><p>进入双语对照页面补充翻译</p></figcaption></figure>
+
+检查无误后即可投放问卷，右上角可切换答题语言
+
+<figure><img src="../../.gitbook/assets/image (1025).png" alt=""><figcaption><p>PC端答题显示</p></figcaption></figure>
+
+<div align="left"><figure><img src="../../.gitbook/assets/24f5f0af859ea77a8a387fce02752af.jpg" alt="" width="188"><figcaption><p>移动端答题效果</p></figcaption></figure></div>
+
+【step7】回收问卷后统计数据可进行答题语言的筛选
+
+<figure><img src="../../.gitbook/assets/image (1026).png" alt=""><figcaption><p>统计图表语言筛选</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1027).png" alt=""><figcaption><p>答题数据语言筛选</p></figcaption></figure>
+
+【step8】导出答题数据后可在答题语言列查看语言
+
+{% hint style="info" %}
+注意：答题语言是以答题者点击提交问卷按钮时的语言统计，例如点击提交按钮时是英文，那么回收数据显示该条答题数据为英文
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (1028).png" alt=""><figcaption></figcaption></figure>
+
+### Excel 导入
 
 【step1】 点击excel导入，进入单问卷多语言导入
 
@@ -107,7 +137,19 @@ Excel 导入
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-###
+【step7】回收问卷后统计数据可进行答题语言的筛选
+
+<figure><img src="../../.gitbook/assets/image (1026).png" alt=""><figcaption><p>统计图表语言筛选</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1027).png" alt=""><figcaption><p>答题数据语言筛选</p></figcaption></figure>
+
+【step8】导出答题数据后可在答题语言列查看语言
+
+{% hint style="info" %}
+注意：答题语言是以答题者点击提交问卷按钮时的语言统计，例如点击提交按钮时是英文，那么回收数据显示该条答题数据为英文
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (1028).png" alt=""><figcaption></figcaption></figure>
 
 
 
