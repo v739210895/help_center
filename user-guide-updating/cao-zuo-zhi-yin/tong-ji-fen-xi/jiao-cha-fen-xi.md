@@ -21,4 +21,4 @@ In the settings panel on the left, select the questions to be used as row header
 
 ## 【STEP 3】Generate a crosstab
 
-<figure><img src="../../../.gitbook/assets/image (19) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

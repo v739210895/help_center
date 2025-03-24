@@ -5,9 +5,21 @@ description: >-
   marked as invalid due to quota. For example,
 ---
 
-# 🆕 Quota Settings
+# Quota Settings
 
 Quota settings only support single-choice questions, multiple-choice questions, and linked questions (requires address import)
+
+
+
+{% hint style="info" %}
+In development:&#x20;
+
+1.Limiting quotas based on total survey responses only, without setting quotas for individual questions.
+
+2.After selecting the full amount option, it will redirect to the end page.
+
+
+{% endhint %}
 
 ### 【STEP 1】Add Channel
 

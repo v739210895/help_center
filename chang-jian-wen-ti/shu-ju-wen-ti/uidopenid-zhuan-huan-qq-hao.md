@@ -16,7 +16,7 @@ openid转QQ号，使用统一登录平台：[https://qqlogin.woa.com/](https://q
 
 QQ号/微信号转openid，使用业务受理系统：[http://ptzh.sap.cm.com/ajax/ajax.html](http://ptzh.sap.cm.com/ajax/ajax.html)
 
-![业务受理系统可以进行QQ号/微信号转openid的操作](<../../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![业务受理系统可以进行QQ号/微信号转openid的操作](<../../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ### QQ号批量转换为gopenid
 
@@ -24,13 +24,13 @@ QQ号批量转换为gopenid（具备映射关系），使用GACC统一账号平�
 
 咨询人：GACC助手
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Step1：登入GACC系统后先申请权限，联系GACC助手通过申请</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Step1：登入GACC系统后先申请权限，联系GACC助手通过申请</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Step2：权限通过后按要求上传待转换的qq号文件</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Step2：权限通过后按要求上传待转换的qq号文件</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Step3：通过平台离线任务，数据导出后有三列，分别为：QQ、openid、gopenid</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Step3：通过平台离线任务，数据导出后有三列，分别为：QQ、openid、gopenid</p></figcaption></figure>
 
 附录    openid是什么：应用内用户身份的唯一标识
 
