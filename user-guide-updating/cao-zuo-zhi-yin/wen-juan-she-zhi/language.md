@@ -86,62 +86,61 @@ Note: The language of the responses is recorded based on the language at the tim
 
 <figure><img src="../../../.gitbook/assets/image (1030).png" alt=""><figcaption></figcaption></figure>
 
-【step2】 可下载多语言导入模板或直接参考模版进行excel编辑
+【step2】You can download the multilingual import template or directly refer to the template for Excel editing.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1031).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1032).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-注意：上传问卷时需严格按照模版要求上传对应语言代码以及相关题型
+Note:
 
-与原始问卷导入格式一致，只需额外增加一行语言代码，具体语言对应代码可在系统内查看
+1. When uploading the survey, you must strictly follow the template requirements to upload the corresponding language code and related question types.
+2. Consistent with the original survey import format, just add an extra line for the language code. The specific language corresponding codes can be viewed within the system.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1033).png" alt=""><figcaption></figcaption></figure>
 
-【step3】 线下excel编辑完成后，点击上传即可自动识别多语言问卷
+【step3】 After completing the offline Excel editing, click upload to automatically recognize the multi-language survey.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1034).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1035).png" alt=""><figcaption></figcaption></figure>
 
-【step4】 导入成功后，D列内容显示在问卷内，可进行逻辑设置等操作
+【step4】 After the import is successful, the content of column D will be displayed in the survey, and you can perform logic settings and other operations.
 
-<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1036).png" alt=""><figcaption></figcaption></figure>
 
-【step5】进入多语言设置，即可查看导入成功的翻译语言
+【step5】Go to the multilingual settings to see the successfully imported translation languages.
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1037).png" alt=""><figcaption></figcaption></figure>
 
-点击对照翻译可对翻译语言进行修改或补充
+Click to comparison translation and modify or supplement the translation language.
 
-<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1038).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1040).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1041).png" alt=""><figcaption></figcaption></figure>
 
-系统默认根据用户答题设备匹配对应语言，当无法匹配投放语言时，显示该指定语言
+Default Language: The system automatically matches the corresponding language based on the user's device. When the matching language is not available, the specified language will be displayed.
 
-<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1042).png" alt=""><figcaption></figcaption></figure>
 
-【step6】开始回收后，答题端会根据答题者设备匹配对应语言问卷，并支持答题切换
+【step6】After the recycling starts, the answering end will match the corresponding language survey according to the respondent's device and support switching between answers.
 
-<figure><img src="../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1043).png" alt=""><figcaption></figcaption></figure>
 
-【step7】回收问卷后统计数据可进行答题语言的筛选
+【step7】After collecting the survey, the data can be used to filter the answering language.
 
-<figure><img src="../../../.gitbook/assets/image (1026).png" alt=""><figcaption><p>统计图表语言筛选</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1027).png" alt=""><figcaption><p>答题数据语言筛选</p></figcaption></figure>
-
-【step8】导出答题数据后可在答题语言列查看语言
+【step8】After exporting the survey response data, you can check the language in the response language column.
 
 {% hint style="info" %}
-注意：答题语言是以答题者点击提交问卷按钮时的语言统计，例如点击提交按钮时是英文，那么回收数据显示该条答题数据为英文
+Note: The language of the responses is recorded based on the language at the time the respondent clicks the submit survey button. For example, if the submit button is clicked in English, the collected response data will be recorded as English.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (1028).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
