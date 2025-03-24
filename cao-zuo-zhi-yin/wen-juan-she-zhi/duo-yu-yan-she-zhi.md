@@ -7,7 +7,7 @@
 
 3、只需对主语言问卷设置逻辑、选项设置，其他语言将同步显示，告别多问卷重复设置
 
-**多语言功能使用可通过**<mark style="color:red;">**Excel导入**</mark>**或**<mark style="color:red;">**线上创建多语言问卷**</mark>**使用**
+**多语言功能使用可通过**<mark style="color:red;">**线上创建多语言问卷**</mark>**或**<mark style="color:red;">**Excel导入**</mark>**使用**
 
 ### Excel 导入
 
