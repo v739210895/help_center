@@ -25,25 +25,25 @@ In development:&#x20;
 
 After entering the quota settings, you can first add distribution channels and set quotas for the data collected from each channel (if you do not want to differentiate by channel, simply click next).
 
-<figure><img src="../../../.gitbook/assets/image (825).png" alt=""><figcaption><p>Add Channel</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1044).png" alt=""><figcaption></figcaption></figure>
 
-### 【STEP 2】Set Quota Questions
+【STEP 2】Set Quota Questions
 
 Drag the questions from the list on the left to the quota questions on the right to generate a quota.
 
-<figure><img src="../../../.gitbook/assets/image (828).png" alt=""><figcaption><p>Add quota question</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1045).png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 3】Set quota amount
 
 Set the quota amount for each option, with the default being 0 for no quota limit.
 
-<figure><img src="../../../.gitbook/assets/image (829).png" alt=""><figcaption><p>Set quota quantity</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1046).png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 4】Check quota progress
 
 After collecting the surveys, you can directly check the quota completion status on the current page.
 
-<figure><img src="../../../.gitbook/assets/image (830).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1047).png" alt=""><figcaption></figcaption></figure>
 
 ### Set cross quotas
 
@@ -59,14 +59,14 @@ Once the number of valid surveys reaches the preset value, the collection will a
 It is possible to set a valid survey response volume for each distribution channel separately. Once the valid survey response volume limit is reached for a channel, the link for that channel will automatically pause the collection of responses, while other channels will continue to collect surveys normally.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (23) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1048).png" alt=""><figcaption></figcaption></figure>
 
 ### Add variable
 
 Support custom variables, i.e., recombine question fields to generate new variables. The newly generated variables can participate in quotas or generate cross-quotas with other questions.
 
-<figure><img src="../../../.gitbook/assets/image (832).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1049).png" alt=""><figcaption></figcaption></figure>
 
 After successfully adding, a new variable question will be generated below the question list, and you can drag it to participate in the quota.
 
-<figure><img src="../../../.gitbook/assets/image (833).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1050).png" alt=""><figcaption></figcaption></figure>
