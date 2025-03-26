@@ -90,8 +90,6 @@ Note: The language of the responses is recorded based on the language at the tim
 
 <figure><img src="../../../.gitbook/assets/image (1031).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../../../.gitbook/assets/image (1032).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
