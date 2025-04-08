@@ -12,11 +12,13 @@ The survey can be edited in advance in EXCEL, including: basic survey informatio
 
 ## 【STEP 2】Import survey
 
-On the survey creation page, click the "Survey Auto Import" button to enter the import page, and upload the edited EXCEL file.
+On the  home page, click the "Excel Import" button to enter the import page, and choice Single-survey or Multi-survey import.
 
 <figure><img src="../../../.gitbook/assets/image (844).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (845).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1062).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1064).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】Confirm basic information
 

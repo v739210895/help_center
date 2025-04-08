@@ -50,7 +50,7 @@ You need to fill in the translated text one-to-one in column C. If there are mul
 
 【step6】After the upload is successful, if there are missing translations, a prompt will pop up. You can then enter the bilingual comparison page to complete the translations.
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1057).png" alt=""><figcaption></figcaption></figure>
 
 You can add text in the translation language column, but the main language cannot be edited.
 
@@ -84,7 +84,7 @@ Note: The language of the responses is recorded based on the language at the tim
 
 <figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1030).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1060).png" alt=""><figcaption></figcaption></figure>
 
 【step2】You can download the multilingual import template or directly refer to the template for Excel editing.
 
@@ -113,11 +113,11 @@ Note:
 
 【step5】Go to the multilingual settings to see the successfully imported translation languages.
 
-<figure><img src="../../../.gitbook/assets/image (1037).png" alt=""><figcaption></figcaption></figure>
+
 
 Click to comparison translation and modify or supplement the translation language.
 
-<figure><img src="../../../.gitbook/assets/image (1038).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1061).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (1040).png" alt=""><figcaption></figcaption></figure>
 
@@ -125,7 +125,7 @@ Click to comparison translation and modify or supplement the translation languag
 
 Default Language: The system automatically matches the corresponding language based on the user's device. When the matching language is not available, the specified language will be displayed.
 
-<figure><img src="../../../.gitbook/assets/image (1042).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1059).png" alt=""><figcaption></figcaption></figure>
 
 【step6】After the recycling starts, the answering end will match the corresponding language survey according to the respondent's device and support switching between answers.
 

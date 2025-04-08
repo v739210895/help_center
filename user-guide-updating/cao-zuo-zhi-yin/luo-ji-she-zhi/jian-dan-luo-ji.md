@@ -35,7 +35,7 @@ Default: Display the next page in the set default order
 
 End page (normal end): After selecting the specified option, the respondent will jump to the end page when clicking the next page, and the survey data will be normally collected.
 
-End page (abnormal termination, data not collected): After selecting the specified option, the respondent will be directed to the end page when clicking next, and the survey data will not be collected.
+End page (abnormal termination, data not collection): After selecting the specified option, the respondent will be directed to the end page when clicking next, and the survey data will not be collected.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1068).png" alt=""><figcaption></figcaption></figure>

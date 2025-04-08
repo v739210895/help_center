@@ -1,8 +1,8 @@
-# Create a blank survey
+# Create a survey from scratch
 
-### &#x20;Creating a Blank Survey
+### Create a survey from scratch
 
-Creating a blank survey means directly creating a survey without any question information. By clicking the "Create Blank Survey" button, you can create a blank survey, and simultaneously edit the survey content and settings.
+Create a survey from scratch means directly creating a survey without any question information. By clicking the "Create  Survey" button, you can create a blank survey, and simultaneously edit the survey content and settings.
 
 ![](<../../.gitbook/assets/image (836).png>)
 
