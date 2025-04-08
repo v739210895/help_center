@@ -55,7 +55,7 @@ Set the display conditions for the combination logic rules, including the questi
 {% hint style="info" %}
 Single choice , multiple choice , dropdown , scale , and matrix single choice  can have conditions set, including whether the question is displayed and whether specified choices are selected or not selected.
 
-Subjective questions, information fields, and linked questions can have conditions set, including whether the question is displayed.
+Text entry, information bar, and  multi level linkagecan have conditions set, including whether the question is displayed.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
