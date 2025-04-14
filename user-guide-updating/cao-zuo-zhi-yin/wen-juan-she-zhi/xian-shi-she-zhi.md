@@ -6,17 +6,17 @@ In the "Display Settings" section of the "Survey Settings," you can configure th
 
 This feature is enabled by default. When turned off, the survey interface will not display question numbers.
 
-<figure><img src="../../../.gitbook/assets/image (992).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (994).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (995).png" alt=""><figcaption></figcaption></figure>
 
-### Show Previous Page Button
+### Back button&#x20;
 
 The ability to go back during the answering process means displaying a back button for the previous page on the answering end. This feature is turned off by default, so the back button for the previous page is not displayed on the answering end. Once enabled, a back button for the previous page will be added at the bottom of the page.
 
-<figure><img src="../../../.gitbook/assets/image (993).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (996).png" alt=""><figcaption></figcaption></figure>
 
@@ -26,13 +26,13 @@ The ability to go back during the answering process means displaying a back butt
 
 The survey provides a local answer caching mechanism. When this feature is enabled, if the respondent exits midway through the survey, they can choose to continue answering or start over when they revisit the survey.
 
-<figure><img src="../../../.gitbook/assets/image (998).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 ### Submit answers in sections
 
 After enabling, you can set to submit completed answers after a specified page. This feature needs to be used in conjunction with enabling "login verification" or "whitelist survey restriction".
 
-<figure><img src="../../../.gitbook/assets/image (999).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 ### View answers after completing the survey
 

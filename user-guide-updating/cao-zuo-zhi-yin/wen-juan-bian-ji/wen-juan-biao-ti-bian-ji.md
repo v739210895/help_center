@@ -2,7 +2,7 @@
 
 ### Edit survey title text content
 
-On the greeting, click on the survey title edit box to modify the survey title text. After editing, click on a blank area to
+On the welcome page, click on the survey title edit box to modify the survey title text. After editing, click on a blank area to
 
 Keep the survey title under 50 characters.
 

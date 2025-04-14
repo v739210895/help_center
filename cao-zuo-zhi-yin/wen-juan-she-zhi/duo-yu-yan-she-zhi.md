@@ -13,7 +13,7 @@
 
 **【step1】** 点击创建问卷，添加题目进行逻辑设置等操作
 
-<figure><img src="../../.gitbook/assets/image (1011).png" alt=""><figcaption><p>创建问卷</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1011) (1).png" alt=""><figcaption><p>创建问卷</p></figcaption></figure>
 
 添加题目编辑问卷
 
@@ -85,7 +85,7 @@
 
 【step1】 点击excel导入，进入单问卷多语言导入
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 

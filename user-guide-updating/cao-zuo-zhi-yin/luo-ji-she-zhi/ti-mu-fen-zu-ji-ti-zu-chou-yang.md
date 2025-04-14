@@ -8,9 +8,7 @@ The survey system supports grouping survey questions, dividing the questions int
 
 In "Logic" - "Question Grouping", click "Add Group" in the top right corner to create a new question group.
 
-<figure><img src="../../../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 2 Move the question into the group
 
@@ -18,18 +16,18 @@ Check the questions in the "Question Outline" on the left, then click the ">" bu
 
 {% hint style="info" %}
 1. A question can only be assigned to one group.
-2. Matrix single-choice questions/matrix multiple-choice questions/matrix scale questions can only be grouped as a whole.
+2. Matrix single-choice /matrix multiple-choice /matrix scale  can only be grouped as a whole.
 3. Support displaying only grouped survey questions in a fixed order, while ungrouped questions are displayed in a fixed sequence.
 4. For questions within/outside the question group, the logic settings still apply. The questions will only be displayed if the logic conditions are met.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (16) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 3 Grouping completed, save
 
 After dividing the required items into multiple groups as per Step 2, click "Save" in the top
 
-<figure><img src="../../../.gitbook/assets/image (17) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -39,7 +37,7 @@ After grouping the questions, it supports setting a random sampling number for t
 
 The sampling mechanism is automatically performed by the system. As the number of survey responses increases, the distribution of each sample group becomes more even.
 
-<figure><img src="../../../.gitbook/assets/image (18) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 \*\*Special Instructions\*\*
 
@@ -55,7 +53,6 @@ To test and check the question sampling, please switch browsers or clear the cur
 
 In "combination logic," you can set logical display conditions for specified question groups. Only when these conditions are met will the specified question groups be displayed normally or enter the random sampling range.
 
-<figure><img src="../../../.gitbook/assets/image (19) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (20) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>

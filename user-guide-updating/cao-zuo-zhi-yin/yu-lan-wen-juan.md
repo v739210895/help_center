@@ -12,9 +12,9 @@ To facilitate the inspection of question visibility, the preview page supports t
 Switching the question number type only takes effect on the preview page and does not affect the display of question numbers on the answering end.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Answer data is not recorded in preview mode.
@@ -24,7 +24,7 @@ Answer data is not recorded in preview mode.
 
 The system provides a preview link that can be viewed externally. On the preview page, click the "Copy Preview Link" button at the top right corner to generate it.
 
-<figure><img src="../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Frequently Asked Questions
 

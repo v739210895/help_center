@@ -32,7 +32,7 @@ In the question editing state, you can set fill-in-the-blank boxes for specified
 Options linked from previous questions do not support setting fill-in-the-blank.
 {% endhint %}
 
-### Specify option to set fill-in-the-blank box
+### Specify choice to set fill-in-the-blank box
 
 ### 【STEP 1】Enable fill-in-the-blank setting
 

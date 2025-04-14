@@ -10,7 +10,7 @@ The survey supports adjusting the appearance of the answering interface, meeting
 
 The main color scheme of the survey, including the start/submit/previous/next buttons, answer progress, selected choice status, and other colors.
 
-<figure><img src="../../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Background color
 

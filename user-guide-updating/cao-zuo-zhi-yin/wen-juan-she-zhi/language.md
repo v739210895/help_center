@@ -13,15 +13,15 @@
 
 **【step1】** Click to create a survey, add questions, and perform logical settings and other operations.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1011).png" alt=""><figcaption></figcaption></figure>
 
 Add Question Editing Survey
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 【step2】Enter the multilingual settings and select Simplified Chinese or English as the primary language for the survey.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The primary language is the language of the text on your survey editing page. You can select either Simplified Chinese or English as the primary language from the dropdown list. Once selected, it cannot be changed.
@@ -29,7 +29,7 @@ The primary language is the language of the text on your survey editing page. Yo
 
 【step3】Click to add  language, select the language you need to upload, check the box and confirm the download, and the corresponding translation file will be exported.
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 【step4】 Open the translation file with column A as the downloaded translation code, column B as the main language text, and column C as the translation language code.
 
@@ -38,15 +38,15 @@ The primary language is the language of the text on your survey editing page. Yo
 2. Please do not delete the first line language code.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 You need to fill in the translated text one-to-one in column C. If there are multiple languages, fill in the corresponding columns accordingly.
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 【step5】 Upload the translated file to the survey system
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (3).png" alt=""><figcaption></figcaption></figure>
 
 【step6】After the upload is successful, if there are missing translations, a prompt will pop up. You can then enter the bilingual comparison page to complete the translations.
 
@@ -54,21 +54,21 @@ You need to fill in the translated text one-to-one in column C. If there are mul
 
 You can add text in the translation language column, but the main language cannot be edited.
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
 
 Once verified, the survey can be launched. The language for answering can be switched in the top right corner.
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
 【step7】After collecting the survey, the data can be used to filter the answering language.
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
 【step8】After exporting the survey response data, you can check the language in the response language column.
 
@@ -76,13 +76,13 @@ Once verified, the survey can be launched. The language for answering can be swi
 Note: The language of the responses is recorded based on the language at the time the respondent clicks the submit survey button. For example, if the submit button is clicked in English, the collected response data will be recorded as English.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Excel Import
 
 【step1】 Click on Excel import to enter the single survey multi-language import.
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (1060).png" alt=""><figcaption></figcaption></figure>
 
@@ -133,7 +133,7 @@ Default Language: The system automatically matches the corresponding language ba
 
 【step7】After collecting the survey, the data can be used to filter the answering language.
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
 【step8】After exporting the survey response data, you can check the language in the response language column.
 
@@ -141,4 +141,4 @@ Default Language: The system automatically matches the corresponding language ba
 Note: The language of the responses is recorded based on the language at the time the respondent clicks the submit survey button. For example, if the submit button is clicked in English, the collected response data will be recorded as English.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>

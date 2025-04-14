@@ -8,15 +8,15 @@ Choices linked from the previous question do not support randomization.
 
 ### Randomize choices
 
-Random choice order means that the choices in a question appear in a random order when answering. After enabling the "Random choice order" feature, a checkbox labeled "Not random" will appear on the right side of each choice. If you want a specific choice to remain in its current position, you can check "Not random" next to it, and that choice will not be included in the random order.
+Randomize choices means that the choices in a question appear in a random order when answering. After enabling the "Randomize choices" feature, a checkbox labeled "Not random" will appear on the right side of each choice. If you want a specific choice to remain in its current position, you can check "Not random" next to it, and that choice will not be included in the random order.
 
-<figure><img src="../../../../.gitbook/assets/image (899).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-### Randomize choices
+### Choices in ascending or descending order
 
-Random forward and reverse order of choices refers to the choices in the question appearing in a random forward or reverse order when answering. After enabling the "Random forward and reverse order of choices" feature, a "Fix the last choice" toggle will appear below it. If you wish to keep the last choice fixed in its current position, you can enable the "Fix the last choice" feature, and the last choice will not participate in the random forward and reverse order when displayed on the answering end.
+Choices in ascending or descending order means refers to the choices in the question appearing in a random forward or reverse order when answering. After enabling the "Choices in ascending or descending order" feature, a "Fix the last choice" toggle will appear below it. If you wish to keep the last choice fixed in its current position, you can enable the "Fix the last choice" feature, and the last choice will not participate in the random forward and reverse order when displayed on the answering end.
 
-<figure><img src="../../../../.gitbook/assets/image (900).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ### Grouped display of choices
 
@@ -24,7 +24,7 @@ Random forward and reverse order of choices refers to the choices in the questio
 
 ### 【STEP 1】Enable the Feature
 
-After enabling the "Choice Group Display" feature, a "Settings" button will appear below the "Choice Group Display" feature. Click it to display the choice group display settings popup.
+After enabling the "Grouped display of choices" feature, a "Settings" button will appear below the "Grouped display of choices" feature. Click it to display the choice group display settings popup.
 
 <figure><img src="../../../../.gitbook/assets/image (1069).png" alt=""><figcaption></figcaption></figure>
 
@@ -42,7 +42,9 @@ Check the choices within the group, click the button on the left side of the gro
 
 <figure><img src="../../../../.gitbook/assets/image (1072).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../../../.gitbook/assets/image (1073).png>)【STEP 3】Set the number of display choices
+![](<../../../../.gitbook/assets/image (1073).png>)
+
+【STEP 3】Set the number of display choices
 
 Above each group, you can set the number of options to be randomly displayed for that group. After setting, X choices will be randomly selected within the group and displayed in random order during the survey.
 

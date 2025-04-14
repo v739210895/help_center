@@ -1,8 +1,8 @@
 # Project Settings
 
-In the "settings" under "Basic Settings," you can complete the project information, including the  product, survey owner, survey participant, survey creator, and prompt language.etc
+In the "settings" under "Basic Settings," you can complete the project information, including the  product, survey owner, surveycollaborators , survey creator, and prompt language.etc
 
-<figure><img src="../../../.gitbook/assets/image (21) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 1. Before the survey is first collected/submitted for review, the information of the  product and the owner needs to be completed.
@@ -16,33 +16,24 @@ The owner, also known as the other administrators of this survey, has the highes
 
 On the "Settings" page, you can designate the owner of a specific survey. After entering the user's RTX account or name in the input box, it will automatically search for matching users. Once selected, the person in charge will be successfully set.
 
-{% hint style="info" %}
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
+### Set  collaborators
 
-1. The owner input box supports fuzzy search.
-2. Only the research manager can be designated as the survey leader.
-3. Each survey can have multiple persons in charge, with at least one owner being mandatory.
-4. If multiple users edit/set the same survey simultaneously, the content of the last saved survey will prevail.
-{% endhint %}
-
-<figure><img src="../../../.gitbook/assets/image (988).png" alt=""><figcaption></figcaption></figure>
-
-### Set  participant
-
-The participants  is the regular user of this survey, supporting the assignment of specific permissions to the focus person. This survey will appear in their "My Surveys" list, enabling collaborative editing and management of the survey.
+The  collaborators  is the regular user of this survey, supporting the assignment of specific permissions to the focus person. This survey will appear in their "My Surveys" list, enabling collaborative editing and management of the survey.
 
 {% hint style="danger" %}
-1. Only the survey administrator can add followers and assign permissions to them.
+1. Only the survey owner can add  collaborators and assign permissions to them.
 2. To avoid sensitive data leakage, please be cautious when assigning "survey data" and "export data" permissions.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (990).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 ### Prompt language
 
 The prompt language refers to the language used for prompts displayed on the answering interface. The default is Simplified Chinese, but other languages can be set according to actual needs.
 
-<figure><img src="../../../.gitbook/assets/image (991).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 Supported Languages:
 

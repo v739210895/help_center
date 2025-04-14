@@ -38,13 +38,13 @@ In matrix multiple-choice , the number of options a user can select for the same
 
 In a matrix multiple-choice , mutually exclusive choices refer to designating a certain choice as an exclusive item. If the user selects this exclusive choice while answering, they cannot select any other choices for that question. Multiple exclusive choices can be set.
 
-<figure><img src="../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Choice Association
 
 Choice association allows the selected (or unselected) options to be displayed as options in this matrix single choice question. It is generally used in situations where two questions are highly relevant or for follow-up questions.
 
-<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
 [xuan-xiang-guan-lian.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
@@ -58,7 +58,7 @@ In the question editing state,choices can be set to random. Once successfully se
 
 Randomizing choices means that the choices in the question will appear in a random order when answering. After enabling the "Randomize choices" feature, a non-random checkbox will appear to the right of the choices. If you want a certain option to remain in its current position, you can check "Non-random" next to it, and that choice will not be included in the random sorting.
 
-<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Choices in random forward and reverse order
 

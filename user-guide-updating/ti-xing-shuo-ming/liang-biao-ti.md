@@ -14,7 +14,7 @@ On the survey editing page, you can create a new scale by selecting "Scale Quest
 
 The title, choices, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】Question and Choice Settings
 

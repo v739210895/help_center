@@ -52,13 +52,13 @@ description: 编辑问卷时上传一张图片，需要问卷答题者在这个�
 
 统计页可查看每个答题者在图片上的点击情况
 
-<figure><img src="../.gitbook/assets/image (19) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 查看统计图表
 
 1.在统计分析页中，位置完全一致的点会被合并，以热力图形式呈现，颜色越深，点击数越多，下方显示颜色对应点击数；
 
-<figure><img src="../.gitbook/assets/image (20) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2.点击全部导出可下载用户id、点选坐标，以及评论详情
 
@@ -66,8 +66,8 @@ description: 编辑问卷时上传一张图片，需要问卷答题者在这个�
 空代表答题者未对标记点评论
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (21) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>全部导出</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>全部导出</p></figcaption></figure>
 
 3.点击划区导出可以在热力图上选取需要导出数据的区域，做局部分析；（例如只想查看选中脸部的玩家答题详情，那么确认选区后会自动导出对应区域数据）
 
-<figure><img src="../.gitbook/assets/image (22) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

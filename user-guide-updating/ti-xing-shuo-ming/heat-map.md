@@ -67,7 +67,7 @@ When the choice for commenting is enabled, an input box corresponding to the mar
 Empty means the respondent did not comment on the marked point.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (21) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3.Click "Select Area to Export" to select the area on the heatmap from which you want to export data for local analysis. (For example, if you only want to view the quiz details of players who selected the face, the corresponding area data will be automatically exported after confirming the selection.)
 

@@ -1,6 +1,6 @@
 # Choice Carry-forward
 
-Choice Carry-forward  means that the selected (or unselected) options by the respondent will appear as options in the next question. This is generally used in cases where two questions are highly related or in follow-up questions.
+Choice Carry-forward  means that the selected (or unselected) choices by the respondent will appear as choices in the next question. This is generally used in cases where two questions are highly related or in follow-up questions.
 
 {% hint style="info" %}
 The choics linked from the previous question do not support setting fill-in-the-blank, mutual exclusivity, or randomization.
@@ -8,7 +8,7 @@ The choics linked from the previous question do not support setting fill-in-the-
 
 ### 【STEP 1】Display Settings Popup
 
-In the question editing state, click the "Settings" button next to "Choice Carry-forward" in the Question Setup panel on the right, and the choice association settings popup will appear.
+In the question editing state, click the "Settings" button next to "Choice Carry-forward" in the Question Setup panel on the right, and the Choice Carry-forward popup will appear.
 
 <figure><img src="../../../../.gitbook/assets/image (1051).png" alt=""><figcaption></figcaption></figure>
 

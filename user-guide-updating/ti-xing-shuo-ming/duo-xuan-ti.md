@@ -38,7 +38,7 @@ Single-choice , multiple-choice , and dropdown  can be freely switched. After sw
 
 After enabling, a fill-in-the-blank box will be added behind the choices. When the required choice is checked, users must fill in the content before they can submit. This is suitable for scenarios where users select "Other" and need to provide additional related information.
 
-<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Optional Range
 

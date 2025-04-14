@@ -1,6 +1,6 @@
 # Insert Image
 
-When editing the survey's welcome message, closing message, questions, notes, or options, the insert image function is supported.
+When editing the survey's welcome message, closing message, questions, notes, or choices, the insert image function is supported.
 
 {% hint style="info" %}
 1. The maximum upload limit for images is 5MB.

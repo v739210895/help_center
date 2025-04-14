@@ -4,13 +4,13 @@
 
 On the survey editing page, click the "+" tab in the pagination bar to add a new survey page at the end of the main survey page.
 
-<figure><img src="../../../.gitbook/assets/image (864).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### Delete survey page
 
 To delete a specific survey page, click the "x" delete button on the page tab. All questions and associated elements, such as logic, references, and settings on that page, will be deleted simultaneously.
 
-<figure><img src="../../../.gitbook/assets/image (865).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ### Survey Pagination
 
@@ -20,7 +20,7 @@ In the "Outline" control on the left side of the page, users can adjust the pagi
 Users can locate specific questions by clicking on the titles in the "Outline".
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (867).png" alt=""><figcaption></figcaption></figure>
+<div data-full-width="true"><figure><img src="../../../.gitbook/assets/image (867).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Adjust survey page order
 

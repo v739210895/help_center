@@ -54,9 +54,9 @@ Upon opening, add a fill-in-the-blank box after the choice, mark it as required,
 
 In the question editing state, you can set the choices to be displayed in columns. Once set, the answer interface will display the choices in columns according to the number of choices per row. In landscape mode, you can set 1 to 6 choices per row, and in portrait mode, you can set 1 to 3 choices per row. This is suitable for situations where there are many options and the choice text is not long.
 
-<figure><img src="../../.gitbook/assets/image (19) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Choices are random
 
@@ -66,19 +66,19 @@ In the question editing mode, choices can be set to random. Once set successfull
 
 Random choice ordering means that the choices in a question appear in a random order when answering. After enabling the "Random choice ordering" feature, a non-random checkbox will appear on the right side of the choices. If you want a specific option to remain in its current position, you can check "Non-random" next to it, and that choice will not participate in the random ordering.
 
-<figure><img src="../../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Choices in random forward and reverse order
 
 Random forward/reverse order of choices means that the choices in the question will randomly appear in forward or reverse order when answering. After enabling the "Random forward/reverse order of choices" feature, a "Fix the last choice" toggle will appear below the "Random forward/reverse order of choices" feature. If you want the last choice to remain in its current position, you can enable the "Fix the last choice" feature, and the last choice will not participate in the random forward/reverse order when displayed on the answering end.
 
-<figure><img src="../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Grouped display of options
 
 Choice grouping display refers to the free division of choices into multiple groups, where one or more choices from each group are randomly selected to be displayed during the survey. It also supports random sorting display between groups.
 
-<figure><img src="../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md" %}
 [xuan-xiang-sui-ji.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-sui-ji.md)
@@ -90,5 +90,5 @@ Choice grouping display refers to the free division of choices into multiple gro
 
 In the statistical analysis page, display the results of single-choice  in the form of subtotal + bar percentage.
 
-<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

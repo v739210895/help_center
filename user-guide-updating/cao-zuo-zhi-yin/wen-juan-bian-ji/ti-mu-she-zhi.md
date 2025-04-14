@@ -1,6 +1,6 @@
 # Survey Setup
 
-In the question editing mode, you can configure question settings in the 'Question Settings' panel on the right-hand side.
+In the question editing mode, you can configure question settings in the 'Question Setup' panel on the right-hand side.
 
 ### Required setting
 

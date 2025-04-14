@@ -36,7 +36,7 @@ Delete the row containing this Choices in the batch edit choices popup
 
 ### Drag and drop to reorder single-choice&#x20;
 
-In the question editing state, you can adjust the order of options by long-pressing and dragging when the mouse is hovered over the left side of the choice text box.
+In the question editing state, you can adjust the order of choices by long-pressing and dragging when the mouse is hovered over the left side of the choice text box.
 
 <figure><img src="../../../.gitbook/assets/image (885).png" alt=""><figcaption></figcaption></figure>
 

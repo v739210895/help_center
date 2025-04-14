@@ -1,66 +1,36 @@
 # Content citation
 
-When editing survey questions, notes, or choices, it supports referencing the selected items, unselected items, and fill-in-the-blank content of previous questions.
+<sup>**Content Citation**</sup>
 
-<figure><img src="../../../.gitbook/assets/image (911).png" alt=""><figcaption></figcaption></figure>
+* When editing survey questions, notes, or choices, it supports referencing the selected items, unselected items.
 
-### Set blockquote
-
-### 【STEP 1】Specify the position to insert the content reference
-
-In the survey editing mode, after clicking on the survey question, note, or choice text editing box, a rich text editor tool will expand in the upper left corner. Click on the "Quote Settings" icon in the rich text editor tool.
-
-<figure><img src="../../../.gitbook/assets/image (912).png" alt=""><figcaption></figcaption></figure>
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcwE0dyderif1hHlSqzpMe4i-Mw764qZmQb1A5ErXqSpCm4DkiYK18HHl5WkspTWScAOJmJHds6ChlgsrUukVjVucxj1ZESXFDsVLrJy6biN8oHFWeiJ3io3HE4wOEkh3Q3faO1HQ?key=i40UMTErvTT3WhfPNs7-0hqD)
 
 
 
-### 【STEP 2】Display Citation Settings Popup
+**【STEP 1】In the survey editing mode, after clicking on the survey question, note, or choice text, a rich text editor tool will appear. Click on the "Citation Settings" icon in the rich text editor tool.**
 
-After clicking the "Citation Settings" icon, the Citation Settings window will pop up, as shown in the figure below.
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe7tolXRc5Izx1n_6n9ml41-GNHaxHHkX_h0z77vsjyKN6ymwaRf5a9pyt4lShoQc-WjUzEBK-BJU9ONhs7BRDBt18cT17nVFsbsZAwhbMZ2HugL5T4s6zAFr1MbtKptrRhIPLA?key=i40UMTErvTT3WhfPNs7-0hqD)
 
-<figure><img src="../../../.gitbook/assets/image (916).png" alt=""><figcaption></figcaption></figure>
-
-
+\
 
 
+【STEP 2】Select the previous question to be referenced in the dropdown menu, then choose to reference the selected choice, unselected choice, or “fill-in-the-blank” item of that question. Place your mouse cursor where you want to cite previous content, then click "Insert" to automatically generate the identifier.(Only previous single-choice/multiple-choice /drop-down questions can be cited)
 
-### 【STEP 3】Specify the reference content
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd3xKqOt_Ugz4s5RjsKF9sWTDt9U4zUOeKWhF_TlRI9Cz5E_7MA9WZ7J9EqqMesIJlIBUPfKVxgHp_nNUi_Cs-0mdamRAQwjeyXb53E40APxf7h-z0_9U3Vz_T20zfFkDKLWtLt7A?key=i40UMTErvTT3WhfPNs7-0hqD)
 
-Specify the previous question to be referenced in the dropdown menu, then choose to reference the selected choice, unselected choice, or fill-in-the-blank item of that question. After making your selection, click "Insert into text below" on the right to automatically generate the identifier.
-
-{% hint style="danger" %}
-1. Only previous single-choice/multiple-choice /drop-down questions are supported for referencing, other question types are not supported as referenced questions.
-
-&#x20;   2\. To avoid display errors, please try to avoid editing the automatically generated label content.
-{% endhint %}
-
-<figure><img src="../../../.gitbook/assets/image (915).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-Quotation Mark Syntax Explanation
-
-Format：\[Q:option identifier]
-
-Such as：\[Q4:blank-content]
-
-Option Identifier
-
-**选中项** selected
-
-&#x20;**未选中项**   unselected
-
-**填空内容**  blank-content
-{% endhint %}
+\
 
 
+【STEP 3】The citation markers can be freely adjusted to the needed position in the text. Click "Confirm" to save, and the text editor will display the inserted citation markers.
 
-### 【STEP 4】Adjust Display Position
+\
 
-The citation markers can be freely adjusted to the desired position in the text. Click "OK" to save, and the text editor will display the inserted citation markers.
 
-<figure><img src="../../../.gitbook/assets/image (918).png" alt=""><figcaption></figcaption></figure>
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdCqP-AWztVwle94S6fHhzfGpNhH1iv6R5UaEb6TSYTE3ZGBWoto33nq4unDbD1177Ymsm-jNUONdbVFLXYZKOd-kCZdU3FNOa9N-qz44UsGSSk8NXuyL2ErHtSkq2JuHMt66_B?key=i40UMTErvTT3WhfPNs7-0hqD)
 
-<figure><img src="../../../.gitbook/assets/image (919).png" alt=""><figcaption></figcaption></figure>
+\
+
 
 ###
 

@@ -38,4 +38,4 @@ End page (normal end): After selecting the specified option, the respondent will
 End page (abnormal termination, data not collection): After selecting the specified option, the respondent will be directed to the end page when clicking next, and the survey data will not be collected.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (1068).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>

@@ -4,7 +4,7 @@
 
 ### Add questions at the bottom of the current page
 
-Click the "Question Type" control on the left side of the page to add a corresponding question below the current page.
+Click the "Type" control on the left side of the page to add a corresponding question below the current page.
 
 <figure><img src="../../../.gitbook/assets/image (870).png" alt=""><figcaption></figcaption></figure>
 
@@ -28,7 +28,7 @@ Copying the question does not include copying the original question's logical se
 
 ### Delete the question
 
-In the problem viewing state, when you focus the mouse on the specified problem, click the delete button in the shortcut toolbar on the right to delete the problem.
+In the question viewing state, when you focus the mouse on the specified question, click the delete button in the shortcut toolbar on the right to delete the question.
 
 <figure><img src="../../../.gitbook/assets/image (875).png" alt=""><figcaption></figcaption></figure>
 
