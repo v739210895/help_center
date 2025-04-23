@@ -12,21 +12,33 @@
 
 请注意，如果配置了 IDIP回调，HTTP 回调的配置会默认失效，问卷服务优先处理 IDIP。
 
+### 1.3 前置条件
+
+接入 idip 回调的问卷必须开启登录(推荐使用 MSDK 登录)，因为 openid 的值在 idip 的参数中是必须的，并且只能在登录之后获取到。
+
 ## 2. 回调说明
 
 ### 2.1 接口自定义参数配置
 
 #### 2.1.1 基础配置
 
-#### 2.1.2 参数配置
+<figure><img src="../.gitbook/assets/Sp_2025-04-23_11-24-32.png" alt=""><figcaption><p>问卷回调配置</p></figcaption></figure>
+
+以上配置可以在 AMS 平台的 "接口说明" 中找到:&#x20;
+
+<figure><img src="../.gitbook/assets/Sp_2025-04-23_11-30-24_mosaic.png" alt=""><figcaption><p>ams 接口说明</p></figcaption></figure>
+
+#### 2.1.2 接口自定义参数
+
+请注意，由于 ams 签名算法的原因，只有 `openid` 会是固定硬编码的参数，其他的所有参数需要自定义按需接收。
 
 在 `接口自定义参数` 中支持两种参数占位符：
 
-1.  前端参数占位符(打开问卷链接时注入)：`{key}`
+1.  前端参数占位符(需客户端打开问卷链接时注入)：`{key}`
 
     * 格式：`{参数名}`&#x20;
     * 说明：从问卷前端传入的 query 参数中获取值
-    * 示例：`a=1&b={b}&c=3`
+    * 示例：`a={a}&b={b}`
 
 
 2. 答题信息占位符(问卷系统内置字段)：`[key]`
@@ -41,7 +53,7 @@
 #### 2.1.3 完整参数配置示例
 
 ```
-type=1&userSource={userSource}&effective=[effective]&uid_info=[uid_info]
+openid=xxxx&type=1&userSource={userSource}&effective=[effective]&uid_info=[uid_info]
 ```
 
 配置说明：
@@ -53,6 +65,18 @@ type=1&userSource={userSource}&effective=[effective]&uid_info=[uid_info]
    * _非0: 无效问卷_
 4. _`uid_info=[uid_info]`: 用户信息，来源于问卷系统的字段定义_
 5. _`answer_consumed=[answer_consumed]`: 答题耗时（秒），来源于问卷系统的字段定义_
+
+#### 2.1.4 实际场景解析
+
+假设有以下的场景需求：
+
+“我按照不同渠道投放了2份问卷，我需要在玩家答题之后，关闭问卷入口的红点信息，并需要根据IMUR问卷系统对玩家答案是否有效的判断， 然后给该玩家发奖”
+
+那么，你可能需要接收的参数是：
+
+`openid=xxxx&area={area}&platid={platid}&partition={partition}&charac_no={charac_no}&channel=1`&#x20;
+
+openid 是问卷每次接口请求中固定传入的，`area/platid/partition/charac_no` 这几个参数则是需要和客户端开发同学沟通，在打开问卷时候注入，`channel=1` 则可以在不同的问卷硬编码配置，比如 a 问卷使用 `channel=1` ，b 问卷使用 `channel=2` 。
 
 ### 2.2 回调成功约定返回格式
 
