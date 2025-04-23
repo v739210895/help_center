@@ -74,9 +74,21 @@ openid=xxxx&type=1&userSource={userSource}&effective=[effective]&uid_info=[uid_i
 
 那么，你可能需要接收的参数是：
 
-`openid=xxxx&area={area}&platid={platid}&partition={partition}&charac_no={charac_no}&channel=1`&#x20;
+`openid=123&area=1&platid=1&partition=1&charac_no=12345&effective=0&channel=1`&#x20;
 
-openid 是问卷每次接口请求中固定传入的，`area/platid/partition/charac_no` 这几个参数则是需要和客户端开发同学沟通，在打开问卷时候注入，`channel=1` 则可以在不同的问卷硬编码配置，比如 a 问卷使用 `channel=1` ，b 问卷使用 `channel=2` 。
+对应的问卷系统的 **接口自定义参数** 配置
+
+`area={area}&platid={platid}&partition={partition}&charac_no={charac_no}&effective=[effective]&channel=1`&#x20;
+
+说明：
+
+openid 是问卷每次接口请求中固定传入的，所以无需配置。
+
+`area/platid/partition/charac_no` 这几个参数则是需要和客户端开发同学沟通，在打开问卷时候注入。
+
+`effective` 是问卷系统内置的字段，使用了 `[]` 标识。
+
+`channel=1` 则可以在不同的问卷硬编码配置，比如 a 问卷使用 `channel=1` ，b 问卷使用 `channel=2` 。
 
 ### 2.2 回调成功约定返回格式
 
