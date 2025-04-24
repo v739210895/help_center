@@ -74,15 +74,19 @@ openid=xxxx&type=1&userSource={userSource}&effective=[effective]&uid_info=[uid_i
 
 “我按照不同渠道投放了2份问卷，我需要在玩家答题之后，关闭问卷入口的红点信息，并需要根据IMUR问卷系统对玩家答案是否有效的判断， 然后给该玩家发奖”
 
-那么，你可能需要接收的参数是：
+那么，idip 接口中，你可能需要接收的参数是：
 
 `openid=123&area=1&platid=1&partition=1&charac_no=12345&effective=0&channel=1`&#x20;
 
 对应的问卷系统的 **接口自定义参数** 配置
 
-`area={area}&platid={platid}&partition={partition}&charac_no={charac_no}&effective=[effective]&channel=1`&#x20;
+`area={sArea}&platid={sPlatId}&partition={sPartition}&charac_no={sRoleId}&effective=[effective]&channel=1`&#x20;
 
-说明：
+客户端打开问卷时候注入的参数示例：
+
+[https://in.weisurvey.com/v2/?sid=67fc85695ded6e2d9a0bxxxx\&algorithm=itop\&channelid=2\&encode=2\&gameid=28105\&itopencodeparam=xxx\&nickname=x\&os=1\&seq=28105-98a1e12d-f7b9-45f2-a910-844ebddd6ba6-xxxx-10002\&sig=3588eb328de9125743931c13fa8fxxx\&ts=1745465972\&version=5.38.101.6317\&sArea=90\&sPartition=9002\&sRoleId=729002\&sPartition=1](https://in.weisurvey.com/v2/?sid=67fc85695ded6e2d9a0bxxxx\&algorithm=itop\&channelid=2\&encode=2\&gameid=28105\&itopencodeparam=xxx\&nickname=x\&os=1\&seq=28105-98a1e12d-f7b9-45f2-a910-844ebddd6ba6-xxxx-10002\&sig=3588eb328de9125743931c13fa8fxxx\&ts=1745465972\&version=5.38.101.6317\&sArea=90\&sPartition=9002\&sRoleId=729002\&sPartition=1)
+
+**说明：**
 
 openid 是问卷每次接口请求中固定传入的，所以无需配置。
 
@@ -91,6 +95,10 @@ openid 是问卷每次接口请求中固定传入的，所以无需配置。
 `effective` 是问卷系统内置的字段，使用了 `[]` 标识。
 
 `channel=1` 则可以在不同的问卷硬编码配置，比如 a 问卷使用 `channel=1` ，b 问卷使用 `channel=2` 。
+
+_💡Tips_
+
+_聪明的你可能注意到了，客户端打开的参数是  `sArea/sPartition` ，但是 idip 的接口定义的是 `area/partition` ，这里是在问卷系统中通过 `area={sArea}` 的配置做的参数映射处理的_
 
 ### 2.2 回调成功约定返回格式
 
