@@ -96,9 +96,11 @@ openid 是问卷每次接口请求中固定传入的，所以无需配置。
 
 `channel=1` 则可以在不同的问卷硬编码配置，比如 a 问卷使用 `channel=1` ，b 问卷使用 `channel=2` 。
 
+
+
 _💡Tips_
 
-_聪明的你可能注意到了，客户端打开的参数是  `sArea/sPartition` ，但是 idip 的接口定义的是 `area/partition` ，这里是在问卷系统中通过 `area={sArea}` 的配置做的参数映射处理的_
+_聪明的你可能注意到了，客户端打开的参数是  `sArea/sPartition` ，但是 idip 的接口定义的是 `area/partition` ，这里是在问卷系统中通过 `area={sArea}` 的配置做的参数映射处理_
 
 ### 2.2 回调成功约定返回格式
 
