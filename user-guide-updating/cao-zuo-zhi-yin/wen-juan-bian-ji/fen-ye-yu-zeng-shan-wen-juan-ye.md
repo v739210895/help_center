@@ -4,7 +4,7 @@
 
 On the survey editing page, click the "+" tab in the pagination bar to add a new survey page at the end of the main survey page.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Delete survey page
 

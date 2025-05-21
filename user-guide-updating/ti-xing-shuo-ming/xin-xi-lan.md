@@ -6,13 +6,13 @@ In surveys, it is often necessary to categorize or further elaborate on the ques
 
 In the survey editing page, select "Information Bar" from the question type controls on the left side, or click the + button in the quick toolbar on the right side of the specified question to choose "Information Bar" to create a new information bar.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】Edit title, notes, and choice content
 
 The title, choices, and remarks all support rich text editing, including font styles, inserting hyperlinks, inserting images, inserting videos, and quoting option content.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
