@@ -7,29 +7,25 @@ description: >-
 
 配额设置仅支持单选题、多选题、联动题(需导入地址）
 
-### 【STEP 1】添加渠道
+### 【STEP 1】选择单渠道或者多渠道投放
 
-进入配额设置后可以先增加投放渠道，对每个渠道回收数据进行配额（如不分渠道投放点击下一步即可）
+常规投放只需选择单渠道投放即可（需要对多个分链接分别进行配额时，可选择多渠道投放）
 
-<figure><img src="../../.gitbook/assets/image (825).png" alt=""><figcaption><p>添加渠道</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/配额渠道.png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 2】设置配额题目
 
 将左侧题目列表中的题目拖拽到右侧配额题目即可生成配额
 
-<figure><img src="../../.gitbook/assets/image (828).png" alt=""><figcaption><p>添加配额题目</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1077).png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 3】设置配额数量
 
 设置每个选项的配额数量，默认0为不限制配额
 
-<figure><img src="../../.gitbook/assets/image (829).png" alt=""><figcaption><p>设置配额数量</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1078).png" alt=""><figcaption></figcaption></figure>
 
-### 【STEP 4】查看配额进度
-
-回收问卷后可直接在当前页查看配额完成情况
-
-<figure><img src="../../.gitbook/assets/image (830).png" alt=""><figcaption></figcaption></figure>
+### 【STEP 4】开启配额开关
 
 ### 设置交叉配额
 
