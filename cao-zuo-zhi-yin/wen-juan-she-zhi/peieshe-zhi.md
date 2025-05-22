@@ -61,7 +61,7 @@ description: >-
 
 ### 进阶功能
 
-#### 区间配额
+#### <mark style="background-color:blue;">区间配额</mark>
 
 对一些样本进行定量回收时，部分用户是允许收取的样本在一定范围比例内波动，例如收集男女的题目，可以允许男比例在80%-90%，女比例在10%--20%，此时可使用区间配额控制
 
@@ -75,9 +75,13 @@ description: >-
 3.区间配额只适用于单渠道投放中的单选题
 {% endhint %}
 
-###
+#### <mark style="background-color:blue;">设置满额后跳转结束页</mark>
 
-#### 添加变量
+答题者点击下一页即判断是否已选中满额选项，若已满额则自动跳转到结束页，无需答完全部题目
+
+<figure><img src="../../.gitbook/assets/image (1083).png" alt=""><figcaption></figcaption></figure>
+
+#### <mark style="background-color:blue;">添加变量</mark>
 
 支持自定义变量，即重新组合题目字段生成新变量，新生成的变量可参与配额或与其他题目生成交叉配额
 
@@ -85,4 +89,5 @@ description: >-
 
 添加成功后，会在题目列表下方生成新的变量题目，拖拽即可参与配额
 
-<figure><img src="../../.gitbook/assets/image (833).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1079).png" alt=""><figcaption></figcaption></figure>
+
