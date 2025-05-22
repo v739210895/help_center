@@ -32,7 +32,7 @@
     * [组合逻辑](cao-zuo-zhi-yin/luo-ji-she-zhi/zu-he-luo-ji.md)
     * [题目分组及题组抽样](cao-zuo-zhi-yin/luo-ji-she-zhi/ti-mu-fen-zu-ji-ti-zu-chou-yang.md)
   * [问卷设置](cao-zuo-zhi-yin/wen-juan-she-zhi/README.md)
-    * [项目设置](cao-zuo-zhi-yin/wen-juan-she-zhi/xiang-mu-she-zhi.md)
+    * [基础设置](cao-zuo-zhi-yin/wen-juan-she-zhi/xiang-mu-she-zhi.md)
     * [显示设置](cao-zuo-zhi-yin/wen-juan-she-zhi/xian-shi-she-zhi.md)
     * [作答限制](cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi/README.md)
       * [答卷甄别](cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi/da-juan-zhen-bie.md)

@@ -1,6 +1,6 @@
-# 项目设置
+# 基础设置
 
-在“问卷设置”的“项目设置”项中可补充完整项目信息，包括所属产品、问卷负责人、问卷关注人、提示语言。
+在“基本设置”的“基础设置”项中可补充完整项目信息，包括所属产品、问卷负责人、问卷关注人、提示语言。
 
 <figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,12 +32,17 @@
 
 关注人即本问卷的普通用户，支持为关注人分配指定权限，且该问卷出现在他的“我的问卷”列表中，从而实现该问卷的协同编辑及管理。
 
+<figure><img src="../../.gitbook/assets/image (1097).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1099).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1100).png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="danger" %}
 1. 仅问卷负责人可添加关注人并为其分配权限
 2. 为避免敏感数据泄露，请谨慎分配“**答题数据**”和“**导出数据**”权限
+3. 预览权限默认勾选，若不勾选，则此关注人在预览页面无权分享预览链接给他人查看
 {% endhint %}
-
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 提示语言
 
