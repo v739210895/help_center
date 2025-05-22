@@ -6,11 +6,11 @@ The system provides data cleaning functions, applicable scenarios: after the sur
 
 On the "Data Processing" - "Data Cleaning" page, click "Add Condition" in the upper right corner to create a new cleaning condition.
 
-<figure><img src="../../../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Type 1: Regular Cleaning
 
-<figure><img src="../../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Operation Tips**
@@ -42,7 +42,7 @@ Type 2: Smart Cleaning
 
 The system supports intelligent cleaning of matrix single-choice, matrix multiple-choice, and matrix scale questions. If a player selects the same option for all sub-questions in a matrix question, the survey will be considered as a random fill-in, and the system will mark the survey as "invalid".
 
-<figure><img src="../../../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Explanation of the Cleaning Mechanism**

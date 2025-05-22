@@ -22,12 +22,19 @@ On the "Settings" page, you can designate the owner of a specific survey. After 
 
 The  collaborators  is the regular user of this survey, supporting the assignment of specific permissions to the focus person. This survey will appear in their "My Surveys" list, enabling collaborative editing and management of the survey.
 
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="danger" %}
 1. Only the survey owner can add  collaborators and assign permissions to them.
 2. To avoid sensitive data leakage, please be cautious when assigning "survey data" and "export data" permissions.
+3. Preview permission is checked by default. If not checked, this follower will not have the right to share the preview link with others on the preview page.
 {% endhint %}
-
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 ### Prompt language
 

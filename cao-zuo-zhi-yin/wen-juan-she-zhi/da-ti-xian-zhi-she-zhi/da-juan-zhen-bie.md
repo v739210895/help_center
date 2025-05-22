@@ -2,7 +2,7 @@
 
 系统提供答卷甄别功能，适用场景：玩家提交后系统自动按指定条件把不符合要求的样本剔除，[在线查看答题数据](../../tong-ji-fen-xi/da-ti-shu-ju-zai-xian-cha-kan.md)/[导出数据](../../xia-zai-shu-ju/)中，不合格样本被标记为无效。
 
-<figure><img src="../../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **特殊说明**
