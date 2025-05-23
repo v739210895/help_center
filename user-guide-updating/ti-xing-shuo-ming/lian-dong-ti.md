@@ -2,7 +2,7 @@
 
 Multi level linkage can achieve multi-level classification and factor correlation analysis, such as region, industry, major, university, etc. Additionally, multi-level linked drop-down menus can be freely edited, with each level's options having a hierarchical relationship. This means that the options in the first level can be subdivided into the second level choices
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -32,7 +32,7 @@ The title, choices, and remarks all support rich text editing, including: font s
 All questions have the "mandatory" option enabled by default.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Address question（Applicable in China）
 

@@ -38,4 +38,10 @@ End page (normal end): After selecting the specified option, the respondent will
 End page (abnormal termination, data not collection): After selecting the specified option, the respondent will be directed to the end page when clicking next, and the survey data will not be collected.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+\
+
+
+If clicking on the next page displays the end page (normal end), the survey will be marked as invalid and the status will be "invalid：jump to end page"\
+
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

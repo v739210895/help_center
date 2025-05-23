@@ -35,7 +35,7 @@ description: >-
 
 投放过程中可随时进入配额设置页面查看配额进度
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 设置交叉配额
 
