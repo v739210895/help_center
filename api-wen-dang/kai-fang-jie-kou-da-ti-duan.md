@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # 开放接口（答题端）
 
 ### 简介
@@ -20,7 +24,7 @@
 
 ### 1.  问卷内容接口 <a href="#huo-qu-wen-juan-nei-rong" id="huo-qu-wen-juan-nei-rong"></a>
 
-关联文档：[开放接口（管理端）--获取问卷详情](https://imur.gitbook.io/help\_center/api-wen-dang/kai-fang-jie-kou#3.-wen-juan-nei-rong-jie-kou)
+关联文档：[开放接口（管理端）--获取问卷详情](https://imur.gitbook.io/help_center/api-wen-dang/kai-fang-jie-kou#3.-wen-juan-nei-rong-jie-kou)
 
 #### 接口地址 <a href="#a-oae-ae-ae-8" id="a-oae-ae-ae-8"></a>
 
