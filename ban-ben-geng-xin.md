@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # 📋 版本记录
 
 {% hint style="info" %}
