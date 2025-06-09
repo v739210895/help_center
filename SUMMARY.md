@@ -99,6 +99,7 @@
     * [query参数说明](api-wen-dang/kai-fang-jie-kou/kai-fa-jie-kou-da-ti-tong-ji.md)
     * [答题详情示例及说明](api-wen-dang/kai-fang-jie-kou/da-ti-xiang-qing-can-shu-shuo-ming.md)
     * [题型字段说明](api-wen-dang/kai-fang-jie-kou/ti-xing-zi-duan-shuo-ming.md)
+    * [小程序接入](api-wen-dang/kai-fang-jie-kou/xiao-cheng-xu-jie-ru.md)
   * [开放接口（答题端）](api-wen-dang/kai-fang-jie-kou-da-ti-duan.md)
   * [内嵌问卷SDK-原生接入指南](api-wen-dang/nei-qian-wen-juan-sdk-yuan-sheng-jie-ru-zhi-nan.md)
 * [📬 常见问题](chang-jian-wen-ti/README.md)
