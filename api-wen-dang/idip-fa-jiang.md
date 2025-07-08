@@ -22,11 +22,13 @@
 
 ### 【STEP 2】发奖配置
 
-在需要发奖的问卷中开启“提交问卷后发奖”功能，并配置AMS礼包单号、礼包组编号、业务缩写、AMS环境参数
+在需要发奖的问卷中开启“发奖 ”AMS发奖功能，并配置AMS礼包单号、礼包组编号、业务缩写、AMS环境参数
 
 若游戏内是使用的是gopenid发奖，则开启gopenid即可
 
-![配置发奖参数](../.gitbook/assets/Snipaste_2023-10-17_17-43-35.png)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 3】传递发奖参数
 
@@ -57,7 +59,7 @@
 
 点击“发奖记录”即可查看所有答题账号的触发发奖情况。
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>查询发奖记录</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1103).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption><p>发奖记录详情</p></figcaption></figure>
 

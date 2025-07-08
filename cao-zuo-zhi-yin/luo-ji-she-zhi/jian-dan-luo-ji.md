@@ -44,5 +44,5 @@
 若设置点击下一页显示 结束页（正常结束），那么该条问卷会被标记为无效问卷，状态为“跳转结束页”
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
