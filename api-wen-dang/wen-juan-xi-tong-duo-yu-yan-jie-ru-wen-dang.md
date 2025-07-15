@@ -12,7 +12,7 @@
 
 ### 3. 接入方式
 
-#### &#x20;基础问卷链接
+&#x20;基础问卷链接
 
 ```
 https://in.weisurvey.com/v2/?sid=686f8b311a3a28274eee3db6
@@ -24,7 +24,7 @@ https://in.weisurvey.com/v2/?sid=686f8b311a3a28274eee3db6
 https://in.weisurvey.com/v2/?sid=686f8b311a3a28274eee3db6&language=en
 ```
 
-#### 3.3 语言代码示例 &#x20;
+### 4.语言代码示例 &#x20;
 
 <table><thead><tr><th width="128.99993896484375">序号</th><th>语言代码</th><th>语言</th></tr></thead><tbody><tr><td>1</td><td>en</td><td>英语</td></tr><tr><td>2</td><td>zh-CHS</td><td>中文简体</td></tr><tr><td>3</td><td>zh-CHT</td><td>中文繁体</td></tr><tr><td>4</td><td>zh-HK</td><td>中文繁体（中国香港）</td></tr><tr><td>5</td><td>zh-TW</td><td>中文繁体（中国台湾）</td></tr><tr><td>6</td><td>ar</td><td>阿拉伯语</td></tr><tr><td>7</td><td>de</td><td>德语</td></tr><tr><td>8</td><td>ru</td><td>俄语</td></tr><tr><td>9</td><td>fr</td><td>法语</td></tr><tr><td>10</td><td>phi</td><td>菲律宾语</td></tr><tr><td>11</td><td>ko</td><td>韩语</td></tr><tr><td>12</td><td>km</td><td>高棉语</td></tr><tr><td>13</td><td>ms</td><td>马来语</td></tr><tr><td>14</td><td>bn</td><td>孟加拉语</td></tr><tr><td>15</td><td>pt</td><td>葡萄牙语</td></tr><tr><td>16</td><td>ja</td><td>日语</td></tr><tr><td>17</td><td>th</td><td>泰语</td></tr><tr><td>18</td><td>tr</td><td>土耳其语</td></tr><tr><td>19</td><td>ur</td><td>乌尔都语</td></tr><tr><td>20</td><td>es</td><td>西班牙语</td></tr><tr><td>21</td><td>it</td><td>意大利语</td></tr><tr><td>22</td><td>hi</td><td>印地语</td></tr><tr><td>23</td><td>id</td><td>印尼语</td></tr><tr><td>24</td><td>vi</td><td>越南语</td></tr><tr><td>25</td><td>uz</td><td>乌兹别克语</td></tr></tbody></table>
 
