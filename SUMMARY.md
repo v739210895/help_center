@@ -102,6 +102,7 @@
     * [题型字段说明](api-wen-dang/kai-fang-jie-kou/ti-xing-zi-duan-shuo-ming.md)
   * [开放接口（答题端）](api-wen-dang/kai-fang-jie-kou-da-ti-duan.md)
   * [内嵌问卷SDK-原生接入指南](api-wen-dang/nei-qian-wen-juan-sdk-yuan-sheng-jie-ru-zhi-nan.md)
+  * [问卷系统多语言接入文档](api-wen-dang/wen-juan-xi-tong-duo-yu-yan-jie-ru-wen-dang.md)
 * [📬 常见问题](chang-jian-wen-ti/README.md)
   * [权限相关](chang-jian-wen-ti/quan-xian-xiang-guan/README.md)
     * [如何获取问卷系统权限？](chang-jian-wen-ti/quan-xian-xiang-guan/ru-he-huo-qu-wen-juan-xi-tong-quan-xian.md)
