@@ -21,7 +21,7 @@ https://in.weisurvey.com/v2/?sid=686f8b311a3a28274eee3db6
 要实现多语言显示，需要在基础链接后追加`language`参数，格式如下：
 
 ```
-https://in.weisurvey.com/v2/?sid=686f8b311a3a28274eee3db6&language=语言代码
+https://in.weisurvey.com/v2/?sid=686f8b311a3a28274eee3db6&language=en
 ```
 
 #### 3.3 语言代码示例 &#x20;
