@@ -34,3 +34,7 @@
 
 _\*以上参数对应的值仅作展示使用_
 {% endhint %}
+
+问卷设置
+
+<figure><img src="../.gitbook/assets/image (1108).png" alt=""><figcaption></figcaption></figure>

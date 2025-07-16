@@ -22,7 +22,9 @@
 
 #### 2.1.1 基础配置
 
-<figure><img src="../.gitbook/assets/Sp_2025-04-23_11-24-32.png" alt=""><figcaption><p>问卷回调配置</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1111).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1113).png" alt=""><figcaption></figcaption></figure>
 
 以上配置可以在 AMS 平台的 "接口说明" 中找到:&#x20;
 

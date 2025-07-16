@@ -2,7 +2,7 @@
 
 对接了INTL的APP，可在问卷设置的登录验证中选择【INTL】登录；用户提交问卷时，问卷系统会自动获取该玩家登录态（如openid）并存储在答题数据中。
 
-![配置INTL自动登录所需要的参数](../.gitbook/assets/Snipaste_2023-10-17_10-53-49.png)
+<figure><img src="../.gitbook/assets/image (1106).png" alt=""><figcaption></figcaption></figure>
 
 ### 参数配置说明
 

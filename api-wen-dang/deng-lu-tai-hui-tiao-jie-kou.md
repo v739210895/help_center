@@ -1,4 +1,4 @@
-# 登录态回调接口
+# 登录态回调接口(HTTP)
 
 ## 1. 接口说明
 
@@ -274,7 +274,9 @@ business\_code必须是int16类型，即 -32768 \~ 32767
 https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callback=2**
 {% endhint %}
 
-![多个回调地址配置](../.gitbook/assets/Snipaste_2023-10-17_10-56-23.png)
+<figure><img src="../.gitbook/assets/image (1109).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1110).png" alt=""><figcaption></figcaption></figure>
 
 ## 3. 回调接口调试工具
 
