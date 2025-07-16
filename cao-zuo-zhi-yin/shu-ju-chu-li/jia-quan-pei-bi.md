@@ -7,7 +7,7 @@
 * 常规加权（因子加权）：为总计 100% 的每个回复组指定目标百分比
 * 边缘加权：也被称为迭代比例拟合或随机迭代法。它适用的情况是：您需要调整采样群体以满足目标群体的代表，但不知道多重特征群体的比例。
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 新建加权方案 <a href="#she-zhi-quan-zhong-ming-cheng" id="she-zhi-quan-zhong-ming-cheng"></a>
 
@@ -33,7 +33,7 @@
 系统进行的迭代次数是有限的，当执行迭代次数超过25但当前样本加权后仍未同时满足多个条件的目标占比时，将自动结束迭代。如出现此情况，请增加投放样本或调整目标占比再重新执行加权。
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>边缘加权</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>边缘加权</p></figcaption></figure>
 
 ## 应用1：在线统计 <a href="#yin-yong-quan-zhong" id="yin-yong-quan-zhong"></a>
 
@@ -49,7 +49,7 @@
 
 交叉分析功能支持按权重方案查看交叉结果。
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 应用3：导出数据
 

@@ -34,6 +34,6 @@ Special Instructions
 The number of iterations performed by the system is limited. If the number of iterations exceeds 25 but the current weighted samples still do not meet the target proportion for multiple conditions simultaneously, the iteration will automatically end. If this occurs, please increase the sample size or adjust the target proportion and then re-execute the weighting.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Edge Weighting</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Edge Weighting</p></figcaption></figure>
 
 ###

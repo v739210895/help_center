@@ -4,7 +4,7 @@ Support for custom variables, which allows the recombination of survey question 
 
 ## 【STEP 1】Set variable
 
-<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Fields marked with \* are mandatory. Multiple valid values can be added under the same variable. The rules for valid values are defined according to project requirements.
 
@@ -57,11 +57,11 @@ fter finishing editing all variables, click "Execute Calculation Variables" abov
 
 All newly generated variables can be used as weighting conditions to adjust the sample proportion.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Application 2: Online Data Viewing
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Application 3: Export Data
 
@@ -73,10 +73,10 @@ In the exported raw data/encoded data, newly generated variables will be updated
 
 The distribution of each valid value of the newly generated variable can be viewed on the statistical chart page.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Application 5: Cross Analysis
 
 The newly generated variable can be used as a header for cross-analysis.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

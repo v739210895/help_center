@@ -8,7 +8,7 @@ description: 编辑问卷时上传一张图片，需要问卷答题者在这个�
 
 在问卷编辑页中，选择左侧题型控件中的“热力图”或在指定题目点击右侧快捷工具栏中的+按钮选择“热力图”即可新建热力图。
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>通过“题型”控件新建热力图</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>通过“题型”控件新建热力图</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>在指定题目下方新建热力图</p></figcaption></figure>
 
