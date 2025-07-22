@@ -14,15 +14,15 @@
 
 &#x20;基础问卷链接
 
-```
-https://in.weisurvey.com/v2/?sid=686f8b311a3a28274eee3db6
-```
+<pre><code><strong>国内：https://in.weisurvey.com/v2/?sid=686f8b311a3a28274eee3db6
+</strong><strong>海外：https://user.outweisurvey.com/v2/?sid=685bc4b94e2cdb66de0fc6ae
+</strong></code></pre>
 
 要实现多语言显示，需要在基础链接后追加`language`参数，格式如下：
 
-```
-https://in.weisurvey.com/v2/?sid=686f8b311a3a28274eee3db6&language=en
-```
+<pre><code>国内：https://in.weisurvey.com/v2/?sid=686f8b311a3a28274eee3db6&#x26;language=en
+<strong>海外：https://user.outweisurvey.com/v2/?sid=685bc4b94e2cdb66de0fc6ae&#x26;language=en
+</strong></code></pre>
 
 ### 4.语言代码示例 &#x20;
 
