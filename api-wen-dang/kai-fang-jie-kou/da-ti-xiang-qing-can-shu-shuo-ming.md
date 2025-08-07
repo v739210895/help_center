@@ -729,4 +729,6 @@
 | cascade        | 联动题   |
 | attachment     | 附件上传题 |
 | sort           | 排序题   |
+| bipolar        | 两级题   |
+| heatmap        | 热力图   |
 
