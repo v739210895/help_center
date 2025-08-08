@@ -24,11 +24,11 @@ The  collaborators  is the regular user of this survey, supporting the assignmen
 
 <figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 1. Only the survey owner can add  collaborators and assign permissions to them.

@@ -2,7 +2,7 @@
 
 Scale measure respondents' feelings or attitudes towards a particular issue using predefined numerical ranges.
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 Creat New Scale
 
@@ -26,13 +26,13 @@ After turning off the "Mandatory Question" feature in the right panel, this ques
 By default, all questions have the "mandatory" feature enabled.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Score range
 
 The score range refers to the measurement of the scale question, with a scale of 1, and the difference between the lowest and highest scores can only support up to 10; after setting, you can view the scale status in real-time in the editing area.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Support setting exceptions:
