@@ -4,15 +4,19 @@
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-## &#x20;【STEP 21【STEP 2】编辑题目、问题、备注、选项内容
+## &#x20;【STEP 1】添加题目
 
-矩阵单选题的题目、问题、选项及备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
+<figure><img src="../.gitbook/assets/image (1121).png" alt=""><figcaption></figcaption></figure>
 
-![矩阵单选题内容编辑](../.gitbook/assets/Snipaste_2023-10-11_16-23-37.png)
+##
 
-编辑完成后可预览该矩阵，矩阵中显示的每行是一个问题，每列是一个选项。
+## 【STEP 1】编辑题目、问题、备注、选项内容
 
-![预览矩阵](../.gitbook/assets/Snipaste_2023-10-11_16-33-32.png)
+文本拖拽题的题目及备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
+
+
+
+<figure><img src="../.gitbook/assets/image (1122).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】题目、问题及选项设置
 
@@ -24,13 +28,9 @@
 所有题目默认开启“此题必答”功能。
 {% endhint %}
 
-![“此题必答”功能](../.gitbook/assets/Snipaste_2023-10-11_16-34-29.png)
+<figure><img src="../.gitbook/assets/image (1123).png" alt=""><figcaption></figcaption></figure>
 
-### 在选项后增加填空框
-
-开启后，在选项后方增加填空框，勾选必填，用户须填写内容后才可提交，适用于用户选择其他项后，收集其他相关信息的场景
-
-<figure><img src="../.gitbook/assets/Snipaste_2023-10-16_10-42-27.png" alt=""><figcaption></figcaption></figure>
+###
 
 ### 选项关联
 
@@ -42,13 +42,13 @@
 [xuan-xiang-guan-lian.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
 {% endcontent-ref %}
 
-### 选项随机
+### 选项随机排序
 
-在题目编辑状态下，可设置选项随机，设置成功后，在答题端会根据所选择的随机方式显示选项。矩阵单选题的选项随机方式包括：随机排序、随机正逆序。
+在题目编辑状态下，可设置选项随机，设置成功后，在答题端会根据所选择的随机方式显示选项。
 
-#### 选项随机排序
+#### 文本随机排序
 
-选项随机排序是指答题时题目中的选项以随机顺序出现。开启“选项随机排序”功能后，题目的选项右侧会出现不随机的勾选框，若希望某个选项固定在当前位置，可在其后勾选“不随机”，则该选项不参与随机排序。
+在题目编辑状态下，可设置文本随机，设置成功后，在答题端会根据所选择的随机方式显。
 
 ![选项随机排序](<../.gitbook/assets/Snipaste_2023-10-13_15-53-43 (1).png>)
 
