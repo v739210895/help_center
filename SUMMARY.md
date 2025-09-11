@@ -204,6 +204,7 @@
     * [Multi Level Linkage](user-guide-updating/ti-xing-shuo-ming/lian-dong-ti.md)
     * [Heat Map](user-guide-updating/ti-xing-shuo-ming/heat-map.md)
     * [Bipolar](user-guide-updating/ti-xing-shuo-ming/bipolar.md)
+    * [Drag-and-Drop](user-guide-updating/ti-xing-shuo-ming/drag-and-drop.md)
     * [Information Bar](user-guide-updating/ti-xing-shuo-ming/xin-xi-lan.md)
   * [API Documentation](user-guide-updating/api-wen-dang/README.md)
     * [MSDK-V3 Login State Collection](user-guide-updating/api-wen-dang/msdkv3-deng-lu-tai-cai-ji.md)
