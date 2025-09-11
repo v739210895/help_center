@@ -26,7 +26,7 @@
 4.若多名用户同时编辑/设置同一份问卷，以最后保存的一份问卷内容为准。
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 设置关注人
 
