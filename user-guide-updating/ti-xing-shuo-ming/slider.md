@@ -64,4 +64,4 @@ In the statistics page, the "Answer Data" section allows you to view each respon
 
 On the statistical analysis page, you can view the scores of each choice in this question. When the total weight is set to 100, the system will automatically divide it into 5 segments or 10 segments, which can be switched as needed for viewing.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
