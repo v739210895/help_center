@@ -227,7 +227,7 @@ _回调URL示例_
 
 
 {% hint style="info" %}
-1. 非必传参数有值时参与加密，未传则不参与加密
+1. 参与签名的参数为所有值不为空字符串的参数（不区分必传与非必传）与 appSecret；未传或值为空字符串的参数不参与。
 2. 本文档未说明的参数不参与加密，可参考：[为什么会接收到文档中未说明的回调参数](../chang-jian-wen-ti/you-xi-nei-qian/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
 {% endhint %}
 
