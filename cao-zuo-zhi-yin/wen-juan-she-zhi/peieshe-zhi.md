@@ -35,7 +35,7 @@ description: >-
 
 投放过程中可随时进入配额设置页面查看配额进度
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 设置交叉配额
 
@@ -47,9 +47,9 @@ description: >-
 
 可单独对问卷设置有效问卷回收上限，达到上限后，问卷自动暂停回收
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>两处功能一致</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p>两处功能一致</p></figcaption></figure>
 
 {% hint style="info" %}
 1.以上两个入口功能一致，上方常用于仅设置单个问卷回收上限，不设置任何配额题目；下方适用于对题目设置配额的同时又设置问卷回收上限

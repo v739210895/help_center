@@ -2,7 +2,7 @@
 
 文本拖拽题是一种交互式题型，作答者通过鼠标（或触屏）拖拽文本选项，将其移动到指定区域完成匹配、分类等动作
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## &#x20;【STEP 1】添加题目
 

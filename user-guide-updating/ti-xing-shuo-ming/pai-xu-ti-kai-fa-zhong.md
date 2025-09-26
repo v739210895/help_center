@@ -2,13 +2,13 @@
 
 Rank order require respondents to order a set of options based on specific criteria or preferences. They are suitable for survey questions that assess respondents' attitudes or preferences towards multiple choices.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 New Rank order&#x20;
 
 On the survey editing page, select "Sorting Question" from the question type controls on the left, or click the + button in the quick toolbar on the right of the specified question to choose "Sorting Question" to create a sorting question.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】Edit title, notes, and choice content
 
