@@ -12,7 +12,7 @@ In the survey editing page, select "Information Bar" from the question type cont
 
 The title, choices, and remarks all support rich text editing, including font styles, inserting hyperlinks, inserting images, inserting videos, and quoting option content.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -48,7 +48,7 @@
 
 提示语言指的是，在答题端中显示的提示语语种，默认为中文简体，可根据实际需要设置其他语种。
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -2,7 +2,7 @@
 
 MaxDiff（最大差异度量）是一种高效的偏好测量方法，用于测量人们对一系列属性的偏好或重要性认知。与传统的评分量表不同，MaxDiff通过强制受访者在每组选项中选择"最喜欢"和"最不喜欢"的项目，从而获得更准确、更可靠的数据。
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 一、MaxDiff的核心优势
 
@@ -29,7 +29,7 @@ MaxDiff（最大差异度量）是一种高效的偏好测量方法，用于测�
 
 进入问卷编辑页面，在题型列表中选择 “MaxDiff
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 第二步：编辑题干、选择两级文案
 
@@ -41,7 +41,7 @@ MaxDiff（最大差异度量）是一种高效的偏好测量方法，用于测�
 
 录入所有需要进行评估的属性，通常建议至少 5 个以上
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 #### 第三步：配置任务（设计方案）
 
@@ -72,7 +72,7 @@ MaxDiff（最大差异度量）是一种高效的偏好测量方法，用于测�
 
 我们提供基础报告与精准报告两种辅助您分析
 
-1.基础报告
+**1.基础报告**
 
 <figure><img src="../.gitbook/assets/image (1141).png" alt=""><figcaption></figcaption></figure>
 
@@ -80,8 +80,13 @@ MaxDiff（最大差异度量）是一种高效的偏好测量方法，用于测�
 
 **偏好份额：**&#x504F;好份额直观展现了各个属性的偏好程度或重要性，值越大说明该属性偏好程度越高。
 
-最重要分数：
+**分数：**&#x5206;数反映了受访者对属性的偏好程度。
 
-最不重要
+&#x20;           正分意味着该属性被选为最好的次数多于最差的次数；负分意味着该属性被选为差的次数多于最好的                     次数。计算公式: (属性被选为最好的次数 - 属性被选为最差的次数) / 属性出现的总次数
 
-出现次数
+**2.精准报告**
+
+回收答卷超过100份时可使用此功能，我们将通过多项式逻辑回归（MNL）模型为您计算更精确的报告
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+

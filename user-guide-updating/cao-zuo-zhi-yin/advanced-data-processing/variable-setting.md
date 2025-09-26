@@ -73,7 +73,7 @@ In the exported raw data/encoded data, newly generated variables will be updated
 
 The distribution of each valid value of the newly generated variable can be viewed on the statistical chart page.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Application 5: Cross Analysis
 

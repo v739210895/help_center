@@ -14,7 +14,7 @@ On the survey editing page, select "Sorting Question" from the question type con
 
 The title, choices, and remarks all support rich text editing, including: font styles.Insert hyperlink, insert image, insert video, quote survey content.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】Question Setting&#x20;
 

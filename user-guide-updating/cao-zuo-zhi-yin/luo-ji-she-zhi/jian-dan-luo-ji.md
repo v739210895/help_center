@@ -24,7 +24,7 @@ On the survey editing page, hover the mouse over the question that needs logic s
 
 In the simple logic setup popup, the left side contains the question choices, and the right side contains the list of all survey questions. Selecting an choice on the left and a question on the right indicates that the question on the right will be displayed only after the user selects the corresponding choice on the left; otherwise, the selected question on the right will not be displayed by default.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】Set Simple Logic (Control End Page)
 

@@ -30,7 +30,7 @@ description: 两级题是一种心理学和调研中常用的题型，通过让�
 
 可设置选中某个点（分数）显示后置题目
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 分数设置
 

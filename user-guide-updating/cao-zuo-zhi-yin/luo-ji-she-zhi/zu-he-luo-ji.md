@@ -98,7 +98,7 @@ Click the delete button at the top right corner of the specified rule to delete 
 
 After the logic is set up, click the "Save" button in the upper right corner to save and apply all the rules on the current page. (Surveys that are being collected do not support modification and saving. If you need to modify the rules, please pause the collection first.)
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Frequently Asked Questions
 
