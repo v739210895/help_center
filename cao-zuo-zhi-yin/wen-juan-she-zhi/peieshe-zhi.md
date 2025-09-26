@@ -35,7 +35,7 @@ description: >-
 
 投放过程中可随时进入配额设置页面查看配额进度
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 设置交叉配额
 
@@ -47,9 +47,9 @@ description: >-
 
 可单独对问卷设置有效问卷回收上限，达到上限后，问卷自动暂停回收
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p>两处功能一致</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>两处功能一致</p></figcaption></figure>
 
 {% hint style="info" %}
 1.以上两个入口功能一致，上方常用于仅设置单个问卷回收上限，不设置任何配额题目；下方适用于对题目设置配额的同时又设置问卷回收上限
@@ -65,7 +65,7 @@ description: >-
 
 对一些样本进行定量回收时，部分用户是允许收取的样本在一定范围比例内波动，例如收集男女的题目，可以允许男比例在80%-90%，女比例在10%--20%，此时可使用区间配额控制
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 1.使用区间配额，需设置单题上限，达到单题上限后，选中该题的任何选项都会被标记为配额无效
