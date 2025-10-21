@@ -90,6 +90,7 @@
   * [两级题](ti-xing-shuo-ming/liang-ji-ti.md)
   * [文本拖拽题](ti-xing-shuo-ming/wen-ben-tuo-zhuai-ti.md)
   * [MaxDiff](ti-xing-shuo-ming/maxdiff.md)
+  * [联合分析](ti-xing-shuo-ming/lian-he-fen-xi.md)
   * [信息栏](ti-xing-shuo-ming/xin-xi-lan.md)
 * [API文档](api-wen-dang/README.md)
   * [MSDK-V3登录态采集](api-wen-dang/msdkv3-deng-lu-tai-cai-ji.md)
