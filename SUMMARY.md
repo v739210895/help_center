@@ -210,6 +210,7 @@
     * [Drag-and-Drop](user-guide-updating/ti-xing-shuo-ming/drag-and-drop.md)
     * [Information Bar](user-guide-updating/ti-xing-shuo-ming/xin-xi-lan.md)
     * [MaxDiff](user-guide-updating/ti-xing-shuo-ming/maxdiff.md)
+    * [Conjoint](user-guide-updating/ti-xing-shuo-ming/conjoint.md)
   * [API Documentation](user-guide-updating/api-wen-dang/README.md)
     * [MSDK-V3 Login State Collection](user-guide-updating/api-wen-dang/msdkv3-deng-lu-tai-cai-ji.md)
     * [MSDK-V5 Login State Collection](user-guide-updating/api-wen-dang/msdkv5-deng-lu-tai-cai-ji.md)
