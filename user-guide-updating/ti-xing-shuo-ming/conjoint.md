@@ -13,7 +13,7 @@ Conjoint  simulates real purchasing decision scenarios by allowing respondents t
 * Closer to Reality Choices: Closer to Decision-Making Behavior in the Real Market than Individual Ratings
 * Highly predictive: Able to predict market acceptance of new product configurations
 
-#### **二、 关键词说明** <a href="#er-guan-jian-ci-shuo-ming" id="er-guan-jian-ci-shuo-ming"></a>
+#### **二、** Key Term Explanations <a href="#er-guan-jian-ci-shuo-ming" id="er-guan-jian-ci-shuo-ming"></a>
 
 \[Attributes] refer to the characteristics or dimensions of a product or service that can be evaluated by consumers. For example, in the case of a "laptop," its attributes may include "brand," "price," "screen size," "memory," and "hard drive capacity."
 
@@ -36,87 +36,86 @@ Simply put, these nouns form the design framework for conjoint analysis:\
 Researchers first define the attributes and levels of the study, which the system uses to combine into multiple complete concepts, or custom concepts can be uploaded. In the questionnaire, each question is a task, and each task will include specific concepts for respondents to evaluate.
 {% endhint %}
 
-#### 三、如何在问卷系统中使用联合分析题 <a href="#san-wen-juan-xi-tong-zhong-she-zhi-maxdiff-ti" id="san-wen-juan-xi-tong-zhong-she-zhi-maxdiff-ti"></a>
+#### 三、How to Use Conjoint Analysis Questions in a Survey System <a href="#san-wen-juan-xi-tong-zhong-she-zhi-maxdiff-ti" id="san-wen-juan-xi-tong-zhong-she-zhi-maxdiff-ti"></a>
 
-**第一步：创建联合分析题型**
+**Step 1: Create a conjoint**
 
-进入问卷编辑页面，在题型列表中选择 “联合分析”
+Enter the questionnaire editing page and select "Conjoint " from the question type list.
 
 ![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FawCWQxwXFuQ2QGH4WTp1%252Fimage.png%3Falt%3Dmedia%26token%3Dd5ee63e6-0611-43c5-8e4d-896a912d57be\&width=768\&dpr=4\&quality=100\&sign=a0e68ca\&sv=2)
 
-**第二步：右侧题目设置选择概念类型**
+**Step 2: Select the concept type in the question settings on the right side.**
 
-**系统随机组合概念：** 系统会根据用户编辑的属性与水平随机组合成概念呈现给用户测评，系统会尽量保证每个概念出现频次均等来确保调研数据的准确性。
+**System Random Combination Concept:** The system will randomly combine concepts based on the attributes and levels edited by the user and present them for user evaluation. The system will strive to ensure that each concept appears with equal frequency to ensure the accuracy of the survey data.
 
-* 编辑属性与水平
-
-
-
-**自定义概念：** 用户自定义组合“多属性多水平概念后进行上传，无需系统做组合，需按模板示意将自定义概念的属性、水平对应填充后上传。适用于已有固定测评的概念组合场景。
-
-* 上传自定义概念
+* Edit Attributes and Levels
 
 
 
-**第三步：配置任务（设计方案）**
+**Custom Concept:** Users can upload their custom combinations of multi-attribute and multi-level concepts without the system needing to do the combinations. Users need to fill in the attributes and levels of the custom concept according to the template before uploading. This is suitable for scenarios with fixed concept combinations for evaluations.
 
-1.  选择每个任务概念数
+* Upload Custom Concept
 
-    * 指受访者在每一次选择中会看到多少个概念。建议2\~5个，数量过多会增加选择难度，过少缺少对比性
+
+
+**Step 3: Configure Tasks (Design Plan)**
+
+1.  Select the number of concepts for each task
+
+    * This refers to how many concepts respondents will see in each selection. It is recommended to have 2 to 5 concepts; too many will increase the difficulty of selection, while too few will lack comparability.
 
     ![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FeyLkAnqjEI8qsT6QxomI%252Fimage.png%3Falt%3Dmedia%26token%3Dc66b334f-f164-44e4-a816-bddda954179c\&width=768\&dpr=4\&quality=100\&sign=94b3208f\&sv=2)
-2.  输入任务数
+2.  Enter the number of tasks
 
-    * 指一位受访者总共需要完成多少次选择任务。系统会根根据概念自动推荐一个合理任务数范围，需手动输入任务数后才可投放
+    * Refers to the total number of choice tasks a respondent needs to complete. The system will automatically recommend a reasonable range of task numbers based on the concept, and the task number must be manually entered before it can be launched.
 
     ![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252Fh0HWH9i0RilnQQTkl90Z%252Fimage.png%3Falt%3Dmedia%26token%3Df9c0501d-af07-46cf-916b-b692f6f11d74\&width=768\&dpr=4\&quality=100\&sign=9651477f\&sv=2)
-3. 每个任务包含空选项（可选）
+3. Each task includes an empty option (optional)
 
-* 在每个概念中增加一个空选项，用于模拟真实决策场景--以上概念我都不想选择
+* Add a blank option to each concept to simulate a real decision-making scenario -- I don't want to choose any of the above concepts.
 
 ![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FqxRcC5YPRX02VWmbTNci%252Fimage.png%3Falt%3Dmedia%26token%3D4517750e-1c05-43ca-8e70-9f4fbef49f07\&width=768\&dpr=4\&quality=100\&sign=d9998abb\&sv=2)
 
 
 
-**第四步：预览与发布**
+**Step 4: Preview and Publish**
 
-1. 点击 “预览” 按钮，以作答者者视角检查题目展示效果，确保逻辑无误。
-2. 确认无误后，“发布” 问卷。
+1. Click the "Preview" button to check the display effect of the question from the perspective of the respondent to ensure the logic is correct.
+2. After confirming no errors, "publish" the questionnaire.
 
-#### 四、数据统计 <a href="#si-shu-ju-tong-ji" id="si-shu-ju-tong-ji"></a>
+#### 四、Data Statistics <a href="#si-shu-ju-tong-ji" id="si-shu-ju-tong-ji"></a>
 
-提供基础报告与精准报告辅助您分析
+Provide basic reports and accurate reports to assist you in analysis.
 
 ![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FikitAtWbFJrEha5LaeTI%252Fimage.png%3Falt%3Dmedia%26token%3Dd3050bcc-cf00-4f87-b1ac-41a9ef0536be\&width=768\&dpr=4\&quality=100\&sign=84f4bfd9\&sv=2)
 
-**1.基础报告**
+**1.Basic Report**
 
-回收数据实时计算，统计每个概念出现次数、被选中次数、分数
+Real-time calculation of recycling data, counting the number of occurrences, selections, and scores for each concept.
 
 ![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FUOrqS1mQNSQmlyGNemB7%252Fimage.png%3Falt%3Dmedia%26token%3D0576fb41-652a-47d5-9532-ff34aa70658c\&width=768\&dpr=4\&quality=100\&sign=28859987\&sv=2)
 
 {% hint style="info" %}
-**分数：**&#x5206;数反映了受访者对概念的偏好程度。分数越高代表在所有概念中更受欢迎。
-
-计算公式：被选中次数 / 出现的总次数&#x20;
+Score: The score reflects the respondents' preference level for the concept. A higher score indicates greater popularity among all concepts.\
+Calculation formula: Number of times selected / Total number of occurrences
 {% endhint %}
 
 &#x20;           &#x20;
 
-**2.精准报告**
+**2.**&#x41;ccurate Report
 
-我们将采用分层贝叶斯（HB）模型与MCMC（Metropolis-Hastings）算法，通过个体级参数估计与群体分布的先验约束，在贝叶斯框架下同步拟合所有受访者的效用值。该计算方法能有效处理稀疏选择数据并提升小样本估计效率
+We will use a Hierarchical Bayesian (HB) model with the MCMC (Metropolis-Hastings) algorithm to simultaneously fit all respondents' utility values within a Bayesian framework through individual-level parameter estimation and prior constraints of the population distribution. This computational method can effectively handle sparse choice data and enhance estimation efficiency for small samples.
 
 ![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FX2PXzBw0Y5HWmB62pfdz%252Fimage.png%3Falt%3Dmedia%26token%3D72ea55f8-7a3e-472d-bf73-b398a0a39c20\&width=768\&dpr=4\&quality=100\&sign=1cd2dffa\&sv=2)
 
 
 
 {% hint style="success" %}
-**属性重要性：**&#x91CD;要性越大，表示该属性对受访者越重要。计算公式：属性重要性=（属性效用值范围/所有属性效用值范围）\*100%
+**Attribute Importance:** The greater the importance, the more important the attribute is to the respondents. Calculation formula: Attribute Importance = (Range of Attribute Utility Value / Range of All Attribute Utility Values) \* 100%
 
-**水平效用值：**&#x6BCF;个水平的潜在效用，效用值越高，代表该水平在用户心目中越重要、越有吸引力。计算逻辑：基于分层贝叶斯框架下的随机效用理论，通过MCMC（Metropolis-Hastings）算法对个体与群体层面的后验分布进行迭代抽样，从而估算出各属性水平的效用值。
+**Level utility value:** The potential utility of each level, where a higher utility value indicates that the level is more important and attractive in the user's mind. Calculation logic: Based on the random utility theory under a hierarchical Bayesian framework, the Metropolis-Hastings (MCMC) algorithm is used to perform iterative sampling on the posterior distribution at both individual and group levels, thereby estimating the utility values of each attribute level.
 
-**概念效用值：**&#x6BCF;个概念的潜在效用，效用值越高，代表该概念在用户心目中越重要、越有  吸引力。计算逻辑：构成该概念的所有属性水平的效用值累加得出
+**Concept Utility Value:** The potential utility of each concept. The higher the utility value, the more important and attractive the concept is perceived by users. Calculation Logic: The utility values of all attribute levels that constitute the concept are summed up to derive it.
 {% endhint %}
 
 
