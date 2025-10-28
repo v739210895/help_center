@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Conjoint
 
 Conjoint  simulates real purchasing decision scenarios by allowing respondents to choose and weigh complete product concepts composed of different attributes (such as price, features, design) and their levels. The core purpose of this approach is to quantify consumer preferences for various product features. Ultimately, through statistical models, it derives the utility value and relative importance of each attribute level in overall choice.
@@ -42,7 +38,7 @@ Researchers first define the attributes and levels of the study, which the syste
 
 Enter the questionnaire editing page and select "Conjoint " from the question type list.
 
-![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FawCWQxwXFuQ2QGH4WTp1%252Fimage.png%3Falt%3Dmedia%26token%3Dd5ee63e6-0611-43c5-8e4d-896a912d57be\&width=768\&dpr=4\&quality=100\&sign=a0e68ca\&sv=2)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 **Step 2: Select the concept type in the question settings on the right side.**
 
@@ -50,7 +46,7 @@ Enter the questionnaire editing page and select "Conjoint " from the question ty
 
 * Edit Attributes and Levels
 
-
+&#x20;
 
 **Custom Concept:** Users can upload their custom combinations of multi-attribute and multi-level concepts without the system needing to do the combinations. Users need to fill in the attributes and levels of the custom concept according to the template before uploading. This is suitable for scenarios with fixed concept combinations for evaluations.
 

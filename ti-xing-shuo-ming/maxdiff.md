@@ -2,7 +2,7 @@
 
 MaxDiff（最大差异度量）是一种高效的偏好测量方法，用于测量人们对一系列属性的偏好或重要性认知。与传统的评分量表不同，MaxDiff通过强制受访者在每组选项中选择"最喜欢"和"最不喜欢"的项目，从而获得更准确、更可靠的数据。
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 一、MaxDiff的核心优势
 

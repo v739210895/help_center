@@ -56,7 +56,7 @@ Choice randomization refers to presenting the choices in a question in a random 
 
 Random forward/reverse order of options means that the choices in the question will appear in a random forward or reverse order when answering. After enabling the "Random forward/reverse order of choices" feature, a "Fix the last choice" toggle will appear below the "Random forward/reverse order of choices" feature. If you wish to keep the last choice fixed in its current position, you can enable the "Fix the last choice" feature, so that the last choice will not participate in the random forward/reverse order when displayed on the answering end.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Grouped display of choices
 
