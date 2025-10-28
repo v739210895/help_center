@@ -2,14 +2,14 @@
 
 Conjoint  simulates real purchasing decision scenarios by allowing respondents to choose and weigh complete product concepts composed of different attributes (such as price, features, design) and their levels. The core purpose of this approach is to quantify consumer preferences for various product features. Ultimately, through statistical models, it derives the utility value and relative importance of each attribute level in overall choice.
 
-#### 一、Core Advantages of Conjoint <a href="#yi-maxdiff-de-he-xin-you-shi" id="yi-maxdiff-de-he-xin-you-shi"></a>
+#### &#x20;I.Core Advantages of Conjoint <a href="#yi-maxdiff-de-he-xin-you-shi" id="yi-maxdiff-de-he-xin-you-shi"></a>
 
 * Restoring Multi-Attribute Trade-offs: Simulating the Multi-Factor Trade-off Process Faced by Consumers in Actual Purchases  \
 
 * Closer to Reality Choices: Closer to Decision-Making Behavior in the Real Market than Individual Ratings
 * Highly predictive: Able to predict market acceptance of new product configurations
 
-#### **二、** Key Term Explanations <a href="#er-guan-jian-ci-shuo-ming" id="er-guan-jian-ci-shuo-ming"></a>
+#### II. Key Term Explanations <a href="#er-guan-jian-ci-shuo-ming" id="er-guan-jian-ci-shuo-ming"></a>
 
 \[Attributes] refer to the characteristics or dimensions of a product or service that can be evaluated by consumers. For example, in the case of a "laptop," its attributes may include "brand," "price," "screen size," "memory," and "hard drive capacity."
 
@@ -32,7 +32,7 @@ Simply put, these nouns form the design framework for conjoint analysis:\
 Researchers first define the attributes and levels of the study, which the system uses to combine into multiple complete concepts, or custom concepts can be uploaded. In the questionnaire, each question is a task, and each task will include specific concepts for respondents to evaluate.
 {% endhint %}
 
-#### 三、How to Use Conjoint Analysis Questions in a Survey System <a href="#san-wen-juan-xi-tong-zhong-she-zhi-maxdiff-ti" id="san-wen-juan-xi-tong-zhong-she-zhi-maxdiff-ti"></a>
+#### III.How to Use Conjoint Analysis Questions in a Survey System <a href="#san-wen-juan-xi-tong-zhong-she-zhi-maxdiff-ti" id="san-wen-juan-xi-tong-zhong-she-zhi-maxdiff-ti"></a>
 
 **Step 1: Create a conjoint**
 
@@ -79,7 +79,7 @@ Enter the questionnaire editing page and select "Conjoint " from the question ty
 1. Click the "Preview" button to check the display effect of the question from the perspective of the respondent to ensure the logic is correct.
 2. After confirming no errors, "publish" the questionnaire.
 
-#### 四、Data Statistics <a href="#si-shu-ju-tong-ji" id="si-shu-ju-tong-ji"></a>
+#### IV.Data Statistics <a href="#si-shu-ju-tong-ji" id="si-shu-ju-tong-ji"></a>
 
 Provide basic reports and accurate reports to assist you in analysis.
 
