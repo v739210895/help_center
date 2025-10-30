@@ -43,21 +43,23 @@ hidden: true
 
 进入问卷编辑页面，在题型列表中选择 “联合分析”
 
-![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FawCWQxwXFuQ2QGH4WTp1%252Fimage.png%3Falt%3Dmedia%26token%3Dd5ee63e6-0611-43c5-8e4d-896a912d57be\&width=768\&dpr=4\&quality=100\&sign=a0e68ca\&sv=2)
+<figure><img src="../.gitbook/assets/image (1145).png" alt=""><figcaption></figcaption></figure>
 
 **第二步：右侧题目设置选择概念类型**
+
+<figure><img src="../.gitbook/assets/image (1146).png" alt=""><figcaption></figcaption></figure>
 
 **系统随机组合概念：** 系统会根据用户编辑的属性与水平随机组合成概念呈现给用户测评，系统会尽量保证每个概念出现频次均等来确保调研数据的准确性。
 
 * 编辑属性与水平
 
-
+<figure><img src="../.gitbook/assets/image (1147).png" alt=""><figcaption></figcaption></figure>
 
 **自定义概念：** 用户自定义组合“多属性多水平概念后进行上传，无需系统做组合，需按模板示意将自定义概念的属性、水平对应填充后上传。适用于已有固定测评的概念组合场景。
 
 * 上传自定义概念
 
-
+<figure><img src="../.gitbook/assets/image (1149).png" alt=""><figcaption></figcaption></figure>
 
 **第三步：配置任务（设计方案）**
 
@@ -65,17 +67,17 @@ hidden: true
 
     * 指受访者在每一次选择中会看到多少个概念。建议2\~5个，数量过多会增加选择难度，过少缺少对比性
 
-    ![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FeyLkAnqjEI8qsT6QxomI%252Fimage.png%3Falt%3Dmedia%26token%3Dc66b334f-f164-44e4-a816-bddda954179c\&width=768\&dpr=4\&quality=100\&sign=94b3208f\&sv=2)
+    <figure><img src="../.gitbook/assets/image (1150).png" alt=""><figcaption></figcaption></figure>
 2.  输入任务数
 
     * 指一位受访者总共需要完成多少次选择任务。系统会根根据概念自动推荐一个合理任务数范围，需手动输入任务数后才可投放
 
-    ![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252Fh0HWH9i0RilnQQTkl90Z%252Fimage.png%3Falt%3Dmedia%26token%3Df9c0501d-af07-46cf-916b-b692f6f11d74\&width=768\&dpr=4\&quality=100\&sign=9651477f\&sv=2)
+    <figure><img src="../.gitbook/assets/image (1151).png" alt=""><figcaption></figcaption></figure>
 3. 每个任务包含空选项（可选）
 
 * 在每个概念中增加一个空选项，用于模拟真实决策场景--以上概念我都不想选择
 
-![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FqxRcC5YPRX02VWmbTNci%252Fimage.png%3Falt%3Dmedia%26token%3D4517750e-1c05-43ca-8e70-9f4fbef49f07\&width=768\&dpr=4\&quality=100\&sign=d9998abb\&sv=2)
+<figure><img src="../.gitbook/assets/image (1152).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -88,18 +90,16 @@ hidden: true
 
 提供基础报告与精准报告辅助您分析
 
-![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FikitAtWbFJrEha5LaeTI%252Fimage.png%3Falt%3Dmedia%26token%3Dd3050bcc-cf00-4f87-b1ac-41a9ef0536be\&width=768\&dpr=4\&quality=100\&sign=84f4bfd9\&sv=2)
-
 **1.基础报告**
 
 回收数据实时计算，统计每个概念出现次数、被选中次数、分数
 
-![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FUOrqS1mQNSQmlyGNemB7%252Fimage.png%3Falt%3Dmedia%26token%3D0576fb41-652a-47d5-9532-ff34aa70658c\&width=768\&dpr=4\&quality=100\&sign=28859987\&sv=2)
+<figure><img src="../.gitbook/assets/image (1154).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **分数：**&#x5206;数反映了受访者对概念的偏好程度。分数越高代表在所有概念中更受欢迎。
 
-计算公式：被选中次数 / 出现的总次数&#x20;
+计算公式：被选中次数 / 出现次数&#x20;
 {% endhint %}
 
 &#x20;           &#x20;
@@ -108,7 +108,7 @@ hidden: true
 
 我们将采用分层贝叶斯（HB）模型与MCMC（Metropolis-Hastings）算法，通过个体级参数估计与群体分布的先验约束，在贝叶斯框架下同步拟合所有受访者的效用值。该计算方法能有效处理稀疏选择数据并提升小样本估计效率
 
-![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FX2PXzBw0Y5HWmB62pfdz%252Fimage.png%3Falt%3Dmedia%26token%3D72ea55f8-7a3e-472d-bf73-b398a0a39c20\&width=768\&dpr=4\&quality=100\&sign=1cd2dffa\&sv=2)
+<figure><img src="../.gitbook/assets/image (1155).png" alt=""><figcaption></figcaption></figure>
 
 
 

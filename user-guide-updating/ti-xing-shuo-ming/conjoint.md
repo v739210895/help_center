@@ -46,13 +46,13 @@ Enter the questionnaire editing page and select "Conjoint " from the question ty
 
 * Edit Attributes and Levels
 
-&#x20;
+<figure><img src="../../.gitbook/assets/image (1144).png" alt=""><figcaption></figcaption></figure>
 
 **Custom Concept:** Users can upload their custom combinations of multi-attribute and multi-level concepts without the system needing to do the combinations. Users need to fill in the attributes and levels of the custom concept according to the template before uploading. This is suitable for scenarios with fixed concept combinations for evaluations.
 
 * Upload Custom Concept
 
-
+<figure><img src="../../.gitbook/assets/image (1156).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3: Configure Tasks (Design Plan)**
 
@@ -60,17 +60,17 @@ Enter the questionnaire editing page and select "Conjoint " from the question ty
 
     * This refers to how many concepts respondents will see in each selection. It is recommended to have 2 to 5 concepts; too many will increase the difficulty of selection, while too few will lack comparability.
 
-    ![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FeyLkAnqjEI8qsT6QxomI%252Fimage.png%3Falt%3Dmedia%26token%3Dc66b334f-f164-44e4-a816-bddda954179c\&width=768\&dpr=4\&quality=100\&sign=94b3208f\&sv=2)
+    <figure><img src="../../.gitbook/assets/image (1157).png" alt=""><figcaption></figcaption></figure>
 2.  Enter the number of tasks
 
     * Refers to the total number of choice tasks a respondent needs to complete. The system will automatically recommend a reasonable range of task numbers based on the concept, and the task number must be manually entered before it can be launched.
 
-    ![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252Fh0HWH9i0RilnQQTkl90Z%252Fimage.png%3Falt%3Dmedia%26token%3Df9c0501d-af07-46cf-916b-b692f6f11d74\&width=768\&dpr=4\&quality=100\&sign=9651477f\&sv=2)
-3. Each task includes an empty option (optional)
+    <figure><img src="../../.gitbook/assets/image (1158).png" alt=""><figcaption></figcaption></figure>
+3. Each task includes an empty choice (optional)
 
 * Add a blank option to each concept to simulate a real decision-making scenario -- I don't want to choose any of the above concepts.
 
-![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FqxRcC5YPRX02VWmbTNci%252Fimage.png%3Falt%3Dmedia%26token%3D4517750e-1c05-43ca-8e70-9f4fbef49f07\&width=768\&dpr=4\&quality=100\&sign=d9998abb\&sv=2)
+<figure><img src="../../.gitbook/assets/image (1159).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -83,13 +83,11 @@ Enter the questionnaire editing page and select "Conjoint " from the question ty
 
 Provide basic reports and accurate reports to assist you in analysis.
 
-![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FikitAtWbFJrEha5LaeTI%252Fimage.png%3Falt%3Dmedia%26token%3Dd3050bcc-cf00-4f87-b1ac-41a9ef0536be\&width=768\&dpr=4\&quality=100\&sign=84f4bfd9\&sv=2)
-
 **1.Basic Report**
 
 Real-time calculation of recycling data, counting the number of occurrences, selections, and scores for each concept.
 
-![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FUOrqS1mQNSQmlyGNemB7%252Fimage.png%3Falt%3Dmedia%26token%3D0576fb41-652a-47d5-9532-ff34aa70658c\&width=768\&dpr=4\&quality=100\&sign=28859987\&sv=2)
+<figure><img src="../../.gitbook/assets/image (1160).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Score: The score reflects the respondents' preference level for the concept. A higher score indicates greater popularity among all concepts.\
@@ -102,7 +100,7 @@ Calculation formula: Number of times selected / Total number of occurrences
 
 We will use a Hierarchical Bayesian (HB) model with the MCMC (Metropolis-Hastings) algorithm to simultaneously fit all respondents' utility values within a Bayesian framework through individual-level parameter estimation and prior constraints of the population distribution. This computational method can effectively handle sparse choice data and enhance estimation efficiency for small samples.
 
-![](https://imur.gitbook.io/help_center/~gitbook/image?url=https%3A%2F%2F1246225111-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-Lnu1UZ4dgrL0WcgooHk%252Fuploads%252FX2PXzBw0Y5HWmB62pfdz%252Fimage.png%3Falt%3Dmedia%26token%3D72ea55f8-7a3e-472d-bf73-b398a0a39c20\&width=768\&dpr=4\&quality=100\&sign=1cd2dffa\&sv=2)
+<figure><img src="../../.gitbook/assets/image (1161).png" alt=""><figcaption></figcaption></figure>
 
 
 
