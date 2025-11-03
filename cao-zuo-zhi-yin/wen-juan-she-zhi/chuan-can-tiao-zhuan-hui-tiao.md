@@ -8,9 +8,7 @@
 
 功能开启后，在设置弹窗中填写跳转的链接（链接需为包含http://或http://前缀的地址），设置完成后当答题者提交问卷后浏览器将跳转到您设置的链接上。
 
-![功能流程](<../../.gitbook/assets/image (493).png>)
-
-<figure><img src="../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1162).png" alt=""><figcaption></figcaption></figure>
 
 ## 登录态回调接口
 
