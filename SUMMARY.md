@@ -99,7 +99,7 @@
   * [参数传递接口（严格校验模式）](api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)
   * [参数传递接口（不校验模式）](api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md)
   * [登录态回调接口(HTTP)](api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)
-  * [登录态回调接口(IDIP)](api-wen-dang/deng-lu-tai-hui-tiao-jie-kou-idip.md)
+  * [登录态回调接口(IDIP)（仅支持国内）](api-wen-dang/deng-lu-tai-hui-tiao-jie-kou-idip-jin-zhi-chi-guo-nei.md)
   * [AMS发奖](api-wen-dang/idip-fa-jiang.md)
   * [小程序接入](api-wen-dang/xiao-cheng-xu-jie-ru.md)
   * [开放接口（管理端）](api-wen-dang/kai-fang-jie-kou/README.md)
