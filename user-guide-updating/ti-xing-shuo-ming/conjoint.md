@@ -2,6 +2,8 @@
 
 Conjoint  simulates real purchasing decision scenarios by allowing respondents to choose and weigh complete product concepts composed of different attributes (such as price, features, design) and their levels. The core purpose of this approach is to quantify consumer preferences for various product features. Ultimately, through statistical models, it derives the utility value and relative importance of each attribute level in overall choice.
 
+<figure><img src="../../.gitbook/assets/image (1163).png" alt=""><figcaption></figcaption></figure>
+
 #### &#x20;I.Core Advantages of Conjoint <a href="#yi-maxdiff-de-he-xin-you-shi" id="yi-maxdiff-de-he-xin-you-shi"></a>
 
 * Restoring Multi-Attribute Trade-offs: Simulating the Multi-Factor Trade-off Process Faced by Consumers in Actual Purchases  \
@@ -38,7 +40,7 @@ Researchers first define the attributes and levels of the study, which the syste
 
 Enter the questionnaire editing page and select "Conjoint " from the question type list.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2: Select the concept type in the question settings on the right side.**
 

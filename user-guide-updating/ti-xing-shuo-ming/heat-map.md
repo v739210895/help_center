@@ -59,7 +59,7 @@ When the choice for commenting is enabled, an input box corresponding to the mar
 
 1.In the statistical analysis page, points with completely consistent positions will be merged and presented in the form of a heat map. The deeper the color, the higher the number of clicks, with the corresponding number of clicks displayed below.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2.Click "Export All" to download user IDs, click coordinates, and comment details.
 
