@@ -30,9 +30,9 @@ description: 编辑问卷时上传一张图片，需要问卷答题者在这个�
 
 #### 点选后评论
 
-开启后，作答者在点选图片后，可以自定义追问点选原因等
+开启后，作答者在点选图片后，可以自定义追问点选原因等，可定义原因是否必填
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1168).png" alt=""><figcaption></figcaption></figure>
 
 #### 选项设置
 
@@ -66,8 +66,13 @@ description: 编辑问卷时上传一张图片，需要问卷答题者在这个�
 空代表答题者未对标记点评论
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (21) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>全部导出</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1165).png" alt=""><figcaption></figcaption></figure>
 
 3.点击划区导出可以在热力图上选取需要导出数据的区域，做局部分析；（例如只想查看选中脸部的玩家答题详情，那么确认选区后会自动导出对应区域数据）
 
 <figure><img src="../.gitbook/assets/image (22) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+4.同时支持输入x.y坐标反向查询坐标位置
+
+<figure><img src="../.gitbook/assets/image (1166).png" alt=""><figcaption></figcaption></figure>
+
