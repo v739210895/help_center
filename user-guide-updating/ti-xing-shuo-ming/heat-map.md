@@ -63,6 +63,8 @@ When the choice for commenting is enabled, an input box corresponding to the mar
 
 2.Click "Export All" to download user IDs, click coordinates, and comment details.
 
+<figure><img src="../../.gitbook/assets/image (1182).png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 Empty means the respondent did not comment on the marked point.
 {% endhint %}
@@ -75,4 +77,4 @@ Empty means the respondent did not comment on the marked point.
 
 4. Support reverse lookup of coordinate positions by entering x.y coordinates
 
-<figure><img src="../../.gitbook/assets/image (1179).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1183).png" alt=""><figcaption></figcaption></figure>
