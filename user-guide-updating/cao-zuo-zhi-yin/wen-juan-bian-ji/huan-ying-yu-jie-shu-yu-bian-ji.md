@@ -39,3 +39,15 @@ The closing remarks can support the insertion of hyperlinks and images.
 {% content-ref url="cha-ru-tu-pian.md" %}
 [cha-ru-tu-pian.md](cha-ru-tu-pian.md)
 {% endcontent-ref %}
+
+Based on your distribution needs, enable some or all feature switches to input ending messages in the corresponding tabs. Respondents who meet the specified rules will automatically see the corresponding prompt.
+
+Meet Logical jump：In the "Simple/Combinational Logic" feature, set conditions to jump to the end page, displaying corresponding ending remarks to respondents who meet the logic jump criteria.
+
+Meet screening condition：In the "Screening " feature, set up pre-screening conditions to display corresponding closing remarks to respondents who meet the screening criteria.
+
+Meet full quota condition：In the "Quota " feature, set quota questions, and display the corresponding closing remarks to respondents who meet the full quota questions.<br>
+
+![](<../../../.gitbook/assets/unknown (2).png>)
+
+![](<../../../.gitbook/assets/unknown (3).png>)

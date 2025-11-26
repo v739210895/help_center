@@ -15,11 +15,17 @@ Calculation method: Estimate the final answering duration for the longest logica
 
 ## Inspection and Recommendations
 
-Multidimensional checks and suggestions include: number of matrix sub-questions, number of subjective questions, consistency of personal pronouns, repetition of question stems, repetition of options, only one option, logical repetition, etc.
-
 Click on the relevant question stem to locate and modify the question.
 
 <figure><img src="../../.gitbook/assets/image (23) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
+Provide a survey check function to help questionnaire editors optimize question content and research methods, thereby avoiding compliance risks and improving survey completion rates and response quality.<br>
+
+Coverage of Check Dimensions:
+
+1. Question-Type Quantity Control: Triggers a prompt if the number of subjective questions > 4, or the total number of matrix questions > 10.
+2. Matrix Question Depth Control: Triggers a prompt if the number of sub‑questions in a single matrix question > 10, or the number of options in a single matrix single/multiple‑choice question > 6.
+3. Content Repetition Detection: Triggers a prompt if identical question stems are found, or if duplicate options/sub‑questions exist within a single question.
+4. Expression Consistency Detection: Triggers a prompt if the frequency of “您” and “你” in stems, notes, options, and info fields is inconsistent.
