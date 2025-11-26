@@ -10,7 +10,7 @@ Choices linked from the previous question do not support randomization.
 
 Randomize choices means that the choices in a question appear in a random order when answering. After enabling the "Randomize choices" feature, a checkbox labeled "Not random" will appear on the right side of each choice. If you want a specific choice to remain in its current position, you can check "Not random" next to it, and that choice will not be included in the random order.
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Choices in ascending or descending order
 

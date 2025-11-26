@@ -15,7 +15,7 @@ Special Instructions
 
 In "Settings" , enable the " Screening" setting entry.
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After entering the page, click on "Add New Condition" in the upper right corner or "Add First Condition" to create a new screening condition.
 

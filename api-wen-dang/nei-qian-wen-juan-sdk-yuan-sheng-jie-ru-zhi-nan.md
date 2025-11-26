@@ -56,8 +56,7 @@ implementation fileTree(dir: 'libs', include: \['\*.jar','\*.aar'])
 
 <figure><img src="../.gitbook/assets/image (822).png" alt=""><figcaption></figcaption></figure>
 
-2、在TARGET的General配置下启用framework的集成：\
-
+2、在TARGET的General配置下启用framework的集成：<br>
 
 <figure><img src="../.gitbook/assets/image (823).png" alt=""><figcaption></figcaption></figure>
 
@@ -78,7 +77,7 @@ sdk对外的API在com.tencent.imur.survey.IMurSurveyAdapter类中，主要API说
 
 Activity app = this; // 打开弹窗需要的activity
 String surveyID = "<a data-footnote-ref href="#user-content-fn-1">6350b6a987ee34f6e6025c02</a>"; // 问卷SID
-String urlParams = "<a data-footnote-ref href="#user-content-fn-2">openid=xxx&#x26;info=xxx"</a>; // 登陆态等信息
+String urlParams = "<a data-footnote-ref href="#user-content-fn-1">openid=xxx&#x26;info=xxx"</a>; // 登陆态等信息
 IMurSurveyAdapter.openSurvey(app, surveyID, urlParams);
 </code></pre>
 
@@ -90,7 +89,7 @@ urlParams参数请参考下方【打开问卷弹窗参数】
 import org.json.JSONObject;
 
 JSONObject conf = new JSONObject();
-conf.put("<a data-footnote-ref href="#user-content-fn-3">mask</a>", true);
+conf.put("<a data-footnote-ref href="#user-content-fn-1">mask</a>", true);
 String configJson = conf.toString();
 IMurSurveyAdapter.setSurveyConfig(configJson);
 </code></pre>
@@ -200,7 +199,3 @@ setSurveyConfig 参数请参考下【问卷配置参数】
 &#x20;
 
 [^1]: 
-
-[^2]: 
-
-[^3]: 

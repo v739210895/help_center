@@ -38,7 +38,7 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 Developer Callback Interfaceurl?sid=5da414769e8aa80019305e32\&timestamp=1573556685\&uid=test\_user\&user\_type=third\_party\&uid\_source=qq\&info=afdadsfasdfasdf\&callback\_params=callbackparams\&sign=38408d6222e1a4c6fa598e4820443ca8
 
-[Click to view detailed API documentation.](broken-reference)
+[Click to view detailed API documentation.](/broken/pages/gWIYRGVPhSJILUbz1GCu)
 
 
 
@@ -48,7 +48,7 @@ The system provides an open interface for querying response information, answer 
 
 ![API Call](../../../.gitbook/assets/Snipaste_2023-10-08_14-47-43.png)
 
-[Click to view detailed API documentation](broken-reference)
+[Click to view detailed API documentation](/broken/pages/U94MKsa1Cpfd0cdyNfnE)
 
 ### Rewards will be given after submitting the survey
 
@@ -114,7 +114,7 @@ Award Record Inquiry
 
 Click "Award Records" to view the award triggering status of all quiz accounts.。
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Check prize records</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Check prize records</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption><p>Award Record Details</p></figcaption></figure>
 

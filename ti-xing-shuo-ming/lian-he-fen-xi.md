@@ -2,7 +2,7 @@
 
 联合分析通过模拟真实的购买决策场景，让受访者在由不同属性（如价格、功能、设计）和其水平组合而成的完整产品概念中进行选择和权衡。此题型的核心目的在于量化消费者对产品各个特征的偏好程度，最终通过统计模型推算出每个属性水平对整体选择的效用值和相对重要性
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 #### 一、联合分析的核心优势 <a href="#yi-maxdiff-de-he-xin-you-shi" id="yi-maxdiff-de-he-xin-you-shi"></a>
 

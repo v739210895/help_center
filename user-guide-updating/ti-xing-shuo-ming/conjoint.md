@@ -40,7 +40,7 @@ Researchers first define the attributes and levels of the study, which the syste
 
 Enter the questionnaire editing page and select "Conjoint " from the question type list.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2: Select the concept type in the question settings on the right side.**
 
