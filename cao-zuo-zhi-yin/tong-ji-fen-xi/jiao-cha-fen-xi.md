@@ -11,14 +11,20 @@
 
 提供数据筛选功能，开启后可设定指定条件先对当前已回收的答卷数据进行筛选，在筛选结果中生成交叉表。
 
-![数据筛选器](../../.gitbook/assets/Snipaste\_2023-10-08\_15-45-40.png)
+![数据筛选器](../../.gitbook/assets/Snipaste_2023-10-08_15-45-40.png)
 
 ## 【STEP 2】设置行、列表头
 
 在左侧设置栏中分别勾选作为行表头、列表头的题目，点击下方“开始计算”按钮即实时计算生成交叉表。
 
-![行表头、列表头设置](../../.gitbook/assets/Snipaste\_2023-10-08\_15-46-31.png)
+![行表头、列表头设置](../../.gitbook/assets/Snipaste_2023-10-08_15-46-31.png)
 
 ## 【STEP 3】生成交叉表
 
-![交叉表](../../.gitbook/assets/Snipaste\_2023-10-08\_15-47-23.png)
+![交叉表](../../.gitbook/assets/Snipaste_2023-10-08_15-47-23.png)
+
+### 【STEP4】保存交叉表
+
+交叉分析支持保存多个交叉表，针对同一批数据，不同维度（如性别×满意度、地区×购买意愿）的交叉分析可一次配置、多次复用
+
+<figure><img src="../../.gitbook/assets/image (1193).png" alt=""><figcaption></figcaption></figure>
