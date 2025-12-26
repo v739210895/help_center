@@ -1,8 +1,12 @@
+---
+coverY: 0
+---
+
 # 导出原始问卷
 
 在“我的问卷”列表选择一份问卷，点击操作栏中的“导出”-导出原始问卷，即可导出excel格式的问卷文件。
 
-![我的问卷-导出原始问卷](../../.gitbook/assets/Snipaste\_2023-10-09\_10-20-48.png)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ![导出的原始问卷](<../../.gitbook/assets/image (393).png>)
 

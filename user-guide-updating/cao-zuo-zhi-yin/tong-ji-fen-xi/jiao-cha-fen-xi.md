@@ -22,3 +22,11 @@ In the settings panel on the left, select the questions to be used as row header
 ## 【STEP 3】Generate a crosstab
 
 <figure><img src="../../../.gitbook/assets/image (19) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+<br>
+
+## 【STEP4】Save Cross-Tabulation
+
+Cross-tabulation analysis supports saving multiple cross-tables. For the same dataset, cross-tabulations across different dimensions (e.g., Gender × Satisfaction, Region × Purchase Intent) can be configured once and reused multiple times.<br>
+
+<figure><img src="../../../.gitbook/assets/image (1197).png" alt=""><figcaption></figcaption></figure>
