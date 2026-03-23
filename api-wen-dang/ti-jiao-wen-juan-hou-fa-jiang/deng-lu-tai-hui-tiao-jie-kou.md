@@ -1,4 +1,4 @@
-# 登录态回调接口(HTTP)
+# 回调发奖
 
 ## 1. 接口说明
 
@@ -39,7 +39,7 @@
 7. 返回状态码status。
 
 {% hint style="info" %}
-1) appSecret即回调密钥，和回调地址一样，在问卷的“设置”页配置。配置方法详见[登录态回调配置](../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#deng-lu-tai-hui-tiao-jie-kou)
+1) appSecret即回调密钥，和回调地址一样，在问卷的“设置”页配置。配置方法详见[登录态回调配置](../../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#deng-lu-tai-hui-tiao-jie-kou)
 2) 拼接后的加密字符串示例 appSecretuIVtlG06callback\_paramscallbackparamsinfotestinfosid5fe4428376051f85cc5f3973timestamp1609408137uidtestuseruid\_sourcetestsourceuser\_typeweak\_third\_party 【注】只有默认参数和appSecret参与计算签名，值为空的默认参数和其他未说明的参数不参与加密计算。
 {% endhint %}
 
@@ -222,16 +222,16 @@ _回调URL示例_
 
 回调接口使用GET请求。
 
-<table data-header-hidden><thead><tr><th>参数</th><th>是否必传</th><th>是否参与加密</th><th width="188">数据类型</th><th>限制长度</th><th>说明</th></tr></thead><tbody><tr><td>参数</td><td>是否必传</td><td>是否参与加密</td><td>数据类型</td><td>限制长度</td><td>说明</td></tr><tr><td>sid</td><td>是</td><td>是</td><td>string</td><td>32</td><td>问卷id</td></tr><tr><td>uid</td><td>否</td><td>是</td><td>string</td><td>255</td><td>仅在问卷需要登录时传递，登录用户的唯一ID（即，MSDK登录验证中的玩家openid/严格校验模式下传入的uid/不校验模式下传入的openid）</td></tr><tr><td>user_type</td><td>否</td><td>是</td><td>string</td><td>2-10</td><td>仅在问卷需要登录时传递，登录用户类型，包含：wechat(微信)、qq(QQ登录)、msdk(游戏内)、third_party(参数传递-严格校验模式)、weak_third_party（参数传递-不校验模式）</td></tr><tr><td>uid_source</td><td>否</td><td>是</td><td>string</td><td>2-10</td><td>仅在问卷需要登录时传递，登录用户来源，当前只在msdk下有值wx与qq，非MSDK登录态传递则需要开发者自己定义</td></tr><tr><td>timestamp</td><td>是</td><td>是</td><td>int</td><td>10位</td><td>时间戳</td></tr><tr><td>sign</td><td>是</td><td>否</td><td>string</td><td>32</td><td>签名，参考签名算法</td></tr><tr><td>callback_params</td><td>否</td><td>是</td><td>string</td><td>255</td><td><p>开发者自定义回调参数，业务需要额外的参数则可以使用。【注】</p><p>1.该参数是由开发者通过问卷链接<strong>透传</strong>到开发者服务端的，例如：https://in.survey.imur.tencent.com/?sid=xxx&#x26;</p><p>lang=zh-CHS&#x26;callback_params=xxxxx</p><p>2.如透传时值被encode，则加密时需先decode</p></td></tr><tr><td>info</td><td>否</td><td>是</td><td>string</td><td>255</td><td>登录用户额外的信息。</td></tr><tr><td>effective</td><td>是</td><td>否</td><td>bool</td><td></td><td>设置了自动过滤的条件，在答完题之后，计算用户的答案是否有效。如果有效则返回 "true"，否则返回 "false"</td></tr><tr><td>aid</td><td>是</td><td>否</td><td>string</td><td>32</td><td>答卷编号；不参与生成sign，<a href="kai-fang-jie-kou/">开放接口</a>中用于查询答卷详情。</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th>参数</th><th>是否必传</th><th>是否参与加密</th><th width="188">数据类型</th><th>限制长度</th><th>说明</th></tr></thead><tbody><tr><td>参数</td><td>是否必传</td><td>是否参与加密</td><td>数据类型</td><td>限制长度</td><td>说明</td></tr><tr><td>sid</td><td>是</td><td>是</td><td>string</td><td>32</td><td>问卷id</td></tr><tr><td>uid</td><td>否</td><td>是</td><td>string</td><td>255</td><td>仅在问卷需要登录时传递，登录用户的唯一ID（即，MSDK登录验证中的玩家openid/严格校验模式下传入的uid/不校验模式下传入的openid）</td></tr><tr><td>user_type</td><td>否</td><td>是</td><td>string</td><td>2-10</td><td>仅在问卷需要登录时传递，登录用户类型，包含：wechat(微信)、qq(QQ登录)、msdk(游戏内)、third_party(参数传递-严格校验模式)、weak_third_party（参数传递-不校验模式）</td></tr><tr><td>uid_source</td><td>否</td><td>是</td><td>string</td><td>2-10</td><td>仅在问卷需要登录时传递，登录用户来源，当前只在msdk下有值wx与qq，非MSDK登录态传递则需要开发者自己定义</td></tr><tr><td>timestamp</td><td>是</td><td>是</td><td>int</td><td>10位</td><td>时间戳</td></tr><tr><td>sign</td><td>是</td><td>否</td><td>string</td><td>32</td><td>签名，参考签名算法</td></tr><tr><td>callback_params</td><td>否</td><td>是</td><td>string</td><td>255</td><td><p>开发者自定义回调参数，业务需要额外的参数则可以使用。【注】</p><p>1.该参数是由开发者通过问卷链接<strong>透传</strong>到开发者服务端的，例如：https://in.survey.imur.tencent.com/?sid=xxx&#x26;</p><p>lang=zh-CHS&#x26;callback_params=xxxxx</p><p>2.如透传时值被encode，则加密时需先decode</p></td></tr><tr><td>info</td><td>否</td><td>是</td><td>string</td><td>255</td><td>登录用户额外的信息。</td></tr><tr><td>effective</td><td>是</td><td>否</td><td>bool</td><td></td><td>设置了自动过滤的条件，在答完题之后，计算用户的答案是否有效。如果有效则返回 "true"，否则返回 "false"</td></tr><tr><td>aid</td><td>是</td><td>否</td><td>string</td><td>32</td><td>答卷编号；不参与生成sign，<a href="../kai-fang-jie-kou/">开放接口</a>中用于查询答卷详情。</td></tr></tbody></table>
 
 
 
 {% hint style="info" %}
 1. 参与签名的参数为所有值不为空字符串的参数（不区分必传与非必传）与 appSecret；未传或值为空字符串的参数不参与。
-2. 本文档未说明的参数不参与加密，可参考：[为什么会接收到文档中未说明的回调参数](../chang-jian-wen-ti/you-xi-nei-qian/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
+2. 本文档未说明的参数不参与加密，可参考：[为什么会接收到文档中未说明的回调参数](../../chang-jian-wen-ti/you-xi-nei-qian/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
 {% endhint %}
 
-![参数传递存储说明](<../.gitbook/assets/image (377).png>)
+![参数传递存储说明](<../../.gitbook/assets/image (377).png>)
 
 ### **2.2 回调成功约定返回格式**
 
@@ -276,9 +276,9 @@ business\_code必须是int16类型，即 -32768 \~ 32767
 https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callback=2**
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1109).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1109).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1110).png" alt=""><figcaption></figcaption></figure>
 
 ## 3. 回调接口调试工具
 
@@ -288,7 +288,7 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 【海外】[https://test.a.imur.tencent.com/static/tools-out/#/callback](https://test.a.imur.tencent.com/static/tools-out/#/callback/log)
 
-![回调接口调试工具](<../.gitbook/assets/image (763).png>)
+![回调接口调试工具](<../../.gitbook/assets/image (763).png>)
 
 
 
@@ -300,10 +300,11 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 【海外】[https://test.a.imur.tencent.com/static/tools-out/#/callback/log](https://test.a.imur.tencent.com/static/tools-out/#/callback/log)
 
-<figure><img src="../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 ## 5. 常见问题
 
-### 5.1 [为什么收不到回调消息？](../chang-jian-wen-ti/you-xi-nei-qian/wei-shen-me-shou-bu-dao-hui-tiao-xiao-xi.md)
+### 5.1 [为什么收不到回调消息？](../../chang-jian-wen-ti/you-xi-nei-qian/wei-shen-me-shou-bu-dao-hui-tiao-xiao-xi.md)
 
-### 5.2 [为什么会接收到文档中未说明的回调参数？](../chang-jian-wen-ti/you-xi-nei-qian/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
+### 5.2 [为什么会接收到文档中未说明的回调参数？](../../chang-jian-wen-ti/you-xi-nei-qian/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
+

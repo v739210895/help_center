@@ -1,4 +1,4 @@
-# 登录态回调接口(IDIP)
+# 登录态回调接口(IDIP)（仅支持国内）
 
 ## 1. 接口说明
 
@@ -22,13 +22,13 @@
 
 #### 2.1.1 基础配置
 
-<figure><img src="../.gitbook/assets/image (1111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1111).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1113).png" alt=""><figcaption></figcaption></figure>
 
 以上配置可以在 AMS 平台的 "接口说明" 中找到:&#x20;
 
-<figure><img src="../.gitbook/assets/Sp_2025-04-23_11-30-24_mosaic.png" alt=""><figcaption><p>ams 接口说明</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Sp_2025-04-23_11-30-24_mosaic.png" alt=""><figcaption><p>ams 接口说明</p></figcaption></figure>
 
 #### 2.1.2 接口自定义参数
 

@@ -2,7 +2,7 @@
 
 对接了MSDK V5版本的APP，可在问卷设置的登录验证中选择【MSDK v5】登录功能；用户提交问卷时，问卷系统会自动获取MSDK的登录态（如gopenid）并存储在答题数据中。
 
-<figure><img src="../.gitbook/assets/image (1105).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1105).png" alt=""><figcaption></figcaption></figure>
 
 ## 参数配置说明
 
@@ -43,7 +43,7 @@ MSDK文档参考：
 
 【打开网页OpenUrl】[http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#22-%E6%89%93%E5%BC%80%E7%BD%91%E9%A1%B5](http://doc.itop.woa.com/v5/zh-CN/Module/WebView.html#22-%E6%89%93%E5%BC%80%E7%BD%91%E9%A1%B5)
 
-<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>MSDK文档</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>MSDK文档</p></figcaption></figure>
 
 #### 方式二：调用（获取加密票据）接口在链接后注入登录态参数
 
@@ -77,7 +77,7 @@ MSDK文档参考：【解密校验】[http://doc.itop.woa.com//v5/zh-CN/Server/v
 
 （3）重复注入多次登录态参数导致解密失败。游戏客户端需排查OpenUrl()的isUseURLEncode是否为true，若是，则不需要另外调用GetEncodeUrl()。
 
-![登录失败](<../.gitbook/assets/image (301).png>)
+![登录失败](<../../.gitbook/assets/image (301).png>)
 
 {% hint style="warning" %}
 若MSDK-V5登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。

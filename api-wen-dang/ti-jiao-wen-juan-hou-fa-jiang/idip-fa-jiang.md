@@ -6,7 +6,7 @@
 
 {% hint style="info" %}
 1. 仅支持已对接邮件发货功能的游戏使用
-2. 问卷务必开启[MSDK登录验证](../cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi/#msdk-deng-lu-yan-zheng)/[INTL登录验证](intl-deng-lu-tai-cai-ji.md)/[参数传递（严格校验模式）](../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-yan-ge-xiao-yan-mo-shi)/[参数传递（不校验模式）](../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)以上任一功能
+2. 问卷务必开启[MSDK登录验证](../../cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi/#msdk-deng-lu-yan-zheng)/[INTL登录验证](../cai-ji-wan-jia-openid/intl-deng-lu-tai-cai-ji.md)/[参数传递（严格校验模式）](../../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-yan-ge-xiao-yan-mo-shi)/[参数传递（不校验模式）](../../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)以上任一功能
 3. 对每个答题者仅发奖一次；已成功发奖的答题者再次回答问卷后不可二次触发发奖
 {% endhint %}
 
@@ -28,15 +28,15 @@
 注：国内游戏内是使用的是gopenid发奖，则开启gopenid即可
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 注：海外配置礼包单时，ams环境是通过配置不同环境域名区分，具体域名可咨询ams助手获取
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 【STEP 3】传递发奖参数
 
@@ -61,15 +61,15 @@
 
 在游戏中投放问卷，答题者提交问卷后，问卷系统会自动触发调用AMS礼包单发奖（奖品名称显示为step1中所配置的礼包组名称）。
 
-![游戏内填答后发奖成功提示](../.gitbook/assets/Snipaste_2023-12-06_14-12-48.png)
+![游戏内填答后发奖成功提示](../../.gitbook/assets/Snipaste_2023-12-06_14-12-48.png)
 
 ### 发奖记录查询
 
 点击“发奖记录”即可查看所有答题账号的触发发奖情况。
 
-<figure><img src="../.gitbook/assets/image (1103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1103).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption><p>发奖记录详情</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption><p>发奖记录详情</p></figcaption></figure>
 
 #### ams响应码说明
 
@@ -77,8 +77,8 @@
 
 ## 常见问题
 
-[如何实现用户填完问卷后自动发奖？](../chang-jian-wen-ti/you-xi-nei-qian/ams-fa-jiang-she-zhi.md)
+[如何实现用户填完问卷后自动发奖？](../../chang-jian-wen-ti/you-xi-nei-qian/ams-fa-jiang-she-zhi.md)
 
-[在问卷设置中配置了AMS礼包单，为什么提交问卷后还是领不到奖励？](../chang-jian-wen-ti/zai-wen-juan-she-zhi-zhong-pei-zhi-le-ams-li-bao-dan-wei-shi-mo-ti-jiao-wen-juan-hou-huan-shi-ling-b.md)
+[在问卷设置中配置了AMS礼包单，为什么提交问卷后还是领不到奖励？](../../chang-jian-wen-ti/zai-wen-juan-she-zhi-zhong-pei-zhi-le-ams-li-bao-dan-wei-shi-mo-ti-jiao-wen-juan-hou-huan-shi-ling-b.md)
 
-[海外 AMS 发奖礼包多语言如何配置？](../chang-jian-wen-ti/you-xi-nei-qian/hai-wai-ams-fa-jiang-li-bao-duo-yu-yan-pei-zhi.md)
+[海外 AMS 发奖礼包多语言如何配置？](../../chang-jian-wen-ti/you-xi-nei-qian/hai-wai-ams-fa-jiang-li-bao-duo-yu-yan-pei-zhi.md)

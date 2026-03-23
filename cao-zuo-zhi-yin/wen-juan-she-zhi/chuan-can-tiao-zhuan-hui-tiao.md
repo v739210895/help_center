@@ -36,7 +36,7 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 开发者回调接口url?sid=5da414769e8aa80019305e32\&timestamp=1573556685\&uid=test\_user\&user\_type=third\_party\&uid\_source=qq\&info=afdadsfasdfasdf\&callback\_params=callbackparams\&sign=38408d6222e1a4c6fa598e4820443ca8
 
-[点击了解详细API文档](../../api-wen-dang/deng-lu-tai-hui-tiao-jie-kou.md)。
+[点击了解详细API文档](../../api-wen-dang/wen-juan-da-ti-xin-xi-hui-tiao/deng-lu-tai-hui-tiao-jie-kou.md)。
 
 
 

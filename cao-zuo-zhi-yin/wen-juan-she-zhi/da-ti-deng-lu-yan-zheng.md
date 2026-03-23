@@ -62,7 +62,7 @@
 https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692\&lang=zh-CHS\&ADTAG=sid.5e8d767b76051f46707cf692\&openid=XXXX\&source=XXXX\&info=XXXX
 {% endhint %}
 
-点击“[参数传递接口（不校验模式）](../../api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md)”查看API文档，了解问卷链接的改造方法。
+点击“[参数传递接口（不校验模式）](../../api-wen-dang/cai-ji-wan-jia-openid/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi.md)”查看API文档，了解问卷链接的改造方法。
 
 ## 参数传递（严格校验模式）
 
@@ -74,4 +74,4 @@ https://in.survey.imur.tencent.com/?sid=5e8d767b76051f46707cf692\&lang=zh-CHS\&A
 https://inapi.survey.imur.tencent.com/autologin?sid=5e8d767b76051f46707cf692\&uid=user\_id\&timestamp=1573455797\&source=dwk\&info=extra\_info\&redirect=https%3A%2F%2Fin.survey.imur.tencent.com%2F%3Fsid%5e8d767b76051f46707cf692%26lang%3Dzh-CHS%26ADTAG%3Dsid.5e8d767b76051f46707cf692\&sign=2ac5ab8ce6a9b306e07dc2664fe7d175
 {% endhint %}
 
-点击“[参数传递接口（严格校验）](../../api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)”查看API文档，了解内嵌投放链接的改造方法。
+点击“[参数传递接口（严格校验）](../../api-wen-dang/cai-ji-wan-jia-openid/fei-msdk-deng-lu-tai-chuan-di-jie-kou.md)”查看API文档，了解内嵌投放链接的改造方法。

@@ -15,7 +15,7 @@
 
 ### 1.3 交互流程
 
-![](../.gitbook/assets/login_UML.jpg)
+![](../../.gitbook/assets/login_UML.jpg)
 
 开发者仅需关注开发者服务器流程，重点关注签名以及登录重定向url的生成。
 
@@ -189,12 +189,12 @@ redirect=https%3A%2F%2Fin.weisurvey.com%2Fv2%2F%3Fsid%3D60cfe98c76051f40495d32c2
 sign=ade962f5273a404f72aaabf544b14281
 {% endhint %}
 
-![步骤示例](<../.gitbook/assets/image (164).png>)
+![步骤示例](<../../.gitbook/assets/image (164).png>)
 
 ## 3. 问卷设置
 
 需在问卷设置页面设置密钥，密钥支持自定义。
 
-<figure><img src="../.gitbook/assets/image (1107).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1107).png" alt=""><figcaption></figcaption></figure>
 
 ## 4. 常见问题

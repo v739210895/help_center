@@ -19,7 +19,7 @@
 2. info和partition均为“自定义内容”，请勿同时传入info和partition，否则其中一个参数的值会丢失。
 {% endhint %}
 
-![openid、channel、info会对应存储到导出数据的用户ID、渠道、自定义内容列](<../.gitbook/assets/image (713).png>)
+![openid、channel、info会对应存储到导出数据的用户ID、渠道、自定义内容列](<../../.gitbook/assets/image (713).png>)
 
 {% hint style="info" %}
 **普通投放链接与内嵌投放链接示例对比**
@@ -37,4 +37,4 @@ _\*以上参数对应的值仅作展示使用_
 
 问卷设置
 
-<figure><img src="../.gitbook/assets/image (1108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1108).png" alt=""><figcaption></figcaption></figure>

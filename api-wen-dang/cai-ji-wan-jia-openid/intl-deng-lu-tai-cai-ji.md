@@ -1,8 +1,8 @@
-# INTL登录态采集
+# INTL登录态采集（海外）
 
 对接了INTL的APP，可在问卷设置的登录验证中选择【INTL】登录；用户提交问卷时，问卷系统会自动获取该玩家登录态（如openid）并存储在答题数据中。
 
-<figure><img src="../.gitbook/assets/image (1106).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1106).png" alt=""><figcaption></figcaption></figure>
 
 ### 参数配置说明
 
@@ -40,7 +40,7 @@ INTL文档参考：
 
 【打开网页OpenUrl】 [https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/OpenUrl](https://docs.playernetwork.intlgame.com/docs/zh/API/UE-sdk/WebView/OpenUrl)
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>参数赋值说明</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>参数赋值说明</p></figcaption></figure>
 
 #### 方式二：调用（获取加密票据）接口在链接后注入登录态参数
 
@@ -82,7 +82,7 @@ INTL文档参考：【解密校验】
 
 （2）注入登录态参数后的问卷链接过长，部分参数被截断导致参数缺失（需客户端另行处理）。
 
-![登录失败](<../.gitbook/assets/image (301).png>)
+![登录失败](<../../.gitbook/assets/image (301).png>)
 
 {% hint style="warning" %}
 若INTL登录态采集接口联调失败，可改用参数传递（[严格校验模式](https://imur.gitbook.io/help_center/api-wen-dang/fei-msdk-deng-lu-tai-chuan-di-jie-kou)、[不校验模式](https://imur.gitbook.io/help_center/api-wen-dang/can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)）接口，实现登录态传递。
