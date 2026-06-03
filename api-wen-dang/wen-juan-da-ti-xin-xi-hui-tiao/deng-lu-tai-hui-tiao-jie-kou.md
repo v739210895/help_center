@@ -231,7 +231,7 @@ _回调URL示例_
 2. 本文档未说明的参数不参与加密，可参考：[为什么会接收到文档中未说明的回调参数](../../chang-jian-wen-ti/you-xi-nei-qian/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
 {% endhint %}
 
-![参数传递存储说明](<../../.gitbook/assets/image (377).png>)
+<figure><img src="../../.gitbook/assets/image (1203).png" alt=""><figcaption></figcaption></figure>
 
 ### **2.2 回调成功约定返回格式**
 
