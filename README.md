@@ -56,19 +56,21 @@ iMUR问卷系统提供专业的在线调研及统计工具，服务于国内&海
 
 ### 沿用拖拽点选添加，简化编辑操作
 
-<figure><img src=".gitbook/assets/image (1198).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1205).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### 实时自动保存更新，避免内容丢失错乱
 
-<figure><img src=".gitbook/assets/image (1201).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1206).png" alt=""><figcaption></figcaption></figure>
 
 ### 支持游戏内嵌投放，自由配置跳转回调
 
-<figure><img src=".gitbook/assets/image (1200).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1207).png" alt=""><figcaption></figcaption></figure>
 
 ### 答题数据实时统计，直观图表展示
 
-<figure><img src=".gitbook/assets/image (1202).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1208).png" alt=""><figcaption></figcaption></figure>
 
 ### 各种终端自动兼容，链接可多渠道投放
 

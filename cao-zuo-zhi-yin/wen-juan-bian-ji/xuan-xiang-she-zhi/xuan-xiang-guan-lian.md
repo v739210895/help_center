@@ -10,7 +10,7 @@
 
 在题目编辑状态下，点击右侧题目设置面板中“选项关联”右侧“设置”按钮，即显示选项关联设置弹窗。
 
-![选项设置关联弹窗](../../../.gitbook/assets/Snipaste_2023-10-08_10-34-55.png)
+<figure><img src="../../../.gitbook/assets/image (1215).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】新增关联/移除关联
 
@@ -18,9 +18,7 @@
 
 在选项关联设置弹窗中，点击“新增关联”按钮后，显示题目与选项设置下拉框。
 
-![新增关联](<../../../.gitbook/assets/image (85).png>)
-
-![题目与选项设置下拉框](<../../../.gitbook/assets/image (344).png>)
+<figure><img src="../../../.gitbook/assets/image (1216).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -31,18 +29,6 @@
 {% endhint %}
 
 ![选择关联题目](../../../.gitbook/assets/Snipaste_2023-10-08_10-35-28.png)
-
-
-
-点击展开选项设置下拉框，选择“选中项”/“未选中项”。
-
-![关联项设置](<../../../.gitbook/assets/image (475).png>)
-
-
-
-点击确定设置完成。
-
-![题目编辑状态下显示选项关联](../../../.gitbook/assets/Snipaste_2023-10-08_10-36-59.png)
 
 ### 移除关联
 
