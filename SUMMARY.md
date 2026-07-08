@@ -92,6 +92,7 @@
   * [文本拖拽题](ti-xing-shuo-ming/wen-ben-tuo-zhuai-ti.md)
   * [MaxDiff](ti-xing-shuo-ming/maxdiff.md)
   * [联合分析](ti-xing-shuo-ming/lian-he-fen-xi.md)
+  * [心流曲线题](ti-xing-shuo-ming/xin-liu-qu-xian-ti.md)
   * [信息栏](ti-xing-shuo-ming/xin-xi-lan.md)
 * [API文档](api-wen-dang/README.md)
   * [采集玩家openid](api-wen-dang/cai-ji-wan-jia-openid/README.md)
