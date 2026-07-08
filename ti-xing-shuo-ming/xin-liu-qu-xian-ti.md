@@ -2,7 +2,7 @@
 
 心流曲线题是一种可视化打分题型，让受访者沿着游戏进程（关卡、章节或时间轴）逐个节点为体验强度打分。所有节点的评分自动连成一条曲线，直观呈现体验在不同阶段的起伏——哪里是高峰、哪里跌入低谷一目了然。与普通量表题相比，心流曲线题不仅能拿到每个节点的分值，还能同步收集玩家在关键节点的文字描述，从而同时获得「体验走势」的定量数据与「为什么这样打分」的定性洞察
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1228).png" alt=""><figcaption></figcaption></figure>
 
 #### **一、心流曲线题的核心优势**&#xD;
 
