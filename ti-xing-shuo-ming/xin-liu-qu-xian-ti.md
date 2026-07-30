@@ -72,4 +72,4 @@
 5. 描述详情   曲线图下方按节点顺序完整列出该玩家填写的文字描述；未填写的节点显示“未填写”，每行提供复制按钮，便于摘录进研究报告。
 6. 海外问卷回收后可通&#x8FC7;**「译为中文」**&#x6309;钮，将描述文案一键翻译为中文，方便阅读。
 
-<figure><img src="../.gitbook/assets/企业微信截图_17853168029721.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1240).png" alt=""><figcaption></figcaption></figure>
