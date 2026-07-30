@@ -96,7 +96,7 @@ D列：题干、备注、选项内容；备注在题干的下一行，以“**�
 
 ![导入问卷](../../../.gitbook/assets/Snipaste_2024-12-02_16-08-15.png)
 
-![上传问卷](../../../.gitbook/assets/Snipaste_2024-12-02_16-31-04.png)
+<figure><img src="../../../.gitbook/assets/image (1241).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】确认基本信息
 

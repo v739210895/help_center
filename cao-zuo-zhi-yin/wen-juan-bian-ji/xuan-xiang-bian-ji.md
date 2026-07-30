@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # 选项编辑
 
 ## 编辑选项内容
@@ -12,17 +8,17 @@ hidden: true
 
 1. 在选项编辑框修改选项的文本内容
 
-![选项输入框中直接修改](<../../.gitbook/assets/image (278).png>)
+<figure><img src="../../.gitbook/assets/image (1247).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;  2.在批量修改选项弹窗中修改
 
-![批量修改选项](<../../.gitbook/assets/image (196).png>)
+<figure><img src="../../.gitbook/assets/image (1248).png" alt=""><figcaption></figcaption></figure>
 
 ### 调整选项字体样式
 
 选定文本后，点击富文本工具栏中的字体样式即把选中的文本改成对应的字体样式。文本样式包括：加粗、斜体、下划线、字体颜色。
 
-![选定文本后即可修改字体样式](../../.gitbook/assets/Snipaste_2023-10-17_11-52-53.png)
+<figure><img src="../../.gitbook/assets/image (1249).png" alt=""><figcaption></figcaption></figure>
 
 ## 设置填空
 
@@ -32,29 +28,9 @@ hidden: true
 从前序题目关联下来的选项不支持设置填空。
 {% endhint %}
 
-### 指定选项设置填空框
+<figure><img src="../../.gitbook/assets/image (1250).png" alt=""><figcaption></figcaption></figure>
 
-#### 【STEP 1】启用填空设置
 
-在题目编辑状态下，右侧“题目设置”面板中开启“在选项后增加填空框”功能。
-
-![开启“在选项后增加填空框”功能](../../.gitbook/assets/Snipaste_2023-10-08_10-27-49.png)
-
-【STEP 2】指定选项
-
-开启“在选项后增加填空框”功能后，该题每个选项后方显示“填空”勾选框，勾选需增加填空框的选项后方的“填空”勾选框后，该选项后会自动增加填空框。
-
-![勾选“填空”勾选框](../../.gitbook/assets/Snipaste_2023-10-08_10-28-29.png)
-
-![查看状态下显示填空框](../../.gitbook/assets/Snipaste_2023-10-08_10-29-07.png)
-
-### 设置必填项
-
-已开启显示填空框的选项，后方会显示“必填”勾选框，勾选即设置该选项的填空框为必填。
-
-![显示“必填”勾选框](../../.gitbook/assets/Snipaste_2023-10-08_10-30-05.png)
-
-![显示状态下显示必填填空项](../../.gitbook/assets/Snipaste_2023-10-08_10-31-00.png)
 
 ### 答题端显示
 

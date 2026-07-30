@@ -8,5 +8,4 @@
 项目名称用于管理端标识问卷，答题端不可见。
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Snipaste_2024-12-02_16-47-51.png" alt=""><figcaption><p>修改项目名称</p></figcaption></figure>
-
+<figure><img src="../../.gitbook/assets/image (1242).png" alt=""><figcaption></figcaption></figure>

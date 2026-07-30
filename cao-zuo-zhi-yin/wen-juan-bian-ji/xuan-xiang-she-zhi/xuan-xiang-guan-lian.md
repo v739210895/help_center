@@ -16,27 +16,15 @@
 
 ### 新增关联
 
-在选项关联设置弹窗中，点击“新增关联”按钮后，显示题目与选项设置下拉框。
+在选项关联设置弹窗中，点击“选项关联”按钮后，显示题目与选项设置下拉框。
 
-<figure><img src="../../../.gitbook/assets/image (1216).png" alt=""><figcaption></figcaption></figure>
-
-
-
-点击展开题目下拉框，选择题目。
+<figure><img src="../../../.gitbook/assets/image (1252).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 仅支持选择单选题/多选题/下拉题/矩阵单选/矩阵多选/矩阵量表题
 {% endhint %}
 
-![选择关联题目](../../../.gitbook/assets/Snipaste_2023-10-08_10-35-28.png)
 
-### 移除关联
-
-在选项关联设置弹窗中点击 - 即可移除选项关联设置。
-
-![移除选项关联](<../../../.gitbook/assets/image (388).png>)
-
-![移除后题目编辑状态下的显示](../../../.gitbook/assets/Snipaste_2023-10-08_10-38-02.png)
 
 ## 答题端显示
 

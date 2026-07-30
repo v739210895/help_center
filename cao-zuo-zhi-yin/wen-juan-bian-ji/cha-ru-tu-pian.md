@@ -10,17 +10,9 @@
 
 ## 编辑状态下插入图片
 
-点击目标文字的编辑栏位置后上方出现富文本工具栏，点击“图片”图标后，可操作上传本地图片；插入后的图片可直接调整尺寸大小。
+点击目标文字的编辑栏位置后上方出现富文本工具栏，点击“图片”图标后，可操作上传本地图片；插入后的图片可直接调整尺寸大小。也可通过右侧图片设置修改宽度，高度自动等比例调整
 
-![富文本工具栏中点击插入图片](../../.gitbook/assets/Snipaste\_2023-10-10\_16-37-46.png)
+<figure><img src="../../.gitbook/assets/image (1257).png" alt=""><figcaption></figcaption></figure>
 
-![支持调整图片尺寸](../../.gitbook/assets/Snipaste\_2023-10-10\_16-38-01.png)
 
-## 答题端显示图片
-
-![移动答题端显示图片](<../../.gitbook/assets/image (61).png>)
-
-![PC答题端显示图片](<../../.gitbook/assets/image (571).png>)
-
-![PC答题端支持放大图片](<../../.gitbook/assets/image (715).png>)
 

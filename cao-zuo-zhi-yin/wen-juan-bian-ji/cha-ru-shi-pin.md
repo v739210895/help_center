@@ -8,19 +8,19 @@
 
 问卷编辑状态中，点击问卷题目、备注或选项文本编辑框后，左上方会展开富文本编辑工具，在富文本编辑工具中点击“视频”图标。
 
-![文本编辑框的富文本编辑工具](../../.gitbook/assets/Snipaste_2023-10-10_16-40-08.png)
+<figure><img src="../../.gitbook/assets/image (1258).png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20;**【STEP 2】选择视频插入方式**
 
-### 方式一：本地视频上传
+### 方式一：第三方平台视频代码
+
+### 方式二：本地视频上传
 
 支持本地视频上传，视频直接上传到问卷系统后台，敏感调研项目中更有效地避免素材泄露。
 
-<figure><img src="../../.gitbook/assets/image.33.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1259).png" alt=""><figcaption></figcaption></figure>
 
-### 方式二：第三方平台视频代码
 
-<figure><img src="../../.gitbook/assets/企业微信截图_16854440013107.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 注意：上传视频时，要先将视频上传到第三方的视频网站平台，建议使用：腾讯视频
@@ -60,13 +60,3 @@
 {% endhint %}
 
 ![在通用代码中调整视频尺寸](<../../.gitbook/assets/image (138).png>)
-
-### **【STEP 3】**&#x786E;认插入视频
-
-点击确定即插入视频成功，文本编辑栏中显示已插入视频的缩略图。
-
-![编辑状态下插入视频](<../../.gitbook/assets/image (347).png>)
-
-## 答题端显示视频
-
-![答题端展示](<../../.gitbook/assets/image (314).png>)
