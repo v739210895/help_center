@@ -16,15 +16,13 @@
 
 在问卷编辑页，把鼠标放在需要设置逻辑的题目上，右侧快捷工具栏出现简单逻辑设置按钮；或在题目编辑状态下的右侧题目设置栏点击“简单逻辑”设置按钮，打开简单逻辑设置弹窗。
 
-![快捷工具栏-简单逻辑](<../../.gitbook/assets/image (102) (1).png>)
-
-![题目设置-简单逻辑](<../../.gitbook/assets/image (565).png>)
+<figure><img src="../../.gitbook/assets/image (1271).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】设置简单逻辑（控制题目的显示）
 
 简单逻辑设置弹窗中，左侧为题目选项，右侧为问卷所有题目列表；选中左侧选项和右侧题目，表示用户选择了该选项后才显示右侧对应的题目，否则默认不显示右侧选中的题目
 
-![简单逻辑设置](<../../.gitbook/assets/image (41).png>)
+<figure><img src="../../.gitbook/assets/image (1272).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】设置简单逻辑（控制结束页）
 
@@ -38,11 +36,12 @@
 结束页（非正常结束，不回收数据）：选中指定选项后，答题者点击下一页时跳到结束页，答题数据不回收
 {% endhint %}
 
-![简单逻辑设置](<../../.gitbook/assets/image (634).png>)
+<figure><img src="../../.gitbook/assets/image (1273).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 若设置点击下一页显示 结束页（正常结束），那么该条问卷会被标记为无效问卷，状态为“跳转结束页”
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
+
+<figure><img src="../../.gitbook/assets/image (1274).png" alt=""><figcaption></figcaption></figure>

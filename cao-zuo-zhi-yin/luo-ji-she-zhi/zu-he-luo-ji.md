@@ -6,13 +6,13 @@
 
 在问卷编辑页中切换至“组合逻辑”功能，点击“新增逻辑”按钮即可新建一条规则。
 
-![](<../../.gitbook/assets/image (244).png>)
+<figure><img src="../../.gitbook/assets/image (1275).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】设置显示结果
 
 在新建的组合逻辑规则中需先设置显示结果题目，在弹窗中指定显示结果为题目、结束页（正常结束）、结束页（非正常结束，不回收数据）。
 
-![](<../../.gitbook/assets/image (258).png>)
+<figure><img src="../../.gitbook/assets/image (1276).png" alt=""><figcaption></figcaption></figure>
 
 ### （1）设置结束页为显示结果
 
@@ -56,11 +56,11 @@
 主观题、信息栏、联动题可设置条件包括：该题目是否显示
 {% endhint %}
 
-![](<../../.gitbook/assets/image (232).png>)
+<figure><img src="../../.gitbook/assets/image (1277).png" alt=""><figcaption></figcaption></figure>
 
 点击确定后，系统根据勾选的条件生成多条规则，如Q1选中选项A、Q1选中选项B、Q2显示、Q3未选中选项C等，显示在逻辑设置页面中。
 
-![](<../../.gitbook/assets/image (642).png>)
+<figure><img src="../../.gitbook/assets/image (1278).png" alt=""><figcaption></figcaption></figure>
 
 再次点击该规则中的“设置条件”按钮即可修改规则。
 
@@ -68,9 +68,9 @@
 
 若【STEP 3】中设置了多个条件，默认为符合任一条件时显示结果的题目显示。选择规则中的“自定义条件”功能后，可通过连接条件：and、or与括号自由定义逻辑表达式（定义已添加多个条件的逻辑关系），当符合时会显示结果题目。
 
-![](<../../.gitbook/assets/image (67).png>)
+<figure><img src="../../.gitbook/assets/image (1279).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/image (507).png>)
+<figure><img src="../../.gitbook/assets/image (1280).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 ### 【条件逻辑说明】
@@ -86,17 +86,7 @@ and 表示并且关系&#x20;
 
 示例：1 and 2 and (3 or 4)&#x20;
 
-## 【STEP 5】删除逻辑
 
-点击指定规则右上角的删除按钮可对此条规则进行删除。
-
-![](<../../.gitbook/assets/image (473).png>)
-
-## 【STEP 6】保存当前设置
-
-逻辑设置完成后，点击右上角的“保存”按钮即可对当前页面中所有的规则进行保存并应用。（正在回收的问卷不支持修改保存，若需修改规则，请先暂停回收）
-
-![](<../../.gitbook/assets/image (590).png>)
 
 ## 常见问题
 

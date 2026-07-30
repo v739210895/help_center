@@ -2,9 +2,13 @@
 
 问卷编辑完成后，可以通过预览链接来检查问卷编辑效果，也可以将问卷链接或二维码发送给其他人进行检查确认，从而保证编辑的准确性，问卷支持多终端自适应，可以直接预览到电脑、手机端的效果。
 
-在问卷编辑页中点击右上角“预览”按钮或在“我的问卷”列表中点击指定问卷的项目名称即可进入该问卷的预览页面，包括两种终端预览效果“手机预览”和“电脑预览”，支持扫描预览二维码在手机中预览问卷。
+在问卷编辑页中点击右上角“预览”按钮或在“我的问卷”列表中点击指定问卷的项目名称即可进入该问卷的预览页面
 
-![预览问卷](<../.gitbook/assets/image (775).png>)
+<figure><img src="../.gitbook/assets/image (1290).png" alt=""><figcaption></figcaption></figure>
+
+两种终端预览效果“手机预览”和“电脑预览”，支持扫描预览二维码在手机中预览问卷。
+
+<figure><img src="../.gitbook/assets/image (1289).png" alt=""><figcaption></figcaption></figure>
 
 ## 题号设置选择
 
@@ -14,10 +18,6 @@
 切换题号类型仅在预览页生效，不影响答题端的题号显示。
 {% endhint %}
 
-![按原始题号显示](<../.gitbook/assets/image (42).png>)
-
-![按默认题号显示（重新编号）](<../.gitbook/assets/image (504).png>)
-
 {% hint style="warning" %}
 预览状态下答题数据不被记录。
 {% endhint %}
@@ -26,7 +26,7 @@
 
 系统提供外网可查看的预览链接，在预览页右上角点击“复制预览链接”按钮即可生成。
 
-![复制预览链接](<../.gitbook/assets/image (17) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+<figure><img src="../.gitbook/assets/image (1291).png" alt=""><figcaption></figcaption></figure>
 
 ## 常见问题
 

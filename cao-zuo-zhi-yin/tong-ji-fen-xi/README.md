@@ -1,7 +1,7 @@
 # 统计分析
 
-问卷开始回收后，用户可通过在问卷编辑页内点击右上角”统计“或点击”我的问卷—操作—在线统计”进入统计分析页查看数据回收情况。
+问卷开始回收后，用户可通过在问卷编辑页内点击右上角”统计“或点击”工作台—统计”进入统计分析页查看数据回收情况。
 
-![问卷编辑页内“统计分析”功能入口](../../.gitbook/assets/Snipaste\_2023-10-08\_15-13-21.png)
+<figure><img src="../../.gitbook/assets/image (1292).png" alt=""><figcaption></figcaption></figure>
 
-![“我的问卷”列表中“统计分析”功能快捷入口](../../.gitbook/assets/Snipaste\_2023-10-08\_15-12-57.png)
+<figure><img src="../../.gitbook/assets/image (1293).png" alt=""><figcaption></figcaption></figure>

@@ -6,7 +6,7 @@
 左侧导航大纲支持点击定位到指定题目。
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1189).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1295).png" alt=""><figcaption></figcaption></figure>
 
 下载结果格式为CSV格式，可在excel中直接打开，包含：总表（总计+小计+百分比）+频率表（含百分比）+频数表（含小计），满足不同看数场景
 
@@ -27,22 +27,22 @@
 * 提供“另存为”功能，允许您基于当前条件创建新的筛选条件
 {% endhint %}
 
-添加条件
+**添加条件**
 
 点击添加条件可设置多个条件进行筛选，支持一次勾选多个选项设定。筛选条件默认包含（来源平台、提交时间、答题时长、问卷状态、答题语言）
 
-<figure><img src="../../.gitbook/assets/image (1190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1296).png" alt=""><figcaption></figcaption></figure>
 
-添加条件组
+**添加条件组**
 
 点击“添加条件组“可自定义满足"And”或”or”条件下的数据筛选，支持一次勾选多个选项设定。
 
-<figure><img src="../../.gitbook/assets/image (1191).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1297).png" alt=""><figcaption></figcaption></figure>
 
 添加条件后点击开始筛选，统计图表将会根据筛选条件刷新&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1192).png" alt=""><figcaption></figcaption></figure>
-
 支持添加多个筛选条件进行命名、复用，系统将根据该标签对应的筛选条件逻辑，实时查询当前问卷的最新回收数据，并重新计算统计结果
 
-<figure><img src="../../.gitbook/assets/image (1187).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1298).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1299).png" alt=""><figcaption></figcaption></figure>

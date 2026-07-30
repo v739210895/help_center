@@ -4,7 +4,7 @@
 
 回收概况展示问卷回收的整体情况。
 
-<figure><img src="../../.gitbook/assets/image (1184).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1294).png" alt=""><figcaption></figcaption></figure>
 
 | 指标     | 说明                                  |
 | ------ | ----------------------------------- |

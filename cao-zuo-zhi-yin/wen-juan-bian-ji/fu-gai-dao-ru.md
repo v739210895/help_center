@@ -22,16 +22,14 @@
 2. 覆盖导入后原问卷的问卷内容、逻辑设置与已回收答卷数据会被清空，请谨慎操作
 {% endhint %}
 
-![覆盖导入](../../.gitbook/assets/Snipaste_2023-10-17_11-17-24.png)
+<figure><img src="../../.gitbook/assets/image (1264).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】确认基本信息
 
 上传EXCEL文件后，系统会自动识别问卷内容，已上传的问卷支持重新上传与调整项目名称、产品名称、问卷标题。
 
-![上传问卷成功](../../.gitbook/assets/Snipaste_2023-10-17_11-18-03.png)
+<figure><img src="../../.gitbook/assets/image (1265).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 4】生成问卷&#x20;
 
 确认问卷信息后，点击“覆盖导入”即可在当前问卷中导入excel中的问卷内容，显示在编辑页中。
-
-![覆盖导入完成](../../.gitbook/assets/Snipaste_2023-10-17_11-18-47.png)

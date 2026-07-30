@@ -6,11 +6,9 @@
 
 ### STEP 1 添加分组
 
-在“逻辑”——“题目分组”中，点击右上角“添加分组”可新建题目分组。
+在“分组”中，点击右上角“添加分组”可新建题目分组。
 
-![添加分组](<../../.gitbook/assets/image (586).png>)
-
-![给题目分组命名](<../../.gitbook/assets/image (245).png>)
+<figure><img src="../../.gitbook/assets/image (1282).png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 2 把题目移入分组
 
@@ -23,15 +21,13 @@
 4. 题组内/外的题目，逻辑设置仍生效，需满足逻辑后题目才显示。
 {% endhint %}
 
-![指定题目移入分组](<../../.gitbook/assets/image (324).png>)
-
-![指定题目分组完成](<../../.gitbook/assets/image (152).png>)
+<figure><img src="../../.gitbook/assets/image (1283).png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 3 分组完成，保存
 
-按步骤2把所需题目分成多组后，点击右上角“保存”。
+按步骤2把所需题目分成多组后，点击右下角“保存”。
 
-![最终分组效果](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+<figure><img src="../../.gitbook/assets/image (1284).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -41,7 +37,7 @@
 
 抽样机制为系统自动抽取，当答题样本量越大，每组样本的分布越平均。
 
-![分组随机抽样](<../../.gitbook/assets/image (122).png>)
+<figure><img src="../../.gitbook/assets/image (1285).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **特殊说明**
@@ -59,9 +55,7 @@
 
 在“组合逻辑”中，可对指定题组设置逻辑显示条件，满足条件时，指定题组才能正常显示/进入随机抽样范围。
 
-![设置题组为显示结果](<../../.gitbook/assets/image (375).png>)
-
-![题组逻辑](<../../.gitbook/assets/image (723).png>)
+<figure><img src="../../.gitbook/assets/image (1286).png" alt=""><figcaption></figcaption></figure>
 
 
 
