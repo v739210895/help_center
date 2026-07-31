@@ -2,7 +2,7 @@
 
 MaxDiff (Maximum Difference Measurement) is an efficient preference measurement technique used to gauge people's preferences or perceptions of importance regarding a series of attributes. Unlike traditional rating scales, MaxDiff forces respondents to choose the "most preferred" and "least preferred" items in each set of options, thereby yielding more accurate and reliable data.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## I. Core Advantages of MaxDiff
 
@@ -27,17 +27,17 @@ Cross-Cultural Applicability: Unaffected by differing cultural rating habits.
 **Step 1: Create a MaxDiff** \
 Go to the survey editing page and select "MaxDiff" from the list of question types.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2: Edit the Question Stem and Select Bipolar Descriptions**\
 The system offers six default recommended bipolar descriptions and supports customization.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3: Enter All Attributes (Attributes to Be Evaluated)**\
 Input all the attributes that need to be evaluated. It is generally recommended to include at least 5 or more attributes.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

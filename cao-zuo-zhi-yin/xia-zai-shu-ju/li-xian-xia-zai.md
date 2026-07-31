@@ -6,6 +6,4 @@
 导出后的文件存储在云端，支持用户自行删除。
 {% endhint %}
 
-![离线下载入口](../../.gitbook/assets/Snipaste\_2023-10-09\_10-31-38.png)
-
-![离线下载弹窗](../../.gitbook/assets/Snipaste\_2023-10-09\_10-31-51.png)
+<figure><img src="../../.gitbook/assets/image (1302).png" alt=""><figcaption></figcaption></figure>

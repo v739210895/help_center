@@ -6,22 +6,22 @@
 
 在统计页中点击右上角的“分享报告”按钮。
 
-![](../.gitbook/assets/Snipaste\_2023-10-08\_15-48-47.png)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 2 启用分享
 
 在分享报告弹窗中启用报告分享功能，获取分享页链接；功能关闭后，该分享页链接失效，分享页将无法访问。
 
-![](../.gitbook/assets/Snipaste\_2023-10-08\_15-50-01.png)
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 3 配置加密
 
 在弹窗中可配置给分享页是否加密，访问密钥支持自由修改；开启访问密钥后，获取分享页链接的用户需要输入正确的密钥才可访问该分享页。
 
-![](../.gitbook/assets/Snipaste\_2023-10-08\_15-49-33.png)
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 报告分享页
 
 报告分享页与原问卷的统计页数据一致，可实时查看该问卷的回收情况。
 
-![](../.gitbook/assets/Snipaste\_2023-10-08\_15-50-49.png)
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
