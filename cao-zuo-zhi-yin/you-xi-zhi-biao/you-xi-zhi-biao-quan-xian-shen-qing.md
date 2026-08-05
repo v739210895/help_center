@@ -8,7 +8,7 @@
 
 游戏指标权限的申请按业务提出，申请入口见下图：
 
-![权限申请提示](../../.gitbook/assets/页面_102.png)
+<figure><img src="../../.gitbook/assets/image (1307).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th>信息</th><th width="308.3333333333333">填写说明</th></tr></thead><tbody><tr><td>平台选择</td><td>[181]i-MUR问卷系统</td></tr><tr><td>业务选择</td><td>当前问卷所属业务，与问卷设置中的“所属产品”一致</td></tr><tr><td>角色选择</td><td>按需选择</td></tr><tr><td>申请理由</td><td>请详细填写使用场景、目的</td></tr></tbody></table>
 

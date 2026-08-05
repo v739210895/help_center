@@ -12,7 +12,7 @@ To facilitate the inspection of question visibility, the preview page supports t
 Switching the question number type only takes effect on the preview page and does not affect the display of question numbers on the answering end.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (24) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (25) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

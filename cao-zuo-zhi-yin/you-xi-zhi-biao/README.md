@@ -4,7 +4,7 @@
 
 在游戏完成接入后，用户可在问卷系统平台上选取本次调研所需打通的游戏指标并自助**提取数据**，系统**在线计算**结果数据，同时支持用户**下载**打通后数据表。
 
-![调研数据与游戏指标打通 - 在线统计](<../../.gitbook/assets/image (711).png>)
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 ![调研数据与游戏指标打通 - 数据表](<../../.gitbook/assets/image (684).png>)
 
@@ -37,19 +37,15 @@
 玩家A在游戏&#x5185;**{5月6日}**&#x7B54;题，经分侧&#x5728;**{5月7日}**&#x624D;生成玩家A在5月6日的游戏指标记录，需要&#x5728;**{5月7日}**&#x624D;能到问卷系统提取该玩家的调研数据+游戏指标，在此前仅能获取该玩家的调研数据。
 {% endhint %}
 
-![STEP 1 设置游戏指标-功能入口](<../../.gitbook/assets/image (668).png>)
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-![STEP 2 选取本次调研所需的游戏指标](<../../.gitbook/assets/image (657).png>)
-
-![STEP 3 本次调研所需提取指标的列表展示](<../../.gitbook/assets/image (639).png>)
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 ### 1.2 更新指标数据
 
 支持实时更新数据，更新方式为全量刷新；更新过程中统计图表功能可正常使用
 
-![](<../../.gitbook/assets/截屏2022-05-11 上午11.24.29.png>)
-
-![提取过程中](<../../.gitbook/assets/截屏2022-05-11 上午11.23.10.png>)
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ## 2. 导出数据表
 
@@ -59,9 +55,7 @@
 2. 导出的文件名称为：项目名称\_answers.csv
 3. 文件采用异步下载方式，任务导出状态显示在离线下载弹窗中，导出后完成下载
 
-![](<../../.gitbook/assets/截屏2022-05-11 上午11.37.04.png>)
-
-![](<../../.gitbook/assets/截屏2022-05-11 上午11.38.40.png>)
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.2 导出编码数据
 
@@ -69,7 +63,7 @@
 2. 导出的答题编码数据为.tar格式的压缩包，内含答题编码数据（.csv）和SPSS编码（.txt）
 3. 文件采用异步下载方式，任务导出状态显示在离线下载弹窗中，导出后完成下载
 
-![](<../../.gitbook/assets/截屏2022-05-11 上午11.46.28.png>)
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ![答题编码数据压缩包](../../.gitbook/assets/image33.png)
 
@@ -89,7 +83,7 @@
 统计说明：百分比=该项小计/该指标的总计\*100%，保留两位小数
 {% endhint %}
 
-![](<../../.gitbook/assets/截屏2022-05-11 下午2.16.44 (1).png>)
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.2 数据筛选
 
@@ -103,13 +97,7 @@
 支持一键清空条件，操作不可撤回
 {% endhint %}
 
-#### **设置筛选条件**
-
-支持添加条件和多个条件组成条件组进行筛选，条件和条件组均支持and（符合全部条件）或者or（符合任一条件）的连接关系
-
-![](<../../.gitbook/assets/截屏2022-05-11 下午2.34.54.png>)
-
-![](<../../.gitbook/assets/截屏2022-05-11 下午2.46.24.png>)
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.3 导出统计结果
 
@@ -121,46 +109,17 @@
 3. 统计说明：百分比=该项小计/该指标的总计\*100%，保留两位小数
 {% endhint %}
 
-![](<../../.gitbook/assets/截屏2022-05-11 下午2.52.41.png>)
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-## 4. 交叉分析
-
-游戏指标模块支持问卷数据和游戏数据的交叉分析，可自定义行、列用于生成在线交叉表
-
-### 【STEP 1】数据筛选
-
-提供数据筛选功能，点击开始筛选后可基于指定条件对当前的问卷数据和指标数据进行筛选，在筛选结果中生成交叉表格
-
-点击【清空条件】会同时清空筛选条件和交叉计算
-
-![](../../.gitbook/assets/企业微信截图_1655372910977.png)
-
-### 【STEP 2】设置行、列表头
-
-左侧设置栏分别勾选作为行表头、列表头的题目和指标数据，点击“开始计算”按钮即实时计算生成交叉表格
-
-{% hint style="info" %}
-行表头、列表头最多支持20行x20列，超过20\*20时，仅支持离线下载
-{% endhint %}
-
-![](../../.gitbook/assets/企业微信截图_1655373199510.png)
-
-### 【STEP 3】生成交叉分析表
-
-![](<../../.gitbook/assets/image (637).png>)
+###
 
 
 
-## 5. 自定义组合指标
+## 4. 自定义组合指标
 
 支持自定义指标，用于组合游戏指标和题目字段，新生成指标可用于后续的统计和交叉计算
 
-### 【STEP 1】设置自定义指标
-
 带\*为必填项，同一指标支持添加多个有效值
 
-![支持重新组合指标](<../../.gitbook/assets/image (664).png>)
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-### 【STEP 2】保存生成自定义指标
-
-![](../../.gitbook/assets/企业微信截图_16553740381327.png)
