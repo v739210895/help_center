@@ -51,7 +51,7 @@
 
 在配置分发任务时，支持设置分发按钮随机排序。功能开启后，答题者访问该分发页时，分发按钮按随机顺序展示，以保证在多套问卷投放的场景下样本量可平均分布。
 
-<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![分发按钮随机排序效果](<../.gitbook/assets/image (689).png>)
 
@@ -59,6 +59,6 @@
 
 在配置分发任务时，支持设置分发按钮分列展示，设置成功后，在PC答题端/移动答题端横屏中会根据设置的每行展示按钮个数对按钮进行分列展示，可设置每行展示1\~3个。移动端竖屏不生效，适用于按钮数量多且按钮文本不长的情况。
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![分发按钮分列展示效果](<../.gitbook/assets/image (724).png>)

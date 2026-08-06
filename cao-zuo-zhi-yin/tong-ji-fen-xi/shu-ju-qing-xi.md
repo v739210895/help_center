@@ -6,17 +6,17 @@
 
 在“统计”-“数据清洗”页面中，点击右上角“新增条件”即可创建一条新的清洗条件。
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 定义“and”“or”关系
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】保存并执行清洗
 
 设置完所有清洗条件后，点击右上角“保存条件”后，点击下方“执行清洗”，即可触发清洗任务。
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 执行清洗必须在投放结束后，触发执行清洗前务必先“暂停回收”
@@ -28,4 +28,4 @@
 
 前往[在线查看答题数据](da-ti-shu-ju-zai-xian-cha-kan.md) 或 [导出数据](../xia-zai-shu-ju/)，可查看被标记为无效的答题记录。
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>

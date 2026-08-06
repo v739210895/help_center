@@ -2,19 +2,19 @@
 
 多选题指从一组选项当中，选出其中一个或多个作为正确的答案，可指定选择数量的范围。
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 新建多选题
 
 在问卷编辑页中，选择左侧题型控件中的“多选题”或在指定题目点击右侧快捷工具栏中的+按钮选择“多选题”即可新建多选题。
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】编辑题目、备注、选项内容
 
 题目、选项及备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】题目及选项设置
 
@@ -26,31 +26,31 @@
 所有题目默认开启“此题必答”功能。
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 题型切换
 
 单选题、多选题、下拉题之间可自由切换，切换后原题目的必答设置、选项关联设置、选项随机设置均保留。
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 在选项后添加填空框
 
 选中选项，在右侧选项设置，开启增加填空框开关，开启必填，用户须填写内容后才可提交，适用于用户选择其他项后，收集其他相关信息的场景
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 可选范围
 
 多选题中，可限制同一问题中用户可选择的选项数量。
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 选项关联
 
 选项关联即让答题者选中（或未选中）的选项显示在下一题的可选项中，一般用于题目相关性极高的两题中或追问的情况。
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
 [xuan-xiang-guan-lian.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
@@ -60,15 +60,13 @@
 
 在题目编辑状态下，可设置选项分列，设置成功后，在答题端会根据设置的每行展示选项个数对选项进行分列展示，横屏下可设置每行展示1\~6个，竖屏下可设置每行展示1\~3个。适用于选项数量多且选项文本不长的情况。
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-
-![电脑答题端显示](<../.gitbook/assets/image (276).png>)
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 选项互斥
 
 多选题中的选项互斥指的是指定某个选项为互斥项，答题时若用户选择了任一被设置为互斥项的选项，则不可选择其他选项。
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 选项随机
 
@@ -84,5 +82,5 @@
 
 在统计分析页中，以小计+条形百分比的形式展示多选题的填答结果。
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 

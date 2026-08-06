@@ -6,22 +6,22 @@
 
 在统计页中点击右上角的“分享报告”按钮。
 
-<figure><img src="../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 2 启用分享
 
 在分享报告弹窗中启用报告分享功能，获取分享页链接；功能关闭后，该分享页链接失效，分享页将无法访问。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 3 配置加密
 
 在弹窗中可配置给分享页是否加密，访问密钥支持自由修改；开启访问密钥后，获取分享页链接的用户需要输入正确的密钥才可访问该分享页。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 报告分享页
 
 报告分享页与原问卷的统计页数据一致，可实时查看该问卷的回收情况。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

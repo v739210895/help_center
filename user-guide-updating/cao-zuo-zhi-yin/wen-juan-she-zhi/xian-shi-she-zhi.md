@@ -6,7 +6,7 @@ In the "Display Settings" section of the "Survey Settings," you can configure th
 
 This feature is enabled by default. When turned off, the survey interface will not display question numbers.
 
-<figure><img src="../../../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (994).png" alt=""><figcaption></figcaption></figure>
 
@@ -16,7 +16,7 @@ This feature is enabled by default. When turned off, the survey interface will n
 
 The ability to go back during the answering process means displaying a back button for the previous page on the answering end. This feature is turned off by default, so the back button for the previous page is not displayed on the answering end. Once enabled, a back button for the previous page will be added at the bottom of the page.
 
-<figure><img src="../../../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (996).png" alt=""><figcaption></figcaption></figure>
 
@@ -26,7 +26,7 @@ The ability to go back during the answering process means displaying a back butt
 
 The survey provides a local answer caching mechanism. When this feature is enabled, if the respondent exits midway through the survey, they can choose to continue answering or start over when they revisit the survey.
 
-<figure><img src="../../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Submit answers in sections
 
@@ -54,7 +54,7 @@ Only by enabling login verification can the user ID be used as a survey watermar
 
 Display effect of the survey interface
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ###
 

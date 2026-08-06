@@ -12,7 +12,7 @@ The survey can be edited in advance in EXCEL, including: basic survey informatio
 
 * The third sheet has import code instructions
 
-<figure><img src="../../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】Import survey
 
