@@ -4,7 +4,7 @@
 
 在游戏完成接入后，用户可在问卷系统平台上选取本次调研所需打通的游戏指标并自助**提取数据**，系统**在线计算**结果数据，同时支持用户**下载**打通后数据表。
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![调研数据与游戏指标打通 - 数据表](<../../.gitbook/assets/image (684).png>)
 
@@ -37,15 +37,15 @@
 玩家A在游戏&#x5185;**{5月6日}**&#x7B54;题，经分侧&#x5728;**{5月7日}**&#x624D;生成玩家A在5月6日的游戏指标记录，需要&#x5728;**{5月7日}**&#x624D;能到问卷系统提取该玩家的调研数据+游戏指标，在此前仅能获取该玩家的调研数据。
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 1.2 更新指标数据
 
 支持实时更新数据，更新方式为全量刷新；更新过程中统计图表功能可正常使用
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 2. 导出数据表
 
@@ -55,7 +55,7 @@
 2. 导出的文件名称为：项目名称\_answers.csv
 3. 文件采用异步下载方式，任务导出状态显示在离线下载弹窗中，导出后完成下载
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.2 导出编码数据
 
@@ -63,7 +63,7 @@
 2. 导出的答题编码数据为.tar格式的压缩包，内含答题编码数据（.csv）和SPSS编码（.txt）
 3. 文件采用异步下载方式，任务导出状态显示在离线下载弹窗中，导出后完成下载
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![答题编码数据压缩包](../../.gitbook/assets/image33.png)
 
@@ -83,7 +83,7 @@
 统计说明：百分比=该项小计/该指标的总计\*100%，保留两位小数
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.2 数据筛选
 
@@ -97,7 +97,7 @@
 支持一键清空条件，操作不可撤回
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.3 导出统计结果
 
@@ -109,7 +109,7 @@
 3. 统计说明：百分比=该项小计/该指标的总计\*100%，保留两位小数
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 ###
 
@@ -121,5 +121,5 @@
 
 带\*为必填项，同一指标支持添加多个有效值
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 

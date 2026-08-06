@@ -46,13 +46,13 @@ iMUR问卷系统提供专业的在线调研及统计工具，服务于国内&海
 * **合规：**&#x63D0;供海外投放答题者信息验证，降低隐私问题风险
 * **语言：**&#x81EA;定义答题提示语言，满足海外投放需求
 
-##
+
 
 ## <mark style="color:blue;">重点使用体验</mark>
 
 ### 界面主打轻量简洁，功能入口清晰
 
-<figure><img src=".gitbook/assets/企业微信截图_17331106425650.png" alt=""><figcaption><p>工作台</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 沿用拖拽点选添加，简化编辑操作
 

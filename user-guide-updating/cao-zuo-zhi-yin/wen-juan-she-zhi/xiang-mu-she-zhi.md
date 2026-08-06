@@ -2,7 +2,7 @@
 
 In the "settings" under "Basic Settings," you can complete the project information, including the  product, survey owner, surveycollaborators , survey creator, and prompt language.etc
 
-<figure><img src="../../../.gitbook/assets/image (21) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 1. Before the survey is first collected/submitted for review, the information of the  product and the owner needs to be completed.
@@ -16,19 +16,19 @@ The owner, also known as the other administrators of this survey, has the highes
 
 On the "Settings" page, you can designate the owner of a specific survey. After entering the user's RTX account or name in the input box, it will automatically search for matching users. Once selected, the person in charge will be successfully set.
 
-<figure><img src="../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Set  collaborators
 
 The  collaborators  is the regular user of this survey, supporting the assignment of specific permissions to the focus person. This survey will appear in their "My Surveys" list, enabling collaborative editing and management of the survey.
 
-<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 1. Only the survey owner can add  collaborators and assign permissions to them.
@@ -40,7 +40,7 @@ The  collaborators  is the regular user of this survey, supporting the assignmen
 
 The prompt language refers to the language used for prompts displayed on the answering interface. The default is Simplified Chinese, but other languages can be set according to actual needs.
 
-<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Supported Languages:
 

@@ -8,15 +8,13 @@
 
 在问卷编辑页中，选择左侧题型控件中的“主观题”或在指定题目点击右侧快捷工具栏中的+按钮选择“主观题”即可新建主观题。
 
-![通过“题型”控件新建主观题](../.gitbook/assets/Snipaste\_2023-10-11\_09-28-53.png)
-
-![在指定题目下方新建主观题](../.gitbook/assets/Snipaste\_2023-10-11\_09-29-30.png)
+<figure><img src="../.gitbook/assets/image (1320).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】编辑题目、备注内容
 
 题目及备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
-![主观题内容编辑](<../.gitbook/assets/image (227).png>)
+<figure><img src="../.gitbook/assets/image (1324).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】题目设置
 
@@ -28,13 +26,13 @@
 所有题目默认开启“此题必答”功能。
 {% endhint %}
 
-![必答设置](../.gitbook/assets/Snipaste\_2023-10-11\_09-32-37.png)
+<figure><img src="../.gitbook/assets/image (1323).png" alt=""><figcaption></figcaption></figure>
 
 ### 答题框大小
 
 主观题中的答题框大小可根据调研需求自由设置。“小”为单行，适用于姓名、电话等信息填写场景；“中“为两行，”大”为三行，适用于意见征集等调研场景。
 
-![答题框大小设置](../.gitbook/assets/Snipaste\_2023-10-11\_09-33-46.png)
+<figure><img src="../.gitbook/assets/image (1325).png" alt=""><figcaption></figcaption></figure>
 
 ### 文本验证
 
@@ -44,7 +42,7 @@
 手机号为13位数字，设置为验证手机号后所设置的限制字数范围将失效。
 {% endhint %}
 
-![文本验证设置](../.gitbook/assets/Snipaste\_2023-10-11\_09-34-36.png)
+<figure><img src="../.gitbook/assets/image (1326).png" alt=""><figcaption></figcaption></figure>
 
 ### 字数范围
 
@@ -54,19 +52,18 @@
 “最少填写”、“最多填写”输入框为空，则不设限制。
 {% endhint %}
 
-![字数范围设置](../.gitbook/assets/Snipaste\_2023-10-11\_09-35-26.png)
+<figure><img src="../.gitbook/assets/image (1327).png" alt=""><figcaption></figcaption></figure>
 
-## 编辑页及答题端显示
+### 敏感信息题
 
-编辑完成后，在编辑页内可查看主观题的具体内容及答题框设置。
+适用于数据合规场景：若您是国内用户投放海外，或海外用户投放国内，当问卷含有用户敏感信息时，系统可通过设置题目过滤敏感信息，开启后，该题将被识别为敏感信息题，无权限用户无法在统计回收内查看具体回收内容，亦无法下载
 
-![编辑页内的主观题显示](<../.gitbook/assets/image (609).png>)
+<figure><img src="../.gitbook/assets/image (1328).png" alt=""><figcaption></figcaption></figure>
 
-![答题端的主观题显示](<../.gitbook/assets/image (575).png>)
+
 
 ## 统计结果展示
 
-在统计分析页中，以列表的形式展示主观题的填答结果，点击“导出答案”可导出该题所有的答案详情（在[离线下载](../cao-zuo-zhi-yin/xia-zai-shu-ju/li-xian-xia-zai.md)中进行下载）
+在统计分析页中，以表格的形式展示主观题的填答结果，点击“导出答案”可导出该题所有的答案详情（在[离线下载](../cao-zuo-zhi-yin/xia-zai-shu-ju/li-xian-xia-zai.md)中进行下载）
 
-![主观题的答题数据展示](../.gitbook/assets/Snipaste\_2023-10-11\_09-40-26.png)
-
+<figure><img src="../.gitbook/assets/image (1329).png" alt=""><figcaption></figcaption></figure>

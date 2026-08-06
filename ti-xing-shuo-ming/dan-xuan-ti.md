@@ -34,7 +34,7 @@
 
 ### 在选项后增加填空框
 
-选中选项，在该选项设置下方，开启增加填空框开关
+选中选项，在右侧选项设置，开启增加填空框开关
 
 <figure><img src="../.gitbook/assets/image (1311).png" alt=""><figcaption></figcaption></figure>
 
@@ -60,19 +60,13 @@
 
 在题目编辑状态下，可设置选项随机，设置成功后，在答题端会根据所选择的随机方式显示选项。随机方式包括：随机排序、随机正逆序、分组显示。
 
-#### 选项随机排序
 
-选项随机排序是指答题时题目中的选项以随机顺序出现。开启“选项随机排序”功能后，题目的选项右侧会出现不随机的勾选框，若希望某个选项固定在当前位置，选中选项在右侧选项设置“关闭选项随机按钮”，则该选项不参与随机排序。
 
 <figure><img src="../.gitbook/assets/image (1314).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (1315).png" alt=""><figcaption></figcaption></figure>
 
-#### 选项随机正逆序
 
-选项随机正逆序是指答题时题目中的选项随机以正序/逆序出现。开启“选项随机正逆序”功能后，“选项随机正逆序”功能下方会出现“固定最后一个选项”功能开关，若希望最后一个选项固定在当前位置，可开启“固定最后一个选项”功能，则在答题端显示时最后一个选项不参与随机正逆序。
-
-<figure><img src="../.gitbook/assets/image (1317).png" alt=""><figcaption></figcaption></figure>
 
 ## 编辑页及答题端显示
 

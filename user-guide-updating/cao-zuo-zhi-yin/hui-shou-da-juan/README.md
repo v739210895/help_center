@@ -16,7 +16,7 @@ The two deployed domains are common, and the collected survey data will be aggre
 The survey being recycled does not support modification, deletion, or data clearing.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Submit for review
 
