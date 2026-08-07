@@ -228,7 +228,7 @@ _回调URL示例_
 
 {% hint style="info" %}
 1. 参与签名的参数为所有值不为空字符串的参数（不区分必传与非必传）与 appSecret；未传或值为空字符串的参数不参与。
-2. 本文档未说明的参数不参与加密，可参考：[为什么会接收到文档中未说明的回调参数](../../chang-jian-wen-ti/you-xi-nei-qian/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
+2. 本文档未说明的参数不参与加密，可参考：[为什么会接收到文档中未说明的回调参数](/broken/pages/-MGrOHx1-hXMkgQWBrHT)
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (1203).png" alt=""><figcaption></figcaption></figure>
@@ -304,6 +304,6 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 ## 5. 常见问题
 
-### 5.1 [为什么收不到回调消息？](../../chang-jian-wen-ti/you-xi-nei-qian/wei-shen-me-shou-bu-dao-hui-tiao-xiao-xi.md)
+### 5.1 [为什么收不到回调消息？](/broken/pages/-MchqNNsMNkNtl06fibq)
 
-### 5.2 [为什么会接收到文档中未说明的回调参数？](../../chang-jian-wen-ti/you-xi-nei-qian/wei-shen-me-hui-jie-shou-dao-wen-dang-zhong-wei-shuo-ming-de-hui-tiao-can-shu.md)
+### 5.2 [为什么会接收到文档中未说明的回调参数？](/broken/pages/-MGrOHx1-hXMkgQWBrHT)

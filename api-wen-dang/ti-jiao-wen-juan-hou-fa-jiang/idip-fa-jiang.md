@@ -77,8 +77,8 @@
 
 ## 常见问题
 
-[如何实现用户填完问卷后自动发奖？](../../chang-jian-wen-ti/you-xi-nei-qian/ams-fa-jiang-she-zhi.md)
+[如何实现用户填完问卷后自动发奖？](/broken/pages/-MEacnWoURsaB2dw7cOz)
 
-[在问卷设置中配置了AMS礼包单，为什么提交问卷后还是领不到奖励？](../../chang-jian-wen-ti/zai-wen-juan-she-zhi-zhong-pei-zhi-le-ams-li-bao-dan-wei-shi-mo-ti-jiao-wen-juan-hou-huan-shi-ling-b.md)
+[在问卷设置中配置了AMS礼包单，为什么提交问卷后还是领不到奖励？](/broken/pages/jbBQvQVGacIQEmhD6E0C)
 
-[海外 AMS 发奖礼包多语言如何配置？](../../chang-jian-wen-ti/you-xi-nei-qian/hai-wai-ams-fa-jiang-li-bao-duo-yu-yan-pei-zhi.md)
+[海外 AMS 发奖礼包多语言如何配置？](hai-wai-ams-fa-jiang-li-bao-duo-yu-yan-pei-zhi.md)
