@@ -195,6 +195,6 @@ sign=ade962f5273a404f72aaabf544b14281
 
 需在问卷设置页面设置密钥，密钥支持自定义。
 
-<figure><img src="../../.gitbook/assets/image (1107).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1405).png" alt=""><figcaption></figcaption></figure>
 
 ## 4. 常见问题

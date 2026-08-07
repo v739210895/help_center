@@ -2,11 +2,11 @@
 
 文本拖拽题是一种交互式题型，作答者通过鼠标（或触屏）拖拽文本选项，将其移动到指定区域完成匹配、分类等动作
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1394).png" alt=""><figcaption></figcaption></figure>
 
 ## &#x20;【STEP 1】添加题目
 
-<figure><img src="../.gitbook/assets/image (1121).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1391).png" alt=""><figcaption></figcaption></figure>
 
 ##
 
@@ -28,19 +28,17 @@
 所有题目默认开启“此题必答”功能。
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1123).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1392).png" alt=""><figcaption></figcaption></figure>
 
 ### 逻辑设置
 
 文本拖拽到某个选项才显示后置题目
 
-<figure><img src="../.gitbook/assets/image (1126).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1393).png" alt=""><figcaption></figcaption></figure>
 
 ### 选项关联
 
 选项关联即让答题者选中（或未选中）的选项显示在本题选项中，一般用于题目相关性极高的两题中或追问的情况。
-
-<figure><img src="../.gitbook/assets/image (1125).png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md" %}
 [xuan-xiang-guan-lian.md](../cao-zuo-zhi-yin/wen-juan-bian-ji/xuan-xiang-she-zhi/xuan-xiang-guan-lian.md)
@@ -58,3 +56,12 @@
 
 <figure><img src="../.gitbook/assets/image (1124).png" alt=""><figcaption></figcaption></figure>
 
+## **查看统计图表**
+
+在统计分析页中，可查看本题中各子文本占比
+
+<figure><img src="../.gitbook/assets/image (1395).png" alt=""><figcaption></figcaption></figure>
+
+## **查看答题数据**
+
+<figure><img src="../.gitbook/assets/image (1396).png" alt=""><figcaption></figcaption></figure>

@@ -4,23 +4,19 @@
 
 权重分配题要求答题者对各选项按照一定的标准分配权重值，适用于调查答题者对多个选项态度倾向的场景。
 
-
-
-![权重分配题效果](<../.gitbook/assets/image (636).png>)
+<figure><img src="../.gitbook/assets/image (1345).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 新建权重分配题
 
 在问卷编辑页中，选择左侧题型控件中的“权重分配题”或在指定题目点击右侧快捷工具栏中的+按钮选择“权重分配题”即可创建题目。
 
-![通过“题型”控件新建权重分配题](../.gitbook/assets/Snipaste\_2023-10-16\_11-22-19.png)
-
-![在指定题目下方快速创建权重分配题](../.gitbook/assets/Snipaste\_2023-10-16\_11-22-56.png)
+<figure><img src="../.gitbook/assets/image (1344).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】编辑题目、备注内容
 
 题目及备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
-![题目内容编辑](<../.gitbook/assets/image (663).png>)
+<figure><img src="../.gitbook/assets/image (1346).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】题目设置
 
@@ -32,7 +28,7 @@
 所有题目默认开启“此题必答”功能。
 {% endhint %}
 
-![必答设置](../.gitbook/assets/Snipaste\_2023-10-16\_11-23-58.png)
+<figure><img src="../.gitbook/assets/image (1347).png" alt=""><figcaption></figcaption></figure>
 
 ### 选项关联
 
@@ -42,7 +38,7 @@
 仅支持关联单选题、多选题、下拉题的选项
 {% endhint %}
 
-![选项关联](../.gitbook/assets/Snipaste\_2023-10-16\_11-25-39.png)
+<figure><img src="../.gitbook/assets/image (1348).png" alt=""><figcaption></figcaption></figure>
 
 ### 调整权重总和
 
@@ -52,13 +48,13 @@
 在已有回收答题数据的情况下，不可再调整权重总和
 {% endhint %}
 
-![调整权重总和](../.gitbook/assets/Snipaste\_2023-10-16\_11-26-11.png)
+<figure><img src="../.gitbook/assets/image (1349).png" alt=""><figcaption></figcaption></figure>
 
 ### 选项随机
 
 在题目编辑状态下，可设置选项随机，设置成功后，在答题端会根据所选择的随机方式显示选项。随机方式包括：随机排序、随机正逆序、分组显示。
 
-![选项随机的三种方式](../.gitbook/assets/Snipaste\_2023-10-16\_11-26-48.png)
+<figure><img src="../.gitbook/assets/image (1350).png" alt=""><figcaption></figcaption></figure>
 
 #### 选项随机排序
 
@@ -72,20 +68,16 @@
 
 选项分组显示是指把选项自由划分为多个组别，答题时每个分组的选项随机抽出一个或多个显示，支持分组间随机排序显示。
 
-## 答题端显示
 
-编辑完成后，在答题端内可查看当前权重分配题效果。
-
-![答题端显示](<../.gitbook/assets/image (636).png>)
 
 ## 查看答题数据
 
 在统计页的“答题数据”可查看每个答题者对本题选项的打分情况。
 
-![查看答题数据](../.gitbook/assets/Snipaste\_2023-10-16\_11-28-14.png)
+<figure><img src="../.gitbook/assets/image (1353).png" alt=""><figcaption></figcaption></figure>
 
 ## 统计结果展示
 
 在统计分析页中，可查看本题中各选项的分值情况。当设置权重总和为100时，系统将自动均分为5个分段、10个分段，可按需切换查看。
 
-![在线统计](../.gitbook/assets/Snipaste\_2023-10-16\_11-29-24.png)
+<figure><img src="../.gitbook/assets/image (1352).png" alt=""><figcaption></figcaption></figure>

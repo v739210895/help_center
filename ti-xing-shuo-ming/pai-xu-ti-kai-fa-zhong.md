@@ -2,21 +2,21 @@
 
 排序题要求答题者对选项按照一定的标准依次排列，适用于调查答题者对多个选项态度倾向的场景。答题者依次点击选项，即可对选项进行排序，对已排序的选项可通过点击右侧按钮拖拽调整顺序。
 
-![排序题](<../.gitbook/assets/image (173).png>)
+
 
 ## 【STEP 1】 新建排序题
 
 在问卷编辑页中，选择左侧题型控件中的“排序题”或在指定题目点击右侧快捷工具栏中的+按钮选择“排序题”即可创建排序题。
 
-![通过“题型”控件新建排序题](../.gitbook/assets/Snipaste\_2023-10-16\_16-22-03.png)
+![通过“题型”控件新建排序题](../.gitbook/assets/Snipaste_2023-10-16_16-22-03.png)
 
-![在指定题目下方新建排序题](../.gitbook/assets/Snipaste\_2023-10-16\_16-22-30.png)
+![在指定题目下方新建排序题](../.gitbook/assets/Snipaste_2023-10-16_16-22-30.png)
 
 ## 【STEP 2】编辑题目、备注内容
 
 题目及备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
 
-![排序题内容编辑](../.gitbook/assets/Snipaste\_2023-10-16\_16-23-37.png)
+![排序题内容编辑](../.gitbook/assets/Snipaste_2023-10-16_16-23-37.png)
 
 ## 【STEP 3】题目设置
 
@@ -28,71 +28,53 @@
 所有题目默认开启“此题必答”功能。
 {% endhint %}
 
-![必答设置](../.gitbook/assets/Snipaste\_2023-10-16\_16-25-03.png)
-
-### 逻辑设置
-
-排序题中指定选项的顺序可用于控制后序题目的显隐。如：Q1的选项1排序在第1或第2时显示Q2。
-
-![选项的排序控制后序题目显隐](<../.gitbook/assets/image (666).png>)
+<figure><img src="../.gitbook/assets/image (1357).png" alt=""><figcaption></figcaption></figure>
 
 ### 选项关联
 
 选项关联即让答题者选中（或未选中）的选项显示在下一题的可选项中，一般用于题目相关性极高的两题中或追问的情况。
 
+<figure><img src="../.gitbook/assets/image (1358).png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 仅支持关联单选题、多选题、下拉题的选项
 {% endhint %}
-
-![选项关联](../.gitbook/assets/Snipaste\_2023-10-16\_16-29-08.png)
 
 ### 数量限制
 
 排序题可支持限制答题者排序选项的数量，适用于在多个选项中让答题者选出最适合的几个选项的场景。
 
-![限制排序数量](<../.gitbook/assets/image (306).png>)
+<figure><img src="../.gitbook/assets/image (1363).png" alt=""><figcaption></figcaption></figure>
 
 ### 选项随机
 
 在题目编辑状态下，可设置选项随机，设置成功后，在答题端会根据所选择的随机方式显示选项。随机方式包括：随机排序、随机正逆序、分组显示。
 
+<figure><img src="../.gitbook/assets/image (1356).png" alt=""><figcaption></figcaption></figure>
+
 #### 选项随机排序
 
 选项随机排序是指答题时题目中的选项以随机顺序出现。开启“选项随机排序”功能后，题目的选项右侧会出现不随机的勾选框，若希望某个选项固定在当前位置，可在其后勾选“不随机”，则该选项不参与随机排序。
-
-![选项随机排序](../.gitbook/assets/Snipaste\_2023-10-16\_16-30-30.png)
 
 #### 选项随机正逆序
 
 选项随机正逆序是指答题时题目中的选项随机以正序/逆序出现。开启“选项随机正逆序”功能后，“选项随机正逆序”功能下方会出现“固定最后一个选项”功能开关，若希望最后一个选项固定在当前位置，可开启“固定最后一个选项”功能，则在答题端显示时最后一个选项不参与随机正逆序。
 
-![选项随机正逆序](../.gitbook/assets/Snipaste\_2023-10-16\_16-31-04.png)
-
 #### 选项分组显示
 
 选项分组显示是指把选项自由划分为多个组别，答题时每个分组的选项随机抽出一个或多个显示，支持分组间随机排序显示。
-
-![选项分组显示](../.gitbook/assets/Snipaste\_2023-10-16\_16-31-52.png)
-
-## 编辑页及答题端显示
-
-编辑完成后，在编辑页内可查看排序的显示样式。
-
-![编辑页显示](../.gitbook/assets/Snipaste\_2023-10-16\_16-49-21.png)
-
-![答题端显示](<../.gitbook/assets/image (348).png>)
 
 ## 查看答题数据
 
 在统计页的“答题数据”可查看每个答题者对本题选项的排序情况。
 
-![查看答题数据](../.gitbook/assets/Snipaste\_2023-10-16\_17-06-10.png)
+<figure><img src="../.gitbook/assets/image (1355).png" alt=""><figcaption></figcaption></figure>
 
 ## 统计结果展示
 
 在统计分析页中，可查看本题中各选项的排名情况。
 
-![统计结果展示](../.gitbook/assets/Snipaste\_2023-10-16\_17-05-19.png)
+<figure><img src="../.gitbook/assets/image (1354).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 综合排名计算方式

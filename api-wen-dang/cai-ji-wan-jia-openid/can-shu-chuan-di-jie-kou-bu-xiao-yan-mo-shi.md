@@ -37,4 +37,4 @@ _\*以上参数对应的值仅作展示使用_
 
 问卷设置
 
-<figure><img src="../../.gitbook/assets/image (1108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1406).png" alt=""><figcaption></figcaption></figure>

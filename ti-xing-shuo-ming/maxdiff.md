@@ -51,19 +51,19 @@ MaxDiff的核心是 **“强制选择”** 。它不问你“这个有多好”�
 
 进入问卷编辑页面，在题型列表中选择 “MaxDiff”
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1397).png" alt=""><figcaption></figcaption></figure>
 
 #### 第二步：编辑题干、选择两级文案
 
 提供默认提供六种推荐两级文案，并支持自定义
 
-<figure><img src="../.gitbook/assets/image (1138).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1400).png" alt=""><figcaption></figcaption></figure>
 
 #### 第三步：录入全部属性（待评属性）
 
 录入所有需要进行评估的属性，通常建议至少 5 个以上
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1399).png" alt=""><figcaption></figcaption></figure>
 
 #### 第四步：配置任务（设计方案）
 

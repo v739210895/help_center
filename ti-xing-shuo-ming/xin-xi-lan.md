@@ -8,9 +8,7 @@
 
 在问卷编辑页中，选择左侧题型控件中的“信息栏”或在指定题目点击右侧快捷工具栏中的+按钮选择“信息栏”即可新建信息栏。
 
-![通过“题型”控件新建信息栏](../.gitbook/assets/Snipaste_2023-10-16_17-15-30.png)
-
-![在指定题目下方新建信息栏](../.gitbook/assets/Snipaste_2023-10-16_17-15-40.png)
+<figure><img src="../.gitbook/assets/image (1401).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】编辑信息栏内容
 

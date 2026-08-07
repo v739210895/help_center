@@ -44,9 +44,11 @@
 
 <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-### 提示方式
+### 提示语
 
 提示方式即设置量表提示语，左边提示语对应最低分，右边提示语对应最高分；当量表逆序显示时，提示语会相应逆序展示。
+
+切换为每行重复，则每个子问题上方均出现提示语
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 

@@ -66,16 +66,6 @@
 
 <figure><img src="../.gitbook/assets/image (1315).png" alt=""><figcaption></figcaption></figure>
 
-
-
-## 编辑页及答题端显示
-
-编辑完成后，在编辑页内可查看单选题的具体内容及选项的关联、内容引用、填空设置。
-
-![编辑页内的单选题显示](<../.gitbook/assets/image (618).png>)
-
-![答题端的单选题显示](<../.gitbook/assets/image (718).png>)
-
 ## 统计结果展示
 
 在统计分析页中，以小计+条形百分比的形式展示单选题的填答结果
