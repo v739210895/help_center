@@ -1,6 +1,6 @@
 # 🖥️ 系统介绍
 
-iMUR问卷系统提供专业的在线调研及统计工具，服务于国内&海外的调研项目，专注游戏内嵌投放。不仅提供单选、多选、开放题、矩阵题等题型，还提供选项关联（漏斗）、复杂组合逻辑设置、实时统计等功能。
+iMUR问卷系统提供专业的在线调研及统计工具，服务于国内&海外的调研项目，专注游戏内嵌投放。为产品、运营与用研团队提供从问卷创建、逻辑设计、多端投放到数据统计分析的一站式解决方案。无论是标准满意度调研，还是游戏内玩家调研，i-MUR 都能帮助团队高效获取真实、可用的调研数据。
 
 {% hint style="info" %}
 国内版本：[https://surveyimur.woa.com](https://surveyimur.woa.com/)
@@ -9,25 +9,23 @@ iMUR问卷系统提供专业的在线调研及统计工具，服务于国内&海
 {% endhint %}
 
 {% hint style="info" %}
-海外合规说明：[https://docs.qq.com/doc/DS2RYa0lxV0tURkx2](https://docs.qq.com/doc/DS2RYa0lxV0tURkx2)
-
-产品更新日志：[https://iwiki.woa.com/pages/viewpage.action?pageId=4007751213](https://iwiki.woa.com/pages/viewpage.action?pageId=4007751213)
+游戏内嵌接入指引：[https://doc.weixin.qq.com/doc/w3\_ARIArQZoAIUCNqbSet2S3SSaVP33u?scode=AJEAIQdfAAoQ250zjQARIArQZoAIU](https://doc.weixin.qq.com/doc/w3_ARIArQZoAIUCNqbSet2S3SSaVP33u?scode=AJEAIQdfAAoQ250zjQARIArQZoAIU)
 {% endhint %}
 
 {% hint style="info" %}
-吐槽反馈/功能投票：[https://txc.qq.com/products/593117](https://txc.qq.com/products/593117)
+吐槽反馈/功能咨询->企业微信客服：IMUR问卷系统助手
 
-企业微信客服：IMUR问卷系统助手
+海外合规说明：[https://docs.qq.com/doc/DS2RYa0lxV0tURkx2](https://docs.qq.com/doc/DS2RYa0lxV0tURkx2)
 {% endhint %}
 
-![](<.gitbook/assets/image (545).png>)
+<figure><img src=".gitbook/assets/image (1413).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:blue;">主要特色功能</mark>
 
 **问卷编辑/投放**
 
 * **创建：**&#x591A;种问卷创建方式，支持线下文本导入，线上灵活编辑
-* **题型：**&#x63D0;供多种题型选择，适用不同调研背景
+* **题型：**&#x63D0;供多种基础题型与高级题型选择，适用不同调研背景
 * **逻辑：**&#x652F;持复杂的组合逻辑设置，支持漏斗式选项设置
 * **投放：**&#x591A;个投放域名自由选择，提高投放保密性，支持设置渠道号
 
@@ -44,7 +42,7 @@ iMUR问卷系统提供专业的在线调研及统计工具，服务于国内&海
 **海外系统**
 
 * **合规：**&#x63D0;供海外投放答题者信息验证，降低隐私问题风险
-* **语言：**&#x81EA;定义答题提示语言，满足海外投放需求
+* **语言：支持20+**&#x8BED;言问卷，满足海外投放需求
 
 
 
@@ -74,13 +72,11 @@ iMUR问卷系统提供专业的在线调研及统计工具，服务于国内&海
 
 ### 各种终端自动兼容，链接可多渠道投放
 
-![PC答题端](<.gitbook/assets/image (308).png>)
-
-![移动答题端](<.gitbook/assets/image (502).png>)
+<figure><img src=".gitbook/assets/image (1410).png" alt=""><figcaption></figcaption></figure>
 
 
 
-
+<figure><img src=".gitbook/assets/image (1411).png" alt=""><figcaption></figcaption></figure>
 
 
 
