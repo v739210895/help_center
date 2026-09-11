@@ -8,15 +8,11 @@
 
 在问卷编辑页中，选择左侧题型控件中的“排序题”或在指定题目点击右侧快捷工具栏中的+按钮选择“排序题”即可创建排序题。
 
-![通过“题型”控件新建排序题](../.gitbook/assets/Snipaste_2023-10-16_16-22-03.png)
+<figure><img src="../.gitbook/assets/image (1421).png" alt=""><figcaption></figcaption></figure>
 
-![在指定题目下方新建排序题](../.gitbook/assets/Snipaste_2023-10-16_16-22-30.png)
-
-## 【STEP 2】编辑题目、备注内容
+【STEP 2】编辑题目、备注内容
 
 题目及备注均支持富文本编辑，包括：字体样式、[插入超链接](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie.md)、[插入图片](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian.md)、[插入视频](../cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin.md)、[引用选项内容](../cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong.md)。
-
-![排序题内容编辑](../.gitbook/assets/Snipaste_2023-10-16_16-23-37.png)
 
 ## 【STEP 3】题目设置
 
