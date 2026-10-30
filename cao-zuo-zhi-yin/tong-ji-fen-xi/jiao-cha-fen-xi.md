@@ -11,7 +11,7 @@
 
 提供数据筛选功能，开启后可设定指定条件先对当前已回收的答卷数据进行筛选，在筛选结果中生成交叉表。
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 2】设置行、列表头
 

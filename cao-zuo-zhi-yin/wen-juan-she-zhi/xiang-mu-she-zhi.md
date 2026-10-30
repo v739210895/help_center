@@ -6,8 +6,7 @@
 
 {% hint style="info" %}
 1. 问卷首次开始回收/提交审核前，需补充完整所属产品和负责人信息
-2. 负责人请填写项目对接的**用研经理**
-3. 用研经理创建问卷后，默认成为问卷负责人
+2. 创建问卷后，默认成为问卷负责人
 {% endhint %}
 
 ## 设置负责人
@@ -19,24 +18,18 @@
 {% hint style="info" %}
 1.负责人输入框支持模糊搜索。
 
-2\. 仅**用研经理**可被设置为问卷负责人。
+2.每份问卷支持设置多名负责人，至少保留一名负责人。
 
-3.每份问卷支持设置多名负责人，至少保留一名负责人。
-
-4.若多名用户同时编辑/设置同一份问卷，以最后保存的一份问卷内容为准。
+3.若多名用户同时编辑/设置同一份问卷，以最后保存的一份问卷内容为准。
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 设置关注人
 
 关注人即本问卷的普通用户，支持为关注人分配指定权限，且该问卷出现在他的“我的问卷”列表中，从而实现该问卷的协同编辑及管理。
 
 <figure><img src="../../.gitbook/assets/image (1097).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (1099).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (1100).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 1. 仅问卷负责人可添加关注人并为其分配权限
@@ -48,7 +41,7 @@
 
 提示语言指的是，在答题端中显示的提示语语种，默认为中文简体，可根据实际需要设置其他语种。
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -77,10 +70,9 @@
 * 印地语-हिन्दी&#x20;
 * 印尼语-Bahasa Indonesia&#x20;
 * 越南语-Tiếng Việt
+* 乌兹别克语-Oʻzbekcha
+* 缅甸语-မြန်မာဘာသာ
+* 波兰语-Polski
 {% endhint %}
 
-
-
-<figure><img src="../../.gitbook/assets/Snipaste_2023-10-08_11-56-04.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/Snipaste_2023-10-08_11-57-10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

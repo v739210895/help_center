@@ -108,7 +108,7 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 在游戏中投放问卷，答题者提交问卷后，问卷系统会自动触发调用AMS礼包单发奖（奖品名称显示为step1中所配置的礼包组名称）。
 
-<figure><img src="../../.gitbook/assets/Snipaste_2023-12-06_14-12-48.png" alt=""><figcaption><p>游戏内填答后发奖成功提示</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1422).png" alt=""><figcaption></figcaption></figure>
 
 ### 发奖记录查询
 
@@ -116,7 +116,7 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 <figure><img src="../../.gitbook/assets/image (23) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption><p>发奖记录详情</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1423).png" alt=""><figcaption></figcaption></figure>
 
 #### ams响应码说明
 

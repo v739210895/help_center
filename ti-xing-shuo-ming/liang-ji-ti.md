@@ -4,7 +4,7 @@ description: 两级题是一种心理学和调研中常用的题型，通过让�
 
 # 两级题
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 1】 新建两级题 <a href="#step-1-xin-jian-zhu-guan-ti" id="step-1-xin-jian-zhu-guan-ti"></a>
 
@@ -15,7 +15,7 @@ description: 两级题是一种心理学和调研中常用的题型，通过让�
 
 题目及备注均支持富文本编辑，包括：字体样式、[插入超链接](https://imur.gitbook.io/help_center/cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-chao-lian-jie)、[插入图片](https://imur.gitbook.io/help_center/cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-tu-pian)、[插入视频](https://imur.gitbook.io/help_center/cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-shi-pin)、[引用选项内容](https://imur.gitbook.io/help_center/cao-zuo-zhi-yin/wen-juan-bian-ji/nei-rong-yin-yong)。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】题目设置 <a href="#step-3-ti-mu-she-zhi" id="step-3-ti-mu-she-zhi"></a>
 
@@ -29,7 +29,7 @@ description: 两级题是一种心理学和调研中常用的题型，通过让�
 
 可设置选中某个点（分数）显示后置题目
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **分数设置**
 

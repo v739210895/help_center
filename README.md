@@ -9,13 +9,13 @@ iMUR问卷系统提供专业的在线调研及统计工具，服务于国内&海
 {% endhint %}
 
 {% hint style="info" %}
-游戏内嵌接入指引：[https://doc.weixin.qq.com/doc/w3\_ARIArQZoAIUCNqbSet2S3SSaVP33u?scode=AJEAIQdfAAoQ250zjQARIArQZoAIU](https://doc.weixin.qq.com/doc/w3_ARIArQZoAIUCNqbSet2S3SSaVP33u?scode=AJEAIQdfAAoQ250zjQARIArQZoAIU)
+游戏内嵌问卷能力指引：[https://doc.weixin.qq.com/doc/w3\_ARIArQZoAIUCNqbSet2S3SSaVP33u?scode=AJEAIQdfAAoQ250zjQARIArQZoAIU](https://doc.weixin.qq.com/doc/w3_ARIArQZoAIUCNqbSet2S3SSaVP33u?scode=AJEAIQdfAAoQ250zjQARIArQZoAIU)
 {% endhint %}
 
 {% hint style="info" %}
 吐槽反馈/功能咨询->企业微信客服：IMUR问卷系统助手
 
-海外合规说明：[https://docs.qq.com/doc/DS2RYa0lxV0tURkx2](https://docs.qq.com/doc/DS2RYa0lxV0tURkx2)
+海外投放合规说明：[https://docs.qq.com/doc/DS2RYa0lxV0tURkx2](https://docs.qq.com/doc/DS2RYa0lxV0tURkx2)
 {% endhint %}
 
 <figure><img src=".gitbook/assets/image (1413).png" alt=""><figcaption></figcaption></figure>
