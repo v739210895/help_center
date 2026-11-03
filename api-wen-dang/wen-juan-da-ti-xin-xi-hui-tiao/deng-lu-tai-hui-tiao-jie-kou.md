@@ -286,11 +286,15 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 【国内】[https://test.a.imur.tencent.com/static/tools/index.html#/callback](https://test.a.imur.tencent.com/static/tools/index.html#/callback/log)
 
-【海外】[https://test.a.imur.tencent.com/static/tools-out/#/callback](https://test.a.imur.tencent.com/static/tools-out/#/callback/log)
-
 ![回调接口调试工具](<../../.gitbook/assets/image (763).png>)
 
+{% hint style="info" %}
+您也可以通过AI助手协助查询
 
+
+
+<img src="../../.gitbook/assets/image (1426).png" alt="" data-size="original">
+{% endhint %}
 
 ## 4. 回调记录查询
 
@@ -298,9 +302,17 @@ https://in.weisurvey.com/?sid=5f87b81376051f331039dfe5\&openid={openid}**\&callb
 
 【国内】[https://test.a.imur.tencent.com/static/tools/index.html#/callback/log](https://test.a.imur.tencent.com/static/tools/index.html#/callback/log)
 
-【海外】[https://test.a.imur.tencent.com/static/tools-out/#/callback/log](https://test.a.imur.tencent.com/static/tools-out/#/callback/log)
+
 
 <figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+您也可以通过AI助手协助查询
+
+
+
+<img src="../../.gitbook/assets/image (1426).png" alt="" data-size="original">
+{% endhint %}
 
 ## 5. 常见问题
 
