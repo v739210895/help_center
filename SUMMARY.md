@@ -24,7 +24,7 @@
     * [题库](cao-zuo-zhi-yin/wen-juan-bian-ji/ti-ku.md)
     * [回收站](cao-zuo-zhi-yin/wen-juan-bian-ji/hui-shou-zhan.md)
     * [插入分页](cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-fen-ye.md)
-  * [外观设置](cao-zuo-zhi-yin/wai-guan-she-zhi.md)
+  * [皮肤设置](cao-zuo-zhi-yin/wai-guan-she-zhi.md)
   * [逻辑设置](cao-zuo-zhi-yin/luo-ji-she-zhi/README.md)
     * [简单逻辑](cao-zuo-zhi-yin/luo-ji-she-zhi/jian-dan-luo-ji.md)
     * [组合逻辑](cao-zuo-zhi-yin/luo-ji-she-zhi/zu-he-luo-ji.md)

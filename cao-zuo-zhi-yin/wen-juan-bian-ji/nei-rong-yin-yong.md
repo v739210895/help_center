@@ -48,9 +48,7 @@
 
 已插入引用内容的题目、备注或选项，在答题端中会根据所引用的前序题目选项/填空内变化自动同步文本，多项时会自动用逗号，隔开。
 
-<figure><img src="../../.gitbook/assets/Snipaste_2023-10-08_11-21-49.png" alt=""><figcaption></figcaption></figure>
-
-![答题端动态同步引用内容](../../.gitbook/assets/Snipaste_2023-10-08_11-20-58.png)
+<figure><img src="../../.gitbook/assets/image (1434).png" alt=""><figcaption></figcaption></figure>
 
 
 

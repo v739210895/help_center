@@ -26,9 +26,7 @@
 
 <figure><img src="../../.gitbook/assets/image (1244).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-## 结束语编辑
+结束语编辑
 
 打开或新建一份问卷，在问卷编辑界面的结束页，可自行修改系统提供的结束语，选定文本后，点击富文本工具栏中的字体样式即把选中的文本改成对应的字体样式。
 

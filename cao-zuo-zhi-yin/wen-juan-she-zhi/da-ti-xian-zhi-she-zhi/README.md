@@ -28,7 +28,7 @@
 
 功能启用后，打开问卷时会先校验当前答题者是否白名单用户，白名单用户才能访问问卷。
 
-![白名单身份验证](<../../../.gitbook/assets/image (372).png>)
+<figure><img src="../../../.gitbook/assets/image (1436).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 白名单文件大小限制**10MB**；白名单用户数量不限，可参考：

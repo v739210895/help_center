@@ -34,6 +34,4 @@
 
 ### 答题端显示
 
-![答题端显示必填填空项](../../.gitbook/assets/Snipaste_2023-10-17_11-54-32.png)
-
-![答题端显示非必填填空项](../../.gitbook/assets/Snipaste_2023-10-17_11-54-39.png)
+<figure><img src="../../.gitbook/assets/image (1433).png" alt=""><figcaption></figcaption></figure>

@@ -8,7 +8,7 @@
 
 两种终端预览效果“手机预览”和“电脑预览”，支持扫描预览二维码在手机中预览问卷。
 
-<figure><img src="../.gitbook/assets/image (1289).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1437).png" alt=""><figcaption></figcaption></figure>
 
 ## 题号设置选择
 
@@ -26,7 +26,7 @@
 
 系统提供外网可查看的预览链接，在预览页右上角点击“复制预览链接”按钮即可生成。
 
-<figure><img src="../.gitbook/assets/image (1291).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1438).png" alt=""><figcaption></figcaption></figure>
 
 ## 常见问题
 

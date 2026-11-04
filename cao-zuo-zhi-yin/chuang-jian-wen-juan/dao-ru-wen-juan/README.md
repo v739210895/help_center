@@ -94,9 +94,9 @@ D列：题干、备注、选项内容；备注在题干的下一行，以“**�
 
 在问卷创建页中，点击“excel导入”按钮后进入导入页面，上传已编辑好的EXCEL文件。
 
-![导入问卷](../../../.gitbook/assets/Snipaste_2024-12-02_16-08-15.png)
+<figure><img src="../../../.gitbook/assets/image (1428).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1241).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1429).png" alt=""><figcaption></figcaption></figure>
 
 ## 【STEP 3】确认基本信息
 

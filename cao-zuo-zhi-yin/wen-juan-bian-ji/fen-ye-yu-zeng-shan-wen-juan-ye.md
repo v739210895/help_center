@@ -10,7 +10,7 @@
 
 点击页面标签栏中指定页面的“x”删除按钮即可删除指定问卷页，该页中的所有题目及关联、逻辑、引用等设置将同步删除。
 
-<figure><img src="../../.gitbook/assets/image (1212).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1431).png" alt=""><figcaption></figcaption></figure>
 
 ## 调整问卷页顺序
 
@@ -22,3 +22,8 @@
 
 <figure><img src="../../.gitbook/assets/image (1214).png" alt=""><figcaption></figcaption></figure>
 
+## 复制一整页
+
+鼠标移入到分页栏，点击复制icon，即可将本页所有题目复制为新页，插入到本页后方（不含逻辑）
+
+<figure><img src="../../.gitbook/assets/image (1430).png" alt=""><figcaption></figcaption></figure>

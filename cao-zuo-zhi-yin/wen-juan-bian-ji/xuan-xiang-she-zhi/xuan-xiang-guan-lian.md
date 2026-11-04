@@ -30,4 +30,4 @@
 
 设置选项关联后，答题时题目的选项会根据已设置所关联题目的选项情况改变。
 
-![答题端显示选项关联](<../../../.gitbook/assets/image (242).png>)
+<figure><img src="../../../.gitbook/assets/image (1432).png" alt=""><figcaption></figcaption></figure>
