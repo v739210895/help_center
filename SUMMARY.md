@@ -23,6 +23,7 @@
     * [覆盖导入](cao-zuo-zhi-yin/wen-juan-bian-ji/fu-gai-dao-ru.md)
     * [题库](cao-zuo-zhi-yin/wen-juan-bian-ji/ti-ku.md)
     * [回收站](cao-zuo-zhi-yin/wen-juan-bian-ji/hui-shou-zhan.md)
+    * [复制分页](cao-zuo-zhi-yin/wen-juan-bian-ji/fu-zhi-fen-ye.md)
     * [插入分页](cao-zuo-zhi-yin/wen-juan-bian-ji/cha-ru-fen-ye.md)
   * [皮肤设置](cao-zuo-zhi-yin/wai-guan-she-zhi.md)
   * [逻辑设置](cao-zuo-zhi-yin/luo-ji-she-zhi/README.md)
