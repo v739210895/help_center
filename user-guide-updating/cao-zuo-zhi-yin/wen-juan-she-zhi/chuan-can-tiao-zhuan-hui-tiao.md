@@ -58,7 +58,7 @@ The system supports awarding AMS gift packages, which can be achieved through th
 
 {% hint style="info" %}
 1. Only supports games with integrated email delivery functionality
-2. The survey must be opened[MSDK登录验证](../../../cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi/#msdk-deng-lu-yan-zheng)/[参数传递（严格校验模式）](../../../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-yan-ge-xiao-yan-mo-shi)/[参数传递（不校验模式）](../../../cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md#can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)Any of the above functions
+2. The survey must be opened[MSDK登录验证](../../../cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi/#msdk-deng-lu-yan-zheng)/[参数传递（严格校验模式）](/broken/pages/-LnuRAuDM9O7nEqt0-of#can-shu-chuan-di-jie-kou-yan-ge-xiao-yan-mo-shi)/[参数传递（不校验模式）](/broken/pages/-LnuRAuDM9O7nEqt0-of#can-shu-chuan-di-jie-kou-bu-xiao-yan-mo-shi)Any of the above functions
 3. Each respondent can only be awarded once; respondents who have already successfully received an award will not trigger the award again after completing the survey again.
 {% endhint %}
 

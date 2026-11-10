@@ -36,7 +36,6 @@
       * [答卷甄别](cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi/da-juan-zhen-bie.md)
       * [海外投放验证流程](cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-xian-zhi-she-zhi/hai-wai-tou-fang-liu-cheng.md)
     * [答题登录验证](cao-zuo-zhi-yin/wen-juan-she-zhi/da-ti-deng-lu-yan-zheng.md)
-    * [API(跳转/回调/发奖）](cao-zuo-zhi-yin/wen-juan-she-zhi/chuan-can-tiao-zhuan-hui-tiao.md)
     * [配额设置](cao-zuo-zhi-yin/wen-juan-she-zhi/peieshe-zhi.md)
     * [多语言设置](cao-zuo-zhi-yin/wen-juan-she-zhi/duo-yu-yan-she-zhi.md)
   * [检查问卷](cao-zuo-zhi-yin/jian-cha-wen-juan.md)
