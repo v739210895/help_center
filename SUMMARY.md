@@ -71,6 +71,7 @@
   * [单选题](ti-xing-shuo-ming/dan-xuan-ti.md)
   * [下拉题](ti-xing-shuo-ming/xia-la-ti.md)
   * [多选题](ti-xing-shuo-ming/duo-xuan-ti.md)
+  * [图片选择题](ti-xing-shuo-ming/tu-pian-xuan-ze-ti.md)
   * [量表题](ti-xing-shuo-ming/liang-biao-ti.md)
   * [主观题](ti-xing-shuo-ming/zhu-guan-ti.md)
   * [矩阵单选题](ti-xing-shuo-ming/ju-zhen-dan-xuan-ti.md)

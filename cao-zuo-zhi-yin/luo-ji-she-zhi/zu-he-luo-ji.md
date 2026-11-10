@@ -26,7 +26,7 @@
 2、结束页（非正常结束，不回收数据）指符合指定条件时，答题者点击该页的下一页按钮时跳到结束页，该份答题数据不回收。
 {% endhint %}
 
-![](<../../.gitbook/assets/image (87).png>)
+<figure><img src="../../.gitbook/assets/image (1439).png" alt=""><figcaption></figcaption></figure>
 
 ### （2）设置题目为显示结果
 
@@ -36,15 +36,15 @@
 每个题目仅允许被设置为显示结果一次，即规则1设置Q2作为显示结果后，规则2不可再设置Q2作为显示结果。
 {% endhint %}
 
-![](<../../.gitbook/assets/image (518).png>)
+<figure><img src="../../.gitbook/assets/image (1441).png" alt=""><figcaption></figcaption></figure>
 
 ### 设置结果后显示在页面
 
 在设置显示结果弹窗中点击确定，显示到逻辑设置中。
 
-![](<../../.gitbook/assets/image (89).png>)
+<figure><img src="../../.gitbook/assets/image (1443).png" alt=""><figcaption></figcaption></figure>
 
-再次点击该规则中的“设置显示结果”按钮即可修改已设置的显示结果。
+点击该规则中的“设置显示结果”按钮即可修改已设置的显示结果。
 
 ## 【STEP 3】设置显示条件
 
